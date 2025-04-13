@@ -155,6 +155,35 @@ Sánchez Ponce, Alex Humberto
 
 ## **2.2. Entrevistas**
 ### **2.2.1. Diseño de entrevistas**
+
+#### Entrevista General
+
+  1. ¿Cuál es tu nombre, edad y ocupación actual?
+  2. ¿Qué dispositivos usas más para trabajar o buscar empleo?
+  3. ¿Qué redes sociales o plataformas usas con frecuencia para temas laborales?
+
+#### Segmento 1: Empresas
+
+  1. ¿Con qué frecuencia publican vacantes y qué pasos siguen para hacerlo?
+  2. ¿Qué tan útil sería para ti una herramienta que permita publicar automáticamente en varias plataformas?
+  3. ¿Cómo gestionan actualmente la recepción y filtrado de CVs, y qué tan efectivo consideras ese proceso?
+  4. ¿Han evaluado el uso de inteligencia artificial para mejorar ese filtrado?
+  5. ¿Qué criterios específicos te gustaría poder configurar en un sistema para automatizar la selección inicial de candidatos?
+  6. ¿Cómo organizan actualmente entrevistas y evaluaciones técnicas o psicométricas?
+  7. ¿Usan herramientas digitales para ese proceso o todo se maneja manualmente?
+  8. ¿Qué tan importante te parece contar con una plataforma que centralice todo el proceso de contratación?
+
+#### Segmento 2: Postulantes
+
+  1. ¿Qué tipo de empleo estás buscando actualmente y en qué sector?
+  2. ¿Qué plataformas o medios digitales utilizas con más frecuencia para encontrar oportunidades laborales?
+  3. ¿Has usado alguna vez sistemas que te recomienden trabajos basándose en tu CV? ¿Te resultaron útiles?
+  4. ¿Qué parte del proceso de postulación te parece más complicada o frustrante?
+  5. ¿Qué tan útil sería para ti recibir sugerencias para mejorar tu CV directamente desde la plataforma?
+  6. ¿Qué tan cómodo te sientes realizando entrevistas o evaluaciones técnicas de manera online?
+  7. ¿Por qué medio prefieres que te contacten después de postular (correo electrónico, WhatsApp, llamada)?
+  8. ¿Te gustaría tener una sección de seguimiento para ver el estado de tus postulaciones dentro de la misma plataforma?
+
 ### **2.2.2. Registro de entrevistas**
 ### **2.2.3. Análisis de entrevistas**
 
