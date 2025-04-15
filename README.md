@@ -273,6 +273,85 @@ A continuación presentamos a nuestros tres principales competidores indirectos:
 
 ### **2.1.2. Estrategias y tácticas frente a competidores**
 
+En base al análisis competitivo realizado previamente sobre las plataformas de búsqueda de empleo y conexión laboral, identificamos las principales **fortalezas, debilidades, oportunidades y amenazas** de nuestros competidores. A partir de ello, Jobsy plantea estrategias claras y tácticas aplicables para diferenciarse y destacar en el mercado.
+
+---
+
+* **Afrontando las Fortalezas de los Competidores**
+
+**Fortalezas de la competencia:**
+- Amplia base de usuarios y empresas registradas.
+- Integración con redes profesionales (como LinkedIn).
+- Algoritmos avanzados para recomendación de empleos.
+
+**Fortalezas de Jobsy:**
+- Sistema de compatibilidad inteligente entre candidatos y empresas, enfocado en valores y cultura laboral.
+- Procesos de aplicación más rápidos y simplificados.
+- Comunicación directa entre candidato y reclutador mediante la plataforma.
+
+**Estrategia:**
+Ofrecer una experiencia de búsqueda laboral centrada en la compatibilidad cultural y profesional entre usuario y empresa, con procesos ágiles y acompañamiento personalizado.
+
+**Tácticas:**
+- Implementar una herramienta de "match cultural" entre empresas y postulantes.
+- Permitir feedback directo post-entrevista para mejorar procesos.
+- Promover perfiles de empresas con enfoque humano y responsable.
+
+---
+
+* **Aprovechando las Debilidades de los Competidores**
+
+**Debilidades de la competencia:**
+- Procesos de aplicación extensos y poco amigables.
+- Falta de personalización en las recomendaciones de empleo.
+- Escasa retroalimentación a los postulantes.
+
+**Estrategia:**
+Optimizar el proceso de búsqueda y postulación con herramientas intuitivas, automatizadas y enfocadas en el usuario.
+
+**Tácticas:**
+- Currículum inteligente que se adapta a cada postulación.
+- Recomendaciones personalizadas de empleo según habilidades blandas y técnicas.
+- Seguimiento automático del estado de postulación.
+
+---
+
+* **Aprovechando las Oportunidades del Mercado**
+
+**Oportunidades actuales:**
+- Crecimiento del empleo remoto e híbrido.
+- Aumento de personas en búsqueda de su primer empleo o de un cambio laboral con propósito.
+- Demanda de plataformas más humanas y transparentes.
+
+**Oportunidades de Jobsy:**
+- Posicionar a Jobsy como un puente entre empresas con valores y talentos que buscan propósito.
+- Ampliar la oferta de empleos remotos e internacionales.
+
+**Estrategia:**
+Convertirse en la plataforma de referencia para empleos que se alineen con valores personales y bienestar laboral.
+
+**Tácticas:**
+- Categorías destacadas: empleo remoto, primer empleo, reconversión laboral.
+- Test vocacional y de valores para mejorar la recomendación de vacantes.
+- Publicidad en redes sociales destacando testimonios reales de éxito.
+
+---
+
+* **Enfrentando las Amenazas del Mercado**
+
+**Amenazas actuales:**
+- Plataformas establecidas con fuerte presencia (como Indeed, Computrabajo).
+- Aplicaciones móviles muy posicionadas y con alta inversión en publicidad.
+- Integraciones con inteligencia artificial generativa en procesos de selección.
+
+**Estrategia:**
+Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamente, enfocándose en nichos específicos y experiencias diferenciadas.
+
+**Tácticas:**
+- Actualizaciones constantes basadas en feedback del usuario.
+- Ofrecer herramientas simples y efectivas para empresas en crecimiento o startups.
+- Integración con IA para mejorar el perfilamiento de candidatos y análisis de vacantes.
+
 ## **2.2. Entrevistas**
 ### **2.2.1. Diseño de entrevistas**
 
