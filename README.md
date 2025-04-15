@@ -150,7 +150,17 @@ Sánchez Ponce, Alex Humberto
 # <font color="red"> **Capítulo II: Requirements Elicitation & Analysis**</font>
 
 ## **2.1. Competidores**
+
+A continuación presentamos a nuestros tres principales competidores indirectos:
+
+- **LinkedIn:** es una red social profesional global que combina oportunidades de empleo con funciones de networking, publicaciones y aprendizaje en línea. Si bien permite aplicar a empleos y conectar con reclutadores, su enfoque está más centrado en la visibilidad profesional y no en procesos de selección personalizados o automatizados.
+
+- **Computrabajo:** es una plataforma de búsqueda de empleo muy popular en países de habla hispana. Ofrece publicación de vacantes y filtros por criterios básicos, pero su sistema está enfocado en la gestión tradicional de CVs, sin incluir herramientas modernas como análisis predictivos o evaluaciones interactivas.
+
+- **HireVue:** es una solución empresarial que utiliza inteligencia artificial para realizar entrevistas por video y evaluaciones automatizadas. Su tecnología está orientada a grandes organizaciones y procesos estructurados, pero con una curva de uso más compleja para medianas empresas o postulantes menos familiarizados con herramientas digitales avanzadas.
+
 ### **2.1.1. Análisis competitivo**
+
 ### **2.1.2. Estrategias y tácticas frente a competidores**
 
 ## **2.2. Entrevistas**
