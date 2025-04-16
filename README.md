@@ -151,13 +151,13 @@ Sánchez Ponce, Alex Humberto
 
 ## **2.1. Competidores**
 
-A continuación, presentamos a tres de nuestros principales competidores indirectos. Aunque ofrecen soluciones relacionadas con el ámbito del reclutamiento, no abordan de forma integral y automatizada todo el proceso de selección como lo hace SmartHire:
+A continuación presentamos a nuestros tres principales competidores indirectos:
 
-- **LinkedIn:** es una red social profesional líder a nivel global que conecta a profesionales con oportunidades laborales. Su fortaleza radica en el networking y en la visibilidad del talento, pero su plataforma carece de herramientas específicas para automatizar y personalizar procesos de selección de extremo a extremo. No ofrece un enfoque centrado en la gestión operativa del reclutamiento, como filtros inteligentes o programación automatizada de entrevistas.
+- **LinkedIn:** es una red social profesional global que combina oportunidades de empleo con funciones de networking, publicaciones y aprendizaje en línea. Si bien permite aplicar a empleos y conectar con reclutadores, su enfoque está más centrado en la visibilidad profesional y no en procesos de selección personalizados o automatizados.
 
-- **Indeed:** es uno de los portales de empleo más utilizados a nivel mundial, permitiendo a empresas publicar ofertas y recibir candidaturas. Sin embargo, su sistema se basa en la cantidad de postulaciones más que en la calidad o pertinencia, y no incluye funcionalidades avanzadas como evaluaciones automatizadas o integración directa con herramientas de entrevistas.
+- **Computrabajo:** es una plataforma de búsqueda de empleo muy popular en países de habla hispana. Ofrece publicación de vacantes y filtros por criterios básicos, pero su sistema está enfocado en la gestión tradicional de CVs, sin incluir herramientas modernas como análisis predictivos o evaluaciones interactivas.
 
-- **HireVue:** es una solución especializada en entrevistas por video y evaluaciones automatizadas utilizando inteligencia artificial. Aunque ofrece funciones potentes, está principalmente diseñada para grandes corporaciones y procesos de selección altamente estructurados. Su implementación puede resultar compleja o costosa para medianas y pequeñas empresas que necesitan rapidez y flexibilidad.
+- **HireVue:** es una solución empresarial que utiliza inteligencia artificial para realizar entrevistas por video y evaluaciones automatizadas. Su tecnología está orientada a grandes organizaciones y procesos estructurados, pero con una curva de uso más compleja para medianas empresas o postulantes menos familiarizados con herramientas digitales avanzadas.
 
 ### **2.1.1. Análisis competitivo**
 
@@ -180,62 +180,62 @@ A continuación, presentamos a tres de nuestros principales competidores indirec
         <td colspan="2">
             (En la cabecera colocar por cada competidor nombre y logo)
         </td>
-        <td>SmartHire</td>
+        <td>Jobsy</td>
         <td>LinkedIn</td>
-        <td>Indeed</td>
+        <td>Computrabajo</td>
         <td>HireVue</td>
     </tr>
     <tr>
         <th rowspan="2">Perfil</th>
         <td>Overview</td>
-        <td>Plataforma de contratación inteligente que automatiza publicaciones, filtra CVs con IA, y gestiona entrevistas y evaluaciones.</td>
-        <td>Red social profesional global para hacer networking y encontrar empleos.</td>
-        <td>Portal de empleo enfocado en publicación masiva y recepción de postulaciones.</td>
-        <td>Plataforma avanzada de entrevistas por video y análisis con IA.</td>
+        <td>Plataforma de contratación inteligente que automatiza publicaciones, filtra CVs con IA, y gestiona entrevistas y evaluaciones técnicas.</td>
+        <td>Red social profesional que permite publicar empleos, hacer networking y contactar talentos mediante su plataforma.</td>
+        <td>Portal web de empleos popular en Latinoamérica, enfocado en la publicación de vacantes y la gestión de postulaciones.</td>
+        <td>Plataforma especializada en entrevistas por video y evaluaciones con IA para el reclutamiento empresarial.</td>
     </tr>
     <tr>
         <td>Ventaja competitiva</td>
-        <td>Automatización total, IA para filtrado, gamificación de habilidades blandas, sistema de referidos e integración con portales.</td>
-        <td>Gran red profesional, sistema de recomendaciones y validación social.</td>
-        <td>Alto volumen de tráfico, especialmente útil para posiciones operativas y administrativas.</td>
-        <td>Evaluación precisa mediante IA, entrevistas estructuradas, análisis de lenguaje y emociones.</td>
+        <td>Automatización completa, IA para filtrado de CVs, gamificación de habilidades blandas y sistema de referidos.</td>
+        <td>Gran red de profesionales, sistema de recomendaciones y validación social de perfiles.</td>
+        <td>Alto tráfico en LATAM, facilidad de uso para empresas pequeñas y medianas.</td>
+        <td>Evaluación profunda a través de entrevistas estructuradas y algoritmos de IA.</td>
     </tr>
     <tr>
         <th rowspan="2">Perfil de Marketing</th>
         <td>Mercado objetivo</td>
-        <td>Empresas medianas y grandes que buscan eficiencia y automatización en sus procesos de selección.</td>
-        <td>Profesionales de todos los sectores y empresas con enfoque en visibilidad de marca empleadora.</td>
-        <td>Empresas de todos los tamaños, especialmente pymes en LATAM.</td>
-        <td>Grandes corporaciones que priorizan procesos estructurados y evaluación técnica.</td>
+        <td>Empresas medianas y grandes que buscan optimizar procesos de selección. Postulantes que buscan sugerencias inteligentes.</td>
+        <td>Profesionales de todas las industrias. Empresas que quieren visibilidad en una red global.</td>
+        <td>Empresas en LATAM, especialmente en sectores administrativos, operativos y comerciales.</td>
+        <td>Corporaciones que buscan evaluar de forma precisa y digital las habilidades de sus candidatos.</td>
     </tr>
     <tr>
         <td>Estrategias de marketing</td>
-        <td>Campañas en LinkedIn y Google Ads, webinars para RRHH, casos de éxito en redes, SEO enfocado.</td>
-        <td>Contenido profesional, publicidad in-platform, estrategias de employer branding.</td>
-        <td>Email marketing, posicionamiento por categorías de empleo, redes sociales.</td>
-        <td>B2B marketing, ferias tecnológicas, contenido técnico especializado.</td>
+        <td>Campañas en LinkedIn y Google Ads, webinars de RRHH, casos de éxito en redes y SEO enfocado en empresas.</td>
+        <td>Publicidad integrada en la red, recomendaciones automatizadas y contenido profesional en blog y newsletter.</td>
+        <td>Email marketing, presencia en redes sociales y posicionamiento SEO por sectores laborales.</td>
+        <td>Marketing B2B en ferias tecnológicas, campañas institucionales y whitepapers.</td>
     </tr>
     <tr>
         <th rowspan="3">Perfil de Producto</th>
         <td>Productos & Servicios</td>
-        <td>Publicación automatizada, IA para CVs, entrevistas integradas, gamificación, referidos, y seguimiento.</td>
-        <td>Publicación de empleos, red de contactos, mensajes y validación profesional.</td>
-        <td>Publicación masiva, filtros por categorías, acceso a base de datos de postulantes.</td>
-        <td>Entrevistas por video, pruebas técnicas, dashboards, análisis emocional.</td>
+        <td>Publicación automatizada, IA para CVs, entrevistas integradas, gamificación, referidos, y sistema de seguimiento.</td>
+        <td>Publicación de empleos, red de contactos, mensajes directos, y validación de experiencia.</td>
+        <td>Publicación de empleos, base de datos de candidatos, alertas y filtros de búsqueda.</td>
+        <td>Entrevistas por video, análisis emocional, pruebas técnicas, dashboards para RRHH.</td>
     </tr>
     <tr>
         <td>Precios & Costos</td>
-        <td>Planes mensuales o anuales adaptables según volumen de vacantes y funcionalidades.</td>
-        <td>Freemium con opciones de pago por visibilidad o publicaciones destacadas.</td>
-        <td>Modelos gratuitos con opción a paquetes premium por volumen o duración.</td>
-        <td>Suscripción anual tipo SaaS, precios personalizados para grandes empresas.</td>
+        <td>Para usar el servicio, la empresa compra un plan que puede ser mensual o anual.</td>
+        <td>Publicación gratuita limitada, opciones de pago según alcance y número de vacantes.</td>
+        <td>Planes desde gratuitos hasta paquetes premium por número de vacantes o visibilidad.</td>
+        <td>Modelo SaaS por suscripción anual. Planes personalizados para empresas.</td>
     </tr>
     <tr>
         <td>Canales de distribución</td>
-        <td>Plataforma web y app móvil (iOS y Android).</td>
-        <td>Web, app móvil y extensiones para navegador.</td>
-        <td>Principalmente web, interfaz responsive para móviles.</td>
-        <td>Web corporativa y dashboards exclusivos para empresas.</td>
+        <td>Web y app móvil (iOS y Android).</td>
+        <td>Web, app móvil y navegador de escritorio.</td>
+        <td>Principalmente web. Tiene versión responsive para móviles.</td>
+        <td>Web corporativa y dashboards para empresas.</td>
     </tr>
     <tr>
         <th rowspan="5">Análisis SWOT</th>
@@ -243,115 +243,114 @@ A continuación, presentamos a tres de nuestros principales competidores indirec
     </tr>
     <tr>
         <td>Fortalezas</td>
-        <td>Automatización integral, experiencia centrada en el usuario, IA en filtrado, integración con portales y herramientas.</td>
-        <td>Gran comunidad profesional, validación social, posicionamiento global.</td>
-        <td>Alta visibilidad en LATAM, facilidad de uso y publicación rápida.</td>
-        <td>Evaluación técnica profunda, uso avanzado de IA, métricas detalladas.</td>
+        <td>Automatización total, análisis con IA, experiencia gamificada para postulantes, integración multiplataforma.</td>
+        <td>Gran base de usuarios activos, reputación internacional, funcionalidades sociales profesionales.</td>
+        <td>Reconocimiento en LATAM, interfaz sencilla y bajo costo.</td>
+        <td>Análisis avanzado, entrevistas estructuradas y uso efectivo de IA.</td>
     </tr>
     <tr>
         <td>Debilidades</td>
-        <td>Plataforma emergente, en proceso de consolidación y adopción.</td>
-        <td>Saturación de contenido, poca personalización en procesos internos.</td>
-        <td>Poca innovación en automatización o seguimiento inteligente.</td>
-        <td>Curva de aprendizaje alta, no apto para empresas pequeñas o sin recursos técnicos.</td>
+        <td>Plataforma nueva en validación de mercado, aún sin posicionamiento fuerte.</td>
+        <td>Poca personalización en procesos de selección internos, saturación de contenido.</td>
+        <td>Falta de innovación en IA o seguimiento de procesos.</td>
+        <td>No incluye publicación de ofertas ni red social, solo entrevistas.</td>
     </tr>
     <tr>
         <td>Oportunidades</td>
-        <td>Alianzas con instituciones educativas, expansión hacia pymes tecnológicas y sectores nicho.</td>
+        <td>Aliarse con universidades y atraer empresas tecnológicas en crecimiento.</td>
         <td>Monetización de nuevas herramientas premium para empresas.</td>
-        <td>Expansión en mercados de habla portuguesa, incorporación de IA.</td>
-        <td>Ampliar cobertura idiomática, mejorar experiencia de usuario en plataformas emergentes.</td>
+        <td>Expansión a mercados de habla portuguesa, mejoras con IA.</td>
+        <td>Incorporar más idiomas, ampliar herramientas de evaluación gamificada.</td>
     </tr>
     <tr>
         <td>Amenazas</td>
-        <td>Competidores consolidados, cambios en políticas laborales o de privacidad.</td>
-        <td>Apps emergentes con mayor agilidad o propuestas disruptivas.</td>
-        <td>Desplazamiento por plataformas más tecnológicas o con mayor inversión.</td>
-        <td>Perder ventaja competitiva frente a soluciones IA más avanzadas.</td>
+        <td>Competidores consolidados, cambios en políticas de privacidad o laborales.</td>
+        <td>Apps más ágiles o disruptivas en el sector laboral.</td>
+        <td>Desplazamiento por plataformas más tecnológicas o globales.</td>
+        <td>Falta de diferenciación en IA frente a nuevos competidores.</td>
     </tr>
 </TABLE>
 
 ### **2.1.2. Estrategias y tácticas frente a competidores**
 
-A partir del análisis detallado de las principales plataformas de reclutamiento, evaluamos fortalezas, debilidades, oportunidades y amenazas del entorno competitivo. **SmartHire** propone estrategias diferenciadoras que capitalicen sus ventajas tecnológicas y su enfoque en eficiencia, automatización y experiencia del usuario.
+En base al análisis competitivo realizado previamente sobre las plataformas de búsqueda de empleo y conexión laboral, identificamos las principales **fortalezas, debilidades, oportunidades y amenazas** de nuestros competidores. A partir de ello, Jobsy plantea estrategias claras y tácticas aplicables para diferenciarse y destacar en el mercado.
 
 ---
 
-#### 🔹 Afrontando las Fortalezas de los Competidores
+* **Afrontando las Fortalezas de los Competidores**
 
 **Fortalezas de la competencia:**
-- Gran volumen de usuarios y visibilidad internacional (LinkedIn, Indeed).
-- Evaluaciones técnicas avanzadas con IA (HireVue).
-- Posicionamiento consolidado y reconocimiento de marca.
+- Amplia base de usuarios y empresas registradas.
+- Integración con redes profesionales (como LinkedIn).
+- Algoritmos avanzados para recomendación de empleos.
 
-**Fortalezas de SmartHire:**
-- Automatización completa del proceso de selección.
-- Filtros y análisis con inteligencia artificial.
-- Gamificación para evaluar habilidades blandas.
-- Sistema de referidos y publicación multiplataforma.
+**Fortalezas de Jobsy:**
+- Sistema de compatibilidad inteligente entre candidatos y empresas, enfocado en valores y cultura laboral.
+- Procesos de aplicación más rápidos y simplificados.
+- Comunicación directa entre candidato y reclutador mediante la plataforma.
 
 **Estrategia:**
-Competir con soluciones robustas a través de una plataforma ágil, integral y especializada, que optimiza tiempos y eleva la experiencia del usuario.
+Ofrecer una experiencia de búsqueda laboral centrada en la compatibilidad cultural y profesional entre usuario y empresa, con procesos ágiles y acompañamiento personalizado.
 
 **Tácticas:**
-- Promover herramientas de IA para prefiltrado y análisis de compatibilidad.
-- Impulsar la gamificación como valor diferencial para evaluar habilidades blandas.
-- Publicación simultánea de vacantes en múltiples portales desde un solo lugar.
+- Implementar una herramienta de "match cultural" entre empresas y postulantes.
+- Permitir feedback directo post-entrevista para mejorar procesos.
+- Promover perfiles de empresas con enfoque humano y responsable.
 
 ---
 
-#### 🔹 Aprovechando las Debilidades de los Competidores
+* **Aprovechando las Debilidades de los Competidores**
 
 **Debilidades de la competencia:**
-- Procesos extensos o poco amigables (Indeed).
-- Falta de personalización en recomendaciones (LinkedIn).
-- Curva de aprendizaje alta (HireVue).
+- Procesos de aplicación extensos y poco amigables.
+- Falta de personalización en las recomendaciones de empleo.
+- Escasa retroalimentación a los postulantes.
 
 **Estrategia:**
-Simplificar los procesos de reclutamiento con flujos intuitivos, personalización automática y una experiencia amigable para reclutadores y candidatos.
+Optimizar el proceso de búsqueda y postulación con herramientas intuitivas, automatizadas y enfocadas en el usuario.
 
 **Tácticas:**
-- Implementar interfaz intuitiva de “one-click apply”.
-- Recomendaciones personalizadas con base en IA y aprendizaje automático.
-- Capacitación guiada en la plataforma para nuevos usuarios.
+- Currículum inteligente que se adapta a cada postulación.
+- Recomendaciones personalizadas de empleo según habilidades blandas y técnicas.
+- Seguimiento automático del estado de postulación.
 
 ---
 
-#### 🔹 Aprovechando las Oportunidades del Mercado
+* **Aprovechando las Oportunidades del Mercado**
 
 **Oportunidades actuales:**
-- Creciente adopción de IA y automatización en RRHH.
-- Interés en procesos de selección más rápidos y humanos.
-- Necesidad de herramientas accesibles para empresas medianas y pequeñas.
+- Crecimiento del empleo remoto e híbrido.
+- Aumento de personas en búsqueda de su primer empleo o de un cambio laboral con propósito.
+- Demanda de plataformas más humanas y transparentes.
 
-**Oportunidades para SmartHire:**
-- Ser referente en automatización con enfoque humano.
-- Posicionarse como opción accesible e inteligente para empresas tecnológicas en crecimiento.
+**Oportunidades de Jobsy:**
+- Posicionar a Jobsy como un puente entre empresas con valores y talentos que buscan propósito.
+- Ampliar la oferta de empleos remotos e internacionales.
 
 **Estrategia:**
-Convertirse en la plataforma preferida por su balance entre tecnología avanzada y usabilidad amigable.
+Convertirse en la plataforma de referencia para empleos que se alineen con valores personales y bienestar laboral.
 
 **Tácticas:**
-- Generar alianzas con universidades y hubs de talento.
-- Ofrecer planes flexibles para pymes y startups.
-- Promocionar casos de éxito y testimonios en redes sociales y eventos de RRHH.
+- Categorías destacadas: empleo remoto, primer empleo, reconversión laboral.
+- Test vocacional y de valores para mejorar la recomendación de vacantes.
+- Publicidad en redes sociales destacando testimonios reales de éxito.
 
 ---
 
-#### 🔹 Enfrentando las Amenazas del Mercado
+* **Enfrentando las Amenazas del Mercado**
 
 **Amenazas actuales:**
-- Plataformas consolidadas con fuerte presencia e inversión.
-- Cambios en normativas laborales y políticas de privacidad.
-- Acelerado avance de nuevas soluciones con IA generativa.
+- Plataformas establecidas con fuerte presencia (como Indeed, Computrabajo).
+- Aplicaciones móviles muy posicionadas y con alta inversión en publicidad.
+- Integraciones con inteligencia artificial generativa en procesos de selección.
 
 **Estrategia:**
-Enfocar la innovación de forma ágil, segmentando bien los mercados y construyendo comunidad de usuarios fieles.
+Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamente, enfocándose en nichos específicos y experiencias diferenciadas.
 
 **Tácticas:**
-- Incorporar feedback constante para mejoras rápidas.
-- Lanzar funcionalidades en versión beta para validar con usuarios reales.
-- Desarrollar motores propios de IA que combinen análisis técnico y emocional del perfil.
+- Actualizaciones constantes basadas en feedback del usuario.
+- Ofrecer herramientas simples y efectivas para empresas en crecimiento o startups.
+- Integración con IA para mejorar el perfilamiento de candidatos y análisis de vacantes.
 
 
 ## **2.2. Entrevistas**
