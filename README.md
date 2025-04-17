@@ -388,9 +388,61 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 ### **2.2.3. Análisis de entrevistas**
 
 ## **2.3. Needfinding**
+La sección de Needfinding tiene como objetivo identificar las necesidades y problemas específicos de los usuarios que SmartHire pretende resolver. A través de investigaciones y análisis cualitativos y cuantitativos, se detectan oportunidades clave para mejorar la experiencia del usuario, basándose principalmente en entrevistas. Así mismo, se definen los aspectos esenciales que deberán abordarse para lograr una solución efectiva y centrada en el usuario.  
 ### **2.3.1. User Personas**
+A través de un perfil detallado, esta sección explora las características demográficas, necesidades, deseos, comportamientos y problemas específicos de los usuarios de los segmentos objetivos predefinidos, facilitando el diseño de soluciones que se alineen mejor con sus expectativas y desafíos.
+
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+
+  
+- **Segmento 2:** Postulantes (Candidatos para el empleo)
+
+  
 ### **2.3.2. User Task Matrix**
+
+En esta sección se detallan las tareas que realizan los usuarios clave de nuestra solución digital “SmartHire”. Se han identificado dos segmentos principales:  
+- Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación  
+- Segmento 2: Postulantes o candidatos que aplican a las vacantes
+
+Las tareas aquí descritas no dependen exclusivamente del uso del software, ya que representan acciones que los usuarios deben realizar en cualquier proceso de selección, sea manual o automatizado. Para cada tarea, se especifica su frecuencia y nivel de importancia, permitiendo identificar qué funciones son más críticas para cada perfil.
+
+#### 🧑‍💼 User Task Matrix – Reclutador (Equipo de RRHH)
+
+| Tarea                                             | Frecuencia | Importancia |
+|--------------------------------------------------|------------|-------------|
+| Publicar vacantes en múltiples plataformas       | Diaria     | Alta        |
+| Filtrar CVs con IA                               | Diaria     | Alta        |
+| Organizar entrevistas con candidatos             | Diaria     | Alta        |
+| Programar pruebas técnicas o psicométricas       | Diaria     | Alta        |
+| Revisar métricas de rendimiento del proceso      | Semanal    | Media       |
+| Gestionar el onboarding de nuevos empleados      | Ocasional  | Alta        |
+
+#### 🙋‍♂️ User Task Matrix – Candidato (Postulante)
+
+| Tarea                                          | Frecuencia | Importancia |
+|-----------------------------------------------|------------|-------------|
+| Crear y cargar perfil (CV, habilidades)       | Diaria     | Alta        |
+| Postularse a vacantes disponibles             | Diaria     | Alta        |
+| Realizar pruebas técnicas o psicométricas     | Ocasional  | Alta        |
+| Agendar entrevistas                           | Ocasional  | Alta        |
+| Ver estado de la postulación                  | Semanal    | Media       |
+
+En el caso del reclutador, las tareas con mayor frecuencia e importancia incluyen la publicación de vacantes, el filtrado de currículums, la organización de entrevistas y la programación de evaluaciones. Estas actividades son operativas, repetitivas y consumen gran parte del tiempo del equipo de RRHH, lo cual refuerza la necesidad de automatizarlas. También destaca la importancia del onboarding, aunque su frecuencia es menor.
+
+En el caso del candidato, las tareas más importantes y frecuentes son la creación del perfil y la postulación a vacantes, lo que demuestra su interés en estar continuamente buscando oportunidades. Las pruebas y entrevistas son menos frecuentes, pero igualmente importantes para su proceso de selección. Consultar el estado de la postulación tiene una frecuencia alta, pero una importancia media, lo que indica que, aunque no sea esencial para avanzar en el proceso, sí influye en su percepción y experiencia.
+
+En resumen, ambos segmentos comparten tareas importantes, como las entrevistas y evaluaciones, pero desde enfoques diferentes. SmartHire busca optimizar precisamente esas intersecciones, automatizando el trabajo operativo para el reclutador y mejorando la experiencia para el candidato.
+
+
 ### **2.3.3. User Journey Mapping**
+En esta sección, se presenta el mapa de viaje del usuario para el sistema de selección SmartHire, destacando las interacciones clave del usuario desde la fase de concientización hasta la de recomendación. Se detallan las acciones que realiza el usuario, las experiencias emocionales asociadas en cada etapa y los puntos de contacto clave que facilitan su interacción con el sistema.
+
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+
+  
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+
+  
 ### **2.3.4. Empathy Mapping**
 ### **2.3.5. As-is Scenario Mapping**
 
