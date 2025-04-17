@@ -402,9 +402,9 @@ A través de un perfil detallado, esta sección explora las características dem
 
 En esta sección se detallan las tareas que realizan los usuarios clave de nuestra solución digital “SmartHire”. Se han identificado dos segmentos principales:  
 - Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
-  <img src="img/journy mapping 1.png" alt="Mapping-1" />
+
 - Segmento 2: Postulantes o candidatos que aplican a las vacantes
-   <img src="img/Customer journey map 2.png" alt="Mapping-2" />
+
 
 Las tareas aquí descritas no dependen exclusivamente del uso del software, ya que representan acciones que los usuarios deben realizar en cualquier proceso de selección, sea manual o automatizado. Para cada tarea, se especifica su frecuencia y nivel de importancia, permitiendo identificar qué funciones son más críticas para cada perfil.
 
@@ -440,10 +440,10 @@ En resumen, ambos segmentos comparten tareas importantes, como las entrevistas y
 En esta sección, se presenta el mapa de viaje del usuario para el sistema de selección SmartHire, destacando las interacciones clave del usuario desde la fase de concientización hasta la de recomendación. Se detallan las acciones que realiza el usuario, las experiencias emocionales asociadas en cada etapa y los puntos de contacto clave que facilitan su interacción con el sistema.
 
 - **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
-
+  <img src="img/journy mapping 1.png" alt="Mapping-1" />
   
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
-
+   <img src="img/Customer journey map 2.png" alt="Mapping-2" />
   
 ### **2.3.4. Empathy Mapping**
 ### **2.3.5. As-is Scenario Mapping**
