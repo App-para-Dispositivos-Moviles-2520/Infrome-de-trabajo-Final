@@ -393,16 +393,18 @@ La sección de Needfinding tiene como objetivo identificar las necesidades y pro
 A través de un perfil detallado, esta sección explora las características demográficas, necesidades, deseos, comportamientos y problemas específicos de los usuarios de los segmentos objetivos predefinidos, facilitando el diseño de soluciones que se alineen mejor con sus expectativas y desafíos.
 
 - **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
-
+<img src="img/Carla Rodríguez (1).png" alt="User-Persona-1" />
   
 - **Segmento 2:** Postulantes (Candidatos para el empleo)
-
+<img src="img/Ramiro Muñoz.png" alt="User-Persona-2" />
   
 ### **2.3.2. User Task Matrix**
 
 En esta sección se detallan las tareas que realizan los usuarios clave de nuestra solución digital “SmartHire”. Se han identificado dos segmentos principales:  
-- Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación  
+- Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
+  <img src="img/journy mapping 1.png" alt="Mapping-1" />
 - Segmento 2: Postulantes o candidatos que aplican a las vacantes
+   <img src="img/Customer journey map 2.png" alt="Mapping-2" />
 
 Las tareas aquí descritas no dependen exclusivamente del uso del software, ya que representan acciones que los usuarios deben realizar en cualquier proceso de selección, sea manual o automatizado. Para cada tarea, se especifica su frecuencia y nivel de importancia, permitiendo identificar qué funciones son más críticas para cada perfil.
 
