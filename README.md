@@ -170,7 +170,39 @@ Sánchez Ponce, Alex Humberto
 # <font color="red"> **Capítulo III: Requirements Specification**</font>
 
 ## **3.1. To-Be Scenario Mapping**
+El escenario "To-Be" describe cómo se desarrollarán las experiencias de los usuarios una vez implementada la solución digital **SmartHire**, optimizando los procesos de reclutamiento actuales.
+
+### Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
+<img src="img/Captura de pantalla 2025-04-17 201630.png" alt="Logo UPC" />
+
+### Segmento 2: Postulantes o candidatos que aplican a las vacantes
+<img src="img/Captura de pantalla 2025-04-17 201634.png" alt="Logo UPC" />
+
 ## **3.2. User Stories**
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|----------------|--------|-------------|--------------------------|----------------------------|
+| EP001 | Gestión de Vacantes | Epic para crear, editar y cerrar vacantes laborales | | EP001 |
+| US001 | Crear nueva vacante | Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación | - Dado que el reclutador ha iniciado sesión <br> - Cuando completa el formulario de creación <br> - Entonces la vacante se publica correctamente | EP001 |
+| US002 | Editar vacante existente | Como reclutador, quiero editar una vacante publicada para actualizar su información | - Dado que la vacante está publicada <br> - Cuando el reclutador la edita <br> - Entonces los cambios se guardan y se muestran correctamente | EP001 |
+| US003 | Cerrar vacante | Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones | - Dado que una vacante está abierta <br> - Cuando el reclutador la cierra <br> - Entonces la vacante ya no acepta postulaciones | EP001 |
+| EP002 | Gestión de Postulaciones | Epic para gestionar postulaciones de los candidatos | | EP002 |
+| US004 | Aplicar a vacante | Como postulante, quiero postularme a una vacante para ser considerado | - Dado que el usuario está autenticado <br> - Cuando se postula a una vacante <br> - Entonces recibe confirmación de postulación exitosa | EP002 |
+| US005 | Ver postulaciones recibidas | Como reclutador, quiero ver las postulaciones recibidas para una vacante | - Dado que el reclutador accede a una vacante <br> - Cuando consulta las postulaciones <br> - Entonces ve una lista con detalles de los postulantes | EP002 |
+| US006 | Filtrar postulaciones | Como reclutador, quiero filtrar postulaciones por estado para gestionar mejor el proceso | - Dado que hay múltiples postulaciones <br> - Cuando aplica un filtro por estado <br> - Entonces solo se muestran las que coinciden | EP002 |
+| EP003 | Proceso de Selección | Epic para el seguimiento del proceso de entrevistas y contratación | | EP003 |
+| US007 | Agendar entrevista | Como reclutador, quiero agendar entrevistas con postulantes | - Dado que el reclutador ha seleccionado un candidato <br> - Cuando define fecha y hora <br> - Entonces se agenda la entrevista y se notifica al postulante | EP003 |
+| US008 | Registrar resultado de entrevista | Como reclutador, quiero registrar los resultados de entrevistas para tomar decisiones | - Dado que la entrevista se ha realizado <br> - Cuando se registran los resultados <br> - Entonces se actualiza el estado del candidato | EP003 |
+| US009 | Enviar oferta laboral | Como reclutador, quiero enviar una oferta laboral al candidato seleccionado | - Dado que el candidato ha sido elegido <br> - Cuando se completa el formulario de oferta <br> - Entonces se envía al candidato y queda registrada | EP003 |
+| EP004 | Gestión de Usuarios | Epic para la administración de usuarios en la plataforma | | EP004 |
+| US010 | Registrar cuenta de postulante | Como usuario, quiero registrarme como postulante para aplicar a vacantes | - Dado que el usuario accede a la plataforma <br> - Cuando completa el formulario de registro <br> - Entonces se crea su cuenta de postulante | EP004 |
+| US011 | Registrar cuenta de reclutador | Como empresa, quiero registrarme para gestionar vacantes | - Dado que la empresa accede al sitio <br> - Cuando se completa el registro empresarial <br> - Entonces se crea la cuenta de reclutador | EP004 |
+| US012 | Editar perfil profesional | Como postulante, quiero actualizar mi perfil con experiencia y habilidades | - Dado que el usuario accede a su perfil <br> - Cuando edita información personal <br> - Entonces los cambios se guardan correctamente | EP004 |
+| EP005 | IA y Recomendaciones | Epic para automatizar recomendaciones usando inteligencia artificial | | EP005 |
+| US013 | Sugerencia de candidatos | Como reclutador, quiero ver candidatos sugeridos automáticamente según la vacante | - Dado que la vacante está publicada <br> - Cuando se accede a la sección de sugerencias <br> - Entonces se muestran candidatos recomendados | EP005 |
+| US014 | Recomendación de vacantes | Como postulante, quiero recibir sugerencias de vacantes relevantes a mi perfil | - Dado que el usuario tiene perfil completo <br> - Cuando ingresa a la plataforma <br> - Entonces se le muestran vacantes sugeridas | EP005 |
+| US015 | Puntaje automático de CVs | Como reclutador, quiero que los CVs tengan puntajes automáticos para facilitar la evaluación | - Dado que hay postulaciones registradas <br> - Cuando se visualizan los CVs <br> - Entonces se muestran con un puntaje evaluado por el sistema | EP005 |
+
+
 ## **3.3. Impact Mapping**
 ## **3.4. Product Backlog**
 
