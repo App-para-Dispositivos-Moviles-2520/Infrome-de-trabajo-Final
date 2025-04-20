@@ -177,8 +177,141 @@ Sánchez Ponce, Alex Humberto
 # <font color="red">**Capítulo IV: Product Design**</font>
 
 ## **4.1. Style Guidelines**
-### **4.1.1. General Style Guidelines**
-### **4.1.2. Web Style Guidelines**
+
+
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
+
+#### Principios de diseño
+
+Algunos de los principios de diseño y heurísticas que hemos aplicado para nuestra plataforma **Jobsy** son:
+
+1. **Intuición y Usabilidad**  
+   La plataforma está diseñada para que cualquier usuario, sin necesidad de formación previa, pueda navegar y utilizar sus funciones con facilidad.
+
+2. **Eficiencia**  
+   Optimizamos cada interacción para reducir pasos innecesarios. Desde la creación de vacantes hasta la visualización de candidatos recomendados por la IA, todo está diseñado para ahorrar tiempo y maximizar la productividad del usuario.
+
+3. **Diseño Responsivo**  
+   Jobsy ofrece una experiencia fluida en cualquier dispositivo. Ya sea desde una computadora de escritorio en una oficina o desde un celular, el diseño se adapta para mantener la funcionalidad y legibilidad.
+
+4. **Evitar la Sobrecarga Cognitiva**  
+   Nos aseguramos de no saturar las pantallas con contenido innecesario. Las secciones están jerarquizadas visualmente, se usa el espacio en blanco de forma estratégica, y se prioriza lo esencial para no distraer al usuario.
+
+5. **Consistencia Visual**  
+   Aplicamos una línea gráfica coherente en toda la plataforma. Tipografías, colores, iconografía y componentes interactivos mantienen un estilo uniforme, lo cual fortalece la identidad de marca y mejora la comprensión de los elementos.
+
+6. **Tamaños Adecuados y Accesibilidad**  
+   Todos los elementos clicables o interactivos están diseñados con un tamaño apropiado, especialmente considerando el uso móvil. Además, se contemplan buenas prácticas de accesibilidad como el contraste de colores, texto legible y navegación con teclado.
+
+7. **Control del Usuario y Retroalimentación**  
+   El sistema informa al usuario de cada acción realizada mediante mensajes claros: confirmaciones, validaciones, cargas o errores. Se permite deshacer o modificar acciones importantes, lo cual transmite seguridad y confianza en el uso de la herramienta.
+
+---
+
+#### Colores
+
+**Logo:**  
+
+Para los colores del logotipo, seleccionamos un tono azul oscuro con código hexadecimal #285A84, que transmite profesionalismo, confianza y solidez, características clave para una plataforma orientada al sector empresarial. Complementariamente, se eligió un verde luminoso con código #85C872 para el ícono del logo, con el objetivo de aportar un contraste visual atractivo que represente innovación, dinamismo y eficiencia, atributos centrales de nuestra propuesta tecnológica.  
+
+- Azul oscuro (`#285A84`): profesionalismo, confianza y solidez.  
+- Verde luminoso (`#85C872`): innovación, dinamismo y eficiencia.
+
+<div align="center">
+
+<img src="img/color_logo.png" alt="color logo" width="100"/>
+
+**Color de fondo:**  
+- Verde (`#85C872`): frescura y vitalidad.  
+- Blanco (`#FFFFFF`): limpieza y legibilidad.  
+- Azul oscuro (`#285A84`): usado en líneas decorativas para reforzar identidad visual.
+
+**Colores del texto:**  
+- Títulos:  
+  - `#B0E7B1` para fondos oscuros  
+  - `#285A84` para fondos claros  
+  - Blanco para fondos oscuros  
+  - Gris claro para placeholders  
+- Subtítulos y párrafos siguen la misma lógica cromática.
+
+---
+
+#### Botones
+
+- **Primarios:**  
+  - Fondo azul oscuro `#285A84`  
+  - Bordes redondeados al 40%  
+  - Sombra ligera  
+  - Texto blanco en mayúsculas o capitalizado
+
+- **Secundarios:**  
+  - Fondo verde aqua `#B0E7B1`  
+  - Bordes y texto en color `#285A84`  
+  - Para acciones secundarias o enlaces menos prioritarios
+
+---
+
+#### Tipografía
+
+- **ISTOK WEB (negrita):** Títulos principales  
+- **Inter, Pavanam, Questrial (light o regular):** Párrafos y textos secundarios  
+- **Patua One (negrita display):** Encabezados destacados  
+- **Playfair Display (cursiva serif):** Citas o secciones especiales  
+- **Alexandria (bold), Markazi Text (regular):** Enlaces o descripciones  
+- **Poppins:** Fuente redondeada y versátil para títulos y textos principales
+
+---
+
+#### Iconografía
+
+Los íconos representan elementos clave de la plataforma como:
+
+- Servicios ofrecidos  
+- Tipos de planes  
+- Menú de navegación  
+- Accesos a redes sociales  
+
+Facilitan la comprensión visual, aportan dinamismo y mejoran la experiencia del usuario.
+
+---
+
+#### Cabecera
+
+- Ícono de la marca  
+- Enlaces en la esquina superior derecha  
+- Botón de registro destacado para ingreso de usuarios
+
+---
+
+#### Pie de Página
+
+El pie de página cuenta con tres secciones:
+
+- Descripción de la startup  
+- Enlaces accesibles  
+- Íconos de redes sociales: X, LinkedIn y Facebook
+
+---
+
+#### Logo
+
+- Fuente: Questrial  
+- Tamaño: 30px  
+- Acompañado por un ícono representativo de una **conexión de red**, simbolizando la conexión entre talento y oportunidades laborales
+
+---
+
+### 4.1.2. Web Style Guidelines
+
+Para garantizar una experiencia clara y agradable en cualquier dispositivo, el sitio web de **SmartHire** se desarrollará con un diseño **totalmente responsivo**. Esto significa que la plataforma se adaptará automáticamente a diferentes tamaños de pantalla, permitiendo que todo el contenido se visualice correctamente sin perder orden ni legibilidad.
+
+Se usará una estructura basada en el **patrón visual en forma de Z**, una técnica efectiva para captar la atención del usuario. Este recorrido comienza en la parte superior izquierda, donde estará ubicado el logotipo de SmartHire, lo cual ayuda a reforzar la identidad de la plataforma desde el primer segundo.
+
+Se empleará una **paleta de colores atractiva y armónica** que motive la interacción y genere una experiencia agradable. A esto se sumarán **elementos visuales**, **espacios bien distribuidos** y **transiciones suaves** que ayudarán a que el contenido se entienda fácilmente, asegurando una **lectura clara y sin distracciones**.
 
 ## **4.2. Information Architecture**
 ### **4.2.1. Organization Systems**
