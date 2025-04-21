@@ -446,6 +446,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
    <img src="img/Customer journey map 2.png" alt="Mapping-2" />
   
 ### **2.3.4. Empathy Mapping**
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+  
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
 ### **2.3.5. As-is Scenario Mapping**
 
 ## **2.4. Ubiquitous Language**
