@@ -447,10 +447,13 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   
 ### **2.3.4. Empathy Mapping**
 - **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
-  
+  <img src="img/RRHH-empatymap.png" alt="Mapping-3" />
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+- <img src="img/PostulantesEmpatyMap.png" alt="Mapping-4" />
 ### **2.3.5. As-is Scenario Mapping**
-
+El escenario “As-Is” muestra cómo viven actualmente los usuarios el proceso de reclutamiento, antes de implementar la solución digital Jobsy. Refleja los principales problemas, emociones y pensamientos que surgen en cada etapa del proceso.
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
 ## **2.4. Ubiquitous Language**
 
 # <font color="red"> **Capítulo III: Requirements Specification**</font>
