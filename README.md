@@ -386,21 +386,21 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 
 ### **2.2.2. Registro de entrevistas**
 - **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
-  
-- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
- | **Entrevistado 1: Jean Fabio Noriega Collado** |
-|------------------------------------------------|
-| <img src="img/Entrevista1Postulantes.png" alt="Entrevista1Seg1" /> |
 
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+
+| **Entrevistado 1: Jean Fabio Noriega Collado** |
+|------------------------------------------------|
+| <img src="img/Entrevista1Postulantes.png" alt="Entrevista1Seg1" width=50 /> |
+|------------------------------------------------|
 | Distrito: San Miguel | Edad: 18 |
 |----------------------|----------|
-
 | **Entrevistador:** Jasmin Adriana Urrutia Peña |
 |------------------------------------------------|
 | **Link:** [https://youtu.be/dtYSbyE4bsM](https://youtu.be/dtYSbyE4bsM) |
+|------------------------------------------------|
+|-Resumen: Jean Fabio es una persona que siente que el proceso de buscar empleo es cansado y frustrante. Él nos comenta que le gusta que nuestra solución automatice tareas tediosas como el filtrado de currículums y la coordinación de entrevistas, lo que le permite concentrarse en evaluar mejor a los postulantes. También resalta que la integración con plataformas como LinkedIn e InfoJobs le parece súper útil, porque le ahorra tiempo al publicar vacantes y mejora la visibilidad de las ofertas. Para él, Jobsy no solo mejora la organización del proceso de selección, sino que además reduce el estrés del equipo y genera una mejor experiencia tanto para el reclutador como para el candidato. En resumen, ve en la app una solución práctica, eficiente y bien pensada para mejorar el proceso de búsqueda de empleo.|
 
--Resumen:
-Jean Fabio es una persona que siente que el proceso de buscar empleo es cansado y frustrante. Él nos comenta que le gusta que nuestra solución automatice tareas tediosas como el filtrado de currículums y la coordinación de entrevistas, lo que le permite concentrarse en evaluar mejor a los postulantes. También resalta que la integración con plataformas como LinkedIn e InfoJobs le parece súper útil, porque le ahorra tiempo al publicar vacantes y mejora la visibilidad de las ofertas. Para él, Jobsy no solo mejora la organización del proceso de selección, sino que además reduce el estrés del equipo y genera una mejor experiencia tanto para el reclutador como para el candidato. En resumen, ve en la app una solución práctica, eficiente y bien pensada para mejorar el proceso de búsqueda de empleo.
 
 
 ### **2.2.3. Análisis de entrevistas**
