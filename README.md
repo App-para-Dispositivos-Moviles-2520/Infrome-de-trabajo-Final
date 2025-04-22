@@ -326,15 +326,19 @@ Se diseñó el wireframe aplicando los principios visuales, la arquitectura de i
 | Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
 |----------------------------------|----------------------------------|-------------------------------|
 | <img src="img/LandingDesktopWireframe.png" alt="wireframe1" /> | <img src="img/LandingPhoneWireframe.png" alt="wireframe2" /> | <img src="img/LandingPadWireframe.png" alt="wireframe3"/> |
-**Link:**  
-[https://www.figma.com/design/GIGB1SiJ7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiJ7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 ### **4.3.2. Landing Page Mock-up**
 El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y estructura planteados en el wireframe.
 | Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
 |----------------------------------|----------------------------------|-------------------------------|
 | <img src="img/LandingDesktopMockUp.png" alt="wireframe1" /> | <img src="img/LandingPhoneMockUp.png" alt="wireframe2" /> | <img src="img/LandingPadMockUp.png" alt="wireframe3"/> |
-**Link:**  
-[https://www.figma.com/design/GIGB1SiJ7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiJ7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
 ### **4.4.2. Web Applications Wireflow Diagrams**
