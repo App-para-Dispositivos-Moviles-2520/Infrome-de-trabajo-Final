@@ -223,7 +223,7 @@ Para los colores del logotipo, seleccionamos un tono azul oscuro con código hex
 
 <div align="center">
 
-<img src="img/color_logo.png" alt="color logo" width="100"/>
+<img src="img/color_logo.png" alt="color logo" />
 
 **Color de fondo:**  
 - Verde (`#85C872`): frescura y vitalidad.  
