@@ -469,6 +469,78 @@ El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y e
 -Link: [https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989](https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989)
 
 ### **4.4.3. Web Applications Mock-ups**
+
+| Inicio Sesión |
+|----------------------------------|
+| Muestra una pantalla de login para Jobsy, con campos para que los reclutadores pongan su correo y contraseña, y un botón para entrar al sistema. |
+| <img src="img/Mockup1.png" alt="wireframe4" width= 800 /> |
+
+| Registro |
+|----------------------------------|
+| Tiene un diseño claro para registrarse en Jobsy, donde los reclutadores ingresan su nombre, correo y contraseña, y un botón para crear su cuenta.|
+| <img src="img/Mockup2.png" alt="wireframe5" width= 800 /> |
+
+| Selección de perfil |
+|----------------------------------|
+| Muestra el tablero donde el usuario indica a que rol pertenece.|
+| <img src="img/Mockup3.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.*
+  
+| Panel Principal |
+|----------------------------------|
+| Muestra el tablero inicial de SmartHire, con un menú a la izquierda y un resumen de vacantes activas y datos importantes para los reclutadores.|
+| <img src="img/Mockup4.png" alt="wireframe6" width= 800 /> |
+
+| Publicaciones |
+|----------------------------------|
+| Presenta una pantalla detallada de la tabla de vacantes, donde los reclutadores ven detalles y pueden gestionar las publicaciones fácilmente.|
+| <img src="img/Mockup5.png" alt="wireframe6" width= 800 /> |
+
+| Candidatos |
+|----------------------------------|
+| Muestra una tabla con la lista de candidatos, donde los reclutadores pueden ver su información detallada y decidir a quién contactar.|
+| <img src="img/Mockup6.png" alt="wireframe6" width= 800 /> |
+
+| Analiticas |
+|----------------------------------|
+| Contiene gráficos que ayudan a los reclutadores a entender cómo van sus procesos de selección y qué tan efectivas son sus vacantes.|
+| <img src="img/Mockup7.png" alt="wireframe6" width= 800 /> |
+
+| Asistencia IA |
+|----------------------------------|
+| Muestra un chat donde los reclutadores pueden hablar con una IA para resolver dudas o recibir consejos sobre reclutamiento.|
+| <img src="img/Mockup8.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Página en Jobsy donde los reclutadores pueden ver sus datos personales y editarlos si es necesario.|
+| <img src="img/Mockup9.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 2: Postulantes o candidatos que aplican a las vacantes.*
+
+| Panel Principal |
+|----------------------------------|
+| Modelo completo y avanzado del estado los últimos trabajos donde ha postulado, además de la bandeja de entrada|
+| <img src="img/Mockup10.png" alt="wireframe6" width= 800 /> |
+
+| Postulaciones |
+|----------------------------------|
+| Pantalla donde detalla los trabajos a los que ha postulado y la administración de los mismos.|
+| <img src="img/Mockup11.png" alt="wireframe6" width= 800 /> |
+
+| Bandeja de entrada |
+|----------------------------------|
+| Sección donde el postulante vera su bandeja de entrada.|
+| <img src="img/Mockup12.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Sección donde el postulante verá su perfil completo.|
+| <img src="img/Mockup13.png" alt="wireframe6" width= 800/> |
+
+-Link:  [https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1 ](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 ### **4.4.4. Web Applications User Flow Diagrams**
 
 ## **4.5. Web Applications Prototyping**
