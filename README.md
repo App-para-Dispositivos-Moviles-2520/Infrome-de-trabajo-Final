@@ -419,54 +419,54 @@ El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y e
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
-| <img src="img/Wireflow5.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow5.png" alt="wireflow1" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera. |
-| <img src="img/Wireflow6.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow6.png" alt="wireflow2" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo ver la lista de candidatos que postulan y filtrar por categorías. |
-| <img src="img/Wireflow7.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow7.png" alt="wireflow3" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas.|
-| <img src="img/Wireflow8.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow8.png" alt="wireflow4" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento. |
-| <img src="img/Wireflow9.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow9.png" alt="wireflow5" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: User Goal: Como usuario deseo tener un perfil de empresa y poder editarlo cuando quiera. |
-| <img src="img/Wireflow10.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow10.png" alt="wireflow6" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 | User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
-| <img src="img/Wireflow4.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow4.png" alt="wireflow7" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 |  User Goal: Como usuario, deseo recibir mensajes de las empresas para saber el estado de mi postulación. |
-| <img src="img/Wireflow2.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow2.png" alt="wireflow8" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 | User Goal: Como usuario, deseo ver todas las postulaciones que realice. |
-| <img src="img/Wireflow3.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow3.png" alt="wireflow9" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 | User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera. |
-| <img src="img/Wireflow1.png" alt="wireflow1" width= 800/> |
+| <img src="img/wireflow1.png" alt="wireflow10" width= 800/> |
 
--Link: [https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989] (https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989)
+-Link: [https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989](https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989)
 
 ### **4.4.3. Web Applications Mock-ups**
 ### **4.4.4. Web Applications User Flow Diagrams**
