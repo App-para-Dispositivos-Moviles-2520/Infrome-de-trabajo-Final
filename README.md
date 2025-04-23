@@ -597,7 +597,9 @@ El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y e
 
 ## **4.5. Web Applications Prototyping**
 En esta sección presentaremos el prototipo de nuestra Aplicación Web, para la que se tomó en cuenta los Mock-ups realizados anteriormente y los user flows para la guía de los usuarios.
-<img src="img/PrototipoLanding.png" alt="wireflow10" width= 800/>
+
+<img src="img/PrototipoLanding.png" alt="wireflow10" width= 400/>
+
 -Link del video del prototipo: [https://youtu.be/oPz7sWIkK54](https://youtu.be/oPz7sWIkK54)
 -Link del prototipo realizado en figma: [https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1](https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1)
 
