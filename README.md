@@ -546,56 +546,60 @@ El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y e
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
-| <img src="img/UserFlow1.png" alt="wireflow1" width= 800/> |
+| <img src="img/UserFlow1.png" alt="UserFlow1" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera. |
-| <img src="img/UserFlow2.png" alt="wireflow2" width= 800/> |
+| <img src="img/UserFlow2.png" alt="UserFlow2" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo ver la lista de candidatos que postulan y filtrar por categorías. |
-| <img src="img/UserFlow3.png" alt="wireflow3" width= 800/> |
+| <img src="img/UserFlow3.png" alt="UserFlow3" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas.|
-| <img src="img/UserFlow4.png" alt="wireflow4" width= 800/> |
+| <img src="img/UserFlow4.png" alt="UserFlow4" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: Como usuario, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento. |
-| <img src="img/UserFlow5.png" alt="wireflow5" width= 800/> |
+| <img src="img/UserFlow5.png" alt="UserFlow5" width= 800/> |
 
 | User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
 |----------------------------------|
 | User Goal: User Goal: Como usuario deseo tener un perfil de empresa y poder editarlo cuando quiera. |
-| <img src="img/UserFlow6.png" alt="wireflow6" width= 800/> |
+| <img src="img/UserFlow6.png" alt="UserFlow6" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 | User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
-| <img src="img/UserFlow7.png" alt="wireflow7" width= 800/> |
+| <img src="img/UserFlow7.png" alt="UserFlow7" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 |  User Goal: Como usuario, deseo recibir mensajes de las empresas para saber el estado de mi postulación. |
-| <img src="img/UserFlow8.png" alt="wireflow8" width= 800/> |
+| <img src="img/UserFlow8.png" alt="UserFlow8" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 | User Goal: Como usuario, deseo ver todas las postulaciones que realice. |
-| <img src="img/UserFlow9.png" alt="wireflow9" width= 800/> |
+| <img src="img/UserFlow9.png" alt="UserFlow9" width= 800/> |
 
 | User Persona:Postulantes o candidatos que aplican a las vacantes. |
 |----------------------------------|
 | User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera. |
-| <img src="img/UserFlow10.png" alt="wireflow10" width= 800/> |
+| <img src="img/UserFlow10.png" alt="UserFlow10" width= 800/> |
 
 -Link: [https://lucid.app/lucidchart/1bd13f47-62cb-43cd-983b-a2e9d116fe4e/edit?viewport_loc=2240%2C-1780%2C6876%2C3260%2C0_0&invitationId=inv_c2834ef8-4ace-4328-a4b9-1c904e0798f0](https://lucid.app/lucidchart/1bd13f47-62cb-43cd-983b-a2e9d116fe4e/edit?viewport_loc=2240%2C-1780%2C6876%2C3260%2C0_0&invitationId=inv_c2834ef8-4ace-4328-a4b9-1c904e0798f0)
 
 ## **4.5. Web Applications Prototyping**
+En esta sección presentaremos el prototipo de nuestra Aplicación Web, para la que se tomó en cuenta los Mock-ups realizados anteriormente y los user flows para la guía de los usuarios.
+<img src="img/PrototipoLanding.png" alt="wireflow10" width= 800/>
+-Link del video del prototipo: [https://youtu.be/oPz7sWIkK54](https://youtu.be/oPz7sWIkK54)
+-Link del prototipo realizado en figma: [https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1](https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1)
 
 ## **4.6. Domain-Driven Software Architecture**
 ### **4.6.1. Software Architecture Context Diagram**
@@ -608,5 +612,4 @@ El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y e
 
 ## **4.8. Database Design**
 ### **4.8.1. Database Diagram**
-
 
