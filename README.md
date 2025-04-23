@@ -342,6 +342,78 @@ El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y e
 
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
+
+| Inicio Sesión |
+|----------------------------------|
+| Pantalla simple donde los reclutadores de R.R.H.H. pueden ingresar a Jobsy su correo y contraseña personales. |
+| <img src="img/WireframeInicioSesion.png" alt="wireframe4" width= 800 /> |
+
+| Registro |
+|----------------------------------|
+| Formulario de registro para nuevos usuarios de Jobsy, con los campos necesarios para que los usuarios ingresen los datos requeridos.|
+| <img src="img/WireframeRegistro.png" alt="wireframe5" width= 800 /> |
+
+| Selección de perfil |
+|----------------------------------|
+| El usuario deberá identificarse como Postulante o Administrador|
+| <img src="img/WireframeRegistro.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.*
+  
+| Panel Principal |
+|----------------------------------|
+| Panel principal de Jobsy, donde los reclutadores pueden ver un resumen rápido de sus vacantes y candidatos.|
+| <img src="img/WireframePanelEmp.png" alt="wireframe6" width= 800 /> |
+
+| Publicaciones |
+|----------------------------------|
+| Sección donde los reclutadores gestionan las vacantes publicadas, con una tabla que muestra cuántos candidatos aplicaron a cada una.|
+| <img src="img/WireframePublicacionesEmp.png" alt="wireframe6" width= 800 /> |
+
+| Candidatos |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframeCandidatosEmp.png" alt="wireframe6" width= 800 /> |
+
+| Analiticas |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframeAnaliticasEmp.png" alt="wireframe6" width= 800 /> |
+
+| Asistencia IA |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframeIAEmp.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframePerfilEmp.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 2: Postulantes o candidatos que aplican a las vacantes.*
+
+| Panel Principal |
+|----------------------------------|
+| Un folleto simple del panel principal para el postulante, donde podrá visualizar los trabajos a los que ha aplicado y  la bandeja de entrada|
+| <img src="img/WireframePanelPostu.png" alt="wireframe6" width= 800 /> |
+
+| Postulaciones |
+|----------------------------------|
+| Modelo sencillo donde el postulante podrá ver o eliminar las solicitudes a los trabajos que está postulando|
+| <img src="img/WireframePostulaciones.png" alt="wireframe6" width= 800 /> |
+
+| Bandeja de entrada |
+|----------------------------------|
+| Pantalla sencilla donde el postulante visualiza sus bandejas de entrada|
+| <img src="img/WireframeMSJPost.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Modelo del perfil de un postulante de baja fidelidad|
+| <img src="img/WireframePerfilPos.png" alt="wireframe6" width= 800/> |
+
+-Link:  [https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1 ](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 ### **4.4.2. Web Applications Wireflow Diagrams**
 ### **4.4.3. Web Applications Mock-ups**
 ### **4.4.4. Web Applications User Flow Diagrams**
