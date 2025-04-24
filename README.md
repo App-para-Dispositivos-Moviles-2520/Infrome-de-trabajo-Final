@@ -236,6 +236,13 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 - Link de los User Stories en Pivotal Tracker: [https://www.pivotaltracker.com/projects/2740681](https://www.pivotaltracker.com/projects/2740681)
 
 ## **3.3. Impact Mapping**
+
+### Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
+<img src="img/impact_map_1.png" alt="impactmap1" width= 800/>
+
+### Segmento 2: Postulantes o candidatos que aplican a las vacantes
+<img src="img/impact_map_2.png" alt="impactmap2" width= 800/>
+
 ## **3.4. Product Backlog**
 
 # <font color="red">**Capítulo IV: Product Design**</font>
