@@ -397,7 +397,13 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 | **Link:** [https://youtu.be/dtYSbyE4bsM](https://youtu.be/dtYSbyE4bsM) |
 |-Resumen: Jean Fabio es una persona que siente que el proceso de buscar empleo es cansado y frustrante. Él nos comenta que le gusta que nuestra solución automatice tareas tediosas como el filtrado de currículums y la coordinación de entrevistas, lo que le permite concentrarse en evaluar mejor a los postulantes. También resalta que la integración con plataformas como LinkedIn e InfoJobs le parece súper útil, porque le ahorra tiempo al publicar vacantes y mejora la visibilidad de las ofertas. Para él, Jobsy no solo mejora la organización del proceso de selección, sino que además reduce el estrés del equipo y genera una mejor experiencia tanto para el reclutador como para el candidato. En resumen, ve en la app una solución práctica, eficiente y bien pensada para mejorar el proceso de búsqueda de empleo.|
 
-
+| **Entrevistado 2: Angela Fabiola Ushiñahua Becerra** |
+|------------------------------------------------|
+| <img src="img/entrevista-angela.png" alt="Entrevista2Seg2" width=75% /> |
+| Distrito: Villa el Salvador / Edad: 24 |
+| **Entrevistador:** Gabriel Omar Lapa de la Cruz |
+| **Link:** [https://youtu.be/pNCRk7bci4Y](https://youtu.be/pNCRk7bci4Y) |
+|-Resumen: Ángela Ushiñahua es una joven marquetera digital que busca oportunidades laborales relacionadas con su carrera, especialmente en análisis de mercado y promoción de marcas. Usa principalmente Computrabajo y Facebook para buscar empleo, aunque comenta que muchas plataformas exigen experiencia laboral, lo cual le resulta frustrante como egresada. Le parece especialmente complicada la parte del CV, ya que muchas veces determina si una persona es considerada o no. Nunca ha usado plataformas que le recomienden trabajos ni que le ayuden a mejorar su currículum, pero le gustaría mucho recibir sugerencias para hacerlo más profesional. También señala que las entrevistas online pueden ser incómodas por problemas de conexión. Valora mucho que la comunicación postulación sea vía WhatsApp y considera esencial contar con un sistema de seguimiento dentro de la plataforma para evitar la incertidumbre de no saber si su postulación fue vista. En general, valora soluciones que le ahorren tiempo, le brinden orientación y le permitan tener mayor control sobre el proceso de postulación.|
 
 ### **2.2.3. Análisis de entrevistas**
 
