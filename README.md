@@ -231,6 +231,10 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 | US034 | Comentar sobre vacantes | Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores. | **Escenario 1: Publicación de comentarios sobre vacantes**<br>• Dado que el postulante ha postulado a una vacante<br>• Cuando deja un comentario sobre la vacante<br>• Entonces el comentario se guarda correctamente<br><br>**Escenario 2: Validación de contenido inapropiado**<br>• Dado que el postulante escribe un comentario<br>• Cuando el sistema detecta contenido inapropiado<br>• Entonces muestra un mensaje de advertencia y no permite guardar el comentario | EP014 |
 | US035 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes. | **Escenario 1: Retroalimentación del proceso de selección**<br>• Dado que el candidato ha sido parte del proceso de selección<br>• Cuando deja un comentario sobre el proceso<br>• Entonces el comentario se guarda y es visible para el reclutador<br><br>**Escenario 2: Comentarios anónimos opcionales**<br>• Dado que el candidato desea comentar el proceso<br>• Cuando marca la opción de anonimato<br>• Entonces su comentario se publica sin mostrar su nombre | EP014 |
 
+<img src="img/User_Stories_SmartHire.png" alt="userstories" width= 1000/>
+
+- Link de los User Stories en Pivotal Tracker: [https://www.pivotaltracker.com/projects/2740681](https://www.pivotaltracker.com/projects/2740681)
+
 ## **3.3. Impact Mapping**
 ## **3.4. Product Backlog**
 
