@@ -930,7 +930,9 @@ En esta sección se presentará el diagrama de componentes de nuestra arquitectu
 ### **4.7.1. Class Diagrams**
 Un diagrama de clases es una representación visual de la estructura estática de un sistema, mostrando las clases, sus atributos y métodos, y las relaciones entre ellas.
 <br>
-<div><img src="" alt="dc"/></div>
+<div><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNdjI36Xw27ZMN3OIzuFM8BFUyV_nbfZzq2E1vYjtAuszhd1uF3CR_I-Y4m-IzPCRnPR_OTVuFbuLRINwkkQxwXWy0KmN-Bt4CNHmZ1_9lsejeLWRrdOSTHG_WmhSQp3e_7kT6hQ?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%" alt="dc"/></div>
+
+
 - Link: https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-2203%2C-4641%2C7021%2C3423%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
 
 
