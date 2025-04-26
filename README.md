@@ -897,7 +897,234 @@ En esta sección presentaremos el prototipo de nuestra Aplicación Web, para la 
 
 ## **4.7. Software Object-Oriented Design**
 ### **4.7.1. Class Diagrams**
-### **4.7.2. Class Dictionary**
+Un diagrama de clases es una representación visual de la estructura estática de un sistema, mostrando las clases, sus atributos y métodos, y las relaciones entre ellas.
+<br>
+<div><img src="" alt="dc"/></div>
+- Link: https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-2203%2C-4641%2C7021%2C3423%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
+
+
+### **4.7.2. Diccionario de Clases**
+
+En esta sección se describen las clases identificadas en el **Diagrama de Clases**, detallando sus atributos, métodos y relaciones con otras clases.
+
+
+#### **Rol**
+Clase que representa el rol asignado a un usuario en el sistema (por ejemplo: *Postulante*, *Reclutador* o *Administrador*).
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombreRol` (RolEnum)
+
+- **Métodos:**
+  - `asignarRol(usuario: Usuario): void`
+
+- **Relaciones:**
+  - Asociación 1 a 1 con `Usuario`.
+
+
+#### **Usuario**
+Clase principal que representa a cualquier persona registrada en la plataforma (postulante, reclutador o empresa).
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `correo` (String)
+  - `contraseña` (String)
+  - `tipoRol` (Rol)
+
+- **Métodos:**
+  - `registrar()`
+  - `iniciarSesion()`
+  - `getNombre()`, `setNombre(nombre)`
+  - `getCorreo()`, `setCorreo(correo)`
+  - `getTipoRol()`, `setTipoRol(tipoRol)`
+
+- **Relaciones:**
+  - Asociación 1 a 1 con `Rol`
+  - Asociación 1 a muchos con `Dashboard`
+  - Asociación 1 a muchos con `Perfil`
+  - Asociación 1 a 1 con `AsistenteIA`
+
+#### **Postulante**
+Representa a un usuario que busca empleo, con experiencia y habilidades específicas.
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `perfilId` (Int)
+  - `experiencia` (String)
+  - `habilidades` (String[])
+
+- **Métodos:**
+  - `getNombre()`, `setNombre(nombre)`
+  - `filtrarPorCategoria()`
+  - `verDetalles()`
+
+- **Relaciones:**
+  - Herencia de la clase `Rol`.
+
+
+#### **Empresa**
+Representa a una organización que publica vacantes laborales.
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `ruc` (String)
+  - `direccion` (String)
+  - `usuarioId` (Int)
+
+- **Métodos:**
+  - `verPerfilEmpresa()`
+  - `editarEmpresa(nombre, ruc, direccion)`
+
+- **Relaciones:**
+  - Herencia de `Rol`
+  - Asociación 1 a muchos con `Reclutador`
+
+
+#### **Dashboard**
+Muestra un resumen de la actividad del usuario dentro del sistema.
+
+- **Atributos:**
+  - `id` (Int)
+  - `usuarioId` (Int)
+  - `tipoUsuario` (String)
+
+- **Métodos:**
+  - `mostrarResumen()`
+
+- **Relaciones:**
+  - Muchos a 1 con `Usuario`
+  - Asociación 1 a 1 (composición) con `AsistenteIA`
+
+
+#### **AsistenteIA**
+Asistente virtual que responde consultas de los usuarios mediante inteligencia artificial.
+
+- **Atributos:**
+  - `id` (Int)
+  - `usuarioId` (Int)
+  - `consulta` (String)
+  - `respuesta` (String)
+
+- **Métodos:**
+  - `consultarIA(pregunta: String): String`
+
+- **Relaciones:**
+  - Asociación 1 a 1 con `Usuario`
+
+
+
+#### **Publicación/Vacante**
+Representa una oferta laboral publicada por un reclutador.
+
+- **Atributos:**
+  - `id` (Int)
+  - `titulo` (String)
+  - `descripcion` (String)
+  - `categoria` (String)
+  - `estado` (String)
+  - `fechaPublicacion` (Date)
+
+- **Métodos:**
+  - `getId()`, `setId(id)`
+  - `getTitulo()`, `setTitulo(titulo)`
+  - `getDescripcion()`, `setDescripcion(descripcion)`
+  - `getCategoria()`, `setCategoria(categoria)`
+  - `getEstado()`, `setEstado(estado)`
+  - `getFechaPublicacion()`, `setFechaPublicacion(fecha)`
+  - `getReclutador()`, `setReclutador(reclutador)`
+  - `actualizarEstado(estado)`
+  - `actualizarDescripcion(nuevaDescripcion)`
+
+- **Relaciones:**
+  - Muchos a 1 con `Reclutador`
+
+
+
+#### **Reclutador**
+Usuario encargado de gestionar vacantes y procesos de selección en una empresa.
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `correo` (String)
+  - `contraseña` (String)
+  - `perfilEmpresa` (PerfilEmpresa)
+  - `publicaciones` (List<PublicacionVacante>)
+  - `bandejaEntrada` (BandejaEntrada)
+
+- **Métodos:**
+  - `getNombre()`, `setNombre(nombre)`
+  - `getPerfilEmpresa()`, `setPerfilEmpresa(perfilEmpresa)`
+  - `getPublicaciones()`, `setPublicaciones(publicaciones)`
+  - `getBandejaEntrada()`, `setBandejaEntrada(bandejaEntrada)`
+  - `crearPublicacion(publicacion)`
+  - `editarPublicacion(vacante)`
+  - `eliminarVacante(vacanteId)`
+
+- **Relaciones:**
+  - Muchos a 1 con `Empresa`
+  - 1 a muchos con `Publicacion/Vacante`
+
+
+
+#### **Perfil**
+Almacena información adicional del usuario (personal o empresarial), como descripción y foto de perfil.
+
+- **Atributos:**
+  - `id` (Int)
+  - `usuarioId` (Usuario)
+  - `descripcion` (String)
+  - `urlFoto` (String)
+  - `tipoPerfil` (Rol)
+
+- **Métodos:**
+  - `editarPerfil()`
+  - `getDescripcion()`, `setDescripcion(descripcion)`
+  - `getUrlFoto()`, `setUrlFoto(urlFoto)`
+
+- **Relaciones:**
+  - Muchos a 1 con `Usuario`
+
+
+#### **BandejaEntrada**
+Administra los mensajes recibidos y enviados por un reclutador.
+
+- **Atributos:**
+  - `id` (Int)
+  - `mensajes` (List<Mensaje>)
+
+- **Métodos:**
+  - `getId()`, `setId(id)`
+  - `getMensajes()`, `setMensajes(mensajes)`
+  - `recibirMensaje(mensaje)`
+  - `eliminarMensaje(mensajeId)`
+  - `leerMensaje(mensajeId)`
+
+- **Relaciones:**
+  - Composición 1 a muchos con `Mensaje`
+
+
+
+#### **Mensaje**
+Representa una comunicación individual entre usuarios (postulantes o reclutadores).
+
+- **Atributos:**
+  - `id` (Int)
+  - `emisorId` (Int)
+  - `receptorId` (Int)
+  - `contenido` (String)
+  - `fecha` (Date)
+
+- **Métodos:**
+  - `enviarMensaje()`
+  - `verMensajes()`
+
+- **Relaciones:**
+  - Muchos a 1 con `BandejaEntrada` (Composición)
+
 
 ## **4.8. Database Design**
 
