@@ -414,6 +414,14 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 | **Link:** [https://youtu.be/pNCRk7bci4Y](https://youtu.be/pNCRk7bci4Y) |
 |-Resumen: Ángela Ushiñahua es una joven marquetera digital que busca oportunidades laborales relacionadas con su carrera, especialmente en análisis de mercado y promoción de marcas. Usa principalmente Computrabajo y Facebook para buscar empleo, aunque comenta que muchas plataformas exigen experiencia laboral, lo cual le resulta frustrante como egresada. Le parece especialmente complicada la parte del CV, ya que muchas veces determina si una persona es considerada o no. Nunca ha usado plataformas que le recomienden trabajos ni que le ayuden a mejorar su currículum, pero le gustaría mucho recibir sugerencias para hacerlo más profesional. También señala que las entrevistas online pueden ser incómodas por problemas de conexión. Valora mucho que la comunicación postulación sea vía WhatsApp y considera esencial contar con un sistema de seguimiento dentro de la plataforma para evitar la incertidumbre de no saber si su postulación fue vista. En general, valora soluciones que le ahorren tiempo, le brinden orientación y le permitan tener mayor control sobre el proceso de postulación.|
 
+| **Entrevistado 3: Alejandra Gallo** |
+|------------------------------------------------|
+| ![Captura de pantalla 2025-04-26 110202](https://github.com/user-attachments/assets/81909dea-48b9-4692-ae8e-c5d54652d6a2) |
+| Distrito: Santiago de Surco/ Edad: 21 |
+| **Entrevistador:** Fabricio Lopez   |
+| **Link:** https://drive.google.com/file/d/1bYCCjXe5zIx2SusU0N-t04EQLEkZThsA/view?usp=sharing  |
+|-Resumen: Alejandra Gallo identificó que uno de los mayores retos en su búsqueda de prácticas es la falta de una plataforma centralizada que facilite el seguimiento de postulaciones y la gestión de su perfil profesional. Actualmente, se enfrenta a la dificultad de usar varias plataformas dispersas, lo que le genera incertidumbre sobre el estado de sus aplicaciones, dificultando su organización. Además, expresó su deseo de contar con una herramienta que le ayude a mejorar su CV, ofreciendo sugerencias personalizadas para destacarse ante los reclutadores.|
+
 ### **2.2.3. Análisis de entrevistas**
 
 
