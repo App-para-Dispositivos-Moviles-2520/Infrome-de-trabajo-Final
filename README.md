@@ -24,7 +24,7 @@ Sánchez Ponce, Alex Humberto
         <li>Bustamante Leveau Cameron Charlotte - U20231A804</li>
         <li>Lapa de la Cruz Gabriel Omar - U202216831</li>
         <li>Urrutia Peña Jasmin Adriana - U202310008</li>
-        <li>otro companiero</li>
+        <li>Lopez de la Cruz Mauro Fabricio</li>
     </ul>
 </div>
 
