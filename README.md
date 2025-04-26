@@ -44,6 +44,20 @@ Sánchez Ponce, Alex Humberto
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
+Enlace de la organización para el reporte del proyecto: https://github.com/orgs/Aplicaciones-WEB-Report/repositories
+
+**TB1**
+
+Para el desarrollo del informe correspondiente a la entrega TB1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Bustamante Leveau, Cameron Charllotte|Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions,Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivo, Style Guide, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Lean UX  Process, Diagrama de clases, Diccionario de clases, Una entrevista del segmento 1 |
+|Peralta Chipa, Ronald Joel| |
+|Urrutia Peña, Jasmin Adriana | |
+|Lapa de la Cruz Gabriel Omar | |
+|Mauro Fabricio Lopez de la Cruz|   |
+
 # <font color="red">**Contenido**</font>
 
 ### Tabla de contenidos
