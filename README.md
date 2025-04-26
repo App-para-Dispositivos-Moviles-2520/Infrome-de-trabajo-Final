@@ -547,7 +547,7 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 
 | **Entrevistado 1: Jhul Flores Vayou** |
 |------------------------------------------------|
-| <img src="img/EntrevistaRonald.png" alt="Entrevista1Seg1" width=75% /> |
+| <img src="img/entrevistaRonald.png" alt="Entrevista1Seg1" width=75% /> |
 | Distrito: Surco / Edad: 25 |
 | **Entrevistador:** Ronald Joel Peralta Chipa |
 | **Link:** [ https://drive.google.com/file/d/1h0NXuCKzm1I-W4wFFfn_yRM43buk1mUu/view?usp=sharing](https://drive.google.com/file/d/1h0NXuCKzm1I-W4wFFfn_yRM43buk1mUu/view?usp=sharing) |
