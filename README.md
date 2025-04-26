@@ -1722,22 +1722,225 @@ Registro de la membresía activa de un empleador, asociada a un plan. Guarda la 
 - **Campos principales:** `start_date`, `end_date`, `is_active`
 
 ---
-
 # <font color="red">**Capítulo V: Product Implementation, Validation & Deployment**</font>
 ## **5.1. Software Configuration Management**
+
+A continuación, se presentan las decisiones y convenciones que permitirán mantener la consistencia durante el ciclo de vida.
+
 ### **5.1.1. Software Development Environment Configuration**
+
+En esta sección se incluyen los links de las aplicaciones y productos de software utilizados durante el ciclo del proyecto Jobsy, en los programas que se usaron para colaborar en el desarrollo del producto digital.
+Para ello se clasifican en las siguientes secciones:
+
+
 ### **5.1.2. Source Code Management**
+1. **Project Management**  
+Es la disciplina encargada de la gestión de los proyectos, la cual tiene como objetivo principal mejorar los procesos y su entorno para alcanzar los resultados esperados.  
+- En el ciclo digital del proyecto se implementará un producto software con un modelo SaaS que se ejecutará a través de un navegador, sin embargo, no se creará una versión de aplicación móvil.
+
+---
+
+2. **Requirements Management**  
+Es el proceso de garantizar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes con las partes interesadas internas o externas.  
+- **Pivotal Tracker**: Se usó esta herramienta porque organiza bien las user stories y ayuda a mantener el avance del proyecto claro y ordenado.
+
+Link: [https://www.pivotaltracker.com/](https://www.pivotaltracker.com/)
+
+---
+
+3. **Product UX/UI Design**  
+Estas herramientas permiten desarrollar el modelo de nuestro producto de manera digital y de forma parte de la vida del consumidor. En este caso se realizó un modelo de sitio web.  
+- **Uxpressia**: Usamos esta herramienta para elaborar los User Persona, Empathy Maps, Journey Maps e Impact Maps.  
+Link: [https://uxpressia.com/](https://uxpressia.com/)
+
+- **Miro**: Se usó esta herramienta para los As-Is y To-Be Scenario Maps.  
+Link: [https://miro.com/](https://miro.com/)
+
+- **Figma**: Se usó esta herramienta para la elaboración de Wireframes, Mock-ups y Prototypes de nuestra Landing Page y nuestra Web Application.  
+Link: [https://www.figma.com/](https://www.figma.com/)
+
+- **Lucidchart**: Se usó esta herramienta para la elaboración de Wireflows y User Flows.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+4. **Software Development**  
+- **GitHub**: Es la plataforma utilizada para el control de versiones, colaboración entre los integrantes del equipo y almacenamiento del código fuente del proyecto. A través de GitHub se aplicó GitFlow para mantener un flujo de trabajo ordenado y estructurado.  
+Link: [https://github.com/](https://github.com/)
+
+- **HTML**: Se utilizó para estructurar el contenido de la Landing Page y de las vistas principales de la aplicación web, permitiendo una organización semántica del contenido.  
+Link: [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+
+- **CSS**: Fue empleado para definir el diseño visual del sitio, respetando la línea estética basada en Material Design. Se aplicaron estilos personalizados para lograr una interfaz moderna y agradable al usuario.  
+Link: [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+
+- **JavaScript**: El lenguaje de programación utilizado para implementar la lógica del lado del cliente, como validaciones, interacciones dinámicas y consumo de servicios externos.  
+Link: [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+---
+
+5. **Software Testing**  
+- **Lenguaje Gherkins**: Se utilizó Gherkins para definir los criterios de aceptación y los escenarios de prueba en un lenguaje natural, facilitando la comprensión tanto para desarrolladores como para usuarios no técnicos.  
+Link para más información: [https://profile.es/blog/que-es-gherkin/](https://profile.es/blog/que-es-gherkin/)
+
+---
+
+6. **Software Documentation**  
+- **LucidChart**: Se usó esta herramienta para la elaboración de diagramas UML y Diagramas de Base de Datos.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+- **Structurizr**: Se usó Structurizr bajo el modelo C4 para documentar la arquitectura del software, dividiendo la estructura en diferentes niveles de detalle (Context, Container, Component y Code).  
+Link: [https://structurizr.com/](https://structurizr.com/)
+
+
 ### **5.1.3. Source Code Style Guide & Conventions**
+Se adoptaron guías de estilo estándar en inglés para cada lenguaje empleado:
+
+- **HTML/CSS**: Google HTML/CSS Style Guide
+- **JavaScript**: Google JavaScript Style Guide, MDN Guidelines
+
+Esto asegura legibilidad, coherencia y facilidad de mantenimiento en todo el código del proyecto.
+
 ### **5.1.4. Software Deployment Configuration**
+La gestión del código fuente del proyecto Jobsy se realizó utilizando GitHub. Para la publicación y despliegue de la Landing Page, se empleó **GitHub Pages**, que permite una visualización directa desde el repositorio principal.
+
+Para el desarrollo y despliegue de la Landing Page de Jobsy se han utilizado las siguientes herramientas:
+
+- **HTML**: Lenguaje de marcado que permitió estructurar el contenido visual y semántico de la Landing Page. Se utilizó para crear elementos como encabezados, párrafos, botones, formularios, entre otros.
+
+- **CSS**: Lenguaje de estilos utilizado para dar formato, color, distribución y diseño gráfico a los elementos definidos en HTML. Gracias a CSS, se logró que la Landing Page sea más visualmente atractiva e interactiva.
+
+- **JavaScript**: Utilizado para añadir interactividad y dinamismo a los componentes de la Landing Page, como validaciones en formularios, navegación fluida y respuestas a eventos del usuario.
+
+Link para la visualización de la Landing Page: 
+
 ## **5.2. Landing Page, Services & Applications Implementation**
 ### **5.2.1. Sprint 1**
 #### **5.2.1.1. Sprint Planning 1**
+
+| **Sprint #**                    | Sprint 1 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  |          |
+| **Date**                        | 11/04/2025 |
+| **Time**                        | 8:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
+| **Sprint n - 1 Review Summary**  | No hubo sprint anterior |
+| **Sprint n - 1 Retrospective Summary** | No hubo sprint anterior |
+| **Sprint Goal & User Stories**   |          |
+| **Sprint 1 Goal**                | Realizar el Landing Page / Informe de trabajo |
+| **Sprint 1 Velocity**            | 10 |
+| **Sum of Story Points**          | 8 |
+
 #### **5.2.1.2. Aspect Leaders and Collaborators**
+
+| Team Member (Last Name, First Name) | GitHub Username | Implementar Home (L/C) | Implementar Contacto (L/C) | Implementar Planes (L/C) | Implementar Servicios (L/C) | Implementar Sobre Nosotros (L/C) | Implementar Testimonio (L/C) |
+|:-----------------------------------|:----------------|:-----------------------|:---------------------------|:--------------------------|:----------------------------|:-------------------------------|:----------------------------|
+| Peralta, Ronald                    | Ronni-FSTK       | L                       | L                           | C                          | C                            | C                               | C                            |
+| Bustamante, Cameron                | CameronBustamanteLeveau2 | C              | C                           | L                          | C                            | C                               | C                            |
+| Urrutia, Jazmin                    | SrtaYeis         | C                       | C                           | C                          | L                            | C                               | C                            |
+| Lopez, Mauro                       | FabricioLop      | C                       | C                           | C                          | C                            | L                               | C                            |
+| Lapa, Gabriel                      | Gabo0722         | C                       | C                           | C                          | C                            | C                               | L                            |
+
 #### **5.2.1.3. Sprint Backlog 1**
+
+| Sprint # | Sprint |          |           |             |         |         |        |
+|----------|--------|----------|-----------|-------------|---------|---------|--------|
+| **User Story** | | **Work Item / Task** | | | | | |
+| ID | Title | ID | Title | Description | Estim. Hours | Assigned | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| US010 | Registrar cuenta postulante | T1 | Implementar Home | Desarrollar la página principal que dará acceso a las funcionalidades. | 2hrs | Ronald | Done |
+|      |                                  | T2 | Implementar Contacto | Construir un formulario de contacto para que los usuarios puedan registrarse. | 3hrs | Ronald | Done |
+| US022 | Registrar método de pago | T3 | Implementar planes | Diseñar la sección que presenta los diferentes planes disponibles. | 3hrs | Jazmín | Done |
+|      |                                  | T4 | Implementar servicios | Integrar un apartado donde se detalle cada servicio ofrecido. | 3hrs | Fabricio | Done |
+| US025 | Configurar notificaciones | T5 | Implementar Sobre nosotros | Elaborar un apartado que describa la misión y visión de la página. | 2hrs | Gabriel | Done |
+|      |                                  | T6 | Implementar testimonio | Incorporar un espacio para mostrar opiniones y experiencias de clientes. | 2hrs | Cameron | Done |
+
 #### **5.2.1.4. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits correspondiente en el repositorio de la siguiente forma.
+
+- Repositorio Landing Page:
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|:----------:|:------:|:---------:|:--------------:|:------------------:|
+| Landing-Page | feat/home | 8ab70ee9b0430fa5eb1a21d8d4bbc7fab5a99691 | Update Page/Home | 25/04/2025 |
+| Landing-Page | feat/servicios | be91f5210ca4b98d7a5ff1621e2d997b1f70cfdb | fix:update ContentService | 26/04/2025 |
+| Landing-Page | feat/sobrenosotros | 9c53463046f305aeac086e92fd213e56a7a85ae6 | feat: add Sobre Nosotros in Landing Page | 26/04/2025 |
+| Landing-Page | feat/planes | 57499e38aa7636347e10a5c363e686511870da07 | feat: add membresia | 26/04/2025 |
+| Landing-Page | feat/planes | 4124f766cc3a6ecf990bb1d163a89c5e01356718 | feat(landing): agregar sección Planes/Enterprise | 26/04/2025 |
+| Landing-Page | feat/planes | e1b84cfb86447812eb9a81d3b568d024d1dfa7ec | feat: Create Plan Standard | 26/04/2025 |
+| Landing-Page | feat/testimonios | 3dfcbffb7b7d377b6de846296e24eec2102dc6d8 | feat: update Testimonios in Landing Page | 26/04/2025 |
+| Landing-Page | feat/contactos | aca53d1877cb522454cac9f079b7fdb9a1e4a0b2 | the contacts section completed | 25/04/2025 |
+
 #### **5.2.1.5. Execution Evidence for Sprint Review**
+Al concluir el primer sprint, se logró implementar todas las secciones planificadas en la landing page, garantizando una visualización óptima y atractiva para los usuarios. Se diseñó una interfaz llamativa, respetando las heurísticas de usabilidad y las mejores prácticas de desarrollo UI.
+
+Se incorporaron botones dinámicos, efectos de transición entre páginas y una barra de navegación intuitiva, todo con el propósito de ofrecer una experiencia fluida y envolvente. La landing page cumple una función clave: captar y retener a los visitantes, transformándolos en potenciales clientes interesados en nuestros servicios.
+
+**A continuación, se presentan capturas de pantalla que ilustran los avances y detalles de la interfaz.**
+
+Barra de navegacion con secciones como "Sobre Nosotros" "Servicios" "Testimonios" "Contactos" "Planes". Tambien se obersva el "Logo Home" y un boton de registro. Toda la barra navegación tiene una anmicacion de sub rayado para saber en que seccion estamos.
+
+<img src="img/barraNav.png" alt="wireflow10" width= 700/>
+
+En el home podemos observar el logo de la plataforma y un botón para el registro de usuarios nuevos. Exíste una animacion para tener una mejor experiencia al entrar al la pagina principal (home)
+
+<img src="img/home.png" alt="wireflow10" width= 700/>
+
+También se presenta la sección "Sombre nostros", un elemento clave para fortalecer nuestra credibilidad como empresa. Esta sección proporciona información detallada sobre nuestra misión y visión, permitiendo a los usuarios conocer quiénes somos y qué nos distingue en el mercado. Con ello, buscamos generar confianza y afianzar nuestra relación con potenciales clientes
+
+<img src="img/sobreNosotros.png" alt="wireflow10" width= 700/>
+
+En esta sección se destacan los servicios que ofrecemos como empresa, asegurando que nuestros visitantes tengan siempre una visión clara de nuestro enfoque y especialización. Presentamos de manera estructurada nuestras soluciones, permitiendo a los usuarios comprender cómo podemos atender sus necesidades y aportar valor. Esto refuerza nuestra identidad y facilita la conexión con el público objetivo.
+
+<img src="img/servicios.png" alt="wireflow10" width= 700/>
+
+En la sección de testimonios, los usuarios que han probado nuestro sistema comparten sus experiencias y opiniones sobre su funcionamiento. A través de sus comentarios, resaltan los beneficios y ventajas que han encontrado, reforzando la confianza en nuestra solución y demostrando su valor. Estos testimonios sirven como una referencia clave para futuros clientes, brindándoles una visión real y auténtica del impacto positivo de nuestro sistema. 
+
+<img src="img/testimonios.png" alt="wireflow10" width= 700/>
+
+La sección "Contáctanos" es fundamental dentro de nuestra landing page, ya que actúa como el puente directo entre nuestros usuarios y nosotros. A través de esta sección, los visitantes pueden solicitar información adicional o acceder a una atención más personalizada según sus necesidades. Su diseño claro e intuitivo facilita la comunicación, fortaleciendo la relación con potenciales clientes y permitiendo que la interacción sea rápida y efectiva.
+
+<img src="img/contactos.png" alt="wireflow10" width= 700/>
+
+En esta sección se presentan los dos planes disponibles: el Plan Gratis y el Plan Pro. Cada uno está diseñado para adaptarse a diferentes necesidades y niveles de servicio.
+
+<img src="img/plan.png" alt="wireflow10" width= 700/>
+
+
+
+
+
+
+
+
+
+
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review**
+Este punto, refiere a una sección donde se documenta evidencias sobre los servicios desarrollados durante el Sprint 1. 
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>EndPoint</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+          https://github.com/Aplicaciones-WEB-Report/Landing-Page-
+      </td>
+      <td>Se desplegó exitosamente la landing page de Jobsy en GitHub Pages, con navegación funcional entre secciones como Inicio, Acerca de, Servicios y Contacto.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review**
+En este Sprint, se realizó el despliegue inicial de la landing page del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
+- URL de la landing page desplegada:
+
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
 ### **5.2.2. Sprint 2**
 #### **5.2.2.1. Sprint Planning 2**
@@ -1748,6 +1951,7 @@ Registro de la membresía activa de un empleador, asociada a un plan. Guarda la 
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
+
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
 ### **5.3.2. Registro de Entrevistas**
