@@ -283,6 +283,11 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 |34|US034|Comentar sobre vacantes|Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores.|3|
 |35|US035|Comentar sobre el proceso de selección|Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes.|3|
 
+- Evidencia del Product Backlog en Trello:
+<img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
+
+- Link del Product Backlog en Trello: [https://trello.com/b/9qdSu2o9/product-backlog-smarthire](https://trello.com/b/9qdSu2o9/product-backlog-smarthire)
+
 # <font color="red">**Capítulo IV: Product Design**</font>
 
 ## **4.1. Style Guidelines**
