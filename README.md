@@ -387,6 +387,15 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 ### **2.2.2. Registro de entrevistas**
 - **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
 
+| **Entrevistado 1: Jhul Flores Vayou** |
+|------------------------------------------------|
+| <img src="img/EntrevistaRonald.png" alt="Entrevista1Seg1" width=75% /> |
+| Distrito: Surco / Edad: 25 |
+| **Entrevistador:** Ronald Joel Peralta Chipa |
+| **Link:** [ https://drive.google.com/file/d/1h0NXuCKzm1I-W4wFFfn_yRM43buk1mUu/view?usp=sharing](https://drive.google.com/file/d/1h0NXuCKzm1I-W4wFFfn_yRM43buk1mUu/view?usp=sharing) |
+|-Resumen: El entrevistado destaca la importancia de contar con una herramienta que le permita compartir sus ofertas laborales de manera rápida en todos los portales de empleo. Además, reconoce que llevar un registro manual puede resultar frustrante, complicado y riesgoso. Por ello, menciona que sería altamente beneficioso disponer de una plataforma que gestione todo el proceso de publicación y administración de ofertas laborales. Asimismo, subraya la utilidad de integrar inteligencia artificial en el proceso de contratación, específicamente para el filtrado de currículums. Esto les permitiría ahorrar tiempo y enfocarse exclusivamente en seleccionar a los candidatos más talentosos.
+|
+
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
 
 | **Entrevistado 1: Jean Fabio Noriega Collado** |
