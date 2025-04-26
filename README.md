@@ -900,5 +900,86 @@ En esta sección presentaremos el prototipo de nuestra Aplicación Web, para la 
 ### **4.7.2. Class Dictionary**
 
 ## **4.8. Database Design**
+
+Implementación de la base de datos aplicado a nuestro proyecto
+
 ### **4.8.1. Database Diagram**
+
+En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
+
+![DB](https://github.com/user-attachments/assets/913b4bb5-095d-467b-89ab-d0c8b4d1d6ec)
+
+
+
+## 🗃️ Estructura de la Base de Datos – Jobsy
+
+### 1. `User`
+Contiene la información principal de autenticación y rol. Los usuarios pueden ser candidatos, empleadores o administradores.
+
+- **Campos principales:** `email`, `password`, `role`
+
+---
+
+### 2. `CandidateProfile`
+Almacena detalles adicionales del usuario con rol de candidato: información personal, habilidades, experiencia y CV.
+
+- **Campos principales:** `full_name`, `skills`, `resume`, `experience`
+
+---
+
+### 3. `EmployerProfile`
+Información de los usuarios empleadores, como nombre de empresa, descripción y sitio web.
+
+- **Campos principales:** `company_name`, `description`, `logo_url`
+
+---
+
+### 4. `JobOffer`
+Publicaciones de empleos creadas por los empleadores. Incluye título, requisitos, ubicación y rango salarial.
+
+- **Campos principales:** `title`, `description`, `requirements`, `salary_range`
+
+---
+
+### 5. `Application`
+Relación entre un candidato y una oferta laboral. Guarda el estado del proceso de postulación.
+
+- **Campos principales:** `job_offer_id`, `candidate_id`, `status`
+
+---
+
+### 6. `Message`
+Mensajes enviados entre usuarios (candidatos y empleadores) dentro de la plataforma.
+
+- **Campos principales:** `sender_id`, `receiver_id`, `content`
+
+---
+
+### 7. `Interview`
+Entrevistas agendadas entre empleadores y candidatos, incluyendo fecha, lugar y modalidad.
+
+- **Campos principales:** `scheduled_date`, `interview_mode`, `status`
+
+---
+
+### 8. `Evaluation`
+Evaluaciones realizadas por empleadores luego de las entrevistas. Permite puntuar y dejar comentarios sobre el candidato.
+
+- **Campos principales:** `rating`, `comments`, `evaluation_date`
+
+---
+
+### 9. `MembershipPlan`
+Planes de membresía disponibles (estándar y empresarial). Define el costo y duración.
+
+- **Campos principales:** `name`, `price`, `duration_days`
+
+---
+
+### 10. `EmployerMembership`
+Registro de la membresía activa de un empleador, asociada a un plan. Guarda la vigencia y estado.
+
+- **Campos principales:** `start_date`, `end_date`, `is_active`
+
+---
 
