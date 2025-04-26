@@ -591,8 +591,23 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 |-Resumen: Alejandra Gallo identificó que uno de los mayores retos en su búsqueda de prácticas es la falta de una plataforma centralizada que facilite el seguimiento de postulaciones y la gestión de su perfil profesional. Actualmente, se enfrenta a la dificultad de usar varias plataformas dispersas, lo que le genera incertidumbre sobre el estado de sus aplicaciones, dificultando su organización. Además, expresó su deseo de contar con una herramienta que le ayude a mejorar su CV, ofreciendo sugerencias personalizadas para destacarse ante los reclutadores.|
 
 ### **2.2.3. Análisis de entrevistas**
+-Segmento 1: 
+Los equipos de Recursos Humanos buscan herramientas que agilicen y centralicen la publicación y administración de ofertas laborales. Existe una clara necesidad de reducir el trabajo manual, minimizar riesgos de errores y optimizar el tiempo destinado a tareas operativas. Además, valoran la incorporación de tecnologías como la inteligencia artificial para automatizar el filtrado de currículums, mejorando así la calidad del proceso de selección. En resumen, requieren soluciones que les permitan trabajar de manera más eficiente, segura y estratégica.
 
+-Segmento 2:
+Los postulantes enfrentan frustraciones principalmente por la desorganización en las plataformas actuales, la falta de seguimiento en sus postulaciones y la dificultad de destacarse sin experiencia previa. Valoran mucho las soluciones que automaticen procesos tediosos, les brinden sugerencias para mejorar su perfil profesional y centralicen la búsqueda de empleo. También consideran esencial una comunicación rápida y clara, idealmente mediante canales como WhatsApp. En general, buscan plataformas que les ahorren tiempo, reduzcan el estrés del proceso de búsqueda y aumenten sus posibilidades de ser contratados.
 
+---
+| Categoría                                         | Segmento 1 (%) | Segmento 2 (%) |
+|---------------------------------------------------|----------------|----------------|
+| Necesita automatizar o agilizar procesos          | 100%           | 100%           |
+| Desea mejorar su experiencia en el proceso        | 100%           | 100%           |
+| Quiere ayuda para mejorar su CV                   | 0%             | 66%            |
+| Valora el seguimiento/estado de su postulación    | 0%             | 66%            |
+| Usa o valora integración con redes/plataformas    | 100%           | 33%            |
+| Encuentra frustrante el proceso de búsqueda       | 100%           | 100%           |
+
+---
 ## **2.3. Needfinding**
 La sección de Needfinding tiene como objetivo identificar las necesidades y problemas específicos de los usuarios que SmartHire pretende resolver. A través de investigaciones y análisis cualitativos y cuantitativos, se detectan oportunidades clave para mejorar la experiencia del usuario, basándose principalmente en entrevistas. Así mismo, se definen los aspectos esenciales que deberán abordarse para lograr una solución efectiva y centrada en el usuario.  
 ### **2.3.1. User Personas**
