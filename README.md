@@ -55,7 +55,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Bustamante Leveau, Cameron Charllotte|Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions,Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivo, Style Guide, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Lean UX  Process, Diagrama de clases, Diccionario de clases, Una entrevista del segmento 1 |
 |Peralta Chipa, Ronald Joel| |
 |Urrutia Peña, Jasmin Adriana | |
-|Lapa de la Cruz Gabriel Omar | |
+|Lapa de la Cruz, Gabriel Omar | Registro de entrevista (segmento objetivo Postulantes), User Stories, Impact Mapping, Product Backlog, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
 |Mauro Fabricio Lopez de la Cruz|   |
 
 # <font color="red">**Contenido**</font>
