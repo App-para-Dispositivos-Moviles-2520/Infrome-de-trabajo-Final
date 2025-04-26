@@ -891,6 +891,8 @@ En esta sección presentaremos el prototipo de nuestra Aplicación Web, para la 
 -Link del prototipo realizado en figma: [https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1](https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1)
 
 ## **4.6. Domain-Driven Software Architecture**
+En esta sección se presentarán los diagramas de arquitectura de software diseñados para nuestra aplicación web. Hemos aplicado patrones de diseño de alto nivel, bajo el enfoque de Domain-Driven, lo que nos permitirá comunicar la arquitectura de manera clara, eficiente y efectiva
+
 ### **4.6.1. Software Architecture Context Diagram**
 A continuación, se presenta el diagrama de contexto de nuestro software, un artefacto que ilustra cómo el sistema interactúa con su entorno, destacando los aspectos clave de su arquitectura.
 
@@ -900,7 +902,29 @@ A continuación, se presenta el diagrama de contexto de nuestro software, un art
 A continuación, se presentará el diagrama de contenedores de nuestro sistema, un artefacto que expone los componentes técnicos de alto nivel, ofreciendo una visión ampliada de la arquitectura del software."
 
 <img src="img/D-Contenedor.png" alt="wireflow10" width= 700/>
+
 ### **4.6.3. Software Architecture Components Diagrams**
+En esta sección se presentará el diagrama de componentes de nuestra arquitectura de software. En él se detallan los elementos que conforman nuestros contenedores, además de especificar sus responsabilidades y los aspectos tecnológicos de su implementación.
+
+**diagrama de componentes de Publicaciones.**
+
+<img src="img/D-C-Publicaciones.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Candidatos.**
+
+<img src="img/D-C-Candidatos.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Candidatos.**
+
+<img src="img/D-C-Analiticos.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Analíticos.**
+
+<img src="img/D-C-IA.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Perfil.**
+
+<img src="img/D-C-Perfil.png" alt="wireflow10" width= 700/>
 
 ## **4.7. Software Object-Oriented Design**
 ### **4.7.1. Class Diagrams**
