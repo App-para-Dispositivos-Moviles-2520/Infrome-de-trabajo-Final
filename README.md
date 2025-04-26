@@ -155,26 +155,156 @@ Sánchez Ponce, Alex Humberto
 # <font color="red"> **Capítulo I: Introducción** </font>
 
 ## **1.1. Startup Profile**
+A continuación, se presenta una descripción de nuestra empresa **Jobsy**, así como la presentación del equipo de desarrollo responsable del software previamente mencionado, denominado **"Smarthire"**.
+
 ### **1.1.1. Descripción de la Startup**
+
+En la actualidad, muchas áreas de Recursos Humanos enfrentan dificultades para mantener una atención de calidad hacia los postulantes a empleos. Se ha identificado un alto nivel de estrés laboral en estos equipos, causado principalmente por la sobrecarga de tareas repetitivas como la revisión manual de currículums, la publicación de vacantes en múltiples plataformas y la coordinación de entrevistas. Esta carga operativa no solo ralentiza los procesos de selección, sino que también afecta negativamente la experiencia del candidato y la eficiencia del equipo de RRHH.
+
+Jobsy nace como una solución tecnológica innovadora que busca transformar este panorama. A través de nuestra plataforma "Smarthire", automatizamos las tareas más operativas del proceso de selección: desde la publicación inteligente de vacantes y el filtrado de CVs mediante inteligencia artificial, hasta la organización de entrevistas y evaluaciones técnicas o psicométricas. Además, ofrecemos integración con herramientas ampliamente utilizadas como LinkedIn, InfoJobs y CompuTrabajo, lo que permite una mayor difusión de las ofertas laborales con un solo clic.
+
+Con Jobsy, aspiramos a optimizar el proceso de trabajo a los equipos de RRHH para que puedan enfocarse en lo que realmente importa: atraer, conocer y seleccionar al mejor talento humano, dejando en manos de la tecnología las tareas repetitivas y mecánicas.
+
+Nuestra misión es brindar a las áreas de Recursos Humanos una plataforma inteligente que simplifique, agilice y optimice los procesos de selección de personal, mediante herramientas tecnológicas que permitan reducir la carga operativa y mejorar la experiencia tanto del reclutador como del postulante.
+
+Nuestra visión es ser la solución líder en Latinoamérica en automatización del reclutamiento, reconocida por transformar la forma en que las empresas encuentran, seleccionan y gestionan talento, impulsando procesos más humanos, eficientes y estratégicos.
+
 ### **1.1.2. Perfiles de integrantes del equipo**
+| Foto | Información |
+|------|-------------|
+| ![Foto de Ronald](img/ronald.png) | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
+| ![Foto de Cameron](img/cameron.png) | **Nombres y apellidos:** Cameron Charllotte Bustamante Leveau<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
+| ![Foto de Jasmin](img/jasmin.png) | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| ![Foto de Fabricio](img/fabricio.png) | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
+| ![Foto de Gabo](img/gabo.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
 
 ## **1.2. Solution Profile**
+En esta sección detallamos el funcionamiento y propuesta de valor de nuestro producto digital, resaltando tanto su factor innovador como su esquema de monetización.
+#### Product Name.
+El nombre de nuestra plataforma es “SmartHire". Se eligió este nombre por su enfoque claro en contrataciones inteligentes, eficientes y adaptadas a las necesidades del mercado moderno. La palabra "Smart" hace alusión a la inteligencia artificial y la automatización que optimizan todo el proceso de reclutamiento, mientras que "Hire" transmite de manera directa su propósito principal. Esta combinación genera confianza y comunica una propuesta clara: contrataciones más rápidas, precisas y efectivas.
+
+#### Product Description.
+Una vez publicada la oferta, la plataforma centraliza la recepción de postulaciones y aplica filtros inteligentes que clasifican automáticamente los CVs en categorías como "aptos", "en duda" y "descartados", según criterios personalizados. Desde un panel interactivo, los reclutadores pueden refinar los resultados, aplicar filtros avanzados, enviar pruebas técnicas automatizadas y agendar entrevistas directamente desde la plataforma. Además, SmartHire permite generar contratos laborales digitales y gestionar el onboarding del nuevo colaborador, incluyendo accesos, checklist de incorporación y recursos de bienvenida. Finalmente, se dispone de un dashboard con métricas de rendimiento, como tiempo promedio de contratación o eficiencia del embudo, que permiten mejorar procesos futuros con base en datos reales.
+
+#### Monetization.
+SmartHire adoptará un modelo de negocio tipo Software as a Service (SaaS), dirigido a empresas y organizaciones que deseen mejorar sus procesos de reclutamiento. Las compañías pagarán una suscripción mensual o anual para acceder a todas las funcionalidades de la plataforma, incluyendo la publicación automática de vacantes, el filtrado inteligente de CVs con IA, la programación de entrevistas, y el seguimiento completo del proceso de selección.
+
 ### **1.2.1. Antecedentes y problemática**
+Descripción de la problemática.
+En el contexto actual, los procesos de reclutamiento y selección en muchas empresas siguen siendo largos, ineficientes y, en varios casos, propensos a errores humanos o sesgos. Las áreas de Recursos Humanos deben revisar manualmente cientos de currículums, coordinar entrevistas por distintos canales y hacer seguimiento de manera dispersa, lo cual genera demoras, sobrecarga operativa y una experiencia poco fluida tanto para el candidato como para la empresa.
+
+A pesar de que existen soluciones tecnológicas que buscan optimizar estos procesos, muchas de ellas no se adaptan completamente a la realidad local o presentan costos elevados. Además, gran parte de estas plataformas están diseñadas para grandes corporaciones, dejando de lado a medianas y pequeñas empresas que también necesitan contratar talento de manera ágil y eficiente.
+
+En ese contexto, surge la necesidad de una herramienta centralizada, intuitiva y automatizada que facilite el proceso de contratación, desde la publicación de vacantes hasta la incorporación del candidato. Una solución que ahorre tiempo, reduzca sesgos y permita a los equipos de RRHH tomar decisiones basadas en datos. SmartHire nace para atender esta problemática con un enfoque moderno, accesible y adaptable a distintos tamaños de empresa.
+
+La metodología 5W y 2H es una herramienta práctica y eficaz para solucionar problemas relacionados a la gestión y análisis de datos. Este enfoque nos permite responder siete preguntas fundamentales que permiten abordar cualquier situación de manera estructurada. 
+
 ### **What (¿Qué?)**
+Las empresas enfrentan procesos de selección lentos, poco eficientes y con alta carga operativa, lo que genera pérdida de tiempo, errores humanos y una experiencia insatisfactoria tanto para los reclutadores como para los candidatos.
 ### **Who (¿Quién?)**
+A reclutadores, responsables de selección de personal, y en general a los equipos de Recursos Humanos que deben gestionar múltiples procesos de contratación con recursos limitados. También afecta a los postulantes, que no siempre reciben una experiencia clara ni oportuna.
 ### **Where (¿Dónde?)**
+En los departamentos de Recursos Humanos de empresas de distintos tamaños, especialmente en aquellas que aún no cuentan con herramientas tecnológicas integradas o que usan soluciones dispersas y poco automatizadas.
 ### **When (¿Cuándo?)**
+Durante todo el proceso de contratación, desde la creación y publicación de vacantes, hasta la recepción, filtrado de CVs, entrevistas y selección final. El problema se intensifica cuando hay muchas postulaciones o vacantes urgentes.
 ### **Why (¿Por qué?)**
+La falta de automatización y digitalización en los procesos de reclutamiento. Muchas tareas se hacen manualmente, lo que consume tiempo, aumenta el margen de error y dificulta la organización y el seguimiento de candidatos.
 ### **How (¿Cómo?)**
+Ocurre cuando los reclutadores deben buscar candidatos entre cientos de CVs, usar múltiples herramientas para comunicarse y evaluar, y realizar seguimiento manual de cada etapa. Todo esto provoca demoras, decisiones poco informadas y frustración en el equipo.
 ### **How much (¿Cuánto?)**
-
+De acuerdo con el portal El HuffPost (2025). La digitalización se ha convertido en un pilar esencial en la gestión del talento, permitiendo a las empresas automatizar procesos críticos como la administración de nóminas y la gestión documental. Esto no solo facilita la toma de decisiones informadas y mejora la eficiencia en los departamentos de Recursos Humanos, sino que también optimiza la experiencia del empleado al proporcionar acceso rápido y seguro a su información personal y profesional. Además, la implementación de herramientas digitales reduce la carga de trabajo manual, minimiza errores y libera tiempo para que el personal de RRHH se enfoque en actividades estratégicas como el desarrollo del talento y la planificación organizacional. En el contexto de SmartHire, estas ventajas se potencian al ofrecer una plataforma integral que centraliza y automatiza todo el proceso de reclutamiento y selección, desde la publicación de vacantes hasta la incorporación de nuevos empleados, mejorando significativamente la eficiencia y efectividad del área de Recursos Humanos.
 ### **1.2.2. Lean UX Process**
-#### **1.2.2.1. Lean UX Problem Statements**
-#### **1.2.2.2. Lean UX Assumptions**
-#### **1.2.2.3. Lean UX Hypothesis Statements**
-#### **1.2.2.4. Lean UX Canvas**
+Lean UX es una metodología ágil que pone énfasis en la colaboración constante y el aprendizaje iterativo durante el desarrollo de un producto, priorizando la acción sobre la documentación exhaustiva. Este enfoque impulsa el trabajo conjunto entre los equipos de diseño y desarrollo, quienes crean prototipos y obtienen retroalimentación valiosa mediante ciclos de mejora continua.
 
+Su objetivo esencial es validar hipótesis de forma ágil y con el menor uso de recursos, garantizando así que el resultado final sea adaptable y responda verdaderamente a las necesidades de los usuarios (Gothelf, 2013).
+#### **1.2.2.1. Lean UX Problem Statements**
+Nuestra Startup fue diseñada para optimizar y modernizar los procesos de selección de personal, brindando a las empresas una plataforma centralizada, automatizada e intuitiva que permite realizar contrataciones más rápidas, precisas y efectivas.
+Hemos observado que el proceso de reclutamiento no está cumpliendo con estos objetivos en muchas empresas, ya que los equipos de Recursos Humanos enfrentan dificultades al gestionar manualmente grandes volúmenes de postulaciones, coordinar entrevistas en múltiples canales y tomar decisiones sin datos claros o centralizados.
+Esto está causando retrasos en las contrataciones, errores humanos y una experiencia poco satisfactoria tanto para los candidatos como para los reclutadores, lo cual impacta negativamente en la eficiencia operativa y en la capacidad de atraer talento de calidad.
+¿Cómo podemos mejorar la eficiencia operativa y la calidad de las contrataciones, proporcionando una plataforma web que automatice el filtrado de CVs, centralice todas las etapas del proceso y ofrezca métricas útiles para una toma de decisiones estratégicas basada en datos objetivos?
+#### **1.2.2.2. Lean UX Assumptions**
+<b>- Business Outcomes:</b><br>
+<p align="justify">
+Nuestra plataforma está diseñada para automatizar las tareas críticas del área de Recursos Humanos, mejorando su productividad y reduciendo los costos operativos asociados a los métodos tradicionales. Al ofrecer una solución moderna, accesible y basada en datos, aspiramos a posicionarnos como una herramienta esencial para empresas grandes, medianas y pequeñas que buscan profesionalizar su gestión de talento.
+Suponemos que al ofrecer Jobsy como una solución innovadora, confiable y enfocada en optimizar el proceso de contratación, lograremos ventas directas a empresas medianas interesadas en planes mensuales o anuales. Esto nos permitirá generar ingresos sostenibles, alcanzar una rentabilidad y recuperar la inversión inicial dentro del primer año tras el despliegue de la aplicación.
+</p>
+
+<b>- User Outcomes:</b><br>
+<p align="justify">
+Cuando los equipos de Recursos Humanos utilicen Jobsy, experimentarán una mejora significativa en la eficiencia de sus procesos de reclutamiento. Al centralizar herramientas clave como el filtrado automático de CVs y la programación de entrevistas, podrán ahorrar tiempo, tomar decisiones más informadas y reducir la carga operativa. Esto les permitirá enfocarse en tareas más estratégicas, mejorar la experiencia del candidato y aumentar la calidad general de las contrataciones, sintiéndose más satisfechos con su trabajo y sus resultados.
+</p>
+
+<b>Features y Assumptions:</b><br>
+<p align="justify">
+<b> - Filtrado inteligente de CVs con IA:</b> Suponemos que los reclutadores confían en algoritmos para preseleccionar candidatos de forma precisa, según el cumplimiento de aptitudes registradas para el puesto. <br><br>
+<b> - Panel interactivo de gestión de postulaciones:</b> El usuario desea tener control visual y rápido del estado de cada postulación. <br><br>
+<b> - Envío automatizado de pruebas técnicas:</b> Suponemos que los usuarios prefieren automatizar esta etapa para reducir la carga operativa y garantizar una evaluación estandarizada de los postulantes. <br><br>
+<b> - Agendamiento de entrevistas desde la plataforma:</b> Suponemos que los reclutadores valoran poder coordinar entrevistas desde un solo lugar, sin depender de herramientas externas. <br><br>
+<b> - Generación de contratos digitales y gestión del onboarding:</b> Suponemos que las empresas desean digitalizar completamente el proceso de incorporación para hacerlo más ágil y ordenado. <br><br>
+<b> - Publicación automatizada de vacantes:</b> Suponemos que los usuarios valoran poder publicar vacantes de manera rápida y sugerida. <br><br>
+<b> - Sistema de seguimiento de candidatos:</b> Suponemos que los reclutadores necesitan una línea de tiempo clara del proceso de cada candidato para evitar confusiones. <br><br>
+<b> - Gamificación para evaluar habilidades blandas:</b> Suponemos que los reclutadores estarán abiertos a utilizar dinámicas interactivas para detectar rasgos como liderazgo, comunicación o trabajo en equipo de manera más natural y divertida. <br><br>
+<b> - Organizador de evaluación y entrevistas programadas:</b> Suponemos que los usuarios valorarán tener una agenda donde puedan gestionar fechas y recordatorios de todos los candidatos en un solo lugar.
+</p>
+
+#### **1.2.2.3. Lean UX Hypothesis Statements**
+<ol>
+  <li>
+    <p align="justify"><b>Hipótesis 1:</b><br>
+    Creemos que los reclutadores preferirán el filtrado inteligente por IA frente a la revisión manual de CVs.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos que al menos el 70% de los usuarios usa el filtrado automático.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 2:</b><br>
+    Creemos que la publicación automatizada de vacantes facilitará una mayor difusión de las ofertas laborales y reducirá el tiempo de publicación.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos una reducción del 50% en el tiempo promedio que toma publicar las vacantes en otros portales.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 3:</b><br>
+    Creemos que el sistema de seguimiento de candidatos permitirá una gestión más ordenada y eficiente del proceso de selección.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando los usuarios consulten y actualicen el estado de los candidatos frecuentemente dentro del sistema.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 4:</b><br>
+    Creemos que la gamificación para evaluar habilidades blandas mejorará el nivel de engagement de los postulantes y facilitará la evaluación de competencias sociales.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando más del 50% de los candidatos completen las pruebas gamificadas y los reclutadores tomen en cuenta esto en su decisión final.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 5:</b><br>
+    Creemos que los usuarios valorarán tener una agenda donde puedan gestionar fechas y recordatorios de todos los candidatos en un solo lugar.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos que al menos el 75% de los usuarios utilizan activamente la agenda para programar entrevistas y establecer recordatorios durante el proceso de evaluación.
+    </p>
+  </li>
+</ol>
+
+#### **1.2.2.4. Lean UX Canvas**
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeChJjk9rz2GE1ZGx9Ik6Tb2uyG76_3iCMBSgNx_56x-wLz8njRZFbxBwEusDlFwnuKPwRoafOCOr-3Gel2mIydUgrVS_oD7YuV2xB7ZQwZMzZ-YPhR7Z-8BW5X_t1aKGwy3WIMGw?key=gvlLacgsz9NCnDkMVc0Umifa" />
 ## **1.3. Segmentos objetivo**
+<b>Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación</b>
+<ul>
+  <li><p align="justify">Empresas medianas (entre 50 y 250 empleados) que no cuentan con soluciones completas de automatización.</p></li>
+  <li><p align="justify">Equipos de Recursos Humanos conformados por 1 a 5 personas, que gestionan múltiples vacantes al mes.</p></li>
+  <li><p align="justify">Profesionales con entre 25 y 45 años de edad, con experiencia en selección de personal, reclutamiento y gestión de talento.</p></li>
+  <li><p align="justify">Sectores como tecnología, servicios, comercio y educación, donde la rotación de personal suele ser más alta.</p></li>
+  <li><p align="justify">Ubicadas en contextos urbanos, con cierta familiaridad con herramientas digitales, pero que aún utilizan procesos manuales o poco integrados.</p></li>
+</ul>
+
+<b>Segmento 2: Postulantes (Candidatos para el empleo)</b>
+<ul>
+  <li><p align="justify">Jóvenes profesionales y técnicos entre 22 y 35 años, egresados de universidades o institutos técnicos.</p></li>
+  <li><p align="justify">Personas con experiencia laboral previa de entre 1 y 5 años, principalmente en áreas como tecnología, diseño, administración, ventas o atención al cliente.</p></li>
+  <li><p align="justify">Residentes de zonas urbanas con acceso a internet y familiarizados con el uso de plataformas digitales para postularse (como LinkedIn, Computrabajo, etc.).</p></li>
+  <li><p align="justify">Personas que valoran una experiencia de postulación clara, ágil y moderna, con comunicación rápida y procesos más transparentes.</p></li>
+  <li><p align="justify">Interesados en empresas que tengan procesos actualizados, con posibilidad de seguimiento de su postulación, evaluaciones claras y entrevistas organizadas.</p></li>
+</ul>
 
 # <font color="red"> **Capítulo II: Requirements Elicitation & Analysis**</font>
 
@@ -380,7 +510,6 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 - Actualizaciones constantes basadas en feedback del usuario.
 - Ofrecer herramientas simples y efectivas para empresas en crecimiento o startups.
 - Integración con IA para mejorar el perfilamiento de candidatos y análisis de vacantes.
-
 
 ## **2.2. Entrevistas**
 ### **2.2.1. Diseño de entrevistas**
