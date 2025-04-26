@@ -163,6 +163,13 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
     - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
     - [**5.3.3. Evaluaciones según heurísticas**](#533-evaluaciones-según-heurísticas)
+
+[Conclusiones](#conclusiones)
+
+[Bibliografía](#bibliografía)
+
+[Anexos](#anexos)
+
    
 # <font color="red">**Student Outcome**</font>
 
@@ -2145,3 +2152,25 @@ En este Sprint, se realizó el despliegue inicial de la landing page del proyect
 ### **5.3.1. Diseño de Entrevistas**
 ### **5.3.2. Registro de Entrevistas**
 ### **5.3.3. Evaluaciones según heurísticas**
+
+
+## Conclusiones
+
+- _Implementación de buenas prácticas en el desarrollo:_
+    Se respetaron estándares de codificación, se utilizó Git para el control de versiones y se siguieron convenciones definidas para los mensajes de commit. Esto permitió lograr un código ordenado, modular y preparado para futuras ampliaciones. Además, se aplicó un diseño responsivo que asegura una buena experiencia en distintos dispositivos.
+
+- _Enfoque en el usuario:_
+    La estructura del contenido y el diseño visual se planificaron con base en las necesidades de los usuarios. Se priorizaron la claridad, la facilidad de uso y la accesibilidad, con el objetivo de construir una experiencia de usuario satisfactoria y fluida.
+
+- _Lecciones aprendidas durante el proceso:_
+    Durante el Sprint se identificaron áreas de mejora, principalmente en la distribución de tareas y en la gestión del tiempo. Estos aprendizajes serán aplicados en futuros ciclos de trabajo para optimizar la eficiencia y garantizar el logro de las metas propuestas.
+
+## Bibliografía
+
+- Gothelf, J., & Seiden, J. (2013). *Lean UX: Applying lean principles to improve user experience*. Recuperado de [https://books.google.es/books?hl=es&lr=&id=7TDQ4WZ1BHoC&oi=fnd&pg=PR9&dq=Lean+UX+2013&ots=wcoh1DeAHp&sig=BUw_djW-_fO2xALUpzNdHv3pJaA#v=onepage&q=Lean%20UX%202013&f=false](https://books.google.es/books?hl=es&lr=&id=7TDQ4WZ1BHoC&oi=fnd&pg=PR9&dq=Lean+UX+2013&ots=wcoh1DeAHp&sig=BUw_djW-_fO2xALUpzNdHv3pJaA#v=onepage&q=Lean%20UX%202013&f=false)
+
+- El HuffPost. (2025). *Gestión de talento y digitalización: el nuevo desafío para empresas en 2025*. Recuperado de [https://www.huffingtonpost.es/economia/gestion-talento-digitalizacion-nuevo-desafio-empresas-2025.html](https://www.huffingtonpost.es/economia/gestion-talento-digitalizacion-nuevo-desafio-empresas-2025.html)
+
+<hr>
+
+## Anexos
