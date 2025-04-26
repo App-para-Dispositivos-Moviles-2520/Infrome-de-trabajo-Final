@@ -2075,36 +2075,34 @@ Se incorporaron botones dinámicos, efectos de transición entre páginas y una 
 **A continuación, se presentan capturas de pantalla que ilustran los avances y detalles de la interfaz.**
 
 Barra de navegacion con secciones como "Sobre Nosotros" "Servicios" "Testimonios" "Contactos" "Planes". Tambien se obersva el "Logo Home" y un boton de registro. Toda la barra navegación tiene una anmicacion de sub rayado para saber en que seccion estamos.
-
-<img src="img/barraNav.png" alt="wireflow10" width= 700/>
-
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXE7CwcrLqdqfqNeigpWE30EFdPeTEBOVlg31mAoB5gYtC9Sbe0jZb8Pw6jyXjupDRCwo07r7bYTYCLCTCjGTk7SLLUmeyHGgvVluPyRhwqyrzsBmfxSQShW_0deedoxhs4fkqsg?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
 En el home podemos observar el logo de la plataforma y un botón para el registro de usuarios nuevos. Exíste una animacion para tener una mejor experiencia al entrar al la pagina principal (home)
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAbgMstbpniG4YKtq4oOl4E_umYiI_rBzE096AbGc-H09iQ1cgmGKrt9GI9_6jb5MsecXiCRrD0rODL7F63L6LnaJ9YoNE8ewErJAzWyR0hx8DAeYxV9OxeqQqATZgk4VxeB5vlw?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+También se presenta la sección "Sobre nostros", un elemento clave para fortalecer nuestra credibilidad como empresa. Esta sección proporciona información detallada sobre nuestra misión y visión, permitiendo a los usuarios conocer quiénes somos y qué nos distingue en el mercado. Con ello, buscamos generar confianza y afianzar nuestra relación con potenciales clientes
 
-<img src="img/home.png" alt="wireflow10" width= 700/>
-
-También se presenta la sección "Sombre nostros", un elemento clave para fortalecer nuestra credibilidad como empresa. Esta sección proporciona información detallada sobre nuestra misión y visión, permitiendo a los usuarios conocer quiénes somos y qué nos distingue en el mercado. Con ello, buscamos generar confianza y afianzar nuestra relación con potenciales clientes
-
-<img src="img/sobreNosotros.png" alt="wireflow10" width= 700/>
-
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdb9v1Xheix0nrTFWx6xBDvP3aQa2cQyGCz0dOQxHqpC_9WdVQAH2cxjsx7MQryWy_FXx71XG2NoFN1IRjm7NPuQfX2wvmDp5lh6ObobVZcYSoGt_zC4zW6mtBV8r3JQ2Vvk9wlcw?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
 En esta sección se destacan los servicios que ofrecemos como empresa, asegurando que nuestros visitantes tengan siempre una visión clara de nuestro enfoque y especialización. Presentamos de manera estructurada nuestras soluciones, permitiendo a los usuarios comprender cómo podemos atender sus necesidades y aportar valor. Esto refuerza nuestra identidad y facilita la conexión con el público objetivo.
-
-<img src="img/servicios.png" alt="wireflow10" width= 700/>
-
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAJz-8WuqP4arRmNmizZLFMuKagytuP7Rn1NRkDEnQmQ1eHYq76GDbKm0chRhbI_o488KlS5ee5nrlVJq7W-Uf_-yTvLi0IuEePa-D9Llgg7NfN8gYAbQmmZ45PXKXJWb-HkWYqg?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
 En la sección de testimonios, los usuarios que han probado nuestro sistema comparten sus experiencias y opiniones sobre su funcionamiento. A través de sus comentarios, resaltan los beneficios y ventajas que han encontrado, reforzando la confianza en nuestra solución y demostrando su valor. Estos testimonios sirven como una referencia clave para futuros clientes, brindándoles una visión real y auténtica del impacto positivo de nuestro sistema. 
-
-<img src="img/testimonios.png" alt="wireflow10" width= 700/>
-
-La sección "Contáctanos" es fundamental dentro de nuestra landing page, ya que actúa como el puente directo entre nuestros usuarios y nosotros. A través de esta sección, los visitantes pueden solicitar información adicional o acceder a una atención más personalizada según sus necesidades. Su diseño claro e intuitivo facilita la comunicación, fortaleciendo la relación con potenciales clientes y permitiendo que la interacción sea rápida y efectiva.
-
-<img src="img/contactos.png" alt="wireflow10" width= 700/>
-
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJMUnRJq16mVR8MMF_J4xJAePL1llSMakoEuQyv4zVEFMscLIZazuS_hj_GpeuGKDiNNCDLap8hp0YEshR9y6dRCwg4NUP3XNOL0jdImq4WeSR4p_8ORZQWRvjFfAdgH48NJdEyA?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
 En esta sección se presentan los dos planes disponibles: el Plan Gratis y el Plan Pro. Cada uno está diseñado para adaptarse a diferentes necesidades y niveles de servicio.
-
-<img src="img/plan.png" alt="wireflow10" width= 700/>
-
-
-
-
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjndDMNKZxf2rfNsx4KQpkA7ZM5gBOLvo9DXbVyXdcU4TaCOkGKkWZZ-LkDou2ieJRNwmHzNu_9IY3t7u7_OI0T1lo11t8BK_3yJUPxcuVadHYdaCaFybaBG-R8ssPrZNLGYstKQ?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+La sección "Contáctanos" es fundamental dentro de nuestra landing page, ya que actúa como el puente directo entre nuestros usuarios y nosotros. A través de esta sección, los visitantes pueden solicitar información adicional o acceder a una atención más personalizada según sus necesidades. Su diseño claro e intuitivo facilita la comunicación, fortaleciendo la relación con potenciales clientes y permitiendo que la interacción sea rápida y efectiva.
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdouAIcWgfc42cR4LVFQfch224jW1IKdDHzulCT5LOwLn-jish-7PezG7hRJqPA2SRwCnUIqkjqBXblPRUK9zqv4Au-1ufgWIEDxmEfb8gbgFAymu3vrxWhyAbE9jhkURN7X6z6?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
 
 
 
