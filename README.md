@@ -554,6 +554,16 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 |-Resumen: El entrevistado destaca la importancia de contar con una herramienta que le permita compartir sus ofertas laborales de manera rápida en todos los portales de empleo. Además, reconoce que llevar un registro manual puede resultar frustrante, complicado y riesgoso. Por ello, menciona que sería altamente beneficioso disponer de una plataforma que gestione todo el proceso de publicación y administración de ofertas laborales. Asimismo, subraya la utilidad de integrar inteligencia artificial en el proceso de contratación, específicamente para el filtrado de currículums. Esto les permitiría ahorrar tiempo y enfocarse exclusivamente en seleccionar a los candidatos más talentosos.
 |
 
+| **Entrevistado 2: Marllely Arias Segil** |
+|------------------------------------------------|
+| <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe59cynp1KiJhoFm5sGwwZwIYcC4ACUfR9Uc9UyZ9qOcSDSz0Z4W5eayObSHVWNRPw_Wr6syvsSq-MAWIBqoVxYtwho6zg8JbsBeB9UrKCaynWbpfWXY4pGZfCDQ_uJK_6J_v6r2Q?key=gvlLacgsz9NCnDkMVc0Umifa" alt="Entrevista1Seg1" width=75% /> |
+| Distrito: Surco / Edad: 24 |
+| **Entrevistador:** Cameron Bustamante Leveau |
+| **Link:** https://drive.google.com/file/d/15o2w2b_xtysiImqKzx-gPD74JtwkbIJ4/view?usp=share_link |
+|-Resumen: Marllely trabaja en el área de Recursos Humanos y utiliza frecuentemente plataformas como LinkedIn y Computrabajo para publicar ofertas laborales y gestionar candidatos. Sin embargo, muchas de sus tareas aún son manuales y consumen tiempo. Ella considera que Jobsy es una herramienta muy útil, ya que automatiza procesos como la filtración de CVs, el seguimiento de postulaciones y la comunicación con los candidatos. Gracias a estas funcionalidades, ella menciona que podría enfocarse en lo realmente importante: encontrar el talento ideal para cada puesto.
+
+
+
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
 
 | **Entrevistado 1: Jean Fabio Noriega Collado** |
