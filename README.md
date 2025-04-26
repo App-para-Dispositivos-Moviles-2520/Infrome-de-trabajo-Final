@@ -892,7 +892,14 @@ En esta sección presentaremos el prototipo de nuestra Aplicación Web, para la 
 
 ## **4.6. Domain-Driven Software Architecture**
 ### **4.6.1. Software Architecture Context Diagram**
+A continuación, se presenta el diagrama de contexto de nuestro software, un artefacto que ilustra cómo el sistema interactúa con su entorno, destacando los aspectos clave de su arquitectura.
+
+<img src="img/D-Contexto.png" alt="wireflow10" width= 600/>
+
 ### **4.6.2. Software Architecture Container Diagrams**
+A continuación, se presentará el diagrama de contenedores de nuestro sistema, un artefacto que expone los componentes técnicos de alto nivel, ofreciendo una visión ampliada de la arquitectura del software."
+
+<img src="img/D-Contenedor.png" alt="wireflow10" width= 700/>
 ### **4.6.3. Software Architecture Components Diagrams**
 
 ## **4.7. Software Object-Oriented Design**
