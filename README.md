@@ -171,6 +171,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </tr>
 </tbody></table>
 </br></br>
+
+
 # <font color="red"> **Capítulo I: Introducción** </font>
 
 ## **1.1. Startup Profile**
