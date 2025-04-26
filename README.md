@@ -38,7 +38,7 @@ Sánchez Ponce, Alex Humberto
 
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
-| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa      | (Descripción de los cambios)     |
+| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
 | TB2     |            |                                |                                  |
 | TB3     |            |                                |                                  |
 
