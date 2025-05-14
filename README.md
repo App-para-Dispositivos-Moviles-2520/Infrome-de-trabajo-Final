@@ -662,6 +662,14 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 | **Link:** https://drive.google.com/file/d/15o2w2b_xtysiImqKzx-gPD74JtwkbIJ4/view?usp=share_link |
 |-Resumen: Marllely trabaja en el área de Recursos Humanos y utiliza frecuentemente plataformas como LinkedIn y Computrabajo para publicar ofertas laborales y gestionar candidatos. Sin embargo, muchas de sus tareas aún son manuales y consumen tiempo. Ella considera que Jobsy es una herramienta muy útil, ya que automatiza procesos como la filtración de CVs, el seguimiento de postulaciones y la comunicación con los candidatos. Gracias a estas funcionalidades, ella menciona que podría enfocarse en lo realmente importante: encontrar el talento ideal para cada puesto.
 
+| **Entrevistado 3: Leonardo Leonsio Bravo** |
+|------------------------------------------------|
+| <img src="img/entrevistaFabricio.png" alt="Entrevista3Seg1" width=75% /> |
+| Distrito: Ate / Edad: 20 |
+| **Entrevistador:** Mauro FAbricio Lopez de la Cruz |
+| **Link:** [https://drive.google.com/file/d/1RbtwaYI_zCUl7_zWHR4tG8muy_Ovt-TT/view?usp=drive_link](https://drive.google.com/file/d/1RbtwaYI_zCUl7_zWHR4tG8muy_Ovt-TT/view?usp=drive_link) |
+|-Resumen: La entrevista se centró en el área de Recursos Humanos y la dificultad que implica el filtrado de currículums (CVs). Se destacó que sería beneficioso contar con una aplicación web que utilice inteligencia artificial (IA) para facilitar este proceso. La IA podría ayudar a analizar grandes volúmenes de CVs de manera más eficiente, identificando candidatos que mejor se ajusten a los perfiles requeridos. Esto optimizaría el tiempo de los reclutadores y potencialmente reduciría sesgos en la selección.
+|
 
 
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
