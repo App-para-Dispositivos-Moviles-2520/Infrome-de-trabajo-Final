@@ -2194,11 +2194,56 @@ En este Sprint, se realizó el despliegue inicial de la landing page del proyect
 - URL de la landing page desplegada:
 
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
-### **5.2.2. Sprint 2**
+#### **5.2.2. Sprint 2**
 #### **5.2.2.1. Sprint Planning 2**
+| **Sprint #**                    | Sprint 2 |
+|--------------------------------|----------|
+| **Sprint Planning Background** |          |
+| **Date**                       | 09/05/2025 |
+| **Time**                       | 10:00 pm |
+| **Location**                   | Virtual (Discord) |
+| **Prepared by**                | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
+| **Sprint n - 1 Review Summary** | Implementación de la Landing Page de Jobsy |
+| **Sprint n - 1 Retrospective Summary** | Hubo coordinación constante del equipo, lo que permitió cumplir con los requisitos previamente planteados. |
+| **Sprint Goal & User Stories** | Implementar funcionalidades del Frontend y completar el informe correspondiente |
+| **Sprint 2 Velocity**          | 20 |
+| **Sum of Story Points**        | 15 |
+
 #### **5.2.2.2. Aspect Leaders and Collaborators**
+| Team Member (Last Name, First Name) | GitHub Username | Implementar IA (L/C) | Implementar Postulaciones (L/C) | Implementar Analíticas (L/C) | Implementar Perfiles (L/C) | Implementar Publicaciones (L/C) | Implementar Candidatos (L/C) |
+|------------------------------------|-----------------|----------------------|-------------------------------|------------------------------|-----------------------------|-------------------------------|------------------------------|
+| Peralta, Ronald                    | Ronni-FSTK      | L                    | L                             | C                            | C                           | C                             | C                            |
+| Bustamante, Cameron               | CameronBustamanteLeveau2 | C        | C                             | L                            | C                           | C                             | C                            |
+| Urrutia, Jazmin                   | SrtaYeis        | C                    | C                             | C                            | L                           | C                             | C                            |
+| Lopez, Mauro                      | FabricioLop     | C                    | C                             | C                            | C                           | L                             | C                            |
+| Lapa, Gabriel                     | Gabo0722        | C                    | C                             | C                            | C                           | C                             | L                            |
+
 #### **5.2.2.3. Sprint Backlog 2**
+| **User Story** | **Work Item / Task** | ID  | Title | Description | Estim. Hours | Assigned | Status |
+|----------------|----------------------|-----|--------|-------------|---------------|----------|--------|
+| US013 | Sugerencia de candidatos | T1  | Implementar botón que agregue candidatos | Desarrollar el botón donde aparecerá más candidatos para ver su descripción. | 4hrs | Gabriel | Done |
+|        |                              | T2  | Implementar botón Ver más para editar estado | Desarrollar funcionalidad para cambiar el estado del candidato desde una ventana modal. | 3hrs | Gabriel | Done |
+| US012 | Editar perfil profesional     | T4  | Implementar perfil del usuario | Integrar el apartado de perfiles de usuarios. | 3hrs | Jazmín | Done |
+|        |                              | T5  | Implementar perfil de administrador | Integrar el apartado de perfiles de administrador. | 2hrs | Jazmín | Done |
+| US009 | Enviar oferta laboral         | T6  | Implementar publicaciones | Consultar y mostrar publicaciones de candidatos. | 3hrs | Fabricio | Done |
+|        |                              | T7  | Implementar analíticas | Mostrar gráficos de métricas sobre publicaciones y perfiles. | 3hrs | Cameron | Done |
+| US005 | Ver postulaciones recibidas  | T8  | Implementar postulaciones | Elaborar componente de postulaciones según consulta de candidatos. | 3hrs | Ronald | In Process |
+
 #### **5.2.2.4. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits correspondientes en el repositorio:
+
+- Repositorio Front-End:
+
+| Repository     | Branch              | Commit Id | Commit Message                                      | Committed on (Date) |
+|----------------|---------------------|-----------|-----------------------------------------------------|----------------------|
+| frontend-app   | feat/bandejaEntrada | d31633738030fad71a6fbbb7e2c50eeb09cf0302 | Update PrincipalReclutador.vue                       | 14/05/2025 |
+| frontend-app   | feat/postulaciones  | a6794af5a99e8ce2762f9bc34dbeb3234dbe24dc | add publicacion                                      | 14/05/2025 |
+| frontend-app   | feat/analíticas     | 33a825adb4ac1677ddf181121d020bb86a2e061b | docs(analiticas): add analiticas y panel principal   | 13/05/2025 |
+| frontend-app   | feat/candidatos     | a363b57ad85422a4453fc38f92e74ae44c5f86cc | feat: update Candidatos.vue in pages                 | 14/05/2025 |
+| frontend-app   | feat/publications   | 19a875dac03545d2c7345d3d0e2dde189994860c | AI aggregation                                       | 13/05/2025 |
+| frontend-app   | feat/perfil         | 9db7ae958e3705d2ed7d628aaff4aad526744623 | feat: add Perfil Postulante y Reclutador             | 14/05/2025 |
+
 #### **5.2.2.5. Execution Evidence for Sprint Review**
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
