@@ -39,8 +39,8 @@ Sánchez Ponce, Alex Humberto
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
 | TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
+| TP1     | 14/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 2, Aplicacion Web |
 | TB2     |            |                                |                                  |
-| TB3     |            |                                |                                  |
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
@@ -57,6 +57,19 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Urrutia Peña, Jasmin Adriana |Registro de 1 Entrevista, Análisis de Entrevista, Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions, Software Deployment Configuration, sprint Planning 2,Execution Evidence for Sprint Review|
 |Lapa de la Cruz, Gabriel Omar | Registro de entrevista (segmento objetivo Postulantes), User Stories, Impact Mapping, Product Backlog, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review|
 |Mauro Fabricio Lopez de la Cruz| User storys, Desarrollo de entrevista y análisis general, Emphaty map, To be scenario mapa, User personas Code: Planes y servicios, Needfinding, Database diagram|
+
+
+**TP**
+
+Para el desarrollo del informe correspondiente a la entrega TP, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Bustamante Leveau, Cameron Charllotte| Seccion Analiticas de la Aplicación Web y Correciones TB1 |
+|Peralta Chipa, Ronald Joel|Seccion Postulaciones y Bandeja de Entrada de la Aplicación Web y Correciones TB1|
+|Urrutia Peña, Jasmin Adriana |Seccion Perfil para Postulador y Recutador de la Aplicaión Web y Correciones TB1|
+|Lapa de la Cruz, Gabriel Omar |Seccion Candidatos en la Aplicación Web y Correciones TB1|
+|Mauro Fabricio Lopez de la Cruz|Seccion Publicacion en la Aplicación Web y Correciones TB1|
 
 # <font color="red">**Contenido**</font>
 
@@ -178,20 +191,65 @@ El curso contribuye al cumplimiento del Student Outcome ABET: </br>
 **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias. 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
-</br>
-
-<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Criterio específico</span></th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Acciones realizadas</span></th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Conclusiones</span></th></tr></thead>
+<table style="border-collapse:collapse;border-spacing:0" class="tg">
+<thead>
+<tr>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Criterio específico</span></th>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Acciones realizadas</span></th>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Conclusiones</span></th>
+</tr>
+</thead>
 <tbody>
-<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica oralmente con efectividad a diferentes rangos de audiencia </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Cameron Charllotte: <br> TB1: Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos. <br> <br>Ronald Joel: <br> TB1: Durante las reuniones del grupo, me enfoqué en expresar con claridad mis ideas y propuestas, adaptando mi comunicación según el contexto, lo cual facilitó el entendimiento entre todos los integrantes. <br> <br>Gabriel Omar: <br> TB1: Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.<br> <br>Fabricio López: <br> TB1:  <br> <br>Jasmin Adriana <br> TB1: Considero que mi comunicacion con el grupo fue constante, lo cual nos ayudo a poder repartirnos las tareas y realizar un buen trabajo <br><br>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: Durante el desarrollo del proyecto, cada integrante del equipo fue capaz de comunicar oralmente sus ideas de forma clara y adecuada al contexto, logrando que tanto compañeros como docentes comprendieran nuestras propuestas. Esta capacidad de adaptación en la comunicación nos permitió distribuir tareas eficientemente, resolver dudas en tiempo real y mantener una dinámica colaborativa efectiva en todo momento.<br> </td>
+<tr>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+Cameron Charllotte: <br> 
+TB1: Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos. <br> 
+TP1: Expliqué claramente las funcionalidades de la sección de analíticas de la aplicación web durante las reuniones, adaptando mi lenguaje para que tanto compañeros como docentes comprendieran los avances y correcciones realizadas en TB1. <br><br>
+Ronald Joel: <br> 
+TB1: Durante las reuniones del grupo, me enfoqué en expresar con claridad mis ideas y propuestas, adaptando mi comunicación según el contexto, lo cual facilitó el entendimiento entre todos los integrantes. <br> 
+TP1: Presenté las secciones de postulaciones y bandeja de entrada de la aplicación web, asegurándome de comunicar de forma efectiva los ajustes realizados en TB1 para alinear al equipo y recibir retroalimentación. <br><br>
+Gabriel Omar: <br> 
+TB1: Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma. <br> 
+TP1: Comuniqué oralmente los avances en la sección de candidatos de la aplicación web, explicando las correcciones de TB1 de manera clara para garantizar la comprensión del equipo y los docentes. <br><br>
+Fabricio López: <br> 
+TB1: Participé activamente en las discusiones del equipo, compartiendo ideas de manera clara y respetuosa para contribuir al desarrollo del proyecto. <br> 
+TP1: Expliqué las funcionalidades de la sección de publicación en la aplicación web, destacando las correcciones realizadas en TB1 y adaptando mi comunicación para facilitar la comprensión de los compañeros y docentes. <br><br>
+Jasmin Adriana: <br> 
+TB1: Considero que mi comunicación con el grupo fue constante, lo cual nos ayudó a poder repartirnos las tareas y realizar un buen trabajo. <br> 
+TP1: Comuniqué de forma efectiva los detalles de la sección de perfil para postulador y reclutador de la aplicación web, asegurándome de explicar las correcciones de TB1 para mantener al equipo coordinado.
+</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+TB1: Durante el desarrollo del proyecto, cada integrante del equipo fue capaz de comunicar oralmente sus ideas de forma clara y adecuada al contexto, logrando que tanto compañeros como docentes comprendieran nuestras propuestas. Esta capacidad de adaptación en la comunicación nos permitió distribuir tareas eficientemente, resolver dudas en tiempo real y mantener una dinámica colaborativa efectiva en todo momento. <br><br>
+TP1: Las presentaciones orales de cada integrante sobre sus respectivas secciones (analíticas, postulaciones, bandeja de entrada, candidatos, publicación, y perfiles) y las correcciones de TB1 demostraron una comunicación efectiva y adaptada a las audiencias, lo que facilitó la alineación del equipo, la validación de los avances por parte de los docentes y el cumplimiento de los objetivos del proyecto.
+</td>
 </tr>
-<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Cameron Charllotte: <br> TB1: Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, realicé documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo. <br> <br>Ronald Joel: <br> TB1:<br>Contribuí en varios puntos del trabajo, asegurándome de que la información fuera precisa, coherente y fácilmente comprensible tanto para compañeros como para docentes. <br>Gabriel Omar: <br> TB1: Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.<br> <br>Fabricio López: <br> TB1:  <br> <br>Jasmin Adriana: <br> TB1: Realice todas las actividades que me tocaron, creo que deberia mejorar con mi gestion de tiempo pero en general me fue bien.<br> </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: El trabajo en equipo se reflejó también en nuestra capacidad para comunicar por escrito de forma efectiva. La documentación que elaboramos incluyendo informes, descripciones técnicas y contenido para la landing page fue clara, precisa y entendible para distintas audiencias. Esto facilitó la validación del proyecto por parte de los docentes y aseguró que el producto final comunicara correctamente su propósito y funcionalidad.<br><br></td>
+<tr>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+Cameron Charllotte: <br> 
+TB1: Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, realicé documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo. <br> 
+TP1: Elaboré la documentación de la sección de analíticas de la aplicación web, asegurándome de que fuera clara, precisa y comprensible para docentes y compañeros, incluyendo las correcciones realizadas en TB1. <br><br>
+Ronald Joel: <br> 
+TB1: Contribuí en varios puntos del trabajo, asegurándome de que la información fuera precisa, coherente y fácilmente comprensible tanto para compañeros como para docentes. <br> 
+TP1: Redacté contenido claro y estructurado para las secciones de postulaciones y bandeja de entrada, incorporando las correcciones de TB1 para garantizar que la documentación fuera útil y accesible. <br><br>
+Gabriel Omar: <br> 
+TB1: Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma. <br> 
+TP1: Documenté los avances y correcciones de la sección de candidatos en la aplicación web, utilizando un lenguaje claro y adaptado para facilitar la validación por parte de docentes y compañeros. <br><br>
+Fabricio López: <br> 
+TB1: Redacté contenido claro y organizado para apoyar el desarrollo del proyecto, siguiendo las indicaciones establecidas por el equipo. <br> 
+TP1: Elaboré la documentación de la sección de publicación de la aplicación web, asegurándome de que las correcciones de TB1 fueran descritas de manera precisa y comprensible para todas las audiencias. <br><br>
+Jasmin Adriana: <br> 
+TB1: Realicé todas las actividades que me tocaron, creo que debería mejorar con mi gestión de tiempo pero en general me fue bien. <br> 
+TP1: Documenté la sección de perfil para postulador y reclutador de la aplicación web, incluyendo las correcciones de TB1, con un enfoque en claridad y precisión para facilitar su revisión por docentes y compañeros.
+</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+TB1: El trabajo en equipo se reflejó también en nuestra capacidad para comunicar por escrito de forma efectiva. La documentación que elaboramos, incluyendo informes, descripciones técnicas y contenido para la landing page, fue clara, precisa y entendible para distintas audiencias. Esto facilitó la validación del proyecto por parte de los docentes y aseguró que el producto final comunicara correctamente su propósito y funcionalidad. <br><br>
+TP1: La documentación escrita de las secciones de la aplicación web (analíticas, postulaciones, bandeja de entrada, candidatos, publicación, y perfiles), junto con las correcciones de TB1, fue clara, bien estructurada y adaptada a las necesidades de docentes y compañeros, lo que permitió una revisión eficiente, una mejor comprensión del proyecto y la entrega de un producto final coherente y funcional.
+</td>
 </tr>
-</tbody></table>
-</br></br>
+</tbody>
+</table>
 
 
 # <font color="red"> **Capítulo I: Introducción** </font>
