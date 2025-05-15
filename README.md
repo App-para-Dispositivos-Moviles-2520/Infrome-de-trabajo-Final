@@ -42,6 +42,10 @@ Sánchez Ponce, Alex Humberto
 | TP1     | 14/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 2, Aplicacion Web |
 | TB2     |            |                                |                                  |
 
+- Commits Informe: 
+
+<img src="img/informecom.png" alt="app" width= 500/>
+
 # <font color="red">**Project Report Collaboration Insights**</font>
 
 Enlace de la organización para el reporte del proyecto: https://github.com/orgs/Aplicaciones-WEB-Report/repositories
@@ -2075,6 +2079,9 @@ Para el desarrollo y despliegue de la Landing Page de Jobsy se han utilizado las
 Link para la visualización de la Landing Page: 
 
 ## **5.2. Landing Page, Services & Applications Implementation**
+
+<img src="img/landingcom.png" alt="app" width= 500/>
+
 ### **5.2.1. Sprint 1**
 #### **5.2.1.1. Sprint Planning 1**
 
@@ -2306,7 +2313,8 @@ En este Sprint, se realizó el despliegue inicial de la aplicación web del proy
 Para realizar el despliegue, accedimos a la configuración del repositorio y usamos Firebase.
 <img src="img/pruebagit2.png" alt="app" width= 500/>
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
-
+<img src="img/appcom1.png" alt="app" width= 500/>
+<img src="img/appcom2.png" alt="app" width= 500/>
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
 ### **5.3.2. Registro de Entrevistas**
