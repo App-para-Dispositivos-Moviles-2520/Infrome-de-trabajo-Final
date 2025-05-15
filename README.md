@@ -2076,12 +2076,10 @@ Para el desarrollo y despliegue de la Landing Page de Jobsy se han utilizado las
 
 - **JavaScript**: Utilizado para añadir interactividad y dinamismo a los componentes de la Landing Page, como validaciones en formularios, navegación fluida y respuestas a eventos del usuario.
 
-Link para la visualización de la Landing Page: 
+Link para la visualización de la Landing Page: https://landingpage-jobsy.web.app/
+
 
 ## **5.2. Landing Page, Services & Applications Implementation**
-
-<img src="img/landingcom.png" alt="app" width= 500/>
-
 ### **5.2.1. Sprint 1**
 #### **5.2.1.1. Sprint Planning 1**
 
@@ -2212,7 +2210,7 @@ Para realizar el despliegue usamos Firebase.
 <img src="img/pruebagit3.png" alt="app" width= 500/>
 
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
-
+<img src="img/landingcom.png" alt="app" width= 500/>
 #### **5.2.2. Sprint 2**
 #### **5.2.2.1. Sprint Planning 2**
 | **Sprint #**                    | Sprint 2 |
