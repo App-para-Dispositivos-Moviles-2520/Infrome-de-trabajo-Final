@@ -2199,9 +2199,14 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
 
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 En este Sprint, se realizó el despliegue inicial de la landing page del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
-- URL de la landing page desplegada:
+- URL de la landing page desplegada: https://github.com/Aplicaciones-WEB-Report/Landing-Page-
+
+Para realizar el despliegue, accedimos a la configuración del repositorio y navegamos a la sección de Pages. Posteriormente,
+seleccionamos la rama main desde la cual se llevará a cabo el deployment.
+<img src="img/pruebagit.png" alt="app" width= 500/>
 
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
+
 #### **5.2.2. Sprint 2**
 #### **5.2.2.1. Sprint Planning 2**
 | **Sprint #**                    | Sprint 2 |
@@ -2253,7 +2258,44 @@ Se realizaron los avances con los commits correspondientes en el repositorio:
 | frontend-app   | feat/perfil         | 9db7ae958e3705d2ed7d628aaff4aad526744623 | feat: add Perfil Postulante y Reclutador             | 14/05/2025 |
 
 #### **5.2.2.5. Execution Evidence for Sprint Review**
+Al concluir el segundo sprint, se logró implementar todas las secciones planificadas en la landing page, garantizando una visualización óptima y atractiva para los usuarios. Se diseñó una interfaz llamativa, respetando las heurísticas de usabilidad y las mejores prácticas de desarrollo UI.
+
+Se incorporaron botones dinámicos, efectos de transición entre páginas y una barra de navegación intuitiva, todo con el propósito de ofrecer una experiencia fluida y envolvente. La aplicación web cumple una función clave: captar y retener a los visitantes, transformándolos en potenciales clientes usando nuestra aplicación.
+
+**A continuación, se presentan capturas de pantalla que ilustran los avances y detalles de la interfaz.**
+
+- Pantalla de Seleccion de Rol:
+<img src="img/rol.png" alt="app" width= 500/>
+- Pantalla de Login:
+<img src="img/loginapp.png" alt="app1" width= 500/>
+- Pantalla de Register:
+<img src="img/registerapp.png" alt="app2" width= 500/>
+- Pantalla de Inicio para Segmento Postulante:
+<img src="img/iniciopostulante.png" alt="app3" width= 500/>
+- Pantalla de Inicio para Segmento Reclutador:
+<img src="img/inicioreclutador.png" alt="app4" width= 500/>
+
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
+Este punto, refiere a una sección donde se documenta evidencias sobre los servicios desarrollados durante el Sprint 2. 
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>EndPoint</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+          https://frontend-app-dbcdc.web.app/select-role
+      </td>
+      <td>Se desplegó exitosamente la aplicacion de Jobsy, con navegación funcional entre secciones como Publicación, Perfil, Analiticas y Candidatos.</td>
+    </tr>
+
+  </tbody>
+</table>
+
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
 
