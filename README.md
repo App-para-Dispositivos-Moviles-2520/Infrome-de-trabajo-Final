@@ -2266,14 +2266,18 @@ Se incorporaron botones dinámicos, efectos de transición entre páginas y una 
 
 - Pantalla de Seleccion de Rol:
 <img src="img/rol.png" alt="app" width= 500/>
+
 - Pantalla de Login:
 <img src="img/loginapp.png" alt="app1" width= 500/>
+
 - Pantalla de Register:
 <img src="img/registerapp.png" alt="app2" width= 500/>
+
 - Pantalla de Inicio para Segmento Postulante:
 <img src="img/iniciopostulante.png" alt="app3" width= 500/>
+
 - Pantalla de Inicio para Segmento Reclutador:
-<img src="img/inicioreclutador.png" alt="app4" width= 500/>
+<img src="img/iniciorecutador.png" alt="app4" width= 500/>
 
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 Este punto, refiere a una sección donde se documenta evidencias sobre los servicios desarrollados durante el Sprint 2. 
@@ -2297,6 +2301,11 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
 </table>
 
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
+En este Sprint, se realizó el despliegue inicial de la aplicación web del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
+- URL de la aplicacion web desplegada: https://frontend-app-dbcdc.web.app/select-role
+
+Para realizar el despliegue, accedimos a la configuración del repositorio y usamos .. .
+<img src="img/pruebagit2.png" alt="app" width= 500/>
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
 
 ## **5.3. Validation Interviews**
