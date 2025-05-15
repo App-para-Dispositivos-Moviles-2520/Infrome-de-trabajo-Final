@@ -2313,8 +2313,10 @@ En este Sprint, se realizó el despliegue inicial de la aplicación web del proy
 Para realizar el despliegue, accedimos a la configuración del repositorio y usamos Firebase.
 <img src="img/pruebagit2.png" alt="app" width= 500/>
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
+
 <img src="img/appcom1.png" alt="app" width= 500/>
 <img src="img/appcom2.png" alt="app" width= 500/>
+
 ## **5.3. Validation Interviews**
 ### **5.3.1. Diseño de Entrevistas**
 ### **5.3.2. Registro de Entrevistas**
