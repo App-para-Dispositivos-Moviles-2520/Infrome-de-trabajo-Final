@@ -2296,7 +2296,7 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
   <tbody>
     <tr>
       <td>
-          https://frontend-app-dbcdc.web.app/select-role
+          https://frontend-app-dbcdc.web.app
       </td>
       <td>Se desplegó exitosamente la aplicacion de Jobsy, con navegación funcional entre secciones como Publicación, Perfil, Analiticas y Candidatos.</td>
     </tr>
@@ -2306,7 +2306,7 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
 
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
 En este Sprint, se realizó el despliegue inicial de la aplicación web del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
-- URL de la aplicacion web desplegada: https://frontend-app-dbcdc.web.app/select-role
+- URL de la aplicacion web desplegada: https://frontend-app-dbcdc.web.app
 
 Para realizar el despliegue, accedimos a la configuración del repositorio y usamos Firebase.
 <img src="img/pruebagit2.png" alt="app" width= 500/>
