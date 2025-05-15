@@ -1,1 +1,2335 @@
-# Informe-de-Trabajo-Final
+<div align="center">
+
+<img src="img/logo_upc.png" alt="Logo UPC" width="100"/>
+
+# Universidad Peruana De Ciencias Aplicadas
+
+## Ingeniería de Software
+
+### Informe de Trabajo Final
+
+### Aplicaciones Web
+
+**Sección:** 
+4364
+
+**Profesor:**  
+
+Sánchez Ponce, Alex Humberto
+
+**Integrantes:**
+<div style="text-align: left; display: inline-block;">
+    <ul>
+        <li>Peralta Chipa Ronald Joel - U202224619</li>
+        <li>Bustamante Leveau Cameron Charlotte - U20231A804</li>
+        <li>Lapa de la Cruz Gabriel Omar - U202216831</li>
+        <li>Urrutia Peña Jasmin Adriana - U202310008</li>
+        <li>Lopez de la Cruz Mauro Fabricio</li>
+    </ul>
+</div>
+
+**2025 - 01**
+
+</div>
+
+---
+
+# <font color="red">**Registro de Versiones del Informe**</font>
+
+| Versión | Fecha      | Autor                          | Descripción de modificación      |
+|---------|------------|--------------------------------|----------------------------------|
+| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
+| TP1     | 14/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 2, Aplicacion Web |
+| TB2     |            |                                |                                  |
+
+# <font color="red">**Project Report Collaboration Insights**</font>
+
+Enlace de la organización para el reporte del proyecto: https://github.com/orgs/Aplicaciones-WEB-Report/repositories
+
+**TB1**
+
+Para el desarrollo del informe correspondiente a la entrega TB1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Bustamante Leveau, Cameron Charllotte|Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions,Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivo, Style Guide, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Lean UX  Process, Diagrama de clases, Diccionario de clases, Una entrevista del segmento 1 |
+|Peralta Chipa, Ronald Joel| Startup Profile, Descripción de la Startup, Perfiles de integrantes del equipo, Solution Profile, Antecedentes y problemática, Entrevista, Domain-Driven Software Architecture, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams, Software Object-Oriented Design|
+|Urrutia Peña, Jasmin Adriana |Registro de 1 Entrevista, Análisis de Entrevista, Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions, Software Deployment Configuration, sprint Planning 2,Execution Evidence for Sprint Review|
+|Lapa de la Cruz, Gabriel Omar | Registro de entrevista (segmento objetivo Postulantes), User Stories, Impact Mapping, Product Backlog, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review|
+|Mauro Fabricio Lopez de la Cruz| User storys, Desarrollo de entrevista y análisis general, Emphaty map, To be scenario mapa, User personas Code: Planes y servicios, Needfinding, Database diagram|
+
+
+**TP**
+
+Para el desarrollo del informe correspondiente a la entrega TP, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Bustamante Leveau, Cameron Charllotte| Seccion Analiticas de la Aplicación Web y Correciones TB1 |
+|Peralta Chipa, Ronald Joel|Seccion Postulaciones y Bandeja de Entrada de la Aplicación Web y Correciones TB1|
+|Urrutia Peña, Jasmin Adriana |Seccion Perfil para Postulador y Reclutador de la Aplicaión Web y Correciones TB1|
+|Lapa de la Cruz, Gabriel Omar |Seccion Candidatos en la Aplicación Web y Correciones TB1|
+|Mauro Fabricio Lopez de la Cruz|Seccion Publicacion en la Aplicación Web y Correciones TB1|
+
+# <font color="red">**Contenido**</font>
+
+### Tabla de contenidos
+
+- [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
+- [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
+- [**Contenido**](#contenido)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+- [**Student Outcome**](#student-outcome)
+- [ **Capítulo I: Introducción** ](#-capítulo-i-introducción-)
+  - [**1.1. Startup Profile**](#11-startup-profile)
+    - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
+    - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
+  - [**1.2. Solution Profile**](#12-solution-profile)
+    - [**1.2.1 Antecedentes y problemática**](#121-antecedentes-y-problemática)
+    - [What (¿Qué?)](#what-qué)
+    - [Who (¿Quién?)](#who-quién)
+    - [Where (¿Dónde?)](#where-dónde)
+    - [When (¿Cuándo?)](#when-cuándo)
+    - [Why (¿Por qué?)](#why-por-qué)
+    - [How (¿Cómo?)](#how-cómo)
+    - [How much (¿Cuánto?)](#how-much-cuánto)
+    - [**1.2.2 Lean UX Process**](#122-lean-ux-process)
+    - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
+    - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
+    - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
+    - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
+  - [**1.3. Segmentos objetivo**](#13-segmentos-objetivo)
+- [ **Capítulo II: Requirements Elicitation \& Analysis**](#-capítulo-ii-requirements-elicitation--analysis)
+  - [**2.1. Competidores**](#21-competidores)
+    - [**2.1.1. Análisis competitivo**](#211-análisis-competitivo)
+    - [**2.1.2. Estrategias y tácticas frente a competidores**](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [**2.2. Entrevistas**](#22-entrevistas)
+    - [**2.2.1. Diseño de entrevistas**](#221-diseño-de-entrevistas)
+    - [**2.2.2. Registro de entrevistas**](#222-registro-de-entrevistas)
+    - [**2.2.3. Análisis de entrevistas**](#223-análisis-de-entrevistas)
+  - [**2.3. Needfinding**](#23-needfinding)
+    - [**2.3.1. User Personas**](#231-user-personas)
+    - [**2.3.2. User Task Matrix**](#232-user-task-matrix)
+    - [**2.3.3. User Journey Mapping**](#233-user-journey-mapping)
+    - [**2.3.4. Empathy Mapping**](#234-empathy-mapping)
+    - [**2.3.5. As-is Scenario Mapping**](#235-as-is-scenario-mapping)
+  - [**2.4. Ubiquitous Language**](#24-ubiquitous-language)
+- [ **Capítulo III: Requirements Specification**](#-capítulo-iii-requirements-specification)
+  - [**3.1. To-Be Scenario Mapping**](#31-to-be-scenario-mapping)
+  - [**3.2. User Stories**](#32-user-stories)
+  - [**3.3. Impact Mapping**](#33-impact-mapping)
+  - [**3.4. Product Backlog**](#34-product-backlog)
+- [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
+  - [**4.1. Style Guidelines**](#41-style-guidelines)
+    - [**4.1.1. General Style Guidelines**](#411-general-style-guidelines)
+    - [**4.1.2. Web Style Guidelines**](#412-web-style-guidelines)
+  - [**4.2. Information Architecture**](#42-information-architecture)
+    - [**4.2.1. Organization Systems**](#421-organization-systems)
+    - [**4.2.2. Labeling Systems**](#422-labeling-systems)
+    - [**4.2.3. SEO Tags and Meta Tags**](#423-seo-tags-and-meta-tags)
+    - [**4.2.4. Searching Systems**](#424-searching-systems)
+    - [**4.2.5. Navigation Systems**](#425-navigation-systems)
+  - [**4.3. Landing Page UI Design**](#43-landing-page-ui-design)
+    - [**4.3.1. Landing Page Wireframe**](#431-landing-page-wireframe)
+    - [**4.3.2. Landing Page Mock-up**](#432-landing-page-mock-up)
+  - [**4.4. Web Applications UX/UI Design**](#44-web-applications-uxui-design)
+    - [**4.4.1. Web Applications Wireframes**](#441-web-applications-wireframes)
+    - [**4.4.2. Web Applications Wireflow Diagrams**](#442-web-applications-wireflow-diagrams)
+    - [**4.4.3. Web Applications Mock-ups**](#443-web-applications-mock-ups)
+    - [**4.4.4. Web Applications User Flow Diagrams**](#444-web-applications-user-flow-diagrams)
+  - [**4.5. Web Applications Prototyping**](#45-web-applications-prototyping)
+  - [**4.6. Domain-Driven Software Architecture**](#46-domain-driven-software-architecture)
+    - [**4.6.1. Software Architecture Context Diagram**](#461-software-architecture-context-diagram)
+    - [**4.6.2. Software Architecture Container Diagrams**](#462-software-architecture-container-diagrams)
+    - [**4.6.3. Software Architecture Components Diagrams**](#463-software-architecture-components-diagrams)
+  - [**4.7. Software Object-Oriented Design**](#47-software-object-oriented-design)
+    - [**4.7.1. Class Diagrams**](#471-class-diagrams)
+    - [**4.7.2. Class Dictionary**](#472-class-dictionary)
+  - [**4.8. Database Design**](#48-database-design)
+    - [**4.8.1. Database Diagram**](#481-database-diagram)
+- [**Capítulo V: Product Implementation, Validation & Deployment**](#capítulo-v-product-implementation-validation--deployment)
+  - [**5.1. Software Configuration Management**](#51-software-configuration-management)
+    - [**5.1.1. Software Development Environment Configuration**](#511-software-development-environment-configuration)
+    - [**5.1.2. Source Code Management**](#512-source-code-management)
+    - [**5.1.3. Source Code Style Guide & Conventions**](#513-source-code-style-guide--conventions)
+    - [**5.1.4. Software Deployment Configuration**](#514-software-deployment-configuration)
+  - [**5.2. Landing Page, Services & Applications Implementation**](#52-landing-page-services--applications-implementation)
+    - [**5.2.1. Sprint 1**](#521-sprint-1)
+      - [**5.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
+      - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators)
+      - [**5.2.1.3. Sprint Backlog 1**](#5213-sprint-backlog-1)
+      - [**5.2.1.4. Development Evidence for Sprint Review**](#5214-development-evidence-for-sprint-review)
+      - [**5.2.1.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
+      - [**5.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
+      - [**5.2.1.7. Software Deployment Evidence for Sprint Review**](#5217-software-deployment-evidence-for-sprint-review)
+      - [**5.2.1.8. Team Collaboration Insights during Sprint**](#5218-team-collaboration-insights-during-sprint)
+    - [**5.2.2. Sprint 2**](#522-sprint-2)
+      - [**5.2.2.1. Sprint Planning 2**](#5221-sprint-planning-2)
+      - [**5.2.2.2. Aspect Leaders and Collaborators**](#5222-aspect-leaders-and-collaborators)
+      - [**5.2.2.3. Sprint Backlog 2**](#5223-sprint-backlog-2)
+      - [**5.2.2.4. Development Evidence for Sprint Review**](#5224-development-evidence-for-sprint-review)
+      - [**5.2.2.5. Execution Evidence for Sprint Review**](#5225-execution-evidence-for-sprint-review)
+      - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
+      - [**5.2.2.7. Software Deployment Evidence for Sprint Review**](#5227-software-deployment-evidence-for-sprint-review)
+      - [**5.2.2.8. Team Collaboration Insights during Sprint**](#5228-team-collaboration-insights-during-sprint)
+  - [**5.3. Validation Interviews**](#53-validation-interviews)
+    - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
+    - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
+    - [**5.3.3. Evaluaciones según heurísticas**](#533-evaluaciones-según-heurísticas)
+
+[Conclusiones](#conclusiones)
+
+[Bibliografía](#bibliografía)
+
+[Anexos](#anexos)
+
+   
+# <font color="red">**Student Outcome**</font>
+
+El curso contribuye al cumplimiento del Student Outcome ABET: </br> 
+**ABET – EAC - Student Outcome 3** 
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias. 
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+<table style="border-collapse:collapse;border-spacing:0" class="tg">
+<thead>
+<tr>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Criterio específico</span></th>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Acciones realizadas</span></th>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Conclusiones</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+Cameron Charllotte: <br> 
+TB1: Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos. <br> 
+TP1: Expliqué claramente las funcionalidades de la sección de analíticas de la aplicación web durante las reuniones, adaptando mi lenguaje para que tanto compañeros como docentes comprendieran los avances y correcciones realizadas en TB1. <br><br>
+Ronald Joel: <br> 
+TB1: Durante las reuniones del grupo, me enfoqué en expresar con claridad mis ideas y propuestas, adaptando mi comunicación según el contexto, lo cual facilitó el entendimiento entre todos los integrantes. <br> 
+TP1: Presenté las secciones de postulaciones y bandeja de entrada de la aplicación web, asegurándome de comunicar de forma efectiva los ajustes realizados en TB1 para alinear al equipo y recibir retroalimentación. <br><br>
+Gabriel Omar: <br> 
+TB1: Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma. <br> 
+TP1: Comuniqué oralmente los avances en la sección de candidatos de la aplicación web, explicando las correcciones de TB1 de manera clara para garantizar la comprensión del equipo y los docentes. <br><br>
+Fabricio López: <br> 
+TB1: Participé activamente en las discusiones del equipo, compartiendo ideas de manera clara y respetuosa para contribuir al desarrollo del proyecto. <br> 
+TP1: Expliqué las funcionalidades de la sección de publicación en la aplicación web, destacando las correcciones realizadas en TB1 y adaptando mi comunicación para facilitar la comprensión de los compañeros y docentes. <br><br>
+Jasmin Adriana: <br> 
+TB1: Considero que mi comunicación con el grupo fue constante, lo cual nos ayudó a poder repartirnos las tareas y realizar un buen trabajo. <br> 
+TP1: Comuniqué de forma efectiva los detalles de la sección de perfil para postulador y reclutador de la aplicación web, asegurándome de explicar las correcciones de TB1 para mantener al equipo coordinado.
+</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+TB1: Durante el desarrollo del proyecto, cada integrante del equipo fue capaz de comunicar oralmente sus ideas de forma clara y adecuada al contexto, logrando que tanto compañeros como docentes comprendieran nuestras propuestas. Esta capacidad de adaptación en la comunicación nos permitió distribuir tareas eficientemente, resolver dudas en tiempo real y mantener una dinámica colaborativa efectiva en todo momento. <br><br>
+TP1: Las presentaciones orales de cada integrante sobre sus respectivas secciones (analíticas, postulaciones, bandeja de entrada, candidatos, publicación, y perfiles) y las correcciones de TB1 demostraron una comunicación efectiva y adaptada a las audiencias, lo que facilitó la alineación del equipo, la validación de los avances por parte de los docentes y el cumplimiento de los objetivos del proyecto.
+</td>
+</tr>
+<tr>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+Cameron Charllotte: <br> 
+TB1: Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, realicé documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo. <br> 
+TP1: Elaboré la documentación de la sección de analíticas de la aplicación web, asegurándome de que fuera clara, precisa y comprensible para docentes y compañeros, incluyendo las correcciones realizadas en TB1. <br><br>
+Ronald Joel: <br> 
+TB1: Contribuí en varios puntos del trabajo, asegurándome de que la información fuera precisa, coherente y fácilmente comprensible tanto para compañeros como para docentes. <br> 
+TP1: Redacté contenido claro y estructurado para las secciones de postulaciones y bandeja de entrada, incorporando las correcciones de TB1 para garantizar que la documentación fuera útil y accesible. <br><br>
+Gabriel Omar: <br> 
+TB1: Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma. <br> 
+TP1: Documenté los avances y correcciones de la sección de candidatos en la aplicación web, utilizando un lenguaje claro y adaptado para facilitar la validación por parte de docentes y compañeros. <br><br>
+Fabricio López: <br> 
+TB1: Redacté contenido claro y organizado para apoyar el desarrollo del proyecto, siguiendo las indicaciones establecidas por el equipo. <br> 
+TP1: Elaboré la documentación de la sección de publicación de la aplicación web, asegurándome de que las correcciones de TB1 fueran descritas de manera precisa y comprensible para todas las audiencias. <br><br>
+Jasmin Adriana: <br> 
+TB1: Realicé todas las actividades que me tocaron, creo que debería mejorar con mi gestión de tiempo pero en general me fue bien. <br> 
+TP1: Documenté la sección de perfil para postulador y reclutador de la aplicación web, incluyendo las correcciones de TB1, con un enfoque en claridad y precisión para facilitar su revisión por docentes y compañeros.
+</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+TB1: El trabajo en equipo se reflejó también en nuestra capacidad para comunicar por escrito de forma efectiva. La documentación que elaboramos, incluyendo informes, descripciones técnicas y contenido para la landing page, fue clara, precisa y entendible para distintas audiencias. Esto facilitó la validación del proyecto por parte de los docentes y aseguró que el producto final comunicara correctamente su propósito y funcionalidad. <br><br>
+TP1: La documentación escrita de las secciones de la aplicación web (analíticas, postulaciones, bandeja de entrada, candidatos, publicación, y perfiles), junto con las correcciones de TB1, fue clara, bien estructurada y adaptada a las necesidades de docentes y compañeros, lo que permitió una revisión eficiente, una mejor comprensión del proyecto y la entrega de un producto final coherente y funcional.
+</td>
+</tr>
+</tbody>
+</table>
+
+
+# <font color="red"> **Capítulo I: Introducción** </font>
+
+## **1.1. Startup Profile**
+A continuación, se presenta una descripción de nuestra empresa **Jobsy**, así como la presentación del equipo de desarrollo responsable del software previamente mencionado, denominado **"Smarthire"**.
+
+### **1.1.1. Descripción de la Startup**
+
+En la actualidad, muchas áreas de Recursos Humanos enfrentan dificultades para mantener una atención de calidad hacia los postulantes a empleos. Se ha identificado un alto nivel de estrés laboral en estos equipos, causado principalmente por la sobrecarga de tareas repetitivas como la revisión manual de currículums, la publicación de vacantes en múltiples plataformas y la coordinación de entrevistas. Esta carga operativa no solo ralentiza los procesos de selección, sino que también afecta negativamente la experiencia del candidato y la eficiencia del equipo de RRHH.
+
+Jobsy nace como una solución tecnológica innovadora que busca transformar este panorama. A través de nuestra plataforma "Smarthire", automatizamos las tareas más operativas del proceso de selección: desde la publicación inteligente de vacantes y el filtrado de CVs mediante inteligencia artificial, hasta la organización de entrevistas y evaluaciones técnicas o psicométricas. Además, ofrecemos integración con herramientas ampliamente utilizadas como LinkedIn, InfoJobs y CompuTrabajo, lo que permite una mayor difusión de las ofertas laborales con un solo clic.
+
+Con Jobsy, aspiramos a optimizar el proceso de trabajo a los equipos de RRHH para que puedan enfocarse en lo que realmente importa: atraer, conocer y seleccionar al mejor talento humano, dejando en manos de la tecnología las tareas repetitivas y mecánicas.
+
+Nuestra misión es brindar a las áreas de Recursos Humanos una plataforma inteligente que simplifique, agilice y optimice los procesos de selección de personal, mediante herramientas tecnológicas que permitan reducir la carga operativa y mejorar la experiencia tanto del reclutador como del postulante.
+
+Nuestra visión es ser la solución líder en Latinoamérica en automatización del reclutamiento, reconocida por transformar la forma en que las empresas encuentran, seleccionan y gestionan talento, impulsando procesos más humanos, eficientes y estratégicos.
+
+### **1.1.2. Perfiles de integrantes del equipo**
+| Foto | Información |
+|------|-------------|
+| ![Foto de Ronald](img/ronald.png) | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
+| ![Foto de Cameron](img/cameron.png) | **Nombres y apellidos:** Cameron Charllotte Bustamante Leveau<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
+| ![Foto de Jasmin](img/jasmin.png) | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| ![Foto de Fabricio](img/fabricio.png) | **Nombres y apellidos:** Lopez de la Cruz Mauro Fabricio <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Fabricio López, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
+| ![Foto de Gabo](img/gabo.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
+
+## **1.2. Solution Profile**
+En esta sección detallamos el funcionamiento y propuesta de valor de nuestro producto digital, resaltando tanto su factor innovador como su esquema de monetización.
+#### Product Name.
+El nombre de nuestra plataforma es “SmartHire". Se eligió este nombre por su enfoque claro en contrataciones inteligentes, eficientes y adaptadas a las necesidades del mercado moderno. La palabra "Smart" hace alusión a la inteligencia artificial y la automatización que optimizan todo el proceso de reclutamiento, mientras que "Hire" transmite de manera directa su propósito principal. Esta combinación genera confianza y comunica una propuesta clara: contrataciones más rápidas, precisas y efectivas.
+
+#### Product Description.
+Una vez publicada la oferta, la plataforma centraliza la recepción de postulaciones y aplica filtros inteligentes que clasifican automáticamente los CVs en categorías como "aptos", "en duda" y "descartados", según criterios personalizados. Desde un panel interactivo, los reclutadores pueden refinar los resultados, aplicar filtros avanzados, enviar pruebas técnicas automatizadas y agendar entrevistas directamente desde la plataforma. Además, SmartHire permite generar contratos laborales digitales y gestionar el onboarding del nuevo colaborador, incluyendo accesos, checklist de incorporación y recursos de bienvenida. Finalmente, se dispone de un dashboard con métricas de rendimiento, como tiempo promedio de contratación o eficiencia del embudo, que permiten mejorar procesos futuros con base en datos reales.
+
+#### Monetization.
+SmartHire adoptará un modelo de negocio tipo Software as a Service (SaaS), dirigido a empresas y organizaciones que deseen mejorar sus procesos de reclutamiento. Las compañías pagarán una suscripción mensual o anual para acceder a todas las funcionalidades de la plataforma, incluyendo la publicación automática de vacantes, el filtrado inteligente de CVs con IA, la programación de entrevistas, y el seguimiento completo del proceso de selección.
+
+### **1.2.1. Antecedentes y problemática**
+Descripción de la problemática.
+En el contexto actual, los procesos de reclutamiento y selección en muchas empresas siguen siendo largos, ineficientes y, en varios casos, propensos a errores humanos o sesgos. Las áreas de Recursos Humanos deben revisar manualmente cientos de currículums, coordinar entrevistas por distintos canales y hacer seguimiento de manera dispersa, lo cual genera demoras, sobrecarga operativa y una experiencia poco fluida tanto para el candidato como para la empresa.
+
+A pesar de que existen soluciones tecnológicas que buscan optimizar estos procesos, muchas de ellas no se adaptan completamente a la realidad local o presentan costos elevados. Además, gran parte de estas plataformas están diseñadas para grandes corporaciones, dejando de lado a medianas y pequeñas empresas que también necesitan contratar talento de manera ágil y eficiente.
+
+En ese contexto, surge la necesidad de una herramienta centralizada, intuitiva y automatizada que facilite el proceso de contratación, desde la publicación de vacantes hasta la incorporación del candidato. Una solución que ahorre tiempo, reduzca sesgos y permita a los equipos de RRHH tomar decisiones basadas en datos. SmartHire nace para atender esta problemática con un enfoque moderno, accesible y adaptable a distintos tamaños de empresa.
+
+La metodología 5W y 2H es una herramienta práctica y eficaz para solucionar problemas relacionados a la gestión y análisis de datos. Este enfoque nos permite responder siete preguntas fundamentales que permiten abordar cualquier situación de manera estructurada. 
+
+### **What (¿Qué?)**
+Las empresas enfrentan procesos de selección lentos, poco eficientes y con alta carga operativa, lo que genera pérdida de tiempo, errores humanos y una experiencia insatisfactoria tanto para los reclutadores como para los candidatos.
+### **Who (¿Quién?)**
+A reclutadores, responsables de selección de personal, y en general a los equipos de Recursos Humanos que deben gestionar múltiples procesos de contratación con recursos limitados. También afecta a los postulantes, que no siempre reciben una experiencia clara ni oportuna.
+### **Where (¿Dónde?)**
+En los departamentos de Recursos Humanos de empresas de distintos tamaños, especialmente en aquellas que aún no cuentan con herramientas tecnológicas integradas o que usan soluciones dispersas y poco automatizadas.
+### **When (¿Cuándo?)**
+Durante todo el proceso de contratación, desde la creación y publicación de vacantes, hasta la recepción, filtrado de CVs, entrevistas y selección final. El problema se intensifica cuando hay muchas postulaciones o vacantes urgentes.
+### **Why (¿Por qué?)**
+La falta de automatización y digitalización en los procesos de reclutamiento. Muchas tareas se hacen manualmente, lo que consume tiempo, aumenta el margen de error y dificulta la organización y el seguimiento de candidatos.
+### **How (¿Cómo?)**
+Ocurre cuando los reclutadores deben buscar candidatos entre cientos de CVs, usar múltiples herramientas para comunicarse y evaluar, y realizar seguimiento manual de cada etapa. Todo esto provoca demoras, decisiones poco informadas y frustración en el equipo.
+### **How much (¿Cuánto?)**
+De acuerdo con el portal El HuffPost (2025). La digitalización se ha convertido en un pilar esencial en la gestión del talento, permitiendo a las empresas automatizar procesos críticos como la administración de nóminas y la gestión documental. Esto no solo facilita la toma de decisiones informadas y mejora la eficiencia en los departamentos de Recursos Humanos, sino que también optimiza la experiencia del empleado al proporcionar acceso rápido y seguro a su información personal y profesional. Además, la implementación de herramientas digitales reduce la carga de trabajo manual, minimiza errores y libera tiempo para que el personal de RRHH se enfoque en actividades estratégicas como el desarrollo del talento y la planificación organizacional. En el contexto de SmartHire, estas ventajas se potencian al ofrecer una plataforma integral que centraliza y automatiza todo el proceso de reclutamiento y selección, desde la publicación de vacantes hasta la incorporación de nuevos empleados, mejorando significativamente la eficiencia y efectividad del área de Recursos Humanos.
+### **1.2.2. Lean UX Process**
+Lean UX es una metodología ágil que pone énfasis en la colaboración constante y el aprendizaje iterativo durante el desarrollo de un producto, priorizando la acción sobre la documentación exhaustiva. Este enfoque impulsa el trabajo conjunto entre los equipos de diseño y desarrollo, quienes crean prototipos y obtienen retroalimentación valiosa mediante ciclos de mejora continua.
+
+Su objetivo esencial es validar hipótesis de forma ágil y con el menor uso de recursos, garantizando así que el resultado final sea adaptable y responda verdaderamente a las necesidades de los usuarios (Gothelf, 2013).
+#### **1.2.2.1. Lean UX Problem Statements**
+Nuestra Startup fue diseñada para optimizar y modernizar los procesos de selección de personal, brindando a las empresas una plataforma centralizada, automatizada e intuitiva que permite realizar contrataciones más rápidas, precisas y efectivas.
+Hemos observado que el proceso de reclutamiento no está cumpliendo con estos objetivos en muchas empresas, ya que los equipos de Recursos Humanos enfrentan dificultades al gestionar manualmente grandes volúmenes de postulaciones, coordinar entrevistas en múltiples canales y tomar decisiones sin datos claros o centralizados.
+Esto está causando retrasos en las contrataciones, errores humanos y una experiencia poco satisfactoria tanto para los candidatos como para los reclutadores, lo cual impacta negativamente en la eficiencia operativa y en la capacidad de atraer talento de calidad.
+¿Cómo podemos mejorar la eficiencia operativa y la calidad de las contrataciones, proporcionando una plataforma web que automatice el filtrado de CVs, centralice todas las etapas del proceso y ofrezca métricas útiles para una toma de decisiones estratégicas basada en datos objetivos?
+#### **1.2.2.2. Lean UX Assumptions**
+<b>- Business Outcomes:</b><br>
+<p align="justify">
+Nuestra plataforma está diseñada para automatizar las tareas críticas del área de Recursos Humanos, mejorando su productividad y reduciendo los costos operativos asociados a los métodos tradicionales. Al ofrecer una solución moderna, accesible y basada en datos, aspiramos a posicionarnos como una herramienta esencial para empresas grandes, medianas y pequeñas que buscan profesionalizar su gestión de talento.
+Suponemos que al ofrecer Jobsy como una solución innovadora, confiable y enfocada en optimizar el proceso de contratación, lograremos ventas directas a empresas medianas interesadas en planes mensuales o anuales. Esto nos permitirá generar ingresos sostenibles, alcanzar una rentabilidad y recuperar la inversión inicial dentro del primer año tras el despliegue de la aplicación.
+</p>
+
+<b>- User Outcomes:</b><br>
+<p align="justify">
+Cuando los equipos de Recursos Humanos utilicen Jobsy, experimentarán una mejora significativa en la eficiencia de sus procesos de reclutamiento. Al centralizar herramientas clave como el filtrado automático de CVs y la programación de entrevistas, podrán ahorrar tiempo, tomar decisiones más informadas y reducir la carga operativa. Esto les permitirá enfocarse en tareas más estratégicas, mejorar la experiencia del candidato y aumentar la calidad general de las contrataciones, sintiéndose más satisfechos con su trabajo y sus resultados.
+</p>
+
+<b>Features y Assumptions:</b><br>
+<p align="justify">
+<b> - Filtrado inteligente de CVs con IA:</b> Suponemos que los reclutadores confían en algoritmos para preseleccionar candidatos de forma precisa, según el cumplimiento de aptitudes registradas para el puesto. <br><br>
+<b> - Panel interactivo de gestión de postulaciones:</b> El usuario desea tener control visual y rápido del estado de cada postulación. <br><br>
+<b> - Envío automatizado de pruebas técnicas:</b> Suponemos que los usuarios prefieren automatizar esta etapa para reducir la carga operativa y garantizar una evaluación estandarizada de los postulantes. <br><br>
+<b> - Agendamiento de entrevistas desde la plataforma:</b> Suponemos que los reclutadores valoran poder coordinar entrevistas desde un solo lugar, sin depender de herramientas externas. <br><br>
+<b> - Generación de contratos digitales y gestión del onboarding:</b> Suponemos que las empresas desean digitalizar completamente el proceso de incorporación para hacerlo más ágil y ordenado. <br><br>
+<b> - Publicación automatizada de vacantes:</b> Suponemos que los usuarios valoran poder publicar vacantes de manera rápida y sugerida. <br><br>
+<b> - Sistema de seguimiento de candidatos:</b> Suponemos que los reclutadores necesitan una línea de tiempo clara del proceso de cada candidato para evitar confusiones. <br><br>
+<b> - Gamificación para evaluar habilidades blandas:</b> Suponemos que los reclutadores estarán abiertos a utilizar dinámicas interactivas para detectar rasgos como liderazgo, comunicación o trabajo en equipo de manera más natural y divertida. <br><br>
+<b> - Organizador de evaluación y entrevistas programadas:</b> Suponemos que los usuarios valorarán tener una agenda donde puedan gestionar fechas y recordatorios de todos los candidatos en un solo lugar.
+</p>
+
+#### **1.2.2.3. Lean UX Hypothesis Statements**
+<ol>
+  <li>
+    <p align="justify"><b>Hipótesis 1:</b><br>
+    Creemos que los reclutadores preferirán el filtrado inteligente por IA frente a la revisión manual de CVs.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos que al menos el 70% de los usuarios usa el filtrado automático.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 2:</b><br>
+    Creemos que la publicación automatizada de vacantes facilitará una mayor difusión de las ofertas laborales y reducirá el tiempo de publicación.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos una reducción del 50% en el tiempo promedio que toma publicar las vacantes en otros portales.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 3:</b><br>
+    Creemos que el sistema de seguimiento de candidatos permitirá una gestión más ordenada y eficiente del proceso de selección.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando los usuarios consulten y actualicen el estado de los candidatos frecuentemente dentro del sistema.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 4:</b><br>
+    Creemos que la gamificación para evaluar habilidades blandas mejorará el nivel de engagement de los postulantes y facilitará la evaluación de competencias sociales.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando más del 50% de los candidatos completen las pruebas gamificadas y los reclutadores tomen en cuenta esto en su decisión final.
+    </p>
+  </li>
+
+  <li>
+    <p align="justify"><b>Hipótesis 5:</b><br>
+    Creemos que los usuarios valorarán tener una agenda donde puedan gestionar fechas y recordatorios de todos los candidatos en un solo lugar.<br>
+    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos que al menos el 75% de los usuarios utilizan activamente la agenda para programar entrevistas y establecer recordatorios durante el proceso de evaluación.
+    </p>
+  </li>
+</ol>
+
+#### **1.2.2.4. Lean UX Canvas**
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeChJjk9rz2GE1ZGx9Ik6Tb2uyG76_3iCMBSgNx_56x-wLz8njRZFbxBwEusDlFwnuKPwRoafOCOr-3Gel2mIydUgrVS_oD7YuV2xB7ZQwZMzZ-YPhR7Z-8BW5X_t1aKGwy3WIMGw?key=gvlLacgsz9NCnDkMVc0Umifa" />
+## **1.3. Segmentos objetivo**
+<b>Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación</b>
+<ul>
+  <li><p align="justify">Empresas medianas (entre 50 y 250 empleados) que no cuentan con soluciones completas de automatización.</p></li>
+  <li><p align="justify">Equipos de Recursos Humanos conformados por 1 a 5 personas, que gestionan múltiples vacantes al mes.</p></li>
+  <li><p align="justify">Profesionales con entre 25 y 45 años de edad, con experiencia en selección de personal, reclutamiento y gestión de talento.</p></li>
+  <li><p align="justify">Sectores como tecnología, servicios, comercio y educación, donde la rotación de personal suele ser más alta.</p></li>
+  <li><p align="justify">Ubicadas en contextos urbanos, con cierta familiaridad con herramientas digitales, pero que aún utilizan procesos manuales o poco integrados.</p></li>
+</ul>
+
+<b>Segmento 2: Postulantes (Candidatos para el empleo)</b>
+<ul>
+  <li><p align="justify">Jóvenes profesionales y técnicos entre 22 y 35 años, egresados de universidades o institutos técnicos.</p></li>
+  <li><p align="justify">Personas con experiencia laboral previa de entre 1 y 5 años, principalmente en áreas como tecnología, diseño, administración, ventas o atención al cliente.</p></li>
+  <li><p align="justify">Residentes de zonas urbanas con acceso a internet y familiarizados con el uso de plataformas digitales para postularse (como LinkedIn, Computrabajo, etc.).</p></li>
+  <li><p align="justify">Personas que valoran una experiencia de postulación clara, ágil y moderna, con comunicación rápida y procesos más transparentes.</p></li>
+  <li><p align="justify">Interesados en empresas que tengan procesos actualizados, con posibilidad de seguimiento de su postulación, evaluaciones claras y entrevistas organizadas.</p></li>
+</ul>
+
+# <font color="red"> **Capítulo II: Requirements Elicitation & Analysis**</font>
+
+## **2.1. Competidores**
+
+A continuación presentamos a nuestros tres principales competidores indirectos:
+
+- **LinkedIn:** es una red social profesional global que combina oportunidades de empleo con funciones de networking, publicaciones y aprendizaje en línea. Si bien permite aplicar a empleos y conectar con reclutadores, su enfoque está más centrado en la visibilidad profesional y no en procesos de selección personalizados o automatizados.
+
+- **Computrabajo:** es una plataforma de búsqueda de empleo muy popular en países de habla hispana. Ofrece publicación de vacantes y filtros por criterios básicos, pero su sistema está enfocado en la gestión tradicional de CVs, sin incluir herramientas modernas como análisis predictivos o evaluaciones interactivas.
+
+- **HireVue:** es una solución empresarial que utiliza inteligencia artificial para realizar entrevistas por video y evaluaciones automatizadas. Su tecnología está orientada a grandes organizaciones y procesos estructurados, pero con una curva de uso más compleja para medianas empresas o postulantes menos familiarizados con herramientas digitales avanzadas.
+
+### **2.1.1. Análisis competitivo**
+
+<TABLE BORDER style="width:100%">
+    <tr>
+        <th colspan="6">Competitive Analysis Landscape</th>
+    </tr>
+    <tr>
+        <td rowspan="2">
+            ¿Por qué llevar a cabo este análisis?
+        </td>
+        <td colspan="5"> 
+        Porque nos permite identificar oportunidades de mejora e innovación frente a soluciones ya conocidas, mejorando nuestra propuesta de valor y diferenciación en el mercado de RRHH.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">¿Qué aporte de valor podría ofrecer nuestro producto en contraste al resto de competidores?</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            (En la cabecera colocar por cada competidor nombre y logo)
+        </td>
+        <td>Jobsy</td>
+        <td>LinkedIn</td>
+        <td>Computrabajo</td>
+        <td>HireVue</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Perfil</th>
+        <td>Overview</td>
+        <td>Plataforma de contratación inteligente que automatiza publicaciones, filtra CVs con IA, y gestiona entrevistas y evaluaciones técnicas.</td>
+        <td>Red social profesional que permite publicar empleos, hacer networking y contactar talentos mediante su plataforma.</td>
+        <td>Portal web de empleos popular en Latinoamérica, enfocado en la publicación de vacantes y la gestión de postulaciones.</td>
+        <td>Plataforma especializada en entrevistas por video y evaluaciones con IA para el reclutamiento empresarial.</td>
+    </tr>
+    <tr>
+        <td>Ventaja competitiva</td>
+        <td>Automatización completa, IA para filtrado de CVs, gamificación de habilidades blandas y sistema de referidos.</td>
+        <td>Gran red de profesionales, sistema de recomendaciones y validación social de perfiles.</td>
+        <td>Alto tráfico en LATAM, facilidad de uso para empresas pequeñas y medianas.</td>
+        <td>Evaluación profunda a través de entrevistas estructuradas y algoritmos de IA.</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Perfil de Marketing</th>
+        <td>Mercado objetivo</td>
+        <td>Empresas medianas y grandes que buscan optimizar procesos de selección. Postulantes que buscan sugerencias inteligentes.</td>
+        <td>Profesionales de todas las industrias. Empresas que quieren visibilidad en una red global.</td>
+        <td>Empresas en LATAM, especialmente en sectores administrativos, operativos y comerciales.</td>
+        <td>Corporaciones que buscan evaluar de forma precisa y digital las habilidades de sus candidatos.</td>
+    </tr>
+    <tr>
+        <td>Estrategias de marketing</td>
+        <td>Campañas en LinkedIn y Google Ads, webinars de RRHH, casos de éxito en redes y SEO enfocado en empresas.</td>
+        <td>Publicidad integrada en la red, recomendaciones automatizadas y contenido profesional en blog y newsletter.</td>
+        <td>Email marketing, presencia en redes sociales y posicionamiento SEO por sectores laborales.</td>
+        <td>Marketing B2B en ferias tecnológicas, campañas institucionales y whitepapers.</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Perfil de Producto</th>
+        <td>Productos & Servicios</td>
+        <td>Publicación automatizada, IA para CVs, entrevistas integradas, gamificación, referidos, y sistema de seguimiento.</td>
+        <td>Publicación de empleos, red de contactos, mensajes directos, y validación de experiencia.</td>
+        <td>Publicación de empleos, base de datos de candidatos, alertas y filtros de búsqueda.</td>
+        <td>Entrevistas por video, análisis emocional, pruebas técnicas, dashboards para RRHH.</td>
+    </tr>
+    <tr>
+        <td>Precios & Costos</td>
+        <td>Para usar el servicio, la empresa compra un plan que puede ser mensual o anual.</td>
+        <td>Publicación gratuita limitada, opciones de pago según alcance y número de vacantes.</td>
+        <td>Planes desde gratuitos hasta paquetes premium por número de vacantes o visibilidad.</td>
+        <td>Modelo SaaS por suscripción anual. Planes personalizados para empresas.</td>
+    </tr>
+    <tr>
+        <td>Canales de distribución</td>
+        <td>Web y app móvil (iOS y Android).</td>
+        <td>Web, app móvil y navegador de escritorio.</td>
+        <td>Principalmente web. Tiene versión responsive para móviles.</td>
+        <td>Web corporativa y dashboards para empresas.</td>
+    </tr>
+    <tr>
+        <th rowspan="5">Análisis SWOT</th>
+        <td colspan="5">Se analiza fortalezas, debilidades, oportunidades y amenazas para entender el posicionamiento estratégico.</td>
+    </tr>
+    <tr>
+        <td>Fortalezas</td>
+        <td>Automatización total, análisis con IA, experiencia gamificada para postulantes, integración multiplataforma.</td>
+        <td>Gran base de usuarios activos, reputación internacional, funcionalidades sociales profesionales.</td>
+        <td>Reconocimiento en LATAM, interfaz sencilla y bajo costo.</td>
+        <td>Análisis avanzado, entrevistas estructuradas y uso efectivo de IA.</td>
+    </tr>
+    <tr>
+        <td>Debilidades</td>
+        <td>Plataforma nueva en validación de mercado, aún sin posicionamiento fuerte.</td>
+        <td>Poca personalización en procesos de selección internos, saturación de contenido.</td>
+        <td>Falta de innovación en IA o seguimiento de procesos.</td>
+        <td>No incluye publicación de ofertas ni red social, solo entrevistas.</td>
+    </tr>
+    <tr>
+        <td>Oportunidades</td>
+        <td>Aliarse con universidades y atraer empresas tecnológicas en crecimiento.</td>
+        <td>Monetización de nuevas herramientas premium para empresas.</td>
+        <td>Expansión a mercados de habla portuguesa, mejoras con IA.</td>
+        <td>Incorporar más idiomas, ampliar herramientas de evaluación gamificada.</td>
+    </tr>
+    <tr>
+        <td>Amenazas</td>
+        <td>Competidores consolidados, cambios en políticas de privacidad o laborales.</td>
+        <td>Apps más ágiles o disruptivas en el sector laboral.</td>
+        <td>Desplazamiento por plataformas más tecnológicas o globales.</td>
+        <td>Falta de diferenciación en IA frente a nuevos competidores.</td>
+    </tr>
+</TABLE>
+
+### **2.1.2. Estrategias y tácticas frente a competidores**
+
+En base al análisis competitivo realizado previamente sobre las plataformas de búsqueda de empleo y conexión laboral, identificamos las principales **fortalezas, debilidades, oportunidades y amenazas** de nuestros competidores. A partir de ello, Jobsy plantea estrategias claras y tácticas aplicables para diferenciarse y destacar en el mercado.
+
+---
+
+* **Afrontando las Fortalezas de los Competidores**
+
+**Fortalezas de la competencia:**
+- Amplia base de usuarios y empresas registradas.
+- Integración con redes profesionales (como LinkedIn).
+- Algoritmos avanzados para recomendación de empleos.
+
+**Fortalezas de Jobsy:**
+- Sistema de compatibilidad inteligente entre candidatos y empresas, enfocado en valores y cultura laboral.
+- Procesos de aplicación más rápidos y simplificados.
+- Comunicación directa entre candidato y reclutador mediante la plataforma.
+
+**Estrategia:**
+Ofrecer una experiencia de búsqueda laboral centrada en la compatibilidad cultural y profesional entre usuario y empresa, con procesos ágiles y acompañamiento personalizado.
+
+**Tácticas:**
+- Implementar una herramienta de "match cultural" entre empresas y postulantes.
+- Permitir feedback directo post-entrevista para mejorar procesos.
+- Promover perfiles de empresas con enfoque humano y responsable.
+
+---
+
+* **Aprovechando las Debilidades de los Competidores**
+
+**Debilidades de la competencia:**
+- Procesos de aplicación extensos y poco amigables.
+- Falta de personalización en las recomendaciones de empleo.
+- Escasa retroalimentación a los postulantes.
+
+**Estrategia:**
+Optimizar el proceso de búsqueda y postulación con herramientas intuitivas, automatizadas y enfocadas en el usuario.
+
+**Tácticas:**
+- Currículum inteligente que se adapta a cada postulación.
+- Recomendaciones personalizadas de empleo según habilidades blandas y técnicas.
+- Seguimiento automático del estado de postulación.
+
+---
+
+* **Aprovechando las Oportunidades del Mercado**
+
+**Oportunidades actuales:**
+- Crecimiento del empleo remoto e híbrido.
+- Aumento de personas en búsqueda de su primer empleo o de un cambio laboral con propósito.
+- Demanda de plataformas más humanas y transparentes.
+
+**Oportunidades de Jobsy:**
+- Posicionar a Jobsy como un puente entre empresas con valores y talentos que buscan propósito.
+- Ampliar la oferta de empleos remotos e internacionales.
+
+**Estrategia:**
+Convertirse en la plataforma de referencia para empleos que se alineen con valores personales y bienestar laboral.
+
+**Tácticas:**
+- Categorías destacadas: empleo remoto, primer empleo, reconversión laboral.
+- Test vocacional y de valores para mejorar la recomendación de vacantes.
+- Publicidad en redes sociales destacando testimonios reales de éxito.
+
+---
+
+* **Enfrentando las Amenazas del Mercado**
+
+**Amenazas actuales:**
+- Plataformas establecidas con fuerte presencia (como Indeed, Computrabajo).
+- Aplicaciones móviles muy posicionadas y con alta inversión en publicidad.
+- Integraciones con inteligencia artificial generativa en procesos de selección.
+
+**Estrategia:**
+Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamente, enfocándose en nichos específicos y experiencias diferenciadas.
+
+**Tácticas:**
+- Actualizaciones constantes basadas en feedback del usuario.
+- Ofrecer herramientas simples y efectivas para empresas en crecimiento o startups.
+- Integración con IA para mejorar el perfilamiento de candidatos y análisis de vacantes.
+
+## **2.2. Entrevistas**
+### **2.2.1. Diseño de entrevistas**
+
+#### Entrevista General
+
+  1. ¿Cuál es tu nombre, edad y ocupación actual?
+  2. ¿Qué dispositivos usas más para trabajar o buscar empleo?
+  3. ¿Qué redes sociales o plataformas usas con frecuencia para temas laborales?
+
+#### Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación (Empresas)
+
+  1. ¿Con qué frecuencia publican vacantes y qué pasos siguen para hacerlo?
+  2. ¿Qué tan útil sería para ti una herramienta que permita publicar automáticamente en varias plataformas?
+  3. ¿Cómo gestionan actualmente la recepción y filtrado de CVs, y qué tan efectivo consideras ese proceso?
+  4. ¿Han evaluado el uso de inteligencia artificial para mejorar ese filtrado?
+  5. ¿Qué criterios específicos te gustaría poder configurar en un sistema para automatizar la selección inicial de candidatos?
+  6. ¿Cómo organizan actualmente entrevistas y evaluaciones técnicas o psicométricas?
+  7. ¿Usan herramientas digitales para ese proceso o todo se maneja manualmente?
+  8. ¿Qué tan importante te parece contar con una plataforma que centralice todo el proceso de contratación?
+
+#### Segmento 2: Postulantes (Candidatos para el empleo)
+
+  1. ¿Qué tipo de empleo estás buscando actualmente y en qué sector?
+  2. ¿Qué plataformas o medios digitales utilizas con más frecuencia para encontrar oportunidades laborales?
+  3. ¿Has usado alguna vez sistemas que te recomienden trabajos basándose en tu CV? ¿Te resultaron útiles?
+  4. ¿Qué parte del proceso de postulación te parece más complicada o frustrante?
+  5. ¿Qué tan útil sería para ti recibir sugerencias para mejorar tu CV directamente desde la plataforma?
+  6. ¿Qué tan cómodo te sientes realizando entrevistas o evaluaciones técnicas de manera online?
+  7. ¿Por qué medio prefieres que te contacten después de postular (correo electrónico, WhatsApp, llamada)?
+  8. ¿Te gustaría tener una sección de seguimiento para ver el estado de tus postulaciones dentro de la misma plataforma?
+
+### **2.2.2. Registro de entrevistas**
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+
+| **Entrevistado 1: Jhul Flores Vayou** |
+|------------------------------------------------|
+| <img src="img/entrevistaRonald.png" alt="Entrevista1Seg1" width=75% /> |
+| Distrito: Surco / Edad: 25 |
+| **Entrevistador:** Ronald Joel Peralta Chipa |
+| **Link:** [ https://drive.google.com/file/d/1h0NXuCKzm1I-W4wFFfn_yRM43buk1mUu/view?usp=sharing](https://drive.google.com/file/d/1h0NXuCKzm1I-W4wFFfn_yRM43buk1mUu/view?usp=sharing) |
+|-Resumen: El entrevistado destaca la importancia de contar con una herramienta que le permita compartir sus ofertas laborales de manera rápida en todos los portales de empleo. Además, reconoce que llevar un registro manual puede resultar frustrante, complicado y riesgoso. Por ello, menciona que sería altamente beneficioso disponer de una plataforma que gestione todo el proceso de publicación y administración de ofertas laborales. Asimismo, subraya la utilidad de integrar inteligencia artificial en el proceso de contratación, específicamente para el filtrado de currículums. Esto les permitiría ahorrar tiempo y enfocarse exclusivamente en seleccionar a los candidatos más talentosos.
+|
+
+| **Entrevistado 2: Marllely Arias Segil** |
+|------------------------------------------------|
+| <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe59cynp1KiJhoFm5sGwwZwIYcC4ACUfR9Uc9UyZ9qOcSDSz0Z4W5eayObSHVWNRPw_Wr6syvsSq-MAWIBqoVxYtwho6zg8JbsBeB9UrKCaynWbpfWXY4pGZfCDQ_uJK_6J_v6r2Q?key=gvlLacgsz9NCnDkMVc0Umifa" alt="Entrevista1Seg1" width=75% /> |
+| Distrito: Surco / Edad: 24 |
+| **Entrevistador:** Cameron Bustamante Leveau |
+| **Link:** https://drive.google.com/file/d/15o2w2b_xtysiImqKzx-gPD74JtwkbIJ4/view?usp=share_link |
+|-Resumen: Marllely trabaja en el área de Recursos Humanos y utiliza frecuentemente plataformas como LinkedIn y Computrabajo para publicar ofertas laborales y gestionar candidatos. Sin embargo, muchas de sus tareas aún son manuales y consumen tiempo. Ella considera que Jobsy es una herramienta muy útil, ya que automatiza procesos como la filtración de CVs, el seguimiento de postulaciones y la comunicación con los candidatos. Gracias a estas funcionalidades, ella menciona que podría enfocarse en lo realmente importante: encontrar el talento ideal para cada puesto.
+
+| **Entrevistado 3: Leonardo Leonsio Bravo** |
+|------------------------------------------------|
+| <img src="img/entrevistaFabricio.png" alt="Entrevista3Seg1" width=75% /> |
+| Distrito: Ate / Edad: 20 |
+| **Entrevistador:** Mauro FAbricio Lopez de la Cruz |
+| **Link:** [https://drive.google.com/file/d/1RbtwaYI_zCUl7_zWHR4tG8muy_Ovt-TT/view?usp=drive_link](https://drive.google.com/file/d/1RbtwaYI_zCUl7_zWHR4tG8muy_Ovt-TT/view?usp=drive_link) |
+|-Resumen: La entrevista se centró en el área de Recursos Humanos y la dificultad que implica el filtrado de currículums (CVs). Se destacó que sería beneficioso contar con una aplicación web que utilice inteligencia artificial (IA) para facilitar este proceso. La IA podría ayudar a analizar grandes volúmenes de CVs de manera más eficiente, identificando candidatos que mejor se ajusten a los perfiles requeridos. Esto optimizaría el tiempo de los reclutadores y potencialmente reduciría sesgos en la selección.
+|
+
+
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+
+| **Entrevistado 1: Jean Fabio Noriega Collado** |
+|------------------------------------------------|
+| <img src="img/Entrevista1Postulantes.png" alt="Entrevista1Seg1" width=75% /> |
+| Distrito: San Miguel / Edad: 18 |
+| **Entrevistador:** Jasmin Adriana Urrutia Peña |
+| **Link:** [https://youtu.be/dtYSbyE4bsM](https://youtu.be/dtYSbyE4bsM) |
+|-Resumen: Jean Fabio es una persona que siente que el proceso de buscar empleo es cansado y frustrante. Él nos comenta que le gusta que nuestra solución automatice tareas tediosas como el filtrado de currículums y la coordinación de entrevistas, lo que le permite concentrarse en evaluar mejor a los postulantes. También resalta que la integración con plataformas como LinkedIn e InfoJobs le parece súper útil, porque le ahorra tiempo al publicar vacantes y mejora la visibilidad de las ofertas. Para él, Jobsy no solo mejora la organización del proceso de selección, sino que además reduce el estrés del equipo y genera una mejor experiencia tanto para el reclutador como para el candidato. En resumen, ve en la app una solución práctica, eficiente y bien pensada para mejorar el proceso de búsqueda de empleo.|
+
+| **Entrevistado 2: Angela Fabiola Ushiñahua Becerra** |
+|------------------------------------------------|
+| <img src="img/entrevista-angela.png" alt="Entrevista2Seg2" width=75% /> |
+| Distrito: Villa el Salvador / Edad: 24 |
+| **Entrevistador:** Gabriel Omar Lapa de la Cruz |
+| **Link:** [https://youtu.be/pNCRk7bci4Y](https://youtu.be/pNCRk7bci4Y) |
+|-Resumen: Ángela Ushiñahua es una joven marquetera digital que busca oportunidades laborales relacionadas con su carrera, especialmente en análisis de mercado y promoción de marcas. Usa principalmente Computrabajo y Facebook para buscar empleo, aunque comenta que muchas plataformas exigen experiencia laboral, lo cual le resulta frustrante como egresada. Le parece especialmente complicada la parte del CV, ya que muchas veces determina si una persona es considerada o no. Nunca ha usado plataformas que le recomienden trabajos ni que le ayuden a mejorar su currículum, pero le gustaría mucho recibir sugerencias para hacerlo más profesional. También señala que las entrevistas online pueden ser incómodas por problemas de conexión. Valora mucho que la comunicación postulación sea vía WhatsApp y considera esencial contar con un sistema de seguimiento dentro de la plataforma para evitar la incertidumbre de no saber si su postulación fue vista. En general, valora soluciones que le ahorren tiempo, le brinden orientación y le permitan tener mayor control sobre el proceso de postulación.|
+
+| **Entrevistado 3: Alejandra Gallo** |
+|------------------------------------------------|
+| ![Captura de pantalla 2025-04-26 110202](https://github.com/user-attachments/assets/81909dea-48b9-4692-ae8e-c5d54652d6a2) |
+| Distrito: Santiago de Surco/ Edad: 21 |
+| **Entrevistador:** Fabricio Lopez   |
+| **Link:** https://drive.google.com/file/d/1bYCCjXe5zIx2SusU0N-t04EQLEkZThsA/view?usp=sharing  |
+|-Resumen: Alejandra Gallo identificó que uno de los mayores retos en su búsqueda de prácticas es la falta de una plataforma centralizada que facilite el seguimiento de postulaciones y la gestión de su perfil profesional. Actualmente, se enfrenta a la dificultad de usar varias plataformas dispersas, lo que le genera incertidumbre sobre el estado de sus aplicaciones, dificultando su organización. Además, expresó su deseo de contar con una herramienta que le ayude a mejorar su CV, ofreciendo sugerencias personalizadas para destacarse ante los reclutadores.|
+
+### **2.2.3. Análisis de entrevistas**
+-Segmento 1: 
+Los equipos de Recursos Humanos buscan herramientas que agilicen y centralicen la publicación y administración de ofertas laborales. Existe una clara necesidad de reducir el trabajo manual, minimizar riesgos de errores y optimizar el tiempo destinado a tareas operativas. Además, valoran la incorporación de tecnologías como la inteligencia artificial para automatizar el filtrado de currículums, mejorando así la calidad del proceso de selección. En resumen, requieren soluciones que les permitan trabajar de manera más eficiente, segura y estratégica.
+
+-Segmento 2:
+Los postulantes enfrentan frustraciones principalmente por la desorganización en las plataformas actuales, la falta de seguimiento en sus postulaciones y la dificultad de destacarse sin experiencia previa. Valoran mucho las soluciones que automaticen procesos tediosos, les brinden sugerencias para mejorar su perfil profesional y centralicen la búsqueda de empleo. También consideran esencial una comunicación rápida y clara, idealmente mediante canales como WhatsApp. En general, buscan plataformas que les ahorren tiempo, reduzcan el estrés del proceso de búsqueda y aumenten sus posibilidades de ser contratados.
+
+---
+| Categoría                                         | Segmento 1 (%) | Segmento 2 (%) |
+|---------------------------------------------------|----------------|----------------|
+| Necesita automatizar o agilizar procesos          | 100%           | 100%           |
+| Desea mejorar su experiencia en el proceso        | 100%           | 100%           |
+| Quiere ayuda para mejorar su CV                   | 0%             | 66%            |
+| Valora el seguimiento/estado de su postulación    | 0%             | 66%            |
+| Usa o valora integración con redes/plataformas    | 100%           | 33%            |
+| Encuentra frustrante el proceso de búsqueda       | 100%           | 100%           |
+
+---
+## **2.3. Needfinding**
+La sección de Needfinding tiene como objetivo identificar las necesidades y problemas específicos de los usuarios que SmartHire pretende resolver. A través de investigaciones y análisis cualitativos y cuantitativos, se detectan oportunidades clave para mejorar la experiencia del usuario, basándose principalmente en entrevistas. Así mismo, se definen los aspectos esenciales que deberán abordarse para lograr una solución efectiva y centrada en el usuario.  
+### **2.3.1. User Personas**
+A través de un perfil detallado, esta sección explora las características demográficas, necesidades, deseos, comportamientos y problemas específicos de los usuarios de los segmentos objetivos predefinidos, facilitando el diseño de soluciones que se alineen mejor con sus expectativas y desafíos.
+
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+<img src="img/Carla Rodríguez (1).png" alt="User-Persona-1" />
+  
+- **Segmento 2:** Postulantes (Candidatos para el empleo)
+<img src="img/Ramiro Muñoz.png" alt="User-Persona-2" />
+  
+### **2.3.2. User Task Matrix**
+
+En esta sección se detallan las tareas que realizan los usuarios clave de nuestra solución digital “SmartHire”. Se han identificado dos segmentos principales:  
+- Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
+
+- Segmento 2: Postulantes o candidatos que aplican a las vacantes
+
+
+Las tareas aquí descritas no dependen exclusivamente del uso del software, ya que representan acciones que los usuarios deben realizar en cualquier proceso de selección, sea manual o automatizado. Para cada tarea, se especifica su frecuencia y nivel de importancia, permitiendo identificar qué funciones son más críticas para cada perfil.
+
+#### 🧑‍💼 User Task Matrix – Reclutador (Equipo de RRHH)
+
+| Tarea                                             | Frecuencia | Importancia |
+|--------------------------------------------------|------------|-------------|
+| Publicar vacantes en múltiples plataformas       | Diaria     | Alta        |
+| Filtrar CVs con IA                               | Diaria     | Alta        |
+| Organizar entrevistas con candidatos             | Diaria     | Alta        |
+| Programar pruebas técnicas o psicométricas       | Diaria     | Alta        |
+| Revisar métricas de rendimiento del proceso      | Semanal    | Media       |
+| Gestionar el onboarding de nuevos empleados      | Ocasional  | Alta        |
+
+#### 🙋‍♂️ User Task Matrix – Candidato (Postulante)
+
+| Tarea                                          | Frecuencia | Importancia |
+|-----------------------------------------------|------------|-------------|
+| Crear y cargar perfil (CV, habilidades)       | Diaria     | Alta        |
+| Postularse a vacantes disponibles             | Diaria     | Alta        |
+| Realizar pruebas técnicas o psicométricas     | Ocasional  | Alta        |
+| Agendar entrevistas                           | Ocasional  | Alta        |
+| Ver estado de la postulación                  | Semanal    | Media       |
+
+En el caso del reclutador, las tareas con mayor frecuencia e importancia incluyen la publicación de vacantes, el filtrado de currículums, la organización de entrevistas y la programación de evaluaciones. Estas actividades son operativas, repetitivas y consumen gran parte del tiempo del equipo de RRHH, lo cual refuerza la necesidad de automatizarlas. También destaca la importancia del onboarding, aunque su frecuencia es menor.
+
+En el caso del candidato, las tareas más importantes y frecuentes son la creación del perfil y la postulación a vacantes, lo que demuestra su interés en estar continuamente buscando oportunidades. Las pruebas y entrevistas son menos frecuentes, pero igualmente importantes para su proceso de selección. Consultar el estado de la postulación tiene una frecuencia alta, pero una importancia media, lo que indica que, aunque no sea esencial para avanzar en el proceso, sí influye en su percepción y experiencia.
+
+En resumen, ambos segmentos comparten tareas importantes, como las entrevistas y evaluaciones, pero desde enfoques diferentes. SmartHire busca optimizar precisamente esas intersecciones, automatizando el trabajo operativo para el reclutador y mejorando la experiencia para el candidato.
+
+
+### **2.3.3. User Journey Mapping**
+En esta sección, se presenta el mapa de viaje del usuario para el sistema de selección SmartHire, destacando las interacciones clave del usuario desde la fase de concientización hasta la de recomendación. Se detallan las acciones que realiza el usuario, las experiencias emocionales asociadas en cada etapa y los puntos de contacto clave que facilitan su interacción con el sistema.
+
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+  <img src="img/journy mapping 1.png" alt="Mapping-1" />
+  
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+   <img src="img/Customer journey map 2.png" alt="Mapping-2" />
+  
+### **2.3.4. Empathy Mapping**
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+  <img src="img/RRHH-empatymap.png" alt="Mapping-3" />
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+  <img src="img/PostulantesEmpatyMap.png" alt="Mapping-4" />
+### **2.3.5. As-is Scenario Mapping**
+El escenario “As-Is” muestra cómo viven actualmente los usuarios el proceso de reclutamiento, antes de implementar la solución digital Jobsy. Refleja los principales problemas, emociones y pensamientos que surgen en cada etapa del proceso.
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+  <img src="img/RRHH-AS-IS.png" alt="Mapping-5" />
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+  <img src="img/Postulantes-AS-IS.png" alt="Mapping-6" />
+## **2.4. Ubiquitous Language**
+| Término       | Definición                                                                                                                                     |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Vacante       | Oferta laboral publicada por una empresa con los detalles del puesto a cubrir.                                                                |
+| Postulante    | Persona que aplica a una vacante mediante el envío de su CV u otros requisitos.                                                              |
+| CV            | Curriculum Vitae. Documento que resume la experiencia laboral y académica del postulante.                                                    |
+| Contratación  | Proceso final donde se elige y se incorpora al postulante a la empresa.                                                                      |
+| IA            | Tecnología integrada en la plataforma que permite automatizar procesos de selección, aplicar filtros inteligentes y mejorar la toma de decisiones con base en datos. |
+| HHRR          | Departamento encargado de la gestión del talento humano dentro de una empresa. En Jobsy, son los principales usuarios del sistema para gestionar postulaciones y contrataciones. |
+
+# <font color="red"> **Capítulo III: Requirements Specification**</font>
+
+## **3.1. To-Be Scenario Mapping**
+El escenario "To-Be" describe cómo se desarrollarán las experiencias de los usuarios una vez implementada la solución digital **SmartHire**, optimizando los procesos de reclutamiento actuales.
+
+### Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
+<img src="img/Captura de pantalla 2025-04-17 201630.png" alt="Logo UPC" />
+
+### Segmento 2: Postulantes o candidatos que aplican a las vacantes
+<img src="img/Captura de pantalla 2025-04-17 201634.png" alt="Logo UPC" />
+
+## **3.2. User Stories**
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|----------------|--------|-------------|--------------------------|----------------------------|
+| EP001 | Gestión de Vacantes | Epic para crear, editar y cerrar vacantes laborales | | EP001 |
+| US001 | Crear nueva vacante | Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación. | **Escenario 1: Creación de vacante desde formulario**<br>• Dado que el reclutador ha iniciado sesión<br>• Cuando completa el formulario de creación<br>• Entonces la vacante se publica correctamente<br><br>**Escenario 2: Validación de campos requeridos**<br>• Dado que el reclutador está creando una vacante<br>• Cuando omite un campo obligatorio<br>• Entonces el sistema muestra un mensaje de error y no permite guardar | EP001 |
+| US002 | Editar vacante existente | Como reclutador, quiero editar una vacante publicada para actualizar su información. | **Escenario 1: Actualización de datos en vacante activa**<br>• Dado que la vacante está publicada<br>• Cuando el reclutador la edita<br>• Entonces los cambios se guardan y se muestran correctamente<br><br>**Escenario 2: Prevención de edición en vacantes cerradas**<br>• Dado que el reclutador accede a una vacante cerrada<br>• Cuando intenta editarla<br>• Entonces el sistema muestra un mensaje indicando que no se puede modificar | EP001 |
+| US003 | Cerrar vacante | Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones. | **Escenario 1: Finalización de proceso de selección**<br>• Dado que una vacante está abierta<br>• Cuando el reclutador la cierra<br>• Entonces la vacante ya no acepta postulaciones<br><br>**Escenario 2: Confirmación previa al cierre de vacante**<br>• Dado que el reclutador hace clic en cerrar vacante<br>• Cuando el sistema solicita confirmación<br>• Entonces solo se cierra si el reclutador confirma la acción | EP001 |
+| EP002 | Gestión de Postulaciones | Epic para gestionar postulaciones de los candidatos | | EP002 |
+| US004 | Aplicar a vacante | Como postulante, quiero postularme a una vacante para ser considerado en un proceso de selección. | **Escenario 1: Aplicación del postulante a una oferta**<br>• Dado que el usuario está autenticado<br>• Cuando se postula a una vacante<br>• Entonces recibe confirmación de postulación exitosa<br><br>**Escenario 2: Impedir postulación duplicada**<br>• Dado que el usuario ya postuló a una vacante<br>• Cuando intenta postularse nuevamente<br>• Entonces el sistema indica que ya está postulado | EP002 |
+| US005 | Ver postulaciones recibidas | Como reclutador, quiero ver las postulaciones recibidas para conocer los candidatos interesados. | **Escenario 1: Consulta de candidatos por vacante**<br>• Dado que el reclutador accede a una vacante<br>• Cuando consulta las postulaciones<br>• Entonces ve una lista con detalles de los postulantes<br><br>**Escenario 2: Ordenar postulaciones por fecha**<br>• Dado que el reclutador ve la lista de postulaciones<br>• Cuando selecciona el orden por fecha<br>• Entonces se muestran desde la más reciente a la más antigua | EP002 |
+| US006 | Filtrar postulaciones | Como reclutador, quiero filtrar postulaciones por estado para gestionar mejor el proceso. | **Escenario 1: Aplicación de filtro por estado en postulaciones**<br>• Dado que hay múltiples postulaciones<br>• Cuando aplica un filtro por estado<br>• Entonces solo se muestran las que coinciden<br><br>**Escenario 2: Filtrado combinado por estado y fecha**<br>• Dado que el reclutador desea refinar resultados<br>• Cuando aplica varios filtros a la vez<br>• Entonces solo se muestran las postulaciones que cumplen todos los filtros | EP002 |
+| EP003 | Proceso de Selección | Epic para el seguimiento del proceso de entrevistas y contratación | | EP003 |
+| US007 | Agendar entrevista | Como reclutador, quiero agendar entrevistas con postulantes para coordinar el proceso de selección. | **Escenario 1: Programación de entrevistas con candidatos**<br>• Dado que el reclutador ha seleccionado un candidato<br>• Cuando define fecha y hora<br>• Entonces se agenda la entrevista y se notifica al postulante<br><br>**Escenario 2: Evitar cruce de entrevistas en calendario**<br>• Dado que hay otra entrevista agendada en el mismo horario<br>• Cuando el reclutador intenta programar una nueva<br>• Entonces el sistema muestra una advertencia y no permite agendar | EP003 |
+| US008 | Registrar resultado de entrevista | Como reclutador, quiero registrar los resultados de entrevistas para tomar decisiones basadas en el desempeño. | **Escenario 1: Carga de resultados luego de entrevista**<br>• Dado que la entrevista se ha realizado<br>• Cuando se registran los resultados<br>• Entonces se actualiza el estado del candidato<br><br>**Escenario 2: Edición de resultados antes de envío final**<br>• Dado que los resultados aún no han sido enviados al candidato<br>• Cuando el reclutador quiere hacer cambios<br>• Entonces puede modificar la información registrada | EP003 |
+| US009 | Enviar oferta laboral | Como reclutador, quiero enviar una oferta laboral al candidato seleccionado para formalizar su contratación. | **Escenario 1: Formalización de propuesta laboral**<br>• Dado que el candidato ha sido elegido<br>• Cuando se completa el formulario de oferta<br>• Entonces se envía al candidato y queda registrada<br><br>**Escenario 2: Cancelación de oferta antes del envío**<br>• Dado que el formulario de oferta está en edición<br>• Cuando el reclutador decide no enviarla<br>• Entonces puede cancelar la operación sin guardar cambios | EP003 |
+| EP004 | Gestión de Usuarios | Epic para la administración de usuarios en la plataforma | | EP004 |
+| US010 | Registrar cuenta de postulante | Como usuario, quiero registrarme como postulante para aplicar a vacantes. | **Escenario 1: Alta de nuevo usuario postulante**<br>• Dado que el usuario accede a la plataforma<br>• Cuando completa el formulario de registro<br>• Entonces se crea su cuenta de postulante<br><br>**Escenario 2: Mensaje de error por correo ya registrado**<br>• Dado que el correo ingresado ya existe<br>• Cuando intenta registrarse<br>• Entonces el sistema muestra un mensaje indicando el error | EP004 |
+| US011 | Registrar cuenta de reclutador | Como empresa, quiero registrarme para gestionar vacantes laborales. | **Escenario 1: Registro exitoso de empresa reclutadora**<br>• Dado que la empresa accede al sitio<br>• Cuando se completa el registro empresarial<br>• Entonces se crea la cuenta de reclutador<br><br>**Escenario 2: Validación de datos de empresa incompletos**<br>• Dado que el formulario de empresa está incompleto<br>• Cuando intenta enviar el registro<br>• Entonces el sistema bloquea el envío y muestra los errores | EP004 |
+| US012 | Editar perfil profesional | Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mis oportunidades. | **Escenario 1: Actualización de perfil profesional por el usuario**<br>• Dado que el usuario accede a su perfil<br>• Cuando edita información personal<br>• Entonces los cambios se guardan correctamente<br><br>**Escenario 2: Validación de formato en campos del perfil**<br>• Dado que el usuario ingresa datos incorrectos<br>• Cuando intenta guardar<br>• Entonces el sistema muestra errores de validación | EP004 |
+| EP005 | IA y Recomendaciones | Epic para automatizar recomendaciones usando inteligencia artificial | | EP005 |
+| US013 | Sugerencia de candidatos | Como reclutador, quiero ver candidatos sugeridos automáticamente según la vacante para encontrar mejores perfiles. | **Escenario 1: Visualización de perfiles sugeridos para vacante**<br>• Dado que la vacante está publicada<br>• Cuando se accede a la sección de sugerencias<br>• Entonces se muestran candidatos recomendados<br><br>**Escenario 2: No hay coincidencias disponibles**<br>• Dado que no hay perfiles que coincidan con la vacante<br>• Cuando se abre la sección de sugerencias<br>• Entonces el sistema informa que no hay coincidencias | EP005 |
+| US014 | Recomendación de vacantes | Como postulante, quiero recibir sugerencias de vacantes relevantes a mi perfil para encontrar oportunidades adecuadas. | **Escenario 1: Vacantes destacadas en la vista del postulante**<br>• Dado que el usuario tiene perfil completo<br>• Cuando ingresa a la plataforma<br>• Entonces se le muestran vacantes sugeridas<br><br>**Escenario 2: Sugerencias actualizadas al cambiar perfil**<br>• Dado que el usuario modifica su perfil<br>• Cuando vuelve a la sección de sugerencias<br>• Entonces las recomendaciones se actualizan | EP005 |
+| US015 | Puntaje automático de CVs | Como reclutador, quiero que los CVs tengan puntajes automáticos para facilitar la evaluación. | **Escenario 1: Evaluación automática de hojas de vida**<br>• Dado que hay postulaciones registradas<br>• Cuando se visualizan los CVs<br>• Entonces se muestran con un puntaje evaluado por el sistema<br><br>**Escenario 2: Justificación del puntaje mostrado**<br>• Dado que el reclutador ve un puntaje<br>• Cuando desea más información<br>• Entonces puede ver un desglose de los criterios usados | EP005 |
+| EP006 | Gestión de Notificaciones | Epic para la administración de notificaciones a los usuarios | | EP006 |
+| US016 | Recibir notificaciones de vacantes | Como postulante, quiero recibir notificaciones cuando se publiquen vacantes relevantes para postularme a tiempo. | **Escenario 1: Recepción de alertas por nuevas vacantes**<br>• Dado que el postulante está registrado<br>• Cuando se publica una vacante relevante<br>• Entonces recibe una notificación<br><br>**Escenario 2: Configuración de tipo de vacantes notificadas**<br>• Dado que el usuario accede a preferencias<br>• Cuando selecciona áreas de interés<br>• Entonces solo recibe notificaciones de esas áreas | EP006 |
+| US017 | Recibir notificaciones de postulaciones | Como reclutador, quiero recibir notificaciones de nuevas postulaciones para estar al tanto de los candidatos interesados. | **Escenario 1: Aviso inmediato al recibir postulaciones**<br>• Dado que el reclutador ha publicado una vacante<br>• Cuando un candidato se postula<br>• Entonces recibe una notificación<br><br>**Escenario 2: Configuración de frecuencia de notificaciones**<br>• Dado que el reclutador prefiere menos alertas<br>• Cuando ajusta la frecuencia<br>• Entonces solo recibe notificaciones según la configuración | EP006 |
+| EP007 | Gestión de Entrevistas | Epic para organizar y gestionar las entrevistas con los candidatos | | EP007 |
+| US018 | Ver calendario de entrevistas | Como reclutador, quiero ver un calendario de entrevistas programadas para organizar mi agenda. | **Escenario 1: Revisión del cronograma de entrevistas**<br>• Dado que el reclutador ha agendado entrevistas<br>• Cuando consulta el calendario<br>• Entonces ve las entrevistas programadas<br><br>**Escenario 2: Filtro por semana o día en el calendario**<br>• Dado que hay muchas entrevistas<br>• Cuando aplica un filtro<br>• Entonces solo ve las entrevistas del rango seleccionado | EP007 |
+| US019 | Reprogramar entrevista | Como reclutador, quiero reprogramar una entrevista para ajustarla a nuevas disponibilidades. | **Escenario 1: Modificación de entrevistas ya agendadas**<br>• Dado que una entrevista está programada<br>• Cuando el reclutador cambia la fecha o hora<br>• Entonces la entrevista se reprograma y se notifica al postulante<br><br>**Escenario 2: Notificación de conflicto de horarios**<br>• Dado que el nuevo horario se superpone con otra entrevista<br>• Cuando se intenta reprogramar<br>• Entonces el sistema alerta del conflicto | EP007 |
+| EP008 | Soporte y Ayuda | Epic para gestionar la sección de soporte de la plataforma | | EP008 |
+| US020 | Solicitar soporte | Como usuario, quiero solicitar soporte para resolver problemas técnicos. | **Escenario 1: Registro de incidencias técnicas**<br>• Dado que el usuario tiene un problema técnico<br>• Cuando solicita soporte<br>• Entonces se crea un ticket de soporte<br><br>**Escenario 2: Confirmación de creación de ticket**<br>• Dado que el usuario ha solicitado soporte<br>• Cuando el ticket se crea correctamente<br>• Entonces el sistema muestra un mensaje de confirmación con el número de ticket | EP008 |
+| US021 | Responder solicitud de soporte | Como agente de soporte, quiero responder a las solicitudes de soporte de los usuarios para ayudarlos eficazmente. | **Escenario 1: Envío de respuesta por el equipo de soporte**<br>• Dado que un usuario ha solicitado soporte<br>• Cuando el agente de soporte responde<br>• Entonces el usuario recibe una respuesta<br><br>**Escenario 2: Visualización del historial de soporte**<br>• Dado que hubo intercambio de mensajes<br>• Cuando el usuario accede al ticket<br>• Entonces puede ver todo el historial de la conversación | EP008 |
+| EP009 | Administración de Pago | Epic para la administración de pagos dentro de la plataforma | | EP009 |
+| US022 | Registrar método de pago | Como usuario, quiero registrar un método de pago para realizar compras o suscripciones. | **Escenario 1: Inclusión de tarjeta o cuenta bancaria**<br>• Dado que el usuario accede a su perfil<br>• Cuando agrega un método de pago<br>• Entonces se guarda correctamente el método de pago<br><br>**Escenario 2: Validación de datos del método de pago**<br>• Dado que el usuario ingresa información de pago<br>• Cuando algún campo es inválido<br>• Entonces el sistema muestra errores específicos para su corrección | EP009 |
+| US023 | Realizar pago | Como usuario, quiero realizar un pago para acceder a servicios premium. | **Escenario 1: Procesamiento exitoso de una transacción**<br>• Dado que el usuario ha registrado un método de pago<br>• Cuando realiza el pago<br>• Entonces recibe confirmación de pago exitoso<br><br>**Escenario 2: Fallo en el intento de pago**<br>• Dado que hay un problema con el método de pago<br>• Cuando se intenta realizar la transacción<br>• Entonces el sistema muestra un mensaje de error explicativo | EP009 |
+| US024 | Ver historial de pagos | Como usuario, quiero ver un historial de mis pagos para tener un registro de mis transacciones. | **Escenario 1: Consulta detallada de transacciones previas**<br>• Dado que el usuario ha realizado pagos anteriormente<br>• Cuando consulta el historial de pagos<br>• Entonces se muestran los detalles de los pagos previos<br><br>**Escenario 2: Filtro por fecha en historial de pagos**<br>• Dado que el usuario accede al historial<br>• Cuando aplica un filtro de fechas<br>• Entonces el sistema muestra solo los pagos dentro del rango seleccionado | EP009 |
+| EP010 | Configuración de Preferencias | Epic para gestionar las preferencias de los usuarios | | EP010 |
+| US025 | Configurar notificaciones | Como usuario, quiero configurar mis preferencias de notificaciones para recibir solo la información relevante. | **Escenario 1: Ajustes personalizados de alertas**<br>• Dado que el usuario accede a la configuración<br>• Cuando configura las notificaciones<br>• Entonces se guardan correctamente sus preferencias<br><br>**Escenario 2: Restaurar configuración por defecto**<br>• Dado que el usuario desea restablecer la configuración<br>• Cuando hace clic en "restaurar por defecto"<br>• Entonces el sistema aplica la configuración inicial predeterminada | EP010 |
+| US026 | Configurar perfil | Como usuario, quiero configurar mis preferencias de perfil para personalizar mi experiencia. | **Escenario 1: Personalización de datos del usuario**<br>• Dado que el usuario accede a su perfil<br>• Cuando edita sus preferencias<br>• Entonces se guardan correctamente<br><br>**Escenario 2: Mostrar confirmación tras editar perfil**<br>• Dado que el usuario guarda los cambios<br>• Cuando se completan correctamente<br>• Entonces el sistema muestra un mensaje confirmando la actualización del perfil | EP010 |
+| EP011 | Seguridad de Cuenta | Epic para gestionar la seguridad de las cuentas de los usuarios | | EP011 |
+| US027 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para asegurar mi cuenta. | **Escenario 1: Actualización segura de credenciales**<br>• Dado que el usuario está autenticado<br>• Cuando solicita cambiar la contraseña<br>• Entonces se actualiza correctamente<br><br>**Escenario 2: Validación de coincidencia en contraseñas nuevas**<br>• Dado que el usuario ingresa una nueva contraseña dos veces<br>• Cuando las contraseñas no coinciden<br>• Entonces el sistema muestra un error y no permite continuar | EP011 |
+| US028 | Activar autenticación de dos factores | Como usuario, quiero activar la autenticación de dos factores para mayor seguridad. | **Escenario 1: Habilitación de doble autenticación**<br>• Dado que el usuario accede a la configuración de seguridad<br>• Cuando habilita la autenticación de dos factores<br>• Entonces se activa correctamente<br><br>**Escenario 2: Solicitud de código de verificación**<br>• Dado que el usuario ha activado 2FA<br>• Cuando intenta ingresar nuevamente<br>• Entonces el sistema solicita un código de verificación adicional | EP011 |
+| EP012 | Gestión de Roles | Epic para gestionar roles y permisos de los usuarios | | EP012 |
+| US029 | Asignar rol de reclutador | Como administrador, quiero asignar el rol de reclutador a un usuario para que pueda gestionar vacantes. | **Escenario 1: Otorgamiento de permisos al rol reclutador**<br>• Dado que el usuario está registrado<br>• Cuando el administrador asigna el rol de reclutador<br>• Entonces el usuario tiene acceso a las funciones de reclutador<br><br>**Escenario 2: Notificación al usuario sobre nuevo rol**<br>• Dado que se asignó un nuevo rol<br>• Cuando el cambio se confirma<br>• Entonces el usuario recibe una notificación del sistema sobre sus nuevos permisos | EP012 |
+| US030 | Asignar rol de postulante | Como administrador, quiero asignar el rol de postulante a un usuario para que pueda aplicar a vacantes. | **Escenario 1: Habilitación de funcionalidades para postulante**<br>• Dado que el usuario está registrado<br>• Cuando el administrador asigna el rol de postulante<br>• Entonces el usuario tiene acceso a las funciones de postulante<br><br>**Escenario 2: Acceso automático a funcionalidades de postulante**<br>• Dado que el rol ha sido asignado<br>• Cuando el usuario accede a su cuenta<br>• Entonces puede ver y usar opciones específicas para postulantes como aplicar a vacantes | EP012 |
+| EP013 | Integración con Redes Sociales | Epic para integrar la plataforma con redes sociales | | EP013 |
+| US031 | Iniciar sesión con redes sociales | Como usuario, quiero iniciar sesión utilizando mi cuenta de redes sociales para facilitar el acceso. | **Escenario 1: Acceso mediante redes sociales**<br>• Dado que el usuario tiene una cuenta de redes sociales<br>• Cuando elige la opción de inicio de sesión social<br>• Entonces inicia sesión exitosamente<br><br>**Escenario 2: Manejo de error en inicio de sesión social**<br>• Dado que el usuario elige iniciar sesión con una red social<br>• Cuando ocurre un error de autenticación<br>• Entonces el sistema muestra un mensaje de error claro e invita a reintentar o usar otro método | EP013 |
+| US032 | Compartir vacante en redes sociales | Como reclutador, quiero compartir una vacante en redes sociales para atraer más postulantes. | **Escenario 1: Difusión de vacante en plataformas sociales**<br>• Dado que la vacante está publicada<br>• Cuando el reclutador elige compartir<br>• Entonces la vacante se publica en las redes sociales seleccionadas<br><br>**Escenario 2: Confirmación de publicación exitosa**<br>• Dado que el reclutador comparte la vacante<br>• Cuando la publicación se realiza correctamente<br>• Entonces el sistema muestra una confirmación y el enlace compartido | EP013 |
+| US033 | Compartir perfil en redes sociales | Como postulante, quiero compartir mi perfil en redes sociales para aumentar mi visibilidad. | **Escenario 1: Promoción de perfil profesional**<br>• Dado que el postulante tiene un perfil completo<br>• Cuando elige compartir<br>• Entonces el perfil se publica en las redes sociales seleccionadas<br><br>**Escenario 2: Vista previa del perfil antes de compartir**<br>• Dado que el postulante va a compartir su perfil<br>• Cuando accede a la opción de compartir<br>• Entonces puede ver una vista previa del contenido que se publicará | EP013 |
+| EP014 | Gestión de Comentarios | Epic para gestionar comentarios y valoraciones de los usuarios | | EP014 |
+| US034 | Comentar sobre vacantes | Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores. | **Escenario 1: Publicación de comentarios sobre vacantes**<br>• Dado que el postulante ha postulado a una vacante<br>• Cuando deja un comentario sobre la vacante<br>• Entonces el comentario se guarda correctamente<br><br>**Escenario 2: Validación de contenido inapropiado**<br>• Dado que el postulante escribe un comentario<br>• Cuando el sistema detecta contenido inapropiado<br>• Entonces muestra un mensaje de advertencia y no permite guardar el comentario | EP014 |
+| US035 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes. | **Escenario 1: Retroalimentación del proceso de selección**<br>• Dado que el candidato ha sido parte del proceso de selección<br>• Cuando deja un comentario sobre el proceso<br>• Entonces el comentario se guarda y es visible para el reclutador<br><br>**Escenario 2: Comentarios anónimos opcionales**<br>• Dado que el candidato desea comentar el proceso<br>• Cuando marca la opción de anonimato<br>• Entonces su comentario se publica sin mostrar su nombre | EP014 |
+
+- Evidencia de los User Stories en Pivotal Tracker:
+<img src="img/User_Stories_SmartHire.png" alt="userstories" width= 1000/>
+
+- Link de los User Stories en Pivotal Tracker: [https://www.pivotaltracker.com/projects/2740681](https://www.pivotaltracker.com/projects/2740681)
+
+## **3.3. Impact Mapping**
+
+### Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
+<img src="img/impact_map_1.png" alt="impactmap1" width= 800/>
+
+### Segmento 2: Postulantes o candidatos que aplican a las vacantes
+<img src="img/impact_map_2.png" alt="impactmap2" width= 800/>
+
+## **3.4. Product Backlog**
+|# Orden|User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
+| :- | :- | :- | :- | :- |
+|1|US001|Crear nueva vacante|Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación.|1|
+|2|US002|Editar vacante existente|Como reclutador, quiero editar una vacante publicada para actualizar su información.|1|
+|3|US003|Cerrar vacante|Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones.|1|
+|4|US004|Aplicar a vacante|Como postulante, quiero postularme a una vacante para ser considerado en un proceso de selección.|2|
+|5|US005|Ver postulaciones recibidas|Como reclutador, quiero ver las postulaciones recibidas para conocer los candidatos interesados.|2|
+|6|US006|Filtrar postulaciones|Como reclutador, quiero filtrar postulaciones por estado para gestionar mejor el proceso.|2|
+|7|US007|Agendar entrevista|Como reclutador, quiero agendar entrevistas con postulantes para coordinar el proceso de selección.|3|
+|8|US008|Registrar resultado de entrevista|Como reclutador, quiero registrar los resultados de entrevistas para tomar decisiones basadas en el desempeño.|3|
+|9|US009|Enviar oferta laboral|Como reclutador, quiero enviar una oferta laboral al candidato seleccionado para formalizar su contratación.|5|
+|10|US010|Registrar cuenta de postulante|Como usuario, quiero registrarme como postulante para aplicar a vacantes.|1|
+|11|US011|Registrar cuenta de reclutador|Como empresa, quiero registrarme para gestionar vacantes laborales.|1|
+|12|US012|Editar perfil profesional|Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mis oportunidades.|2|
+|13|US013|Sugerencia de candidatos|Como reclutador, quiero ver candidatos sugeridos automáticamente según la vacante para encontrar mejores perfiles.|5|
+|14|US014|Recomendación de vacantes|Como postulante, quiero recibir sugerencias de vacantes relevantes a mi perfil para encontrar oportunidades adecuadas.|3|
+|15|US015|Puntaje automático de CVs|Como reclutador, quiero que los CVs tengan puntajes automáticos para facilitar la evaluación.|3|
+|16|US016|Recibir notificaciones de vacantes|Como postulante, quiero recibir notificaciones cuando se publiquen vacantes relevantes para postularme a tiempo.|3|
+|17|US017|Recibir notificaciones de postulaciones|Como reclutador, quiero recibir notificaciones de nuevas postulaciones para estar al tanto de los candidatos interesados.|2|
+|18|US018|Ver calendario de entrevistas|Como reclutador, quiero ver un calendario de entrevistas programadas para organizar mi agenda.|3|
+|19|US019|Reprogramar entrevista|Como reclutador, quiero reprogramar una entrevista para ajustarla a nuevas disponibilidades.|3|
+|20|US020|Solicitar soporte|Como usuario, quiero solicitar soporte para resolver problemas técnicos.|3|
+|21|US021|Responder solicitud de soporte|Como agente de soporte, quiero responder a las solicitudes de soporte de los usuarios para ayudarlos eficazmente.|3|
+|22|US022|Registrar método de pago|Como usuario, quiero registrar un método de pago para realizar compras o suscripciones.|3|
+|23|US023|Realizar pago|Como usuario, quiero realizar un pago para acceder a servicios premium.|3|
+|24|US024|Ver historial de pagos|Como usuario, quiero ver un historial de mis pagos para tener un registro de mis transacciones.|3|
+|25|US025|Configurar notificaciones|Como usuario, quiero configurar mis preferencias de notificaciones para recibir solo la información relevante.|3|
+|26|US026|Configurar perfil|Como usuario, quiero configurar mis preferencias de perfil para personalizar mi experiencia.|3|
+|27|US027|Cambiar contraseña|Como usuario, quiero cambiar mi contraseña para asegurar mi cuenta.|5|
+|28|US028|Activar autenticación de dos factores|Como usuario, quiero activar la autenticación de dos factores para mayor seguridad.|3|
+|29|US029|Asignar rol de reclutador|Como administrador, quiero asignar el rol de reclutador a un usuario para que pueda gestionar vacantes.|2|
+|30|US030|Asignar rol de postulante|Como administrador, quiero asignar el rol de postulante a un usuario para que pueda aplicar a vacantes.|2|
+|31|US031|Iniciar sesión con redes sociales|Como usuario, quiero iniciar sesión utilizando mi cuenta de redes sociales para facilitar el acceso.|5|
+|32|US032|Compartir vacante en redes sociales|Como reclutador, quiero compartir una vacante en redes sociales para atraer más postulantes.|2|
+|33|US033|Compartir perfil en redes sociales|Como postulante, quiero compartir mi perfil en redes sociales para aumentar mi visibilidad.|3|
+|34|US034|Comentar sobre vacantes|Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores.|3|
+|35|US035|Comentar sobre el proceso de selección|Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes.|3|
+
+- Evidencia del Product Backlog en Trello:
+<img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
+
+- Link del Product Backlog en Trello: [https://trello.com/b/9qdSu2o9/product-backlog-smarthire](https://trello.com/b/9qdSu2o9/product-backlog-smarthire)
+
+# <font color="red">**Capítulo IV: Product Design**</font>
+## **4.1. Style Guidelines**
+### 4.1.1. General Style Guidelines
+
+#### Principios de diseño
+
+Algunos de los principios de diseño y heurísticas que hemos aplicado para nuestra plataforma **Jobsy** son:
+
+1. **Intuición y Usabilidad**  
+   La plataforma está diseñada para que cualquier usuario, sin necesidad de formación previa, pueda navegar y utilizar sus funciones con facilidad.
+
+2. **Eficiencia**  
+   Optimizamos cada interacción para reducir pasos innecesarios. Desde la creación de vacantes hasta la visualización de candidatos recomendados por la IA, todo está diseñado para ahorrar tiempo y maximizar la productividad del usuario.
+
+3. **Diseño Responsivo**  
+   Jobsy ofrece una experiencia fluida en cualquier dispositivo. Ya sea desde una computadora de escritorio en una oficina o desde un celular, el diseño se adapta para mantener la funcionalidad y legibilidad.
+
+4. **Evitar la Sobrecarga Cognitiva**  
+   Nos aseguramos de no saturar las pantallas con contenido innecesario. Las secciones están jerarquizadas visualmente, se usa el espacio en blanco de forma estratégica, y se prioriza lo esencial para no distraer al usuario.
+
+5. **Consistencia Visual**  
+   Aplicamos una línea gráfica coherente en toda la plataforma. Tipografías, colores, iconografía y componentes interactivos mantienen un estilo uniforme, lo cual fortalece la identidad de marca y mejora la comprensión de los elementos.
+
+6. **Tamaños Adecuados y Accesibilidad**  
+   Todos los elementos clicables o interactivos están diseñados con un tamaño apropiado, especialmente considerando el uso móvil. Además, se contemplan buenas prácticas de accesibilidad como el contraste de colores, texto legible y navegación con teclado.
+
+7. **Control del Usuario y Retroalimentación**  
+   El sistema informa al usuario de cada acción realizada mediante mensajes claros: confirmaciones, validaciones, cargas o errores. Se permite deshacer o modificar acciones importantes, lo cual transmite seguridad y confianza en el uso de la herramienta.
+
+
+### - Colores
+**Logo:**
+
+Para los colores del logotipo, seleccionamos un tono azul oscuro con código hexadecimal (`#285A84`), que transmite profesionalismo, confianza y solidez, características clave para una plataforma orientada al sector empresarial. Complementariamente, se eligió un verde luminoso con código (`#85C872`) para el ícono del logo, con el objetivo de aportar un contraste visual atractivo que represente innovación, dinamismo y eficiencia, atributos centrales de nuestra propuesta tecnológica.  
+
+<div align="center">
+
+<img src="img/color_logo.png" alt="color logo" width="50%" />
+
+<div align="left">
+    
+<b>Color de fondo:</b> <br> Para el fondo de la sección principal de la plataforma se utilizó un tono verde con código (`#85C872`), el cual aporta frescura, vitalidad y una sensación de cercanía desde el primer contacto visual. Además, se incorporaron secciones con fondo blanco (`#FFFFFF`) que generan un efecto visual limpio y ordenado, mejorando la legibilidad y creando un contraste armónico con el verde predominante. Como elemento complementario, se integraron líneas decorativas en color azul oscuro (`#285A84`) en ciertas áreas del fondo, aportando profundidad, equilibrio visual y reforzando la identidad visual de la marca. <br>
+    <div align="center">
+<br>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiWyEV2fHcWXJeYvbUHHHw4yyVT5KheegQYaEblKFxW3Ozmu9S0NUvTaxS2FmDhWDhMHIs6yc8DtpTe-JiM1E_p5ZiWZrCEZ7RX0T1mlJTVoDLN_d3HMM3gx8fUz0YORN9gPPc?key=gvlLacgsz9NCnDkMVc0Umifa"  width="50%" />
+<br>
+
+<div align="left">
+
+    
+**Colores del texto:**  
+Para los títulos se utilizaron colores que aseguran buen contraste según el fondo: (`#B0E7B1`) para fondos oscuros, (`#285A84`) para fondos claros, blanco en secciones oscuras y gris claro para los placeholder de los formularios. Los subtítulos y párrafos siguen la misma lógica cromática, manteniendo legibilidad y coherencia visual en toda la plataforma.
+<br>
+ <div align="center">
+<br>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXez2oH4jfFtSqNF4cLQ7o9gTQtr40QPPu7jiT_IGSXZ_ovHT45lHefDwOPHCWyKVDbiE0Zjk6perRu0n8KmP7OKVxoAxONBTpMbY-2hhNJDvh5QnX7yVuxGDTKHc0x2qmO0B-viGg?key=gvlLacgsz9NCnDkMVc0Umifa"/>
+
+<div align="left">
+
+#### Botones
+Los botones principales utilizan un fondo azul oscuro (`#285A84`) con bordes redondeados al 40% y con una ligera sombra oscura, otorgándoles un estilo moderno. El texto interior es de color blanco, en mayúsculas o capitalizado, lo que asegura una excelente legibilidad. Además, se incluye un segundo estilo de botón con fondo verde aqua (`#B0E7B1`), bordes y texto en color (`#285A84`), ideal para acciones secundarias o enlaces menos prioritarios.
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxi5FUMm3fJ6JKDVDzzrbiUUCK1MwIvaiT9zthLz7Y9i98HEbxdB3fFbsEfZSyt9eLOwlowPLB_1mQUWjxIkB1JLKdeNdqpN9LEymN5hemkdRia0WEKJFvNLPJ_KGTtHDnrX0ZXg?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+#### - Tipografía
+
+- **ISTOK WEB (negrita):** Utilizada para los títulos principales por su fuerza visual y claridad. <br>
+- **Inter, Pavanam, Questrial (light o regular):** Fuentes limpias y minimalistas, ideales para párrafos y textos secundarios.<br>
+- **Patua One (negrita display):** Estilo más robusto, ideal para encabezados o elementos que necesitan destacarse.<br>
+- **Playfair Display (cursiva serif):** Aporta elegancia y dinamismo a citas o secciones especiales.<br>
+- **Alexandria (bold) y Markazi Text (regular):** Ofrecen una opción moderna con buena legibilidad en enlaces o descripciones.<br>
+- **Poppins:** Fuente redondeada y versátil, útil tanto en títulos como en textos principales por su excelente legibilidad.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-gjofnvAEEorgPfVRY0AnamoI6IVkRv8kf40fc7DegudARCSqIfgfdgK8TtBjR4yfydJtpYl1qzEUT9YNF20OZw4Zjz-oHCN9M5lf4mMrvoPoASHki3HqetYVg96d0CtbAfJL6A?key=gvlLacgsz9NCnDkMVc0Umifa" width="30%">
+<div align="left">
+
+
+#### - Iconografía
+
+Algunos de los iconos utilizados en la interfaz representan elementos clave de la plataforma, como los servicios ofrecidos, los tipos de planes disponibles, el menú de navegación y los accesos a redes sociales. Estos iconos facilitan la comprensión visual, aportan dinamismo y mejoran la experiencia del usuario al guiarlo de forma intuitiva a través de la plataforma. <br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk2VCkKlf0GH86lUmsbMzeC118gn6zNkjD-Vex-LA_aBFk4xkqV3epkDES87YVf-AOq7-JKyN1P63rR2nQfbkgcRe4DDh84rm69wv_YQHAsTao2KHhIypugd4tNNWO7to1q_3unw?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+#### - Cabecera
+La cabecera cuenta con el icono, los enlaces en una esquina superior derecha y con un botón de registro que facilita el ingreso a los usuarios.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjsLPwmZNDZeegCwBXeakk9-rMZGB5oZWWwQGnpp2bHnuOhncmNlaCnJfpcjG3IJv1pxtJw3rBe1WPcm7I33GR1bQdclAvFso4zzu1NROCPg7Kaexjm6bd7d-BYw31RqETffdb6A?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%">
+<div align="left">
+
+    
+#### - Pie de Página
+El pie de página cuenta con tres secciones: La descripción de la startup, los enlaces puestos de manera fácil y redes sociales con los iconos de X, Linkedin y Facebook.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_g5XP8XiObaqSX7xxLNVf-AZ5b8_f2i1rp6Eqi_ibhsgJOGQUn3QHKHuIFkPsVxI3Ly3ptFUqpBVBF_VzVoC9rA2STImu5aUSa9iakNNGdLvNsLi79-Jc17hAyJ7KQJ1Q8vJ0OQ?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%">
+<div align="left">
+
+#### - Logo
+El diseño del logo incorpora el nombre de la startup utilizando la fuente Questrial en tamaño 30px, acompañando al texto, se incluye un icono representativo de una conexión de red, el cual simboliza la interconexión entre talento y oportunidades laborales, reforzando así la esencia tecnológica e innovadora de la plataforma.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-FSDqlolKCALvdJQ0jLzRLwjwRFqvi4pvJ_GkihfXjkIFia3pg7C-jYjEvJ5_NL9ObTh1SloFjDp_hhgTCJ45nwoHAFoSoGNd1s0vOpwHBiPvyKYY3exMNKxZVYWU1Jp4446Slg?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+
+
+### 4.1.2. Web Style Guidelines
+Para garantizar una experiencia clara y agradable en cualquier dispositivo, el sitio web de SmartHire se desarrollará con un diseño totalmente responsivo. Esto significa que la plataforma se adaptará automáticamente a diferentes tamaños de pantalla permitiendo que todo el contenido se visualice correctamente sin perder orden ni legibilidad.
+Se usará una estructura basada en el patrón visual en forma de Z, una técnica efectiva para captar la atención del usuario. Este recorrido comienza en la parte superior izquierda, donde estará ubicado el logotipo de SmartHire, lo cual ayuda a reforzar la identidad de la plataforma desde el primer segundo. <br>
+
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc2Fu7nmAchKUVpd1AkugOy7YBOyXsMACaEP2rwycgZPru4cc7qdqmHpRyp7uAn0Bg2HIpHcPP1VvhVpuc3jjy9eO7XVVzWgqMV78FVoX9BZsYLAdAfoyF_Yv58JwbR7o4VOurLTw?key=gvlLacgsz9NCnDkMVc0Umifa" width="40%">
+<div align="left">
+
+
+
+Se empleará una paleta de colores atractiva y armónica que motive la interacción y genere una experiencia agradable. A esto se sumarán elementos visuales, espacios bien distribuidos y transiciones suaves que ayudarán a que el contenido se entienda fácilmente, asegurando una lectura clara y sin distracciones. <br>
+
+
+## **4.2. Information Architecture**
+En esta sección se establecerá la estructura de la información para nuestra plataforma Jobsy, de acuerdo con los segmentos previamente definidos. Además, se detallarán los sistemas de organización, etiquetado, búsqueda y navegación que permiten una experiencia de usuario clara y eficiente
+
+### **4.2.1. Organization Systems**
+
+#### **Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.**
+
+##### Jerárquica
+<ul>
+  <li>
+    <p><strong>Lista de vacantes publicadas:</strong> Las ofertas de empleo se organizan por área, nivel de experiencia y urgencia de contratación.</p>
+  </li>
+  <li>
+    <p><strong>Panel de candidatos:</strong> Muestra los candidatos postulados clasificados por etapa del proceso de selección (filtrados por IA, en entrevista, en evaluación técnica, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Perfiles de postulantes:</strong> Se muestran los datos más relevantes primero (nivel de experiencia, resultados de pruebas, match con el perfil ideal).</p>
+  </li>
+</ul>
+
+##### Secuencial
+<ul>
+  <li>
+    <p><strong>Registro e inicio de sesión:</strong></p>
+    <ul>
+      <li><p>El reclutador accede a una pantalla donde puede crear una cuenta ingresando nombre, correo y contraseña.</p></li>
+      <li><p>Posteriormente, inicia sesión y selecciona su rol (RRHH) para ser dirigido a su panel principal.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Publicación de vacantes:<br> </strong></p>
+    <ul>
+    Flujo guiado para publicar una nueva vacante:
+      <li><p>Selección del tipo de puesto.</p></li>
+      <li><p>Ingreso de descripción y requisitos.</p></li>
+      <li><p>Definición de habilidades técnicas.</p></li>
+      <li><p>Selección de tests y evaluaciones (opcional).</p></li>
+      <li><p>Publicación y sincronización con portales externos.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Gestión de publicaciones:</strong> Acceso a tabla de vacantes activas, con opción de editar, eliminar o duplicar.</p>
+  </li>
+  <li>
+    <p><strong>Revisión y filtrado de candidatos:</strong> Visualización de los postulantes por vacante, Filtros por categoría: nivel de experiencia, calificaciones, resultados de pruebas y Acceso al perfil del candidato y contacto directo.</p>
+
+  </li>
+  <li>
+    <p><strong>Análisis de datos:</strong> Visualización de estadísticas del proceso de selección mediante gráficos: tasa de conversión, tiempo promedio de respuesta, efectividad por canal. </p>
+  </li>
+  <li>
+    <p><strong>Asistencia con IA:</strong> Acceso a un chat con IA que guía al reclutador en dudas como: recomendaciones, sugerencias de candidatos y análisis del proceso.</p>
+  </li>
+  <li>
+    <p><strong>Edición de perfil:</strong> Modificación de datos, logo, nombre del reclutador y contacto.</p>
+  </li>
+</ul>
+
+##### Matricial
+<ul>
+  <li>
+    <p><strong>Dashboard del Reclutador:</strong> <br>
+     - Vista tipo panel que combina métricas clave (número de vacantes, postulaciones activas, tasa de éxito) y accesos rápidos a funcionalidades principales.<br>
+- Se presenta como una cuadrícula de tarjetas informativas que permiten comparar distintos procesos de forma visual.
+
+  </li>
+  <li>
+    <p><strong>Panel de Publicaciones:</strong> <br>
+    - Vacantes (filas) vs. estado de cada proceso (columnas: En revisión, Con entrevistas, Cerrada).
+        <br>
+     - Posibilidad de mover o filtrar según área, urgencia, o desempeño.
+    
+  </li>
+  <li>
+    <p><strong>Gestión de Candidatos:</strong>  <br>
+       - Vista tipo Kanban, donde cada columna representa una etapa del proceso (ej. Filtrados por IA, Entrevistas agendadas, Finalistas).
+ <br>
+ - Cada candidato es una tarjeta que puede moverse entre columnas, permitiendo una gestión visual del pipeline.
+    
+    
+  </li>
+  <li>
+    <p><strong>Comparación de Desempeño de Vacantes:<br> </strong> Matriz que cruza: <br>
+    - Vacantes publicadas (eje Y), Canales de publicación (eje X: LinkedIn, InfoJobs, CompuTrabajo) 
+        <br>
+    - Resultado: número de postulantes por canal, permitiendo análisis de efectividad por medio de difusión.
+
+        
+    
+  
+  </li>
+</ul>
+
+
+#### **Segmento 2: Postulantes o Candidatos**
+
+##### Jerárquica
+<ul>
+  <li>
+    <p><strong>Listado de ofertas laborales:</strong> Ordenadas por relevancia según el perfil del usuario.</p>
+  </li>
+  <li>
+    <p><strong>Perfil del postulante:</strong> Se priorizan habilidades, experiencia y resultados de tests.</p>
+  </li>
+  <li>
+    <p><strong>Historial de postulaciones:</strong> Lista ordenada cronológicamente por fecha.</p>
+  </li>
+</ul>
+
+##### Secuencial
+<ul>
+  <li>
+    <p><strong>Registro e inicio de sesión:</strong></p>
+    <ul>
+      <li><p>Creación de cuenta con nombre, correo y contraseña.</p></li>
+      <li><p>Inicio de sesión y selección de rol (Postulante) para acceder al panel principal.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Postulación a una vacante:</strong></p>
+    <ul>
+      <li><p>Selección de vacante.</p></li>
+      <li><p>Revisión de requisitos.</p></li>
+      <li><p>Subida de CV.</p></li>
+      <li><p>Realización de evaluaciones (técnicas, psicométricas, etc.).</p></li>
+      <li><p>Confirmación y seguimiento de la postulación.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Seguimiento de postulaciones:</strong> Estado actualizado en cada fase: Enviado, En revisión, En entrevista, Finalizado.</p>
+  </li>
+  <li>
+    <p><strong>Recepción de mensajes:</strong> Bandeja de entrada con invitaciones, resultados y comunicaciones de empresas.</p>
+  </li>
+  <li>
+    <p><strong>Gestión del perfil profesional:</strong> Edición de datos, experiencia, habilidades y vista previa del perfil.</p>
+  </li>
+</ul>
+
+##### Matricial
+<ul>
+  <li>
+    <p><strong>Dashboard del Postulante:</strong> Vista integral con:</p>
+    <ul>
+      <li><p>Resumen de postulaciones activas.</p></li>
+      <li><p>Recomendaciones personalizadas.</p></li>
+      <li><p>Chatbox integrado con soporte y sugerencias automatizadas.</p></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+### **4.2.2. Labeling Systems**
+En esta sección, se detalla el sistema de etiquetado propuesto para facilitar la navegación e interpretación del contenido tanto en la landing page. Se han diseñado etiquetas claras, concisas y orientadas a la acción.
+
+#### Etiquetas para la Landing Page
+<p>La página de aterrizaje se enfoca en comunicar valor de forma directa y atractiva. Sus etiquetas están diseñadas para responder a las primeras dudas e intereses de los visitantes.</p>
+<ul>
+  <li>
+    <p><strong>Inicio:</strong> Sección de bienvenida con un mensaje claro del propósito de la plataforma y los beneficios principales de usar SmartHire.</p>
+  </li>
+  <li>
+    <p><strong>Sobre Nosotros:</strong> Breve descripción de la startup, incluyendo misión, visión y una introducción al equipo fundador.</p>
+  </li>
+  <li>
+    <p><strong>Soluciones:</strong> En lugar de “Servicios”, se usa una etiqueta más orientada al problema que resuelve.</p>
+  </li>
+  <li>
+    <p><strong>Testimonios:</strong> Se presentan opiniones de usuarios que ya han utilizado la plataforma.</p>
+  </li>
+  <li>
+    <p><strong>Planes:</strong> Información clara sobre las distintas modalidades de uso y precios.</p>
+  </li>
+  <li>
+    <p><strong>Contacto:</strong> Canales de comunicación disponibles (formulario y redes sociales).</p>
+  </li>
+  <li>
+    <p><strong>Regístrate / Inicia Sesión:</strong> Botones visibles para invitar a los usuarios a crear una cuenta o acceder a su panel personalizado.</p>
+  </li>
+</ul>
+
+#### Etiquetas dentro de la Plataforma Web - Segmento: Equipos de RRHH
+<p>Estas etiquetas están diseñadas para ofrecer eficiencia y organización durante todo el flujo de contratación.</p>
+<ul>
+  <li>
+    <p><strong>Panel Principal:</strong> Acceso al resumen general de procesos activos, métricas clave y accesos rápidos.</p>
+  </li>
+  <li>
+    <p><strong>Vacantes:</strong> Gestión de ofertas laborales: publicar, editar, pausar o eliminar vacantes.</p>
+  </li>
+  <li>
+    <p><strong>Candidatos:</strong> Acceso a la base de datos de postulantes con filtros inteligentes (por rol, experiencia, habilidades, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Estadísticas:</strong> Visualización de métricas clave en gráficos sobre desempeño, tasa de conversión y eficacia de vacantes.</p>
+  </li>
+  <li>
+    <p><strong>Asistente IA:</strong> Chat con la inteligencia artificial para recibir recomendaciones, respuestas rápidas o generación de descripciones de puestos.</p>
+  </li>
+  <li>
+    <p><strong>Mi Perfil:</strong> Edición de información de la empresa, usuarios del equipo y configuración general.</p>
+  </li>
+</ul>
+
+#### Etiquetas dentro de la Plataforma Web - Segmento: Postulantes
+<p>Diseñadas para acompañar al usuario en su camino de búsqueda laboral y gestión de postulaciones.</p>
+<ul>
+  <li>
+    <p><strong>Inicio:</strong> Vista general del estado de sus postulaciones, novedades y sugerencias de empleos.</p>
+  </li>
+  <li>
+    <p><strong>Mis Postulaciones:</strong> Historial de empleos aplicados, su estado actual y acciones disponibles (editar, retirar, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Bandeja de Entrada:</strong> Comunicaciones con empresas, notificaciones importantes o mensajes automatizados del sistema.</p>
+  </li>
+  <li>
+    <p><strong>Evaluaciones:</strong> Resultados de pruebas técnicas o psicométricas, junto con sus recomendaciones.</p>
+  </li>
+  <li>
+    <p><strong>Perfil Profesional:</strong> Información editable del candidato, como CV, experiencia, educación, y enlaces externos (LinkedIn, portafolio).</p>
+  </li>
+  <li>
+    <p><strong>Recomendaciones:</strong> Ofertas laborales sugeridas por el sistema según su perfil e historial.</p>
+  </li>
+</ul>
+
+### **4.2.3. SEO Tags and Meta Tags**
+En esta sección se definen las etiquetas meta que permitirán a los motores de búsqueda identificar, categorizar y posicionar adecuadamente nuestro sitio web, diferenciándolo dentro del ecosistema digital competitivo de plataformas de reclutamiento. 
+<br><br>
+**Para el sitio web estático (Landing Page):**
+
+<li><b>Title:</b> SmartHire - Revoluciona tu proceso de contratación</li>
+<li><b>Description:</b> Plataforma inteligente de reclutamiento para empresas modernas. Optimiza tus procesos de selección con ayuda de IA y análisis automatizados.</li>
+<li><b>Keywords:</b> reclutamiento, selección de personal, IA en RRHH, recursos humanos, automatización, talento y vacantes.
+</li>
+<li><b>Authors:</b> Equipo Jobsy - SmartHire Project</li>
+<br>
+<br>
+
+**Para la aplicación web (Dashboard para usuarios registrados):** 
+
+<li><b>Title:</b> SmartHire | Plataforma de Reclutamiento Inteligente</li>
+<li><b>Description:</b> Gestiona candidatos, publicaciones, entrevistas y métricas de contratación desde un panel centralizado con soporte de inteligencia artificial.</li>
+<li><b>Keywords:</b> talento, RRHH, análisis de candidatos, vacantes laborales, candidatos, IA, entrevistas, proceso de selección, reclutamiento ágil</li>
+<li><b>Authors:</b> Equipo SmartHire - Jobsy</li>
+
+    
+### **4.2.4. Searching Systems**
+En esta sección se describen los sistemas de búsqueda que se implementarán tanto en la página de aterrizaje como en la aplicación web. Estos sistemas facilitarán a los usuarios encontrar información de forma eficiente.
+<br> <br>
+**En el sitio web estático (Landing Page):**
+<br>
+
+
+Los visitantes podrán navegar fácilmente mediante una barra superior con anclas interactivas que los llevará a secciones como:
+<li>Conócenos (Sobre Jobsy)</li>
+<li>Soluciones para empresas y candidatos</li>
+<li>Testimonios</li>
+<li>Planes y costos</li>
+<li>Planes y costos</li>
+<li>Contacto directo</li>
+<li>Registro / Login</li>
+
+<br>
+
+**En la aplicación web:**
+#### Segmento 1: Equipos de Recursos Humanos
+<li><b>Buscador de candidatos:</b> Los reclutadores podrán buscar postulantes por nombre, cargo deseado, habilidades clave o años de experiencia. El buscador incluirá autocompletado, sugerencias y filtros por área profesional, estudios, o nivel de compatibilidad (calculado por IA).
+</li>
+<li><b>Filtro de publicaciones activas:</b> Se podrá buscar vacantes publicadas por estado (activa, cerrada, borrador). Ideal para grandes equipos que gestionan múltiples vacantes simultáneamente.</li>
+
+<li><b>Análisis y métricas:</b> Se contará con un panel de analíticas.</li>
+
+#### Segmento 2: Postulantes
+
+<li><b>Buscador de empleos: </b> Los candidatos podrán buscar vacantes según título, empresa, modalidad (remoto/presencial), ciudad o palabras clave. También podrán guardar filtros frecuentes o recibir sugerencias según su perfil.</li>
+<li><b>Postulaciones previas: </b> El sistema permitirá buscar entre sus postulaciones pasadas utilizando filtros como empresa, estado del proceso (en revisión, descartado, entrevista), y fecha.</li>
+<li><b>Mensajes y notificaciones: </b> En la bandeja de entrada, los postulantes podrán buscar mensajes por empresa, asunto o palabra clave, con organización por etiquetas (como "entrevista", "confirmación", "seguimiento").</li>
+
+
+
+
+
+
+
+### **4.2.5. Navigation Systems**
+A continuación, el equipo describe los sistemas de navegación que estarán presentes en Jobsy, permitiendo a los usuarios desplazarse de manera rápida, clara y eficiente por las distintas secciones tanto del sitio web como de la aplicación SmartHire.
+
+La página de aterrizaje contará con una barra de navegación ubicada en la parte superior del sitio, donde se incluirán enlaces directos a las principales secciones: Sobre Nosotros, Servicios, Testimonios, Planes, y Contacto. Estos encabezados permitirán a los visitantes acceder directamente al contenido deseado con un solo clic, sin necesidad de desplazarse manualmente por la página. Este sistema de navegación facilita una experiencia fluida, intuitiva y centrada en la usabilidad, permitiendo que el usuario encuentre lo que busca de forma rápida.
+
+En la plataforma web, se implementará un menú lateral dinámico, adaptable al tipo de usuario (reclutador o postulante). Este menú permitirá acceder a las distintas vistas del sistema, tales como:
+
+ <li><b>Reclutadores:</b> Panel principal, publicaciones activas, gestión de candidatos, estadísticas del proceso de selección, asistencia por IA y perfil de empresa.</li>
+<li><b>Postulantes:</b> Dashboard con postulaciones activas, historial de aplicaciones, bandeja de entrada, recomendaciones personalizadas, y perfil personal.</li>
+<br>
+Asimismo, en secciones como las tablas de candidatos, publicaciones o postulaciones, se integrarán sistemas de búsqueda y filtros por categoría, estado, fecha u otros criterios relevantes. Esto optimiza la navegación dentro de listas extensas, haciendo que la experiencia del usuario sea mucho más eficiente y personalizada.
+
+
+
+
+
+
+## **4.3. Landing Page UI Design**
+### **4.3.1. Landing Page Wireframe**
+Se diseñó el wireframe aplicando los principios visuales, la arquitectura de información y el enfoque inclusivo definidos anteriormente.
+| Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
+|----------------------------------|----------------------------------|-------------------------------|
+| <img src="img/LandingDesktopWireframe.png" alt="wireframe1" /> | <img src="img/LandingPhoneWireframe.png" alt="wireframe2" /> | <img src="img/LandingPadWireframe.png" alt="wireframe3"/> |
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
+### **4.3.2. Landing Page Mock-up**
+El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y estructura planteados en el wireframe.
+| Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
+|----------------------------------|----------------------------------|-------------------------------|
+| <img src="img/LandingDesktopMockUp.png" alt="wireframe1" /> | <img src="img/LandingPhoneMockUp.png" alt="wireframe2" /> | <img src="img/LandingPadMockUp.png" alt="wireframe3"/> |
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
+## **4.4. Web Applications UX/UI Design**
+### **4.4.1. Web Applications Wireframes**
+
+| Inicio Sesión |
+|----------------------------------|
+| Pantalla simple donde los reclutadores de R.R.H.H. pueden ingresar a Jobsy su correo y contraseña personales. |
+| <img src="img/WireframeInicioSesion.png" alt="wireframe4" width= 800 /> |
+
+| Registro |
+|----------------------------------|
+| Formulario de registro para nuevos usuarios de Jobsy, con los campos necesarios para que los usuarios ingresen los datos requeridos.|
+| <img src="img/WireframeRegistro.png" alt="wireframe5" width= 800 /> |
+
+| Selección de perfil |
+|----------------------------------|
+| El usuario deberá identificarse como Postulante o Administrador|
+| <img src="img/WireframeRegistro.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.*
+  
+| Panel Principal |
+|----------------------------------|
+| Panel principal de Jobsy, donde los reclutadores pueden ver un resumen rápido de sus vacantes y candidatos.|
+| <img src="img/WireframePanelEmp.png" alt="wireframe6" width= 800 /> |
+
+| Publicaciones |
+|----------------------------------|
+| Sección donde los reclutadores gestionan las vacantes publicadas, con una tabla que muestra cuántos candidatos aplicaron a cada una.|
+| <img src="img/WireframePublicacionesEmp.png" alt="wireframe6" width= 800 /> |
+
+| Candidatos |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframeCandidatosEmp.png" alt="wireframe6" width= 800 /> |
+
+| Analiticas |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframeAnaliticasEmp.png" alt="wireframe6" width= 800 /> |
+
+| Asistencia IA |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframeIAEmp.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Pantalla para que los reclutadores revisen una lista de candidatos que aplicaron a las vacantes, con datos básicos para su evaluación.|
+| <img src="img/WireframePerfilEmp.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 2: Postulantes o candidatos que aplican a las vacantes.*
+
+| Panel Principal |
+|----------------------------------|
+| Un folleto simple del panel principal para el postulante, donde podrá visualizar los trabajos a los que ha aplicado y  la bandeja de entrada|
+| <img src="img/WireframePanelPostu.png" alt="wireframe6" width= 800 /> |
+
+| Postulaciones |
+|----------------------------------|
+| Modelo sencillo donde el postulante podrá ver o eliminar las solicitudes a los trabajos que está postulando|
+| <img src="img/WireframePostulaciones.png" alt="wireframe6" width= 800 /> |
+
+| Bandeja de entrada |
+|----------------------------------|
+| Pantalla sencilla donde el postulante visualiza sus bandejas de entrada|
+| <img src="img/WireframeMSJPost.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Modelo del perfil de un postulante de baja fidelidad|
+| <img src="img/WireframePerfilPos.png" alt="wireframe6" width= 800/> |
+
+-Link:  [https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1 ](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
+### **4.4.2. Web Applications Wireflow Diagrams**
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
+| <img src="img/wireflow5.png" alt="wireflow1" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera. |
+| <img src="img/wireflow6.png" alt="wireflow2" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo ver la lista de candidatos que postulan y filtrar por categorías. |
+| <img src="img/wireflow7.png" alt="wireflow3" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas.|
+| <img src="img/wireflow8.png" alt="wireflow4" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento. |
+| <img src="img/wireflow9.png" alt="wireflow5" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: User Goal: Como usuario deseo tener un perfil de empresa y poder editarlo cuando quiera. |
+| <img src="img/wireflow10.png" alt="wireflow6" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+| User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
+| <img src="img/wireflow4.png" alt="wireflow7" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+|  User Goal: Como usuario, deseo recibir mensajes de las empresas para saber el estado de mi postulación. |
+| <img src="img/wireflow2.png" alt="wireflow8" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+| User Goal: Como usuario, deseo ver todas las postulaciones que realice. |
+| <img src="img/wireflow3.png" alt="wireflow9" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+| User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera. |
+| <img src="img/wireflow1.png" alt="wireflow10" width= 800/> |
+
+-Link: [https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989](https://lucid.app/lucidchart/75682ffb-8c0f-4bac-b998-0d62b3a45530/edit?viewport_loc=-2869%2C-2619%2C10744%2C5094%2C0_0&invitationId=inv_0e6877ba-572d-49ac-8c0e-753a243d3989)
+
+### **4.4.3. Web Applications Mock-ups**
+
+| Inicio Sesión |
+|----------------------------------|
+| Muestra una pantalla de login para Jobsy, con campos para que los reclutadores pongan su correo y contraseña, y un botón para entrar al sistema. |
+| <img src="img/Mockup1.png" alt="wireframe4" width= 800 /> |
+
+| Registro |
+|----------------------------------|
+| Tiene un diseño claro para registrarse en Jobsy, donde los reclutadores ingresan su nombre, correo y contraseña, y un botón para crear su cuenta.|
+| <img src="img/Mockup2.png" alt="wireframe5" width= 800 /> |
+
+| Selección de perfil |
+|----------------------------------|
+| Muestra el tablero donde el usuario indica a que rol pertenece.|
+| <img src="img/Mockup3.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.*
+  
+| Panel Principal |
+|----------------------------------|
+| Muestra el tablero inicial de SmartHire, con un menú a la izquierda y un resumen de vacantes activas y datos importantes para los reclutadores.|
+| <img src="img/Mockup4.png" alt="wireframe6" width= 800 /> |
+
+| Publicaciones |
+|----------------------------------|
+| Presenta una pantalla detallada de la tabla de vacantes, donde los reclutadores ven detalles y pueden gestionar las publicaciones fácilmente.|
+| <img src="img/Mockup5.png" alt="wireframe6" width= 800 /> |
+
+| Candidatos |
+|----------------------------------|
+| Muestra una tabla con la lista de candidatos, donde los reclutadores pueden ver su información detallada y decidir a quién contactar.|
+| <img src="img/Mockup6.png" alt="wireframe6" width= 800 /> |
+
+| Analiticas |
+|----------------------------------|
+| Contiene gráficos que ayudan a los reclutadores a entender cómo van sus procesos de selección y qué tan efectivas son sus vacantes.|
+| <img src="img/Mockup7.png" alt="wireframe6" width= 800 /> |
+
+| Asistencia IA |
+|----------------------------------|
+| Muestra un chat donde los reclutadores pueden hablar con una IA para resolver dudas o recibir consejos sobre reclutamiento.|
+| <img src="img/Mockup8.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Página en Jobsy donde los reclutadores pueden ver sus datos personales y editarlos si es necesario.|
+| <img src="img/Mockup9.png" alt="wireframe6" width= 800 /> |
+
+- *Wireframes para el Segmento 2: Postulantes o candidatos que aplican a las vacantes.*
+
+| Panel Principal |
+|----------------------------------|
+| Modelo completo y avanzado del estado los últimos trabajos donde ha postulado, además de la bandeja de entrada|
+| <img src="img/Mockup10.png" alt="wireframe6" width= 800 /> |
+
+| Postulaciones |
+|----------------------------------|
+| Pantalla donde detalla los trabajos a los que ha postulado y la administración de los mismos.|
+| <img src="img/Mockup11.png" alt="wireframe6" width= 800 /> |
+
+| Bandeja de entrada |
+|----------------------------------|
+| Sección donde el postulante vera su bandeja de entrada.|
+| <img src="img/Mockup12.png" alt="wireframe6" width= 800 /> |
+
+| Perfil |
+|----------------------------------|
+| Sección donde el postulante verá su perfil completo.|
+| <img src="img/Mockup13.png" alt="wireframe6" width= 800/> |
+
+-Link:  [https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1 ](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
+### **4.4.4. Web Applications User Flow Diagrams**
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
+| <img src="img/UserFlow1.png" alt="UserFlow1" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera. |
+| <img src="img/UserFlow2.png" alt="UserFlow2" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo ver la lista de candidatos que postulan y filtrar por categorías. |
+| <img src="img/UserFlow3.png" alt="UserFlow3" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas.|
+| <img src="img/UserFlow4.png" alt="UserFlow4" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: Como usuario, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento. |
+| <img src="img/UserFlow5.png" alt="UserFlow5" width= 800/> |
+
+| User Persona: Equipos de Recursos Humanos encargados del proceso de contratación. |
+|----------------------------------|
+| User Goal: User Goal: Como usuario deseo tener un perfil de empresa y poder editarlo cuando quiera. |
+| <img src="img/UserFlow6.png" alt="UserFlow6" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+| User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal. |
+| <img src="img/UserFlow7.png" alt="UserFlow7" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+|  User Goal: Como usuario, deseo recibir mensajes de las empresas para saber el estado de mi postulación. |
+| <img src="img/UserFlow8.png" alt="UserFlow8" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+| User Goal: Como usuario, deseo ver todas las postulaciones que realice. |
+| <img src="img/UserFlow9.png" alt="UserFlow9" width= 800/> |
+
+| User Persona:Postulantes o candidatos que aplican a las vacantes. |
+|----------------------------------|
+| User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera. |
+| <img src="img/UserFlow10.png" alt="UserFlow10" width= 800/> |
+
+-Link: [https://lucid.app/lucidchart/1bd13f47-62cb-43cd-983b-a2e9d116fe4e/edit?viewport_loc=2240%2C-1780%2C6876%2C3260%2C0_0&invitationId=inv_c2834ef8-4ace-4328-a4b9-1c904e0798f0](https://lucid.app/lucidchart/1bd13f47-62cb-43cd-983b-a2e9d116fe4e/edit?viewport_loc=2240%2C-1780%2C6876%2C3260%2C0_0&invitationId=inv_c2834ef8-4ace-4328-a4b9-1c904e0798f0)
+
+## **4.5. Web Applications Prototyping**
+En esta sección presentaremos el prototipo de nuestra Aplicación Web, para la que se tomó en cuenta los Mock-ups realizados anteriormente y los user flows para la guía de los usuarios.
+
+<img src="img/PrototipoLanding.png" alt="wireflow10" width= 400/>
+
+-Link del video del prototipo: [https://youtu.be/oPz7sWIkK54](https://youtu.be/oPz7sWIkK54)
+-Link del prototipo realizado en figma: [https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1](https://www.figma.com/design/KTUEfi4W93Am8ExCLzuMU5/Prototype-SmartHire?node-id=0-1&t=lRdRK43RVlGPsXF8-1)
+
+## **4.6. Domain-Driven Software Architecture**
+En esta sección se presentarán los diagramas de arquitectura de software diseñados para nuestra aplicación web. Hemos aplicado patrones de diseño de alto nivel, bajo el enfoque de Domain-Driven, lo que nos permitirá comunicar la arquitectura de manera clara, eficiente y efectiva
+
+### **4.6.1. Software Architecture Context Diagram**
+A continuación, se presenta el diagrama de contexto de nuestro software, un artefacto que ilustra cómo el sistema interactúa con su entorno, destacando los aspectos clave de su arquitectura.
+
+<img src="img/D-Contexto.png" alt="wireflow10" width= 600/>
+
+### **4.6.2. Software Architecture Container Diagrams**
+A continuación, se presentará el diagrama de contenedores de nuestro sistema, un artefacto que expone los componentes técnicos de alto nivel, ofreciendo una visión ampliada de la arquitectura del software."
+
+<img src="img/D-Contenedor.png" alt="wireflow10" width= 700/>
+
+### **4.6.3. Software Architecture Components Diagrams**
+En esta sección se presentará el diagrama de componentes de nuestra arquitectura de software. En él se detallan los elementos que conforman nuestros contenedores, además de especificar sus responsabilidades y los aspectos tecnológicos de su implementación.
+
+**diagrama de componentes de Publicaciones.**
+
+<img src="img/D-C-Publicaciones.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Candidatos.**
+
+<img src="img/D-C-Candidatos.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Candidatos.**
+
+<img src="img/D-C-Analiticos.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Analíticos.**
+
+<img src="img/D-C-IA.png" alt="wireflow10" width= 700/>
+
+**diagrama de componentes de Perfil.**
+
+<img src="img/D-C-Perfil.png" alt="wireflow10" width= 700/>
+
+## **4.7. Software Object-Oriented Design**
+### **4.7.1. Class Diagrams**
+Un diagrama de clases es una representación visual de la estructura estática de un sistema, mostrando las clases, sus atributos y métodos, y las relaciones entre ellas.
+<br>
+<div><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNdjI36Xw27ZMN3OIzuFM8BFUyV_nbfZzq2E1vYjtAuszhd1uF3CR_I-Y4m-IzPCRnPR_OTVuFbuLRINwkkQxwXWy0KmN-Bt4CNHmZ1_9lsejeLWRrdOSTHG_WmhSQp3e_7kT6hQ?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%" alt="dc"/></div>
+
+
+- Link: https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-2203%2C-4641%2C7021%2C3423%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
+
+
+### **4.7.2. Diccionario de Clases**
+
+En esta sección se describen las clases identificadas en el **Diagrama de Clases**, detallando sus atributos, métodos y relaciones con otras clases.
+
+
+#### **Rol**
+Clase que representa el rol asignado a un usuario en el sistema (por ejemplo: *Postulante*, *Reclutador* o *Administrador*).
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombreRol` (RolEnum)
+
+- **Métodos:**
+  - `asignarRol(usuario: Usuario): void`
+
+- **Relaciones:**
+  - Asociación 1 a 1 con `Usuario`.
+
+
+#### **Usuario**
+Clase principal que representa a cualquier persona registrada en la plataforma (postulante, reclutador o empresa).
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `correo` (String)
+  - `contraseña` (String)
+  - `tipoRol` (Rol)
+
+- **Métodos:**
+  - `registrar()`
+  - `iniciarSesion()`
+  - `getNombre()`, `setNombre(nombre)`
+  - `getCorreo()`, `setCorreo(correo)`
+  - `getTipoRol()`, `setTipoRol(tipoRol)`
+
+- **Relaciones:**
+  - Asociación 1 a 1 con `Rol`
+  - Asociación 1 a muchos con `Dashboard`
+  - Asociación 1 a muchos con `Perfil`
+  - Asociación 1 a 1 con `AsistenteIA`
+
+#### **Postulante**
+Representa a un usuario que busca empleo, con experiencia y habilidades específicas.
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `perfilId` (Int)
+  - `experiencia` (String)
+  - `habilidades` (String[])
+
+- **Métodos:**
+  - `getNombre()`, `setNombre(nombre)`
+  - `filtrarPorCategoria()`
+  - `verDetalles()`
+
+- **Relaciones:**
+  - Herencia de la clase `Rol`.
+
+
+#### **Empresa**
+Representa a una organización que publica vacantes laborales.
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `ruc` (String)
+  - `direccion` (String)
+  - `usuarioId` (Int)
+
+- **Métodos:**
+  - `verPerfilEmpresa()`
+  - `editarEmpresa(nombre, ruc, direccion)`
+
+- **Relaciones:**
+  - Herencia de `Rol`
+  - Asociación 1 a muchos con `Reclutador`
+
+
+#### **Dashboard**
+Muestra un resumen de la actividad del usuario dentro del sistema.
+
+- **Atributos:**
+  - `id` (Int)
+  - `usuarioId` (Int)
+  - `tipoUsuario` (String)
+
+- **Métodos:**
+  - `mostrarResumen()`
+
+- **Relaciones:**
+  - Muchos a 1 con `Usuario`
+  - Asociación 1 a 1 (composición) con `AsistenteIA`
+
+
+#### **AsistenteIA**
+Asistente virtual que responde consultas de los usuarios mediante inteligencia artificial.
+
+- **Atributos:**
+  - `id` (Int)
+  - `usuarioId` (Int)
+  - `consulta` (String)
+  - `respuesta` (String)
+
+- **Métodos:**
+  - `consultarIA(pregunta: String): String`
+
+- **Relaciones:**
+  - Asociación 1 a 1 con `Usuario`
+
+
+
+#### **Publicación/Vacante**
+Representa una oferta laboral publicada por un reclutador.
+
+- **Atributos:**
+  - `id` (Int)
+  - `titulo` (String)
+  - `descripcion` (String)
+  - `categoria` (String)
+  - `estado` (String)
+  - `fechaPublicacion` (Date)
+
+- **Métodos:**
+  - `getId()`, `setId(id)`
+  - `getTitulo()`, `setTitulo(titulo)`
+  - `getDescripcion()`, `setDescripcion(descripcion)`
+  - `getCategoria()`, `setCategoria(categoria)`
+  - `getEstado()`, `setEstado(estado)`
+  - `getFechaPublicacion()`, `setFechaPublicacion(fecha)`
+  - `getReclutador()`, `setReclutador(reclutador)`
+  - `actualizarEstado(estado)`
+  - `actualizarDescripcion(nuevaDescripcion)`
+
+- **Relaciones:**
+  - Muchos a 1 con `Reclutador`
+
+
+
+#### **Reclutador**
+Usuario encargado de gestionar vacantes y procesos de selección en una empresa.
+
+- **Atributos:**
+  - `id` (Int)
+  - `nombre` (String)
+  - `correo` (String)
+  - `contraseña` (String)
+  - `perfilEmpresa` (PerfilEmpresa)
+  - `publicaciones` (List<PublicacionVacante>)
+  - `bandejaEntrada` (BandejaEntrada)
+
+- **Métodos:**
+  - `getNombre()`, `setNombre(nombre)`
+  - `getPerfilEmpresa()`, `setPerfilEmpresa(perfilEmpresa)`
+  - `getPublicaciones()`, `setPublicaciones(publicaciones)`
+  - `getBandejaEntrada()`, `setBandejaEntrada(bandejaEntrada)`
+  - `crearPublicacion(publicacion)`
+  - `editarPublicacion(vacante)`
+  - `eliminarVacante(vacanteId)`
+
+- **Relaciones:**
+  - Muchos a 1 con `Empresa`
+  - 1 a muchos con `Publicacion/Vacante`
+
+
+
+#### **Perfil**
+Almacena información adicional del usuario (personal o empresarial), como descripción y foto de perfil.
+
+- **Atributos:**
+  - `id` (Int)
+  - `usuarioId` (Usuario)
+  - `descripcion` (String)
+  - `urlFoto` (String)
+  - `tipoPerfil` (Rol)
+
+- **Métodos:**
+  - `editarPerfil()`
+  - `getDescripcion()`, `setDescripcion(descripcion)`
+  - `getUrlFoto()`, `setUrlFoto(urlFoto)`
+
+- **Relaciones:**
+  - Muchos a 1 con `Usuario`
+
+
+#### **BandejaEntrada**
+Administra los mensajes recibidos y enviados por un reclutador.
+
+- **Atributos:**
+  - `id` (Int)
+  - `mensajes` (List<Mensaje>)
+
+- **Métodos:**
+  - `getId()`, `setId(id)`
+  - `getMensajes()`, `setMensajes(mensajes)`
+  - `recibirMensaje(mensaje)`
+  - `eliminarMensaje(mensajeId)`
+  - `leerMensaje(mensajeId)`
+
+- **Relaciones:**
+  - Composición 1 a muchos con `Mensaje`
+
+
+
+#### **Mensaje**
+Representa una comunicación individual entre usuarios (postulantes o reclutadores).
+
+- **Atributos:**
+  - `id` (Int)
+  - `emisorId` (Int)
+  - `receptorId` (Int)
+  - `contenido` (String)
+  - `fecha` (Date)
+
+- **Métodos:**
+  - `enviarMensaje()`
+  - `verMensajes()`
+
+- **Relaciones:**
+  - Muchos a 1 con `BandejaEntrada` (Composición)
+
+
+## **4.8. Database Design**
+
+Implementación de la base de datos aplicado a nuestro proyecto
+
+### **4.8.1. Database Diagram**
+
+En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
+
+![DB](https://github.com/user-attachments/assets/913b4bb5-095d-467b-89ab-d0c8b4d1d6ec)
+
+
+
+## 🗃️ Estructura de la Base de Datos – Jobsy
+
+### 1. `User`
+Contiene la información principal de autenticación y rol. Los usuarios pueden ser candidatos, empleadores o administradores.
+
+- **Campos principales:** `email`, `password`, `role`
+
+---
+
+### 2. `CandidateProfile`
+Almacena detalles adicionales del usuario con rol de candidato: información personal, habilidades, experiencia y CV.
+
+- **Campos principales:** `full_name`, `skills`, `resume`, `experience`
+
+---
+
+### 3. `EmployerProfile`
+Información de los usuarios empleadores, como nombre de empresa, descripción y sitio web.
+
+- **Campos principales:** `company_name`, `description`, `logo_url`
+
+---
+
+### 4. `JobOffer`
+Publicaciones de empleos creadas por los empleadores. Incluye título, requisitos, ubicación y rango salarial.
+
+- **Campos principales:** `title`, `description`, `requirements`, `salary_range`
+
+---
+
+### 5. `Application`
+Relación entre un candidato y una oferta laboral. Guarda el estado del proceso de postulación.
+
+- **Campos principales:** `job_offer_id`, `candidate_id`, `status`
+
+---
+
+### 6. `Message`
+Mensajes enviados entre usuarios (candidatos y empleadores) dentro de la plataforma.
+
+- **Campos principales:** `sender_id`, `receiver_id`, `content`
+
+---
+
+### 7. `Interview`
+Entrevistas agendadas entre empleadores y candidatos, incluyendo fecha, lugar y modalidad.
+
+- **Campos principales:** `scheduled_date`, `interview_mode`, `status`
+
+---
+
+### 8. `Evaluation`
+Evaluaciones realizadas por empleadores luego de las entrevistas. Permite puntuar y dejar comentarios sobre el candidato.
+
+- **Campos principales:** `rating`, `comments`, `evaluation_date`
+
+---
+
+### 9. `MembershipPlan`
+Planes de membresía disponibles (estándar y empresarial). Define el costo y duración.
+
+- **Campos principales:** `name`, `price`, `duration_days`
+
+---
+
+### 10. `EmployerMembership`
+Registro de la membresía activa de un empleador, asociada a un plan. Guarda la vigencia y estado.
+
+- **Campos principales:** `start_date`, `end_date`, `is_active`
+
+---
+# <font color="red">**Capítulo V: Product Implementation, Validation & Deployment**</font>
+## **5.1. Software Configuration Management**
+
+A continuación, se presentan las decisiones y convenciones que permitirán mantener la consistencia durante el ciclo de vida.
+
+### **5.1.1. Software Development Environment Configuration**
+
+En esta sección se incluyen los links de las aplicaciones y productos de software utilizados durante el ciclo del proyecto Jobsy, en los programas que se usaron para colaborar en el desarrollo del producto digital.
+Para ello se clasifican en las siguientes secciones:
+
+
+### **5.1.2. Source Code Management**
+1. **Project Management**  
+Es la disciplina encargada de la gestión de los proyectos, la cual tiene como objetivo principal mejorar los procesos y su entorno para alcanzar los resultados esperados.  
+- En el ciclo digital del proyecto se implementará un producto software con un modelo SaaS que se ejecutará a través de un navegador, sin embargo, no se creará una versión de aplicación móvil.
+
+---
+
+2. **Requirements Management**  
+Es el proceso de garantizar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes con las partes interesadas internas o externas.  
+- **Pivotal Tracker**: Se usó esta herramienta porque organiza bien las user stories y ayuda a mantener el avance del proyecto claro y ordenado.
+
+Link: [https://www.pivotaltracker.com/](https://www.pivotaltracker.com/)
+
+---
+
+3. **Product UX/UI Design**  
+Estas herramientas permiten desarrollar el modelo de nuestro producto de manera digital y de forma parte de la vida del consumidor. En este caso se realizó un modelo de sitio web.  
+- **Uxpressia**: Usamos esta herramienta para elaborar los User Persona, Empathy Maps, Journey Maps e Impact Maps.  
+Link: [https://uxpressia.com/](https://uxpressia.com/)
+
+- **Miro**: Se usó esta herramienta para los As-Is y To-Be Scenario Maps.  
+Link: [https://miro.com/](https://miro.com/)
+
+- **Figma**: Se usó esta herramienta para la elaboración de Wireframes, Mock-ups y Prototypes de nuestra Landing Page y nuestra Web Application.  
+Link: [https://www.figma.com/](https://www.figma.com/)
+
+- **Lucidchart**: Se usó esta herramienta para la elaboración de Wireflows y User Flows.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+4. **Software Development**  
+- **GitHub**: Es la plataforma utilizada para el control de versiones, colaboración entre los integrantes del equipo y almacenamiento del código fuente del proyecto. A través de GitHub se aplicó GitFlow para mantener un flujo de trabajo ordenado y estructurado.  
+Link: [https://github.com/](https://github.com/)
+
+- **HTML**: Se utilizó para estructurar el contenido de la Landing Page y de las vistas principales de la aplicación web, permitiendo una organización semántica del contenido.  
+Link: [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+
+- **CSS**: Fue empleado para definir el diseño visual del sitio, respetando la línea estética basada en Material Design. Se aplicaron estilos personalizados para lograr una interfaz moderna y agradable al usuario.  
+Link: [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+
+- **JavaScript**: El lenguaje de programación utilizado para implementar la lógica del lado del cliente, como validaciones, interacciones dinámicas y consumo de servicios externos.  
+Link: [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+---
+
+5. **Software Testing**  
+- **Lenguaje Gherkins**: Se utilizó Gherkins para definir los criterios de aceptación y los escenarios de prueba en un lenguaje natural, facilitando la comprensión tanto para desarrolladores como para usuarios no técnicos.  
+Link para más información: [https://profile.es/blog/que-es-gherkin/](https://profile.es/blog/que-es-gherkin/)
+
+---
+
+6. **Software Documentation**  
+- **LucidChart**: Se usó esta herramienta para la elaboración de diagramas UML y Diagramas de Base de Datos.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+- **Structurizr**: Se usó Structurizr bajo el modelo C4 para documentar la arquitectura del software, dividiendo la estructura en diferentes niveles de detalle (Context, Container, Component y Code).  
+Link: [https://structurizr.com/](https://structurizr.com/)
+
+
+### **5.1.3. Source Code Style Guide & Conventions**
+Se adoptaron guías de estilo estándar en inglés para cada lenguaje empleado:
+
+- **HTML/CSS**: Google HTML/CSS Style Guide
+- **JavaScript**: Google JavaScript Style Guide, MDN Guidelines
+
+Esto asegura legibilidad, coherencia y facilidad de mantenimiento en todo el código del proyecto.
+
+### **5.1.4. Software Deployment Configuration**
+La gestión del código fuente del proyecto Jobsy se realizó utilizando GitHub. Para la publicación y despliegue de la Landing Page, se empleó **GitHub Pages**, que permite una visualización directa desde el repositorio principal.
+
+Para el desarrollo y despliegue de la Landing Page de Jobsy se han utilizado las siguientes herramientas:
+
+- **HTML**: Lenguaje de marcado que permitió estructurar el contenido visual y semántico de la Landing Page. Se utilizó para crear elementos como encabezados, párrafos, botones, formularios, entre otros.
+
+- **CSS**: Lenguaje de estilos utilizado para dar formato, color, distribución y diseño gráfico a los elementos definidos en HTML. Gracias a CSS, se logró que la Landing Page sea más visualmente atractiva e interactiva.
+
+- **JavaScript**: Utilizado para añadir interactividad y dinamismo a los componentes de la Landing Page, como validaciones en formularios, navegación fluida y respuestas a eventos del usuario.
+
+Link para la visualización de la Landing Page: 
+
+## **5.2. Landing Page, Services & Applications Implementation**
+### **5.2.1. Sprint 1**
+#### **5.2.1.1. Sprint Planning 1**
+
+| **Sprint #**                    | Sprint 1 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  |          |
+| **Date**                        | 11/04/2025 |
+| **Time**                        | 8:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
+| **Sprint n - 1 Review Summary**  | No hubo sprint anterior |
+| **Sprint n - 1 Retrospective Summary** | No hubo sprint anterior |
+| **Sprint Goal & User Stories**   |          |
+| **Sprint 1 Goal**                | Realizar el Landing Page / Informe de trabajo |
+| **Sprint 1 Velocity**            | 10 |
+| **Sum of Story Points**          | 8 |
+
+#### **5.2.1.2. Aspect Leaders and Collaborators**
+
+| Team Member (Last Name, First Name) | GitHub Username | Implementar Home (L/C) | Implementar Contacto (L/C) | Implementar Planes (L/C) | Implementar Servicios (L/C) | Implementar Sobre Nosotros (L/C) | Implementar Testimonio (L/C) |
+|:-----------------------------------|:----------------|:-----------------------|:---------------------------|:--------------------------|:----------------------------|:-------------------------------|:----------------------------|
+| Peralta, Ronald                    | Ronni-FSTK       | L                       | L                           | C                          | C                            | C                               | C                            |
+| Bustamante, Cameron                | CameronBustamanteLeveau2 | C              | C                           | L                          | C                            | C                               | C                            |
+| Urrutia, Jazmin                    | SrtaYeis         | C                       | C                           | C                          | L                            | C                               | C                            |
+| Lopez, Mauro                       | FabricioLop      | C                       | C                           | C                          | C                            | L                               | C                            |
+| Lapa, Gabriel                      | Gabo0722         | C                       | C                           | C                          | C                            | C                               | L                            |
+
+#### **5.2.1.3. Sprint Backlog 1**
+
+| Sprint # | Sprint |          |           |             |         |         |        |
+|----------|--------|----------|-----------|-------------|---------|---------|--------|
+| **User Story** | | **Work Item / Task** | | | | | |
+| ID | Title | ID | Title | Description | Estim. Hours | Assigned | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| US010 | Registrar cuenta postulante | T1 | Implementar Home | Desarrollar la página principal que dará acceso a las funcionalidades. | 2hrs | Ronald | Done |
+|      |                                  | T2 | Implementar Contacto | Construir un formulario de contacto para que los usuarios puedan registrarse. | 3hrs | Ronald | Done |
+| US022 | Registrar método de pago | T3 | Implementar planes | Diseñar la sección que presenta los diferentes planes disponibles. | 3hrs | Jazmín | Done |
+|      |                                  | T4 | Implementar servicios | Integrar un apartado donde se detalle cada servicio ofrecido. | 3hrs | Fabricio | Done |
+| US025 | Configurar notificaciones | T5 | Implementar Sobre nosotros | Elaborar un apartado que describa la misión y visión de la página. | 2hrs | Gabriel | Done |
+|      |                                  | T6 | Implementar testimonio | Incorporar un espacio para mostrar opiniones y experiencias de clientes. | 2hrs | Cameron | Done |
+
+#### **5.2.1.4. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits correspondiente en el repositorio de la siguiente forma.
+
+- Repositorio Landing Page:
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|:----------:|:------:|:---------:|:--------------:|:------------------:|
+| Landing-Page | feat/home | 8ab70ee9b0430fa5eb1a21d8d4bbc7fab5a99691 | Update Page/Home | 25/04/2025 |
+| Landing-Page | feat/servicios | be91f5210ca4b98d7a5ff1621e2d997b1f70cfdb | fix:update ContentService | 26/04/2025 |
+| Landing-Page | feat/sobrenosotros | 9c53463046f305aeac086e92fd213e56a7a85ae6 | feat: add Sobre Nosotros in Landing Page | 26/04/2025 |
+| Landing-Page | feat/planes | 57499e38aa7636347e10a5c363e686511870da07 | feat: add membresia | 26/04/2025 |
+| Landing-Page | feat/planes | 4124f766cc3a6ecf990bb1d163a89c5e01356718 | feat(landing): agregar sección Planes/Enterprise | 26/04/2025 |
+| Landing-Page | feat/planes | e1b84cfb86447812eb9a81d3b568d024d1dfa7ec | feat: Create Plan Standard | 26/04/2025 |
+| Landing-Page | feat/testimonios | 3dfcbffb7b7d377b6de846296e24eec2102dc6d8 | feat: update Testimonios in Landing Page | 26/04/2025 |
+| Landing-Page | feat/contactos | aca53d1877cb522454cac9f079b7fdb9a1e4a0b2 | the contacts section completed | 25/04/2025 |
+
+#### **5.2.1.5. Execution Evidence for Sprint Review**
+Al concluir el primer sprint, se logró implementar todas las secciones planificadas en la landing page, garantizando una visualización óptima y atractiva para los usuarios. Se diseñó una interfaz llamativa, respetando las heurísticas de usabilidad y las mejores prácticas de desarrollo UI.
+
+Se incorporaron botones dinámicos, efectos de transición entre páginas y una barra de navegación intuitiva, todo con el propósito de ofrecer una experiencia fluida y envolvente. La landing page cumple una función clave: captar y retener a los visitantes, transformándolos en potenciales clientes interesados en nuestros servicios.
+
+**A continuación, se presentan capturas de pantalla que ilustran los avances y detalles de la interfaz.**
+
+Barra de navegacion con secciones como "Sobre Nosotros" "Servicios" "Testimonios" "Contactos" "Planes". Tambien se obersva el "Logo Home" y un boton de registro. Toda la barra navegación tiene una anmicacion de sub rayado para saber en que seccion estamos.
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXE7CwcrLqdqfqNeigpWE30EFdPeTEBOVlg31mAoB5gYtC9Sbe0jZb8Pw6jyXjupDRCwo07r7bYTYCLCTCjGTk7SLLUmeyHGgvVluPyRhwqyrzsBmfxSQShW_0deedoxhs4fkqsg?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+En el home podemos observar el logo de la plataforma y un botón para el registro de usuarios nuevos. Exíste una animacion para tener una mejor experiencia al entrar al la pagina principal (home)
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAbgMstbpniG4YKtq4oOl4E_umYiI_rBzE096AbGc-H09iQ1cgmGKrt9GI9_6jb5MsecXiCRrD0rODL7F63L6LnaJ9YoNE8ewErJAzWyR0hx8DAeYxV9OxeqQqATZgk4VxeB5vlw?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+También se presenta la sección "Sobre nostros", un elemento clave para fortalecer nuestra credibilidad como empresa. Esta sección proporciona información detallada sobre nuestra misión y visión, permitiendo a los usuarios conocer quiénes somos y qué nos distingue en el mercado. Con ello, buscamos generar confianza y afianzar nuestra relación con potenciales clientes
+
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdb9v1Xheix0nrTFWx6xBDvP3aQa2cQyGCz0dOQxHqpC_9WdVQAH2cxjsx7MQryWy_FXx71XG2NoFN1IRjm7NPuQfX2wvmDp5lh6ObobVZcYSoGt_zC4zW6mtBV8r3JQ2Vvk9wlcw?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+En esta sección se destacan los servicios que ofrecemos como empresa, asegurando que nuestros visitantes tengan siempre una visión clara de nuestro enfoque y especialización. Presentamos de manera estructurada nuestras soluciones, permitiendo a los usuarios comprender cómo podemos atender sus necesidades y aportar valor. Esto refuerza nuestra identidad y facilita la conexión con el público objetivo.
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAJz-8WuqP4arRmNmizZLFMuKagytuP7Rn1NRkDEnQmQ1eHYq76GDbKm0chRhbI_o488KlS5ee5nrlVJq7W-Uf_-yTvLi0IuEePa-D9Llgg7NfN8gYAbQmmZ45PXKXJWb-HkWYqg?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+En la sección de testimonios, los usuarios que han probado nuestro sistema comparten sus experiencias y opiniones sobre su funcionamiento. A través de sus comentarios, resaltan los beneficios y ventajas que han encontrado, reforzando la confianza en nuestra solución y demostrando su valor. Estos testimonios sirven como una referencia clave para futuros clientes, brindándoles una visión real y auténtica del impacto positivo de nuestro sistema. 
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJMUnRJq16mVR8MMF_J4xJAePL1llSMakoEuQyv4zVEFMscLIZazuS_hj_GpeuGKDiNNCDLap8hp0YEshR9y6dRCwg4NUP3XNOL0jdImq4WeSR4p_8ORZQWRvjFfAdgH48NJdEyA?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+En esta sección se presentan los dos planes disponibles: el Plan Gratis y el Plan Pro. Cada uno está diseñado para adaptarse a diferentes necesidades y niveles de servicio.
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjndDMNKZxf2rfNsx4KQpkA7ZM5gBOLvo9DXbVyXdcU4TaCOkGKkWZZ-LkDou2ieJRNwmHzNu_9IY3t7u7_OI0T1lo11t8BK_3yJUPxcuVadHYdaCaFybaBG-R8ssPrZNLGYstKQ?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+La sección "Contáctanos" es fundamental dentro de nuestra landing page, ya que actúa como el puente directo entre nuestros usuarios y nosotros. A través de esta sección, los visitantes pueden solicitar información adicional o acceder a una atención más personalizada según sus necesidades. Su diseño claro e intuitivo facilita la comunicación, fortaleciendo la relación con potenciales clientes y permitiendo que la interacción sea rápida y efectiva.
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdouAIcWgfc42cR4LVFQfch224jW1IKdDHzulCT5LOwLn-jish-7PezG7hRJqPA2SRwCnUIqkjqBXblPRUK9zqv4Au-1ufgWIEDxmEfb8gbgFAymu3vrxWhyAbE9jhkURN7X6z6?key=gvlLacgsz9NCnDkMVc0Umifa" alt="wireflow10" width= 700/>
+</div>
+
+
+
+
+
+
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review**
+Este punto, refiere a una sección donde se documenta evidencias sobre los servicios desarrollados durante el Sprint 1. 
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>EndPoint</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+          https://landingpage-jobsy.web.app/
+      </td>
+      <td>Se desplegó exitosamente la landing page de Jobsy en firebase, con navegación funcional entre secciones como Inicio, Acerca de, Servicios y Contacto.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review**
+En este Sprint, se realizó el despliegue inicial de la landing page del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
+- URL de la landing page desplegada: https://landingpage-jobsy.web.app/
+
+Para realizar el despliegue usamos Firebase.
+<img src="img/pruebagit3.png" alt="app" width= 500/>
+
+#### **5.2.1.8. Team Collaboration Insights during Sprint**
+
+#### **5.2.2. Sprint 2**
+#### **5.2.2.1. Sprint Planning 2**
+| **Sprint #**                    | Sprint 2 |
+|--------------------------------|----------|
+| **Sprint Planning Background** |          |
+| **Date**                       | 09/05/2025 |
+| **Time**                       | 10:00 pm |
+| **Location**                   | Virtual (Discord) |
+| **Prepared by**                | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
+| **Sprint n - 1 Review Summary** | Implementación de la Landing Page de Jobsy |
+| **Sprint n - 1 Retrospective Summary** | Hubo coordinación constante del equipo, lo que permitió cumplir con los requisitos previamente planteados. |
+| **Sprint Goal & User Stories** | Implementar funcionalidades del Frontend y completar el informe correspondiente |
+| **Sprint 2 Velocity**          | 20 |
+| **Sum of Story Points**        | 15 |
+
+#### **5.2.2.2. Aspect Leaders and Collaborators**
+| Team Member (Last Name, First Name) | GitHub Username | Implementar IA (L/C) | Implementar Postulaciones (L/C) | Implementar Analíticas (L/C) | Implementar Perfiles (L/C) | Implementar Publicaciones (L/C) | Implementar Candidatos (L/C) |
+|------------------------------------|-----------------|----------------------|-------------------------------|------------------------------|-----------------------------|-------------------------------|------------------------------|
+| Peralta, Ronald                    | Ronni-FSTK      | L                    | L                             | C                            | C                           | C                             | C                            |
+| Bustamante, Cameron               | CameronBustamanteLeveau2 | C        | C                             | L                            | C                           | C                             | C                            |
+| Urrutia, Jazmin                   | SrtaYeis        | C                    | C                             | C                            | L                           | C                             | C                            |
+| Lopez, Mauro                      | FabricioLop     | C                    | C                             | C                            | C                           | L                             | C                            |
+| Lapa, Gabriel                     | Gabo0722        | C                    | C                             | C                            | C                           | C                             | L                            |
+
+#### **5.2.2.3. Sprint Backlog 2**
+| **User Story** | **Work Item / Task** | ID  | Title | Description | Estim. Hours | Assigned | Status |
+|----------------|----------------------|-----|--------|-------------|---------------|----------|--------|
+| US013 | Sugerencia de candidatos | T1  | Implementar botón que agregue candidatos | Desarrollar el botón donde aparecerá más candidatos para ver su descripción. | 4hrs | Gabriel | Done |
+|        |                              | T2  | Implementar botón Ver más para editar estado | Desarrollar funcionalidad para cambiar el estado del candidato desde una ventana modal. | 3hrs | Gabriel | Done |
+| US012 | Editar perfil profesional     | T4  | Implementar perfil del usuario | Integrar el apartado de perfiles de usuarios. | 3hrs | Jazmín | Done |
+|        |                              | T5  | Implementar perfil de administrador | Integrar el apartado de perfiles de administrador. | 2hrs | Jazmín | Done |
+| US009 | Enviar oferta laboral         | T6  | Implementar publicaciones | Consultar y mostrar publicaciones de candidatos. | 3hrs | Fabricio | Done |
+|        |                              | T7  | Implementar analíticas | Mostrar gráficos de métricas sobre publicaciones y perfiles. | 3hrs | Cameron | Done |
+| US005 | Ver postulaciones recibidas  | T8  | Implementar postulaciones | Elaborar componente de postulaciones según consulta de candidatos. | 3hrs | Ronald | In Process |
+
+#### **5.2.2.4. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits correspondientes en el repositorio:
+
+- Repositorio Front-End:
+
+| Repository     | Branch              | Commit Id | Commit Message                                      | Committed on (Date) |
+|----------------|---------------------|-----------|-----------------------------------------------------|----------------------|
+| frontend-app   | feat/bandejaEntrada | d31633738030fad71a6fbbb7e2c50eeb09cf0302 | Update PrincipalReclutador.vue                       | 14/05/2025 |
+| frontend-app   | feat/postulaciones  | a6794af5a99e8ce2762f9bc34dbeb3234dbe24dc | add publicacion                                      | 14/05/2025 |
+| frontend-app   | feat/analíticas     | 33a825adb4ac1677ddf181121d020bb86a2e061b | docs(analiticas): add analiticas y panel principal   | 13/05/2025 |
+| frontend-app   | feat/candidatos     | a363b57ad85422a4453fc38f92e74ae44c5f86cc | feat: update Candidatos.vue in pages                 | 14/05/2025 |
+| frontend-app   | feat/publications   | 19a875dac03545d2c7345d3d0e2dde189994860c | AI aggregation                                       | 13/05/2025 |
+| frontend-app   | feat/perfil         | 9db7ae958e3705d2ed7d628aaff4aad526744623 | feat: add Perfil Postulante y Reclutador             | 14/05/2025 |
+
+#### **5.2.2.5. Execution Evidence for Sprint Review**
+Al concluir el segundo sprint, se logró implementar todas las secciones planificadas en la landing page, garantizando una visualización óptima y atractiva para los usuarios. Se diseñó una interfaz llamativa, respetando las heurísticas de usabilidad y las mejores prácticas de desarrollo UI.
+
+Se incorporaron botones dinámicos, efectos de transición entre páginas y una barra de navegación intuitiva, todo con el propósito de ofrecer una experiencia fluida y envolvente. La aplicación web cumple una función clave: captar y retener a los visitantes, transformándolos en potenciales clientes usando nuestra aplicación.
+
+**A continuación, se presentan capturas de pantalla que ilustran los avances y detalles de la interfaz.**
+
+- Pantalla de Seleccion de Rol:
+<img src="img/rol.png" alt="app" width= 500/>
+
+- Pantalla de Login:
+<img src="img/loginapp.png" alt="app1" width= 500/>
+
+- Pantalla de Register:
+<img src="img/registerapp.png" alt="app2" width= 500/>
+
+- Pantalla de Inicio para Segmento Postulante:
+<img src="img/iniciopostulante.png" alt="app3" width= 500/>
+
+- Pantalla de Inicio para Segmento Reclutador:
+<img src="img/iniciorecutador.png" alt="app4" width= 500/>
+
+#### **5.2.2.6. Services Documentation Evidence for Sprint Review**
+Este punto, refiere a una sección donde se documenta evidencias sobre los servicios desarrollados durante el Sprint 2. 
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>EndPoint</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+          https://frontend-app-dbcdc.web.app/select-role
+      </td>
+      <td>Se desplegó exitosamente la aplicacion de Jobsy, con navegación funcional entre secciones como Publicación, Perfil, Analiticas y Candidatos.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review**
+En este Sprint, se realizó el despliegue inicial de la aplicación web del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
+- URL de la aplicacion web desplegada: https://frontend-app-dbcdc.web.app/select-role
+
+Para realizar el despliegue, accedimos a la configuración del repositorio y usamos Firebase.
+<img src="img/pruebagit2.png" alt="app" width= 500/>
+#### **5.2.2.8. Team Collaboration Insights during Sprint**
+
+## **5.3. Validation Interviews**
+### **5.3.1. Diseño de Entrevistas**
+### **5.3.2. Registro de Entrevistas**
+### **5.3.3. Evaluaciones según heurísticas**
+
+
+## Conclusiones
+
+- _Implementación de buenas prácticas en el desarrollo:_
+    Se respetaron estándares de codificación, se utilizó Git para el control de versiones y se siguieron convenciones definidas para los mensajes de commit. Esto permitió lograr un código ordenado, modular y preparado para futuras ampliaciones. Además, se aplicó un diseño responsivo que asegura una buena experiencia en distintos dispositivos.
+
+- _Enfoque en el usuario:_
+    La estructura del contenido y el diseño visual se planificaron con base en las necesidades de los usuarios. Se priorizaron la claridad, la facilidad de uso y la accesibilidad, con el objetivo de construir una experiencia de usuario satisfactoria y fluida.
+
+- _Lecciones aprendidas durante el proceso:_
+    Durante el Sprint se identificaron áreas de mejora, principalmente en la distribución de tareas y en la gestión del tiempo. Estos aprendizajes serán aplicados en futuros ciclos de trabajo para optimizar la eficiencia y garantizar el logro de las metas propuestas.
+
+## Bibliografía
+
+- Gothelf, J., & Seiden, J. (2013). *Lean UX: Applying lean principles to improve user experience*. Recuperado de [https://books.google.es/books?hl=es&lr=&id=7TDQ4WZ1BHoC&oi=fnd&pg=PR9&dq=Lean+UX+2013&ots=wcoh1DeAHp&sig=BUw_djW-_fO2xALUpzNdHv3pJaA#v=onepage&q=Lean%20UX%202013&f=false](https://books.google.es/books?hl=es&lr=&id=7TDQ4WZ1BHoC&oi=fnd&pg=PR9&dq=Lean+UX+2013&ots=wcoh1DeAHp&sig=BUw_djW-_fO2xALUpzNdHv3pJaA#v=onepage&q=Lean%20UX%202013&f=false)
+
+- El HuffPost. (2025). *Gestión de talento y digitalización: el nuevo desafío para empresas en 2025*. Recuperado de [https://www.huffingtonpost.es/economia/gestion-talento-digitalizacion-nuevo-desafio-empresas-2025.html](https://www.huffingtonpost.es/economia/gestion-talento-digitalizacion-nuevo-desafio-empresas-2025.html)
+
+<hr>
+
+## Anexos
