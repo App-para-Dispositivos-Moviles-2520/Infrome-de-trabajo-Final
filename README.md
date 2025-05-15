@@ -67,7 +67,7 @@ Para el desarrollo del informe correspondiente a la entrega TP, se estableció l
 |-|-|
 |Bustamante Leveau, Cameron Charllotte| Seccion Analiticas de la Aplicación Web y Correciones TB1 |
 |Peralta Chipa, Ronald Joel|Seccion Postulaciones y Bandeja de Entrada de la Aplicación Web y Correciones TB1|
-|Urrutia Peña, Jasmin Adriana |Seccion Perfil para Postulador y Recutador de la Aplicaión Web y Correciones TB1|
+|Urrutia Peña, Jasmin Adriana |Seccion Perfil para Postulador y Reclutador de la Aplicaión Web y Correciones TB1|
 |Lapa de la Cruz, Gabriel Omar |Seccion Candidatos en la Aplicación Web y Correciones TB1|
 |Mauro Fabricio Lopez de la Cruz|Seccion Publicacion en la Aplicación Web y Correciones TB1|
 
@@ -2188,9 +2188,9 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
   <tbody>
     <tr>
       <td>
-          https://github.com/Aplicaciones-WEB-Report/Landing-Page-
+          https://landingpage-jobsy.web.app/
       </td>
-      <td>Se desplegó exitosamente la landing page de Jobsy en GitHub Pages, con navegación funcional entre secciones como Inicio, Acerca de, Servicios y Contacto.</td>
+      <td>Se desplegó exitosamente la landing page de Jobsy en firebase, con navegación funcional entre secciones como Inicio, Acerca de, Servicios y Contacto.</td>
     </tr>
 
   </tbody>
@@ -2199,11 +2199,10 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
 
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 En este Sprint, se realizó el despliegue inicial de la landing page del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
-- URL de la landing page desplegada: https://github.com/Aplicaciones-WEB-Report/Landing-Page-
+- URL de la landing page desplegada: https://landingpage-jobsy.web.app/
 
-Para realizar el despliegue, accedimos a la configuración del repositorio y navegamos a la sección de Pages. Posteriormente,
-seleccionamos la rama main desde la cual se llevará a cabo el deployment.
-<img src="img/pruebagit.png" alt="app" width= 500/>
+Para realizar el despliegue usamos Firebase.
+<img src="img/pruebagit3.png" alt="app" width= 500/>
 
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
 
@@ -2304,7 +2303,7 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
 En este Sprint, se realizó el despliegue inicial de la aplicación web del proyecto Jobsy, marcando el comienzo del proceso de publicación gradual de los componentes del sistema. Esta acción tuvo como propósito principal validar visualmente los avances en diseño e interacción, tanto con el cliente como con el equipo docente.
 - URL de la aplicacion web desplegada: https://frontend-app-dbcdc.web.app/select-role
 
-Para realizar el despliegue, accedimos a la configuración del repositorio y usamos .. .
+Para realizar el despliegue, accedimos a la configuración del repositorio y usamos Firebase.
 <img src="img/pruebagit2.png" alt="app" width= 500/>
 #### **5.2.2.8. Team Collaboration Insights during Sprint**
 
