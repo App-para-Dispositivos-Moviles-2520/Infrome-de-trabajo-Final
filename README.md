@@ -176,6 +176,15 @@ Para el desarrollo del informe correspondiente a la entrega TP, se estableció l
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
       - [**5.2.2.7. Software Deployment Evidence for Sprint Review**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint**](#5228-team-collaboration-insights-during-sprint)
+     - [**5.2.3. Sprint 3**](#523-sprint-3)
+      - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
+      - [**5.2.3.2. Aspect Leaders and Collaborators**](#5232-sprint-planning-3)
+      - [**5.2.3.3. Sprint Backlog 3**](#5233-sprint-backlog-3)
+      - [**5.2.3.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
+      - [**5.2.3.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
+      - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
   - [**5.3. Validation Interviews**](#53-validation-interviews)
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
     - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
@@ -2315,9 +2324,112 @@ Para realizar el despliegue, accedimos a la configuración del repositorio y usa
 <img src="img/appcom1.png" alt="app" width= 500/>
 <img src="img/appcom2.png" alt="app" width= 500/>
 
+### **5.2.1. Sprint 3**
+#### **5.2.3.1. Sprint Planning 3**
+
+| **Sprint #**                    | Sprint 3 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  |          |
+| **Date**                        | 11/05/2025 |
+| **Time**                        | 10:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
+| **Sprint 2 Review Summary**  | Implementación del Frontend de Jobsy |
+| **Sprint 2 Retrospective Summary** | El equipo mantuvo una coordinación continua, lo cual facilitó el cumplimiento de los objetivos establecidos durante el Sprint 2 |
+| **Sprint Goal & User Stories**   |          |
+| **Sprint 3 Goal**                | Realizar el Backend / Informe de trabajo |
+| **Sprint 3 Velocity**            | 20 |
+| **Sum of Story Points**          | 15 |
+
+#### **5.2.3.2. Aspect Leaders and Collaborators**
+
+| Team Member (Last Name, First Name) | GitHub Username            | Implementar Usuarios (L/C) | Implementar Mensajes (L/C) | Implementar Perfil de Reclutador (L/C) | Implementar Oferta de Trabajo (L/C) | Implementar Perfil de Candidatos (L/C) |
+|-------------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------------------|--------------------------------------|-----------------------------------------|
+| Peralta, Ronald                     | Ronni-FSTK                  | L                           | C                           | C                                       | C                                    | C                                       |
+| Bustamante, Cameron                 | CameronBustamanteLeveau2   | C                           | L                           | C                                       | C                                    | C                                       |
+| Urrutia, Jazmin                     | SrtaYeis                    | C                           | C                           | L                                       | C                                    | C                                       |
+| Lopez, Mauro                        | FabricioLop                 | C                           | C                           | C                                       | L                                    | C                                       |
+| Lapa, Gabriel                       | Gabo0722                    | C                           | C                           | C                                       | C                                    | L                                       |
+
+#### **5.2.3.3. Sprint Backlog 3**
+
+| **User Story** | **Work Item / Task** | ID  | Title | Description | Estim. Hours | Assigned | Status |
+|----------------|----------------------|-----|--------|-------------|---------------|----------|--------|
+| US009 | Enviar oferta laboral | T1  | Implementar los métodos de oferta laboral | Crear y configurar los controladores y servicios necesarios para registrar y enviar una oferta a un postulante. | 4hrs | Fabricio | In Process |
+| US010 | Registrar cuenta de postulante     | T2  | Implementar los datos del perfil del postulante | Permitir el almacenamiento y validación de datos personales y profesionales del postulante. | 3hrs | Gabriel | Done |
+| US011 | Registrar cuenta de reclutador         | T3  | Implementar los datos del perfil del reclutador | Habilitar la gestión de información empresarial y de contacto para los usuarios tipo reclutador. | 3hrs | Jazmin | Done |
+| US031 | Iniciar sesión con redes sociales  | T4  | Implementar datos de los usuarios potenciales | Configurar la autenticación mediante plataformas sociales y vinculación de información básica del usuario. | 3hrs | Ronald | Done |
+| US034 | Compartir perfil en redes sociales      | T5  | Implementar servicio de mensajería | Desarrollar la funcionalidad para compartir contenido con otros usuarios utilizando medios externos. | 3hrs | Cameron | In Process |
+
+#### **5.2.3.4. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits correspondientes en el repositorio:
+
+- Repositorio Back-End:
+
+| Repository     | Branch              | Commit Id | Commit Message                                      | Committed on (Date) |
+|----------------|---------------------|-----------|-----------------------------------------------------|----------------------|
+| backend-app    | develop             | f1c9659da4a2013436992295739f92d1f052e426 | initial commit complete                               | 20/06/2025 |
+| backend-app    | feat/shared         | 9f9afa8ff4ab8a4655cbe2cd8757e89d037b9b2a | feat update Shared                                    | 21/06/2025 |
+| backend-app    | feat/postulant      | 19e60b7f5a13450765f40b1096bccc38c3e540a0 | feat add CandidateAuthentication in Postulant         | 21/06/2025 |
+| backend-app    |                     |                                          |                                                       | 21/06/2025 |
+| backend-app    |                     |                                          |                                                       | 21/06/2025 |
+| backend-app    |                     |                                          |                                                       | 21/06/2025 |
+
+#### **5.2.3.5. Execution Evidence for Sprint Review**
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+#### **5.2.3.8. Team Collaboration Insights during Sprint**
+
 ## **5.3. Validation Interviews**
+El objetivo de estas entrevistas es validar la propuesta de valor, la utilidad percibida y la facilidad de uso de la plataforma, enfocándose en los dos segmentos principales:
+Por un lado, equipos de Recursos Humanos que gestionan procesos de contratación, y por otro, personas que se postulan a empleos a través de plataformas digitales.
+Las preguntas buscan recoger opiniones reales sobre la experiencia de navegación, comprensión de funcionalidades, utilidad de las herramientas integradas y nivel de confianza en el uso de la solución digital.
+
 ### **5.3.1. Diseño de Entrevistas**
+
+#### Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación (Empresas)
+
+  1. ¿Qué te pareció, en general, la presentación de la plataforma Jobsy?
+  2. ¿Crees que esta interfaz facilita tu trabajo en los procesos de contratación?
+  3. ¿La navegación entre secciones te resultó intuitiva?
+  4. ¿Encontraste fácilmente las funciones principales (ver publicaciones, revisar candidatos)?
+  5. ¿Te sentirías cómodo/a usando esta plataforma de manera frecuente?
+  6. ¿Alguna parte del diseño te generó dudas o confusión?
+  7. ¿Qué función te pareció más útil o destacable?
+  8. ¿Recomendarías esta plataforma a otras empresas o colegas?
+
+#### Segmento 2: Postulantes (Candidatos para el empleo)
+
+  1. ¿Qué impresión general te dio la plataforma al verla por primera vez?
+  2. ¿Te pareció claro y fácil de usar para postularte a un trabajo?
+  3. ¿Te sentiste guiado al recorrer la interfaz o te perdiste en algún punto?
+  4. ¿Encontraste atractiva la forma en que se presentan las ofertas laborales?
+  5. ¿Te resultó útil la opción de ver las publicaciones o candidatos disponibles?
+  6. ¿Qué función te llamó más la atención o te pareció diferente a otras plataformas?
+  7. ¿Qué mejorarías o agregarías para sentirte más cómodo/a usando Jobsy?
+
 ### **5.3.2. Registro de Entrevistas**
+- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
+
+| **Entrevistado 1: Briseth Hurtado** |
+|------------------------------------------------|
+| <img src="img/entrevista-validacion-RRHH.png" alt="EntrevistaVal1Seg1" width=100% /> |
+| Ciudad: Cusco / Edad: 21 |
+| **Entrevistador:** Ronald Joel Peralta Chipa |
+| **Link:** [https://drive.google.com/file/d/1uaTHyG_gFCG_G8sinMKBB0rMmcDa9BR1/view?usp=sharing](https://drive.google.com/file/d/1uaTHyG_gFCG_G8sinMKBB0rMmcDa9BR1/view?usp=sharing) |
+|-Resumen: Briseth trabaja como contratista en el área de Recursos Humanos y consideró que la plataforma es clara, fácil de usar y útil para gestionar procesos de postulación. Destacó como muy valiosa la función de analíticas, ya que le permite visualizar mediante dashboards las diferentes publicaciones, algo que no ha observado en otras plataformas que utiliza. Aunque no le pareció muy atractiva la forma en que se presentan las postulaciones, opinó que la aplicación luce bien y no considera necesario agregar más funciones.|
+
+- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
+
+| **Entrevistado 1: Angela Fabiola Ushiñahua Becerra** |
+|------------------------------------------------|
+| <img src="img/Validation_Angela.JPG" alt="EntrevistaVal1Seg2" width=100% /> |
+| Distrito: Villa el Salvador / Edad: 24 |
+| **Entrevistador:** Gabriel Omar Lapa de la Cruz |
+| **Link:** [https://youtu.be/b0SY_Nao0OI](https://youtu.be/b0SY_Nao0OI) |
+|-Resumen: Angela busca empleo en el área de Recursos Humanos y consideró que la plataforma es clara, fácil de usar y útil para postular. Destacó como muy valiosa la función de analíticas, ya que permite saber mediante dashboard las diferentes publicaciones, algo que no ha visto en otras plataformas que ella usa. Aunque no le pareció muy atractiva la forma en que se presentan las postulaciones, opinó que la aplicación se ve bien y no ve necesario agregar más funciones.|
+
 ### **5.3.3. Evaluaciones según heurísticas**
 
 
