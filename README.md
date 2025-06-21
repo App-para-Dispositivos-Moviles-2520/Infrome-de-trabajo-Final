@@ -2541,9 +2541,9 @@ A continuación, se mostrará el proceso de validación en base a heurísticas d
 *Problema:*
 Al ingresar a la aplicación y acceder con tu cuenta, Jobsy te redirige directamente al home, donde se despliegan las múltiples funciones disponibles dentro de la plataforma. No obstante, actualmente no existe un botón visible para regresar a la elección de rol, lo que impide al usuario volver a elegir el tipo de rol.
 
-<img src="img/evaluacion-EU.png" alt="EntrevistaVal1Seg2" width=100% />
+<img src="img/problem1.png" alt="problem1" width=100% />
 
-<img src="img/veal1.png" alt="EntrevistaVal1Seg2" width=100% />
+<img src="img/problem1-2.png" alt="problem1" width=100% />
 
 ## Conclusiones
 
