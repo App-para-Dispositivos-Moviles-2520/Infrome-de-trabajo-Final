@@ -2543,7 +2543,6 @@ Al ingresar a la aplicación y acceder con tu cuenta, Jobsy te redirige directam
 
 <img src="img/problem1.png" alt="problem1" width=100% />
 
-<img src="img/problem1-2.png" alt="problem1" width=100% />
 
 ## Conclusiones
 
