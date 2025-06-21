@@ -2421,8 +2421,10 @@ Se realizaron los avances con los commits correspondientes en el repositorio:
 | backend-app    |                     |                                          |                                                       | 21/06/2025 |
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcCaNneiLsUcdppPTqDNbXGk8_Tez76i-1pXktqWjjKQ--b1tA2i2Y9AAvrtgbf-PHTyKBv6K3tr8V9N12grvcjCTiYsjPLjbTVArwNNWyPO5UIVM1BMhPwV-nS9g-16qS69Fm?key=7puNeFNuRxctQ2AJvg4YMA" alt="wireframe6" width= 800 />
 
-
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyRlsKSXTya_pXRaQ5fyvcWGP8TgTyosfvWTKjqlpXd471YtaDZLGbK5V5pHQz-crmkqcaSKXf_xiPBUawWKaNzHR_lBGCdTpJBao7F4GoWsK0UCLcAb0u09eRmBDVX-jJx10CYQ?key=7puNeFNuRxctQ2AJvg4YMA" alt="wireframe6" width= 800 />
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1YoYOsvjbhkWjUgJm1-Sf27pfUhVYHyGSjLAEbjbtXZsTauYxQdUc1nRIYrdvGyJ3d5_290-Ry03wDkYawzu9xjH8pda-QhuHumEluAhU2F4bdMKO8kGtRqEIg4mB4DdTGDH7?key=7puNeFNuRxctQ2AJvg4YMA" alt="wireframe6" width= 800 />
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
