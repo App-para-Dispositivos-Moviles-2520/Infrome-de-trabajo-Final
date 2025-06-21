@@ -2457,6 +2457,21 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 
 ### **5.3.3. Evaluaciones según heurísticas**
 
+# Proceso de Validación - Aplicación jobsy
+
+A continuación, se mostrará el proceso de validación en base a heurísticas de nuestra aplicación, Theraphy.
+
+## TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|----------|-------------------|------------------------------|
+| 1 | No hay un botón que permita regresar al inicio de sesión | 3 | Usability: Libertad y control de uso |
+| 2 | Se repiten constantemente algunas opciones | 1 | Usability: Consistencia y estándares |
+| 3 | Incluye un botón "postular", pero no cumple ni una función | 3 | Information Architecture: Is it usable? |
+| 4 | No incluye información de los postulantes exactos que se pueden obtener | 2 | Information Architecture: Is it findable? |
+| 5 | La opción "Bandeja de entrada" tiene un nombre inadecuado | 1 | Information Architecture: Is it findable? |
+| 6 | No hay mensaje que confirme tu proceso de separación de cita | 2 | Usability: Libertad y control de uso |
+| 7 | El botón "English-Spanish" no realiza ninguna función | 1 | Information Architecture: Is it usable? |
 
 ## Conclusiones
 
