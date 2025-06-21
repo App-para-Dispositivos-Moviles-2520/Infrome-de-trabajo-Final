@@ -213,7 +213,9 @@ Para el desarrollo del informe correspondiente a la entrega TP, se estableció l
 
 El curso contribuye al cumplimiento del Student Outcome ABET: </br> 
 **ABET – EAC - Student Outcome 3** 
-**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias. 
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 <table style="border-collapse:collapse;border-spacing:0" class="tg">
@@ -226,7 +228,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </thead>
 <tbody>
 <tr>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Trabaja en equipo para
+proporcionar liderazgo en
+forma conjunta</td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 Cameron Charllotte: <br> 
 TB1: Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos. <br> 
@@ -250,7 +254,10 @@ TP1: Las presentaciones orales de cada integrante sobre sus respectivas seccione
 </td>
 </tr>
 <tr>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Crea un entorno colaborativo e
+inclusivo, establece metas,
+planifica tareas y cumple
+objetivos.</td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 Cameron Charllotte: <br> 
 TB1: Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, realicé documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo. <br> 
