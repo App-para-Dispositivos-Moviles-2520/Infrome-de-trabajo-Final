@@ -40,7 +40,7 @@ Sánchez Ponce, Alex Humberto
 |---------|------------|--------------------------------|----------------------------------|
 | TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
 | TP1     | 14/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 2, Aplicacion Web |
-| TB2     |            |                                |                                  |
+| TB2    | 19/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 3, Validacion de Entrevistas y BackEnd |
 
 - Commits Informe: 
 
@@ -74,6 +74,18 @@ Para el desarrollo del informe correspondiente a la entrega TP, se estableció l
 |Urrutia Peña, Jasmin Adriana |Seccion Perfil para Postulador y Reclutador de la Aplicaión Web y Correciones TB1|
 |Lapa de la Cruz, Gabriel Omar |Seccion Candidatos en la Aplicación Web y Correciones TB1|
 |Mauro Fabricio Lopez de la Cruz|Seccion Publicacion en la Aplicación Web y Correciones TB1|
+
+**TB2**
+
+Para el desarrollo del informe correspondiente a la entrega TP, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Bustamante Leveau, Cameron Charllotte| Seccion Mensajes y Correciones TP |
+|Peralta Chipa, Ronald Joel|Seccion User y Correciones TP|
+|Urrutia Peña, Jasmin Adriana |Seccion Postulantes y Correciones TP|
+|Lapa de la Cruz, Gabriel Omar |Seccion Candidatos y Correciones TP|
+|Mauro Fabricio Lopez de la Cruz|Seccion Evaluaciones y Correciones TP|
 
 # <font color="red">**Contenido**</font>
 
