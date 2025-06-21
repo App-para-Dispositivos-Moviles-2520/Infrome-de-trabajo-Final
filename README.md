@@ -2529,6 +2529,20 @@ A continuación, se mostrará el proceso de validación en base a heurísticas d
 | 6 | No hay mensaje que confirme tu proceso de separación de cita | 2 | Usability: Libertad y control de uso |
 | 7 | El botón "English-Spanish" no realiza ninguna función | 1 | Information Architecture: Is it usable? |
 
+### DESCRIPCIÓN DE PROBLEMAS:
+
+### PROBLEMA #1: No hay un botón que permita regresar al inicio de sesión
+*Severidad:* 3
+
+*Heurística violada:* Usability: Libertad y control de uso
+
+*Problema:*
+Al ingresar a la aplicación y acceder con tu cuenta, Jobsy te redirige directamente al home, donde se despliegan las múltiples funciones disponibles dentro de la plataforma. No obstante, actualmente no existe un botón visible para regresar a la elección de rol, lo que impide al usuario volver a elegir el tipo de rol.
+
+<img src="img/evaluacion-EU.png" alt="EntrevistaVal1Seg2" width=100% />
+
+<img src="img/veal1.png" alt="EntrevistaVal1Seg2" width=100% />
+
 ## Conclusiones
 
 - _Implementación de buenas prácticas en el desarrollo:_
