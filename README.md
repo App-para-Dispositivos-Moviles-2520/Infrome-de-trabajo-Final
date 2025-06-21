@@ -2396,8 +2396,19 @@ Se realizaron los avances con los commits correspondientes en el repositorio:
 | backend-app    |                     |                                          |                                                       | 21/06/2025 |
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
+
+
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+La gestión del código fuente del proyecto Jobsy se realizó utilizando GitHub. Para la publicación y despliegue del backend desarrollado durante este sprint, se utilizó Render, una plataforma en la nube que facilita el despliegue continuo de aplicaciones web y APIs directamente desde el repositorio.
+
+Para el desarrollo y despliegue de los servicios backend de Jobsy en este sprint, se han utilizado las siguientes herramientas:
+
+C#: Lenguaje de programación orientado a objetos utilizado para construir la lógica del backend. Se empleó para desarrollar la API que gestiona las operaciones relacionadas con usuarios, postulaciones, ofertas y autenticación.
+PostgreSQL: Sistema de gestión de bases de datos relacional (RDBMS) utilizado para almacenar y consultar la información de forma estructurada y eficiente. Se diseñaron tablas, relaciones y consultas para soportar las funcionalidades clave de la plataforma.
+Render: Plataforma utilizada para desplegar la API desarrollada en C#, permitiendo que esté disponible en línea y pueda comunicarse con otros componentes del sistema de forma estable y segura.
+
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
 
 ## **5.3. Validation Interviews**
