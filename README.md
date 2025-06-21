@@ -2445,6 +2445,14 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 | **Entrevistador:** Cameron Bustamante |
 |-Resumen: Claudia Castillo, reclutador en el área de Recursos Humanos, destacó que la plataforma es intuitiva, fácil de usar y eficaz para gestionar procesos de postulación. Valoró especialmente la función de analíticas y dashboards, ya que le permite visualizar el rendimiento de las publicaciones de manera clara, diferenciándola positivamente de otras plataformas similares. Aunque consideró que la presentación de las postulaciones podría mejorar en términos visuales, opinó que la aplicación es funcional y estéticamente adecuada, sin necesidad de agregar más funciones por el momento.|
 
+| *Entrevistado 3 : Leonardo Leonsio* |
+|------------------------------------------------|
+| <img src="img/entrevista-validacion2a-RRHH2.png" alt="EntrevistaVal1Seg1" width=100% /> |
+| Ciudad: Lima / Edad: 21 |
+| *Entrevistador:* Mauro Fabricio Lopez de la Cruz |
+| *Link:* https://drive.google.com/file/d/136F-eKvNsyARmHJlcIDg5zz2-TZoVr1J/view?usp=sharing  |
+|-Resumen: Es una Trabajador de recursos humanos en una empresa donde tienn dificultades en el tema de contratacion para nueva personas |
+
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
 
 | **Entrevistado 1: Angela Fabiola Ushiñahua Becerra** |
@@ -2454,6 +2462,15 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 | **Entrevistador:** Gabriel Omar Lapa de la Cruz |
 | **Link:** [https://youtu.be/b0SY_Nao0OI](https://youtu.be/b0SY_Nao0OI) |
 |-Resumen: Angela busca empleo en el área de Recursos Humanos y consideró que la plataforma es clara, fácil de usar y útil para postular. Destacó como muy valiosa la función de analíticas, ya que permite saber mediante dashboard las diferentes publicaciones, algo que no ha visto en otras plataformas que ella usa. Aunque no le pareció muy atractiva la forma en que se presentan las postulaciones, opinó que la aplicación se ve bien y no ve necesario agregar más funciones.|
+
+
+| *Entrevistado 2: Belen Velagiao* |
+|------------------------------------------------|
+| <img src="img/entrevista-validacion2b-RRHH3.png" alt="EntrevistaVal1Seg1" width=100% /> |
+| Ciudad: Lima / Edad: 20 |
+| *Entrevistador:* Mauro Fabricio Lopez de la Cruz |
+| *Link:*[ https://drive.google.com/file/d/136F-eKvNsyARmHJlcIDg5zz2-TZoVr1J/view?usp=sharing ](https://drive.google.com/file/d/1QNB-i9RSkaJB48TJtYqj3j_FzaMBPNrS/view?usp=sharing) |
+|-Resumen: Estudiante en busca de trabajo para ejercer su carrera universitaria |
 
 ### **5.3.3. Evaluaciones según heurísticas**
 
