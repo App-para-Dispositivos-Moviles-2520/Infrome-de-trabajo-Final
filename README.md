@@ -2412,8 +2412,7 @@ PostgreSQL: Sistema de gestión de bases de datos relacional (RDBMS) utilizado p
 Render: Plataforma utilizada para desplegar la API desarrollada en C#, permitiendo que esté disponible en línea y pueda comunicarse con otros componentes del sistema de forma estable y segura.
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcH_NBwdgdLSHhTP4if8W0oPeMoY6PEEpkyhgjVueJu8Qh_yiG6C_TW29hBT0_y9CWe32Oamjm3tNswSviuBMBVAyuPhUlQIe3r_TbgyaQ4WYzorKoM4sDEpKMA-bInzL_0gOBSJA?key=T_6EAnvM5GsqgDQEhuCu4A
-" alt="EntrevistaVal1Seg1" width=100% /> 
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcH_NBwdgdLSHhTP4if8W0oPeMoY6PEEpkyhgjVueJu8Qh_yiG6C_TW29hBT0_y9CWe32Oamjm3tNswSviuBMBVAyuPhUlQIe3r_TbgyaQ4WYzorKoM4sDEpKMA-bInzL_0gOBSJA?key=T_6EAnvM5GsqgDQEhuCu4A" width=100% /> 
 
 
 
