@@ -2237,6 +2237,8 @@ En este Sprint, se realizó el despliegue inicial de la landing page del proyect
 Para realizar el despliegue usamos Firebase.
 <img src="img/pruebagit3.png" alt="app" width= 500/>
 
+
+
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
 <img src="img/landingcom.png" alt="app" width= 500/>
 #### **5.2.2. Sprint 2**
@@ -2410,6 +2412,10 @@ PostgreSQL: Sistema de gestión de bases de datos relacional (RDBMS) utilizado p
 Render: Plataforma utilizada para desplegar la API desarrollada en C#, permitiendo que esté disponible en línea y pueda comunicarse con otros componentes del sistema de forma estable y segura.
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcH_NBwdgdLSHhTP4if8W0oPeMoY6PEEpkyhgjVueJu8Qh_yiG6C_TW29hBT0_y9CWe32Oamjm3tNswSviuBMBVAyuPhUlQIe3r_TbgyaQ4WYzorKoM4sDEpKMA-bInzL_0gOBSJA?key=T_6EAnvM5GsqgDQEhuCu4A
+" alt="EntrevistaVal1Seg1" width=100% /> 
+
+
 
 ## **5.3. Validation Interviews**
 El objetivo de estas entrevistas es validar la propuesta de valor, la utilidad percibida y la facilidad de uso de la plataforma, enfocándose en los dos segmentos principales:
@@ -2456,7 +2462,7 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 | **Entrevistador:** Cameron Bustamante |
 |-Resumen: Claudia Castillo, reclutador en el área de Recursos Humanos, destacó que la plataforma es intuitiva, fácil de usar y eficaz para gestionar procesos de postulación. Valoró especialmente la función de analíticas y dashboards, ya que le permite visualizar el rendimiento de las publicaciones de manera clara, diferenciándola positivamente de otras plataformas similares. Aunque consideró que la presentación de las postulaciones podría mejorar en términos visuales, opinó que la aplicación es funcional y estéticamente adecuada, sin necesidad de agregar más funciones por el momento.|
 
-| *Entrevistado 3 : Leonardo Leonsio* |
+| *Entrevistado 3 :  Belen Pelagiao* |
 |------------------------------------------------|
 | <img src="img/entrevista-validacion2a-RRHH2.png" alt="EntrevistaVal1Seg1" width=100% /> |
 | Ciudad: Lima / Edad: 21 |
@@ -2475,7 +2481,7 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 |-Resumen: Angela busca empleo en el área de Recursos Humanos y consideró que la plataforma es clara, fácil de usar y útil para postular. Destacó como muy valiosa la función de analíticas, ya que permite saber mediante dashboard las diferentes publicaciones, algo que no ha visto en otras plataformas que ella usa. Aunque no le pareció muy atractiva la forma en que se presentan las postulaciones, opinó que la aplicación se ve bien y no ve necesario agregar más funciones.|
 
 
-| *Entrevistado 2: Belen Velagiao* |
+| *Entrevistado 2: Leonardo Leonsio* |
 |------------------------------------------------|
 | <img src="img/entrevista-validacion2b-RRHH3.png" alt="EntrevistaVal1Seg1" width=100% /> |
 | Ciudad: Lima / Edad: 20 |
