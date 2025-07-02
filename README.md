@@ -2480,10 +2480,12 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 | **Link:** [https://drive.google.com/file/d/1uaTHyG_gFCG_G8sinMKBB0rMmcDa9BR1/view?usp=sharing](https://drive.google.com/file/d/1uaTHyG_gFCG_G8sinMKBB0rMmcDa9BR1/view?usp=sharing) |
 |-Resumen: Briseth trabaja como contratista en el área de Recursos Humanos y consideró que la plataforma es clara, fácil de usar y útil para gestionar procesos de postulación. Destacó como muy valiosa la función de analíticas, ya que le permite visualizar mediante dashboards las diferentes publicaciones, algo que no ha observado en otras plataformas que utiliza. Aunque no le pareció muy atractiva la forma en que se presentan las postulaciones, opinó que la aplicación luce bien y no considera necesario agregar más funciones.|
 
-| **Entrevistado 2: Claudia Castillo** |
+| **Entrevistado 2: Claudia Cornejo** |
 |------------------------------------------------|
+| <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIrnME5MeP5tEv6bCs3E9y_UTUiU_-Oy2mkkWAcY1pSQttKRXkXKYDnP9J-atGV-FQcAZs5z-O4xkz86xNB9yh93yI7NhB1wPMQ7Hq_bG5BNx8v7Q2cGTfJAazsPg93ZbctYrS8w?key=mZ-JPZW_wxy9hU88SGvQiA" alt="EntrevistaVal1Seg1" width=100% /> |
 | Ciudad: Lima / Edad: 19 |
 | **Entrevistador:** Cameron Bustamante |
+| **Link:** [https://drive.google.com/file/d/1rcK7bzrom8P7LAB8xXuJ1AniWX9pmyVM/view?usp=sharing] |
 |-Resumen: Claudia Castillo, reclutador en el área de Recursos Humanos, destacó que la plataforma es intuitiva, fácil de usar y eficaz para gestionar procesos de postulación. Valoró especialmente la función de analíticas y dashboards, ya que le permite visualizar el rendimiento de las publicaciones de manera clara, diferenciándola positivamente de otras plataformas similares. Aunque consideró que la presentación de las postulaciones podría mejorar en términos visuales, opinó que la aplicación es funcional y estéticamente adecuada, sin necesidad de agregar más funciones por el momento.|
 
 | *Entrevistado 3 :  Belen Pelagiao* |
