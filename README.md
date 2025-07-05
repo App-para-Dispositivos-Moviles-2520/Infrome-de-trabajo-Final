@@ -2595,6 +2595,59 @@ La interfaz actual carece de un botón de búsqueda visible o un ícono de lupa 
 
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd55Ko9umNgwJfSDl1u-lW8SWbCHPc2BucEVG86zBs48YHOQcZ8gK63rfE3zAHtLw1hSSTBwXBANxA_PEFGlgtZ3eJ1Ia8AvuJxVBYzSx53p1ZVs2KHsPY4pgOrprkBGYkpI9-fBw?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
 
+---
+
+
+### 5.2.4. Sprint 4
+
+Durante el Sprint 4, el equipo continuó con el desarrollo de la aplicación web siguiendo el orden establecido en el *product backlog*. Se abordaron múltiples *user stories* con un total acumulado de **45 story points**, lo que refleja un progreso sólido en esta etapa del proyecto.
+
+A continuación, se detalla la gestión del sprint:
+
+
+
+#### 5.2.4.1. Sprint Planning
+Para este punto se definieron los objetivos del sprint, priorizando las *user stories* con mayor valor de negocio y factibilidad técnica. Se asignaron responsabilidades y tareas a los miembros del equipo, asegurando un flujo de trabajo organizado y colaborativo.
+
+
+#### 5.2.4.2. Development Evidence for Sprint
+A continuación, se presenta evidencia visual y técnica del avance en el desarrollo de funcionalidades. Esto incluye fragmentos de código, capturas de pantallas del entorno de desarrollo y confirmaciones de *pull requests* en GitHub.
+
+
+
+#### 5.2.4.3. Testing Suite Evidence
+Se realizaron pruebas unitarias e integrales utilizando herramientas como Postman y marcos de prueba específicos al stack. Estas validaciones garantizaron el correcto funcionamiento de los componentes desarrollados en este sprint.
+
+
+#### 5.2.4.4. Execution Evidence for Sprint Review
+En esta sección, se muestra evidencia de las funcionalidades implementadas mediante capturas, grabaciones o demostraciones realizadas durante la *Sprint Review*, validando así el cumplimiento de los criterios de aceptación definidos.
+
+
+#### 5.2.4.5. Services Documentation Evidence for Sprint Review
+Durante este sprint se desarrollaron e implementaron los siguientes *bounded contexts* en nuestra API:
+
+- **Appointments**
+- **Treatments**
+- **Security**
+- **Recruitment**
+
+La documentación generada con Swagger permite visualizar todos los endpoints disponibles.
+
+#### 5.2.4.6. Software Deployment Evidence for Sprint Review
+
+- **Frontend:** La aplicación web fue desplegada exitosamente en **GitHub Pages**.
+
+  **Enlace:** https://frontend-app-dbcdc.web.app
+
+- **Backend:** Los servicios de la API fueron desplegados en **Microsoft Azure**, asegurando disponibilidad y escalabilidad en la nube.
+
+
+
+#### 5.2.4.7. Team Collaboration Insights during Sprint
+
+Se incluye una captura de la sección **Insights** del repositorio en GitHub, la cual evidencia la participación activa de todos los integrantes del equipo *SmartHire* mediante *commits*, *pull requests* y revisiones de código durante el sprint.
+
+
 
 ## Conclusiones
 
