@@ -2653,9 +2653,9 @@ Durante este sprint se desarrollaron e implementaron los siguientes *bounded con
 
 
 
-- **Appointments**
-- **Treatments**
-- **Security**
+- **User**
+- **Job Offers**
+- **Messages**
 - **Recruitment**
 
 La documentación generada con Swagger permite visualizar todos los endpoints disponibles.
@@ -2663,7 +2663,8 @@ La documentación generada con Swagger permite visualizar todos los endpoints di
 #### 5.2.4.6. Software Deployment Evidence for Sprint Review
 
 - **Frontend:** La aplicación web fue desplegada exitosamente en **GitHub Pages**.
-  
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevb7WMGIgsBtjKkTjU0Cn63SasVozbkMQfgq7tHypBdG1yfQCR-bVBryabEx1hz6UrcL3S0RetkApdzs3_pkrTSDHQyl_lmvxhbADfyX7xkVgWc3wUwD2ZPerMWbiu6_r8zLugAg?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXflzXDGlric_iyjkuJP7stqDAPYuilnbZyGpsTZiE--ICjWduHImuoI4137si8J-v5xksECgaNAGTGtNXPEM5SKfrsGjtPI0IypeRfxARUN252Fn68_Rgk8YW3aBolagrPq8DWnAg?key=mZ-JPZW_wxy9hU88SGvQiA"/>
   **Enlace:** https://frontend-app-dbcdc.web.app
 - **Backend:** Los servicios de la API fueron desplegados en **Microsoft Azure**, asegurando disponibilidad y escalabilidad en la nube.
  **Enlace:**
