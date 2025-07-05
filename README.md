@@ -2602,16 +2602,36 @@ La interfaz actual carece de un botón de búsqueda visible o un ícono de lupa 
 
 Durante el Sprint 4, el equipo continuó con el desarrollo de la aplicación web siguiendo el orden establecido en el *product backlog*. Se abordaron múltiples *user stories* con un total acumulado de **45 story points**, lo que refleja un progreso sólido en esta etapa del proyecto.
 
-A continuación, se detalla la gestión del sprint:
-
-
-
-#### 5.2.4.1. Sprint Planning
+#### 5.2.4.1. Sprint Planning 2
 Para este punto se definieron los objetivos del sprint, priorizando las *user stories* con mayor valor de negocio y factibilidad técnica. Se asignaron responsabilidades y tareas a los miembros del equipo, asegurando un flujo de trabajo organizado y colaborativo.
+
+
+| **Sprint #**                    | Sprint 2 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  | En esta sesión se planificó el segundo sprint, enfocado principalmente en el desarrollo del backend de la aplicación, definiendo las tareas y responsabilidades para los diferentes módulos de la API. |
+| **Date**                        | 18/04/2025 |
+| **Time**                        | 8:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
+| **Sprint n - 1 Review Summary**  | Se logró desarrollar correctamente el Landing Page e iniciar el informe de trabajo. |
+| **Sprint n - 1 Retrospective Summary** | Se destacó la buena comunicación y organización del equipo. Se sugirió mejorar la división de tareas para evitar cuellos de botella. |
+| **Sprint Goal & User Stories**   | |
+| **Sprint 2 Goal**                | Implementar la estructura básica del backend, incluyendo los primeros endpoints funcionales. |
+| **Sprint 2 Velocity**            | 12 |
+| **Sum of Story Points**          | 10 |
 
 
 #### 5.2.4.2. Development Evidence for Sprint
 A continuación, se presenta evidencia visual y técnica del avance en el desarrollo de funcionalidades. Esto incluye fragmentos de código, capturas de pantallas del entorno de desarrollo y confirmaciones de *pull requests* en GitHub.
+
+- Repositorio Back-End:
+
+
+
+
+- Repositorio Front-End:
+  
 
 
 
@@ -2619,12 +2639,19 @@ A continuación, se presenta evidencia visual y técnica del avance en el desarr
 Se realizaron pruebas unitarias e integrales utilizando herramientas como Postman y marcos de prueba específicos al stack. Estas validaciones garantizaron el correcto funcionamiento de los componentes desarrollados en este sprint.
 
 
+
+
 #### 5.2.4.4. Execution Evidence for Sprint Review
 En esta sección, se muestra evidencia de las funcionalidades implementadas mediante capturas, grabaciones o demostraciones realizadas durante la *Sprint Review*, validando así el cumplimiento de los criterios de aceptación definidos.
 
 
+
+
+
 #### 5.2.4.5. Services Documentation Evidence for Sprint Review
 Durante este sprint se desarrollaron e implementaron los siguientes *bounded contexts* en nuestra API:
+
+
 
 - **Appointments**
 - **Treatments**
@@ -2636,21 +2663,20 @@ La documentación generada con Swagger permite visualizar todos los endpoints di
 #### 5.2.4.6. Software Deployment Evidence for Sprint Review
 
 - **Frontend:** La aplicación web fue desplegada exitosamente en **GitHub Pages**.
-
+  
   **Enlace:** https://frontend-app-dbcdc.web.app
-
 - **Backend:** Los servicios de la API fueron desplegados en **Microsoft Azure**, asegurando disponibilidad y escalabilidad en la nube.
-
+ **Enlace:**
 
 
 #### 5.2.4.7. Team Collaboration Insights during Sprint
+Con el objetivo de reflejar la participación activa de todos los integrantes del equipo Smart Hire durante este Sprint 4, se presentan a continuación los aportes registrados en GitHub que respaldan su colaboración en el desarrollo.
 
-Se incluye una captura de la sección **Insights** del repositorio en GitHub, la cual evidencia la participación activa de todos los integrantes del equipo *SmartHire* mediante *commits*, *pull requests* y revisiones de código durante el sprint.
+
 
 
 
 ## Conclusiones
-
 - _Implementación de buenas prácticas en el desarrollo:_
     Se respetaron estándares de codificación, se utilizó Git para el control de versiones y se siguieron convenciones definidas para los mensajes de commit. Esto permitió lograr un código ordenado, modular y preparado para futuras ampliaciones. Además, se aplicó un diseño responsivo que asegura una buena experiencia en distintos dispositivos.
 
