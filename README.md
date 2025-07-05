@@ -2264,6 +2264,7 @@ Para realizar el despliegue usamos Firebase.
 
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
 <img src="img/landingcom.png" alt="app" width= 500/>
+
 #### **5.2.2. Sprint 2**
 #### **5.2.2.1. Sprint Planning 2**
 | **Sprint #**                    | Sprint 2 |
@@ -2287,9 +2288,11 @@ Para realizar el despliegue usamos Firebase.
 | Bustamante, Cameron               | CameronBustamanteLeveau2 | C        | C                             | L                            | C                           | C                             | C                            |
 | Urrutia, Jazmin                   | SrtaYeis        | C                    | C                             | C                            | L                           | C                             | C                            |
 | Lopez, Mauro                      | FabricioLop     | C                    | C                             | C                            | C                           | L                             | C                            |
-| Lapa, Gabriel                     | Gabo0722        | C                    | C                             | C                            | C                           | C                             | L                            |
+| Lapa, Gabriel                     | Gabo0722        | C                    | C                             | C                            | C                           | C                             | L                            | |
+
 
 #### **5.2.2.3. Sprint Backlog 2**
+
 | **User Story** | **Work Item / Task** | ID  | Title | Description | Estim. Hours | Assigned | Status |
 |----------------|----------------------|-----|--------|-------------|---------------|----------|--------|
 | US013 | Sugerencia de candidatos | T1  | Implementar botón que agregue candidatos | Desarrollar el botón donde aparecerá más candidatos para ver su descripción. | 4hrs | Gabriel | Done |
@@ -2369,6 +2372,7 @@ Para realizar el despliegue, accedimos a la configuración del repositorio y usa
 <img src="img/appcom2.png" alt="app" width= 500/>
 
 ### **5.2.1. Sprint 3**
+
 #### **5.2.3.1. Sprint Planning 3**
 
 | **Sprint #**                    | Sprint 3 |
@@ -2427,6 +2431,20 @@ Se realizaron los avances con los commits correspondientes en el repositorio:
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1YoYOsvjbhkWjUgJm1-Sf27pfUhVYHyGSjLAEbjbtXZsTauYxQdUc1nRIYrdvGyJ3d5_290-Ry03wDkYawzu9xjH8pda-QhuHumEluAhU2F4bdMKO8kGtRqEIg4mB4DdTGDH7?key=7puNeFNuRxctQ2AJvg4YMA" alt="wireframe6" width= 800 />
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
+Durante el Spring 3 se desarrolló la parte del backend. Sin embargo, aún no ha sido desplegada, por lo que no se han realizado operaciones reales con la API. Para fines de visualización, se utilizó una API simulada (Fake API) que permitió mostrar los datos de nuestros registros en la aplicación web. A continuación, se detallan los endpoints desarrollados durante este sprint.
+
+| Endpoint                                                                 | HTTP Verb | Action                                                                                             |
+|--------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------|
+| `https://api-fake-appweb.vercel.app/api/users`                     | GET       | - Obtener los usuarios nuevos registrados |
+| `https://api-fake-appweb.vercel.app/api/candidate_profiles`              | GET       | - Obtener perfiles de candidatos registrados |
+| `https://api-fake-appweb.vercel.app/api/employer_profiles`                          | GET       | - Obtener información del empleador.                                                                |
+| `https://api-fake-appweb.vercel.app/api/users`                          | POST      | - Agregar un nuevo usuario.                                                                        |
+| `https://api-fake-appweb.vercel.app/api/job_offers`         | GET       | - Obtener todas las ofertas de trabajo publicadas.  |
+| `https://api-fake-appweb.vercel.app/api/interviews`                  | GET       | - Obtener entrevistas programadas.                                          |
+| `https://api-fake-appweb.vercel.app/api/evaluations`                  | POST      | - agregar evaluaciones realizadas tras entrevistas.|
+| `https://api-fake-appweb.vercel.app/api/membership_plans`                      | GET       | - Obtener detalles de los planes de membresía disponibles.                  |
+
+
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 La gestión del código fuente del proyecto Jobsy se realizó utilizando GitHub. Para la publicación y despliegue del backend desarrollado durante este sprint, se utilizó Render, una plataforma en la nube que facilita el despliegue continuo de aplicaciones web y APIs directamente desde el repositorio.
 
@@ -2437,11 +2455,13 @@ PostgreSQL: Sistema de gestión de bases de datos relacional (RDBMS) utilizado p
 Render: Plataforma utilizada para desplegar la API desarrollada en C#, permitiendo que esté disponible en línea y pueda comunicarse con otros componentes del sistema de forma estable y segura.
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
+Con el objetivo de reflejar la participación activa de todos los integrantes del equipo Smart Hire durante este Sprint, se presentan a continuación los aportes registrados en GitHub que respaldan su colaboración en el desarrollo.
+
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcH_NBwdgdLSHhTP4if8W0oPeMoY6PEEpkyhgjVueJu8Qh_yiG6C_TW29hBT0_y9CWe32Oamjm3tNswSviuBMBVAyuPhUlQIe3r_TbgyaQ4WYzorKoM4sDEpKMA-bInzL_0gOBSJA?key=T_6EAnvM5GsqgDQEhuCu4A" width=100% /> 
 
 
-
 ## **5.3. Validation Interviews**
+
 El objetivo de estas entrevistas es validar la propuesta de valor, la utilidad percibida y la facilidad de uso de la plataforma, enfocándose en los dos segmentos principales:
 Por un lado, equipos de Recursos Humanos que gestionan procesos de contratación, y por otro, personas que se postulan a empleos a través de plataformas digitales.
 Las preguntas buscan recoger opiniones reales sobre la experiencia de navegación, comprensión de funcionalidades, utilidad de las herramientas integradas y nivel de confianza en el uso de la solución digital.
@@ -2490,11 +2510,11 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 
 | *Entrevistado 3 :  Belen Pelagiao* |
 |------------------------------------------------|
-| <img src="img/entrevista-validacion2a-RRHH2.png" alt="EntrevistaVal1Seg1" width=100% /> |
+| <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd1MpL8na_vPxPAioNOCbDboO86PSo-dWUD1Di3hLJrfcxGX5MrXsxd6DAr1_2rn5yvYOwx5O7v1h4b89n5Pz9rQklBvbupUJv_FQMrWELlo6F9VOVfgDwZVN0FTagKGY3jQAZxOQ?key=mZ-JPZW_wxy9hU88SGvQiA" alt="EntrevistaVal1Seg1" width=100% /> |
 | Ciudad: Lima / Edad: 21 |
 | *Entrevistador:* Mauro Fabricio Lopez de la Cruz |
 | *Link:* https://drive.google.com/file/d/136F-eKvNsyARmHJlcIDg5zz2-TZoVr1J/view?usp=sharing  |
-|-Resumen: Es una Trabajador de recursos humanos en una empresa donde tienn dificultades en el tema de contratacion para nueva personas |
+|-Resumen: Es una trabajadora de recursos humanos en una empresa donde tiene dificultades en el tema de contratación para nueva personas |
 
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
 
@@ -2513,13 +2533,13 @@ Las preguntas buscan recoger opiniones reales sobre la experiencia de navegació
 | Ciudad: Lima / Edad: 20 |
 | *Entrevistador:* Mauro Fabricio Lopez de la Cruz |
 | *Link:*[ https://drive.google.com/file/d/136F-eKvNsyARmHJlcIDg5zz2-TZoVr1J/view?usp=sharing ](https://drive.google.com/file/d/1QNB-i9RSkaJB48TJtYqj3j_FzaMBPNrS/view?usp=sharing) |
-|-Resumen: Estudiante en busca de trabajo para ejercer su carrera universitaria |
+|-Resumen: Estudiante en busca de oportunidades laborales para aplicar y fortalecer los conocimientos adquiridos en la carrera. Motivado(a) por el aprendizaje continuo, la innovación tecnológica y el desarrollo profesional en entornos dinámicos y colaborativos. |
 
 ### **5.3.3. Evaluaciones según heurísticas**
 
 # Proceso de Validación - Aplicación jobsy
 
-A continuación, se mostrará el proceso de validación en base a heurísticas de nuestra aplicación, Theraphy.
+A continuación, se mostrará el proceso de validación en base a heurísticas de nuestra aplicación, Jobsy.
 
 ## TABLA RESUMEN:
 
@@ -2543,7 +2563,37 @@ A continuación, se mostrará el proceso de validación en base a heurísticas d
 *Problema:*
 Al ingresar a la aplicación y acceder con tu cuenta, Jobsy te redirige directamente al home, donde se despliegan las múltiples funciones disponibles dentro de la plataforma. No obstante, actualmente no existe un botón visible para regresar a la elección de rol, lo que impide al usuario volver a elegir el tipo de rol.
 
-<img src="img/problem1.png" alt="problem1" width=100% />
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjttJ-WBa1l45RnpHHe_hTfyCAZl3vvFdptq8RjcTXr_0GoOb1vhE1ijohlOSuRVi7aybFb3dV3RLxGtiGY1sXBKjqCEG6NYgYBQwS0b0uTR3rWx97ms7MGQ_9ntJot1AUkQTx?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
+
+### PROBLEMA #2: Se repiten constantemente algunas opciones
+*Severidad:* 1
+
+*Heurística violada:* Usability: Consistencia y estándares
+
+*Problema:*
+Hay una duplicación de información entre secciones que podría generar confusión en la experiencia del usuario. Específicamente, tanto en la pestaña principal como en la sección de Analíticas se presentan datos sobre las postulaciones con mayor visibilidad por parte del público trabajador. Aunque esta información es valiosa, su repetición en distintos espacios del sistema podría restarle claridad al propósito de cada sección. Sería recomendable repensar la distribución de estos datos, utilizando la pantalla principal como un resumen ejecutivo y reservando la sección de Analíticas para un análisis más profundo y detallado.
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJuDEzyal-c4uCjBG6URZ9Pxlg12FIQFpz1v0MtVSypyge5Q8OBpqvAlPOevs70BqwvHgRfluv4fIRFrrHdDSh4UnXv1Ee6TZhRD9-VgbT6GSdQ-E7v9w-6x4IqxopfRgK31IVwQ?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
+
+### PROBLEMA #3: No pudimos guardar los cambios por un error en la conexión. Intenta nuevamente o verifica tu conexión a internet.
+*Severidad:* 2
+
+*Heurística violada:* Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
+
+*Problema:*
+Al momento de crear una publicación de postulación, no se muestra una ventana emergente o mensaje de confirmación que indique si el proceso se completó correctamente o si ocurrió algún error. Esta ausencia de retroalimentación puede generar incertidumbre en el usuario, ya que no tiene una señal clara de que su acción fue exitosa. Incluir una notificación visual —como un pequeño mensaje flotante o modal— sería una mejora importante para la experiencia de uso, ya que ofrecería claridad inmediata y fomentaría la confianza en el sistema
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXwv7LbfvrXHVBKXUrkTxLucx-fyYSTtmC0WP-q1u1BBsPnlSKgTqUpIrOhVZTywTcmA2yV4mmLaoBWdJ0EXA-gpU-zSVBRFfqDh89gWPk8i8LQTujy-w4gxGcIov55HeG2Klv?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
+
+### PROBLEMA #4: No hay botón de “Guardar” cambia su estado a: “Guardando...” seguido de “Cambios guardados correctamente
+*Severidad:* 2
+
+*Heurística violada:* Usability: Visibilidad del estado del sistema
+
+*Problema:*
+La interfaz actual carece de un botón de búsqueda visible o un ícono de lupa que invite al usuario a interactuar con la función de búsqueda. Esto puede generar incertidumbre, especialmente para quienes no saben que deben presionar Enter para ejecutar la acción. Incorporar un botón de búsqueda o un ícono intuitivo ayudaría a guiar al usuario y haría el proceso más claro y accesible, mejorando la usabilidad general del sistema. Además, serviría como confirmación visual de que el sistema está procesando la consulta, lo cual refuerza la confianza en la plataforma
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd55Ko9umNgwJfSDl1u-lW8SWbCHPc2BucEVG86zBs48YHOQcZ8gK63rfE3zAHtLw1hSSTBwXBANxA_PEFGlgtZ3eJ1Ia8AvuJxVBYzSx53p1ZVs2KHsPY4pgOrprkBGYkpI9-fBw?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
 
 
 ## Conclusiones
