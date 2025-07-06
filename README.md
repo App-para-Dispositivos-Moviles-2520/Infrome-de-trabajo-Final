@@ -2668,7 +2668,9 @@ La documentación generada con Swagger permite visualizar todos los endpoints di
   **Enlace:** https://frontend-app-dbcdc.web.app
 - **Backend:** Los servicios de la API fueron desplegados en **Microsoft Azure**, asegurando disponibilidad y escalabilidad en la nube.
  **Enlace:**
-
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWbf96ANwTItiu_W4pQFzp_lRQtKBD7LF1GqUPEvjgYoaGvx3lSxvh4Sjca4EQlBbjJ8x_kxGILKPvhSKsX6sB13O37Pm52ZGYsco9rVtL7dCJxIbxkKeLFqxij1ekDYlPVM56XQ?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FfSn1rvVlB7XOTGfHcXFPz87d4Z-B8XfQ11NkqXan4J2IS49EtD2mMP64DW8lfU5l-Z4LH1b7kmjbliKyExFKL7e8LRZlL9UraFa6DX0kun0Wy_dDBO5YozCnUnACJg8QA_2?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXebBy3tbB-Mc1z3ls9IZTHirZDMxwHVExdvx1IUSVVkSucu7Xq390XedHgRRAhdyeOpYnOLZCRhmBcmhIkBuNJ0I8XtmzOsULxWhO-RM1mCjvxNAG2vB_DYA5yaAYjeolIn2Prs9g?key=mZ-JPZW_wxy9hU88SGvQiA"/>
 
 #### 5.2.4.7. Team Collaboration Insights during Sprint
 Con el objetivo de reflejar la participación activa de todos los integrantes del equipo Smart Hire durante este Sprint 4, se presentan a continuación los aportes registrados en GitHub que respaldan su colaboración en el desarrollo.
