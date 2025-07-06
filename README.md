@@ -41,7 +41,7 @@ Sánchez Ponce, Alex Humberto
 | TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
 | TP1     | 14/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 2, Aplicacion Web |
 | TB2    | 19/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 3, Validacion de Entrevistas y BackEnd |
-
+| TF    | 07/06/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 4, Finalizacion Backend y Frondend |
 - Commits Informe: 
 
 <img src="img/informecom.png" alt="app" width= 500/>
@@ -77,7 +77,7 @@ Para el desarrollo del informe correspondiente a la entrega TP, se estableció l
 
 **TB2**
 
-Para el desarrollo del informe correspondiente a la entrega TP, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+Para el desarrollo del informe correspondiente a la entrega TB2, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
 
 |Integrante|Tareas Asignadas|
 |-|-|
@@ -86,6 +86,19 @@ Para el desarrollo del informe correspondiente a la entrega TP, se estableció l
 |Urrutia Peña, Jasmin Adriana |Seccion Postulantes y Correciones TP|
 |Lapa de la Cruz, Gabriel Omar |Seccion Candidatos y Correciones TP|
 |Mauro Fabricio Lopez de la Cruz|Seccion Evaluaciones y Correciones TP|
+
+**TP**
+
+Para el desarrollo del informe correspondiente a la entrega TF, se estableció la implementación de correcciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Bustamante Leveau, Cameron Charllotte| Correcion de Seccion mensajes en Backend, Sprint 4, Conexion de Frontend con Backend, Video About the Team y About the product|
+|Peralta Chipa, Ronald Joel|Correccion de Seccion Users en Backend,  Conexion de Frontend con Backend, Video About the Team y About the product|
+|Urrutia Peña, Jasmin Adriana |Actualizacion y Correccion de Frondend, Conexion de Frontend con Backend, Video About the Team y About the product |
+|Lapa de la Cruz, Gabriel Omar |Correccion de Seccion Job-oferts en Backend, Conexion de Frontend con Backend, Video About the Team y About the product |
+|Mauro Fabricio Lopez de la Cruz|Correccion de Seccion Aplicacion en Backend, Conexion de Frontend con Backend, Video About the Team y About the product |
+
 
 # <font color="red">**Contenido**</font>
 
@@ -211,97 +224,108 @@ Para el desarrollo del informe correspondiente a la entrega TP, se estableció l
    
 # <font color="red">**Student Outcome**</font>
 
-El curso contribuye al cumplimiento del Student Outcome ABET: </br> 
-**ABET – EAC - Student Outcome 3** 
-**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros
-juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
-establecen objetivos, planifican tareas y cumplen objetivos.
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el ABET – EAC - Student Outcome 3.
+El curso contribuye al cumplimiento del Student Outcome ABET:  
+**ABET – EAC - Student Outcome 3**  
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el ABET – EAC - Student Outcome 3.
 
 <table style="border-collapse:collapse;border-spacing:0" class="tg">
 <thead>
 <tr>
 <th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Criterio específico</span></th>
-<th style="border-color:black;border-style:solid;border-width:1px;font-family:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Acciones realizadas</span></th>
-<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight-normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break-normal"><span style="font-weight:normal">Conclusiones</span></th>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Acciones realizadas</span></th>
+<th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="font-weight:normal">Conclusiones</span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break-normal">Trabaja en equipo para
-proporcionar liderazgo en
-forma conjunta</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break-normal">
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+
 **Cameron Charllotte:**  
 - **TB1:** Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos.  
 - **TP1:** Expliqué claramente las funcionalidades de la sección de analíticas de la aplicación web durante las reuniones, adaptando mi lenguaje para que tanto compañeros como docentes comprendieran los avances y correcciones realizados en TB1.  
 - **TB2:** Lideré la implementación de la sección de mensajes en el backend, coordinando con el equipo para garantizar la correcta integración con las correcciones de TP1, y aseguré una comunicación efectiva durante las revisiones para resolver problemas de manera oportuna.  
+- **TF:** Dirigí la finalización del backend, coordiné la conexión entre frontend y backend, lideré las correcciones generales y organicé la producción del video sobre el equipo y el producto, promoviendo un liderazgo compartido y una colaboración efectiva.  
 
 **Ronald Joel:**  
 - **TB1:** Durante las reuniones del grupo, me enfoqué en expresar con claridad mis ideas y propuestas, adaptando mi comunicación según el contexto, lo cual facilitó el entendimiento entre todos los integrantes.  
 - **TP1:** Presenté las secciones de postulaciones y bandeja de entrada de la aplicación web, asegurándome de comunicar de forma efectiva los ajustes realizados en TB1 para alinear el equipo y recibir retroalimentación.  
 - **TB2:** Dirigí el desarrollo de la sección de usuarios en el backend, asegurando que las correcciones de TP1 se implementaran correctamente y comunicando con el equipo para mantener la consistencia en el proyecto.  
+- **TF:** Lideré la finalización del backend, coordiné el Sprint 4, gestioné las correcciones del informe y contribuí a la producción del video sobre el equipo, fomentando la colaboración y el liderazgo conjunto.  
 
 **Gabriel Omar:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
 - **TP1:** Comuniqué oralmente los avances en la sección de candidatos de la aplicación web, explicando las correcciones de TB1 de manera clara para garantizar la comprensión del equipo y los docentes.  
 - **TB2:** Implementé la sección de candidatos en el backend, incorporando las correcciones de TP1 y colaborando activamente con el equipo para garantizar la funcionalidad del sistema.  
+- **TF:** Colaboré en la finalización del backend, las correcciones generales y la producción del video sobre el equipo, aportando liderazgo en la coordinación de tareas y promoviendo un entorno colaborativo.  
 
 **Fabricio López:**  
 - **TB1:** Participé activamente en las discusiones del equipo, compartiendo ideas de manera clara y respetuosa para contribuir al desarrollo del proyecto.  
 - **TP1:** Expliqué las funcionalidades de la sección de publicación en la aplicación web, destacando las correcciones realizadas en TB1 y adaptando mi comunicación para facilitar la comprensión de los compañeros y docentes.  
 - **TB2:** Desarrollé la sección de evaluaciones en el backend, asegurándome de que las correcciones de TP1 fueran implementadas y coordinando con el equipo para validar los resultados.  
+- **TF:** Contribuí a la finalización del backend, las correcciones generales y la producción del video sobre el equipo, liderando tareas específicas y fomentando un entorno inclusivo.  
 
 **Jasmin Adriana:**  
 - **TB1:** Considero que mi comunicación con el grupo fue constante, lo cual nos ayudó a poder repartirnos las tareas y realizar un buen trabajo.  
 - **TP1:** Comuniqué de forma efectiva los detalles de la sección de perfil para postulador y reclutador de la aplicación web, asegurándome de explicar las correcciones de TB1 para mantener al equipo coordinado.  
 - **TB2:** Trabajé en la sección de postulantes en el backend, aplicando las correcciones de TP1 y manteniendo una comunicación constante con el equipo para asegurar la alineación del proyecto.  
+- **TF:** Lideré la actualización del frontend, coordiné la conexión entre frontend y backend, gestioné las correcciones del informe y contribuí a la producción de los videos sobre el equipo y el producto, promoviendo un liderazgo compartido y un entorno inclusivo.  
 </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break-normal">
-**TB1:** Durante el desarrollo del proyecto, cada integrante del equipo fue capaz de comunicar oralmente sus ideas de forma clara y adecuada al contexto, logrando que tanto compañeros como docentes comprendieran nuestras propuestas. Esta capacidad de adaptación en la comunicación nos permitió distribuir tareas eficientemente, resolver dudas en tiempo real y mantener una dinámica colaborativa efectiva en todo momento.  
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-**TP1:** Las presentaciones orales de cada integrante sobre sus respectivas secciones (analíticas, postulaciones, bandeja de entrada, candidatos, publicación, y perfiles) y las correcciones de TB1 demostraron una comunicación efectiva y adaptada a las audiencias, lo que facilitó la alineación del equipo, la validación de los avances por parte de los docentes y el cumplimiento de los objetivos del proyecto.  
+- **TB1:** Cada integrante del equipo demostró una comunicación oral clara y adaptada al contexto, permitiendo que compañeros y docentes comprendieran las propuestas. Esta habilidad facilitó una distribución eficiente de tareas, resolución de dudas en tiempo real y una dinámica colaborativa efectiva.  
 
-**TB2:** En el desarrollo del backend, cada integrante demostró liderazgo al implementar sus respectivas secciones (mensajes, usuarios, candidatos, evaluaciones, postulantes) y coordinar las correcciones de TP1. La comunicación clara y oportuna durante las reuniones permitió resolver problemas técnicos, mantener la alineación del equipo y garantizar que el backend cumpliera con los objetivos establecidos.  
+- **TP1:** Las presentaciones orales sobre las secciones (analíticas, postulaciones, bandeja de entrada, candidatos, publicación y perfiles) y las correcciones de TB1 reflejaron una comunicación efectiva y adaptable, alineando al equipo, validando avances con docentes y cumpliendo los objetivos establecidos.  
+
+- **TB2:** Durante el desarrollo del backend, cada miembro ejerció liderazgo en sus secciones (mensajes, usuarios, candidatos, evaluaciones, postulantes), coordinando las correcciones de TP1 con una comunicación clara y oportuna, lo que resolvió problemas técnicos y aseguró el cumplimiento de los objetivos.  
+
+- **TF:** Cameron, Ronald, Gabriel, Fabricio y Jasmin lideraron la finalización del proyecto (backend, frontend, conexiones, correcciones y videos), promoviendo un liderazgo compartido, un entorno colaborativo e inclusivo, y alcanzando los objetivos mediante una planificación y comunicación efectivas.  
 </td>
 </tr>
 <tr>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break-normal">Crea un entorno colaborativo e
-inclusivo, establece metas,
-planifica tareas y cumple
-objetivos.</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break-normal">
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+
 **Cameron Charllotte:**  
 - **TB1:** Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, gestioné documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo.  
 - **TP1:** Elaboré la documentación de la sección de analíticas de la aplicación web, asegurándome de que fuera clara, precisa y comprensible para docentes y compañeros, incluyendo las correcciones realizadas en TB1.  
 - **TB2:** Documenté la sección de mensajes en el backend, incluyendo diagramas y descripciones técnicas claras, y organicé las tareas relacionadas con las correcciones de TP1 para facilitar la validación del equipo y docentes.  
+- **TF:** Redacté documentación detallada sobre la finalización del backend, la conexión frontend-backend, las correcciones generales y los guiones para los videos del equipo y el producto, asegurando claridad y promoviendo un entorno colaborativo.  
 
 **Ronald Joel:**  
 - **TB1:** Contribuí en varios puntos del trabajo, asegurándome de que la información fuera precisa, coherente y fácilmente comprensible para compañeros y docentes.  
 - **TP1:** Redacté contenido claro y estructurado para las secciones de postulaciones y bandeja de entrada, incorporando las correcciones de TB1 para garantizar que la documentación fuera útil y accesible.  
 - **TB2:** Elaboré la documentación técnica de la sección de usuarios en el backend, detallando las correcciones de TP1 y asegurando que fuera comprensible para todas las audiencias involucradas.  
+- **TF:** Documenté los avances del backend, el Sprint 4, las correcciones del informe y el guion del video sobre el equipo, con un enfoque en claridad y organización para cumplir los objetivos del proyecto.  
 
 **Gabriel Omar:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
 - **TP1:** Documenté los avances y correcciones de la sección de candidatos en la aplicación web, utilizando un lenguaje claro y adaptado para facilitar la validación por parte de docentes y compañeros.  
 - **TB2:** Redacté la documentación de la sección de candidatos en el backend, incluyendo las correcciones de TP1, con un enfoque en la claridad y precisión para facilitar la revisión del equipo.  
+- **TF:** Documenté la finalización del backend, las correcciones generales y el guion del video sobre el equipo, asegurando un entorno inclusivo mediante una documentación clara y accesible.  
 
 **Fabricio López:**  
 - **TB1:** Redacté contenido claro y organizado para apoyar el desarrollo del proyecto, siguiendo las indicaciones establecidas por el equipo.  
 - **TP1:** Elaboré la documentación de la sección de publicación de la aplicación web, asegurándome de que las correcciones de TB1 fueran descritas de manera precisa y comprensible para todas las audiencias.  
 - **TB2:** Documenté la sección de evaluaciones en el backend, detallando las correcciones de TP1 y asegurando que la información fuera clara y útil para la validación del proyecto.  
+- **TF:** Redacté documentación sobre la finalización del backend, las correcciones generales y el guion del video sobre el equipo, contribuyendo a un entorno colaborativo con información clara y bien estructurada.  
 
 **Jasmin Adriana:**  
 - **TB1:** Realicé todas las actividades que me tocaron, creo que debería mejorar con mi gestión de tiempo pero en general me fue bien.  
 - **TP1:** Documenté la sección de perfil para postulador y reclutador de la aplicación web, incluyendo las correcciones de TB1, con un enfoque en claridad y precisión para facilitar su revisión por docentes y compañeros.  
 - **TB2:** Elaboré la documentación de la sección de postulantes en el backend, describiendo las correcciones de TP1 con claridad y coordinando con el equipo para garantizar su utilidad.  
+- **TF:** Documenté las actualizaciones del frontend, la conexión frontend-backend, las correcciones del informe y los guiones para los videos del equipo y el producto, asegurando claridad y promoviendo un entorno inclusivo.  
 </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left-alignment:top;word-break-normal">
-**TB1:** El trabajo en equipo se reflejó también en nuestra capacidad para comunicar por escrito de forma efectiva. La documentación que elaboramos, incluyendo informes, descripciones técnicas y contenido para la página de aterrizaje, fue clara, precisa y entendible para distintas audiencias. Esto facilitó la validación del proyecto por parte de los docentes y aseguró que el producto final comunicara correctamente su propósito y funcionalidad.  
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-**TP1:** La documentación escrita de las secciones de la aplicación web (analíticas, postulaciones, bandeja de entrada, candidatos, publicación, y perfiles), junto con las correcciones de TB1, fue clara, bien estructurada y adaptada a las necesidades de docentes y compañeros, lo que permitió una revisión eficiente, una mejor comprensión del proyecto y la entrega de un producto final coherente y funcional.  
+- **TB1:** La documentación escrita fue clara, precisa y adaptada a diversas audiencias, facilitando la validación docente y asegurando que el proyecto comunicara su propósito y funcionalidad de manera efectiva.  
 
-**TB2:** La documentación técnica del backend (mensajes, usuarios, candidatos, evaluaciones, postulantes) fue precisa, bien organizada y adaptada a las necesidades de docentes y compañeros. La incorporación clara de las correcciones de TP1 permitió una validación eficiente y aseguró que el proyecto final reflejara un entorno colaborativo e inclusivo, cumpliendo con los objetivos establecidos.  
+- **TP1:** Las secciones documentadas (analíticas, postulaciones, bandeja de entrada, candidatos, publicación y perfiles) con las correcciones de TB1 fueron claras, estructuradas y accesibles, permitiendo una revisión eficiente, mayor comprensión y entrega de un producto coherente.  
+
+- **TB2:** La documentación técnica del backend (mensajes, usuarios, candidatos, evaluaciones, postulantes) fue precisa y bien organizada, incorporando las correcciones de TP1 de manera clara, lo que aseguró una validación eficiente y un entorno colaborativo e inclusivo.  
+
+- **TF:** La documentación final de Cameron, Ronald, Gabriel, Fabricio y Jasmin (backend, frontend, conexiones, correcciones y videos) fue clara, bien estructurada y adaptada, promoviendo un entorno colaborativo e inclusivo, con una planificación efectiva que cumplió todos los objetivos establecidos.  
 </td>
 </tr>
 </tbody>
@@ -2460,6 +2484,83 @@ Con el objetivo de reflejar la participación activa de todos los integrantes de
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcH_NBwdgdLSHhTP4if8W0oPeMoY6PEEpkyhgjVueJu8Qh_yiG6C_TW29hBT0_y9CWe32Oamjm3tNswSviuBMBVAyuPhUlQIe3r_TbgyaQ4WYzorKoM4sDEpKMA-bInzL_0gOBSJA?key=T_6EAnvM5GsqgDQEhuCu4A" width=100% /> 
 
 
+### 5.2.4. Sprint 4
+
+Durante el Sprint 4, el equipo continuó con el desarrollo de la aplicación web siguiendo el orden establecido en el *product backlog*. Se abordaron múltiples *user stories* con un total acumulado de **45 story points**, lo que refleja un progreso sólido en esta etapa del proyecto.
+
+#### 5.2.4.1. Sprint Planning 2
+Para este punto se definieron los objetivos del sprint, priorizando las *user stories* con mayor valor de negocio y factibilidad técnica. Se asignaron responsabilidades y tareas a los miembros del equipo, asegurando un flujo de trabajo organizado y colaborativo.
+
+
+| **Sprint #**                    | Sprint 2 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  | En esta sesión se planificó el segundo sprint, enfocado principalmente en el desarrollo del backend de la aplicación, definiendo las tareas y responsabilidades para los diferentes módulos de la API. |
+| **Date**                        | 18/04/2025 |
+| **Time**                        | 8:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
+| **Sprint n - 1 Review Summary**  | Se logró desarrollar correctamente el Landing Page e iniciar el informe de trabajo. |
+| **Sprint n - 1 Retrospective Summary** | Se destacó la buena comunicación y organización del equipo. Se sugirió mejorar la división de tareas para evitar cuellos de botella. |
+| **Sprint Goal & User Stories**   | |
+| **Sprint 2 Goal**                | Implementar la estructura básica del backend, incluyendo los primeros endpoints funcionales. |
+| **Sprint 2 Velocity**            | 12 |
+| **Sum of Story Points**          | 10 |
+
+
+#### 5.2.4.2. Development Evidence for Sprint
+A continuación, se presenta evidencia visual y técnica del avance en el desarrollo de funcionalidades.
+
+- Repositorio Back-End:
+
+
+
+
+- Repositorio Front-End:
+  
+
+
+
+#### 5.2.4.3. Testing Suite Evidence
+Se realizaron pruebas unitarias e integrales utilizando herramientas como Postman y marcos de prueba específicos al stack. Estas validaciones garantizaron el correcto funcionamiento de los componentes desarrollados en este sprint.
+
+
+
+
+#### 5.2.4.4. Execution Evidence for Sprint Review
+En esta sección, se muestra evidencia de las funcionalidades implementadas mediante capturas, grabaciones o demostraciones realizadas durante la *Sprint Review*, validando así el cumplimiento de los criterios de aceptación definidos.
+
+
+
+
+
+#### 5.2.4.5. Services Documentation Evidence for Sprint Review
+Durante este sprint se desarrollaron e implementaron los siguientes *bounded contexts* en nuestra API:
+
+
+
+- **User**
+- **Job Offers**
+- **Messages**
+- **Recruitment**
+
+La documentación generada con Swagger permite visualizar todos los endpoints disponibles.
+
+#### 5.2.4.6. Software Deployment Evidence for Sprint Review
+
+- **Frontend:** La aplicación web fue desplegada exitosamente en **GitHub Pages**.
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevb7WMGIgsBtjKkTjU0Cn63SasVozbkMQfgq7tHypBdG1yfQCR-bVBryabEx1hz6UrcL3S0RetkApdzs3_pkrTSDHQyl_lmvxhbADfyX7xkVgWc3wUwD2ZPerMWbiu6_r8zLugAg?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXflzXDGlric_iyjkuJP7stqDAPYuilnbZyGpsTZiE--ICjWduHImuoI4137si8J-v5xksECgaNAGTGtNXPEM5SKfrsGjtPI0IypeRfxARUN252Fn68_Rgk8YW3aBolagrPq8DWnAg?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+  **Enlace:** https://frontend-app-dbcdc.web.app
+- **Backend:** Los servicios de la API fueron desplegados en **Microsoft Azure**, asegurando disponibilidad y escalabilidad en la nube.
+ **Enlace:**
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWbf96ANwTItiu_W4pQFzp_lRQtKBD7LF1GqUPEvjgYoaGvx3lSxvh4Sjca4EQlBbjJ8x_kxGILKPvhSKsX6sB13O37Pm52ZGYsco9rVtL7dCJxIbxkKeLFqxij1ekDYlPVM56XQ?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FfSn1rvVlB7XOTGfHcXFPz87d4Z-B8XfQ11NkqXan4J2IS49EtD2mMP64DW8lfU5l-Z4LH1b7kmjbliKyExFKL7e8LRZlL9UraFa6DX0kun0Wy_dDBO5YozCnUnACJg8QA_2?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXebBy3tbB-Mc1z3ls9IZTHirZDMxwHVExdvx1IUSVVkSucu7Xq390XedHgRRAhdyeOpYnOLZCRhmBcmhIkBuNJ0I8XtmzOsULxWhO-RM1mCjvxNAG2vB_DYA5yaAYjeolIn2Prs9g?key=mZ-JPZW_wxy9hU88SGvQiA"/>
+
+#### 5.2.4.7. Team Collaboration Insights during Sprint
+Con el objetivo de reflejar la participación activa de todos los integrantes del equipo Smart Hire durante este Sprint 4, se presentan a continuación los aportes registrados en GitHub que respaldan su colaboración en el desarrollo.
+
 ## **5.3. Validation Interviews**
 
 El objetivo de estas entrevistas es validar la propuesta de valor, la utilidad percibida y la facilidad de uso de la plataforma, enfocándose en los dos segmentos principales:
@@ -2597,86 +2698,8 @@ La interfaz actual carece de un botón de búsqueda visible o un ícono de lupa 
 
 ---
 
-
-### 5.2.4. Sprint 4
-
-Durante el Sprint 4, el equipo continuó con el desarrollo de la aplicación web siguiendo el orden establecido en el *product backlog*. Se abordaron múltiples *user stories* con un total acumulado de **45 story points**, lo que refleja un progreso sólido en esta etapa del proyecto.
-
-#### 5.2.4.1. Sprint Planning 2
-Para este punto se definieron los objetivos del sprint, priorizando las *user stories* con mayor valor de negocio y factibilidad técnica. Se asignaron responsabilidades y tareas a los miembros del equipo, asegurando un flujo de trabajo organizado y colaborativo.
-
-
-| **Sprint #**                    | Sprint 2 |
-|----------------------------------|----------|
-| **Sprint Planning Background**  | En esta sesión se planificó el segundo sprint, enfocado principalmente en el desarrollo del backend de la aplicación, definiendo las tareas y responsabilidades para los diferentes módulos de la API. |
-| **Date**                        | 18/04/2025 |
-| **Time**                        | 8:00 pm |
-| **Location**                    | Virtual (Discord) |
-| **Prepared by**                 | Peralta Chipa Ronald Joel |
-| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
-| **Sprint n - 1 Review Summary**  | Se logró desarrollar correctamente el Landing Page e iniciar el informe de trabajo. |
-| **Sprint n - 1 Retrospective Summary** | Se destacó la buena comunicación y organización del equipo. Se sugirió mejorar la división de tareas para evitar cuellos de botella. |
-| **Sprint Goal & User Stories**   | |
-| **Sprint 2 Goal**                | Implementar la estructura básica del backend, incluyendo los primeros endpoints funcionales. |
-| **Sprint 2 Velocity**            | 12 |
-| **Sum of Story Points**          | 10 |
-
-
-#### 5.2.4.2. Development Evidence for Sprint
-A continuación, se presenta evidencia visual y técnica del avance en el desarrollo de funcionalidades. Esto incluye fragmentos de código, capturas de pantallas del entorno de desarrollo y confirmaciones de *pull requests* en GitHub.
-
-- Repositorio Back-End:
-
-
-
-
-- Repositorio Front-End:
-  
-
-
-
-#### 5.2.4.3. Testing Suite Evidence
-Se realizaron pruebas unitarias e integrales utilizando herramientas como Postman y marcos de prueba específicos al stack. Estas validaciones garantizaron el correcto funcionamiento de los componentes desarrollados en este sprint.
-
-
-
-
-#### 5.2.4.4. Execution Evidence for Sprint Review
-En esta sección, se muestra evidencia de las funcionalidades implementadas mediante capturas, grabaciones o demostraciones realizadas durante la *Sprint Review*, validando así el cumplimiento de los criterios de aceptación definidos.
-
-
-
-
-
-#### 5.2.4.5. Services Documentation Evidence for Sprint Review
-Durante este sprint se desarrollaron e implementaron los siguientes *bounded contexts* en nuestra API:
-
-
-
-- **User**
-- **Job Offers**
-- **Messages**
-- **Recruitment**
-
-La documentación generada con Swagger permite visualizar todos los endpoints disponibles.
-
-#### 5.2.4.6. Software Deployment Evidence for Sprint Review
-
-- **Frontend:** La aplicación web fue desplegada exitosamente en **GitHub Pages**.
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevb7WMGIgsBtjKkTjU0Cn63SasVozbkMQfgq7tHypBdG1yfQCR-bVBryabEx1hz6UrcL3S0RetkApdzs3_pkrTSDHQyl_lmvxhbADfyX7xkVgWc3wUwD2ZPerMWbiu6_r8zLugAg?key=mZ-JPZW_wxy9hU88SGvQiA"/>
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXflzXDGlric_iyjkuJP7stqDAPYuilnbZyGpsTZiE--ICjWduHImuoI4137si8J-v5xksECgaNAGTGtNXPEM5SKfrsGjtPI0IypeRfxARUN252Fn68_Rgk8YW3aBolagrPq8DWnAg?key=mZ-JPZW_wxy9hU88SGvQiA"/>
-  **Enlace:** https://frontend-app-dbcdc.web.app
-- **Backend:** Los servicios de la API fueron desplegados en **Microsoft Azure**, asegurando disponibilidad y escalabilidad en la nube.
- **Enlace:**
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWbf96ANwTItiu_W4pQFzp_lRQtKBD7LF1GqUPEvjgYoaGvx3lSxvh4Sjca4EQlBbjJ8x_kxGILKPvhSKsX6sB13O37Pm52ZGYsco9rVtL7dCJxIbxkKeLFqxij1ekDYlPVM56XQ?key=mZ-JPZW_wxy9hU88SGvQiA"/>
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FfSn1rvVlB7XOTGfHcXFPz87d4Z-B8XfQ11NkqXan4J2IS49EtD2mMP64DW8lfU5l-Z4LH1b7kmjbliKyExFKL7e8LRZlL9UraFa6DX0kun0Wy_dDBO5YozCnUnACJg8QA_2?key=mZ-JPZW_wxy9hU88SGvQiA"/>
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXebBy3tbB-Mc1z3ls9IZTHirZDMxwHVExdvx1IUSVVkSucu7Xq390XedHgRRAhdyeOpYnOLZCRhmBcmhIkBuNJ0I8XtmzOsULxWhO-RM1mCjvxNAG2vB_DYA5yaAYjeolIn2Prs9g?key=mZ-JPZW_wxy9hU88SGvQiA"/>
-
-#### 5.2.4.7. Team Collaboration Insights during Sprint
-Con el objetivo de reflejar la participación activa de todos los integrantes del equipo Smart Hire durante este Sprint 4, se presentan a continuación los aportes registrados en GitHub que respaldan su colaboración en el desarrollo.
-
-
-
+## **5.4. Video About-the-Product**
+Video About the Product: 
 
 
 ## Conclusiones
@@ -2698,3 +2721,8 @@ Con el objetivo de reflejar la participación activa de todos los integrantes de
 <hr>
 
 ## Anexos
+- Landing Page:
+- Aplicacion Web:
+- BackEnd:
+- Diapositivas:
+- Video About the Team:
