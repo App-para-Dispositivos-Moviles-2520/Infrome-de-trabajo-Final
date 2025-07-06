@@ -87,7 +87,7 @@ Para el desarrollo del informe correspondiente a la entrega TB2, se estableció 
 |Lapa de la Cruz, Gabriel Omar |Seccion Candidatos y Correciones TP|
 |Mauro Fabricio Lopez de la Cruz|Seccion Evaluaciones y Correciones TP|
 
-**TP**
+**TF**
 
 Para el desarrollo del informe correspondiente a la entrega TF, se estableció la implementación de correcciones de la siguiente manera para cada integrante del equipo:
 
@@ -210,6 +210,15 @@ Para el desarrollo del informe correspondiente a la entrega TF, se estableció l
       - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
       - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
       - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
+    - [**5.2.4. Sprint 4**](#523-sprint-3)
+      - [**5.2.4.1. Sprint Planning 4**](#5231-sprint-planning-3)
+      - [**5.2.4.2. Aspect Leaders and Collaborators**](#5232-sprint-planning-3)
+      - [**5.2.4.3. Sprint Backlog 4**](#5233-sprint-backlog-3)
+      - [**5.2.4.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
+      - [**5.2.4.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.4.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.4.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
+      - [**5.2.4.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
   - [**5.3. Validation Interviews**](#53-validation-interviews)
     - [**5.3.1. Diseño de Entrevistas**](#531-diseño-de-entrevistas)
     - [**5.3.2. Registro de Entrevistas**](#532-registro-de-entrevistas)
@@ -2488,11 +2497,11 @@ Con el objetivo de reflejar la participación activa de todos los integrantes de
 
 Durante el Sprint 4, el equipo continuó con el desarrollo de la aplicación web siguiendo el orden establecido en el *product backlog*. Se abordaron múltiples *user stories* con un total acumulado de **45 story points**, lo que refleja un progreso sólido en esta etapa del proyecto.
 
-#### 5.2.4.1. Sprint Planning 2
+#### 5.2.4.1. Sprint Planning 4
 Para este punto se definieron los objetivos del sprint, priorizando las *user stories* con mayor valor de negocio y factibilidad técnica. Se asignaron responsabilidades y tareas a los miembros del equipo, asegurando un flujo de trabajo organizado y colaborativo.
 
 
-| **Sprint #**                    | Sprint 2 |
+| **Sprint #**                    | Sprint 4 |
 |----------------------------------|----------|
 | **Sprint Planning Background**  | En esta sesión se planificó el segundo sprint, enfocado principalmente en el desarrollo del backend de la aplicación, definiendo las tareas y responsabilidades para los diferentes módulos de la API. |
 | **Date**                        | 18/04/2025 |
@@ -2500,53 +2509,70 @@ Para este punto se definieron los objetivos del sprint, priorizando las *user st
 | **Location**                    | Virtual (Discord) |
 | **Prepared by**                 | Peralta Chipa Ronald Joel |
 | **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Bustamante Leveau Cameron Charllotte <br> Urrutia Peña Jasmin Adriana <br> Mauro Fabricio Lopez de la Cruz <br> Lapa de la Cruz Gabriel Omar |
-| **Sprint n - 1 Review Summary**  | Se logró desarrollar correctamente el Landing Page e iniciar el informe de trabajo. |
-| **Sprint n - 1 Retrospective Summary** | Se destacó la buena comunicación y organización del equipo. Se sugirió mejorar la división de tareas para evitar cuellos de botella. |
+| **Sprint n - 1 Review Summary**  | Se logró desarrollar correctamente el Backend y la conexion con el frontend. |
+| **Sprint n - 1 Retrospective Summary** | Se destacó la buena comunicación y organización del equipo. Se sugirió mejorar la división de tareas. |
 | **Sprint Goal & User Stories**   | |
 | **Sprint 2 Goal**                | Implementar la estructura básica del backend, incluyendo los primeros endpoints funcionales. |
 | **Sprint 2 Velocity**            | 12 |
 | **Sum of Story Points**          | 10 |
 
+#### **5.2.4.2. Aspect Leaders and Collaborators**
 
-#### 5.2.4.2. Development Evidence for Sprint
+| Team Member (Last Name, First Name) | GitHub Username            | Finalización Backend (L/C) | Finalización Frondend (L/C) | Finalización Report (L/C) |
+|-------------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------------------|
+| Peralta, Ronald                     | Ronni-FSTK                  | L                           | C                           | C                                       |
+| Bustamante, Cameron                 | CameronBustamanteLeveau2   | C                           | C                           | C                                       |
+| Urrutia, Jasmin                     | SrtaYeis                    | C                           | L                           | C                                       |
+| Lopez, Mauro                        | FabricioLop                 | C                           | C                           | C                                       |
+| Lapa, Gabriel                       | Gabo0722                    | C                           | C                           | L                                       |
+
+
+#### **5.2.4.3. Sprint Backlog 4**
+
+| **User Story** | **Work Item / Task** | ID  | Title | Description | Estim. Hours | Assigned | Status |
+|----------------|----------------------|-----|--------|-------------|---------------|----------|--------|
+| US015 | Puntaje de CVs | T1  | Implementar los métodos de oferta laboral | Crear y configurar los controladores y servicios necesarios para registrar y enviar una oferta a un postulante. | 4hrs | Ronald | Done |
+| US016 | Recibir notificaciones de vacantes     | T2  | Implementar los datos del perfil del postulante | Permitir que el postulante vea mensajes que le manda directamente el reclutador. | 3hrs | Gabriel | Done |
+| US017 | Recibir notificaciones de postulaciones     | T3  | Implementar los datos del perfil del reclutador | Permitir que el postulante vea todas sus postulaciones en una lista. | 3hrs | Jasmin | Done |
+| US009 | Enviar oferta laboral     | T4  | Implementar los métodos de oferta laboral | Crear y configurar los controladores y servicios necesarios para registrar y enviar una oferta a un postulante. | 3hrs | Fabricio | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint
 A continuación, se presenta evidencia visual y técnica del avance en el desarrollo de funcionalidades.
 
 - Repositorio Back-End:
-
-
+  
+| Repository     | Branch              | Commit Id | Commit Message                                      | Committed on (Date) |
+|----------------|---------------------|-----------|-----------------------------------------------------|----------------------|
+| backend-app    | develop             | 1b05a240a411452cd2e1637d5ac1481944621116 | login and register completed                              | 06/07/2025 |
 
 
 - Repositorio Front-End:
   
+| Repository     | Branch              | Commit Id | Commit Message                                      | Committed on (Date) |
+|----------------|---------------------|-----------|-----------------------------------------------------|----------------------|
+| frontend-app    | develop             | 28afc0a7b46c24bcfd4a3e8ad2e7daa505ac4262 | initial commit complete                               | 06/07/2025 |
 
 
 
-#### 5.2.4.3. Testing Suite Evidence
-Se realizaron pruebas unitarias e integrales utilizando herramientas como Postman y marcos de prueba específicos al stack. Estas validaciones garantizaron el correcto funcionamiento de los componentes desarrollados en este sprint.
-
-
-
-
-#### 5.2.4.4. Execution Evidence for Sprint Review
+#### 5.2.4.6. Execution Evidence for Sprint Review
 En esta sección, se muestra evidencia de las funcionalidades implementadas mediante capturas, grabaciones o demostraciones realizadas durante la *Sprint Review*, validando así el cumplimiento de los criterios de aceptación definidos.
 
 
 
 
 
-#### 5.2.4.5. Services Documentation Evidence for Sprint Review
+#### 5.2.4.7. Services Documentation Evidence for Sprint Review
 Durante este sprint se desarrollaron e implementaron los siguientes *bounded contexts* en nuestra API:
 
-
-
 - **User**
-- **Job Offers**
+- **Job Offers** 
 - **Messages**
 - **Recruitment**
 
 La documentación generada con Swagger permite visualizar todos los endpoints disponibles.
+Link: http://app-250706133042.azurewebsites.net/swagger/index.html
 
-#### 5.2.4.6. Software Deployment Evidence for Sprint Review
+#### 5.2.4.8. Software Deployment Evidence for Sprint Review
 
 - **Frontend:** La aplicación web fue desplegada exitosamente en **GitHub Pages**.
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevb7WMGIgsBtjKkTjU0Cn63SasVozbkMQfgq7tHypBdG1yfQCR-bVBryabEx1hz6UrcL3S0RetkApdzs3_pkrTSDHQyl_lmvxhbADfyX7xkVgWc3wUwD2ZPerMWbiu6_r8zLugAg?key=mZ-JPZW_wxy9hU88SGvQiA"/>
@@ -2558,8 +2584,9 @@ La documentación generada con Swagger permite visualizar todos los endpoints di
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FfSn1rvVlB7XOTGfHcXFPz87d4Z-B8XfQ11NkqXan4J2IS49EtD2mMP64DW8lfU5l-Z4LH1b7kmjbliKyExFKL7e8LRZlL9UraFa6DX0kun0Wy_dDBO5YozCnUnACJg8QA_2?key=mZ-JPZW_wxy9hU88SGvQiA"/>
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXebBy3tbB-Mc1z3ls9IZTHirZDMxwHVExdvx1IUSVVkSucu7Xq390XedHgRRAhdyeOpYnOLZCRhmBcmhIkBuNJ0I8XtmzOsULxWhO-RM1mCjvxNAG2vB_DYA5yaAYjeolIn2Prs9g?key=mZ-JPZW_wxy9hU88SGvQiA"/>
 
-#### 5.2.4.7. Team Collaboration Insights during Sprint
+#### 5.2.4.9. Team Collaboration Insights during Sprint
 Con el objetivo de reflejar la participación activa de todos los integrantes del equipo Smart Hire durante este Sprint 4, se presentan a continuación los aportes registrados en GitHub que respaldan su colaboración en el desarrollo.
+
 
 ## **5.3. Validation Interviews**
 
@@ -2721,8 +2748,8 @@ Video About the Product:
 <hr>
 
 ## Anexos
-- Landing Page:
-- Aplicacion Web:
-- BackEnd:
-- Diapositivas:
+- Landing Page: 
+- Aplicacion Web: 
+- BackEnd: http://app-250706133042.azurewebsites.net/swagger/index.html
+- Diapositivas: https://www.canva.com/design/DAGlgdMhimU/Wz9BPm5R0OsJbrq1yr6M7w/edit?utm_content=DAGlgdMhimU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 - Video About the Team:
