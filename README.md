@@ -2754,6 +2754,6 @@ Video About the Product:
 ## Anexos
 - Landing Page: 
 - Aplicacion Web: 
-- BackEnd: http://app-250706133042.azurewebsites.net/swagger/index.html
+- BackEnd: https://app-250706133042.azurewebsites.net/swagger/index.html
 - Diapositivas: https://www.canva.com/design/DAGlgdMhimU/Wz9BPm5R0OsJbrq1yr6M7w/edit?utm_content=DAGlgdMhimU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 - Video About the Team: https://youtu.be/of73YuU1jbY
