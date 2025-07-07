@@ -2745,6 +2745,10 @@ Video About the Product:
 
 - El HuffPost. (2025). *Gestión de talento y digitalización: el nuevo desafío para empresas en 2025*. Recuperado de [https://www.huffingtonpost.es/economia/gestion-talento-digitalizacion-nuevo-desafio-empresas-2025.html](https://www.huffingtonpost.es/economia/gestion-talento-digitalizacion-nuevo-desafio-empresas-2025.html)
 
+-SmartBear. (s. f.). ¿Qué es Swagger y por qué es útil? Swagger. Recuperado el 7 de julio de 2025, de https://swagger.io/docs/specification/2-0/what-is-swagger/
+
+-SmartBear. (s. f.). Especificación OpenAPI 3.1.1. Swagger. Recuperado el 7 de julio de 2025, de https://swagger.io/specification/
+
 <hr>
 
 ## Anexos
