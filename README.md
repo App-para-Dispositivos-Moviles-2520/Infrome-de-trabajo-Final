@@ -2277,7 +2277,7 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
   <tbody>
     <tr>
       <td>
-          https://landingpage-jobsy.web.app/
+          https://landing-page-jobsy.web.app
       </td>
       <td>Se desplegó exitosamente la landing page de Jobsy en firebase, con navegación funcional entre secciones como Inicio, Acerca de, Servicios y Contacto.</td>
     </tr>
@@ -2385,7 +2385,7 @@ Este punto, refiere a una sección donde se documenta evidencias sobre los servi
   <tbody>
     <tr>
       <td>
-          https://frontend-app-dbcdc.web.app
+          https://front-appweb-f507a.web.app/
       </td>
       <td>Se desplegó exitosamente la aplicacion de Jobsy, con navegación funcional entre secciones como Publicación, Perfil, Analiticas y Candidatos.</td>
     </tr>
