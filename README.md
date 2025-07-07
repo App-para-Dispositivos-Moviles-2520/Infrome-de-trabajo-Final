@@ -2701,19 +2701,11 @@ Al ingresar a la aplicación y acceder con tu cuenta, Jobsy te redirige directam
 *Problema:*
 Hay una duplicación de información entre secciones que podría generar confusión en la experiencia del usuario. Específicamente, tanto en la pestaña principal como en la sección de Analíticas se presentan datos sobre las postulaciones con mayor visibilidad por parte del público trabajador. Aunque esta información es valiosa, su repetición en distintos espacios del sistema podría restarle claridad al propósito de cada sección. Sería recomendable repensar la distribución de estos datos, utilizando la pantalla principal como un resumen ejecutivo y reservando la sección de Analíticas para un análisis más profundo y detallado.
 
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJuDEzyal-c4uCjBG6URZ9Pxlg12FIQFpz1v0MtVSypyge5Q8OBpqvAlPOevs70BqwvHgRfluv4fIRFrrHdDSh4UnXv1Ee6TZhRD9-VgbT6GSdQ-E7v9w-6x4IqxopfRgK31IVwQ?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
-
-### PROBLEMA #3: No pudimos guardar los cambios por un error en la conexión. Intenta nuevamente o verifica tu conexión a internet.
-*Severidad:* 2
-
-*Heurística violada:* Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
-
-*Problema:*
-Al momento de crear una publicación de postulación, no se muestra una ventana emergente o mensaje de confirmación que indique si el proceso se completó correctamente o si ocurrió algún error. Esta ausencia de retroalimentación puede generar incertidumbre en el usuario, ya que no tiene una señal clara de que su acción fue exitosa. Incluir una notificación visual —como un pequeño mensaje flotante o modal— sería una mejora importante para la experiencia de uso, ya que ofrecería claridad inmediata y fomentaría la confianza en el sistema
-
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXwv7LbfvrXHVBKXUrkTxLucx-fyYSTtmC0WP-q1u1BBsPnlSKgTqUpIrOhVZTywTcmA2yV4mmLaoBWdJ0EXA-gpU-zSVBRFfqDh89gWPk8i8LQTujy-w4gxGcIov55HeG2Klv?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
 
-### PROBLEMA #4: No hay botón de “Guardar” cambia su estado a: “Guardando...” seguido de “Cambios guardados correctamente
+
+
+### PROBLEMA #3: No hay botón de “Guardar” cambia su estado a: “Guardando...” seguido de “Cambios guardados correctamente
 *Severidad:* 2
 
 *Heurística violada:* Usability: Visibilidad del estado del sistema
@@ -2721,7 +2713,7 @@ Al momento de crear una publicación de postulación, no se muestra una ventana 
 *Problema:*
 La interfaz actual carece de un botón de búsqueda visible o un ícono de lupa que invite al usuario a interactuar con la función de búsqueda. Esto puede generar incertidumbre, especialmente para quienes no saben que deben presionar Enter para ejecutar la acción. Incorporar un botón de búsqueda o un ícono intuitivo ayudaría a guiar al usuario y haría el proceso más claro y accesible, mejorando la usabilidad general del sistema. Además, serviría como confirmación visual de que el sistema está procesando la consulta, lo cual refuerza la confianza en la plataforma
 
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd55Ko9umNgwJfSDl1u-lW8SWbCHPc2BucEVG86zBs48YHOQcZ8gK63rfE3zAHtLw1hSSTBwXBANxA_PEFGlgtZ3eJ1Ia8AvuJxVBYzSx53p1ZVs2KHsPY4pgOrprkBGYkpI9-fBw?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJuDEzyal-c4uCjBG6URZ9Pxlg12FIQFpz1v0MtVSypyge5Q8OBpqvAlPOevs70BqwvHgRfluv4fIRFrrHdDSh4UnXv1Ee6TZhRD9-VgbT6GSdQ-E7v9w-6x4IqxopfRgK31IVwQ?key=mZ-JPZW_wxy9hU88SGvQiA" alt="problem1" width=100% />
 
 ---
 
@@ -2753,7 +2745,7 @@ Video About the Product:
 
 ## Anexos
 - Landing Page: 
-- Aplicacion Web: 
+- Aplicacion Web: http://front-appweb-f507a.web.app
 - BackEnd: https://app-250706133042.azurewebsites.net/swagger/index.html
 - Diapositivas: https://www.canva.com/design/DAGlgdMhimU/Wz9BPm5R0OsJbrq1yr6M7w/edit?utm_content=DAGlgdMhimU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 - Video About the Team: https://youtu.be/of73YuU1jbY
