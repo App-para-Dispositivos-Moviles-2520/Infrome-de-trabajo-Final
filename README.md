@@ -2718,8 +2718,9 @@ La interfaz actual carece de un botón de búsqueda visible o un ícono de lupa 
 ---
 
 ## **5.4. Video About-the-Product**
-Video About the Product: 
+Video About the Product: https://youtu.be/YwKo8cIbpXc
 
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAAvwl0qPwqaHtJLdo_APP7b-RF1zFeiQhFkPEqAZ4L8w6hJbUbhkunuVJ9f8EA8Dl8lJMeML8axX_BV_qYkny78xgTn4Whh-uiGwkEMtUFBJ3r6SrAUK6djRnYAj7ioblJD1Rcw?key=mZ-JPZW_wxy9hU88SGvQiA " alt="problem1" width=100% />
 
 ## Conclusiones
 - _Implementación de buenas prácticas en el desarrollo:_
