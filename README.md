@@ -2744,7 +2744,7 @@ Video About the Product:
 <hr>
 
 ## Anexos
-- Landing Page: 
+- Landing Page: https://landing-page-jobsy.web.app
 - Aplicacion Web: http://front-appweb-f507a.web.app
 - BackEnd: https://app-250706133042.azurewebsites.net/swagger/index.html
 - Diapositivas: https://www.canva.com/design/DAGlgdMhimU/Wz9BPm5R0OsJbrq1yr6M7w/edit?utm_content=DAGlgdMhimU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
