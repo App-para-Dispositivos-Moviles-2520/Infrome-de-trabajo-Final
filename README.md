@@ -1156,10 +1156,85 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 <img src="img/DatabaseDiagram_Candidatos.png" alt="Database_Candidatos" width= 1000/>
 
 ### **2.6.3. Bounded Context: Publicaciones**
-#### **2.6.3.1. Domain Layer**
-#### **2.6.3.2. Interface Layer**
-#### **2.6.3.3. Application Layer**
-#### **2.6.3.4. Infrastructure Layer**
+<h3>2.6.1.1. Domain Layer</h3>
+<h4>Aggregate: JobOffer</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>JobOffer</td><td>Entity (Aggregate Root)</td><td>Representa una oferta laboral publicada por un reclutador.</td></tr>
+</tbody>
+</table>
+
+<h4>Attributes</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador único de la oferta.</td></tr>
+<tr><td>title</td><td>String</td><td>Private</td><td>Título de la oferta laboral.</td></tr>
+<tr><td>description</td><td>String</td><td>Private</td><td>Descripción general.</td></tr>
+<tr><td>requirements</td><td>String</td><td>Private</td><td>Requisitos solicitados.</td></tr>
+<tr><td>status</td><td>Enum</td><td>Private</td><td>Estado de la oferta (Draft, Published, Closed).</td></tr>
+<tr><td>publishDate</td><td>Date</td><td>Private</td><td>Fecha de publicación.</td></tr>
+<tr><td>closeDate</td><td>Date</td><td>Private</td><td>Fecha de cierre.</td></tr>
+</tbody>
+</table>
+
+<h4>Methods</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>publish()</td><td>Void</td><td>Public</td><td>Publica la oferta.</td></tr>
+<tr><td>close()</td><td>Void</td><td>Public</td><td>Cierra la oferta.</td></tr>
+<tr><td>editOffer(data)</td><td>Void</td><td>Public</td><td>Edita la oferta.</td></tr>
+<tr><td>isActive()</td><td>Boolean</td><td>Public</td><td>Verifica si sigue activa.</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.1.2. Interface Layer</h3>
+<h4>Controller: JobOfferController</h4>
+<table>
+<thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>/api/job-offers</td><td>POST</td><td>Crear oferta</td></tr>
+<tr><td>/api/job-offers/{id}</td><td>PUT</td><td>Editar oferta</td></tr>
+<tr><td>/api/job-offers/{id}</td><td>DELETE</td><td>Eliminar oferta</td></tr>
+<tr><td>/api/job-offers</td><td>GET</td><td>Listar/filtrar ofertas</td></tr>
+</tbody>
+</table>
+
+<h4>DTOs</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>JobOfferCreateDto</td><td>Datos para crear oferta</td></tr>
+<tr><td>JobOfferUpdateDto</td><td>Datos para editar oferta</td></tr>
+<tr><td>JobOfferResponseDto</td><td>Representación de respuesta</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.1.3. Application Layer</h3>
+<h4>Service: JobOfferService</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>createOffer(CreateOfferCommand)</td><td>Crear una oferta</td></tr>
+<tr><td>updateOffer(UpdateOfferCommand)</td><td>Actualizar oferta</td></tr>
+<tr><td>deleteOffer(DeleteOfferCommand)</td><td>Eliminar oferta</td></tr>
+<tr><td>filterOffers(FilterOffersQuery)</td><td>Filtrar ofertas</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.1.4. Infrastructure Layer</h3>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>SqfliteJobOfferRepository</td><td>Repository Implementation</td><td>JobOfferRepository</td><td>Persistencia en SQLite</td></tr>
+<tr><td>ExternalJobPublisherAdapter</td><td>Adapter</td><td>API externa</td><td>Publicación en LinkedIn, InfoJobs, CompuTrabajo</td></tr>
+<tr><td>FirebaseNotificationAdapter</td><td>Adapter</td><td>Messaging Service</td><td>Notificaciones push</td></tr>
+</tbody>
+</table>
+
+<hr/>
 #### **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
 <img src="img/Components_Publicaciones.png" alt="Components_Publicaciones" width= 1000/>
 
