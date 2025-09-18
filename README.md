@@ -1156,7 +1156,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 <img src="img/DatabaseDiagram_Candidatos.png" alt="Database_Candidatos" width= 1000/>
 
 ### **2.6.3. Bounded Context: Publicaciones**
-<h3>2.6.1.1. Domain Layer</h3>
+<h3>2.6.3.1. Domain Layer</h3>
 <h4>Aggregate: JobOffer</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
@@ -1190,7 +1190,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 </tbody>
 </table>
 
-<h3>2.6.1.2. Interface Layer</h3>
+<h3>2.6.3.2. Interface Layer</h3>
 <h4>Controller: JobOfferController</h4>
 <table>
 <thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
@@ -1212,7 +1212,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 </tbody>
 </table>
 
-<h3>2.6.1.3. Application Layer</h3>
+<h3>2.6.3.3. Application Layer</h3>
 <h4>Service: JobOfferService</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
@@ -1224,7 +1224,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 </tbody>
 </table>
 
-<h3>2.6.1.4. Infrastructure Layer</h3>
+<h3>2.6.3.4. Infrastructure Layer</h3>
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
 <tbody>
@@ -1249,10 +1249,60 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 <img src="img/DatabaseDiagram_Publicaciones.png" alt="Database_Publicaciones" width= 1000/>
 
 ### **2.6.4. Bounded Context: Asistencia IA**
-#### **2.6.4.1. Domain Layer**
-#### **2.6.4.2. Interface Layer**
-#### **2.6.4.3. Application Layer**
-#### **2.6.4.4. Infrastructure Layer**
+
+### 2.6.5.1. Domain Layer  
+**Entity: AIRequest**
+
+| Nombre   | Categoría | Descripción              |
+|----------|-----------|--------------------------|
+| AIRequest | Entity   | Solicitud de asistencia IA |
+
+**Attributes**
+
+| Nombre  | Tipo de dato | Visibilidad | Descripción |
+|---------|--------------|-------------|-------------|
+| id      | UUID         | Private     | Identificador |
+| type    | Enum         | Private     | Tipo (JobOfferDraft, CandidateEvaluation) |
+| prompt  | String       | Private     | Entrada de texto |
+| result  | String       | Private     | Resultado |
+
+**Methods**
+
+| Nombre             | Tipo de retorno | Descripción         |
+|--------------------|-----------------|---------------------|
+| generateJobOffer() | String          | Genera oferta       |
+| evaluateCandidate()| String          | Evalúa candidato    |
+
+---
+
+### 2.6.5.2. Interface Layer  
+**Controller: AIController**
+
+| Ruta                       | Método | Descripción                   |
+|-----------------------------|--------|-------------------------------|
+| /api/ai/generate-job-offer  | POST   | Generar propuesta de oferta   |
+| /api/ai/evaluate-candidate  | POST   | Evaluar candidato con IA      |
+
+---
+
+### 2.6.5.3. Application Layer  
+**Service: AIService**
+
+| Nombre | Descripción |
+|--------|-------------|
+| generateJobOffer(GenerateJobOfferCommand) | Genera una propuesta de oferta laboral a partir de un prompt y parámetros de la vacante. |
+| evaluateCandidate(EvaluateCandidateCommand) | Evalúa un candidato (CV/perfil) usando reglas y el modelo de IA; devuelve observaciones y score. |
+
+---
+
+### 2.6.5.4. Infrastructure Layer  
+
+| Nombre                   | Categoría               | Implementa            | Descripción |
+|---------------------------|-------------------------|-----------------------|-------------|
+| RemoteAIRequestRepository | Repository Implementation | AIRequestRepository | Registra solicitudes y respuestas de IA para trazabilidad (almacenamiento local con SQLite/SQFLite). |
+| AIExternalAdapter         | Adapter                 | External AI API       | Conecta con el proveedor de IA (p. ej., GPT); maneja autenticación, timeouts y reintentos. |
+
+
 #### **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
 <img src="img/Components_AsistenciaIA.png" alt="Components_AsistenciaIA" width= 1000/>
 
