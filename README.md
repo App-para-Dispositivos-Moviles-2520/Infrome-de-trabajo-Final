@@ -986,9 +986,12 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 ### **2.5.2. Context Mapping**
 ### **2.5.3. Software Architecture**
 #### **2.5.3.1. Software Architecture Context Level Diagrams**
-#### **2.5.3.2. Software Architecture Container Level Diagrams**
-#### **2.5.3.3. Software Architecture Deployment Diagrams**
+<img src="img/ContextDiagram.png" alt="ContextDiagram" width= 1000/>
 
+#### **2.5.3.2. Software Architecture Container Level Diagrams**
+<img src="img/ContainerDiagram.png" alt="ContainerDiagram" width= 1000/>
+
+#### **2.5.3.3. Software Architecture Deployment Diagrams**
 ## **2.6. Tactical-Level Domain-Driven Design**
 ### **2.6.1. Bounded Context: Analíticas**
 <h3>2.6.1.1. Domain Layer</h3>
