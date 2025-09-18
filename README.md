@@ -1068,6 +1068,8 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 #### **2.6.1.3. Application Layer**
 #### **2.6.1.4. Infrastructure Layer**
 #### **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Analiticas.png" alt="Components_Analiticas" width= 1000/>
+
 #### **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
 ##### **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**
 <img src="img/DomainLayer_Analiticas.png" alt="Class_Analiticas" width= 1000/>
@@ -1081,6 +1083,8 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 #### **2.6.2.3. Application Layer**
 #### **2.6.2.4. Infrastructure Layer**
 #### **2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Candidatos.png" alt="Components_Candidatos" width= 1000/>
+
 #### **2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**
 ##### **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
 <img src="img/DomainLayer_Candidatos.png" alt="Class_Candidatos" width= 1000/>
@@ -1094,6 +1098,8 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 #### **2.6.3.3. Application Layer**
 #### **2.6.3.4. Infrastructure Layer**
 #### **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Publicaciones.png" alt="Components_Publicaciones" width= 1000/>
+
 #### **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
 ##### **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
 <img src="img/DomainLayer_Publicaciones.png" alt="Class_Publicaciones" width= 1000/>
@@ -1107,6 +1113,8 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 #### **2.6.4.3. Application Layer**
 #### **2.6.4.4. Infrastructure Layer**
 #### **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_AsistenciaIA.png" alt="Components_AsistenciaIA" width= 1000/>
+
 #### **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
 ##### **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
 <img src="img/DomainLayer_AsistenciaIA.png" alt="Class_AsistenciaIA" width= 1000/>
@@ -1120,6 +1128,8 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 #### **2.6.5.3. Application Layer**
 #### **2.6.5.4. Infrastructure Layer**
 #### **2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Perfil.png" alt="Components_Perfil" width= 1000/>
+
 #### **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
 ##### **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
 <img src="img/DomainLayer_Perfil.png" alt="Class_Perfil" width= 1000/>
