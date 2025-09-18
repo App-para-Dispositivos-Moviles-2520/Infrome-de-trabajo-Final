@@ -992,6 +992,46 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 
 ## **2.5. Strategic-Level Domain-Driven Design**
 ### **2.5.1. EventStorming**
+Event Storming constituye una técnica orientada a explorar y comprender el funcionamiento de un negocio. A través de ella se identifican los eventos más relevantes, los actores involucrados, así como la interacción con servicios externos y otros elementos del dominio. Para aplicar esta metodología en la presente sección, se realizaron entrevistas con los segmentos de usuarios objetivo, lo que permitió reconocer los eventos clave y construir un entendimiento compartido del sistema.
+
+Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta Miro:
+
+
+
+**paso 1: Collect Domain Events**
+
+En esta etapa se llevó a cabo una lluvia de ideas sobre los eventos relevantes dentro del dominio empresarial en análisis. Este proceso facilitó la identificación de los eventos más significativos y permitió comprender cómo se relacionan e interactúan entre sí.
+
+![Paso1-Domain - events](img/eventstorming1.png)
+
+
+**paso 2: Timelines**
+
+En esta etapa, los eventos previamente identificados se organizan en subgrupos, cada uno liderado por un evento principal que representa la funcionalidad central del conjunto. El agrupamiento parte del flujo que describe el escenario empresarial ideal (Happy Path), incluyendo también las variantes que contemplan rutas alternativas.
+
+![Paso2-Domain - events](img/eventstorming2.png)
+
+**paso 3: Pivotal Points** 
+
+En esta etapa, se identifican los momentos clave dentro del flujo del negocio que influyen de manera significativa en el funcionamiento del sistema y en la experiencia del usuario. Reconocer estos puntos permite establecer prioridades sobre qué aspectos requieren optimización o análisis detallado, dado que su impacto puede comprometer el éxito de los procesos empresariales más relevantes.
+
+![Paso3-Domain - events](img/eventstorming3.png)
+
+**paso 4: Commands**
+
+Los Commands representan intenciones explícitas del usuario o del sistema para ejecutar una acción que modifica el estado del dominio. No describen lo que ocurrió (como los eventos), sino lo que se desea que ocurra. Son instrucciones dirigidas a los agregados para que ejecuten una lógica de negocio específica.
+
+
+![Paso4-Domain - events](img/eventstorming4.png)
+
+**paso 5: Find aggregates & re-sort them**
+
+En esta fase se analizan los eventos agrupados previamente para identificar agregados, es decir, unidades lógicas que encapsulan consistencia y comportamiento dentro del dominio. Cada agregado representa un conjunto coherente de entidades y reglas de negocio que deben mantenerse consistentes.
+Una vez identificados, los agregados se reordenan para reflejar mejor las dependencias, prioridades y el flujo natural del negocio, facilitando así una arquitectura más clara, modular y alineada con los escenarios clave (tanto ideales como alternativos).
+
+
+![Paso4-Domain - events](img/eventstorming5.png)
+
 #### **2.5.1.1. Candidate Context Discovery**
 #### **2.5.1.2. Domain Message Flows Modeling**
 #### **2.5.1.3. Bounded Context Canvases**
