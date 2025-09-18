@@ -57,7 +57,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Ricardo Fernando Cardenas Minaya|Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivo, Style Guide, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Lean UX Process, Diagrama de clases, Diccionario de clases, Una entrevista del segmento 1 |
 |Peralta Chipa, Ronald Joel| Startup Profile, Descripción de la Startup, Perfiles de integrantes del equipo, Solution Profile, Antecedentes y problemática, Entrevista, Domain-Driven Software Architecture, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams, Software Object-Oriented Design|
 |Javier Oswaldo Tello Murga|Registro de 1 Entrevista, Análisis de Entrevista, Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions, Software Deployment Configuration, sprint Planning 2, Execution Evidence for Sprint Review|
-|Raul Roberto Sanchez Cruz| Registro de entrevista (segmento objetivo Postulantes), User Stories, Impact Mapping, Product Backlog, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review|
+|Raul Roberto Sanchez Cruz| Desarrollo los bounded contexts (Recruitment, Candidatos, Perfil, Analíticas y Asistencia IA) en sus cuatro capas: Domain Layer, Interface Layer, Application Layer e Infrastructure Layer.|
 |Yair Christofer Aru Acevedo| User storys, Desarrollo de entrevista y análisis general, Emphaty map, To be scenario mapa, User personas Code: Planes y servicios, Needfinding, Database diagram|
 
 
@@ -248,7 +248,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 - **TF:**   
 
 **Raul Roberto:**  
-- **TB1:** Colaboré con mis compañeros en la integración de herramientas modernas, garantizando un flujo de trabajo más ágil.
+- **TB1:** Colaboré activamente en la elaboración de la documento, manteniendo comunicación constante con mis compañeros para asegurar que mi trabajo estuviera alineado con los demás entregables del proyecto.  .
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
@@ -293,7 +293,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 - **TF:**   
 
 **Raul Roberto:**  
-- **TB1:** He comprobado que la necesidad de seguir aprendiendo nunca se detiene. Adoptar nuevas tecnologías y metodologías ayuda a que los proyectos sean más sólidos y actuales. 
+- **TB1:** Organicé y estructuré mi parte del trabajo de manera clara y ordenada, compartiendo avances con el equipo y adaptando mi desarrollo a los tiempos y lineamientos definidos, lo que contribuyó al cumplimiento de los objetivos colectivos. 
 - **TP1:** 
 - **TB2:**  
 - **TF:**  
@@ -348,7 +348,7 @@ Nuestra visión es ser la solución líder en Latinoamérica en automatización 
 | ![Foto de Ricardo](img/Ricardo.png) | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U202310004<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el 6to ciclo. Me considero una persona responsable y comprometida con el trabajo en equipo, aportando siempre al desarrollo de un buen ambiente laboral. Considero importante aprender de diferentes perspectivas. Además, me adapto con facilidad a distintos entornos de trabajo y busco siempre dar lo mejor de mí. Tengo conocimientos en distintas tecnologías como son: C++, C#, Java, SQL, etc. |
 | ![Foto de Javier](img/.png) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** u202218387<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
 | ![Foto de Yair](img/.png) | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202125984<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
-| ![Foto de Raul](img/.png) | **Nombres y apellidos:** Raul Roberto Sanchez Cruz<br>**Código:** U201518942<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
+| ![Foto de Raul](img/raul.png) | **Nombres y apellidos:** Raul Roberto Sanchez Cruz<br>**Código:** U201518942<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC). A lo largo de mi formación he desarrollado un gran interés por el desarrollo de software y la creación de aplicaciones innovadoras. Actualmente me desempeño en la implementación de data centers y en el diseño de soluciones en la nube, lo que me ha permitido fortalecer mis habilidades técnicas y aplicar mis conocimientos en entornos reales de alta demanda tecnológica. |
 
 ## **1.2. Solution Profile**
 En esta sección detallamos el funcionamiento y propuesta de valor de nuestro producto digital, resaltando tanto su factor innovador como su esquema de monetización.
