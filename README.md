@@ -1020,14 +1020,14 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 <img src="img/DatabaseDiagram_Analiticas.png" alt="Database_Analiticas" width= 1000/>
 
 ### **2.6.2. Bounded Context: Candidatos**
-<h2>2.6.4. Bounded Context: Analíticas</h2>
+
 
 <h3>2.6.2.1. Domain Layer</h3>
-<h4>Entity: AnalyticsReport</h4>
+<h4>Aggregate: Candidate</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
 <tbody>
-<tr><td>AnalyticsReport</td><td>Entity</td><td>Reporte de métricas y estadísticas</td></tr>
+<tr><td>Candidate</td><td>Entity (Aggregate Root)</td><td>Representa a un postulante.</td></tr>
 </tbody>
 </table>
 
@@ -1035,9 +1035,11 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 <table>
 <thead><tr><th>Nombre</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
 <tbody>
-<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador</td></tr>
-<tr><td>metrics</td><td>JSON</td><td>Private</td><td>Datos analíticos</td></tr>
-<tr><td>createdAt</td><td>Date</td><td>Private</td><td>Fecha de generación</td></tr>
+<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador único</td></tr>
+<tr><td>name</td><td>String</td><td>Private</td><td>Nombre del candidato</td></tr>
+<tr><td>email</td><td>String</td><td>Private</td><td>Correo electrónico</td></tr>
+<tr><td>status</td><td>Enum</td><td>Private</td><td>Estado en proceso (Pending, Accepted, Rejected)</td></tr>
+<tr><td>cvFile</td><td>String</td><td>Private</td><td>Referencia al CV</td></tr>
 </tbody>
 </table>
 
@@ -1045,28 +1047,33 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 <table>
 <thead><tr><th>Nombre</th><th>Tipo de retorno</th><th>Descripción</th></tr></thead>
 <tbody>
-<tr><td>generateReport()</td><td>Void</td><td>Genera reporte</td></tr>
-<tr><td>getMostViewedOffers()</td><td>List</td><td>Ofertas más vistas</td></tr>
+<tr><td>updateStatus(newStatus)</td><td>Void</td><td>Cambia estado</td></tr>
+<tr><td>attachCV(file)</td><td>Void</td><td>Adjunta CV</td></tr>
+<tr><td>isEligible()</td><td>Boolean</td><td>Verifica criterios</td></tr>
 </tbody>
 </table>
 
 <h3>2.6.2.2. Interface Layer</h3>
-<h4>Controller: AnalyticsController</h4>
+<h4>Controller: CandidateController</h4>
 <table>
 <thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
 <tbody>
-<tr><td>/api/analytics/offers</td><td>GET</td><td>Métricas de ofertas</td></tr>
-<tr><td>/api/analytics/users</td><td>GET</td><td>Métricas de usuarios</td></tr>
+<tr><td>/api/candidates</td><td>POST</td><td>Registrar candidato</td></tr>
+<tr><td>/api/candidates/{id}</td><td>GET</td><td>Ver detalles</td></tr>
+<tr><td>/api/candidates/{id}/status</td><td>PUT</td><td>Actualizar estado</td></tr>
+<tr><td>/api/candidates/{id}/cv</td><td>GET</td><td>Descargar CV</td></tr>
 </tbody>
 </table>
 
 <h3>2.6.2.3. Application Layer</h3>
-<h4>Service: AnalyticsService</h4>
+<h4>Service: CandidateService</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
 <tbody>
-<tr><td>generateOfferStats(GenerateOfferStatsQuery)</td><td>Genera estadísticas de ofertas</td></tr>
-<tr><td>generateUserStats(GenerateUserStatsQuery)</td><td>Genera estadísticas de usuarios</td></tr>
+<tr><td>registerCandidate(RegisterCandidateCommand)</td><td>Registrar nuevo candidato</td></tr>
+<tr><td>updateStatus(UpdateCandidateStatusCommand)</td><td>Cambiar estado</td></tr>
+<tr><td>downloadCV(CandidateIdQuery)</td><td>Descargar CV</td></tr>
+<tr><td>evaluateWithAI(EvaluateCandidateCommand)</td><td>Evaluar con IA</td></tr>
 </tbody>
 </table>
 
@@ -1074,7 +1081,9 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
 <tbody>
-<tr><td>SqfliteAnalyticsRepository</td><td>Repository Implementation</td><td>AnalyticsRepository</td><td>Persistencia de métricas</td></tr>
+<tr><td>SqfliteCandidateRepository</td><td>Repository Implementation</td><td>CandidateRepository</td><td>Persistencia de candidatos</td></tr>
+<tr><td>AIAnalyzerAdapter</td><td>Adapter</td><td>AI Service</td><td>Filtrado inteligente de CVs</td></tr>
+<tr><td>FirebaseNotificationAdapter</td><td>Adapter</td><td>Messaging Service</td><td>Notificación de resultados</td></tr>
 </tbody>
 </table>
 
