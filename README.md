@@ -1000,24 +1000,24 @@ Como parte del modelado del dominio de Jobsy, se identificaron cinco Bounded Con
 
 **Analisis de Contextos**
 - Perfil -> Candidatos / Publicaciones
-- Relación Customer / Supplier
-- Los perfiles proveen la información base (reclutador, empresa o postulante) que es consumida por los contextos de candidatos y publicaciones.
+  - Relación Customer / Supplier
+  - Los perfiles proveen la información base (reclutador, empresa o postulante) que es consumida por los contextos de candidatos y publicaciones.
 
 - Publicación -> Candidatos
-- Relación Customer / Supplier
-- Las vacantes generadas en Publicaciones son insumo directo para el contexto de Candidatos, que gestiona postulaciones.
+  - Relación Customer / Supplier
+  - Las vacantes generadas en Publicaciones son insumo directo para el contexto de Candidatos, que gestiona postulaciones.
   
 - Candidatos -> Asistencia IA
-- Relación de Anti-Corruption Layer
-- El módulo de IA interpreta y procesa datos de candidatos. La capa anticorrupción evitara acoplar demasiado la lógica de selección con los datos de IA.
+  - Relación de Anti-Corruption Layer
+  - El módulo de IA interpreta y procesa datos de candidatos. La capa anticorrupción evitara acoplar demasiado la lógica de selección con los datos de IA.
   
 - Asistencia IA -> Publicaciones
-- Relación de Conformist
-- La IA sugiere mejoras en redacción de vacantes y automatiza publicaciones.
+  - Relación de Conformist
+  - La IA sugiere mejoras en redacción de vacantes y automatiza publicaciones.
 
 - Analíticas -> Todos los Contextos
-- Relación de Open Host Service
-- Consume datos de todos los demás contextos para generar reportes y métricas.
+  - Relación de Open Host Service
+  - Consume datos de todos los demás contextos para generar reportes y métricas.
 
 **Escenarios Alternativos**
 - **Separar Analíticas en Analíticas Operativas y Estratégicas**
