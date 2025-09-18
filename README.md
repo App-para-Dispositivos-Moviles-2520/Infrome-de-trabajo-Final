@@ -1250,7 +1250,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ### **2.6.4. Bounded Context: Asistencia IA**
 
-### 2.6.5.1. Domain Layer  
+### 2.6.4.1. Domain Layer  
 **Entity: AIRequest**
 
 | Nombre   | Categoría | Descripción              |
@@ -1275,7 +1275,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ---
 
-### 2.6.5.2. Interface Layer  
+### 2.6.4.2. Interface Layer  
 **Controller: AIController**
 
 | Ruta                       | Método | Descripción                   |
@@ -1285,7 +1285,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ---
 
-### 2.6.5.3. Application Layer  
+### 2.6.4.3. Application Layer  
 **Service: AIService**
 
 | Nombre | Descripción |
@@ -1295,7 +1295,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ---
 
-### 2.6.5.4. Infrastructure Layer  
+### 2.6.4.4. Infrastructure Layer  
 
 | Nombre                   | Categoría               | Implementa            | Descripción |
 |---------------------------|-------------------------|-----------------------|-------------|
@@ -1317,10 +1317,57 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 <img src="img/DatabaseDiagram_AsistenciaIA.png" alt="Database_AsistenciaIA" width= 1000/>
 
 ### **2.6.5. Bounded Context: Perfil**
-#### **2.6.5.1. Domain Layer**
-#### **2.6.5.2. Interface Layer**
-#### **2.6.5.3. Application Layer**
-#### **2.6.5.4. Infrastructure Layer**
+### 2.6.5.1. Domain Layer  
+**Entity: UserProfile**
+
+| Nombre      | Categoría              | Descripción                   |
+|-------------|------------------------|-------------------------------|
+| UserProfile | Entity (Aggregate Root)| Representa el perfil del usuario |
+
+**Attributes**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción                  |
+|--------|--------------|-------------|------------------------------|
+| id     | UUID         | Private     | Identificador                |
+| name   | String       | Private     | Nombre completo              |
+| email  | String       | Private     | Correo electrónico           |
+| phone  | String       | Private     | Teléfono                     |
+| role   | Enum         | Private     | Rol (Recruiter, Candidate)   |
+
+**Methods**
+
+| Nombre              | Tipo de retorno | Descripción       |
+|---------------------|-----------------|-------------------|
+| updateContactInfo() | Void            | Actualiza datos   |
+| changeRole()        | Void            | Cambia rol        |
+
+---
+
+### 2.6.5.2. Interface Layer  
+**Controller: ProfileController**
+
+| Ruta              | Método | Descripción     |
+|-------------------|--------|-----------------|
+| /api/profile/{id} | GET    | Obtener perfil  |
+| /api/profile/{id} | PUT    | Editar perfil   |
+
+---
+
+### 2.6.5.3. Application Layer  
+**Service: ProfileService**
+
+| Nombre                             | Descripción       |
+|------------------------------------|-------------------|
+| updateProfile(UpdateProfileCommand)| Actualizar perfil |
+| getProfile(ProfileIdQuery)         | Obtener perfil    |
+
+---
+
+### 2.6.5.4. Infrastructure Layer  
+
+| Nombre                     | Categoría               | Implementa            | Descripción            |
+|-----------------------------|-------------------------|-----------------------|------------------------|
+| SqfliteUserProfileRepository | Repository Implementation | UserProfileRepository | Persistencia de perfiles |
 #### **2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**
 <img src="img/Components_Perfil.png" alt="Components_Perfil" width= 1000/>
 
