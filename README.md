@@ -988,14 +988,17 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 ### **2.5.3. Software Architecture**
 #### **2.5.3.1. Software Architecture Context Level Diagrams**
 El diagrama de contexto representa la visión general de SmartHire como sistema central dentro de su ecosistema. En este nivel se identifican los principales actores externos: reclutadores y candidatos, quienes interactúan con la plataforma para gestionar vacantes y postulaciones. Asimismo, SmartHire se integra con sistemas externos como LinkedIn, InfoJobs y CompuTrabajo para la publicación de ofertas laborales, y con un servicio de notificaciones para la comunicación vía correo electrónico. Este nivel proporciona una perspectiva de alto nivel que ayuda a entender cómo el sistema se relaciona con usuarios y servicios externos.
+
 <img src="img/software-architecture-context-level-diagrams.png" alt="softwarearchitecturecontextleveldiagrams" width= 1000/>
 
 #### **2.5.3.2. Software Architecture Container Level Diagrams**
 El diagrama a nivel de contenedores muestra los principales módulos de SmartHire y sus interacciones. Los usuarios (reclutadores y candidatos) acceden a la plataforma a través de la aplicación web desde el navegador o la aplicación móvil en Android/iOS, ambas conectadas al Backend API Service, donde se procesa la lógica de negocio. Este backend se despliega en un Azure App Service y se comunica con la Azure SQL Database para almacenar información de usuarios, vacantes, postulaciones, métricas y contratos. Asimismo, integra un módulo de IA/ML para el filtrado inteligente de CVs, un servicio de notificaciones para correos y alertas, y se conecta con APIs externas (LinkedIn, InfoJobs y CompuTrabajo) para la publicación automática de vacantes.
-<img src="img/software-architecture-container-level-diagrams.png" alt="softwarearchitecturecontainerleveldiagrams" width= 1000/>
+
+<img src="img/software-architecture-container-level-diagram.png" alt="softwarearchitecturecontainerleveldiagrams" width= 1000/>
 
 #### **2.5.3.3. Software Architecture Deployment Diagrams**
 El diagrama de despliegue muestra cómo el sistema SmartHire opera en producción: el reclutador accede desde su navegador web (Chrome, Firefox, Edge o Safari) y también puede usar la aplicación móvil (Android/iOS), ambas interfaces consumen los servicios REST de la API Backend desplegada en un Azure App Service. Esta API se conecta con la Azure SQL Database, donde se almacenan datos de usuarios, postulaciones, ofertas laborales y métricas de reclutamiento. Asimismo, la API integra servicios externos como LinkedIn, InfoJobs y CompuTrabajo para la publicación automática de vacantes, y se conecta con módulos de IA/ML para el filtrado inteligente de CVs, así como con un servicio de notificaciones para alertas y comunicaciones hacia los candidatos y reclutadores.
+
 <img src="img/software-architecture-deployment-diagrams.png" alt="softwarearchitecturedeploymentdiagrams" width= 1000/>
 
 ## **2.6. Tactical-Level Domain-Driven Design**
