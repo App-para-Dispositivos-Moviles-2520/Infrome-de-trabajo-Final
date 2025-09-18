@@ -22,7 +22,7 @@ Quevedo Velasco, David Gerardo
     <ul>
         <li>Peralta Chipa Ronald Joel - U202224619</li>
         <li>Ricardo Fernando Cardenas Minaya</li>
-        <li>Raul Roberto Sanchez Cruz</li>
+        <li>Raul Roberto Sanchez Cruz- U201518942</li>
         <li>Javier Oswaldo Tello Murga</li>
         <li>Yair Christofer Aru Acevedo</li>
     </ul>
