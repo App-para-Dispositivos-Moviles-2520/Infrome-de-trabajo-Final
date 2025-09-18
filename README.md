@@ -1020,10 +1020,66 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 <img src="img/DatabaseDiagram_Analiticas.png" alt="Database_Analiticas" width= 1000/>
 
 ### **2.6.2. Bounded Context: Candidatos**
-#### **2.6.2.1. Domain Layer**
-#### **2.6.2.2. Interface Layer**
-#### **2.6.2.3. Application Layer**
-#### **2.6.2.4. Infrastructure Layer**
+<h2>2.6.4. Bounded Context: Analíticas</h2>
+
+<h3>2.6.2.1. Domain Layer</h3>
+<h4>Entity: AnalyticsReport</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>AnalyticsReport</td><td>Entity</td><td>Reporte de métricas y estadísticas</td></tr>
+</tbody>
+</table>
+
+<h4>Attributes</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador</td></tr>
+<tr><td>metrics</td><td>JSON</td><td>Private</td><td>Datos analíticos</td></tr>
+<tr><td>createdAt</td><td>Date</td><td>Private</td><td>Fecha de generación</td></tr>
+</tbody>
+</table>
+
+<h4>Methods</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de retorno</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>generateReport()</td><td>Void</td><td>Genera reporte</td></tr>
+<tr><td>getMostViewedOffers()</td><td>List</td><td>Ofertas más vistas</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.2.2. Interface Layer</h3>
+<h4>Controller: AnalyticsController</h4>
+<table>
+<thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>/api/analytics/offers</td><td>GET</td><td>Métricas de ofertas</td></tr>
+<tr><td>/api/analytics/users</td><td>GET</td><td>Métricas de usuarios</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.2.3. Application Layer</h3>
+<h4>Service: AnalyticsService</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>generateOfferStats(GenerateOfferStatsQuery)</td><td>Genera estadísticas de ofertas</td></tr>
+<tr><td>generateUserStats(GenerateUserStatsQuery)</td><td>Genera estadísticas de usuarios</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.2.4. Infrastructure Layer</h3>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>SqfliteAnalyticsRepository</td><td>Repository Implementation</td><td>AnalyticsRepository</td><td>Persistencia de métricas</td></tr>
+</tbody>
+</table>
+
+<hr/>
+
 #### **2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**
 <img src="img/Components_Candidatos.png" alt="Components_Candidatos" width= 1000/>
 
