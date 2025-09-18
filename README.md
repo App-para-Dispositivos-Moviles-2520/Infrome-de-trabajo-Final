@@ -8,27 +8,27 @@
 
 ### Informe de Trabajo Final
 
-### Aplicaciones Web
+### Desarrollo de Aplicaciones Moviles
 
 **Sección:** 
-4364
+12612
 
 **Profesor:**  
 
-Sánchez Ponce, Alex Humberto
+Quevedo Velasco, David Gerardo
 
 **Integrantes:**
 <div style="text-align: left; display: inline-block;">
     <ul>
         <li>Peralta Chipa Ronald Joel - U202224619</li>
-        <li>Ricardo Fernando Cardenas Minaya</li>
-        <li>Raul Roberto Sanchez Cruz</li>
-        <li>Javier Oswaldo Tello Murga</li>
-        <li>Yair Christofer Aru Acevedo</li>
+        <li>Ricardo Fernando Cardenas Minaya - U202310004</li>
+        <li>Raul Roberto Sanchez Cruz - U201518942</li>
+        <li>Javier Oswaldo Tello Murga - u202218387</li>
+        <li>Yair Christofer Aru Acevedo - U202125984</li>
     </ul>
 </div>
 
-**2025 - 01**
+**2025 - 02**
 
 </div>
 
@@ -38,7 +38,7 @@ Sánchez Ponce, Alex Humberto
 
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
-| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
+| TB1     | 17/09/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
 
 - Commits Informe: 
 
@@ -46,7 +46,7 @@ Sánchez Ponce, Alex Humberto
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
-Enlace de la organización para el reporte del proyecto: https://github.com/orgs/Aplicaciones-WEB-Report/repositories
+Enlace de la organización para el reporte del proyecto: https://github.com/orgs/App-para-Dispositivos-Moviles-2520/repositories
 
 **TB1**
 
@@ -68,7 +68,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 - [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
   - [Ingeniería de Software](#ingeniería-de-software)
     - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [Aplicaciones Web](#aplicaciones-web)
+    - [Desarrollo de Aplicaciones Moviles](#desarrollo-de-aplicaciones-moviles)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
@@ -236,38 +236,38 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
 **Ricardo Fernando**  
-- **TB1:** Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos.  
+- **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP1:** 
 - **TB2:**   
 - **TF:**   
 
 **Ronald Joel:**  
-- **TB1:** Durante las reuniones del grupo, me enfoqué en expresar con claridad mis ideas y propuestas, adaptando mi comunicación según el contexto, lo cual facilitó el entendimiento entre todos los integrantes.  
+- **TB1:** Me involucré en la resolución de problemas técnicos, aplicando conceptos actualizados para optimizar los resultados.
 - **TP1:**   
 - **TB2:** 
 - **TF:**   
 
 **Raul Roberto:**  
-- **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
+- **TB1:** Colaboré con mis compañeros en la integración de herramientas modernas, garantizando un flujo de trabajo más ágil.
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
 
 **Javier Oswaldo:**  
-- **TB1:** Participé activamente en las discusiones del equipo, compartiendo ideas de manera clara y respetuosa para contribuir al desarrollo del proyecto.  
+- **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
 
 **Yair Christofer:**  
-- **TB1:** Considero que mi comunicación con el grupo fue constante, lo cual nos ayudó a poder repartirnos las tareas y realizar un buen trabajo.  
+- **TB1:** Contribuí al avance del proyecto aplicando metodologías actuales, lo que permitió alcanzar los objetivos propuestos con éxito.
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-- **TB1:** Cada integrante del equipo demostró una comunicación oral clara y adaptada al contexto, permitiendo que compañeros y docentes comprendieran las propuestas. Esta habilidad facilitó una distribución eficiente de tareas, resolución de dudas en tiempo real y una dinámica colaborativa efectiva.  
+- **TB1:** Cada miembro del equipo evidenció un compromiso constante con la actualización de sus conocimientos, aplicando lo aprendido directamente en el proyecto. Esta disposición al aprendizaje continuo fortaleció la calidad de las soluciones desarrolladas, favoreció el trabajo colaborativo y aseguró un avance ordenado hacia los objetivos planteados.
 
 - **TP1:**   
 
@@ -281,38 +281,38 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
 **Ricardo Fernando:**  
-- **TB1:** Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, gestioné documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo.  
+- **TB1:** Entendí que el aprendizaje permanente es clave en la ingeniería de software, porque las tecnologías cambian rápidamente. Por eso busco actualizarme para poder responder mejor a los retos del proyecto.
 - **TP1:**   
 - **TB2:** 
 - **TF:**  
 
 **Ronald Joel:**  
-- **TB1:** Contribuí en varios puntos del trabajo, asegurándome de que la información fuera precisa, coherente y fácilmente comprensible para compañeros y docentes.  
+- **TB1:** Para mí, la formación continua asegura un mejor desempeño profesional. Cada nuevo conocimiento adquirido me da más herramientas para aportar al desarrollo de soluciones efectivas.
 - **TP1:**   
 - **TB2:** 
 - **TF:**   
 
 **Raul Roberto:**  
-- **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
+- **TB1:** He comprobado que la necesidad de seguir aprendiendo nunca se detiene. Adoptar nuevas tecnologías y metodologías ayuda a que los proyectos sean más sólidos y actuales. 
 - **TP1:** 
 - **TB2:**  
 - **TF:**  
 
 **Javier Oswaldo Aru Acevedo:**  
-- **TB1:** Redacté contenido claro y organizado para apoyar el desarrollo del proyecto, siguiendo las indicaciones establecidas por el equipo.  
+- **TB1:** Reconozco que no basta con lo aprendido en clases. El aprendizaje constante me permite mantenerme competitivo y aplicar ideas innovadoras en los proyectos de software. 
 - **TP1:** 
 - **TB2:** 
 - **TF:**   
 
 **Yair Christofer:**  
-- **TB1:** Realicé todas las actividades que me tocaron, creo que debería mejorar con mi gestión de tiempo pero en general me fue bien.  
+- **TB1:** Considero que el aprendizaje permanente es una actitud profesional. Mantenerla me permite crecer, adaptarme y contribuir al éxito de los proyectos de ingeniería de software.
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-- **TB1:** La documentación escrita fue clara, precisa y adaptada a diversas audiencias, facilitando la validación docente y asegurando que el proyecto comunicara su propósito y funcionalidad de manera efectiva.  
+- **TB1:** El equipo demostró una disposición constante hacia el aprendizaje permanente, incorporando nuevos conocimientos al desarrollo del proyecto. Esta actitud favoreció la innovación en las soluciones propuestas, fortaleció las competencias profesionales y aseguró un trabajo alineado con las demandas actuales de la ingeniería de software.
 
 - **TP1:**   
 
