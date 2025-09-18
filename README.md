@@ -21,10 +21,10 @@ Sánchez Ponce, Alex Humberto
 <div style="text-align: left; display: inline-block;">
     <ul>
         <li>Peralta Chipa Ronald Joel - U202224619</li>
-        <li>Bustamante Leveau Cameron Charlotte - U20231A804</li>
-        <li>Lapa de la Cruz Gabriel Omar - U202216831</li>
-        <li>Urrutia Peña Jasmin Adriana - U202310008</li>
-        <li>Lopez de la Cruz Mauro Fabricio</li>
+        <li>Ricardo Fernando Cardenas Minaya</li>
+        <li>Raul Roberto Sanchez Cruz</li>
+        <li>Javier Oswaldo Tello Murga</li>
+        <li>Yair Christofer Aru Acevedo</li>
     </ul>
 </div>
 
@@ -38,10 +38,8 @@ Sánchez Ponce, Alex Humberto
 
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
-| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Capitulo 1, Capitulo 2, Capitulo 3, Capitulo 4, Capitulo 5 |
-| TP1     | 14/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 2, Aplicacion Web |
-| TB2    | 19/05/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 3, Validacion de Entrevistas y BackEnd |
-| TF    | 07/06/2025 | Ronald Joel Peralta Chipa - Bustamante Leveau Cameron Charlotte - Lapa de la Cruz Gabriel Omar - Urrutia Peña Jasmin Adriana - Lopez de la Cruz Mauro Fabricio   | Sprint 4, Finalizacion Backend y Frondend |
+| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
+
 - Commits Informe: 
 
 <img src="img/informecom.png" alt="app" width= 500/>
@@ -56,48 +54,11 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 |Integrante|Tareas Asignadas|
 |-|-|
-|Bustamante Leveau, Cameron Charllotte|Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions,Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivo, Style Guide, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Lean UX  Process, Diagrama de clases, Diccionario de clases, Una entrevista del segmento 1 |
+|Ricardo Fernando Cardenas Minaya|Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivo, Style Guide, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Lean UX Process, Diagrama de clases, Diccionario de clases, Una entrevista del segmento 1 |
 |Peralta Chipa, Ronald Joel| Startup Profile, Descripción de la Startup, Perfiles de integrantes del equipo, Solution Profile, Antecedentes y problemática, Entrevista, Domain-Driven Software Architecture, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams, Software Object-Oriented Design|
-|Urrutia Peña, Jasmin Adriana |Registro de 1 Entrevista, Análisis de Entrevista, Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions, Software Deployment Configuration, sprint Planning 2,Execution Evidence for Sprint Review|
-|Lapa de la Cruz, Gabriel Omar | Registro de entrevista (segmento objetivo Postulantes), User Stories, Impact Mapping, Product Backlog, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review|
-|Mauro Fabricio Lopez de la Cruz| User storys, Desarrollo de entrevista y análisis general, Emphaty map, To be scenario mapa, User personas Code: Planes y servicios, Needfinding, Database diagram|
-
-
-**TP**
-
-Para el desarrollo del informe correspondiente a la entrega TP, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
-
-|Integrante|Tareas Asignadas|
-|-|-|
-|Bustamante Leveau, Cameron Charllotte| Seccion Analiticas de la Aplicación Web y Correciones TB1 |
-|Peralta Chipa, Ronald Joel|Seccion Postulaciones y Bandeja de Entrada de la Aplicación Web y Correciones TB1|
-|Urrutia Peña, Jasmin Adriana |Seccion Perfil para Postulador y Reclutador de la Aplicaión Web y Correciones TB1|
-|Lapa de la Cruz, Gabriel Omar |Seccion Candidatos en la Aplicación Web y Correciones TB1|
-|Mauro Fabricio Lopez de la Cruz|Seccion Publicacion en la Aplicación Web y Correciones TB1|
-
-**TB2**
-
-Para el desarrollo del informe correspondiente a la entrega TB2, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
-
-|Integrante|Tareas Asignadas|
-|-|-|
-|Bustamante Leveau, Cameron Charllotte| Seccion Mensajes y Correciones TP |
-|Peralta Chipa, Ronald Joel|Seccion User y Correciones TP|
-|Urrutia Peña, Jasmin Adriana |Seccion Postulantes y Correciones TP|
-|Lapa de la Cruz, Gabriel Omar |Seccion Candidatos y Correciones TP|
-|Mauro Fabricio Lopez de la Cruz|Seccion Evaluaciones y Correciones TP|
-
-**TF**
-
-Para el desarrollo del informe correspondiente a la entrega TF, se estableció la implementación de correcciones de la siguiente manera para cada integrante del equipo:
-
-|Integrante|Tareas Asignadas|
-|-|-|
-|Bustamante Leveau, Cameron Charllotte| Correcion de Seccion mensajes en Backend, Sprint 4, Conexion de Frontend con Backend, Video About the Team y About the product|
-|Peralta Chipa, Ronald Joel|Correccion de Seccion Users en Backend,  Conexion de Frontend con Backend, Video About the Team y About the product|
-|Urrutia Peña, Jasmin Adriana |Actualizacion y Correccion de Frondend, Conexion de Frontend con Backend, Video About the Team y About the product |
-|Lapa de la Cruz, Gabriel Omar |Correccion de Seccion Job-oferts en Backend, Conexion de Frontend con Backend, Video About the Team y About the product |
-|Mauro Fabricio Lopez de la Cruz|Correccion de Seccion Aplicacion en Backend, Conexion de Frontend con Backend, Video About the Team y About the product |
+|Javier Oswaldo Tello Murga|Registro de 1 Entrevista, Análisis de Entrevista, Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Software Configuration Management, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions, Software Deployment Configuration, sprint Planning 2, Execution Evidence for Sprint Review|
+|Raul Roberto Sanchez Cruz| Registro de entrevista (segmento objetivo Postulantes), User Stories, Impact Mapping, Product Backlog, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review|
+|Yair Christofer Aru Acevedo| User storys, Desarrollo de entrevista y análisis general, Emphaty map, To be scenario mapa, User personas Code: Planes y servicios, Needfinding, Database diagram|
 
 
 # <font color="red">**Contenido**</font>
@@ -242,90 +203,90 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-**Cameron Charllotte:**  
+**Ricardo Fernando**  
 - **TB1:** Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos.  
-- **TP1:** Expliqué claramente las funcionalidades de la sección de analíticas de la aplicación web durante las reuniones, adaptando mi lenguaje para que tanto compañeros como docentes comprendieran los avances y correcciones realizados en TB1.  
-- **TB2:** Lideré la implementación de la sección de mensajes en el backend, coordinando con el equipo para garantizar la correcta integración con las correcciones de TP1, y aseguré una comunicación efectiva durante las revisiones para resolver problemas de manera oportuna.  
-- **TF:** Dirigí la finalización del backend, coordiné la conexión entre frontend y backend, lideré las correcciones generales y organicé la producción del video sobre el equipo y el producto, promoviendo un liderazgo compartido y una colaboración efectiva.  
+- **TP1:** 
+- **TB2:**   
+- **TF:**   
 
 **Ronald Joel:**  
 - **TB1:** Durante las reuniones del grupo, me enfoqué en expresar con claridad mis ideas y propuestas, adaptando mi comunicación según el contexto, lo cual facilitó el entendimiento entre todos los integrantes.  
-- **TP1:** Presenté las secciones de postulaciones y bandeja de entrada de la aplicación web, asegurándome de comunicar de forma efectiva los ajustes realizados en TB1 para alinear el equipo y recibir retroalimentación.  
-- **TB2:** Dirigí el desarrollo de la sección de usuarios en el backend, asegurando que las correcciones de TP1 se implementaran correctamente y comunicando con el equipo para mantener la consistencia en el proyecto.  
-- **TF:** Lideré la finalización del backend, coordiné el Sprint 4, gestioné las correcciones del informe y contribuí a la producción del video sobre el equipo, fomentando la colaboración y el liderazgo conjunto.  
+- **TP1:**   
+- **TB2:** 
+- **TF:**   
 
-**Gabriel Omar:**  
+**Raul Roberto:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
-- **TP1:** Comuniqué oralmente los avances en la sección de candidatos de la aplicación web, explicando las correcciones de TB1 de manera clara para garantizar la comprensión del equipo y los docentes.  
-- **TB2:** Implementé la sección de candidatos en el backend, incorporando las correcciones de TP1 y colaborando activamente con el equipo para garantizar la funcionalidad del sistema.  
-- **TF:** Colaboré en la finalización del backend, las correcciones generales y la producción del video sobre el equipo, aportando liderazgo en la coordinación de tareas y promoviendo un entorno colaborativo.  
+- **TP1:**   
+- **TB2:**   
+- **TF:**   
 
-**Fabricio López:**  
+**Javier Oswaldo:**  
 - **TB1:** Participé activamente en las discusiones del equipo, compartiendo ideas de manera clara y respetuosa para contribuir al desarrollo del proyecto.  
-- **TP1:** Expliqué las funcionalidades de la sección de publicación en la aplicación web, destacando las correcciones realizadas en TB1 y adaptando mi comunicación para facilitar la comprensión de los compañeros y docentes.  
-- **TB2:** Desarrollé la sección de evaluaciones en el backend, asegurándome de que las correcciones de TP1 fueran implementadas y coordinando con el equipo para validar los resultados.  
-- **TF:** Contribuí a la finalización del backend, las correcciones generales y la producción del video sobre el equipo, liderando tareas específicas y fomentando un entorno inclusivo.  
+- **TP1:**   
+- **TB2:**   
+- **TF:**   
 
-**Jasmin Adriana:**  
+**Yair Christofer:**  
 - **TB1:** Considero que mi comunicación con el grupo fue constante, lo cual nos ayudó a poder repartirnos las tareas y realizar un buen trabajo.  
-- **TP1:** Comuniqué de forma efectiva los detalles de la sección de perfil para postulador y reclutador de la aplicación web, asegurándome de explicar las correcciones de TB1 para mantener al equipo coordinado.  
-- **TB2:** Trabajé en la sección de postulantes en el backend, aplicando las correcciones de TP1 y manteniendo una comunicación constante con el equipo para asegurar la alineación del proyecto.  
-- **TF:** Lideré la actualización del frontend, coordiné la conexión entre frontend y backend, gestioné las correcciones del informe y contribuí a la producción de los videos sobre el equipo y el producto, promoviendo un liderazgo compartido y un entorno inclusivo.  
+- **TP1:**   
+- **TB2:**   
+- **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
 - **TB1:** Cada integrante del equipo demostró una comunicación oral clara y adaptada al contexto, permitiendo que compañeros y docentes comprendieran las propuestas. Esta habilidad facilitó una distribución eficiente de tareas, resolución de dudas en tiempo real y una dinámica colaborativa efectiva.  
 
-- **TP1:** Las presentaciones orales sobre las secciones (analíticas, postulaciones, bandeja de entrada, candidatos, publicación y perfiles) y las correcciones de TB1 reflejaron una comunicación efectiva y adaptable, alineando al equipo, validando avances con docentes y cumpliendo los objetivos establecidos.  
+- **TP1:**   
 
-- **TB2:** Durante el desarrollo del backend, cada miembro ejerció liderazgo en sus secciones (mensajes, usuarios, candidatos, evaluaciones, postulantes), coordinando las correcciones de TP1 con una comunicación clara y oportuna, lo que resolvió problemas técnicos y aseguró el cumplimiento de los objetivos.  
+- **TB2:**   
 
-- **TF:** Cameron, Ronald, Gabriel, Fabricio y Jasmin lideraron la finalización del proyecto (backend, frontend, conexiones, correcciones y videos), promoviendo un liderazgo compartido, un entorno colaborativo e inclusivo, y alcanzando los objetivos mediante una planificación y comunicación efectivas.  
+- **TF:**   
 </td>
 </tr>
 <tr>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-**Cameron Charllotte:**  
+**Ricardo Fernando:**  
 - **TB1:** Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, gestioné documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo.  
-- **TP1:** Elaboré la documentación de la sección de analíticas de la aplicación web, asegurándome de que fuera clara, precisa y comprensible para docentes y compañeros, incluyendo las correcciones realizadas en TB1.  
-- **TB2:** Documenté la sección de mensajes en el backend, incluyendo diagramas y descripciones técnicas claras, y organicé las tareas relacionadas con las correcciones de TP1 para facilitar la validación del equipo y docentes.  
-- **TF:** Redacté documentación detallada sobre la finalización del backend, la conexión frontend-backend, las correcciones generales y los guiones para los videos del equipo y el producto, asegurando claridad y promoviendo un entorno colaborativo.  
+- **TP1:**   
+- **TB2:** 
+- **TF:**  
 
 **Ronald Joel:**  
 - **TB1:** Contribuí en varios puntos del trabajo, asegurándome de que la información fuera precisa, coherente y fácilmente comprensible para compañeros y docentes.  
-- **TP1:** Redacté contenido claro y estructurado para las secciones de postulaciones y bandeja de entrada, incorporando las correcciones de TB1 para garantizar que la documentación fuera útil y accesible.  
-- **TB2:** Elaboré la documentación técnica de la sección de usuarios en el backend, detallando las correcciones de TP1 y asegurando que fuera comprensible para todas las audiencias involucradas.  
-- **TF:** Documenté los avances del backend, el Sprint 4, las correcciones del informe y el guion del video sobre el equipo, con un enfoque en claridad y organización para cumplir los objetivos del proyecto.  
+- **TP1:**   
+- **TB2:** 
+- **TF:**   
 
-**Gabriel Omar:**  
+**Raul Roberto:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
-- **TP1:** Documenté los avances y correcciones de la sección de candidatos en la aplicación web, utilizando un lenguaje claro y adaptado para facilitar la validación por parte de docentes y compañeros.  
-- **TB2:** Redacté la documentación de la sección de candidatos en el backend, incluyendo las correcciones de TP1, con un enfoque en la claridad y precisión para facilitar la revisión del equipo.  
-- **TF:** Documenté la finalización del backend, las correcciones generales y el guion del video sobre el equipo, asegurando un entorno inclusivo mediante una documentación clara y accesible.  
+- **TP1:** 
+- **TB2:**  
+- **TF:**  
 
-**Fabricio López:**  
+**Javier Oswaldo Aru Acevedo:**  
 - **TB1:** Redacté contenido claro y organizado para apoyar el desarrollo del proyecto, siguiendo las indicaciones establecidas por el equipo.  
-- **TP1:** Elaboré la documentación de la sección de publicación de la aplicación web, asegurándome de que las correcciones de TB1 fueran descritas de manera precisa y comprensible para todas las audiencias.  
-- **TB2:** Documenté la sección de evaluaciones en el backend, detallando las correcciones de TP1 y asegurando que la información fuera clara y útil para la validación del proyecto.  
-- **TF:** Redacté documentación sobre la finalización del backend, las correcciones generales y el guion del video sobre el equipo, contribuyendo a un entorno colaborativo con información clara y bien estructurada.  
+- **TP1:** 
+- **TB2:** 
+- **TF:**   
 
-**Jasmin Adriana:**  
+**Yair Christofer:**  
 - **TB1:** Realicé todas las actividades que me tocaron, creo que debería mejorar con mi gestión de tiempo pero en general me fue bien.  
-- **TP1:** Documenté la sección de perfil para postulador y reclutador de la aplicación web, incluyendo las correcciones de TB1, con un enfoque en claridad y precisión para facilitar su revisión por docentes y compañeros.  
-- **TB2:** Elaboré la documentación de la sección de postulantes en el backend, describiendo las correcciones de TP1 con claridad y coordinando con el equipo para garantizar su utilidad.  
-- **TF:** Documenté las actualizaciones del frontend, la conexión frontend-backend, las correcciones del informe y los guiones para los videos del equipo y el producto, asegurando claridad y promoviendo un entorno inclusivo.  
+- **TP1:**   
+- **TB2:**   
+- **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
 - **TB1:** La documentación escrita fue clara, precisa y adaptada a diversas audiencias, facilitando la validación docente y asegurando que el proyecto comunicara su propósito y funcionalidad de manera efectiva.  
 
-- **TP1:** Las secciones documentadas (analíticas, postulaciones, bandeja de entrada, candidatos, publicación y perfiles) con las correcciones de TB1 fueron claras, estructuradas y accesibles, permitiendo una revisión eficiente, mayor comprensión y entrega de un producto coherente.  
+- **TP1:**   
 
-- **TB2:** La documentación técnica del backend (mensajes, usuarios, candidatos, evaluaciones, postulantes) fue precisa y bien organizada, incorporando las correcciones de TP1 de manera clara, lo que aseguró una validación eficiente y un entorno colaborativo e inclusivo.  
+- **TB2:**   
 
-- **TF:** La documentación final de Cameron, Ronald, Gabriel, Fabricio y Jasmin (backend, frontend, conexiones, correcciones y videos) fue clara, bien estructurada y adaptada, promoviendo un entorno colaborativo e inclusivo, con una planificación efectiva que cumplió todos los objetivos establecidos.  
+- **TF:**   
 </td>
 </tr>
 </tbody>
@@ -352,9 +313,9 @@ Nuestra visión es ser la solución líder en Latinoamérica en automatización 
 | Foto | Información |
 |------|-------------|
 | ![Foto de Ronald](img/ronald.png) | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
-| ![Foto de Cameron](img/cameron.png) | **Nombres y apellidos:** Cameron Charllotte Bustamante Leveau<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
-| ![Foto de Jasmin](img/jasmin.png) | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
-| ![Foto de Fabricio](img/fabricio.png) | **Nombres y apellidos:** Lopez de la Cruz Mauro Fabricio <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Fabricio López, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
+| ![Foto de Cameron](img/cameron.png) | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
+| ![Foto de Jasmin](img/jasmin.png) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| ![Foto de Fabricio](img/fabricio.png) | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
 | ![Foto de Gabo](img/gabo.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
 
 ## **1.2. Solution Profile**
@@ -737,7 +698,7 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 |------------------------------------------------|
 | <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe59cynp1KiJhoFm5sGwwZwIYcC4ACUfR9Uc9UyZ9qOcSDSz0Z4W5eayObSHVWNRPw_Wr6syvsSq-MAWIBqoVxYtwho6zg8JbsBeB9UrKCaynWbpfWXY4pGZfCDQ_uJK_6J_v6r2Q?key=gvlLacgsz9NCnDkMVc0Umifa" alt="Entrevista1Seg1" width=75% /> |
 | Distrito: Surco / Edad: 24 |
-| **Entrevistador:** Cameron Bustamante Leveau |
+| **Entrevistador:** Ricardo Fernando Cardenas Minaya |
 | **Link:** https://drive.google.com/file/d/15o2w2b_xtysiImqKzx-gPD74JtwkbIJ4/view?usp=share_link |
 |-Resumen: Marllely trabaja en el área de Recursos Humanos y utiliza frecuentemente plataformas como LinkedIn y Computrabajo para publicar ofertas laborales y gestionar candidatos. Sin embargo, muchas de sus tareas aún son manuales y consumen tiempo. Ella considera que Jobsy es una herramienta muy útil, ya que automatiza procesos como la filtración de CVs, el seguimiento de postulaciones y la comunicación con los candidatos. Gracias a estas funcionalidades, ella menciona que podría enfocarse en lo realmente importante: encontrar el talento ideal para cada puesto.
 
@@ -757,7 +718,7 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 |------------------------------------------------|
 | <img src="img/Entrevista1Postulantes.png" alt="Entrevista1Seg1" width=75% /> |
 | Distrito: San Miguel / Edad: 18 |
-| **Entrevistador:** Jasmin Adriana Urrutia Peña |
+| **Entrevistador:** Javier Oswaldo Tello Murga |
 | **Link:** [https://youtu.be/dtYSbyE4bsM](https://youtu.be/dtYSbyE4bsM) |
 |-Resumen: Jean Fabio es una persona que siente que el proceso de buscar empleo es cansado y frustrante. Él nos comenta que le gusta que nuestra solución automatice tareas tediosas como el filtrado de currículums y la coordinación de entrevistas, lo que le permite concentrarse en evaluar mejor a los postulantes. También resalta que la integración con plataformas como LinkedIn e InfoJobs le parece súper útil, porque le ahorra tiempo al publicar vacantes y mejora la visibilidad de las ofertas. Para él, Jobsy no solo mejora la organización del proceso de selección, sino que además reduce el estrés del equipo y genera una mejor experiencia tanto para el reclutador como para el candidato. En resumen, ve en la app una solución práctica, eficiente y bien pensada para mejorar el proceso de búsqueda de empleo.|
 
@@ -765,7 +726,7 @@ Aprovechar la agilidad y el enfoque innovador de Jobsy para adaptarse rápidamen
 |------------------------------------------------|
 | <img src="img/entrevista-angela.png" alt="Entrevista2Seg2" width=75% /> |
 | Distrito: Villa el Salvador / Edad: 24 |
-| **Entrevistador:** Gabriel Omar Lapa de la Cruz |
+| **Entrevistador:** Raul Roberto Sanchez Cruz |
 | **Link:** [https://youtu.be/pNCRk7bci4Y](https://youtu.be/pNCRk7bci4Y) |
 |-Resumen: Ángela Ushiñahua es una joven marquetera digital que busca oportunidades laborales relacionadas con su carrera, especialmente en análisis de mercado y promoción de marcas. Usa principalmente Computrabajo y Facebook para buscar empleo, aunque comenta que muchas plataformas exigen experiencia laboral, lo cual le resulta frustrante como egresada. Le parece especialmente complicada la parte del CV, ya que muchas veces determina si una persona es considerada o no. Nunca ha usado plataformas que le recomienden trabajos ni que le ayuden a mejorar su currículum, pero le gustaría mucho recibir sugerencias para hacerlo más profesional. También señala que las entrevistas online pueden ser incómodas por problemas de conexión. Valora mucho que la comunicación postulación sea vía WhatsApp y considera esencial contar con un sistema de seguimiento dentro de la plataforma para evitar la incertidumbre de no saber si su postulación fue vista. En general, valora soluciones que le ahorren tiempo, le brinden orientación y le permitan tener mayor control sobre el proceso de postulación.|
 
