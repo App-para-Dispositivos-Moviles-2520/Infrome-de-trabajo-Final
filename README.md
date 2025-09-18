@@ -8,14 +8,14 @@
 
 ### Informe de Trabajo Final
 
-### Aplicaciones Web
+### Desarrollo de Aplicaciones Moviles
 
 **Sección:** 
-4364
+12612
 
 **Profesor:**  
 
-Sánchez Ponce, Alex Humberto
+Quevedo Velasco, David Gerardo
 
 **Integrantes:**
 <div style="text-align: left; display: inline-block;">
@@ -28,7 +28,7 @@ Sánchez Ponce, Alex Humberto
     </ul>
 </div>
 
-**2025 - 01**
+**2025 - 02**
 
 </div>
 
@@ -38,7 +38,7 @@ Sánchez Ponce, Alex Humberto
 
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
-| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
+| TB1     | 17/09/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
 
 - Commits Informe: 
 
@@ -46,7 +46,7 @@ Sánchez Ponce, Alex Humberto
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
-Enlace de la organización para el reporte del proyecto: https://github.com/orgs/Aplicaciones-WEB-Report/repositories
+Enlace de la organización para el reporte del proyecto: https://github.com/orgs/App-para-Dispositivos-Moviles-2520/repositories
 
 **TB1**
 
@@ -68,7 +68,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 - [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
   - [Ingeniería de Software](#ingeniería-de-software)
     - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [Aplicaciones Web](#aplicaciones-web)
+    - [Desarrollo de Aplicaciones Moviles](#desarrollo-de-aplicaciones-moviles)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
