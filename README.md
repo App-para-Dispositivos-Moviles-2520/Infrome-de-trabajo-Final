@@ -125,7 +125,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación](#segmento-1-equipos-de-recursos-humanos-encargados-del-proceso-de-contratación-1)
     - [Segmento 2: Postulantes o candidatos que aplican a las vacantes](#segmento-2-postulantes-o-candidatos-que-aplican-a-las-vacantes-1)
   - [**2.4.3. Product Backlog**](#243-product-backlog)
-    - [**2.5. Strategic-Level Domain-Driven Design**](#25-strategic-level-domain-driven-design)
+  - [**2.5. Strategic-Level Domain-Driven Design**](#25-strategic-level-domain-driven-design)
     - [**2.5.1. EventStorming**](#251-eventstorming)
       - [**2.5.1.1. Candidate Context Discovery**](#2511-candidate-context-discovery)
       - [**2.5.1.2. Domain Message Flows Modeling**](#2512-domain-message-flows-modeling)
@@ -136,26 +136,6 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**2.5.3.2. Software Architecture Container Level Diagrams**](#2532-software-architecture-container-level-diagrams)
       - [**2.5.3.3. Software Architecture Deployment Diagrams**](#2533-software-architecture-deployment-diagrams)
   - [**2.6. Tactical-Level Domain-Driven Design**](#26-tactical-level-domain-driven-design)
-    - [**2.6.x. Bounded Context: **](#26x-bounded-context-)
-    - [**2.6.x.1. Domain Layer**](#26x1-domain-layer)
-    - [**2.6.x.2. Interface Layer**](#26x2-interface-layer)
-    - [**2.6.x.3. Application Layer**](#26x3-application-layer)
-    - [**2.6.x.4. Infrastructure Layer**](#26x4-infrastructure-layer)
-    - [**2.6.x.5. Bounded Context Software Architecture Component Level Diagrams**](#26x5-bounded-context-software-architecture-component-level-diagrams)
-    - [**2.6.x.6. Bounded Context Software Architecture Code Level Diagrams**](#26x6-bounded-context-software-architecture-code-level-diagrams)
-      - [**2.6.x.6.1. Bounded Context Domain Layer Class Diagrams**](#26x61-bounded-context-domain-layer-class-diagrams)
-      - [**2.6.x.6.2. Bounded Context Database Design Diagram**](#26x62-bounded-context-database-design-diagram)
-  - [**2.5. Strategic-Level Domain-Driven Design**](#25-strategic-level-domain-driven-design-1)
-    - [**2.5.1. EventStorming**](#251-eventstorming-1)
-      - [**2.5.1.1. Candidate Context Discovery**](#2511-candidate-context-discovery-1)
-      - [**2.5.1.2. Domain Message Flows Modeling**](#2512-domain-message-flows-modeling-1)
-      - [**2.5.1.3. Bounded Context Canvases**](#2513-bounded-context-canvases-1)
-    - [**2.5.2. Context Mapping**](#252-context-mapping-1)
-    - [**2.5.3. Software Architecture**](#253-software-architecture-1)
-      - [**2.5.3.1. Software Architecture Context Level Diagrams**](#2531-software-architecture-context-level-diagrams-1)
-      - [**2.5.3.2. Software Architecture Container Level Diagrams**](#2532-software-architecture-container-level-diagrams-1)
-      - [**2.5.3.3. Software Architecture Deployment Diagrams**](#2533-software-architecture-deployment-diagrams-1)
-  - [**2.6. Tactical-Level Domain-Driven Design**](#26-tactical-level-domain-driven-design-1)
     - [**2.6.1. Bounded Context: Analíticas**](#261-bounded-context-analíticas)
       - [**2.6.1.1. Domain Layer**](#2611-domain-layer)
       - [**2.6.1.2. Interface Layer**](#2612-interface-layer)
@@ -1028,28 +1008,6 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 
 - Link del Product Backlog en Trello: [https://trello.com/b/9qdSu2o9/product-backlog-smarthire](https://trello.com/b/9qdSu2o9/product-backlog-smarthire)
 
-### **2.5. Strategic-Level Domain-Driven Design**
-### **2.5.1. EventStorming**
-#### **2.5.1.1. Candidate Context Discovery**
-#### **2.5.1.2. Domain Message Flows Modeling**
-#### **2.5.1.3. Bounded Context Canvases**
-### **2.5.2. Context Mapping**
-### **2.5.3. Software Architecture**
-#### **2.5.3.1. Software Architecture Context Level Diagrams**
-#### **2.5.3.2. Software Architecture Container Level Diagrams**
-#### **2.5.3.3. Software Architecture Deployment Diagrams**
-
-## **2.6. Tactical-Level Domain-Driven Design**
-### **2.6.x. Bounded Context: <Bounded Context Name>**
-### **2.6.x.1. Domain Layer**
-### **2.6.x.2. Interface Layer**
-### **2.6.x.3. Application Layer**
-### **2.6.x.4. Infrastructure Layer**
-### **2.6.x.5. Bounded Context Software Architecture Component Level Diagrams**
-### **2.6.x.6. Bounded Context Software Architecture Code Level Diagrams**
-#### **2.6.x.6.1. Bounded Context Domain Layer Class Diagrams**
-#### **2.6.x.6.2. Bounded Context Database Design Diagram**
-
 ## **2.5. Strategic-Level Domain-Driven Design**
 ### **2.5.1. EventStorming**
 #### **2.5.1.1. Candidate Context Discovery**
@@ -1071,10 +1029,13 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 <img src="img/Components_Analiticas.png" alt="Components_Analiticas" width= 1000/>
 
 #### **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Analíticas. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
 ##### **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Analíticas describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
 <img src="img/DomainLayer_Analiticas.png" alt="Class_Analiticas" width= 1000/>
 
 ##### **2.6.1.6.2. Bounded Context Domain Layer Class Diagrams**
+A continuación se expone el modelo relacional que respalda el bounded context Analíticas, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
 <img src="img/DatabaseDiagram_Analiticas.png" alt="Database_Analiticas" width= 1000/>
 
 ### **2.6.2. Bounded Context: Candidatos**
@@ -1086,10 +1047,13 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 <img src="img/Components_Candidatos.png" alt="Components_Candidatos" width= 1000/>
 
 #### **2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Candidatos. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
 ##### **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Candidatos describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
 <img src="img/DomainLayer_Candidatos.png" alt="Class_Candidatos" width= 1000/>
 
 ##### **2.6.2.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Candidatos, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
 <img src="img/DatabaseDiagram_Candidatos.png" alt="Database_Candidatos" width= 1000/>
 
 ### **2.6.3. Bounded Context: Publicaciones**
@@ -1101,10 +1065,13 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 <img src="img/Components_Publicaciones.png" alt="Components_Publicaciones" width= 1000/>
 
 #### **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Publicaciones. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
 ##### **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Publicaciones describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
 <img src="img/DomainLayer_Publicaciones.png" alt="Class_Publicaciones" width= 1000/>
 
 ##### **2.6.3.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Publicaciones, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
 <img src="img/DatabaseDiagram_Publicaciones.png" alt="Database_Publicaciones" width= 1000/>
 
 ### **2.6.4. Bounded Context: Asistencia IA**
@@ -1116,10 +1083,13 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 <img src="img/Components_AsistenciaIA.png" alt="Components_AsistenciaIA" width= 1000/>
 
 #### **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Asistencia IA. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
 ##### **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Asistencia IA describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
 <img src="img/DomainLayer_AsistenciaIA.png" alt="Class_AsistenciaIA" width= 1000/>
 
 ##### **2.6.4.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Asistencia IA, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
 <img src="img/DatabaseDiagram_AsistenciaIA.png" alt="Database_AsistenciaIA" width= 1000/>
 
 ### **2.6.5. Bounded Context: Perfil**
@@ -1131,10 +1101,13 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 <img src="img/Components_Perfil.png" alt="Components_Perfil" width= 1000/>
 
 #### **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Perfil. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
 ##### **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Perfil describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
 <img src="img/DomainLayer_Perfil.png" alt="Class_Perfil" width= 1000/>
 
 ##### **2.6.5.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Perfil, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
 <img src="img/DatabaseDiagram_Perfil.png" alt="Database_Perfil" width= 1000/>
 
 ## **Capítulo III: Solution UI/UX Design**
