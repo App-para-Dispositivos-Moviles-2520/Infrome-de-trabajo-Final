@@ -133,34 +133,46 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**2.5.3.3. Software Architecture Deployment Diagrams**](#2533-software-architecture-deployment-diagrams)
   - [**2.6. Tactical-Level Domain-Driven Design**](#26-tactical-level-domain-driven-design)
     - [**2.6.1. Bounded Context: Analíticas**](#261-bounded-context-analíticas)
+      - [**2.6.1.1. Domain Layer**](#2611-domain-layer)
+      - [**2.6.1.2. Interface Layer**](#2612-interface-layer)
+      - [**2.6.1.3. Application Layer**](#2613-application-layer)
+      - [**2.6.1.4. Infrastructure Layer**](#2614-infrastructure-layer)
       - [**2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
       - [**2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
         - [**2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
         - [**2.6.1.6.2. Bounded Context Domain Layer Class Diagrams**](#26162-bounded-context-domain-layer-class-diagrams)
     - [**2.6.2. Bounded Context: Candidatos**](#262-bounded-context-candidatos)
+      - [**2.6.2.1. Domain Layer**](#2621-domain-layer)
+      - [**2.6.2.2. Interface Layer**](#2622-interface-layer)
+      - [**2.6.2.3. Application Layer**](#2623-application-layer)
+      - [**2.6.2.4. Infrastructure Layer**](#2624-infrastructure-layer)
       - [**2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**](#2625-bounded-context-software-architecture-component-level-diagrams)
       - [**2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**](#2626-bounded-context-software-architecture-code-level-diagrams)
         - [**2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**](#26261-bounded-context-domain-layer-class-diagrams)
         - [**2.6.2.6.2. Bounded Context Database Design Diagram**](#26262-bounded-context-database-design-diagram)
     - [**2.6.3. Bounded Context: Publicaciones**](#263-bounded-context-publicaciones)
+      - [**2.6.3.1. Domain Layer**](#2631-domain-layer)
+      - [**2.6.3.2. Interface Layer**](#2632-interface-layer)
+      - [**2.6.3.3. Application Layer**](#2633-application-layer)
+      - [**2.6.3.4. Infrastructure Layer**](#2634-infrastructure-layer)
       - [**2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**](#2635-bounded-context-software-architecture-component-level-diagrams)
       - [**2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**](#2636-bounded-context-software-architecture-code-level-diagrams)
         - [**2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**](#26361-bounded-context-domain-layer-class-diagrams)
         - [**2.6.3.6.2. Bounded Context Database Design Diagram**](#26362-bounded-context-database-design-diagram)
     - [**2.6.4. Bounded Context: Asistencia IA**](#264-bounded-context-asistencia-ia)
-    - [2.6.4.1. Domain Layer](#2641-domain-layer)
-    - [2.6.4.2. Interface Layer](#2642-interface-layer)
-    - [2.6.4.3. Application Layer](#2643-application-layer)
-    - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
+      - [**2.6.4.1. Domain Layer**](#2641-domain-layer)
+      - [**2.6.4.2. Interface Layer**](#2642-interface-layer)
+      - [**2.6.4.3. Application Layer**](#2643-application-layer)
+      - [**2.6.4.4. Infrastructure Layer**](#2644-infrastructure-layer)
       - [**2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**](#2645-bounded-context-software-architecture-component-level-diagrams)
       - [**2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**](#2646-bounded-context-software-architecture-code-level-diagrams)
         - [**2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**](#26461-bounded-context-domain-layer-class-diagrams)
         - [**2.6.4.6.2. Bounded Context Database Design Diagram**](#26462-bounded-context-database-design-diagram)
     - [**2.6.5. Bounded Context: Perfil**](#265-bounded-context-perfil)
-    - [2.6.5.1. Domain Layer](#2651-domain-layer)
-    - [2.6.5.2. Interface Layer](#2652-interface-layer)
-    - [2.6.5.3. Application Layer](#2653-application-layer)
-    - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
+      - [**2.6.5.1. Domain Layer**](#2651-domain-layer)
+      - [**2.6.5.2. Interface Layer**](#2652-interface-layer)
+      - [**2.6.5.3. Application Layer**](#2653-application-layer)
+      - [**2.6.5.4. Infrastructure Layer**](#2654-infrastructure-layer)
       - [**2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**](#2655-bounded-context-software-architecture-component-level-diagrams)
       - [**2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**](#2656-bounded-context-software-architecture-code-level-diagrams)
         - [**2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**](#26561-bounded-context-domain-layer-class-diagrams)
@@ -984,6 +996,42 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 #### **2.5.1.2. Domain Message Flows Modeling**
 #### **2.5.1.3. Bounded Context Canvases**
 ### **2.5.2. Context Mapping**
+Como parte del modelado del dominio de Jobsy, se identificaron cinco Bounded Contexts principales: Perfil, Candidatos, Publicaciones, Analíticas y Asistencia IA. Con esta base se analizaron las interacciones y dependencias existentes, con el objetivo de comprender cómo se relacionan entre sí, qué información intercambian y qué nivel de acoplamiento mantienen. Este ejercicio permite delimitar de manera más clara los límites del sistema y establecer estrategias de integración que garanticen un funcionamiento coherente y escalable de la plataforma.
+
+**Analisis de Contextos**
+- Perfil -> Candidatos / Publicaciones
+- Relación Customer / Supplier
+- Los perfiles proveen la información base (reclutador, empresa o postulante) que es consumida por los contextos de candidatos y publicaciones.
+
+- Publicación -> Candidatos
+- Relación Customer / Supplier
+- Las vacantes generadas en Publicaciones son insumo directo para el contexto de Candidatos, que gestiona postulaciones.
+  
+- Candidatos -> Asistencia IA
+- Relación de Anti-Corruption Layer
+- El módulo de IA interpreta y procesa datos de candidatos. La capa anticorrupción evitara acoplar demasiado la lógica de selección con los datos de IA.
+  
+- Asistencia IA -> Publicaciones
+- Relación de Conformist
+- La IA sugiere mejoras en redacción de vacantes y automatiza publicaciones.
+
+- Analíticas -> Todos los Contextos
+- Relación de Open Host Service
+- Consume datos de todos los demás contextos para generar reportes y métricas.
+
+**Escenarios Alternativos**
+- **Separar Analíticas en Analíticas Operativas y Estratégicas**
+  - Ventaja: Independencia para escalar dashboards
+  - Desventaja: Más integraciones, mayor coordinación
+- **Externalizar Asistencia IA como microservicio independiente**
+  - Ventaja: Flexibilidad para evolucionar el motor de IA y conectarlo a otros productos futuros.
+  - Desventaja: Mayor complejidad técnica y riesgo de latencia.
+- **Unificar Perfil y Candidatos en un solo contexto**
+  - Ventaja: Simplificación del modelo de usuarios.
+  - Desventaja: Pérdida de claridad en la separación de roles (empresa y postulante).
+
+<img src="img/ContextMapping.png" alt="ContextMapping" width= 1000/>
+
 ### **2.5.3. Software Architecture**
 #### **2.5.3.1. Software Architecture Context Level Diagrams**
 <img src="img/ContextDiagram.png" alt="ContextDiagram" width= 1000/>
@@ -994,7 +1042,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 #### **2.5.3.3. Software Architecture Deployment Diagrams**
 ## **2.6. Tactical-Level Domain-Driven Design**
 ### **2.6.1. Bounded Context: Analíticas**
-<h3>2.6.1.1. Domain Layer</h3>
+#### **2.6.1.1. Domain Layer**
 <h4>Entity: AnalyticsReport</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
@@ -1022,7 +1070,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 </tbody>
 </table>
 
-<h3>2.6.1.2. Interface Layer</h3>
+#### **2.6.1.2. Interface Layer**
 <h4>Controller: AnalyticsController</h4>
 <table>
 <thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
@@ -1032,7 +1080,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 </tbody>
 </table>
 
-<h3>2.6.1.3. Application Layer</h3>
+#### **2.6.1.3. Application Layer**
 <h4>Service: AnalyticsService</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
@@ -1042,7 +1090,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 </tbody>
 </table>
 
-<h3>2.6.1.4. Infrastructure Layer</h3>
+#### **2.6.1.4. Infrastructure Layer**
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
 <tbody>
@@ -1068,7 +1116,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 ### **2.6.2. Bounded Context: Candidatos**
 
 
-<h3>2.6.2.1. Domain Layer</h3>
+#### **2.6.2.1. Domain Layer**
 <h4>Aggregate: Candidate</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
@@ -1099,7 +1147,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 </tbody>
 </table>
 
-<h3>2.6.2.2. Interface Layer</h3>
+#### **2.6.2.2. Interface Layer**
 <h4>Controller: CandidateController</h4>
 <table>
 <thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
@@ -1111,7 +1159,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 </tbody>
 </table>
 
-<h3>2.6.2.3. Application Layer</h3>
+#### **2.6.2.3. Application Layer**
 <h4>Service: CandidateService</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
@@ -1123,7 +1171,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 </tbody>
 </table>
 
-<h3>2.6.2.4. Infrastructure Layer</h3>
+#### **2.6.2.4. Infrastructure Layer**
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
 <tbody>
@@ -1149,7 +1197,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 <img src="img/DatabaseDiagram_Candidatos.png" alt="Database_Candidatos" width= 1000/>
 
 ### **2.6.3. Bounded Context: Publicaciones**
-<h3>2.6.3.1. Domain Layer</h3>
+#### **2.6.3.1. Domain Layer**
 <h4>Aggregate: JobOffer</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
@@ -1183,7 +1231,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 </tbody>
 </table>
 
-<h3>2.6.3.2. Interface Layer</h3>
+#### **2.6.3.2. Interface Layer**
 <h4>Controller: JobOfferController</h4>
 <table>
 <thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
@@ -1205,7 +1253,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 </tbody>
 </table>
 
-<h3>2.6.3.3. Application Layer</h3>
+#### **2.6.3.3. Application Layer**
 <h4>Service: JobOfferService</h4>
 <table>
 <thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
@@ -1217,7 +1265,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 </tbody>
 </table>
 
-<h3>2.6.3.4. Infrastructure Layer</h3>
+#### **2.6.3.4. Infrastructure Layer**
 <table>
 <thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
 <tbody>
@@ -1228,6 +1276,7 @@ A continuación se expone el modelo relacional que respalda el bounded context C
 </table>
 
 <hr/>
+
 #### **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
 <img src="img/Components_Publicaciones.png" alt="Components_Publicaciones" width= 1000/>
 
@@ -1243,7 +1292,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ### **2.6.4. Bounded Context: Asistencia IA**
 
-### 2.6.4.1. Domain Layer  
+#### **2.6.4.1. Domain Layer**  
 **Entity: AIRequest**
 
 | Nombre   | Categoría | Descripción              |
@@ -1268,7 +1317,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ---
 
-### 2.6.4.2. Interface Layer  
+#### **2.6.4.2. Interface Layer**  
 **Controller: AIController**
 
 | Ruta                       | Método | Descripción                   |
@@ -1278,7 +1327,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ---
 
-### 2.6.4.3. Application Layer  
+#### **2.6.4.3. Application Layer**  
 **Service: AIService**
 
 | Nombre | Descripción |
@@ -1288,7 +1337,7 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 
 ---
 
-### 2.6.4.4. Infrastructure Layer  
+#### **2.6.4.4. Infrastructure Layer**  
 
 | Nombre                   | Categoría               | Implementa            | Descripción |
 |---------------------------|-------------------------|-----------------------|-------------|
@@ -1310,7 +1359,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 <img src="img/DatabaseDiagram_AsistenciaIA.png" alt="Database_AsistenciaIA" width= 1000/>
 
 ### **2.6.5. Bounded Context: Perfil**
-### 2.6.5.1. Domain Layer  
+#### **2.6.5.1. Domain Layer**  
 **Entity: UserProfile**
 
 | Nombre      | Categoría              | Descripción                   |
@@ -1336,7 +1385,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 
 ---
 
-### 2.6.5.2. Interface Layer  
+#### **2.6.5.2. Interface Layer**  
 **Controller: ProfileController**
 
 | Ruta              | Método | Descripción     |
@@ -1346,7 +1395,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 
 ---
 
-### 2.6.5.3. Application Layer  
+#### **2.6.5.3. Application Layer**  
 **Service: ProfileService**
 
 | Nombre                             | Descripción       |
@@ -1356,7 +1405,7 @@ A continuación se expone el modelo relacional que respalda el bounded context A
 
 ---
 
-### 2.6.5.4. Infrastructure Layer  
+#### **2.6.5.4. Infrastructure Layer**  
 
 | Nombre                     | Categoría               | Implementa            | Descripción            |
 |-----------------------------|-------------------------|-----------------------|------------------------|
