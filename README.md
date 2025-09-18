@@ -1034,10 +1034,8 @@ Como parte del modelado del dominio de Jobsy, se identificaron cinco Bounded Con
 
 ### **2.5.3. Software Architecture**
 #### **2.5.3.1. Software Architecture Context Level Diagrams**
-<img src="img/ContextDiagram.png" alt="ContextDiagram" width= 1000/>
 
 #### **2.5.3.2. Software Architecture Container Level Diagrams**
-<img src="img/ContainerDiagram.png" alt="ContainerDiagram" width= 1000/>
 
 #### **2.5.3.3. Software Architecture Deployment Diagrams**
 ## **2.6. Tactical-Level Domain-Driven Design**
