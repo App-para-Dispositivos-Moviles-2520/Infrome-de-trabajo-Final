@@ -1002,10 +1002,63 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 
 ## **2.6. Tactical-Level Domain-Driven Design**
 ### **2.6.1. Bounded Context: Analíticas**
-#### **2.6.1.1. Domain Layer**
-#### **2.6.1.2. Interface Layer**
-#### **2.6.1.3. Application Layer**
-#### **2.6.1.4. Infrastructure Layer**
+<h3>2.6.1.1. Domain Layer</h3>
+<h4>Entity: AnalyticsReport</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>AnalyticsReport</td><td>Entity</td><td>Reporte de métricas y estadísticas</td></tr>
+</tbody>
+</table>
+
+<h4>Attributes</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador</td></tr>
+<tr><td>metrics</td><td>JSON</td><td>Private</td><td>Datos analíticos</td></tr>
+<tr><td>createdAt</td><td>Date</td><td>Private</td><td>Fecha de generación</td></tr>
+</tbody>
+</table>
+
+<h4>Methods</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de retorno</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>generateReport()</td><td>Void</td><td>Genera reporte</td></tr>
+<tr><td>getMostViewedOffers()</td><td>List</td><td>Ofertas más vistas</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.1.2. Interface Layer</h3>
+<h4>Controller: AnalyticsController</h4>
+<table>
+<thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>/api/analytics/offers</td><td>GET</td><td>Métricas de ofertas</td></tr>
+<tr><td>/api/analytics/users</td><td>GET</td><td>Métricas de usuarios</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.1.3. Application Layer</h3>
+<h4>Service: AnalyticsService</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>generateOfferStats(GenerateOfferStatsQuery)</td><td>Genera estadísticas de ofertas</td></tr>
+<tr><td>generateUserStats(GenerateUserStatsQuery)</td><td>Genera estadísticas de usuarios</td></tr>
+</tbody>
+</table>
+
+<h3>2.6.1.4. Infrastructure Layer</h3>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>SqfliteAnalyticsRepository</td><td>Repository Implementation</td><td>AnalyticsRepository</td><td>Persistencia de métricas</td></tr>
+</tbody>
+</table>
+
+<hr/>
 #### **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
 <img src="img/Components_Analiticas.png" alt="Components_Analiticas" width= 1000/>
 
