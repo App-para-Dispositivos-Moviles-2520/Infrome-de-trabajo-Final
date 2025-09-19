@@ -991,9 +991,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 ### **2.5.1. EventStorming**
 Event Storming constituye una técnica orientada a explorar y comprender el funcionamiento de un negocio. A través de ella se identifican los eventos más relevantes, los actores involucrados, así como la interacción con servicios externos y otros elementos del dominio. Para aplicar esta metodología en la presente sección, se realizaron entrevistas con los segmentos de usuarios objetivo, lo que permitió reconocer los eventos clave y construir un entendimiento compartido del sistema.
 
+#### **2.5.1.1. Candidate Context Discovery**
+
 Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta Miro:
-
-
 
 **Paso 1: Collect Domain Events**
 
@@ -1029,7 +1029,6 @@ Una vez identificados, los agregados se reordenan para reflejar mejor las depend
 
 ![Paso4-Domain - events](img/eventstorming5.png)
 
-#### **2.5.1.1. Candidate Context Discovery**
 #### **2.5.1.2. Domain Message Flows Modeling**
 #### **2.5.1.3. Bounded Context Canvases**
 Bounded Context: Perfil
