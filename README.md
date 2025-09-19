@@ -1032,6 +1032,9 @@ Una vez identificados, los agregados se reordenan para reflejar mejor las depend
 #### **2.5.1.1. Candidate Context Discovery**
 #### **2.5.1.2. Domain Message Flows Modeling**
 #### **2.5.1.3. Bounded Context Canvases**
+
+![Paso4-Domain - events](img/Bounded_Context_Canvases_Profile.PNG)
+
 ### **2.5.2. Context Mapping**
 Como parte del modelado del dominio de Jobsy, se identificaron cinco Bounded Contexts principales: Perfil, Candidatos, Publicaciones, Analíticas y Asistencia IA. Con esta base se analizaron las interacciones y dependencias existentes, con el objetivo de comprender cómo se relacionan entre sí, qué información intercambian y qué nivel de acoplamiento mantienen. Este ejercicio permite delimitar de manera más clara los límites del sistema y establecer estrategias de integración que garanticen un funcionamiento coherente y escalable de la plataforma.
 
