@@ -8,27 +8,27 @@
 
 ### Informe de Trabajo Final
 
-### Aplicaciones Web
+### Desarrollo de Aplicaciones Moviles
 
 **Sección:** 
-4364
+12612
 
 **Profesor:**  
 
-Sánchez Ponce, Alex Humberto
+Quevedo Velasco, David Gerardo
 
 **Integrantes:**
 <div style="text-align: left; display: inline-block;">
     <ul>
         <li>Peralta Chipa Ronald Joel - U202224619</li>
-        <li>Ricardo Fernando Cardenas Minaya</li>
-        <li>Raul Roberto Sanchez Cruz</li>
-        <li>Tello Murga Javier Oswaldo - U202218387</li>
-        <li>Yair Christofer Aru Acevedo</li>
+        <li>Ricardo Fernando Cardenas Minaya - U202310004</li>
+        <li>Raul Roberto Sanchez Cruz - U201518942</li>
+        <li>Javier Oswaldo Tello Murga - U202218387</li>
+        <li>Yair Christofer Aru Acevedo - U202125984</li>
     </ul>
 </div>
 
-**2025 - 01**
+**2025 - 02**
 
 </div>
 
@@ -38,7 +38,7 @@ Sánchez Ponce, Alex Humberto
 
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
-| TB1     | 26/01/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
+| TB1     | 17/09/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
 
 - Commits Informe: 
 
@@ -46,7 +46,7 @@ Sánchez Ponce, Alex Humberto
 
 # <font color="red">**Project Report Collaboration Insights**</font>
 
-Enlace de la organización para el reporte del proyecto: https://github.com/orgs/Aplicaciones-WEB-Report/repositories
+Enlace de la organización para el reporte del proyecto: https://github.com/orgs/App-para-Dispositivos-Moviles-2520/repositories
 
 **TB1**
 
@@ -65,52 +65,62 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 ### Tabla de contenidos
 
+- [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+  - [Ingeniería de Software](#ingeniería-de-software)
+    - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [Desarrollo de Aplicaciones Moviles](#desarrollo-de-aplicaciones-moviles)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
-  - [Tabla de contenidos](#tabla-de-contenidos)
+    - [Tabla de contenidos](#tabla-de-contenidos)
 - [**Student Outcome**](#student-outcome)
-
 - [ **Capítulo I: Introducción** ](#-capítulo-i-introducción-)
   - [**1.1. Startup Profile**](#11-startup-profile)
     - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
     - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
   - [**1.2. Solution Profile**](#12-solution-profile)
-    - [**1.2.1 Antecedentes y problemática**](#121-antecedentes-y-problemática)
-    - [What (¿Qué?)](#what-qué)
-    - [Who (¿Quién?)](#who-quién)
-    - [Where (¿Dónde?)](#where-dónde)
-    - [When (¿Cuándo?)](#when-cuándo)
-    - [Why (¿Por qué?)](#why-por-qué)
-    - [How (¿Cómo?)](#how-cómo)
-    - [How much (¿Cuánto?)](#how-much-cuánto)
-    - [**1.2.2 Lean UX Process**](#122-lean-ux-process)
-    - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
-    - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
-    - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
-    - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
+      - [Product Name.](#product-name)
+      - [Product Description.](#product-description)
+      - [Monetization.](#monetization)
+    - [**1.2.1. Antecedentes y problemática**](#121-antecedentes-y-problemática)
+    - [**What (¿Qué?)**](#what-qué)
+    - [**Who (¿Quién?)**](#who-quién)
+    - [**Where (¿Dónde?)**](#where-dónde)
+    - [**When (¿Cuándo?)**](#when-cuándo)
+    - [**Why (¿Por qué?)**](#why-por-qué)
+    - [**How (¿Cómo?)**](#how-cómo)
+    - [**How much (¿Cuánto?)**](#how-much-cuánto)
+    - [**1.2.2. Lean UX Process**](#122-lean-ux-process)
+      - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
+      - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
+      - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
+      - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
   - [**1.3. Segmentos objetivo**](#13-segmentos-objetivo)
-
-- [ **Capítulo II: Requirements Development and Software Solution Design**](#-capítulo-ii-requirements-development-and-software-solution-design)
+- [ **Capítulo II: Requirements Elicitation \& Analysis**](#-capítulo-ii-requirements-elicitation--analysis)
   - [**2.1. Competidores**](#21-competidores)
     - [**2.1.1. Análisis competitivo**](#211-análisis-competitivo)
     - [**2.1.2. Estrategias y tácticas frente a competidores**](#212-estrategias-y-tácticas-frente-a-competidores)
   - [**2.2. Entrevistas**](#22-entrevistas)
     - [**2.2.1. Diseño de entrevistas**](#221-diseño-de-entrevistas)
+      - [Entrevista General](#entrevista-general)
+      - [Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación (Empresas)](#segmento-1-equipos-de-recursos-humanos-encargados-del-proceso-de-contratación-empresas)
+      - [Segmento 2: Postulantes (Candidatos para el empleo)](#segmento-2-postulantes-candidatos-para-el-empleo)
     - [**2.2.2. Registro de entrevistas**](#222-registro-de-entrevistas)
     - [**2.2.3. Análisis de entrevistas**](#223-análisis-de-entrevistas)
   - [**2.3. Needfinding**](#23-needfinding)
     - [**2.3.1. User Personas**](#231-user-personas)
     - [**2.3.2. User Task Matrix**](#232-user-task-matrix)
+      - [🧑‍💼 User Task Matrix – Reclutador (Equipo de RRHH)](#-user-task-matrix--reclutador-equipo-de-rrhh)
+      - [🙋‍♂️ User Task Matrix – Candidato (Postulante)](#️-user-task-matrix--candidato-postulante)
     - [**2.3.3. User Journey Mapping**](#233-user-journey-mapping)
     - [**2.3.4. Empathy Mapping**](#234-empathy-mapping)
-    - [**2.3.5. As-is Scenario Mapping**](#235-As-is-Scenario-Mapping)
-    - [**2.3.6. To-be Scenario Mapping**](#236-To-be-Scenario-Mapping)
-    - [**2.3.7. Ubiquitous Language**](#237-ubiquitous-language)
+  - [**2.3.5. Ubiquitous Language**](#235-ubiquitous-language)
   - [**2.4. Requirements specification**](#24-requirements-specification)
     - [**2.4.1. User Stories**](#241-user-stories)
-    - [**2.4.2. Impact Mapping**](#242-impact-mapping)
-    - [**2.4.3. Product Backlog**](#243-product-backlog)
+  - [**2.4.2. Impact Mapping**](#242-impact-mapping)
+    - [Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación](#segmento-1-equipos-de-recursos-humanos-encargados-del-proceso-de-contratación)
+    - [Segmento 2: Postulantes o candidatos que aplican a las vacantes](#segmento-2-postulantes-o-candidatos-que-aplican-a-las-vacantes)
+  - [**2.4.3. Product Backlog**](#243-product-backlog)
   - [**2.5. Strategic-Level Domain-Driven Design**](#25-strategic-level-domain-driven-design)
     - [**2.5.1. EventStorming**](#251-eventstorming)
       - [**2.5.1.1. Candidate Context Discovery**](#2511-candidate-context-discovery)
@@ -122,17 +132,52 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**2.5.3.2. Software Architecture Container Level Diagrams**](#2532-software-architecture-container-level-diagrams)
       - [**2.5.3.3. Software Architecture Deployment Diagrams**](#2533-software-architecture-deployment-diagrams)
   - [**2.6. Tactical-Level Domain-Driven Design**](#26-tactical-level-domain-driven-design)
-    - [**2.6.x. Bounded Context: <Bounded Context Name>**](#26x-bounded-context-bounded-context-name)
-      - [**2.6.x.1. Domain Layer**](#26x1-domain-layer)
-      - [**2.6.x.2. Interface Layer**](#26x2-interface-layer)
-      - [**2.6.x.3. Application Layer**](#26x3-application-layer)
-      - [**2.6.x.4. Infrastructure Layer**](#26x4-infrastructure-layer)
-      - [**2.6.x.5. Bounded Context Software Architecture Component Level Diagrams**](#26x5-bounded-context-software-architecture-component-level-diagrams)
-      - [**2.6.x.6. Bounded Context Software Architecture Code Level Diagrams**](#26x6-bounded-context-software-architecture-code-level-diagrams)
-      - [**2.6.x.6.1. Bounded Context Domain Layer Class Diagrams**](#26x61-bounded-context-domain-layer-class-diagrams)
-      - [**2.6.x.6.2. Bounded Context Database Design Diagram**](#26x62-bounded-context-database-design-diagram)
-
-- [ **Capítulo III: Solution UI/UX Design**](#-capítulo-iii-solution-uiux-design)
+    - [**2.6.1. Bounded Context: Analíticas**](#261-bounded-context-analíticas)
+      - [**2.6.1.1. Domain Layer**](#2611-domain-layer)
+      - [**2.6.1.2. Interface Layer**](#2612-interface-layer)
+      - [**2.6.1.3. Application Layer**](#2613-application-layer)
+      - [**2.6.1.4. Infrastructure Layer**](#2614-infrastructure-layer)
+      - [**2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+      - [**2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+        - [**2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+        - [**2.6.1.6.2. Bounded Context Domain Layer Class Diagrams**](#26162-bounded-context-domain-layer-class-diagrams)
+    - [**2.6.2. Bounded Context: Candidatos**](#262-bounded-context-candidatos)
+      - [**2.6.2.1. Domain Layer**](#2621-domain-layer)
+      - [**2.6.2.2. Interface Layer**](#2622-interface-layer)
+      - [**2.6.2.3. Application Layer**](#2623-application-layer)
+      - [**2.6.2.4. Infrastructure Layer**](#2624-infrastructure-layer)
+      - [**2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**](#2625-bounded-context-software-architecture-component-level-diagrams)
+      - [**2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**](#2626-bounded-context-software-architecture-code-level-diagrams)
+        - [**2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**](#26261-bounded-context-domain-layer-class-diagrams)
+        - [**2.6.2.6.2. Bounded Context Database Design Diagram**](#26262-bounded-context-database-design-diagram)
+    - [**2.6.3. Bounded Context: Publicaciones**](#263-bounded-context-publicaciones)
+      - [**2.6.3.1. Domain Layer**](#2631-domain-layer)
+      - [**2.6.3.2. Interface Layer**](#2632-interface-layer)
+      - [**2.6.3.3. Application Layer**](#2633-application-layer)
+      - [**2.6.3.4. Infrastructure Layer**](#2634-infrastructure-layer)
+      - [**2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**](#2635-bounded-context-software-architecture-component-level-diagrams)
+      - [**2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**](#2636-bounded-context-software-architecture-code-level-diagrams)
+        - [**2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**](#26361-bounded-context-domain-layer-class-diagrams)
+        - [**2.6.3.6.2. Bounded Context Database Design Diagram**](#26362-bounded-context-database-design-diagram)
+    - [**2.6.4. Bounded Context: Asistencia IA**](#264-bounded-context-asistencia-ia)
+      - [**2.6.4.1. Domain Layer**](#2641-domain-layer)
+      - [**2.6.4.2. Interface Layer**](#2642-interface-layer)
+      - [**2.6.4.3. Application Layer**](#2643-application-layer)
+      - [**2.6.4.4. Infrastructure Layer**](#2644-infrastructure-layer)
+      - [**2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**](#2645-bounded-context-software-architecture-component-level-diagrams)
+      - [**2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**](#2646-bounded-context-software-architecture-code-level-diagrams)
+        - [**2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**](#26461-bounded-context-domain-layer-class-diagrams)
+        - [**2.6.4.6.2. Bounded Context Database Design Diagram**](#26462-bounded-context-database-design-diagram)
+    - [**2.6.5. Bounded Context: Perfil**](#265-bounded-context-perfil)
+      - [**2.6.5.1. Domain Layer**](#2651-domain-layer)
+      - [**2.6.5.2. Interface Layer**](#2652-interface-layer)
+      - [**2.6.5.3. Application Layer**](#2653-application-layer)
+      - [**2.6.5.4. Infrastructure Layer**](#2654-infrastructure-layer)
+      - [**2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**](#2655-bounded-context-software-architecture-component-level-diagrams)
+      - [**2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**](#2656-bounded-context-software-architecture-code-level-diagrams)
+        - [**2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**](#26561-bounded-context-domain-layer-class-diagrams)
+        - [**2.6.5.6.2. Bounded Context Database Design Diagram**](#26562-bounded-context-database-design-diagram)
+  - [**Capítulo III: Solution UI/UX Design**](#capítulo-iii-solution-uiux-design)
   - [**3.1. Product design**](#31-product-design)
     - [**3.1.1. Style Guidelines**](#311-style-guidelines)
       - [**3.1.1.1. General Style Guidelines**](#3111-general-style-guidelines)
@@ -151,15 +196,14 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**3.1.4.3. Mobile Applications Mock-ups**](#3143-mobile-applications-mock-ups)
       - [**3.1.4.4. Mobile Applications User Flow Diagrams**](#3144-mobile-applications-user-flow-diagrams)
       - [**3.1.4.5. Mobile Applications Prototyping**](#3145-mobile-applications-prototyping)
-
-- [ **Capítulo IV: Product Implementation & Validation**](#-capítulo-iv-product-implementation--validation)
-  - [**4. Product Implementation & Validation**](#4-product-implementation--validation)
+  - [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
+    - [**4. Product Implementation \& Validation**](#4-product-implementation--validation)
   - [**4.1. Software Configuration Management**](#41-software-configuration-management)
     - [**4.1.1. Software Development Environment Configuration**](#411-software-development-environment-configuration)
     - [**4.1.2. Source Code Management**](#412-source-code-management)
-    - [**4.1.3. Source Code Style Guide & Conventions**](#413-source-code-style-guide--conventions)
+    - [**4.1.3. Source Code Style Guide \& Conventions**](#413-source-code-style-guide--conventions)
     - [**4.1.4. Software Deployment Configuration**](#414-software-deployment-configuration)
-  - [**4.2. Landing Page & Mobile Application Implementation**](#42-landing-page--mobile-application-implementation)
+  - [**4.2. Landing Page \& Mobile Application Implementation**](#42-landing-page--mobile-application-implementation)
     - [**4.2.1. Sprint n**](#421-sprint-n)
       - [**4.2.1.1. Sprint Planning n**](#4211-sprint-planning-n)
       - [**4.2.1.2. Sprint Backlog n**](#4212-sprint-backlog-n)
@@ -173,6 +217,9 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**4.3.1. Diseño de Entrevistas**](#431-diseño-de-entrevistas)
     - [**4.3.2. Registro de Entrevistas**](#432-registro-de-entrevistas)
     - [**4.3.3. Evaluaciones según heurísticas**](#433-evaluaciones-según-heurísticas)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 
 
@@ -185,10 +232,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
    
 # <font color="red">**Student Outcome**</font>
 
-El curso contribuye al cumplimiento del Student Outcome ABET:  
-**ABET – EAC - Student Outcome 3**  
-**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
-En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el ABET – EAC - Student Outcome 3.
+ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
 <table style="border-collapse:collapse;border-spacing:0" class="tg">
 <thead>
@@ -200,17 +244,17 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 </thead>
 <tbody>
 <tr>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software</td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
 **Ricardo Fernando**  
-- **TB1:** Me comuniqué eficazmente con mi equipo utilizando un lenguaje respetuoso y claro, expresando mis ideas de manera asertiva y cumpliendo con los compromisos asumidos.  
+- **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP1:** 
 - **TB2:**   
 - **TF:**   
 
 **Ronald Joel:**  
-- **TB1:** Durante las reuniones del grupo, me enfoqué en expresar con claridad mis ideas y propuestas, adaptando mi comunicación según el contexto, lo cual facilitó el entendimiento entre todos los integrantes.  
+- **TB1:** Me involucré en la resolución de problemas técnicos, aplicando conceptos actualizados para optimizar los resultados.
 - **TP1:**   
 - **TB2:** 
 - **TF:**   
@@ -222,20 +266,20 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 - **TF:**   
 
 **Javier Oswaldo:**  
-- **TB1:** Participé activamente en las discusiones del equipo, compartiendo ideas de manera clara y respetuosa para contribuir al desarrollo del proyecto.  
+- **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
 
 **Yair Christofer:**  
-- **TB1:** Considero que mi comunicación con el grupo fue constante, lo cual nos ayudó a poder repartirnos las tareas y realizar un buen trabajo.  
+- **TB1:** Contribuí al avance del proyecto aplicando metodologías actuales, lo que permitió alcanzar los objetivos propuestos con éxito.
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-- **TB1:** Cada integrante del equipo demostró una comunicación oral clara y adaptada al contexto, permitiendo que compañeros y docentes comprendieran las propuestas. Esta habilidad facilitó una distribución eficiente de tareas, resolución de dudas en tiempo real y una dinámica colaborativa efectiva.  
+- **TB1:** Cada miembro del equipo evidenció un compromiso constante con la actualización de sus conocimientos, aplicando lo aprendido directamente en el proyecto. Esta disposición al aprendizaje continuo fortaleció la calidad de las soluciones desarrolladas, favoreció el trabajo colaborativo y aseguró un avance ordenado hacia los objetivos planteados.
 
 - **TP1:**   
 
@@ -245,42 +289,42 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 </td>
 </tr>
 <tr>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software</td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
 **Ricardo Fernando:**  
-- **TB1:** Redacté documentos siguiendo los formatos solicitados, cuidando la ortografía y la claridad en la información. Además, gestioné documentación que facilitó la organización del trabajo y la comprensión de los procesos por parte del equipo.  
+- **TB1:** Entendí que el aprendizaje permanente es clave en la ingeniería de software, porque las tecnologías cambian rápidamente. Por eso busco actualizarme para poder responder mejor a los retos del proyecto.
 - **TP1:**   
 - **TB2:** 
 - **TF:**  
 
 **Ronald Joel:**  
-- **TB1:** Contribuí en varios puntos del trabajo, asegurándome de que la información fuera precisa, coherente y fácilmente comprensible para compañeros y docentes.  
+- **TB1:** Para mí, la formación continua asegura un mejor desempeño profesional. Cada nuevo conocimiento adquirido me da más herramientas para aportar al desarrollo de soluciones efectivas.
 - **TP1:**   
 - **TB2:** 
 - **TF:**   
 
 **Raul Roberto:**  
-- **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
+- **TB1:** Organicé y estructuré mi parte del trabajo de manera clara y ordenada, compartiendo avances con el equipo y adaptando mi desarrollo a los tiempos y lineamientos definidos, lo que contribuyó al cumplimiento de los objetivos colectivos. 
 - **TP1:** 
 - **TB2:**  
 - **TF:**  
 
 **Javier Oswaldo Aru Acevedo:**  
-- **TB1:** Redacté contenido claro y organizado para apoyar el desarrollo del proyecto, siguiendo las indicaciones establecidas por el equipo.  
+- **TB1:** Reconozco que no basta con lo aprendido en clases. El aprendizaje constante me permite mantenerme competitivo y aplicar ideas innovadoras en los proyectos de software. 
 - **TP1:** 
 - **TB2:** 
 - **TF:**   
 
 **Yair Christofer:**  
-- **TB1:** Realicé todas las actividades que me tocaron, creo que debería mejorar con mi gestión de tiempo pero en general me fue bien.  
+- **TB1:** Considero que el aprendizaje permanente es una actitud profesional. Mantenerla me permite crecer, adaptarme y contribuir al éxito de los proyectos de ingeniería de software.
 - **TP1:**   
 - **TB2:**   
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
 
-- **TB1:** La documentación escrita fue clara, precisa y adaptada a diversas audiencias, facilitando la validación docente y asegurando que el proyecto comunicara su propósito y funcionalidad de manera efectiva.  
+- **TB1:** El equipo demostró una disposición constante hacia el aprendizaje permanente, incorporando nuevos conocimientos al desarrollo del proyecto. Esta actitud favoreció la innovación en las soluciones propuestas, fortaleció las competencias profesionales y aseguró un trabajo alineado con las demandas actuales de la ingeniería de software.
 
 - **TP1:**   
 
@@ -313,10 +357,10 @@ Nuestra visión es ser la solución líder en Latinoamérica en automatización 
 | Foto | Información |
 |------|-------------|
 | ![Foto de Ronald](img/ronald.png) | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
-| ![Foto de Cameron](img/cameron.png) | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
-| ![Foto de Javier](img/informe-javier-tello.jpg) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** U202218387<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
-| ![Foto de Fabricio](img/fabricio.png) | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
-| ![Foto de Gabo](img/gabo.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
+| ![Foto de Ricardo](img/Ricardo.png) | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
+| ![Foto de Javier](img/) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| ![Foto de Yair](img) | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
+| ![Foto de Raul](img/raul.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
 
 ## **1.2. Solution Profile**
 En esta sección detallamos el funcionamiento y propuesta de valor de nuestro producto digital, resaltando tanto su factor innovador como su esquema de monetización.
@@ -427,6 +471,7 @@ Cuando los equipos de Recursos Humanos utilicen Jobsy, experimentarán una mejor
 
 #### **1.2.2.4. Lean UX Canvas**
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeChJjk9rz2GE1ZGx9Ik6Tb2uyG76_3iCMBSgNx_56x-wLz8njRZFbxBwEusDlFwnuKPwRoafOCOr-3Gel2mIydUgrVS_oD7YuV2xB7ZQwZMzZ-YPhR7Z-8BW5X_t1aKGwy3WIMGw?key=gvlLacgsz9NCnDkMVc0Umifa" />
+
 ## **1.3. Segmentos objetivo**
 <b>Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación</b>
 <ul>
@@ -819,23 +864,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   <img src="img/RRHH-empatymap.png" alt="Mapping-3" />
 - **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
   <img src="img/PostulantesEmpatyMap.png" alt="Mapping-4" />
-### **2.3.5. As-is Scenario Mapping**
-El escenario “As-Is” muestra cómo viven actualmente los usuarios el proceso de reclutamiento, antes de implementar la solución digital Jobsy. Refleja los principales problemas, emociones y pensamientos que surgen en cada etapa del proceso.
-- **Segmento 1:** Equipos de Recursos Humanos encargados del proceso de contratación
-  <img src="img/RRHH-AS-IS.png" alt="Mapping-5" />
-- **Segmento 2:** Postulantes o candidatos que aplican a las vacantes
-  <img src="img/Postulantes-AS-IS.png" alt="Mapping-6" />
 
-## **2.3.6. To-Be Scenario Mapping**
-El escenario "To-Be" describe cómo se desarrollarán las experiencias de los usuarios una vez implementada la solución digital **SmartHire**, optimizando los procesos de reclutamiento actuales.
-
-### Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación
-<img src="img/Captura de pantalla 2025-04-17 201630.png" alt="Logo UPC" />
-
-### Segmento 2: Postulantes o candidatos que aplican a las vacantes
-<img src="img/Captura de pantalla 2025-04-17 201634.png" alt="Logo UPC" />
-
-## **2.3.7. Ubiquitous Language**
+## **2.3.5. Ubiquitous Language**
 | Término       | Definición                                                                                                                                     |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Vacante       | Oferta laboral publicada por una empresa con los detalles del puesto a cubrir.                                                                |
@@ -957,34 +987,93 @@ El escenario "To-Be" describe cómo se desarrollarán las experiencias de los us
 
 - Link del Product Backlog en Trello: [https://trello.com/b/9qdSu2o9/product-backlog-smarthire](https://trello.com/b/9qdSu2o9/product-backlog-smarthire)
 
-### **2.5. Strategic-Level Domain-Driven Design**
-### **2.5.1. EventStorming**
-#### **2.5.1.1. Candidate Context Discovery**
-#### **2.5.1.2. Domain Message Flows Modeling**
-#### **2.5.1.3. Bounded Context Canvases**
-### **2.5.2. Context Mapping**
-### **2.5.3. Software Architecture**
-#### **2.5.3.1. Software Architecture Context Level Diagrams**
-#### **2.5.3.2. Software Architecture Container Level Diagrams**
-#### **2.5.3.3. Software Architecture Deployment Diagrams**
-
-## **2.6. Tactical-Level Domain-Driven Design**
-### **2.6.x. Bounded Context: <Bounded Context Name>**
-### **2.6.x.1. Domain Layer**
-### **2.6.x.2. Interface Layer**
-### **2.6.x.3. Application Layer**
-### **2.6.x.4. Infrastructure Layer**
-### **2.6.x.5. Bounded Context Software Architecture Component Level Diagrams**
-### **2.6.x.6. Bounded Context Software Architecture Code Level Diagrams**
-#### **2.6.x.6.1. Bounded Context Domain Layer Class Diagrams**
-#### **2.6.x.6.2. Bounded Context Database Design Diagram**
-
 ## **2.5. Strategic-Level Domain-Driven Design**
 ### **2.5.1. EventStorming**
+Event Storming constituye una técnica orientada a explorar y comprender el funcionamiento de un negocio. A través de ella se identifican los eventos más relevantes, los actores involucrados, así como la interacción con servicios externos y otros elementos del dominio. Para aplicar esta metodología en la presente sección, se realizaron entrevistas con los segmentos de usuarios objetivo, lo que permitió reconocer los eventos clave y construir un entendimiento compartido del sistema.
+
 #### **2.5.1.1. Candidate Context Discovery**
+
+Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta Miro:
+
+**Paso 1: Collect Domain Events**
+
+En esta etapa se llevó a cabo una lluvia de ideas sobre los eventos relevantes dentro del dominio empresarial en análisis. Este proceso facilitó la identificación de los eventos más significativos y permitió comprender cómo se relacionan e interactúan entre sí.
+
+![Paso1-Domain - events](img/eventstorming1.png)
+
+
+**Paso 2: Timelines**
+
+En esta etapa, los eventos previamente identificados se organizan en subgrupos, cada uno liderado por un evento principal que representa la funcionalidad central del conjunto. El agrupamiento parte del flujo que describe el escenario empresarial ideal (Happy Path), incluyendo también las variantes que contemplan rutas alternativas.
+
+![Paso2-Domain - events](img/eventstorming2.png)
+
+*Paso 3: Pivotal Points** 
+
+En esta etapa, se identifican los momentos clave dentro del flujo del negocio que influyen de manera significativa en el funcionamiento del sistema y en la experiencia del usuario. Reconocer estos puntos permite establecer prioridades sobre qué aspectos requieren optimización o análisis detallado, dado que su impacto puede comprometer el éxito de los procesos empresariales más relevantes.
+
+![Paso3-Domain - events](img/eventstorming3.png)
+
+**Paso 4: Commands**
+
+Los Commands representan intenciones explícitas del usuario o del sistema para ejecutar una acción que modifica el estado del dominio. No describen lo que ocurrió (como los eventos), sino lo que se desea que ocurra. Son instrucciones dirigidas a los agregados para que ejecuten una lógica de negocio específica.
+
+
+![Paso4-Domain - events](img/eventstorming4.png)
+
+**Paso 5: Find aggregates & re-sort them**
+
+En esta fase se analizan los eventos agrupados previamente para identificar agregados, es decir, unidades lógicas que encapsulan consistencia y comportamiento dentro del dominio. Cada agregado representa un conjunto coherente de entidades y reglas de negocio que deben mantenerse consistentes.
+Una vez identificados, los agregados se reordenan para reflejar mejor las dependencias, prioridades y el flujo natural del negocio, facilitando así una arquitectura más clara, modular y alineada con los escenarios clave (tanto ideales como alternativos).
+
+
+![Paso4-Domain - events](img/eventstorming5.png)
+
 #### **2.5.1.2. Domain Message Flows Modeling**
 #### **2.5.1.3. Bounded Context Canvases**
+Bounded Context: Perfil
+![Bounded Context Perfil](img/BoundedContextIACanvas.jpg)
+
+Bounded Context: Asistencia IA
+![Bounded Context Asistencia IA](img/Bounded_Context_Canvases_Profile.PNG)
+
 ### **2.5.2. Context Mapping**
+Como parte del modelado del dominio de Jobsy, se identificaron cinco Bounded Contexts principales: Perfil, Candidatos, Publicaciones, Analíticas y Asistencia IA. Con esta base se analizaron las interacciones y dependencias existentes, con el objetivo de comprender cómo se relacionan entre sí, qué información intercambian y qué nivel de acoplamiento mantienen. Este ejercicio permite delimitar de manera más clara los límites del sistema y establecer estrategias de integración que garanticen un funcionamiento coherente y escalable de la plataforma.
+
+**Analisis de Contextos**
+- Perfil -> Candidatos / Publicaciones
+  - Relación Customer / Supplier
+  - Los perfiles proveen la información base (reclutador, empresa o postulante) que es consumida por los contextos de candidatos y publicaciones.
+
+- Publicación -> Candidatos
+  - Relación Customer / Supplier
+  - Las vacantes generadas en Publicaciones son insumo directo para el contexto de Candidatos, que gestiona postulaciones.
+  
+- Candidatos -> Asistencia IA
+  - Relación de Anti-Corruption Layer
+  - El módulo de IA interpreta y procesa datos de candidatos. La capa anticorrupción evitara acoplar demasiado la lógica de selección con los datos de IA.
+  
+- Asistencia IA -> Publicaciones
+  - Relación de Conformist
+  - La IA sugiere mejoras en redacción de vacantes y automatiza publicaciones.
+
+- Analíticas -> Todos los Contextos
+  - Relación de Open Host Service
+  - Consume datos de todos los demás contextos para generar reportes y métricas.
+
+**Escenarios Alternativos**
+- **Separar Analíticas en Analíticas Operativas y Estratégicas**
+  - Ventaja: Independencia para escalar dashboards
+  - Desventaja: Más integraciones, mayor coordinación
+- **Externalizar Asistencia IA como microservicio independiente**
+  - Ventaja: Flexibilidad para evolucionar el motor de IA y conectarlo a otros productos futuros.
+  - Desventaja: Mayor complejidad técnica y riesgo de latencia.
+- **Unificar Perfil y Candidatos en un solo contexto**
+  - Ventaja: Simplificación del modelo de usuarios.
+  - Desventaja: Pérdida de claridad en la separación de roles (empresa y postulante).
+
+<img src="img/ContextMapping.png" alt="ContextMapping" width= 1000/>
+
 ### **2.5.3. Software Architecture**
 #### **2.5.3.1. Software Architecture Context Level Diagrams**
 El diagrama de contexto representa la visión general de SmartHire como sistema central dentro de su ecosistema. En este nivel se identifican los principales actores externos: reclutadores y candidatos, quienes interactúan con la plataforma para gestionar vacantes y postulaciones. Asimismo, SmartHire se integra con sistemas externos como LinkedIn, InfoJobs y CompuTrabajo para la publicación de ofertas laborales, y con un servicio de notificaciones para la comunicación vía correo electrónico. Este nivel proporciona una perspectiva de alto nivel que ayuda a entender cómo el sistema se relaciona con usuarios y servicios externos.
@@ -1002,15 +1091,387 @@ El diagrama de despliegue muestra cómo el sistema SmartHire opera en producció
 <img src="img/software-architecture-deployment-diagrams.png" alt="softwarearchitecturedeploymentdiagrams" width= 1000/>
 
 ## **2.6. Tactical-Level Domain-Driven Design**
-### **2.6.x. Bounded Context: <Bounded Context Name>**
-#### **2.6.x.1. Domain Layer**
-#### **2.6.x.2. Interface Layer**
-#### **2.6.x.3. Application Layer**
-#### **2.6.x.4. Infrastructure Layer**
-#### **2.6.x.5. Bounded Context Software Architecture Component Level Diagrams**
-#### **2.6.x.6. Bounded Context Software Architecture Code Level Diagrams**
-##### **2.6.x.6.1. Bounded Context Domain Layer Class Diagrams**
-##### **2.6.x.6.2. Bounded Context Database Design Diagram**
+### **2.6.1. Bounded Context: Analíticas**
+#### **2.6.1.1. Domain Layer**
+<h4>Entity: AnalyticsReport</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>AnalyticsReport</td><td>Entity</td><td>Reporte de métricas y estadísticas</td></tr>
+</tbody>
+</table>
+
+<h4>Attributes</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador</td></tr>
+<tr><td>metrics</td><td>JSON</td><td>Private</td><td>Datos analíticos</td></tr>
+<tr><td>createdAt</td><td>Date</td><td>Private</td><td>Fecha de generación</td></tr>
+</tbody>
+</table>
+
+<h4>Methods</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de retorno</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>generateReport()</td><td>Void</td><td>Genera reporte</td></tr>
+<tr><td>getMostViewedOffers()</td><td>List</td><td>Ofertas más vistas</td></tr>
+</tbody>
+</table>
+
+#### **2.6.1.2. Interface Layer**
+<h4>Controller: AnalyticsController</h4>
+<table>
+<thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>/api/analytics/offers</td><td>GET</td><td>Métricas de ofertas</td></tr>
+<tr><td>/api/analytics/users</td><td>GET</td><td>Métricas de usuarios</td></tr>
+</tbody>
+</table>
+
+#### **2.6.1.3. Application Layer**
+<h4>Service: AnalyticsService</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>generateOfferStats(GenerateOfferStatsQuery)</td><td>Genera estadísticas de ofertas</td></tr>
+<tr><td>generateUserStats(GenerateUserStatsQuery)</td><td>Genera estadísticas de usuarios</td></tr>
+</tbody>
+</table>
+
+#### **2.6.1.4. Infrastructure Layer**
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>SqfliteAnalyticsRepository</td><td>Repository Implementation</td><td>AnalyticsRepository</td><td>Persistencia de métricas</td></tr>
+</tbody>
+</table>
+
+<hr/>
+
+#### **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Analiticas.png" alt="Components_Analiticas" width= 1000/>
+
+#### **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Analíticas. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
+##### **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Analíticas describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
+<img src="img/DomainLayer_Analiticas.png" alt="Class_Analiticas" width= 1000/>
+
+##### **2.6.1.6.2. Bounded Context Domain Layer Class Diagrams**
+A continuación se expone el modelo relacional que respalda el bounded context Analíticas, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
+<img src="img/DatabaseDiagram_Analiticas.png" alt="Database_Analiticas" width= 1000/>
+
+### **2.6.2. Bounded Context: Candidatos**
+
+
+#### **2.6.2.1. Domain Layer**
+<h4>Aggregate: Candidate</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>Candidate</td><td>Entity (Aggregate Root)</td><td>Representa a un postulante.</td></tr>
+</tbody>
+</table>
+
+<h4>Attributes</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador único</td></tr>
+<tr><td>name</td><td>String</td><td>Private</td><td>Nombre del candidato</td></tr>
+<tr><td>email</td><td>String</td><td>Private</td><td>Correo electrónico</td></tr>
+<tr><td>status</td><td>Enum</td><td>Private</td><td>Estado en proceso (Pending, Accepted, Rejected)</td></tr>
+<tr><td>cvFile</td><td>String</td><td>Private</td><td>Referencia al CV</td></tr>
+</tbody>
+</table>
+
+<h4>Methods</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de retorno</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>updateStatus(newStatus)</td><td>Void</td><td>Cambia estado</td></tr>
+<tr><td>attachCV(file)</td><td>Void</td><td>Adjunta CV</td></tr>
+<tr><td>isEligible()</td><td>Boolean</td><td>Verifica criterios</td></tr>
+</tbody>
+</table>
+
+#### **2.6.2.2. Interface Layer**
+<h4>Controller: CandidateController</h4>
+<table>
+<thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>/api/candidates</td><td>POST</td><td>Registrar candidato</td></tr>
+<tr><td>/api/candidates/{id}</td><td>GET</td><td>Ver detalles</td></tr>
+<tr><td>/api/candidates/{id}/status</td><td>PUT</td><td>Actualizar estado</td></tr>
+<tr><td>/api/candidates/{id}/cv</td><td>GET</td><td>Descargar CV</td></tr>
+</tbody>
+</table>
+
+#### **2.6.2.3. Application Layer**
+<h4>Service: CandidateService</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>registerCandidate(RegisterCandidateCommand)</td><td>Registrar nuevo candidato</td></tr>
+<tr><td>updateStatus(UpdateCandidateStatusCommand)</td><td>Cambiar estado</td></tr>
+<tr><td>downloadCV(CandidateIdQuery)</td><td>Descargar CV</td></tr>
+<tr><td>evaluateWithAI(EvaluateCandidateCommand)</td><td>Evaluar con IA</td></tr>
+</tbody>
+</table>
+
+#### **2.6.2.4. Infrastructure Layer**
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>SqfliteCandidateRepository</td><td>Repository Implementation</td><td>CandidateRepository</td><td>Persistencia de candidatos</td></tr>
+<tr><td>AIAnalyzerAdapter</td><td>Adapter</td><td>AI Service</td><td>Filtrado inteligente de CVs</td></tr>
+<tr><td>FirebaseNotificationAdapter</td><td>Adapter</td><td>Messaging Service</td><td>Notificación de resultados</td></tr>
+</tbody>
+</table>
+
+<hr/>
+
+#### **2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Candidatos.png" alt="Components_Candidatos" width= 1000/>
+
+#### **2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Candidatos. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
+##### **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Candidatos describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
+<img src="img/DomainLayer_Candidatos.png" alt="Class_Candidatos" width= 1000/>
+
+##### **2.6.2.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Candidatos, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
+<img src="img/DatabaseDiagram_Candidatos.png" alt="Database_Candidatos" width= 1000/>
+
+### **2.6.3. Bounded Context: Publicaciones**
+#### **2.6.3.1. Domain Layer**
+<h4>Aggregate: JobOffer</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>JobOffer</td><td>Entity (Aggregate Root)</td><td>Representa una oferta laboral publicada por un reclutador.</td></tr>
+</tbody>
+</table>
+
+<h4>Attributes</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>id</td><td>UUID</td><td>Private</td><td>Identificador único de la oferta.</td></tr>
+<tr><td>title</td><td>String</td><td>Private</td><td>Título de la oferta laboral.</td></tr>
+<tr><td>description</td><td>String</td><td>Private</td><td>Descripción general.</td></tr>
+<tr><td>requirements</td><td>String</td><td>Private</td><td>Requisitos solicitados.</td></tr>
+<tr><td>status</td><td>Enum</td><td>Private</td><td>Estado de la oferta (Draft, Published, Closed).</td></tr>
+<tr><td>publishDate</td><td>Date</td><td>Private</td><td>Fecha de publicación.</td></tr>
+<tr><td>closeDate</td><td>Date</td><td>Private</td><td>Fecha de cierre.</td></tr>
+</tbody>
+</table>
+
+<h4>Methods</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>publish()</td><td>Void</td><td>Public</td><td>Publica la oferta.</td></tr>
+<tr><td>close()</td><td>Void</td><td>Public</td><td>Cierra la oferta.</td></tr>
+<tr><td>editOffer(data)</td><td>Void</td><td>Public</td><td>Edita la oferta.</td></tr>
+<tr><td>isActive()</td><td>Boolean</td><td>Public</td><td>Verifica si sigue activa.</td></tr>
+</tbody>
+</table>
+
+#### **2.6.3.2. Interface Layer**
+<h4>Controller: JobOfferController</h4>
+<table>
+<thead><tr><th>Ruta</th><th>Método</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>/api/job-offers</td><td>POST</td><td>Crear oferta</td></tr>
+<tr><td>/api/job-offers/{id}</td><td>PUT</td><td>Editar oferta</td></tr>
+<tr><td>/api/job-offers/{id}</td><td>DELETE</td><td>Eliminar oferta</td></tr>
+<tr><td>/api/job-offers</td><td>GET</td><td>Listar/filtrar ofertas</td></tr>
+</tbody>
+</table>
+
+<h4>DTOs</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>JobOfferCreateDto</td><td>Datos para crear oferta</td></tr>
+<tr><td>JobOfferUpdateDto</td><td>Datos para editar oferta</td></tr>
+<tr><td>JobOfferResponseDto</td><td>Representación de respuesta</td></tr>
+</tbody>
+</table>
+
+#### **2.6.3.3. Application Layer**
+<h4>Service: JobOfferService</h4>
+<table>
+<thead><tr><th>Nombre</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>createOffer(CreateOfferCommand)</td><td>Crear una oferta</td></tr>
+<tr><td>updateOffer(UpdateOfferCommand)</td><td>Actualizar oferta</td></tr>
+<tr><td>deleteOffer(DeleteOfferCommand)</td><td>Eliminar oferta</td></tr>
+<tr><td>filterOffers(FilterOffersQuery)</td><td>Filtrar ofertas</td></tr>
+</tbody>
+</table>
+
+#### **2.6.3.4. Infrastructure Layer**
+<table>
+<thead><tr><th>Nombre</th><th>Categoría</th><th>Implementa</th><th>Descripción</th></tr></thead>
+<tbody>
+<tr><td>SqfliteJobOfferRepository</td><td>Repository Implementation</td><td>JobOfferRepository</td><td>Persistencia en SQLite</td></tr>
+<tr><td>ExternalJobPublisherAdapter</td><td>Adapter</td><td>API externa</td><td>Publicación en LinkedIn, InfoJobs, CompuTrabajo</td></tr>
+<tr><td>FirebaseNotificationAdapter</td><td>Adapter</td><td>Messaging Service</td><td>Notificaciones push</td></tr>
+</tbody>
+</table>
+
+<hr/>
+
+#### **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Publicaciones.png" alt="Components_Publicaciones" width= 1000/>
+
+#### **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Publicaciones. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
+##### **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Publicaciones describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
+<img src="img/DomainLayer_Publicaciones.png" alt="Class_Publicaciones" width= 1000/>
+
+##### **2.6.3.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Publicaciones, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
+<img src="img/DatabaseDiagram_Publicaciones.png" alt="Database_Publicaciones" width= 1000/>
+
+### **2.6.4. Bounded Context: Asistencia IA**
+
+#### **2.6.4.1. Domain Layer**  
+**Entity: AIRequest**
+
+| Nombre   | Categoría | Descripción              |
+|----------|-----------|--------------------------|
+| AIRequest | Entity   | Solicitud de asistencia IA |
+
+**Attributes**
+
+| Nombre  | Tipo de dato | Visibilidad | Descripción |
+|---------|--------------|-------------|-------------|
+| id      | UUID         | Private     | Identificador |
+| type    | Enum         | Private     | Tipo (JobOfferDraft, CandidateEvaluation) |
+| prompt  | String       | Private     | Entrada de texto |
+| result  | String       | Private     | Resultado |
+
+**Methods**
+
+| Nombre             | Tipo de retorno | Descripción         |
+|--------------------|-----------------|---------------------|
+| generateJobOffer() | String          | Genera oferta       |
+| evaluateCandidate()| String          | Evalúa candidato    |
+
+---
+
+#### **2.6.4.2. Interface Layer**  
+**Controller: AIController**
+
+| Ruta                       | Método | Descripción                   |
+|-----------------------------|--------|-------------------------------|
+| /api/ai/generate-job-offer  | POST   | Generar propuesta de oferta   |
+| /api/ai/evaluate-candidate  | POST   | Evaluar candidato con IA      |
+
+---
+
+#### **2.6.4.3. Application Layer**  
+**Service: AIService**
+
+| Nombre | Descripción |
+|--------|-------------|
+| generateJobOffer(GenerateJobOfferCommand) | Genera una propuesta de oferta laboral a partir de un prompt y parámetros de la vacante. |
+| evaluateCandidate(EvaluateCandidateCommand) | Evalúa un candidato (CV/perfil) usando reglas y el modelo de IA; devuelve observaciones y score. |
+
+---
+
+#### **2.6.4.4. Infrastructure Layer**  
+
+| Nombre                   | Categoría               | Implementa            | Descripción |
+|---------------------------|-------------------------|-----------------------|-------------|
+| RemoteAIRequestRepository | Repository Implementation | AIRequestRepository | Registra solicitudes y respuestas de IA para trazabilidad (almacenamiento local con SQLite/SQFLite). |
+| AIExternalAdapter         | Adapter                 | External AI API       | Conecta con el proveedor de IA (p. ej., GPT); maneja autenticación, timeouts y reintentos. |
+
+
+#### **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_AsistenciaIA.png" alt="Components_AsistenciaIA" width= 1000/>
+
+#### **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Asistencia IA. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
+##### **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Asistencia IA describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
+<img src="img/DomainLayer_AsistenciaIA.png" alt="Class_AsistenciaIA" width= 1000/>
+
+##### **2.6.4.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Asistencia IA, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
+<img src="img/DatabaseDiagram_AsistenciaIA.png" alt="Database_AsistenciaIA" width= 1000/>
+
+### **2.6.5. Bounded Context: Perfil**
+#### **2.6.5.1. Domain Layer**  
+**Entity: UserProfile**
+
+| Nombre      | Categoría              | Descripción                   |
+|-------------|------------------------|-------------------------------|
+| UserProfile | Entity (Aggregate Root)| Representa el perfil del usuario |
+
+**Attributes**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción                  |
+|--------|--------------|-------------|------------------------------|
+| id     | UUID         | Private     | Identificador                |
+| name   | String       | Private     | Nombre completo              |
+| email  | String       | Private     | Correo electrónico           |
+| phone  | String       | Private     | Teléfono                     |
+| role   | Enum         | Private     | Rol (Recruiter, Candidate)   |
+
+**Methods**
+
+| Nombre              | Tipo de retorno | Descripción       |
+|---------------------|-----------------|-------------------|
+| updateContactInfo() | Void            | Actualiza datos   |
+| changeRole()        | Void            | Cambia rol        |
+
+---
+
+#### **2.6.5.2. Interface Layer**  
+**Controller: ProfileController**
+
+| Ruta              | Método | Descripción     |
+|-------------------|--------|-----------------|
+| /api/profile/{id} | GET    | Obtener perfil  |
+| /api/profile/{id} | PUT    | Editar perfil   |
+
+---
+
+#### **2.6.5.3. Application Layer**  
+**Service: ProfileService**
+
+| Nombre                             | Descripción       |
+|------------------------------------|-------------------|
+| updateProfile(UpdateProfileCommand)| Actualizar perfil |
+| getProfile(ProfileIdQuery)         | Obtener perfil    |
+
+---
+
+#### **2.6.5.4. Infrastructure Layer**  
+
+| Nombre                     | Categoría               | Implementa            | Descripción            |
+|-----------------------------|-------------------------|-----------------------|------------------------|
+| SqfliteUserProfileRepository | Repository Implementation | UserProfileRepository | Persistencia de perfiles |
+#### **2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**
+<img src="img/Components_Perfil.png" alt="Components_Perfil" width= 1000/>
+
+#### **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
+Aquí se presenta el diagrama correspondiente, estructurado en el bounded context de Perfil. El modelo integra tablas que representan entidades persistentes, las cuales a su vez pueden mapearse a clases de dominio en una arquitectura orientada a objetos.
+##### **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
+El diagrama de clases del bounded context Perfil describe cada clase a partir de sus atributos, así como los métodos asociados. Asimismo, se especifican los niveles de visibilidad de estos elementos (público, privado o protegido) para mantener la encapsulación y la consistencia de las reglas de negocio.
+<img src="img/DomainLayer_Perfil.png" alt="Class_Perfil" width= 1000/>
+
+##### **2.6.5.6.2. Bounded Context Database Design Diagram**
+A continuación se expone el modelo relacional que respalda el bounded context Perfil, el cual se encuentra conformado por las tablas que representan a las entidades del dominio. Cada tabla se detalla con sus columnas, tipos de datos, llaves primarias (PK) y llaves foráneas (FK).
+<img src="img/DatabaseDiagram_Perfil.png" alt="Database_Perfil" width= 1000/>
 
 ## **Capítulo III: Solution UI/UX Design**
 
