@@ -21,10 +21,10 @@ Quevedo Velasco, David Gerardo
 <div style="text-align: left; display: inline-block;">
     <ul>
         <li>Peralta Chipa Ronald Joel - U202224619</li>
-        <li>Ricardo Fernando Cardenas Minaya</li>
-        <li>Raul Roberto Sanchez Cruz</li>
-        <li>Javier Oswaldo Tello Murga</li>
-        <li>Yair Christofer Aru Acevedo</li>
+        <li>Ricardo Fernando Cardenas Minaya - U202310004</li>
+        <li>Raul Roberto Sanchez Cruz - U201518942</li>
+        <li>Javier Oswaldo Tello Murga - U202218387</li>
+        <li>Yair Christofer Aru Acevedo - U202125984</li>
     </ul>
 </div>
 
@@ -357,10 +357,10 @@ Nuestra visión es ser la solución líder en Latinoamérica en automatización 
 | Foto | Información |
 |------|-------------|
 | ![Foto de Ronald](img/ronald.png) | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
-| ![Foto de Cameron](img/cameron.png) | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
-| ![Foto de Jasmin](img/jasmin.png) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
-| ![Foto de Fabricio](img/fabricio.png) | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
-| ![Foto de Gabo](img/gabo.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
+| ![Foto de Ricardo](img/Ricardo.png) | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
+| ![Foto de Javier](img/) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| ![Foto de Yair](img) | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
+| ![Foto de Raul](img/raul.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
 
 ## **1.2. Solution Profile**
 En esta sección detallamos el funcionamiento y propuesta de valor de nuestro producto digital, resaltando tanto su factor innovador como su esquema de monetización.
