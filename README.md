@@ -995,33 +995,33 @@ Aquí mostramos los pasos respectivos para la elaboración correcta del Event St
 
 
 
-**paso 1: Collect Domain Events**
+**Paso 1: Collect Domain Events**
 
 En esta etapa se llevó a cabo una lluvia de ideas sobre los eventos relevantes dentro del dominio empresarial en análisis. Este proceso facilitó la identificación de los eventos más significativos y permitió comprender cómo se relacionan e interactúan entre sí.
 
 ![Paso1-Domain - events](img/eventstorming1.png)
 
 
-**paso 2: Timelines**
+**Paso 2: Timelines**
 
 En esta etapa, los eventos previamente identificados se organizan en subgrupos, cada uno liderado por un evento principal que representa la funcionalidad central del conjunto. El agrupamiento parte del flujo que describe el escenario empresarial ideal (Happy Path), incluyendo también las variantes que contemplan rutas alternativas.
 
 ![Paso2-Domain - events](img/eventstorming2.png)
 
-**paso 3: Pivotal Points** 
+*Paso 3: Pivotal Points** 
 
 En esta etapa, se identifican los momentos clave dentro del flujo del negocio que influyen de manera significativa en el funcionamiento del sistema y en la experiencia del usuario. Reconocer estos puntos permite establecer prioridades sobre qué aspectos requieren optimización o análisis detallado, dado que su impacto puede comprometer el éxito de los procesos empresariales más relevantes.
 
 ![Paso3-Domain - events](img/eventstorming3.png)
 
-**paso 4: Commands**
+**Paso 4: Commands**
 
 Los Commands representan intenciones explícitas del usuario o del sistema para ejecutar una acción que modifica el estado del dominio. No describen lo que ocurrió (como los eventos), sino lo que se desea que ocurra. Son instrucciones dirigidas a los agregados para que ejecuten una lógica de negocio específica.
 
 
 ![Paso4-Domain - events](img/eventstorming4.png)
 
-**paso 5: Find aggregates & re-sort them**
+**Paso 5: Find aggregates & re-sort them**
 
 En esta fase se analizan los eventos agrupados previamente para identificar agregados, es decir, unidades lógicas que encapsulan consistencia y comportamiento dentro del dominio. Cada agregado representa un conjunto coherente de entidades y reglas de negocio que deben mantenerse consistentes.
 Una vez identificados, los agregados se reordenan para reflejar mejor las dependencias, prioridades y el flujo natural del negocio, facilitando así una arquitectura más clara, modular y alineada con los escenarios clave (tanto ideales como alternativos).
@@ -1032,8 +1032,11 @@ Una vez identificados, los agregados se reordenan para reflejar mejor las depend
 #### **2.5.1.1. Candidate Context Discovery**
 #### **2.5.1.2. Domain Message Flows Modeling**
 #### **2.5.1.3. Bounded Context Canvases**
+Bounded Context: Perfil
+![Bounded Context Perfil](img/BoundedContextIACanvas.jpg)
 
-![Paso4-Domain - events](img/Bounded_Context_Canvases_Profile.PNG)
+Bounded Context: Asistencia IA
+![Bounded Context Asistencia IA](img/Bounded_Context_Canvases_Profile.PNG)
 
 ### **2.5.2. Context Mapping**
 Como parte del modelado del dominio de Jobsy, se identificaron cinco Bounded Contexts principales: Perfil, Candidatos, Publicaciones, Analíticas y Asistencia IA. Con esta base se analizaron las interacciones y dependencias existentes, con el objetivo de comprender cómo se relacionan entre sí, qué información intercambian y qué nivel de acoplamiento mantienen. Este ejercicio permite delimitar de manera más clara los límites del sistema y establecer estrategias de integración que garanticen un funcionamiento coherente y escalable de la plataforma.
