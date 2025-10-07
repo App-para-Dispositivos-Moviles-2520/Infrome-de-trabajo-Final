@@ -939,69 +939,70 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 | US034 | Comentar sobre vacantes | Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores. | **Escenario 1: Publicación de comentarios sobre vacantes**<br>• Dado que el postulante ha postulado a una vacante<br>• Cuando deja un comentario sobre la vacante<br>• Entonces el comentario se guarda correctamente<br><br>**Escenario 2: Validación de contenido inapropiado**<br>• Dado que el postulante escribe un comentario<br>• Cuando el sistema detecta contenido inapropiado<br>• Entonces muestra un mensaje de advertencia y no permite guardar el comentario | EP014 |
 | US035 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes. | **Escenario 1: Retroalimentación del proceso de selección**<br>• Dado que el candidato ha sido parte del proceso de selección<br>• Cuando deja un comentario sobre el proceso<br>• Entonces el comentario se guarda y es visible para el reclutador<br><br>**Escenario 2: Comentarios anónimos opcionales**<br>• Dado que el candidato desea comentar el proceso<br>• Cuando marca la opción de anonimato<br>• Entonces su comentario se publica sin mostrar su nombre | EP014 |
 
-| **Story ID** | SP001 |
-|---------------|--------|
-| **Title** | Integración de autenticación con Azure AD B2C |
-| **Context** | Se requiere validar la viabilidad técnica para implementar un sistema de autenticación centralizado en la aplicación web utilizando Azure AD B2C, garantizando seguridad y compatibilidad con .NET y Vue. |
-| **Description** | Como equipo de desarrollo, queremos investigar la integración de Azure AD B2C con nuestra arquitectura (.NET + Vue + MySQL) para ofrecer autenticación segura, soporte a múltiples roles y gestión de sesiones. |
-| **Acceptance Criteria** | **Criterio 1 – Conexión inicial con Azure AD B2C**<br>**Dado que:** el backend .NET cuenta con configuración de OAuth 2.0<br>**Cuando:** se realiza una solicitud de autenticación desde el frontend Vue<br>**Entonces:** el sistema redirige correctamente al flujo de inicio de sesión de Azure AD B2C.<br><br>**Criterio 2 – Validación de tokens JWT**<br>**Dado que:** se recibe un token de acceso desde Azure<br>**Cuando:** el backend lo valida<br>**Entonces:** se autentica correctamente al usuario y se permite el acceso según su rol.<br><br>**Criterio 3 – Roles y claims personalizados**<br>**Dado que:** Azure AD B2C está configurado con atributos personalizados<br>**Cuando:** un usuario inicia sesión<br>**Entonces:** los claims se reflejan correctamente en la sesión de la aplicación. |
-| **Definition of Done** | Documentación técnica sobre configuración de Azure AD B2C completada.<br>Integración funcional en entorno de prueba.<br>Validación exitosa de tokens JWT.<br>Flujo de autenticación probado en frontend y backend.<br>Commit documentado en Azure DevOps. |
+| **Spike ID** | **SP001** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Integración de Inteligencia Artificial para Recomendaciones Personalizadas** |
+| **Context** | El sistema necesita ofrecer una experiencia personalizada a los usuarios mediante recomendaciones automáticas de contenido o servicios, utilizando inteligencia artificial entrenada con los datos de interacción del usuario. |
+| **Description** | Como equipo de desarrollo, necesitamos investigar e implementar un modelo de IA que permita generar recomendaciones personalizadas en la aplicación Android, integrándose con el backend en .NET y la base de datos MySQL. |
+| **Acceptance Criteria** | **Criterio 1 – Integración del modelo de IA**  <br> **Dado que** se dispone de un modelo básico de IA entrenado con datos de usuario,  <br> **Cuando** se realice la solicitud desde la app Android,  <br> **Entonces** el backend .NET debe devolver una lista de recomendaciones personalizadas. <br><br> **Criterio 2 – Respuesta optimizada**  <br> **Dado que** la app Android consume el endpoint de recomendaciones,  <br> **Cuando** se realice la petición,  <br> **Entonces** la respuesta debe ser procesada en menos de 2 segundos. <br><br> **Criterio 3 – Persistencia de datos de entrenamiento**  <br> **Dado que** se registren nuevas interacciones del usuario,  <br> **Cuando** se almacenen en MySQL,  <br> **Entonces** el modelo debe poder reutilizar esos datos para mejorar las recomendaciones futuras. |
+| **Definition of Done** | El modelo de IA se integra correctamente al backend .NET, se comunica exitosamente con la app Android, se almacenan datos en MySQL y se despliega el servicio en Azure App Service con endpoints documentados. |
 
-| **Story ID** | SP002 |
-|---------------|--------|
-| **Title** | Implementación de notificaciones en tiempo real con SignalR |
-| **Context** | Se busca explorar el uso de SignalR para implementar un sistema de notificaciones en tiempo real en la aplicación web, manteniendo compatibilidad con .NET y Vue. |
-| **Description** | Como equipo de desarrollo, queremos evaluar la integración de SignalR para enviar y recibir notificaciones en tiempo real entre usuarios, sin necesidad de recargar la página. |
-| **Acceptance Criteria** | **Criterio 1 – Configuración del servidor SignalR**<br>**Dado que:** se configura un hub en el backend .NET<br>**Cuando:** un cliente Vue se conecta<br>**Entonces:** se establece una conexión WebSocket exitosa.<br><br>**Criterio 2 – Recepción de mensajes en tiempo real**<br>**Dado que:** un evento ocurre en el backend<br>**Cuando:** se emite una notificación<br>**Entonces:** el cliente Vue la recibe de inmediato.<br><br>**Criterio 3 – Escalabilidad en Azure App Service**<br>**Dado que:** se realiza el despliegue<br>**Cuando:** múltiples usuarios están conectados<br>**Entonces:** las notificaciones se mantienen estables y sincronizadas. |
-| **Definition of Done** | Hub SignalR configurado y documentado.<br>Ejemplo funcional de envío/recepción de mensajes.<br>Integración con Vue validada.<br>Pruebas de escalabilidad en entorno de Azure.<br>Repositorio actualizado en DevOps. |
+| **Spike ID** | **SP002** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Autenticación Segura con JWT y Control de Sesiones** |
+| **Context** | Se requiere implementar un mecanismo de autenticación seguro para los usuarios de la aplicación móvil Android, asegurando la integridad de las sesiones mediante JWT. |
+| **Description** | Como equipo de desarrollo, necesitamos integrar un sistema de autenticación basado en JWT en el backend .NET y su consumo desde la app Android, garantizando la protección de credenciales y el manejo correcto de sesiones. |
+| **Acceptance Criteria** | **Criterio 1 – Generación y validación de tokens**  <br> **Dado que** un usuario inicia sesión desde Android,  <br> **Cuando** las credenciales sean válidas,  <br> **Entonces** el backend deberá generar un JWT firmado y devolverlo a la app. <br><br> **Criterio 2 – Expiración automática de sesión**  <br> **Dado que** un token supera su tiempo de vida,  <br> **Cuando** el usuario realice una solicitud,  <br> **Entonces** el backend debe rechazarla y solicitar una nueva autenticación. <br><br> **Criterio 3 – Revocación de token**  <br> **Dado que** un usuario cierre sesión,  <br> **Cuando** el backend reciba la solicitud,  <br> **Entonces** el token deberá invalidarse de inmediato. |
+| **Definition of Done** | El backend .NET implementa autenticación JWT, la app Android gestiona los tokens correctamente, las pruebas unitarias confirman seguridad de sesiones, y se despliega en Azure con HTTPS habilitado. |
 
-| **Story ID** | SP003 |
-|---------------|--------|
-| **Title** | Configuración de pipeline CI/CD en Azure DevOps |
-| **Context** | Se requiere asegurar un proceso automatizado de compilación, pruebas y despliegue en Azure App Service para optimizar la entrega continua del sistema. |
-| **Description** | Como equipo de desarrollo, queremos crear y probar un pipeline en Azure DevOps que compile el backend .NET, el frontend Vue y despliegue automáticamente en Azure App Service. |
-| **Acceptance Criteria** | **Criterio 1 – Configuración de build pipeline**<br>**Dado que:** el código fuente está en DevOps<br>**Cuando:** se ejecuta un commit<br>**Entonces:** se compilan correctamente los proyectos .NET y Vue.<br><br>**Criterio 2 – Pruebas automatizadas**<br>**Dado que:** hay test unitarios definidos<br>**Cuando:** el pipeline se ejecuta<br>**Entonces:** las pruebas se corren automáticamente y deben pasar exitosamente.<br><br>**Criterio 3 – Despliegue automatizado**<br>**Dado que:** la build es exitosa<br>**Cuando:** el pipeline llega al stage de deploy<br>**Entonces:** el sistema se publica automáticamente en Azure App Service. |
-| **Definition of Done** | Pipeline CI/CD documentado y funcional.<br>Integración con repositorio verificada.<br>Despliegue automatizado validado.<br>Logs de ejecución en DevOps revisados.<br>Manual técnico actualizado. |
 
-| **Story ID** | SP004 |
-|---------------|--------|
-| **Title** | Optimización del rendimiento de consultas MySQL |
-| **Context** | Se necesita analizar el rendimiento de las consultas SQL para detectar cuellos de botella y aplicar optimizaciones de índices o procedimientos almacenados. |
-| **Description** | Como equipo de desarrollo, queremos evaluar el rendimiento de las consultas MySQL más críticas y proponer mejoras para reducir los tiempos de respuesta del backend. |
-| **Acceptance Criteria** | **Criterio 1 – Identificación de consultas lentas**<br>**Dado que:** el backend genera reportes SQL<br>**Cuando:** se activa el log de rendimiento<br>**Entonces:** se identifican consultas con tiempo superior a 500 ms.<br><br>**Criterio 2 – Implementación de índices**<br>**Dado que:** se detecta una consulta lenta<br>**Cuando:** se agrega un índice adecuado<br>**Entonces:** el tiempo de respuesta mejora significativamente.<br><br>**Criterio 3 – Validación post-optimización**<br>**Dado que:** las optimizaciones están aplicadas<br>**Cuando:** se ejecutan nuevamente las consultas<br>**Entonces:** los tiempos de respuesta cumplen con el objetivo. |
-| **Definition of Done** | Informe de optimización con métricas antes/después.<br>Índices implementados y probados.<br>Consultas documentadas en el repositorio.<br>Validación en entorno de pruebas MySQL. |
+| **Spike ID** | **SP003** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Sincronización de Datos Offline-Online** |
+| **Context** | Los usuarios necesitan seguir utilizando la app Android sin conexión a internet, con sincronización automática cuando la conexión se restablece. |
+| **Description** | Como equipo de desarrollo, necesitamos investigar y aplicar un mecanismo de sincronización de datos offline-online entre la app Android y el backend .NET, garantizando consistencia en MySQL. |
+| **Acceptance Criteria** | **Criterio 1 – Almacenamiento local**  <br> **Dado que** un usuario utiliza la app sin conexión,  <br> **Cuando** genere o edite datos,  <br> **Entonces** la app debe almacenarlos localmente. <br><br> **Criterio 2 – Sincronización automática**  <br> **Dado que** la conexión se restablece,  <br> **Cuando** se detecte el estado online,  <br> **Entonces** la app debe sincronizar los cambios con el backend .NET. <br><br> **Criterio 3 – Resolución de conflictos**  <br> **Dado que** se modifiquen los mismos registros en distintos estados,  <br> **Cuando** ocurra una sincronización,  <br> **Entonces** el backend debe resolver los conflictos priorizando los datos más recientes. |
+| **Definition of Done** | Implementación completa del almacenamiento local en Android (Room o SQLite), sincronización estable con backend .NET, pruebas exitosas de pérdida de conexión, y despliegue funcional en Azure. |
 
-| **Story ID** | SP005 |
-|---------------|--------|
-| **Title** | Implementación de control de versiones de la base de datos con Flyway |
-| **Context** | Se busca estandarizar la gestión de cambios en la base de datos MySQL mediante un sistema de versionado que permita trazabilidad y despliegue controlado. |
-| **Description** | Como equipo de desarrollo, queremos integrar Flyway al backend .NET para versionar los scripts SQL y aplicar migraciones automáticas durante los despliegues. |
-| **Acceptance Criteria** | **Criterio 1 – Configuración inicial de Flyway**<br>**Dado que:** existe una base MySQL y un proyecto .NET<br>**Cuando:** se ejecuta Flyway<br>**Entonces:** se crean las tablas de control de migraciones.<br><br>**Criterio 2 – Ejecución de migraciones**<br>**Dado que:** se agrega un nuevo script SQL<br>**Cuando:** se corre el pipeline<br>**Entonces:** Flyway aplica automáticamente los cambios.<br><br>**Criterio 3 – Rollback controlado**<br>**Dado que:** ocurre un error en una migración<br>**Cuando:** se ejecuta el rollback<br>**Entonces:** la base vuelve a su estado anterior sin pérdida de datos. |
-| **Definition of Done** | Flyway configurado en proyecto .NET.<br>Scripts SQL versionados correctamente.<br>Pipeline integrado con migraciones automáticas.<br>Rollback probado y documentado. |
+| **Spike ID** | **SP004** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Notificaciones Push en Tiempo Real** |
+| **Context** | Se requiere mantener a los usuarios informados de eventos importantes mediante notificaciones push en tiempo real. |
+| **Description** | Como equipo de desarrollo, debemos integrar un servicio de notificaciones push (Firebase Cloud Messaging) en la app Android, conectado con el backend .NET para disparar alertas en tiempo real. |
+| **Acceptance Criteria** | **Criterio 1 – Recepción de notificaciones**  <br> **Dado que** el backend envía un evento,  <br> **Cuando** la app Android esté en primer o segundo plano,  <br> **Entonces** deberá recibir la notificación push. <br><br> **Criterio 2 – Personalización de mensajes**  <br> **Dado que** haya distintos tipos de notificaciones,  <br> **Cuando** se envíe el mensaje,  <br> **Entonces** deberá mostrar contenido personalizado según el usuario. <br><br> **Criterio 3 – Registro de tokens de dispositivo**  <br> **Dado que** un usuario inicie sesión,  <br> **Cuando** se registre su dispositivo,  <br> **Entonces** su token FCM deberá almacenarse en MySQL para envíos futuros. |
+| **Definition of Done** | Integración completa de FCM en Android, endpoints .NET para el envío de notificaciones, almacenamiento de tokens en MySQL y validación en Azure App Service. |
 
-| **Story ID** | SP006 |
-|---------------|--------|
-| **Title** | Integración de almacenamiento en Azure Blob Storage |
-| **Context** | Se requiere explorar la integración con Azure Blob Storage para almacenar archivos de usuario (imágenes, documentos) de forma segura y escalable. |
-| **Description** | Como equipo de desarrollo, queremos integrar Azure Blob Storage con el backend .NET para gestionar carga, descarga y eliminación de archivos desde la aplicación web. |
-| **Acceptance Criteria** | **Criterio 1 – Configuración del contenedor en Azure**<br>**Dado que:** existe una cuenta de almacenamiento en Azure<br>**Cuando:** se crea un contenedor<br>**Entonces:** se permite el acceso controlado mediante claves o SAS tokens.<br><br>**Criterio 2 – Carga de archivos desde Vue**<br>**Dado que:** un usuario selecciona un archivo<br>**Cuando:** se envía al backend<br>**Entonces:** el archivo se sube exitosamente a Blob Storage.<br><br>**Criterio 3 – Eliminación y recuperación**<br>**Dado que:** un archivo existe en el contenedor<br>**Cuando:** se solicita eliminarlo o descargarlo<br>**Entonces:** las operaciones se completan correctamente. |
-| **Definition of Done** | Azure Blob configurado y probado.<br>Integración funcional desde frontend.<br>Control de acceso documentado.<br>Despliegue validado en entorno de Azure. |
+| **Spike ID** | **SP005** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Implementación de Pagos Integrados con Pasarela** |
+| **Context** | La aplicación requiere un sistema de pago seguro e integrado con una pasarela externa para realizar transacciones desde Android. |
+| **Description** | Como equipo de desarrollo, necesitamos integrar una pasarela de pago (Stripe o MercadoPago) en la app Android, comunicada con el backend .NET y con registro de operaciones en MySQL. |
+| **Acceptance Criteria** | **Criterio 1 – Creación de órdenes**  <br> **Dado que** un usuario desee realizar un pago,  <br> **Cuando** seleccione un método en la app Android,  <br> **Entonces** el backend .NET debe crear una orden y devolver los datos de pago. <br><br> **Criterio 2 – Confirmación de pago**  <br> **Dado que** se complete el proceso,  <br> **Cuando** la pasarela confirme la transacción,  <br> **Entonces** el backend deberá actualizar el estado en MySQL. <br><br> **Criterio 3 – Seguridad de la transacción**  <br> **Dado que** se procese información financiera,  <br> **Cuando** se intercambien datos entre Android y .NET,  <br> **Entonces** deben estar cifrados y protegidos mediante HTTPS. |
+| **Definition of Done** | Flujo de pagos funcional entre Android, backend .NET y pasarela, registro en MySQL y pruebas de seguridad completadas con despliegue en Azure. |
 
-| **Story ID** | SP007 |
-|---------------|--------|
-| **Title** | Evaluación de autenticación multifactor (MFA) |
-| **Context** | Es necesario evaluar la posibilidad de implementar MFA en el sistema actual, reforzando la seguridad en el inicio de sesión de los usuarios. |
-| **Description** | Como equipo de desarrollo, queremos investigar la integración de MFA usando Azure AD B2C o servicios externos compatibles, para agregar una segunda capa de seguridad. |
-| **Acceptance Criteria** | **Criterio 1 – Configuración MFA en Azure**<br>**Dado que:** la aplicación está registrada en Azure AD B2C<br>**Cuando:** se habilita MFA<br>**Entonces:** los usuarios deben verificar su identidad mediante SMS o correo.<br><br>**Criterio 2 – Validación del flujo MFA en frontend**<br>**Dado que:** un usuario se autentica<br>**Cuando:** completa el segundo factor<br>**Entonces:** se le permite el acceso seguro a la aplicación.<br><br>**Criterio 3 – Fallo de validación**<br>**Dado que:** el usuario no completa MFA<br>**Cuando:** intenta acceder<br>**Entonces:** el sistema deniega el acceso. |
-| **Definition of Done** | Configuración MFA probada.<br>Documentación del flujo de autenticación.<br>Integración validada con frontend.<br>Pruebas exitosas de seguridad y recuperación. |
+| **Spike ID** | **SP006** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Optimización del Rendimiento y Carga Inicial de la App** |
+| **Context** | Los tiempos de carga inicial y respuesta de la app Android deben ser reducidos para mejorar la experiencia del usuario. |
+| **Description** | Como equipo de desarrollo, debemos identificar y aplicar mejoras de rendimiento en la comunicación entre Android y .NET, así como en consultas a MySQL. |
+| **Acceptance Criteria** | **Criterio 1 – Tiempos de carga reducidos**  <br> **Dado que** se inicia la app Android,  <br> **Cuando** se cargue el contenido principal,  <br> **Entonces** el tiempo total no debe exceder los 3 segundos. <br><br> **Criterio 2 – Optimización de endpoints**  <br> **Dado que** la app solicita datos,  <br> **Cuando** el backend responda,  <br> **Entonces** debe hacerlo con menos de 500 ms promedio. <br><br> **Criterio 3 – Monitoreo del rendimiento**  <br> **Dado que** se ejecuten peticiones concurrentes,  <br> **Cuando** se mida el rendimiento,  <br> **Entonces** los resultados deben mantenerse estables bajo carga simulada. |
+| **Definition of Done** | La app Android y backend .NET presentan mejoras verificables en tiempo de respuesta, reducción de consultas innecesarias y monitoreo activo en Azure. |
 
-| **Story ID** | SP008 |
-|---------------|--------|
-| **Title** | Prueba de despliegue multiambiente (dev, test, prod) |
-| **Context** | Se requiere establecer entornos separados en Azure para desarrollo, pruebas y producción, asegurando despliegues controlados y consistentes. |
-| **Description** | Como equipo de desarrollo, queremos configurar y probar despliegues automatizados multiambiente usando Azure DevOps y App Service para garantizar estabilidad en cada entorno. |
-| **Acceptance Criteria** | **Criterio 1 – Creación de entornos en Azure**<br>**Dado que:** existen las suscripciones necesarias<br>**Cuando:** se crean los App Services<br>**Entonces:** cada entorno (dev/test/prod) está aislado y accesible.<br><br>**Criterio 2 – Variables de entorno configuradas**<br>**Dado que:** el pipeline está activo<br>**Cuando:** se ejecuta una build<br>**Entonces:** se aplican las variables correctas según el entorno.<br><br>**Criterio 3 – Validación post-despliegue**<br>**Dado que:** el sistema fue desplegado<br>**Cuando:** se hacen pruebas en cada ambiente<br>**Entonces:** las rutas y servicios funcionan correctamente. |
-| **Definition of Done** | Entornos dev/test/prod creados y documentados.<br>Pipeline configurado con variables por entorno.<br>Despliegue exitoso en Azure.<br>Validación funcional en los tres ambientes. |
+| **Spike ID** | **SP007** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Gestión de Logs Centralizados y Monitoreo en Azure** |
+| **Context** | Es necesario disponer de visibilidad completa sobre los errores y eventos del sistema desde una única fuente de logs. |
+| **Description** | Como equipo de desarrollo, debemos configurar un sistema de logging centralizado desde .NET y Android hacia Azure Application Insights para facilitar el monitoreo y análisis. |
+| **Acceptance Criteria** | **Criterio 1 – Registro de eventos críticos**  <br> **Dado que** el backend .NET ejecute procesos,  <br> **Cuando** ocurra un error o excepción,  <br> **Entonces** debe registrarse automáticamente en Azure. <br><br> **Criterio 2 – Logs desde Android**  <br> **Dado que** la app móvil genere eventos relevantes,  <br> **Cuando** ocurra una falla o acción crítica,  <br> **Entonces** deberá enviarse al backend para registro central. <br><br> **Criterio 3 – Panel de monitoreo**  <br> **Dado que** se recopilen logs,  <br> **Cuando** el equipo acceda a Azure,  <br> **Entonces** podrá visualizar métricas y alertas configuradas. |
+| **Definition of Done** | Los logs de Android y .NET se registran centralmente en Azure, existen dashboards configurados, y se validan alertas automáticas en eventos críticos. |
+
+| **Spike ID** | **SP008** |
+|------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Title** | **Implementación de Control de Versiones y CI/CD Automatizado** |
+| **Context** | El equipo necesita automatizar el proceso de integración y despliegue continuo para garantizar calidad y eficiencia en las entregas. |
+| **Description** | Como equipo de desarrollo, debemos configurar un pipeline CI/CD en Azure DevOps para la app Android y backend .NET, incluyendo pruebas, build y despliegue automatizado. |
+| **Acceptance Criteria** | **Criterio 1 – Integración continua**  <br> **Dado que** se realicen commits en el repositorio,  <br> **Cuando** se ejecute el pipeline,  <br> **Entonces** deberá compilar y ejecutar pruebas unitarias. <br><br> **Criterio 2 – Despliegue automatizado**  <br> **Dado que** una build sea exitosa,  <br> **Cuando** se apruebe la etapa de release,  <br> **Entonces** el sistema deberá desplegarse automáticamente en Azure. <br><br> **Criterio 3 – Notificaciones de estado**  <br> **Dado que** el pipeline finalice,  <br> **Cuando** se complete correctamente o falle,  <br> **Entonces** deberá notificarse al equipo por correo o Teams. |
+| **Definition of Done** | Pipeline funcional en Azure DevOps, builds y releases automáticas para Android y backend .NET, integración con MySQL en Azure App Service y validación mediante pruebas unitarias. |
 
 - Evidencia de los User Stories en Pivotal Tracker:
 <img src="img/User_Stories_SmartHire.png" alt="userstories" width= 1000/>
