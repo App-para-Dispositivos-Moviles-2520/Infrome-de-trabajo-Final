@@ -432,39 +432,48 @@ Cuando los equipos de Recursos Humanos utilicen Jobsy, experimentarán una mejor
 </p>
 
 #### **1.2.2.3. Lean UX Hypothesis Statements**
-<ol>
+<ol type="a">
   <li>
-    <p align="justify"><b>Hipótesis 1:</b><br>
-    Creemos que los reclutadores preferirán el filtrado inteligente por IA frente a la revisión manual de CVs.<br>
-    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos que al menos el 70% de los usuarios usa el filtrado automático.
+    <p align="justify">
+    Creemos que se logrará una mayor eficiencia en la selección de candidatos si los reclutadores pueden 
+    filtrar automáticamente los CVs con ayuda de IA con la función de filtrado inteligente por IA <br>
+    <i>Sabremos que tuvimos éxito cuando al menos el 70% de los usuarios use el filtrado automático en lugar de la revisión manual.</i>
     </p>
   </li>
 
   <li>
-    <p align="justify"><b>Hipótesis 2:</b><br>
-    Creemos que la publicación automatizada de vacantes facilitará una mayor difusión de las ofertas laborales y reducirá el tiempo de publicación.<br>
-    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos una reducción del 50% en el tiempo promedio que toma publicar las vacantes en otros portales.
+    <p align="justify">
+    Creemos que se logrará una difusión más amplia y rápida de las ofertas laborales
+    si los reclutadores pueden publicar vacantes de manera automática en múltiples portales
+    con la función de publicación automatizada de vacantes.<br>
+    <i>Sabremos que tuvimos éxito cuando el tiempo promedio de publicación de vacantes se reduzca en un 50%.</i>
     </p>
   </li>
 
   <li>
-    <p align="justify"><b>Hipótesis 3:</b><br>
-    Creemos que el sistema de seguimiento de candidatos permitirá una gestión más ordenada y eficiente del proceso de selección.<br>
-    <i>Sabremos que esta hipótesis es cierta</i> cuando los usuarios consulten y actualicen el estado de los candidatos frecuentemente dentro del sistema.
+    <p align="justify">
+    Creemos que se logrará una gestión más ordenada y eficiente del proceso de selección
+    si los reclutadores pueden consultar y actualizar fácilmente el estado de los candidatos
+    con el sistema de seguimiento de candidatos.<br>
+    <i>Sabremos que tuvimos éxito cuando los usuarios consulten y actualicen frecuentemente los estados dentro del sistema.</i>
     </p>
   </li>
 
   <li>
-    <p align="justify"><b>Hipótesis 4:</b><br>
-    Creemos que la gamificación para evaluar habilidades blandas mejorará el nivel de engagement de los postulantes y facilitará la evaluación de competencias sociales.<br>
-    <i>Sabremos que esta hipótesis es cierta</i> cuando más del 50% de los candidatos completen las pruebas gamificadas y los reclutadores tomen en cuenta esto en su decisión final.
+    <p align="justify">
+    Creemos que se logrará un mayor engagement de los postulantes y mejor evaluación de competencias sociales
+    si los candidatos pueden realizar pruebas de habilidades blandas en un formato atractivo y dinámico
+    con la función de gamificación para evaluar habilidades blandas.<br>
+    <i>Sabremos que tuvimos éxito cuando más del 50% de los candidatos completen las pruebas gamificadas y los reclutadores usen estos resultados en su decisión final.</i>
     </p>
   </li>
 
   <li>
-    <p align="justify"><b>Hipótesis 5:</b><br>
-    Creemos que los usuarios valorarán tener una agenda donde puedan gestionar fechas y recordatorios de todos los candidatos en un solo lugar.<br>
-    <i>Sabremos que esta hipótesis es cierta</i> cuando veamos que al menos el 75% de los usuarios utilizan activamente la agenda para programar entrevistas y establecer recordatorios durante el proceso de evaluación.
+    <p align="justify">
+    Creemos que se logrará una mayor organización y control de los procesos de evaluación
+    si los reclutadores pueden gestionar entrevistas y recordatorios en un solo lugar
+    con la agenda integrada de gestión de candidatos.<br>
+    <i>Sabremos que tuvimos éxito cuando al menos el 75% de los usuarios utilicen activamente la agenda para programar entrevistas y recordatorios.</i>
     </p>
   </li>
 </ol>
