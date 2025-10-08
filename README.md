@@ -3921,43 +3921,69 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 <img src="img/impact_map_2.png" alt="impactmap2" width= 800/>
 
 ## **2.4.3. Product Backlog**
-|# Orden|User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
-| :- | :- | :- | :- | :- |
-|1|US001|Crear nueva vacante|Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación.|1|
-|2|US002|Editar vacante existente|Como reclutador, quiero editar una vacante publicada para actualizar su información.|1|
-|3|US003|Cerrar vacante|Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones.|1|
-|4|US004|Aplicar a vacante|Como postulante, quiero postularme a una vacante para ser considerado en un proceso de selección.|2|
-|5|US005|Ver postulaciones recibidas|Como reclutador, quiero ver las postulaciones recibidas para conocer los candidatos interesados.|2|
-|6|US006|Filtrar postulaciones|Como reclutador, quiero filtrar postulaciones por estado para gestionar mejor el proceso.|2|
-|7|US007|Agendar entrevista|Como reclutador, quiero agendar entrevistas con postulantes para coordinar el proceso de selección.|3|
-|8|US008|Registrar resultado de entrevista|Como reclutador, quiero registrar los resultados de entrevistas para tomar decisiones basadas en el desempeño.|3|
-|9|US009|Enviar oferta laboral|Como reclutador, quiero enviar una oferta laboral al candidato seleccionado para formalizar su contratación.|5|
-|10|US010|Registrar cuenta de postulante|Como usuario, quiero registrarme como postulante para aplicar a vacantes.|1|
-|11|US011|Registrar cuenta de reclutador|Como empresa, quiero registrarme para gestionar vacantes laborales.|1|
-|12|US012|Editar perfil profesional|Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mis oportunidades.|2|
-|13|US013|Sugerencia de candidatos|Como reclutador, quiero ver candidatos sugeridos automáticamente según la vacante para encontrar mejores perfiles.|5|
-|14|US014|Recomendación de vacantes|Como postulante, quiero recibir sugerencias de vacantes relevantes a mi perfil para encontrar oportunidades adecuadas.|3|
-|15|US015|Puntaje automático de CVs|Como reclutador, quiero que los CVs tengan puntajes automáticos para facilitar la evaluación.|3|
-|16|US016|Recibir notificaciones de vacantes|Como postulante, quiero recibir notificaciones cuando se publiquen vacantes relevantes para postularme a tiempo.|3|
-|17|US017|Recibir notificaciones de postulaciones|Como reclutador, quiero recibir notificaciones de nuevas postulaciones para estar al tanto de los candidatos interesados.|2|
-|18|US018|Ver calendario de entrevistas|Como reclutador, quiero ver un calendario de entrevistas programadas para organizar mi agenda.|3|
-|19|US019|Reprogramar entrevista|Como reclutador, quiero reprogramar una entrevista para ajustarla a nuevas disponibilidades.|3|
-|20|US020|Solicitar soporte|Como usuario, quiero solicitar soporte para resolver problemas técnicos.|3|
-|21|US021|Responder solicitud de soporte|Como agente de soporte, quiero responder a las solicitudes de soporte de los usuarios para ayudarlos eficazmente.|3|
-|22|US022|Registrar método de pago|Como usuario, quiero registrar un método de pago para realizar compras o suscripciones.|3|
-|23|US023|Realizar pago|Como usuario, quiero realizar un pago para acceder a servicios premium.|3|
-|24|US024|Ver historial de pagos|Como usuario, quiero ver un historial de mis pagos para tener un registro de mis transacciones.|3|
-|25|US025|Configurar notificaciones|Como usuario, quiero configurar mis preferencias de notificaciones para recibir solo la información relevante.|3|
-|26|US026|Configurar perfil|Como usuario, quiero configurar mis preferencias de perfil para personalizar mi experiencia.|3|
-|27|US027|Cambiar contraseña|Como usuario, quiero cambiar mi contraseña para asegurar mi cuenta.|5|
-|28|US028|Activar autenticación de dos factores|Como usuario, quiero activar la autenticación de dos factores para mayor seguridad.|3|
-|29|US029|Asignar rol de reclutador|Como administrador, quiero asignar el rol de reclutador a un usuario para que pueda gestionar vacantes.|2|
-|30|US030|Asignar rol de postulante|Como administrador, quiero asignar el rol de postulante a un usuario para que pueda aplicar a vacantes.|2|
-|31|US031|Iniciar sesión con redes sociales|Como usuario, quiero iniciar sesión utilizando mi cuenta de redes sociales para facilitar el acceso.|5|
-|32|US032|Compartir vacante en redes sociales|Como reclutador, quiero compartir una vacante en redes sociales para atraer más postulantes.|2|
-|33|US033|Compartir perfil en redes sociales|Como postulante, quiero compartir mi perfil en redes sociales para aumentar mi visibilidad.|3|
-|34|US034|Comentar sobre vacantes|Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores.|3|
-|35|US035|Comentar sobre el proceso de selección|Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes.|3|
+
+| Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+|-------|---------------|--------|-------------|---------------------------|
+| 1 | US001 | Crear nueva vacante | Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación. | 1 |
+| 2 | US002 | Editar vacante existente | Como reclutador, quiero editar una vacante publicada para actualizar su información. | 1 |
+| 3 | US003 | Cerrar vacante | Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones. | 1 |
+| 4 | US004 | Buscar y listar vacantes disponibles | Como postulante, quiero buscar y visualizar las vacantes disponibles mediante filtros para encontrar oportunidades relevantes. | 2 |
+| 5 | US005 | Ver detalle completo de una vacante | Como postulante, quiero ver toda la información detallada de una vacante antes de postularme para tomar una decisión informada. | 1 |
+| 6 | US006 | Aplicar a vacante | Como postulante, quiero postularme a una vacante para ser considerado en el proceso de selección. | 2 |
+| 7 | US007 | Ver postulaciones recibidas | Como reclutador, quiero consultar las postulaciones recibidas para evaluar candidatos interesados en cada vacante. | 2 |
+| 8 | US008 | Filtrar postulaciones | Como reclutador, quiero filtrar postulaciones por estado y otros criterios para gestionar mejor el proceso. | 2 |
+| 9 | US009 | Ver estado de mis postulaciones | Como postulante, quiero consultar el estado actual de todas mis postulaciones para dar seguimiento a mis procesos de selección. | 2 |
+| 10 | US010 | Agendar entrevista | Como reclutador, quiero programar entrevistas con postulantes para avanzar en el proceso de selección. | 3 |
+| 11 | US011 | Registrar resultado de entrevista | Como reclutador, quiero registrar los resultados de las entrevistas para documentar el desempeño de los candidatos. | 3 |
+| 12 | US012 | Enviar oferta laboral | Como reclutador, quiero enviar una oferta laboral formal al candidato seleccionado para cerrar el proceso de contratación. | 5 |
+| 13 | US013 | Registrar cuenta de postulante | Como usuario, quiero crear una cuenta tipo postulante para poder aplicar a vacantes. | 1 |
+| 14 | US014 | Registrar cuenta de reclutador | Como empresa, quiero registrar una cuenta de reclutador para gestionar vacantes y postulaciones. | 1 |
+| 15 | US015 | Iniciar sesión en la plataforma | Como usuario (postulante/reclutador), quiero iniciar sesión con mi correo y contraseña para acceder a mi cuenta. | 2 |
+| 16 | US016 | Cerrar sesión | Como usuario autenticado, quiero cerrar mi sesión para proteger mi cuenta al terminar de usar la aplicación. | 1 |
+| 17 | US017 | Editar perfil profesional | Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mi visibilidad. | 2 |
+| 18 | US018 | Validar correo electrónico al registrarse | Como nuevo usuario, quiero validar mi correo electrónico después del registro para confirmar la autenticidad de mi cuenta. | 2 |
+| 19 | US019 | Configurar perfil | Como usuario, quiero personalizar mi perfil para adaptar la experiencia en la plataforma. | 2 |
+| 20 | US020 | Eliminar mi cuenta permanentemente | Como usuario, quiero eliminar mi cuenta y todos mis datos personales de la plataforma de forma permanente. | 3 |
+| 21 | US021 | Sugerencia de candidatos | Como reclutador, quiero recibir candidatos sugeridos automáticamente según los requisitos de la vacante. | 5 |
+| 22 | US022 | Recomendación de vacantes | Como postulante, quiero recibir vacantes recomendadas que sean relevantes a mi perfil. | 3 |
+| 23 | US023 | Puntaje automático de CVs | Como reclutador, quiero que los CVs recibidos se puntúen automáticamente para facilitar la evaluación inicial. | 3 |
+| 24 | US024 | Recibir notificaciones de vacantes | Como postulante, quiero recibir notificaciones sobre vacantes relevantes según mis preferencias. | 3 |
+| 25 | US025 | Recibir notificaciones de postulaciones | Como reclutador, quiero recibir alertas cuando nuevos candidatos se postulan a mis vacantes. | 2 |
+| 26 | US026 | Ver calendario de entrevistas | Como reclutador, quiero visualizar el calendario de entrevistas agendadas para organizar mi agenda. | 3 |
+| 27 | US027 | Reprogramar entrevista | Como reclutador, quiero reprogramar entrevistas para ajustarlas a nuevas disponibilidades. | 3 |
+| 28 | US028 | Solicitar soporte | Como usuario, quiero registrar incidencias técnicas para recibir asistencia del equipo de soporte. | 3 |
+| 29 | US029 | Responder solicitud de soporte | Como agente de soporte, quiero gestionar y responder tickets para resolver incidencias de usuarios. | 3 |
+| 30 | US030 | Registrar método de pago | Como usuario, quiero registrar un método de pago para suscripciones o compras en la plataforma. | 3 |
+| 31 | US031 | Realizar pago | Como usuario, quiero realizar un pago para acceder a funcionalidades premium o servicios adicionales. | 3 |
+| 32 | US032 | Ver historial de pagos | Como usuario, quiero consultar el historial de mis transacciones para llevar un registro de pagos. | 2 |
+| 33 | US033 | Configurar notificaciones | Como usuario, quiero ajustar mis preferencias de notificaciones para recibir solo información relevante. | 2 |
+| 34 | US034 | Configurar idioma y zona horaria | Como usuario, quiero configurar mi idioma preferido y zona horaria para personalizar mi experiencia en la plataforma. | 2 |
+| 35 | US035 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta. | 3 |
+| 36 | US036 | Recuperar contraseña olvidada | Como usuario, quiero recuperar mi contraseña olvidada mediante un enlace enviado a mi correo electrónico. | 3 |
+| 37 | US037 | Activar autenticación de dos factores (2FA) | Como usuario, quiero habilitar 2FA para aumentar la seguridad de mi inicio de sesión. | 3 |
+| 38 | US038 | Asignar rol de reclutador | Como administrador, quiero otorgar el rol de reclutador a un usuario para que gestione vacantes. | 2 |
+| 39 | US039 | Asignar rol de postulante | Como administrador, quiero asignar el rol de postulante a un usuario para habilitar sus funciones de postulación. | 2 |
+| 40 | US040 | Iniciar sesión con redes sociales | Como usuario, quiero autenticarme usando mi cuenta de red social para facilitar el acceso. | 5 |
+| 41 | US041 | Compartir vacante en redes sociales | Como reclutador, quiero compartir una vacante en redes sociales para aumentar su difusión. | 2 |
+| 42 | US042 | Compartir perfil en redes sociales | Como postulante, quiero compartir mi perfil profesional en redes para aumentar mi visibilidad. | 2 |
+| 43 | US043 | Comentar sobre vacantes | Como postulante, quiero dejar comentarios sobre una vacante para dar retroalimentación al reclutador. | 2 |
+| 44 | US044 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre mi experiencia en el proceso de selección para mejorar la calidad del servicio. | 2 |
+| 45 | US045 | Ver hero y propuesta de valor de la plataforma | Como visitante, quiero visualizar una sección hero atractiva con la propuesta de valor principal para comprender rápidamente los beneficios de la plataforma. | 2 |
+| 46 | US046 | Ver sección de beneficios para empresas | Como visitante empresa, quiero ver una sección específica con los beneficios de usar la plataforma para contratación para evaluar si se ajusta a mis necesidades. | 2 |
+| 47 | US047 | Ver sección de beneficios para postulantes | Como visitante postulante, quiero ver una sección que explique cómo la plataforma me ayudará a encontrar empleo para decidir registrarme. | 2 |
+| 48 | US048 | Ver testimonios y casos de éxito | Como visitante, quiero ver testimonios reales de empresas y postulantes que usaron la plataforma para generar confianza en el servicio. | 2 |
+| 49 | US049 | Ver call-to-action de registro | Como visitante, quiero encontrar fácilmente botones de registro para comenzar a usar la plataforma cuando esté convencido. | 1 |
+| 50 | US050 | Contactar al equipo mediante formulario | Como visitante, quiero enviar consultas o solicitar información adicional mediante un formulario de contacto para resolver dudas antes de registrarme. | 2 |
+| 51 | TS001 | API de autenticación con JWT | Como developer, necesito implementar endpoints de autenticación con generación y validación de tokens JWT para gestionar sesiones seguras de usuarios. | 5 |
+| 52 | TS002 | API REST para gestión completa de vacantes | Como developer, necesito implementar endpoints CRUD completos para vacantes (crear, listar, obtener detalle, actualizar, eliminar) con validaciones y filtros. | 5 |
+| 53 | TS003 | API REST para gestión de postulaciones | Como developer, necesito implementar endpoints para crear postulaciones, listar postulaciones por vacante y por postulante, y actualizar estados. | 5 |
+| 54 | TS004 | API REST para programación de entrevistas | Como developer, necesito implementar endpoints para crear, listar, actualizar y cancelar entrevistas con validación de conflictos de horario. | 5 |
+| 55 | TS005 | API REST para notificaciones push | Como developer, necesito implementar endpoints para enviar notificaciones push, registrar tokens FCM de dispositivos y gestionar preferencias de notificación. | 5 |
+| 56 | TS006 | API REST para búsqueda y filtros de vacantes | Como developer, necesito implementar endpoint de búsqueda avanzada con múltiples filtros, paginación y ordenamiento para vacantes. | 3 |
+| 57 | TS007 | API REST para gestión de perfiles de usuario | Como developer, necesito implementar endpoints para crear, obtener, actualizar y eliminar perfiles de postulantes y reclutadores con validaciones apropiadas. | 3 |
+| 58 | TS008 | API REST para procesamiento de pagos | Como developer, necesito implementar integración con pasarela de pagos (Stripe/MercadoPago) para procesar transacciones, registrar métodos de pago y consultar historial. | 8 |
+| 59 | TS009 | API REST para reportes y analytics | Como developer, necesito implementar endpoints para generar reportes estadísticos de vacantes, postulaciones, entrevistas y métricas de contratación. | 5 |
+| 60 | TS010 | API REST para carga de archivos (CVs y documentos) | Como developer, necesito implementar endpoints para subir, almacenar, descargar y eliminar archivos de CVs y documentos con validaciones de tipo y tamaño. | 3 |
 
 - Evidencia del Product Backlog en Trello:
 <img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
