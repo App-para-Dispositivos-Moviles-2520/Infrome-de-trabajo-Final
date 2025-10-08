@@ -209,14 +209,56 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**4.2.1.2. Sprint Backlog 1**](#4212-sprint-backlog-1)
       - [**4.2.1.3. Development Evidence for Sprint Review**](#4213-development-evidence-for-sprint-review)
       - [**4.2.1.4. Testing Suite Evidence for Sprint Review**](#4214-testing-suite-evidence-for-sprint-review)
+    - [Users](#users)
       - [**4.2.1.5. Execution Evidence for Sprint Review**](#4215-execution-evidence-for-sprint-review)
       - [**4.2.1.6. Services Documentation Evidence for Sprint Review**](#4216-services-documentation-evidence-for-sprint-review)
       - [**4.2.1.7. Software Deployment Evidence for Sprint Review**](#4217-software-deployment-evidence-for-sprint-review)
       - [**4.2.1.8. Team Collaboration Insights during Sprint**](#4218-team-collaboration-insights-during-sprint)
   - [**4.3. Validation Interviews**](#43-validation-interviews)
     - [**4.3.1. Diseño de Entrevistas**](#431-diseño-de-entrevistas)
+      - [Introducción](#introducción)
+      - [Segmento Objetivo 1: Equipos de Recursos Humanos (Reclutadores)](#segmento-objetivo-1-equipos-de-recursos-humanos-reclutadores)
+        - [Perfil del Entrevistado](#perfil-del-entrevistado)
+        - [Objetivos de Validación](#objetivos-de-validación)
+        - [Elementos a Validar](#elementos-a-validar)
+        - [User Flows a Evaluar](#user-flows-a-evaluar)
+        - [Tareas Específicas para la Sesión](#tareas-específicas-para-la-sesión)
+        - [Preguntas Guía](#preguntas-guía)
+        - [Métricas de Éxito](#métricas-de-éxito)
+      - [Segmento Objetivo 2: Postulantes (Candidatos)](#segmento-objetivo-2-postulantes-candidatos)
+        - [Perfil del Entrevistado](#perfil-del-entrevistado-1)
+        - [Objetivos de Validación](#objetivos-de-validación-1)
+        - [Elementos a Validar](#elementos-a-validar-1)
+        - [User Flows a Evaluar](#user-flows-a-evaluar-1)
+        - [Tareas Específicas para la Sesión](#tareas-específicas-para-la-sesión-1)
+        - [Preguntas Guía](#preguntas-guía-1)
+        - [Métricas de Éxito](#métricas-de-éxito-1)
+      - [Estructura General de la Sesión de Validación](#estructura-general-de-la-sesión-de-validación)
+      - [Materiales y Recursos Necesarios](#materiales-y-recursos-necesarios)
+      - [Protocolo de Conducción de Entrevistas](#protocolo-de-conducción-de-entrevistas)
+      - [Criterios de Selección de Entrevistados](#criterios-de-selección-de-entrevistados)
     - [**4.3.2. Registro de Entrevistas**](#432-registro-de-entrevistas)
+      - [Segmento 1: Equipos de Recursos Humanos (Reclutadores)](#segmento-1-equipos-de-recursos-humanos-reclutadores)
+        - [Entrevista 1](#entrevista-1)
+        - [Entrevista 2](#entrevista-2)
+        - [Entrevista 3](#entrevista-3)
+      - [Segmento 2: Postulantes (Candidatos)](#segmento-2-postulantes-candidatos)
+        - [Entrevista 1](#entrevista-1-1)
+        - [Entrevista 2](#entrevista-2-1)
+        - [Entrevista 3](#entrevista-3-1)
     - [**4.3.3. Evaluaciones según heurísticas**](#433-evaluaciones-según-heurísticas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas-1)
+      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
+      - [SITE o APP A EVALUAR:](#site-o-app-a-evaluar)
+      - [TAREAS A EVALUAR:](#tareas-a-evaluar)
+      - [ESCALA DE SEVERIDAD:](#escala-de-severidad)
+      - [TABLA RESUMEN:](#tabla-resumen)
+      - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+        - [PROBLEMA #1: \[Título descriptivo del problema\]](#problema-1-título-descriptivo-del-problema)
+        - [PROBLEMA #2: \[Título descriptivo del problema\]](#problema-2-título-descriptivo-del-problema)
+        - [PROBLEMA #3: \[Título descriptivo del problema\]](#problema-3-título-descriptivo-del-problema)
+        - [PROBLEMA #4: \[Título descriptivo del problema\]](#problema-4-título-descriptivo-del-problema)
+        - [PROBLEMA #5: \[Título descriptivo del problema\]](#problema-5-título-descriptivo-del-problema)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -1622,9 +1664,9 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 | SP002 | Autenticación Segura con JWT y Control de Sesiones | W007 | Implementar JWT al apartado de usuario para el backend | Elaborar la autenticación con JWT al iniciar sesion. | 2hrs | Ronald | Done |
 
 - Evidencia del Product Backlog - Sprint 1 en Trello:
-<img src="img/Product_Backlog_Sprint1_SmartHire.png" alt="productbacklog-Sprint1" width= 1000/>
+<img src="img/ProductBacklog-Smarthire-Sprint1.png" alt="productbacklog-Sprint1" width= 1000/>
 
-- Link del Product Backlog - Sprint 1 en Trello: [https://trello.com/b/T6UCC586/product-backlog-smarthire](https://trello.com/b/T6UCC586/product-backlog-smarthire)
+- Link del Product Backlog - Sprint 1 en Trello: [https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1](https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1)
 
 #### **4.2.1.3. Development Evidence for Sprint Review**
 Se realizaron los avances con los commits de la siguiente forma.
@@ -1641,6 +1683,14 @@ Se realizaron los avances con los commits de la siguiente forma.
 | Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 | feat(chapter-02): added bounded context canvas candidatos | 08/10/2025 |
 
 #### **4.2.1.4. Testing Suite Evidence for Sprint Review**
+
+En esta sección se presentan las pruebas de integración desarrolladas para los servicios principales de la API construida con .NET 9 y ASP.NET Core. Se utiliza el framework de pruebas xUnit junto con la clase WebApplicationFactory, la cual permite levantar una instancia del servidor web en memoria para simular peticiones HTTP reales hacia los endpoints de la aplicación.
+
+### Users
+
+Prueba unitaria para el registro y login de un usuario.
+<img src="img/JobsyTests.png" alt="Jobsy_Tests" width= 1000/>
+
 #### **4.2.1.5. Execution Evidence for Sprint Review**
 #### **4.2.1.6. Services Documentation Evidence for Sprint Review**
 #### **4.2.1.7. Software Deployment Evidence for Sprint Review**
