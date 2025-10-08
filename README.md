@@ -888,8 +888,27 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 
 ### **2.4.1. User Stories**
 
-<!-- EP001 - Gestión de Vacantes -->
-<table>
+<!-- ========================================= -->
+<!-- USER STORIES + TECHNICAL STORIES         -->
+<!-- VERSIÓN ORDENADA Y RENUMERADA            -->
+<!-- Total: 14 Epics + 50 US + 10 TS          -->
+<!-- ========================================= -->
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse;">
+  
+  <!-- ============================================ -->
+  <!-- EPIC 001 - Gestión de Vacantes              -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP001</strong></td>
+    <td colspan="3"><strong>Gestión de Vacantes</strong></td>
+  </tr>
+
+  <!-- US001 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -929,11 +948,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema informa el campo faltante y no permite crear la vacante.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US002 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -943,7 +959,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   <tr>
     <td>US002</td>
     <td>Reclutador</td>
-    <td>Media</td>
+    <td>Alta</td>
     <td>EP001</td>
   </tr>
   <tr>
@@ -973,11 +989,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema impide la edición y muestra el motivo.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US003 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1017,12 +1030,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces la vacante solo se cierra si el reclutador confirma.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<!-- EP002 - Gestión de Postulaciones -->
-<table>
+  <!-- US004 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1031,6 +1040,100 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <td>US004</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Buscar y listar vacantes disponibles</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo buscar y visualizar las vacantes disponibles mediante filtros para encontrar oportunidades relevantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Listado de vacantes activas</strong><br/>
+      • Dado que el postulante accede al módulo de vacantes<br/>
+      • Cuando carga la lista<br/>
+      • Entonces se muestran todas las vacantes activas con información básica.<br/><br/>
+      <strong>Escenario 2: Búsqueda con filtros</strong><br/>
+      • Dado que el postulante aplica filtros (cargo, ubicación, empresa)<br/>
+      • Cuando ejecuta la búsqueda<br/>
+      • Entonces el sistema muestra solo las vacantes que coinciden con los criterios.
+    </td>
+  </tr>
+
+  <!-- US005 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US005</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver detalle completo de una vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo ver toda la información detallada de una vacante antes de postularme para tomar una decisión informada.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Visualización completa</strong><br/>
+      • Dado que el postulante selecciona una vacante<br/>
+      • Cuando accede al detalle<br/>
+      • Entonces se muestra descripción completa, requisitos, beneficios, salario y datos de la empresa.<br/><br/>
+      <strong>Escenario 2: Acceso a postulación</strong><br/>
+      • Dado que el postulante visualiza una vacante<br/>
+      • Cuando está interesado<br/>
+      • Entonces debe tener acceso directo al botón de postulación desde la vista de detalle.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 002 - Gestión de Postulaciones         -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP002</strong></td>
+    <td colspan="3"><strong>Gestión de Postulaciones</strong></td>
+  </tr>
+
+  <!-- US006 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US006</td>
     <td>Postulante</td>
     <td>Alta</td>
     <td>EP002</td>
@@ -1062,11 +1165,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema rechaza la nueva postulación y notifica que ya está postulado.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US007 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1074,7 +1174,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US005</td>
+    <td>US007</td>
     <td>Reclutador</td>
     <td>Alta</td>
     <td>EP002</td>
@@ -1106,11 +1206,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces las postulaciones se muestran de la más reciente a la más antigua.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US008 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1118,9 +1215,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US006</td>
+    <td>US008</td>
     <td>Reclutador</td>
-    <td>Media</td>
+    <td>Alta</td>
     <td>EP002</td>
   </tr>
   <tr>
@@ -1150,12 +1247,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces se muestran únicamente las postulaciones que cumplen todos los filtros.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<!-- EP003 - Proceso de Selección -->
-<table>
+  <!-- US009 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1163,7 +1256,60 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US007</td>
+    <td>US009</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver estado de mis postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo consultar el estado actual de todas mis postulaciones para dar seguimiento a mis procesos de selección.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Listado de postulaciones propias</strong><br/>
+      • Dado que el postulante accede a "Mis Postulaciones"<br/>
+      • Cuando carga la vista<br/>
+      • Entonces se muestra una lista con todas sus postulaciones y su estado actual (En revisión, Entrevista agendada, Rechazada, Oferta enviada).<br/><br/>
+      <strong>Escenario 2: Detalle de postulación</strong><br/>
+      • Dado que el postulante selecciona una postulación<br/>
+      • Cuando accede al detalle<br/>
+      • Entonces puede ver historial completo (fecha de postulación, actualizaciones, entrevistas, comentarios).
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 003 - Proceso de Selección            -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP003</strong></td>
+    <td colspan="3"><strong>Proceso de Selección</strong></td>
+  </tr>
+
+  <!-- US010 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US010</td>
     <td>Reclutador</td>
     <td>Alta</td>
     <td>EP003</td>
@@ -1195,11 +1341,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema alerta del conflicto y no permite la programación.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US011 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1207,9 +1350,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US008</td>
+    <td>US011</td>
     <td>Reclutador</td>
-    <td>Media</td>
+    <td>Alta</td>
     <td>EP003</td>
   </tr>
   <tr>
@@ -1239,11 +1382,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces los cambios se guardan correctamente.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US012 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1251,7 +1391,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US009</td>
+    <td>US012</td>
     <td>Reclutador</td>
     <td>Alta</td>
     <td>EP003</td>
@@ -1283,12 +1423,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces no se genera registro ni notificación.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 004 - Gestión de Usuarios             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP004</strong></td>
+    <td colspan="3"><strong>Gestión de Usuarios y Autenticación</strong></td>
+  </tr>
 
-<!-- EP004 - Gestión de Usuarios -->
-<table>
+  <!-- US013 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1296,7 +1444,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US010</td>
+    <td>US013</td>
     <td>Postulante</td>
     <td>Alta</td>
     <td>EP004</td>
@@ -1328,11 +1476,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema informa que el correo ya está en uso.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US014 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1340,7 +1485,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US011</td>
+    <td>US014</td>
     <td>Empresa / Reclutador</td>
     <td>Alta</td>
     <td>EP004</td>
@@ -1372,11 +1517,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema bloquea el registro e indica los errores.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US015 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1384,7 +1526,89 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US012</td>
+    <td>US015</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Iniciar sesión en la plataforma</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario (postulante/reclutador), deseo iniciar sesión con mi correo y contraseña para acceder a mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Login exitoso</strong><br/>
+      • Dado que el usuario ingresa credenciales válidas<br/>
+      • Cuando envía el formulario de inicio de sesión<br/>
+      • Entonces el sistema lo autentica y redirige al dashboard correspondiente a su rol.<br/><br/>
+      <strong>Escenario 2: Credenciales incorrectas</strong><br/>
+      • Dado que el usuario ingresa credenciales inválidas<br/>
+      • Cuando intenta iniciar sesión<br/>
+      • Entonces el sistema muestra un error y no permite el acceso.
+    </td>
+  </tr>
+
+  <!-- US016 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US016</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cerrar sesión</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario autenticado, deseo cerrar mi sesión para proteger mi cuenta al terminar de usar la aplicación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cierre exitoso</strong><br/>
+      • Dado que el usuario está autenticado<br/>
+      • Cuando solicita cerrar sesión<br/>
+      • Entonces el sistema invalida su token y lo redirige al login.<br/><br/>
+      <strong>Escenario 2: Confirmación de cierre</strong><br/>
+      • Dado que el usuario solicita cerrar sesión<br/>
+      • Cuando el sistema procesa la solicitud<br/>
+      • Entonces debe mostrar confirmación del cierre exitoso.
+    </td>
+  </tr>
+
+  <!-- US017 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US017</td>
     <td>Postulante</td>
     <td>Media</td>
     <td>EP004</td>
@@ -1416,12 +1640,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema informa los campos con formato inválido.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<!-- EP005 - IA y Recomendaciones -->
-<table>
+  <!-- US018 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1429,9 +1649,144 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US013</td>
+    <td>US018</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Validar correo electrónico al registrarse</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como nuevo usuario, deseo validar mi correo electrónico después del registro para confirmar la autenticidad de mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío de correo de verificación</strong><br/>
+      • Dado que un usuario completa el registro<br/>
+      • Cuando se crea la cuenta<br/>
+      • Entonces el sistema envía un correo con enlace de verificación.<br/><br/>
+      <strong>Escenario 2: Activación de cuenta</strong><br/>
+      • Dado que el usuario accede al enlace de verificación<br/>
+      • Cuando el enlace es válido<br/>
+      • Entonces la cuenta se activa y se confirma al usuario.
+    </td>
+  </tr>
+
+  <!-- US019 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US019</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Configurar perfil</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo personalizar mi perfil para adaptar la experiencia en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Edición</strong><br/>
+      • Dado que el usuario accede a su perfil<br/>
+      • Cuando actualiza campos permitidos y guarda<br/>
+      • Entonces la información se actualiza correctamente.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que la actualización se guarda sin errores<br/>
+      • Cuando finaliza el proceso<br/>
+      • Entonces el sistema muestra confirmación de actualización.
+    </td>
+  </tr>
+
+  <!-- US020 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US020</td>
+    <td>Usuario</td>
+    <td>Baja</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Eliminar mi cuenta permanentemente</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo eliminar mi cuenta y todos mis datos personales de la plataforma de forma permanente.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Solicitud de eliminación</strong><br/>
+      • Dado que el usuario solicita eliminar su cuenta<br/>
+      • Cuando confirma la acción<br/>
+      • Entonces el sistema solicita confirmación adicional por seguridad.<br/><br/>
+      <strong>Escenario 2: Eliminación permanente</strong><br/>
+      • Dado que el usuario confirma definitivamente la eliminación<br/>
+      • Cuando se procesa la solicitud<br/>
+      • Entonces todos sus datos se eliminan permanentemente cumpliendo con políticas de privacidad (GDPR).
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 005 - IA y Recomendaciones             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP005</strong></td>
+    <td colspan="3"><strong>Inteligencia Artificial y Recomendaciones</strong></td>
+  </tr>
+
+  <!-- US021 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US021</td>
     <td>Reclutador</td>
-    <td>Alta</td>
+    <td>Media</td>
     <td>EP005</td>
   </tr>
   <tr>
@@ -1461,11 +1816,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema informa que no hay coincidencias.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US022 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1473,9 +1825,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US014</td>
+    <td>US022</td>
     <td>Postulante</td>
-    <td>Media</td>
+    <td>Baja</td>
     <td>EP005</td>
   </tr>
   <tr>
@@ -1505,11 +1857,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces las sugerencias se actualizan según los nuevos datos.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US023 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1517,9 +1866,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US015</td>
+    <td>US023</td>
     <td>Reclutador</td>
-    <td>Media</td>
+    <td>Baja</td>
     <td>EP005</td>
   </tr>
   <tr>
@@ -1549,12 +1898,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema muestra los criterios y su aporte al puntaje.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 006 - Gestión de Notificaciones        -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP006</strong></td>
+    <td colspan="3"><strong>Gestión de Notificaciones</strong></td>
+  </tr>
 
-<!-- EP006 - Gestión de Notificaciones -->
-<table>
+  <!-- US024 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1562,9 +1919,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US016</td>
+    <td>US024</td>
     <td>Postulante</td>
-    <td>Media</td>
+    <td>Baja</td>
     <td>EP006</td>
   </tr>
   <tr>
@@ -1594,11 +1951,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces solo recibe notificaciones acordes a lo seleccionado.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US025 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1606,7 +1960,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US017</td>
+    <td>US025</td>
     <td>Reclutador</td>
     <td>Media</td>
     <td>EP006</td>
@@ -1638,12 +1992,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces las notificaciones se envían según la preferencia establecida.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 007 - Gestión de Entrevistas          -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP007</strong></td>
+    <td colspan="3"><strong>Gestión de Entrevistas</strong></td>
+  </tr>
 
-<!-- EP007 - Gestión de Entrevistas -->
-<table>
+  <!-- US026 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1651,7 +2013,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US018</td>
+    <td>US026</td>
     <td>Reclutador</td>
     <td>Media</td>
     <td>EP007</td>
@@ -1683,11 +2045,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces solo se muestran las entrevistas del rango seleccionado.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US027 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1695,7 +2054,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US019</td>
+    <td>US027</td>
     <td>Reclutador</td>
     <td>Media</td>
     <td>EP007</td>
@@ -1727,12 +2086,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema alerta del conflicto y no permite la reprogramación.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 008 - Soporte y Ayuda                 -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP008</strong></td>
+    <td colspan="3"><strong>Soporte y Ayuda al Usuario</strong></td>
+  </tr>
 
-<!-- EP008 - Soporte y Ayuda -->
-<table>
+  <!-- US028 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1740,7 +2107,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US020</td>
+    <td>US028</td>
     <td>Usuario</td>
     <td>Media</td>
     <td>EP008</td>
@@ -1772,11 +2139,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces muestra la confirmación con el número de ticket.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US029 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1784,7 +2148,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US021</td>
+    <td>US029</td>
     <td>Agente de Soporte</td>
     <td>Media</td>
     <td>EP008</td>
@@ -1816,12 +2180,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces puede ver todo el historial de comunicación.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 009 - Administración de Pagos         -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP009</strong></td>
+    <td colspan="3"><strong>Administración de Pagos y Suscripciones</strong></td>
+  </tr>
 
-<!-- EP009 - Administración de Pago -->
-<table>
+  <!-- US030 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1829,7 +2201,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US022</td>
+    <td>US030</td>
     <td>Usuario</td>
     <td>Media</td>
     <td>EP009</td>
@@ -1861,11 +2233,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema muestra errores específicos para corregir.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US031 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1873,7 +2242,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US023</td>
+    <td>US031</td>
     <td>Usuario</td>
     <td>Alta</td>
     <td>EP009</td>
@@ -1905,11 +2274,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema informa el error y no registra el pago.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US032 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1917,7 +2283,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US024</td>
+    <td>US032</td>
     <td>Usuario</td>
     <td>Media</td>
     <td>EP009</td>
@@ -1949,12 +2315,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema muestra solo las transacciones del rango seleccionado.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 010 - Configuración                   -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP010</strong></td>
+    <td colspan="3"><strong>Configuración de Preferencias</strong></td>
+  </tr>
 
-<!-- EP010 - Configuración de Preferencias -->
-<table>
+  <!-- US033 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -1962,7 +2336,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US025</td>
+    <td>US033</td>
     <td>Usuario</td>
     <td>Media</td>
     <td>EP010</td>
@@ -1994,11 +2368,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces se aplican las preferencias por defecto.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US034 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2006,7 +2377,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US026</td>
+    <td>US034</td>
     <td>Usuario</td>
     <td>Media</td>
     <td>EP010</td>
@@ -2015,35 +2386,43 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Configurar perfil</td>
+    <td colspan="4">Configurar idioma y zona horaria</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4">Como usuario, deseo personalizar mi perfil para adaptar la experiencia en la plataforma.</td>
+    <td colspan="4">Como usuario, deseo configurar mi idioma preferido y zona horaria para personalizar mi experiencia en la plataforma.</td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <strong>Escenario 1: Edición</strong><br/>
-      • Dado que el usuario accede a su perfil<br/>
-      • Cuando actualiza campos permitidos y guarda<br/>
-      • Entonces la información se actualiza correctamente.<br/><br/>
-      <strong>Escenario 2: Confirmación</strong><br/>
-      • Dado que la actualización se guarda sin errores<br/>
-      • Cuando finaliza el proceso<br/>
-      • Entonces el sistema muestra confirmación de actualización.
+      <strong>Escenario 1: Cambio de idioma</strong><br/>
+      • Dado que el usuario accede a configuración<br/>
+      • Cuando selecciona un idioma disponible y guarda<br/>
+      • Entonces la interfaz se actualiza al idioma seleccionado.<br/><br/>
+      <strong>Escenario 2: Ajuste de zona horaria</strong><br/>
+      • Dado que el usuario configura su zona horaria<br/>
+      • Cuando guarda los cambios<br/>
+      • Entonces todas las fechas y horas se muestran según la zona horaria seleccionada.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 011 - Seguridad de Cuenta             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP011</strong></td>
+    <td colspan="3"><strong>Seguridad de Cuenta</strong></td>
+  </tr>
 
-<!-- EP011 - Seguridad de Cuenta -->
-<table>
+  <!-- US035 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2051,7 +2430,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US027</td>
+    <td>US035</td>
     <td>Usuario</td>
     <td>Alta</td>
     <td>EP011</td>
@@ -2083,11 +2462,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema muestra un error y no actualiza la contraseña.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US036 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2095,9 +2471,50 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US028</td>
+    <td>US036</td>
     <td>Usuario</td>
     <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recuperar contraseña olvidada</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo recuperar mi contraseña olvidada mediante un enlace enviado a mi correo electrónico.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Solicitud de recuperación</strong><br/>
+      • Dado que el usuario olvidó su contraseña<br/>
+      • Cuando ingresa su correo registrado y solicita recuperación<br/>
+      • Entonces el sistema envía un enlace de restablecimiento al correo.<br/><br/>
+      <strong>Escenario 2: Restablecimiento exitoso</strong><br/>
+      • Dado que el usuario accede al enlace válido<br/>
+      • Cuando ingresa y confirma una nueva contraseña<br/>
+      • Entonces el sistema actualiza la contraseña y confirma el cambio.
+    </td>
+  </tr>
+
+  <!-- US037 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US037</td>
+    <td>Usuario</td>
+    <td>Media</td>
     <td>EP011</td>
   </tr>
   <tr>
@@ -2127,12 +2544,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema solicita el código adicional correspondiente.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 012 - Gestión de Roles                -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP012</strong></td>
+    <td colspan="3"><strong>Gestión de Roles y Permisos</strong></td>
+  </tr>
 
-<!-- EP012 - Gestión de Roles -->
-<table>
+  <!-- US038 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2140,9 +2565,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US029</td>
+    <td>US038</td>
     <td>Administrador</td>
-    <td>Alta</td>
+    <td>Media</td>
     <td>EP012</td>
   </tr>
   <tr>
@@ -2172,11 +2597,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el usuario recibe notificación del cambio.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US039 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2184,7 +2606,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US030</td>
+    <td>US039</td>
     <td>Administrador</td>
     <td>Media</td>
     <td>EP012</td>
@@ -2216,12 +2638,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces observa y utiliza las opciones disponibles para postulantes.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 013 - Redes Sociales                  -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP013</strong></td>
+    <td colspan="3"><strong>Integración con Redes Sociales</strong></td>
+  </tr>
 
-<!-- EP013 - Integración con Redes Sociales -->
-<table>
+  <!-- US040 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2229,9 +2659,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US031</td>
+    <td>US040</td>
     <td>Usuario</td>
-    <td>Media</td>
+    <td>Baja</td>
     <td>EP013</td>
   </tr>
   <tr>
@@ -2261,11 +2691,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el sistema informa el error y ofrece alternativas de acceso.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US041 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2273,9 +2700,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US032</td>
+    <td>US041</td>
     <td>Reclutador</td>
-    <td>Media</td>
+    <td>Baja</td>
     <td>EP013</td>
   </tr>
   <tr>
@@ -2305,11 +2732,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces muestra el enlace compartido al reclutador.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US042 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2317,7 +2741,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US033</td>
+    <td>US042</td>
     <td>Postulante</td>
     <td>Baja</td>
     <td>EP013</td>
@@ -2349,12 +2773,20 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el perfil se publica y se confirma la acción.
     </td>
   </tr>
-</table>
 
-<br/>
+  <!-- ============================================ -->
+  <!-- EPIC 014 - Comentarios                     -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP014</strong></td>
+    <td colspan="3"><strong>Gestión de Comentarios y Feedback</strong></td>
+  </tr>
 
-<!-- EP014 - Gestión de Comentarios -->
-<table>
+  <!-- US043 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2362,7 +2794,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US034</td>
+    <td>US043</td>
     <td>Postulante</td>
     <td>Baja</td>
     <td>EP014</td>
@@ -2394,11 +2826,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el comentario queda bloqueado y el usuario recibe notificación.
     </td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- US044 -->
   <tr>
     <th>Story ID</th>
     <th>User</th>
@@ -2406,7 +2835,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Epic</th>
   </tr>
   <tr>
-    <td>US035</td>
+    <td>US044</td>
     <td>Postulante</td>
     <td>Baja</td>
     <td>EP014</td>
@@ -2438,8 +2867,723 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       • Entonces el comentario aparece sin datos personales asociados.
     </td>
   </tr>
-</table>
 
+  <!-- ============================================ -->
+  <!-- EPIC 015 - Landing Page                    -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP015</strong></td>
+    <td colspan="3"><strong>Landing Page y Marketing Digital</strong></td>
+  </tr>
+
+  <!-- US045 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US045</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver hero y propuesta de valor de la plataforma</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo visualizar una sección hero atractiva con la propuesta de valor principal para comprender rápidamente los beneficios de la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Visualización del hero</strong><br/>
+      • Dado que el visitante accede al landing page<br/>
+      • Cuando la página carga completamente<br/>
+      • Entonces se muestra el hero con título, subtítulo, propuesta de valor clara y CTA principal.<br/><br/>
+      <strong>Escenario 2: Responsive</strong><br/>
+      • Dado que el visitante accede desde dispositivos móviles<br/>
+      • Cuando se renderiza la sección hero<br/>
+      • Entonces se adapta correctamente al tamaño de la pantalla manteniendo legibilidad.
+    </td>
+  </tr>
+
+  <!-- US046 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US046</td>
+    <td>Visitante Empresa</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver sección de beneficios para empresas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante empresa, deseo ver una sección específica con los beneficios de usar la plataforma para contratación para evaluar si se ajusta a mis necesidades.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Contenido relevante</strong><br/>
+      • Dado que el visitante empresa navega al landing page<br/>
+      • Cuando accede a la sección de beneficios empresariales<br/>
+      • Entonces se muestran características clave: gestión de vacantes, IA para matching, reportes, integraciones.<br/><br/>
+      <strong>Escenario 2: Call to action</strong><br/>
+      • Dado que el visitante visualiza los beneficios<br/>
+      • Cuando revisa la información<br/>
+      • Entonces encuentra un CTA claro para registrarse como empresa o solicitar demo.
+    </td>
+  </tr>
+
+  <!-- US047 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US047</td>
+    <td>Visitante Postulante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver sección de beneficios para postulantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante postulante, deseo ver una sección que explique cómo la plataforma me ayudará a encontrar empleo para decidir registrarme.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Beneficios claros</strong><br/>
+      • Dado que el visitante postulante navega al landing page<br/>
+      • Cuando accede a la sección de beneficios para postulantes<br/>
+      • Entonces se muestran ventajas clave: recomendaciones personalizadas, seguimiento de postulaciones, alertas de vacantes.<br/><br/>
+      <strong>Escenario 2: Motivación a registro</strong><br/>
+      • Dado que el visitante lee los beneficios<br/>
+      • Cuando finaliza la lectura<br/>
+      • Entonces encuentra un CTA claro para crear su perfil de postulante.
+    </td>
+  </tr>
+
+  <!-- US048 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US048</td>
+    <td>Visitante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver testimonios y casos de éxito</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo ver testimonios reales de empresas y postulantes que usaron la plataforma para generar confianza en el servicio.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Testimonios verificables</strong><br/>
+      • Dado que el visitante navega a la sección de testimonios<br/>
+      • Cuando visualiza el contenido<br/>
+      • Entonces se muestran al menos 3 testimonios con nombre, cargo/empresa y experiencia positiva.<br/><br/>
+      <strong>Escenario 2: Casos de éxito</strong><br/>
+      • Dado que el visitante busca validación<br/>
+      • Cuando accede a casos de éxito<br/>
+      • Entonces se muestran métricas concretas (ej: "500+ contrataciones exitosas", "Tiempo de contratación reducido 40%").
+    </td>
+  </tr>
+
+  <!-- US049 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US049</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver call-to-action de registro</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo encontrar fácilmente botones de registro para comenzar a usar la plataforma cuando esté convencido.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: CTA visible</strong><br/>
+      • Dado que el visitante navega por el landing page<br/>
+      • Cuando se desplaza por cualquier sección<br/>
+      • Entonces encuentra al menos un CTA visible para "Registrarse como Empresa" o "Registrarse como Postulante".<br/><br/>
+      <strong>Escenario 2: Redirección correcta</strong><br/>
+      • Dado que el visitante hace clic en un CTA de registro<br/>
+      • Cuando se procesa la acción<br/>
+      • Entonces es redirigido correctamente al formulario de registro correspondiente a su perfil.
+    </td>
+  </tr>
+
+  <!-- US050 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US050</td>
+    <td>Visitante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Contactar al equipo mediante formulario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo enviar consultas o solicitar información adicional mediante un formulario de contacto para resolver dudas antes de registrarme.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío exitoso</strong><br/>
+      • Dado que el visitante completa el formulario de contacto con datos válidos<br/>
+      • Cuando envía el formulario<br/>
+      • Entonces recibe confirmación de envío y el equipo recibe la consulta.<br/><br/>
+      <strong>Escenario 2: Validación de campos</strong><br/>
+      • Dado que el visitante omite campos obligatorios<br/>
+      • Cuando intenta enviar el formulario<br/>
+      • Entonces el sistema muestra errores específicos para cada campo faltante.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- TECHNICAL STORIES - APIs REST               -->
+  <!-- ============================================ -->
+  <tr style="background-color: #d0d0d0;">
+    <th colspan="4" style="text-align: center;">TECHNICAL STORIES</th>
+  </tr>
+
+  <!-- TS001 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS001</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API de autenticación con JWT</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints de autenticación con generación y validación de tokens JWT para gestionar sesiones seguras de usuarios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Login exitoso</strong><br/>
+      • Dado que se envía POST /api/auth/login con credenciales válidas<br/>
+      • Cuando el servidor valida las credenciales<br/>
+      • Entonces devuelve status 200 con token JWT y datos del usuario.<br/><br/>
+      <strong>Escenario 2: Credenciales inválidas</strong><br/>
+      • Dado que se envía POST /api/auth/login con credenciales incorrectas<br/>
+      • Cuando el servidor valida las credenciales<br/>
+      • Entonces devuelve status 401 con mensaje de error.<br/><br/>
+      <strong>Escenario 3: Token expirado</strong><br/>
+      • Dado que se envía un request con token JWT expirado<br/>
+      • Cuando el middleware valida el token<br/>
+      • Entonces devuelve status 401 requiriendo nueva autenticación.
+    </td>
+  </tr>
+
+  <!-- TS002 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS002</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión completa de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints CRUD completos para vacantes (crear, listar, obtener detalle, actualizar, eliminar) con validaciones y filtros.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear vacante</strong><br/>
+      • Dado que se envía POST /api/vacantes con datos válidos y token de reclutador<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 201 con la vacante creada.<br/><br/>
+      <strong>Escenario 2: Listar con filtros</strong><br/>
+      • Dado que se envía GET /api/vacantes?estado=activa&ubicacion=Lima<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 200 con array de vacantes que cumplen los filtros.<br/><br/>
+      <strong>Escenario 3: Validación de campos</strong><br/>
+      • Dado que se envía POST /api/vacantes con campos obligatorios faltantes<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con detalles de campos faltantes.
+    </td>
+  </tr>
+
+  <!-- TS003 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS003</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión de postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear postulaciones, listar postulaciones por vacante y por postulante, y actualizar estados.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear postulación</strong><br/>
+      • Dado que se envía POST /api/postulaciones con vacanteId válido y token de postulante<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 201 con la postulación creada.<br/><br/>
+      <strong>Escenario 2: Evitar duplicados</strong><br/>
+      • Dado que se envía POST /api/postulaciones para una vacante donde el postulante ya aplicó<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 409 con mensaje de postulación duplicada.<br/><br/>
+      <strong>Escenario 3: Listar por vacante</strong><br/>
+      • Dado que se envía GET /api/vacantes/{id}/postulaciones con token de reclutador<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con array de postulaciones de esa vacante.
+    </td>
+  </tr>
+
+  <!-- TS004 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS004</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para programación de entrevistas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear, listar, actualizar y cancelar entrevistas con validación de conflictos de horario.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear entrevista</strong><br/>
+      • Dado que se envía POST /api/entrevistas con postulacionId, fecha, hora válidos<br/>
+      • Cuando el servidor valida que no hay conflictos<br/>
+      • Entonces devuelve status 201 con la entrevista creada.<br/><br/>
+      <strong>Escenario 2: Conflicto de horario</strong><br/>
+      • Dado que se envía POST /api/entrevistas con horario ocupado<br/>
+      • Cuando el servidor detecta el conflicto<br/>
+      • Entonces devuelve status 409 con mensaje de conflicto.<br/><br/>
+      <strong>Escenario 3: Reprogramar</strong><br/>
+      • Dado que se envía PUT /api/entrevistas/{id} con nueva fecha/hora<br/>
+      • Cuando el servidor valida disponibilidad<br/>
+      • Entonces devuelve status 200 con entrevista actualizada.
+    </td>
+  </tr>
+
+  <!-- TS005 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS005</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP006</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para notificaciones push</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para enviar notificaciones push, registrar tokens FCM de dispositivos y gestionar preferencias de notificación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registrar token FCM</strong><br/>
+      • Dado que se envía POST /api/notificaciones/tokens con token FCM válido<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 201 y almacena el token asociado al usuario.<br/><br/>
+      <strong>Escenario 2: Enviar notificación</strong><br/>
+      • Dado que se invoca POST /api/notificaciones/send con userId y mensaje<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces envía la notificación push al dispositivo registrado y devuelve status 200.<br/><br/>
+      <strong>Escenario 3: Token inválido</strong><br/>
+      • Dado que se intenta enviar notificación a token FCM inválido o expirado<br/>
+      • Cuando el servidor detecta el error<br/>
+      • Entonces devuelve status 400 y elimina el token de la base de datos.
+    </td>
+  </tr>
+
+  <!-- TS006 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS006</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para búsqueda y filtros de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoint de búsqueda avanzada con múltiples filtros, paginación y ordenamiento para vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Búsqueda con múltiples filtros</strong><br/>
+      • Dado que se envía GET /api/vacantes/search?q=developer&ubicacion=Lima&tipo=remoto<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con vacantes que cumplen todos los criterios.<br/><br/>
+      <strong>Escenario 2: Paginación</strong><br/>
+      • Dado que se envía GET /api/vacantes/search?page=2&limit=20<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con la página 2 de resultados y metadata de paginación.<br/><br/>
+      <strong>Escenario 3: Sin resultados</strong><br/>
+      • Dado que se envía búsqueda sin coincidencias<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con array vacío y mensaje informativo.
+    </td>
+  </tr>
+
+  <!-- TS007 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS007</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión de perfiles de usuario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear, obtener, actualizar y eliminar perfiles de postulantes y reclutadores con validaciones apropiadas.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Actualizar perfil</strong><br/>
+      • Dado que se envía PUT /api/usuarios/{id}/perfil con datos válidos<br/>
+      • Cuando el servidor valida y procesa<br/>
+      • Entonces devuelve status 200 con perfil actualizado.<br/><br/>
+      <strong>Escenario 2: Obtener perfil público</strong><br/>
+      • Dado que se envía GET /api/usuarios/{id}/perfil-publico<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con datos públicos del perfil (sin información sensible).<br/><br/>
+      <strong>Escenario 3: Validación de datos</strong><br/>
+      • Dado que se envía actualización con formato de email inválido<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con detalles del error de validación.
+    </td>
+  </tr>
+
+  <!-- TS008 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS008</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para procesamiento de pagos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar integración con pasarela de pagos (Stripe/MercadoPago) para procesar transacciones, registrar métodos de pago y consultar historial.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear intención de pago</strong><br/>
+      • Dado que se envía POST /api/pagos/create-intent con monto y usuarioId<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con clientSecret de la pasarela.<br/><br/>
+      <strong>Escenario 2: Confirmar pago</strong><br/>
+      • Dado que se envía POST /api/pagos/confirm con paymentIntentId<br/>
+      • Cuando la pasarela confirma la transacción<br/>
+      • Entonces devuelve status 200, actualiza estado en DB y activa funcionalidad premium.<br/><br/>
+      <strong>Escenario 3: Falla de pago</strong><br/>
+      • Dado que la pasarela rechaza el pago<br/>
+      • Cuando el servidor recibe el webhook de rechazo<br/>
+      • Entonces devuelve status 402 con motivo del rechazo.
+    </td>
+  </tr>
+
+  <!-- TS009 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS009</td>
+    <td>Developer</td>
+    <td>Baja</td>
+    <td>EP012</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para reportes y analytics</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para generar reportes estadísticos de vacantes, postulaciones, entrevistas y métricas de contratación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Reporte de vacantes</strong><br/>
+      • Dado que se envía GET /api/reportes/vacantes?fechaInicio=2025-01-01&fechaFin=2025-03-31<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con métricas: total vacantes, activas, cerradas, tiempo promedio de cierre.<br/><br/>
+      <strong>Escenario 2: Dashboard de reclutador</strong><br/>
+      • Dado que se envía GET /api/reportes/dashboard con token de reclutador<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con KPIs: postulaciones pendientes, entrevistas programadas, ofertas enviadas.<br/><br/>
+      <strong>Escenario 3: Exportar reporte</strong><br/>
+      • Dado que se envía GET /api/reportes/exportar?tipo=postulaciones&formato=csv<br/>
+      • Cuando el servidor genera el archivo<br/>
+      • Entonces devuelve status 200 con archivo CSV descargable.
+    </td>
+  </tr>
+
+  <!-- TS010 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS010</td>
+    <td>Developer</td>
+    <td>Baja</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para carga de archivos (CVs y documentos)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para subir, almacenar, descargar y eliminar archivos de CVs y documentos con validaciones de tipo y tamaño.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Subir CV</strong><br/>
+      • Dado que se envía POST /api/archivos/upload con archivo PDF o DOCX válido<br/>
+      • Cuando el servidor valida tipo y tamaño (máx 5MB)<br/>
+      • Entonces devuelve status 201 con URL del archivo almacenado.<br/><br/>
+      <strong>Escenario 2: Archivo no permitido</strong><br/>
+      • Dado que se envía archivo con extensión no permitida (.exe, .bat)<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con mensaje de tipo de archivo no permitido.<br/><br/>
+      <strong>Escenario 3: Descargar archivo</strong><br/>
+      • Dado que se envía GET /api/archivos/{id}/download con token válido<br/>
+      • Cuando el servidor valida permisos<br/>
+      • Entonces devuelve status 200 con el archivo para descarga.
+    </td>
+  </tr>
+
+</table>
 
 <!-- SPIKES - Technical Backlog -->
 
