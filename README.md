@@ -1928,20 +1928,294 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 ---
 ### **4.3.2. Registro de Entrevistas**
+
+#### Segmento 1: Equipos de Recursos Humanos (Reclutadores)
+
+##### Entrevista 1
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | [Nombre completo] |
+| **Apellidos** | [Apellidos] |
+| **Edad** | [Edad] años |
+| **Distrito** | [Distrito, Ciudad] |
+| **Screenshot** | ![Entrevista 1 Reclutador](ruta/imagen.png) |
+| **URL de la Entrevista** | [Link al video en OneDrive] |
+| **Timing** | 00:00 - 00:00 |
+| **Duración** | XX minutos |
+
+**Resumen de la Entrevista:**
+
+[Resumen]
+
+---
+
+##### Entrevista 2
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | [Nombre completo] |
+| **Apellidos** | [Apellidos] |
+| **Edad** | [Edad] años |
+| **Distrito** | [Distrito, Ciudad] |
+| **Screenshot** | ![Entrevista 2 Reclutador](ruta/imagen.png) |
+| **URL de la Entrevista** | [Link al video en OneDrive] |
+| **Timing** | 00:00 - 00:00 |
+| **Duración** | XX minutos |
+
+**Resumen de la Entrevista:**
+
+[Resumen]
+
+---
+
+##### Entrevista 3
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | [Nombre completo] |
+| **Apellidos** | [Apellidos] |
+| **Edad** | [Edad] años |
+| **Distrito** | [Distrito, Ciudad] |
+| **Screenshot** | ![Entrevista 3 Reclutador](ruta/imagen.png) |
+| **URL de la Entrevista** | [Link al video en OneDrive] |
+| **Timing** | 00:00 - 00:00 |
+| **Duración** | XX minutos |
+
+**Resumen de la Entrevista:**
+
+[Resumen]
+
+---
+
+#### Segmento 2: Postulantes (Candidatos)
+
+##### Entrevista 1
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | [Nombre completo] |
+| **Apellidos** | [Apellidos] |
+| **Edad** | [Edad] años |
+| **Distrito** | [Distrito, Ciudad] |
+| **Screenshot** | ![Entrevista 1 Postulante](ruta/imagen.png) |
+| **URL de la Entrevista** | [Link al video en OneDrive] |
+| **Timing** | 00:00 - 00:00 |
+| **Duración** | XX minutos |
+
+**Resumen de la Entrevista:**
+
+[Resumen]
+
+---
+
+##### Entrevista 2
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | [Nombre completo] |
+| **Apellidos** | [Apellidos] |
+| **Edad** | [Edad] años |
+| **Distrito** | [Distrito, Ciudad] |
+| **Screenshot** | ![Entrevista 2 Postulante](ruta/imagen.png) |
+| **URL de la Entrevista** | [Link al video en OneDrive] |
+| **Timing** | 00:00 - 00:00 |
+| **Duración** | XX minutos |
+
+**Resumen de la Entrevista:**
+
+[Resumen]
+
+---
+
+##### Entrevista 3
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | [Nombre completo] |
+| **Apellidos** | [Apellidos] |
+| **Edad** | [Edad] años |
+| **Distrito** | [Distrito, Ciudad] |
+| **Screenshot** | ![Entrevista 3 Postulante](ruta/imagen.png) |
+| **URL de la Entrevista** | [Link al video en OneDrive] |
+| **Timing** | 00:00 - 00:00 |
+| **Duración** | XX minutos |
+
+**Resumen de la Entrevista:**
+
+[Resumen]
+
+---
 ### **4.3.3. Evaluaciones según heurísticas**
 
+### 4.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+**Usability - Inclusive Design - Information Architecture**
 
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Open Source  
+**SECCIÓN:** [Código de Sección]  
+**PROFESORES:** Todos  
+**AUDITOR:** [Nombre del Equipo/Grupo]  
+**CLIENTE(S):** [Nombres de los participantes de la sesión de validación]
 
+---
 
+#### SITE o APP A EVALUAR:
+Plataforma de Reclutamiento - Landing Page y Aplicación Móvil Android
 
+---
 
+#### TAREAS A EVALUAR:
 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
+**Segmento Reclutadores:**
+1. Registro de cuenta de reclutador
+2. Creación de nueva vacante
+3. Visualización y filtrado de postulaciones
+4. Programación de entrevistas
+5. Envío de ofertas laborales
 
+**Segmento Postulantes:**
+1. Registro de cuenta de postulante
+2. Búsqueda y filtrado de vacantes
+3. Visualización de detalle de vacante
+4. Postulación a una vacante
+5. Seguimiento del estado de postulaciones
+6. Actualización de perfil profesional
 
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Recomendación de candidatos mediante IA
+2. Puntaje automático de CVs
+3. Sistema de notificaciones push personalizadas
+4. Integración con redes sociales
+5. Sistema de pagos y suscripciones premium
 
+---
 
+#### ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|:-----:|:-----------|
+| **1** | Problema superficial: Puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+#### TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|:-:|:---------|:-------------------:|:-------------------------------|
+| 1 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
+| 2 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
+| 3 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
+| 4 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
+| 5 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+##### PROBLEMA #1: [Título descriptivo del problema]
+
+**Severidad:** [1, 2, 3 o 4]
+
+**Heurística violada:** [Categoría - Nombre de la heurística]  
+*Ejemplo: Usability - Visibilidad del estado del sistema*
+
+**Problema:**
+
+[Descripción detallada del problema observado durante las sesiones de validación. Explicar:
+- En qué contexto ocurrió
+- Qué tarea estaba realizando el usuario
+- Cuántos usuarios experimentaron este problema
+- Cómo impactó en la experiencia del usuario]
+
+(Incluir captura de pantalla ilustrando el problema)
+
+**Recomendación:**
+
+[Solución específica y accionable para resolver el problema. Explicar cómo esta solución mejorará la experiencia del usuario.]
+
+---
+
+##### PROBLEMA #2: [Título descriptivo del problema]
+
+**Severidad:** [1, 2, 3 o 4]
+
+**Heurística violada:** [Categoría - Nombre de la heurística]
+
+**Problema:**
+
+[Descripción detallada del problema]
+
+(Incluir captura de pantalla ilustrando el problema)
+
+**Recomendación:**
+
+[Solución propuesta]
+
+---
+
+##### PROBLEMA #3: [Título descriptivo del problema]
+
+**Severidad:** [1, 2, 3 o 4]
+
+**Heurística violada:** [Categoría - Nombre de la heurística]
+
+**Problema:**
+
+[Descripción detallada del problema]
+
+(Incluir captura de pantalla ilustrando el problema)
+
+**Recomendación:**
+
+[Solución propuesta]
+
+---
+
+##### PROBLEMA #4: [Título descriptivo del problema]
+
+**Severidad:** [1, 2, 3 o 4]
+
+**Heurística violada:** [Categoría - Nombre de la heurística]
+
+**Problema:**
+
+[Descripción detallada del problema]
+
+(Incluir captura de pantalla ilustrando el problema)
+
+**Recomendación:**
+
+[Solución propuesta]
+
+---
+
+##### PROBLEMA #5: [Título descriptivo del problema]
+
+**Severidad:** [1, 2, 3 o 4]
+
+**Heurística violada:** [Categoría - Nombre de la heurística]
+
+**Problema:**
+
+[Descripción detallada del problema]
+
+(Incluir captura de pantalla ilustrando el problema)
+
+**Recomendación:**
+
+[Solución propuesta]
+
+---
 
 
 
