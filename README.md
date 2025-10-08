@@ -1066,7 +1066,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 - Evidencia del Product Backlog en Trello:
 <img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
 
-- Link del Product Backlog en Trello: [https://trello.com/b/9qdSu2o9/product-backlog-smarthire](https://trello.com/b/9qdSu2o9/product-backlog-smarthire)
+- Link del Product Backlog en Trello: [https://trello.com/b/T6UCC586/product-backlog-smarthire](https://trello.com/b/T6UCC586/product-backlog-smarthire)
 
 ## **2.5. Strategic-Level Domain-Driven Design**
 ### **2.5.1. EventStorming**
