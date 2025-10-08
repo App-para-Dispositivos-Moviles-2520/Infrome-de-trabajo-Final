@@ -1123,10 +1123,10 @@ Bounded Context: Publicaciones
 ![The Bounded Context Canvas.jpg](img/Bounded_Context_Canvases_Publicaciones.PNG)
 
 Bounded Context: Candidatos
-
+![Bounded_Context_Canvases_Candidatos.PNG](img/Bounded_Context_Canvases_Candidatos.PNG)
 
 Bounded Context: Analiticas
-
+![Bounded_Context_Canvases_Analiticas.jpg](img/Bounded_Context_Canvases_Analiticas.jpg)
 
 Bounded Context: Perfil
 ![Bounded Context Asistencia IA](img/Bounded_Context_Canvases_Profile.PNG)
