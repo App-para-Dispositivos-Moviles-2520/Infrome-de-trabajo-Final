@@ -3585,9 +3585,15 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 
 </table>
 
-<!-- SPIKES - Technical Backlog -->
+<!-- ========================================= -->
+<!-- SPIKE STORIES                            -->
+<!-- Con numeración actualizada de US         -->
+<!-- Total: 8 Spikes                          -->
+<!-- ========================================= -->
 
-<table>
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse;">
+
+  <!-- ============ SP001 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP001</td>
@@ -3623,13 +3629,10 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Definition of Done</th>
-    <td>El modelo de IA se integra correctamente al backend .NET, genera recomendaciones de candidatos (US013) y vacantes (US014), calcula puntajes de CVs (US015), se despliega en Azure App Service con endpoints documentados.</td>
+    <td>El modelo de IA se integra correctamente al backend .NET, genera recomendaciones de candidatos (US021) y vacantes (US022), calcula puntajes de CVs (US023), se despliega en Azure App Service con endpoints documentados.</td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- ============ SP002 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP002</td>
@@ -3644,7 +3647,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Description</th>
-    <td>Como equipo de desarrollo, necesitamos integrar autenticación JWT en el backend .NET con registro diferenciado para postulantes (US010) y reclutadores (US011), gestión de roles (US029, US030), cambio de contraseña (US027) y 2FA (US028).</td>
+    <td>Como equipo de desarrollo, necesitamos integrar autenticación JWT en el backend .NET con registro diferenciado para postulantes (US013) y reclutadores (US014), gestión de roles (US038, US039), cambio de contraseña (US035) y 2FA (US037).</td>
   </tr>
   <tr>
     <th>Acceptance Criteria</th>
@@ -3667,11 +3670,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Definition of Done</th>
     <td>Backend .NET implementa autenticación JWT con roles, la app Android gestiona tokens correctamente, se soporta registro de postulantes y reclutadores, cambio de contraseña, 2FA opcional, pruebas de seguridad completadas y despliegue en Azure con HTTPS.</td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- ============ SP003 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP003</td>
@@ -3686,7 +3686,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Description</th>
-    <td>Como equipo de desarrollo, necesitamos implementar la lógica de transición de estados de postulaciones, gestión de entrevistas (US007, US008, US018, US019) y envío de ofertas laborales (US009) con validaciones y notificaciones correspondientes.</td>
+    <td>Como equipo de desarrollo, necesitamos implementar la lógica de transición de estados de postulaciones, gestión de entrevistas (US010, US011, US026, US027) y envío de ofertas laborales (US012) con validaciones y notificaciones correspondientes.</td>
   </tr>
   <tr>
     <th>Acceptance Criteria</th>
@@ -3709,11 +3709,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Definition of Done</th>
     <td>Backend .NET implementa workflow de postulaciones, gestión de entrevistas con validación de horarios, calendario de entrevistas, registro de resultados, envío de ofertas, notificaciones automáticas y pruebas del flujo completo en Azure.</td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- ============ SP004 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP004</td>
@@ -3724,7 +3721,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Context</th>
-    <td>Postulantes y reclutadores necesitan recibir notificaciones en tiempo real sobre vacantes relevantes (US016) y nuevas postulaciones (US017), con configuración personalizada (US025).</td>
+    <td>Postulantes y reclutadores necesitan recibir notificaciones en tiempo real sobre vacantes relevantes (US024) y nuevas postulaciones (US025), con configuración personalizada (US033).</td>
   </tr>
   <tr>
     <th>Description</th>
@@ -3751,11 +3748,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Definition of Done</th>
     <td>FCM integrado en Android, backend .NET envía notificaciones personalizadas por tipo de usuario, tokens almacenados en MySQL, configuración de preferencias funcional, validación en Azure App Service.</td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- ============ SP005 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP005</td>
@@ -3770,7 +3764,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Description</th>
-    <td>Como equipo de desarrollo, necesitamos integrar una pasarela de pago (Stripe o MercadoPago) para gestionar suscripciones y compras (US022, US023), con historial de transacciones (US024) y registro en MySQL.</td>
+    <td>Como equipo de desarrollo, necesitamos integrar una pasarela de pago (Stripe o MercadoPago) para gestionar suscripciones y compras (US030, US031), con historial de transacciones (US032) y registro en MySQL.</td>
   </tr>
   <tr>
     <th>Acceptance Criteria</th>
@@ -3793,11 +3787,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Definition of Done</th>
     <td>Flujo de pagos funcional entre Android, backend .NET y pasarela, registro/consulta de métodos de pago, historial de transacciones, pruebas de seguridad con HTTPS completadas, despliegue en Azure.</td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- ============ SP006 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP006</td>
@@ -3808,7 +3799,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Context</th>
-    <td>Los reclutadores necesitan consultar y filtrar grandes volúmenes de postulaciones (US005, US006) con tiempos de respuesta óptimos para mejorar la experiencia de uso.</td>
+    <td>Los reclutadores necesitan consultar y filtrar grandes volúmenes de postulaciones (US007, US008) con tiempos de respuesta óptimos para mejorar la experiencia de uso.</td>
   </tr>
   <tr>
     <th>Description</th>
@@ -3835,11 +3826,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Definition of Done</th>
     <td>Consultas de postulaciones optimizadas con índices en MySQL, paginación implementada, filtros combinados funcionales con tiempos de respuesta verificados, monitoreo de performance en Azure.</td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- ============ SP007 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP007</td>
@@ -3850,7 +3838,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Context</th>
-    <td>Es necesario implementar un sistema de tickets para que usuarios registren incidencias (US020) y agentes de soporte puedan gestionarlas eficientemente (US021), con logs centralizados en Azure.</td>
+    <td>Es necesario implementar un sistema de tickets para que usuarios registren incidencias (US028) y agentes de soporte puedan gestionarlas eficientemente (US029), con logs centralizados en Azure.</td>
   </tr>
   <tr>
     <th>Description</th>
@@ -3877,11 +3865,8 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Definition of Done</th>
     <td>Sistema de tickets funcional, agentes pueden responder solicitudes, historial completo disponible, logs de Android y .NET centralizados en Azure, dashboard de monitoreo configurado, alertas automáticas activas.</td>
   </tr>
-</table>
 
-<br/>
-
-<table>
+  <!-- ============ SP008 ============ -->
   <tr>
     <th>Spike ID</th>
     <td>SP008</td>
@@ -3919,6 +3904,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th>Definition of Done</th>
     <td>Pipeline CI/CD funcional en Azure DevOps, builds automáticas para Android y .NET, pruebas unitarias ejecutándose correctamente, despliegue automático a múltiples ambientes, base de datos MySQL integrada, notificaciones configuradas.</td>
   </tr>
+
 </table>
 
 - Evidencia de los User Stories en Pivotal Tracker:
