@@ -204,9 +204,9 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**4.1.3. Source Code Style Guide \& Conventions**](#413-source-code-style-guide--conventions)
     - [**4.1.4. Software Deployment Configuration**](#414-software-deployment-configuration)
   - [**4.2. Landing Page \& Mobile Application Implementation**](#42-landing-page--mobile-application-implementation)
-    - [**4.2.1. Sprint n**](#421-sprint-n)
-      - [**4.2.1.1. Sprint Planning n**](#4211-sprint-planning-n)
-      - [**4.2.1.2. Sprint Backlog n**](#4212-sprint-backlog-n)
+    - [**4.2.1. Sprint 1**](#421-sprint-1)
+      - [**4.2.1.1. Sprint Planning 1**](#4211-sprint-planning-1)
+      - [**4.2.1.2. Sprint Backlog 1**](#4212-sprint-backlog-1)
       - [**4.2.1.3. Development Evidence for Sprint Review**](#4213-development-evidence-for-sprint-review)
       - [**4.2.1.4. Testing Suite Evidence for Sprint Review**](#4214-testing-suite-evidence-for-sprint-review)
       - [**4.2.1.5. Execution Evidence for Sprint Review**](#4215-execution-evidence-for-sprint-review)
@@ -1589,9 +1589,39 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 ### **4.1.4. Software Deployment Configuration**
 
 ## **4.2. Landing Page & Mobile Application Implementation**
-### **4.2.1. Sprint n**
-#### **4.2.1.1. Sprint Planning n**
-#### **4.2.1.2. Sprint Backlog n**
+### **4.2.1. Sprint 1**
+#### **4.2.1.1. Sprint Planning 1**
+
+| **Sprint #**                    | Sprint 1 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  |          |
+| **Date**                        | 02/10/2025 |
+| **Time**                        | 7:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo |
+| **Sprint n - 1 Review Summary**  | No hubo sprint anterior |
+| **Sprint n - 1 Retrospective Summary** | No hubo sprint anterior |
+| **Sprint Goal & User Stories**   |          |
+| **Sprint 1 Goal**                | Nuestro enfoque está en diseñar e implementar las pantallas principales de la aplicación Android, junto con la configuración inicial del backend y la landing page. <br> Creemos que esto proporciona la base visual y arquitectónica de la plataforma de reclutamiento, permitiendo integrar las funcionalidades en los próximos sprints. <br> Esto se confirmará cuando la app muestre las pantallas principales con un flujo de navegación coherente y una identidad visual definida, y cuando el backend y la landing page estén desplegados. |
+| **Sprint 1 Velocity**            | 25 Story Points |
+| **Sum of Story Points**          | 25 |
+
+#### **4.2.1.2. Sprint Backlog 1**
+
+| Sprint # | Sprint 1 |          |           |             |         |         |        |
+|----------|--------|----------|-----------|-------------|---------|---------|--------|
+| **User Story** | | **Work Item / Task** | | | | | |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| US011 | Registrar cuenta de reclutador | W001 | Implementar endpoint para usuario (reclutador) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 2hrs | Javier | Done |
+| US010 | Registrar cuenta de postulante | W002 | Implementar endpoint para usuario (postulante) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 3hrs | Javier | Done |
+| US031 | Iniciar sesión con redes sociales | W003 | Implementar pantalla de inicio de sesión | Elaborar un apartado visual que permita iniciar sesion. | 2hrs | Ricardo | Done |
+| US027 | Cambiar contraseña | W004 | Implementar pantalla de cambio de contraseña | Elaborar un apartado visual que permita cambiar la contraseña. | 2hrs | Raul | Done |
+| US026 | Configurar perfil | W005 | Implementar pantalla de perfil | Elaborar un apartado visual que permita cambiar la configuración del perfil | 2hrs | Yair | Done |
+| SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | W006 | Implementar IA para el backend | Elaborar el bounded context de IA en el backend. | 2hrs | Ronald | Done |
+| SP002 | Autenticación Segura con JWT y Control de Sesiones | W007 | Implementar JWT al apartado de usuario para el backend | Elaborar la autenticación con JWT al iniciar sesion. | 2hrs | Ronald | Done |
+
 #### **4.2.1.3. Development Evidence for Sprint Review**
 #### **4.2.1.4. Testing Suite Evidence for Sprint Review**
 #### **4.2.1.5. Execution Evidence for Sprint Review**
