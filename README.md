@@ -1613,7 +1613,6 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 |----------|--------|----------|-----------|-------------|---------|---------|--------|
 | **User Story** | | **Work Item / Task** | | | | | |
 | ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
 | US011 | Registrar cuenta de reclutador | W001 | Implementar endpoint para usuario (reclutador) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 2hrs | Javier | Done |
 | US010 | Registrar cuenta de postulante | W002 | Implementar endpoint para usuario (postulante) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 3hrs | Javier | Done |
 | US031 | Iniciar sesión con redes sociales | W003 | Implementar pantalla de inicio de sesión | Elaborar un apartado visual que permita iniciar sesion. | 2hrs | Ricardo | Done |
@@ -1622,7 +1621,25 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 | SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | W006 | Implementar IA para el backend | Elaborar el bounded context de IA en el backend. | 2hrs | Ronald | Done |
 | SP002 | Autenticación Segura con JWT y Control de Sesiones | W007 | Implementar JWT al apartado de usuario para el backend | Elaborar la autenticación con JWT al iniciar sesion. | 2hrs | Ronald | Done |
 
+- Evidencia del Product Backlog - Sprint 1 en Trello:
+<img src="img/Product_Backlog_Sprint1_SmartHire.png" alt="productbacklog-Sprint1" width= 1000/>
+
+- Link del Product Backlog - Sprint 1 en Trello: [https://trello.com/b/T6UCC586/product-backlog-smarthire](https://trello.com/b/T6UCC586/product-backlog-smarthire)
+
 #### **4.2.1.3. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits de la siguiente forma.
+
+- Repositorio Informe:
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|:----------:|:------:|:---------:|:--------------:|:------------------:|
+| Infrome-de-trabajo-Final | develop | 56b278825b519e7724d1acd901098fd54c9ecd62 | update: changed spike stories | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 548ad688c931975be7654ac76be1a2f0d7ff3a77 | update: product backlog updated | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 6bc910900031390fd9a0f4b4442dbb08d71fe7a7 | update: product backlog link | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 2ab1eea35cfaa3a4b9c51858ef036207adac37d1 | feat(chapter-02): added bounded context canvas publicaciones | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 0f376411bb2ff27becaeee761bb001537e85684f | feat(chapter-02): added bounded context canvas analiticas | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 | feat(chapter-02): added bounded context canvas candidatos | 08/10/2025 |
+
 #### **4.2.1.4. Testing Suite Evidence for Sprint Review**
 #### **4.2.1.5. Execution Evidence for Sprint Review**
 #### **4.2.1.6. Services Documentation Evidence for Sprint Review**
