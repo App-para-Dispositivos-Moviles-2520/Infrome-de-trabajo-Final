@@ -1111,11 +1111,24 @@ Una vez identificados, los agregados se reordenan para reflejar mejor las depend
 ![Paso4-Domain - events](img/eventstorming5.png)
 
 #### **2.5.1.2. Domain Message Flows Modeling**
+
+
+
 #### **2.5.1.3. Bounded Context Canvases**
-Bounded Context: Perfil
-![Bounded Context Perfil](img/BoundedContextIACanvas.jpg)
 
 Bounded Context: Asistencia IA
+![Bounded Context Perfil](img/BoundedContextIACanvas.jpg)
+
+Bounded Context: Publicaciones
+![The Bounded Context Canvas.jpg](img/Bounded_Context_Canvases_Publicaciones.PNG)
+
+Bounded Context: Candidatos
+
+
+Bounded Context: Analiticas
+
+
+Bounded Context: Perfil
 ![Bounded Context Asistencia IA](img/Bounded_Context_Canvases_Profile.PNG)
 
 ### **2.5.2. Context Mapping**
