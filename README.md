@@ -1648,6 +1648,285 @@ Se realizaron los avances con los commits de la siguiente forma.
 
 ## **4.3. Validation Interviews**
 ### **4.3.1. Diseño de Entrevistas**
+
+#### Introducción
+El presente diseño de entrevistas tiene como objetivo validar la propuesta de valor, usabilidad y experiencia de usuario de la plataforma de reclutamiento tanto en su Landing Page como en la aplicación móvil Android. Se han identificado dos segmentos objetivo principales, para los cuales se diseñarán sesiones de validación específicas que permitan recoger feedback cualitativo sobre los flujos de usuario más críticos del sistema.
+
+---
+
+#### Segmento Objetivo 1: Equipos de Recursos Humanos (Reclutadores)
+
+##### Perfil del Entrevistado
+
+| Característica | Descripción |
+|:--------------|:-----------|
+| **Rol** | Reclutadores, HR Managers, Coordinadores de Talento Humano |
+| **Experiencia** | Personas con experiencia en procesos de contratación y gestión de vacantes |
+| **Sector** | Empresas de diversos tamaños (startups, PYMEs, corporaciones) |
+| **Rango de edad** | 25-50 años |
+| **Competencia digital** | Intermedio a Avanzado |
+
+##### Objetivos de Validación
+
+1. Validar la comprensión de la propuesta de valor para empresas en el Landing Page
+2. Evaluar la facilidad de uso en el flujo de creación y gestión de vacantes
+3. Verificar la utilidad del sistema de gestión de postulaciones y filtros
+4. Comprobar la eficiencia del proceso de programación de entrevistas
+5. Identificar puntos de fricción en el workflow completo de reclutamiento
+
+##### Elementos a Validar
+
+**Landing Page**
+
+| Elemento | User Story |
+|:---------|:-----------|
+| Sección Hero y propuesta de valor principal | US045 |
+| Sección de beneficios para empresas | US046 |
+| Testimonios y casos de éxito | US048 |
+| Call-to-action de registro empresarial | US049 |
+| Formulario de contacto | US050 |
+
+**Aplicación Móvil Android**
+
+| Elemento | User Stories |
+|:---------|:-------------|
+| Registro de cuenta de reclutador | US014 |
+| Inicio de sesión | US015 |
+| Dashboard del reclutador | - |
+| Módulo de gestión de vacantes | US001, US002, US003 |
+| Módulo de gestión de postulaciones | US007, US008 |
+| Módulo de proceso de selección | US010, US011, US012 |
+
+##### User Flows a Evaluar
+
+| # | User Flow | Descripción | User Stories | Criterio de Éxito |
+|:-:|:----------|:------------|:-------------|:------------------|
+| 1 | Primer Contacto y Registro | Landing Page → Beneficios Empresas → CTA Registro → Formulario → Confirmación | US049 | Usuario comprende propuesta de valor y completa registro sin confusión |
+| 2 | Creación de Vacante | Login → Dashboard → Nueva Vacante → Formulario → Validación → Publicar | US001 | Usuario crea vacante en menos de 3 minutos sin errores |
+| 3 | Gestión de Postulaciones | Dashboard → Mis Vacantes → Ver Postulaciones → Filtros → Detalle Candidato | US007, US008 | Usuario encuentra candidatos específicos usando filtros rápidamente |
+| 4 | Programación de Entrevista | Ver Postulación → Agendar → Fecha/Hora → Validar Conflictos → Confirmar | US010 | Usuario agenda entrevista sin conflictos de horario |
+| 5 | Envío de Oferta Laboral | Candidato Seleccionado → Enviar Oferta → Formulario → Confirmar → Enviada | US012 | Usuario envía oferta formal sin dificultades |
+
+##### Tareas Específicas para la Sesión
+
+**Contexto:** Eres el responsable de RRHH de una empresa de tecnología que necesita contratar un desarrollador Android.
+
+| # | Tarea | User Story | Tiempo Estimado |
+|:-:|:------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué te ofrece la plataforma | US046 | 2 min |
+| 2 | Regístrate como reclutador en la plataforma | US014 | 3 min |
+| 3 | Crea una nueva vacante para "Desarrollador Android Senior" | US001 | 4 min |
+| 4 | Revisa las postulaciones recibidas para tu vacante | US007 | 2 min |
+| 5 | Filtra las postulaciones para ver solo las "En revisión" | US008 | 1 min |
+| 6 | Agenda una entrevista con uno de los candidatos | US010 | 3 min |
+| 7 | Envía una oferta laboral al candidato seleccionado | US012 | 3 min |
+
+##### Preguntas Guía
+
+**Pre-Interacción (Landing Page)**
+1. ¿Qué entiendes que ofrece esta plataforma en los primeros 5 segundos?
+2. ¿Los beneficios presentados son relevantes para tu empresa?
+3. ¿El proceso de registro te parece claro? ¿Qué esperarías encontrar después?
+
+**Durante la Interacción (Aplicación)**
+4. ¿Fue fácil crear una nueva vacante? ¿Faltó algún campo importante?
+5. ¿La lista de postulaciones te presenta la información que necesitas?
+6. ¿Los filtros te ayudaron a encontrar lo que buscabas?
+7. ¿El proceso de agendamiento de entrevistas es intuitivo?
+8. ¿Hubo algún momento en que no supiste qué hacer o te sentiste perdido?
+
+**Post-Interacción**
+9. Del 1 al 10, ¿qué tan probable es que uses esta plataforma para reclutar?
+10. ¿Qué es lo que MÁS te gustó de la experiencia?
+11. ¿Qué es lo que MENOS te gustó o cambiarías?
+12. ¿Qué funcionalidad extra esperarías encontrar?
+
+##### Métricas de Éxito
+
+| Métrica | Objetivo |
+|:--------|:---------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
+| Tasa de éxito | ≥ 80% de tareas completadas sin ayuda |
+| Errores críticos | Máximo 1 error por user flow |
+| Satisfacción | Puntuación promedio ≥ 7/10 |
+
+---
+
+#### Segmento Objetivo 2: Postulantes (Candidatos)
+
+##### Perfil del Entrevistado
+
+| Característica | Descripción |
+|:--------------|:-----------|
+| **Rol** | Profesionales en búsqueda activa de empleo, recién egresados, personas en transición laboral |
+| **Experiencia** | Usuarios que buscan oportunidades laborales en diversos sectores |
+| **Rango de edad** | 20-45 años |
+| **Competencia digital** | Básico a Intermedio |
+| **Dispositivos** | Usuarios de smartphones Android |
+
+##### Objetivos de Validación
+
+1. Validar la comprensión de la propuesta de valor para postulantes en el Landing Page
+2. Evaluar la facilidad de búsqueda y filtrado de vacantes
+3. Verificar la claridad del proceso de postulación
+4. Comprobar la utilidad del seguimiento de postulaciones
+5. Identificar barreras que impidan completar una postulación exitosa
+
+##### Elementos a Validar
+
+**Landing Page**
+
+| Elemento | User Story |
+|:---------|:-----------|
+| Sección Hero y propuesta de valor | US045 |
+| Sección de beneficios para postulantes | US047 |
+| Testimonios de postulantes exitosos | US048 |
+| Call-to-action de registro de postulante | US049 |
+
+**Aplicación Móvil Android**
+
+| Elemento | User Stories |
+|:---------|:-------------|
+| Registro de cuenta de postulante | US013 |
+| Inicio de sesión | US015 |
+| Búsqueda y filtrado de vacantes | US004 |
+| Detalle de vacante | US005 |
+| Proceso de postulación | US006 |
+| Seguimiento de postulaciones | US009 |
+| Edición de perfil profesional | US017 |
+
+##### User Flows a Evaluar
+
+| # | User Flow | Descripción | User Stories | Criterio de Éxito |
+|:-:|:----------|:------------|:-------------|:------------------|
+| 1 | Descubrimiento y Registro | Landing Page → Beneficios Postulantes → CTA Crear Perfil → Registro → Confirmación | US049 | Usuario comprende valor de la plataforma y se registra exitosamente |
+| 2 | Búsqueda de Vacantes | Login → Dashboard → Buscar Vacantes → Aplicar Filtros → Ver Resultados → Seleccionar | US004 | Usuario encuentra vacantes relevantes en menos de 2 minutos |
+| 3 | Detalle de Vacante | Lista Vacantes → Seleccionar → Ver Detalle Completo (Descripción, Requisitos, Beneficios) | US005 | Usuario accede a toda la información necesaria para decidir |
+| 4 | Postulación a Vacante | Detalle Vacante → Postularme → Confirmar → Confirmación → Ver en Mis Postulaciones | US006 | Usuario completa postulación en 1 clic con confirmación clara |
+| 5 | Seguimiento de Postulaciones | Dashboard → Mis Postulaciones → Ver Lista con Estados → Detalle → Ver Historial | US009 | Usuario entiende claramente el estado de cada postulación |
+| 6 | Actualización de Perfil | Dashboard → Perfil → Editar → Actualizar Experiencia/Habilidades → Guardar → Confirmar | US017 | Usuario actualiza perfil sin confusión sobre campos importantes |
+
+##### Tareas Específicas para la Sesión
+
+**Contexto:** Eres un profesional buscando nuevas oportunidades laborales en el área de tecnología.
+
+| # | Tarea | User Story | Tiempo Estimado |
+|:-:|:------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué beneficios obtienes como postulante | US047 | 2 min |
+| 2 | Regístrate como postulante en la plataforma | US013 | 3 min |
+| 3 | Busca vacantes relacionadas con tu perfil profesional | US004 | 2 min |
+| 4 | Aplica filtros para encontrar vacantes en tu ubicación preferida | US004 | 2 min |
+| 5 | Revisa el detalle completo de una vacante que te interese | US005 | 2 min |
+| 6 | Postúlate a esa vacante | US006 | 1 min |
+| 7 | Verifica el estado de tu postulación | US009 | 2 min |
+| 8 | Actualiza tu perfil profesional agregando una nueva habilidad | US017 | 3 min |
+
+##### Preguntas Guía
+
+**Pre-Interacción (Landing Page)**
+1. ¿Qué problema resuelve esta plataforma para ti como postulante?
+2. ¿Los beneficios mostrados son atractivos para tu búsqueda laboral?
+3. ¿Confiarías en esta plataforma para buscar empleo? ¿Por qué?
+
+**Durante la Interacción (Aplicación)**
+4. ¿Fue fácil encontrar vacantes relevantes para ti?
+5. ¿Los filtros disponibles son suficientes? ¿Qué otro filtro agregarías?
+6. ¿La información de la vacante es clara y completa?
+7. ¿El proceso de postulación fue simple? ¿Qué esperabas que sucediera?
+8. ¿Entiendes claramente en qué estado está tu postulación?
+9. ¿Fue intuitivo actualizar tu perfil?
+
+**Post-Interacción**
+10. Del 1 al 10, ¿qué tan probable es que uses esta app para buscar empleo?
+11. ¿Qué es lo que MÁS te facilitó la búsqueda de empleo?
+12. ¿Qué es lo que MÁS te frustró durante la experiencia?
+13. Si pudieras agregar una funcionalidad, ¿cuál sería?
+
+##### Métricas de Éxito
+
+| Métrica | Objetivo |
+|:--------|:---------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
+| Tasa de éxito | ≥ 85% de tareas completadas sin ayuda |
+| Errores críticos | Máximo 1 error por user flow |
+| Satisfacción | Puntuación promedio ≥ 7/10 |
+| Intención de uso | ≥ 70% con puntuación ≥ 8/10 |
+
+---
+
+#### Estructura General de la Sesión de Validación
+
+| Fase | Duración | Actividades |
+|:-----|:--------:|:-----------|
+| **1. Bienvenida e Introducción** | 5 min | Presentación del equipo, objetivo, consentimiento informado, aclaraciones |
+| **2. Preguntas de Contexto** | 5 min | Datos demográficos, experiencia previa, expectativas |
+| **3. Validación Landing Page** | 10 min | Navegación libre, primeras impresiones, preguntas guiadas |
+| **4. Validación Aplicación** | 25-30 min | Ejecución de tareas, "Think Aloud Protocol", registro de observaciones |
+| **5. Cierre y Feedback** | 5-10 min | Preguntas post-interacción, sugerencias, agradecimiento |
+
+**Duración Total:** 45-60 minutos por entrevistado
+
+---
+
+#### Materiales y Recursos Necesarios
+
+**Equipamiento Técnico**
+- Dispositivo móvil Android con la aplicación o prototipo navegable
+- Laptop/tablet para mostrar el Landing Page
+- Cámara/dispositivo para grabar la sesión (video y audio)
+- Consentimiento informado impreso o digital
+- Conexión a internet estable
+
+**Documentación**
+- Guión de entrevista impreso
+- Checklist de tareas por segmento
+- Formato de registro de observaciones
+- Formato de evaluación heurística
+
+**Prototipos**
+- Landing Page funcional o mockup navegable
+- Prototipo de aplicación móvil Android
+- Datos de prueba pre-cargados (vacantes y perfiles ejemplo)
+
+---
+
+#### Protocolo de Conducción de Entrevistas
+
+**Instrucciones para el Entrevistador**
+
+| # | Instrucción |
+|:-:|:-----------|
+| 1 | Mantener neutralidad: No influenciar las respuestas del usuario |
+| 2 | Observar sin interrumpir: Dejar que el usuario explore libremente |
+| 3 | Usar "Think Aloud Protocol": Pedir verbalización de pensamientos |
+| 4 | Registrar todo: Anotar comentarios, gestos, tiempos de hesitación |
+| 5 | No ayudar inmediatamente: Esperar 10-15 segundos antes de intervenir |
+| 6 | Hacer preguntas abiertas: "¿Qué piensas?" vs "¿Te gusta?" |
+
+**Frases Útiles Durante la Sesión**
+- "Ve pensando en voz alta mientras realizas la tarea"
+- "¿Qué esperabas que sucediera?"
+- "¿Hay algo que te confunda en esta pantalla?"
+- "Si tuvieras que buscar [X], ¿dónde lo buscarías?"
+- "No te preocupes, no hay respuestas correctas o incorrectas"
+
+---
+
+#### Criterios de Selección de Entrevistados
+
+**Segmento 1: Reclutadores**
+- Mínimo 1 año de experiencia en procesos de contratación
+- Haber publicado al menos 5 vacantes en el último año
+- Experiencia usando herramientas digitales de reclutamiento
+- Diversidad: Empresas de diferentes tamaños y sectores
+
+**Segmento 2: Postulantes**
+- Usuarios activamente buscando empleo o abiertos a oportunidades
+- Haber postulado a al menos 3 vacantes en los últimos 6 meses
+- Usuarios de smartphones Android
+- Diversidad: Diferentes niveles de experiencia y sectores
+
+---
 ### **4.3.2. Registro de Entrevistas**
 ### **4.3.3. Evaluaciones según heurísticas**
 
