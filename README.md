@@ -238,27 +238,21 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [Protocolo de Conducción de Entrevistas](#protocolo-de-conducción-de-entrevistas)
       - [Criterios de Selección de Entrevistados](#criterios-de-selección-de-entrevistados)
     - [**4.3.2. Registro de Entrevistas**](#432-registro-de-entrevistas)
-      - [Segmento 1: Equipos de Recursos Humanos (Reclutadores)](#segmento-1-equipos-de-recursos-humanos-reclutadores)
-        - [Entrevista 1](#entrevista-1)
-        - [Entrevista 2](#entrevista-2)
-        - [Entrevista 3](#entrevista-3)
-      - [Segmento 2: Postulantes (Candidatos)](#segmento-2-postulantes-candidatos)
-        - [Entrevista 1](#entrevista-1-1)
-        - [Entrevista 2](#entrevista-2-1)
-        - [Entrevista 3](#entrevista-3-1)
+      - [**Segmento 1: Equipos de Recursos Humanos (Reclutadores)**](#segmento-1-equipos-de-recursos-humanos-reclutadores)
+        - [**Entrevista 1**](#entrevista-1)
+        - [**Entrevista 2**](#entrevista-2)
+        - [**Entrevista 3**](#entrevista-3)
+      - [**Segmento 2: Postulantes (Candidatos)**](#segmento-2-postulantes-candidatos)
+        - [**Entrevista 1**](#entrevista-1-1)
+        - [**Entrevista 2**](#entrevista-2-1)
+        - [**Entrevista 3**](#entrevista-3-1)
     - [**4.3.3. Evaluaciones según heurísticas**](#433-evaluaciones-según-heurísticas)
-    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas-1)
-      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
-      - [SITE o APP A EVALUAR:](#site-o-app-a-evaluar)
-      - [TAREAS A EVALUAR:](#tareas-a-evaluar)
-      - [ESCALA DE SEVERIDAD:](#escala-de-severidad)
-      - [TABLA RESUMEN:](#tabla-resumen)
-      - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
-        - [PROBLEMA #1: \[Título descriptivo del problema\]](#problema-1-título-descriptivo-del-problema)
-        - [PROBLEMA #2: \[Título descriptivo del problema\]](#problema-2-título-descriptivo-del-problema)
-        - [PROBLEMA #3: \[Título descriptivo del problema\]](#problema-3-título-descriptivo-del-problema)
-        - [PROBLEMA #4: \[Título descriptivo del problema\]](#problema-4-título-descriptivo-del-problema)
-        - [PROBLEMA #5: \[Título descriptivo del problema\]](#problema-5-título-descriptivo-del-problema)
+      - [**UX Heuristics \& Principles Evaluation**](#ux-heuristics--principles-evaluation)
+      - [**TABLA RESUMEN:**](#tabla-resumen)
+      - [**DESCRIPCIÓN DE PROBLEMAS:**](#descripción-de-problemas)
+        - [**PROBLEMA #1: Botón "Nueva Vacante" poco visible**](#problema-1-botón-nueva-vacante-poco-visible)
+        - [**PROBLEMA #2: Estados de postulación sin explicación clara**](#problema-2-estados-de-postulación-sin-explicación-clara)
+        - [**PROBLEMA #3: Íconos de filtros muy pequeños**](#problema-3-íconos-de-filtros-muy-pequeños)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -5253,11 +5247,7 @@ Comentó que falta un filtro por salario y que sería útil conectar con LinkedI
 ---
 
 ### **4.3.3. Evaluaciones según heurísticas**
-
-<<<<<<< HEAD
-=======
 ---
-
 #### **UX Heuristics & Principles Evaluation**
 **Usability - Inclusive Design - Information Architecture**
 
@@ -5341,7 +5331,6 @@ Aumentar el tamaño de los íconos de filtros y agregar texto junto a cada ícon
 
 ---
 
->>>>>>> chapter4
 ## Conclusiones
 - _Implementación de buenas prácticas en el desarrollo:_
     Se respetaron estándares de codificación, se utilizó Git para el control de versiones y se siguieron convenciones definidas para los mensajes de commit. Esto permitió lograr un código ordenado, modular y preparado para futuras ampliaciones. Además, se aplicó un diseño responsivo que asegura una buena experiencia en distintos dispositivos.
