@@ -1634,7 +1634,13 @@ Landing Page: https://landing-page-jobsy.web.app/
 
 #### **4.2.1.6. Services Documentation Evidence for Sprint Review**
 
+Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger/index.html
 
+![Exe_Backend_1.PNG](img/Exe_Backend_1.PNG)
+
+![Exe_Backend_2.PNG](img/Exe_Backend_2.PNG)
+
+![Exe_Backend_3.PNG](img/Exe_Backend_3.PNG)
 
 #### **4.2.1.7. Software Deployment Evidence for Sprint Review**
 
