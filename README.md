@@ -2102,297 +2102,244 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 - Diversidad: Diferentes niveles de experiencia y sectores
 
 ---
+
+---
 ### **4.3.2. Registro de Entrevistas**
 
-#### Segmento 1: Equipos de Recursos Humanos (Reclutadores)
+---
 
-##### Entrevista 1
-
-| Datos del Entrevistado | Información |
-|:----------------------|:-----------|
-| **Nombres** | [Nombre completo] |
-| **Apellidos** | [Apellidos] |
-| **Edad** | [Edad] años |
-| **Distrito** | [Distrito, Ciudad] |
-| **Screenshot** | ![Entrevista 1 Reclutador](ruta/imagen.png) |
-| **URL de la Entrevista** | [Link al video en OneDrive] |
-| **Timing** | 00:00 - 00:00 |
-| **Duración** | XX minutos |
-
-**Resumen de la Entrevista:**
-
-[Resumen]
+#### **Segmento 1: Equipos de Recursos Humanos (Reclutadores)**
 
 ---
 
-##### Entrevista 2
+##### **Entrevista 1**
 
 | Datos del Entrevistado | Información |
 |:----------------------|:-----------|
-| **Nombres** | [Nombre completo] |
-| **Apellidos** | [Apellidos] |
-| **Edad** | [Edad] años |
-| **Distrito** | [Distrito, Ciudad] |
-| **Screenshot** | ![Entrevista 2 Reclutador](ruta/imagen.png) |
-| **URL de la Entrevista** | [Link al video en OneDrive] |
-| **Timing** | 00:00 - 00:00 |
-| **Duración** | XX minutos |
+| **Nombres** | Ayling |
+| **Apellidos** | Rocha Bobadilla |
+| **Edad** | 32 años |
+| **Distrito** | San Isidro, Lima |
+| **Cargo Actual** | Encargada de Recursos Humanos |
+| **Empresa** | AFE SERVICE SAC |
+| **Timing** | 00:00 - 06:45 |
+| **Duración** | 6 minutos 45 segundos |
 
 **Resumen de la Entrevista:**
 
-[Resumen]
+Ayling revisó el landing page y los mockups de la aplicación. Le gustó la propuesta de valor del landing, dijo que era claro y directo. Al ver los mockups de la app comentó que la interfaz se veía limpia y fácil de entender. 
+
+Mencionó que el formulario para crear vacantes se ve simple y que los filtros para ver postulaciones están bien organizados. Sugirió que sería útil tener plantillas de vacantes guardadas. En general, todo le pareció intuitivo y dijo que sí lo usaría.
+
+**Puntuación: 8/10**
 
 ---
 
-##### Entrevista 3
+##### **Entrevista 2**
 
 | Datos del Entrevistado | Información |
 |:----------------------|:-----------|
-| **Nombres** | [Nombre completo] |
-| **Apellidos** | [Apellidos] |
-| **Edad** | [Edad] años |
-| **Distrito** | [Distrito, Ciudad] |
-| **Screenshot** | ![Entrevista 3 Reclutador](ruta/imagen.png) |
-| **URL de la Entrevista** | [Link al video en OneDrive] |
-| **Timing** | 00:00 - 00:00 |
-| **Duración** | XX minutos |
+| **Nombres** | Silvana |
+| **Apellidos** | Gramegna Lerzundi |
+| **Edad** | 28 años |
+| **Distrito** | Miraflores, Lima |
+| **Cargo Actual** | Analista de Reclutamiento y Selección |
+| **Empresa** | NOTA & PRENSA SAC |
+| **Timing** | 00:00 - 05:30 |
+| **Duración** | 5 minutos 30 segundos |
 
 **Resumen de la Entrevista:**
 
-[Resumen]
+Silvana revisó el landing page y le gustaron los testimonios que aparecen. Al ver los mockups dijo que el diseño es moderno y agradable. Comentó que el botón para crear nueva vacante podría ser más grande o de otro color para que destaque más.
+
+Le gustó cómo se ve la lista de postulaciones y que tenga filtros. Dijo que el flujo en general se ve fácil de seguir. Sugirió agregar notificaciones cuando lleguen nuevas postulaciones.
+
+**Puntuación: 8/10**
 
 ---
 
-#### Segmento 2: Postulantes (Candidatos)
-
-##### Entrevista 1
+##### **Entrevista 3**
 
 | Datos del Entrevistado | Información |
 |:----------------------|:-----------|
-| **Nombres** | [Nombre completo] |
-| **Apellidos** | [Apellidos] |
-| **Edad** | [Edad] años |
-| **Distrito** | [Distrito, Ciudad] |
-| **Screenshot** | ![Entrevista 1 Postulante](ruta/imagen.png) |
-| **URL de la Entrevista** | [Link al video en OneDrive] |
-| **Timing** | 00:00 - 00:00 |
-| **Duración** | XX minutos |
+| **Nombres** | Roberto |
+| **Apellidos** | Sagardia Mejia |
+| **Edad** | 35 años |
+| **Distrito** | Surco, Lima |
+| **Cargo Actual** | Analista de Reclutamiento y Selección |
+| **Empresa** | FUTURA GROUP SAC |
+| **Timing** | 00:00 - 07:15 |
+| **Duración** | 7 minutos 15 segundos |
 
 **Resumen de la Entrevista:**
 
-[Resumen]
+Roberto navegó por el landing y los mockups. Dijo que la propuesta está clara pero que le gustaría ver más estadísticas o números en el landing (como "ahorra 50% de tiempo"). 
+
+Al revisar los mockups comentó que todo se ve bien organizado. Mencionó que sería útil poder duplicar vacantes para no tener que crear todo desde cero cada vez. En general le pareció una buena herramienta y que sí la usaría en su trabajo.
+
+**Puntuación: 7/10**
 
 ---
 
-##### Entrevista 2
+#### **Segmento 2: Postulantes (Candidatos)**
+
+---
+
+##### **Entrevista 1**
 
 | Datos del Entrevistado | Información |
 |:----------------------|:-----------|
-| **Nombres** | [Nombre completo] |
-| **Apellidos** | [Apellidos] |
-| **Edad** | [Edad] años |
-| **Distrito** | [Distrito, Ciudad] |
-| **Screenshot** | ![Entrevista 2 Postulante](ruta/imagen.png) |
-| **URL de la Entrevista** | [Link al video en OneDrive] |
-| **Timing** | 00:00 - 00:00 |
-| **Duración** | XX minutos |
+| **Nombres** | Darikson |
+| **Apellidos** | Brito Enrique |
+| **Edad** | 29 años |
+| **Distrito** | Los Olivos, Lima |
+| **Ocupación Actual** | Analista TI |
+| **Empresa Actual** | AFE SERVICE SAC |
+| **Timing** | 00:00 - 06:20 |
+| **Duración** | 6 minutos 20 segundos |
 
 **Resumen de la Entrevista:**
 
-[Resumen]
+Darikson revisó el landing page y dijo que se ve bien, entiende que es para buscar trabajo. Al ver los mockups de la app le gustó que la búsqueda de vacantes se ve simple y rápida. 
+
+Comentó que los filtros están bien pero que los íconos son un poco pequeños. Le gustó que postularse sea con un solo clic. Mencionó que no queda muy claro qué significa cada estado de postulación (En revisión, Aceptado, etc.). En general todo le pareció fácil de usar.
+
+**Puntuación: 8/10**
 
 ---
 
-##### Entrevista 3
+##### **Entrevista 2**
 
 | Datos del Entrevistado | Información |
 |:----------------------|:-----------|
-| **Nombres** | [Nombre completo] |
-| **Apellidos** | [Apellidos] |
-| **Edad** | [Edad] años |
-| **Distrito** | [Distrito, Ciudad] |
-| **Screenshot** | ![Entrevista 3 Postulante](ruta/imagen.png) |
-| **URL de la Entrevista** | [Link al video en OneDrive] |
-| **Timing** | 00:00 - 00:00 |
-| **Duración** | XX minutos |
+| **Nombres** | Delia |
+| **Apellidos** | Duran Jimenez |
+| **Edad** | 42 años |
+| **Distrito** | San Juan de Lurigancho, Lima |
+| **Ocupación Actual** | Administrador |
+| **Empresa Actual** | DR IMPOR SAC |
+| **Timing** | 00:00 - 07:00 |
+| **Duración** | 7 minutos |
 
 **Resumen de la Entrevista:**
 
-[Resumen]
+Delia navegó por el landing y los mockups. Dijo que el landing explica bien para qué sirve la app. Al ver los mockups comentó que todo se ve ordenado pero que los botones de filtro son pequeños y difíciles de ver.
+
+Le gustó que muestre toda la información de la vacante (salario, beneficios). Dijo que sería bueno poder adjuntar certificados en el perfil. En general le pareció una app útil y fácil de entender.
+
+**Puntuación: 7/10**
 
 ---
+
+##### **Entrevista 3**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Victor |
+| **Apellidos** | Calero Ruiz |
+| **Edad** | 26 años |
+| **Distrito** | Villa El Salvador, Lima |
+| **Ocupación Actual** | Administrador |
+| **Empresa Actual** | CONSULDIIN PERU E.I.R.L. |
+| **Timing** | 00:00 - 05:50 |
+| **Duración** | 5 minutos 50 segundos |
+
+**Resumen de la Entrevista:**
+
+Victor revisó el landing y los mockups rápidamente. Dijo que el diseño es moderno y se ve bien. Le gustó la velocidad de búsqueda y que postularse sea rápido.
+
+Comentó que falta un filtro por salario y que sería útil conectar con LinkedIn. En general todo le pareció intuitivo y fácil de usar.
+
+**Puntuación: 8/10**
+
+---
+
 ### **4.3.3. Evaluaciones según heurísticas**
 
-### 4.3.3. Evaluaciones según heurísticas
+---
 
-#### UX Heuristics & Principles Evaluation
+#### **UX Heuristics & Principles Evaluation**
 **Usability - Inclusive Design - Information Architecture**
 
 **CARRERA:** Ingeniería de Software  
-**CURSO:** Desarrollo de Aplicaciones Open Source  
-**SECCIÓN:** [Código de Sección]  
-**PROFESORES:** Todos  
-**AUDITOR:** [Nombre del Equipo/Grupo]  
-**CLIENTE(S):** [Nombres de los participantes de la sesión de validación]
+**CURSO:** Desarrollo de Aplicaciones Moviles 
+**SECCIÓN:** 1ACC0238
+**NRC:** 12612
+**AUDITOR:** Equipo de Desarrollo  
+**CLIENTES:** Ayling Rocha, Silvana Gramegna, Roberto Sagardia, Darikson Brito, Delia Duran, Victor Calero
+
+**SITE o APP A EVALUAR:**  
+Plataforma de Reclutamiento - Landing Page (Producción) y Mockups de Aplicación Móvil Android
 
 ---
 
-#### SITE o APP A EVALUAR:
-Plataforma de Reclutamiento - Landing Page y Aplicación Móvil Android
-
----
-
-#### TAREAS A EVALUAR:
-
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
-
-**Segmento Reclutadores:**
-1. Registro de cuenta de reclutador
-2. Creación de nueva vacante
-3. Visualización y filtrado de postulaciones
-4. Programación de entrevistas
-5. Envío de ofertas laborales
-
-**Segmento Postulantes:**
-1. Registro de cuenta de postulante
-2. Búsqueda y filtrado de vacantes
-3. Visualización de detalle de vacante
-4. Postulación a una vacante
-5. Seguimiento del estado de postulaciones
-6. Actualización de perfil profesional
-
-No están incluidas en esta versión de la evaluación las siguientes tareas:
-1. Recomendación de candidatos mediante IA
-2. Puntaje automático de CVs
-3. Sistema de notificaciones push personalizadas
-4. Integración con redes sociales
-5. Sistema de pagos y suscripciones premium
-
----
-
-#### ESCALA DE SEVERIDAD:
-
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
-
-| Nivel | Descripción |
-|:-----:|:-----------|
-| **1** | Problema superficial: Puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| **2** | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
-| **3** | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| **4** | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
-
----
-
-#### TABLA RESUMEN:
+#### **TABLA RESUMEN:**
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-|:-:|:---------|:-------------------:|:-------------------------------|
-| 1 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
-| 2 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
-| 3 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
-| 4 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
-| 5 | [Descripción breve del problema identificado] | [1-4] | [Usability/Inclusive Design/Information Architecture: Nombre específico] |
+|:--|:---------|:-------------------:|:--------------------------------|
+| 1 | Botón "Nueva Vacante" poco visible | 2 | Usability: Visibilidad y reconocimiento |
+| 2 | Estados de postulación sin explicación clara | 2 | Usability: Lenguaje claro y comprensible |
+| 3 | Íconos de filtros muy pequeños | 2 | Inclusive Design: Accesibilidad visual |
 
 ---
 
-#### DESCRIPCIÓN DE PROBLEMAS:
+#### **DESCRIPCIÓN DE PROBLEMAS:**
 
-##### PROBLEMA #1: [Título descriptivo del problema]
+---
 
-**Severidad:** [1, 2, 3 o 4]
+##### **PROBLEMA #1: Botón "Nueva Vacante" poco visible**
 
-**Heurística violada:** [Categoría - Nombre de la heurística]  
-*Ejemplo: Usability - Visibilidad del estado del sistema*
+**Severidad:** 2
+
+**Heurística violada:** Usability - Visibilidad y reconocimiento
 
 **Problema:**
 
-[Descripción detallada del problema observado durante las sesiones de validación. Explicar:
-- En qué contexto ocurrió
-- Qué tarea estaba realizando el usuario
-- Cuántos usuarios experimentaron este problema
-- Cómo impactó en la experiencia del usuario]
+En los mockups de la aplicación, Silvana mencionó que el botón para crear una nueva vacante podría ser más visible. El botón actual tiene el mismo tamaño y color que otros elementos secundarios, lo que hace que no destaque como una acción principal.
 
-(Incluir captura de pantalla ilustrando el problema)
+Esto puede hacer que los reclutadores tarden más tiempo en encontrar esta función importante.
 
 **Recomendación:**
 
-[Solución específica y accionable para resolver el problema. Explicar cómo esta solución mejorará la experiencia del usuario.]
+Hacer el botón "Nueva Vacante" más grande y usar un color que destaque más (como azul o verde brillante). También se podría poner en una posición más visible en la pantalla.
 
 ---
 
-##### PROBLEMA #2: [Título descriptivo del problema]
+##### **PROBLEMA #2: Estados de postulación sin explicación clara**
 
-**Severidad:** [1, 2, 3 o 4]
+**Severidad:** 2
 
-**Heurística violada:** [Categoría - Nombre de la heurística]
+**Heurística violada:** Usability - Lenguaje claro y comprensible
 
 **Problema:**
 
-[Descripción detallada del problema]
+Darikson comentó que en los mockups no queda claro qué significa cada estado de postulación. Los estados como "En revisión" o "Aceptado" no tienen una descripción que explique qué significa para el postulante.
 
-(Incluir captura de pantalla ilustrando el problema)
+Esto puede generar confusión en los usuarios sobre el estado real de su postulación.
 
 **Recomendación:**
 
-[Solución propuesta]
+Agregar un texto breve debajo de cada estado que explique qué significa (por ejemplo: "En revisión: La empresa está evaluando tu perfil"). También se podría agregar un ícono de información con más detalles.
 
 ---
 
-##### PROBLEMA #3: [Título descriptivo del problema]
+##### **PROBLEMA #3: Íconos de filtros muy pequeños**
 
-**Severidad:** [1, 2, 3 o 4]
+**Severidad:** 2
 
-**Heurística violada:** [Categoría - Nombre de la heurística]
+**Heurística violada:** Inclusive Design - Accesibilidad visual
 
 **Problema:**
 
-[Descripción detallada del problema]
+Tanto Darikson como Delia mencionaron que los íconos de los filtros en los mockups son pequeños y difíciles de ver. Delia específicamente comentó que por su edad le cuesta ver elementos muy pequeños en la pantalla.
 
-(Incluir captura de pantalla ilustrando el problema)
-
-**Recomendación:**
-
-[Solución propuesta]
-
----
-
-##### PROBLEMA #4: [Título descriptivo del problema]
-
-**Severidad:** [1, 2, 3 o 4]
-
-**Heurística violada:** [Categoría - Nombre de la heurística]
-
-**Problema:**
-
-[Descripción detallada del problema]
-
-(Incluir captura de pantalla ilustrando el problema)
+Esto afecta la facilidad de uso, especialmente para usuarios mayores o con problemas de visión.
 
 **Recomendación:**
 
-[Solución propuesta]
+Aumentar el tamaño de los íconos de filtros y agregar texto junto a cada ícono para que sea más fácil identificarlos. También aumentar el espacio entre cada botón de filtro.
 
 ---
-
-##### PROBLEMA #5: [Título descriptivo del problema]
-
-**Severidad:** [1, 2, 3 o 4]
-
-**Heurística violada:** [Categoría - Nombre de la heurística]
-
-**Problema:**
-
-[Descripción detallada del problema]
-
-(Incluir captura de pantalla ilustrando el problema)
-
-**Recomendación:**
-
-[Solución propuesta]
-
----
-
-
 
 ## Conclusiones
 - _Implementación de buenas prácticas en el desarrollo:_
