@@ -3909,9 +3909,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 </table>
 
 - Evidencia de los User Stories en Trello:
-<img src="img/Product_Backlog_SmartHire.png" alt="userstories" width= 1000/>
+<img src="img/User_Stories_SmartHire.png" alt="userstories" width= 1000/>
 
-- Link de los User Stories en Trello: [https://trello.com/b/T6UCC586/product-backlog-smarthire](https://trello.com/b/T6UCC586/product-backlog-smarthire)
+- Link de los User Stories en Trello: [https://trello.com/b/vIk3JL2r/user-stories-smarthire](https://trello.com/b/vIk3JL2r/user-stories-smarthire)
 
 ## **2.4.2. Impact Mapping**
 
