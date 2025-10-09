@@ -182,11 +182,33 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
   - [**3.1. Product design**](#31-product-design)
     - [**3.1.1. Style Guidelines**](#311-style-guidelines)
       - [**3.1.1.1. General Style Guidelines**](#3111-general-style-guidelines)
+      - [Principios de diseño](#principios-de-diseño)
+    - [- Colores](#--colores)
+      - [Botones](#botones)
+      - [- Tipografía](#--tipografía)
+      - [- Iconografía](#--iconografía)
+      - [- Cabecera](#--cabecera)
+      - [- Pie de Página](#--pie-de-página)
+      - [- Logo](#--logo)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
     - [**3.1.2. Information Architecture**](#312-information-architecture)
       - [**3.1.2.1. Organization Systems**](#3121-organization-systems)
+      - [**Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.**](#segmento-1-equipos-de-recursos-humanos-encargados-del-proceso-de-contratación-1)
+        - [Jerárquica](#jerárquica)
+        - [Secuencial](#secuencial)
+        - [Matricial](#matricial)
+      - [**Segmento 2: Postulantes o Candidatos**](#segmento-2-postulantes-o-candidatos)
+        - [Jerárquica](#jerárquica-1)
+        - [Secuencial](#secuencial-1)
+        - [Matricial](#matricial-1)
       - [**3.1.2.2. Labelling Systems**](#3122-labelling-systems)
+      - [Etiquetas para la Landing Page](#etiquetas-para-la-landing-page)
+      - [Etiquetas dentro de la Plataforma Web - Segmento: Equipos de RRHH](#etiquetas-dentro-de-la-plataforma-web---segmento-equipos-de-rrhh)
+      - [Etiquetas dentro de la Plataforma Web - Segmento: Postulantes](#etiquetas-dentro-de-la-plataforma-web---segmento-postulantes)
       - [**3.1.2.3. SEO Tags and Meta Tags**](#3123-seo-tags-and-meta-tags)
       - [**3.1.2.4. Searching Systems**](#3124-searching-systems)
+      - [Segmento 1: Equipos de Recursos Humanos](#segmento-1-equipos-de-recursos-humanos)
+      - [Segmento 2: Postulantes](#segmento-2-postulantes)
       - [**3.1.2.5. Navigation Systems**](#3125-navigation-systems)
     - [**3.1.3. Landing Page UI Design**](#313-landing-page-ui-design)
       - [**3.1.3.1. Landing Page Wireframe**](#3131-landing-page-wireframe)
@@ -4552,25 +4574,551 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 ### **3.1.1. Style Guidelines**
 #### **3.1.1.1. General Style Guidelines**
 
+#### Principios de diseño
+
+Algunos de los principios de diseño y heurísticas que hemos aplicado para nuestra plataforma **Jobsy** son:
+
+1. **Intuición y Usabilidad**  
+   La plataforma está diseñada para que cualquier usuario, sin necesidad de formación previa, pueda navegar y utilizar sus funciones con facilidad.
+
+2. **Eficiencia**  
+   Optimizamos cada interacción para reducir pasos innecesarios. Desde la creación de vacantes hasta la visualización de candidatos recomendados por la IA, todo está diseñado para ahorrar tiempo y maximizar la productividad del usuario.
+
+3. **Diseño Responsivo**  
+   Jobsy ofrece una experiencia fluida en cualquier dispositivo. Ya sea desde una computadora de escritorio en una oficina o desde un celular, el diseño se adapta para mantener la funcionalidad y legibilidad.
+
+4. **Evitar la Sobrecarga Cognitiva**  
+   Nos aseguramos de no saturar las pantallas con contenido innecesario. Las secciones están jerarquizadas visualmente, se usa el espacio en blanco de forma estratégica, y se prioriza lo esencial para no distraer al usuario.
+
+5. **Consistencia Visual**  
+   Aplicamos una línea gráfica coherente en toda la plataforma. Tipografías, colores, iconografía y componentes interactivos mantienen un estilo uniforme, lo cual fortalece la identidad de marca y mejora la comprensión de los elementos.
+
+6. **Tamaños Adecuados y Accesibilidad**  
+   Todos los elementos clicables o interactivos están diseñados con un tamaño apropiado, especialmente considerando el uso móvil. Además, se contemplan buenas prácticas de accesibilidad como el contraste de colores, texto legible y navegación con teclado.
+
+7. **Control del Usuario y Retroalimentación**  
+   El sistema informa al usuario de cada acción realizada mediante mensajes claros: confirmaciones, validaciones, cargas o errores. Se permite deshacer o modificar acciones importantes, lo cual transmite seguridad y confianza en el uso de la herramienta.
+
+
+### - Colores
+**Logo:**
+
+Para los colores del logotipo, seleccionamos un tono azul oscuro con código hexadecimal (`#285A84`), que transmite profesionalismo, confianza y solidez, características clave para una plataforma orientada al sector empresarial. Complementariamente, se eligió un verde luminoso con código (`#85C872`) para el ícono del logo, con el objetivo de aportar un contraste visual atractivo que represente innovación, dinamismo y eficiencia, atributos centrales de nuestra propuesta tecnológica.  
+
+<div align="center">
+
+<img src="img/color_logo.png" alt="color logo" width="50%" />
+
+<div align="left">
+    
+<b>Color de fondo:</b> <br> Para el fondo de la sección principal de la plataforma se utilizó un tono verde con código (`#85C872`), el cual aporta frescura, vitalidad y una sensación de cercanía desde el primer contacto visual. Además, se incorporaron secciones con fondo blanco (`#FFFFFF`) que generan un efecto visual limpio y ordenado, mejorando la legibilidad y creando un contraste armónico con el verde predominante. Como elemento complementario, se integraron líneas decorativas en color azul oscuro (`#285A84`) en ciertas áreas del fondo, aportando profundidad, equilibrio visual y reforzando la identidad visual de la marca. <br>
+    <div align="center">
+<br>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiWyEV2fHcWXJeYvbUHHHw4yyVT5KheegQYaEblKFxW3Ozmu9S0NUvTaxS2FmDhWDhMHIs6yc8DtpTe-JiM1E_p5ZiWZrCEZ7RX0T1mlJTVoDLN_d3HMM3gx8fUz0YORN9gPPc?key=gvlLacgsz9NCnDkMVc0Umifa"  width="50%" />
+<br>
+
+<div align="left">
+
+    
+**Colores del texto:**  
+Para los títulos se utilizaron colores que aseguran buen contraste según el fondo: (`#B0E7B1`) para fondos oscuros, (`#285A84`) para fondos claros, blanco en secciones oscuras y gris claro para los placeholder de los formularios. Los subtítulos y párrafos siguen la misma lógica cromática, manteniendo legibilidad y coherencia visual en toda la plataforma.
+<br>
+ <div align="center">
+<br>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXez2oH4jfFtSqNF4cLQ7o9gTQtr40QPPu7jiT_IGSXZ_ovHT45lHefDwOPHCWyKVDbiE0Zjk6perRu0n8KmP7OKVxoAxONBTpMbY-2hhNJDvh5QnX7yVuxGDTKHc0x2qmO0B-viGg?key=gvlLacgsz9NCnDkMVc0Umifa"/>
+
+<div align="left">
+
+#### Botones
+Los botones principales utilizan un fondo azul oscuro (`#285A84`) con bordes redondeados al 40% y con una ligera sombra oscura, otorgándoles un estilo moderno. El texto interior es de color blanco, en mayúsculas o capitalizado, lo que asegura una excelente legibilidad. Además, se incluye un segundo estilo de botón con fondo verde aqua (`#B0E7B1`), bordes y texto en color (`#285A84`), ideal para acciones secundarias o enlaces menos prioritarios.
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxi5FUMm3fJ6JKDVDzzrbiUUCK1MwIvaiT9zthLz7Y9i98HEbxdB3fFbsEfZSyt9eLOwlowPLB_1mQUWjxIkB1JLKdeNdqpN9LEymN5hemkdRia0WEKJFvNLPJ_KGTtHDnrX0ZXg?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+#### - Tipografía
+
+- **ISTOK WEB (negrita):** Utilizada para los títulos principales por su fuerza visual y claridad. <br>
+- **Inter, Pavanam, Questrial (light o regular):** Fuentes limpias y minimalistas, ideales para párrafos y textos secundarios.<br>
+- **Patua One (negrita display):** Estilo más robusto, ideal para encabezados o elementos que necesitan destacarse.<br>
+- **Playfair Display (cursiva serif):** Aporta elegancia y dinamismo a citas o secciones especiales.<br>
+- **Alexandria (bold) y Markazi Text (regular):** Ofrecen una opción moderna con buena legibilidad en enlaces o descripciones.<br>
+- **Poppins:** Fuente redondeada y versátil, útil tanto en títulos como en textos principales por su excelente legibilidad.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-gjofnvAEEorgPfVRY0AnamoI6IVkRv8kf40fc7DegudARCSqIfgfdgK8TtBjR4yfydJtpYl1qzEUT9YNF20OZw4Zjz-oHCN9M5lf4mMrvoPoASHki3HqetYVg96d0CtbAfJL6A?key=gvlLacgsz9NCnDkMVc0Umifa" width="30%">
+<div align="left">
+
+
+#### - Iconografía
+
+Algunos de los iconos utilizados en la interfaz representan elementos clave de la plataforma, como los servicios ofrecidos, los tipos de planes disponibles, el menú de navegación y los accesos a redes sociales. Estos iconos facilitan la comprensión visual, aportan dinamismo y mejoran la experiencia del usuario al guiarlo de forma intuitiva a través de la plataforma. <br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk2VCkKlf0GH86lUmsbMzeC118gn6zNkjD-Vex-LA_aBFk4xkqV3epkDES87YVf-AOq7-JKyN1P63rR2nQfbkgcRe4DDh84rm69wv_YQHAsTao2KHhIypugd4tNNWO7to1q_3unw?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+#### - Cabecera
+La cabecera cuenta con el icono, los enlaces en una esquina superior derecha y con un botón de registro que facilita el ingreso a los usuarios.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjsLPwmZNDZeegCwBXeakk9-rMZGB5oZWWwQGnpp2bHnuOhncmNlaCnJfpcjG3IJv1pxtJw3rBe1WPcm7I33GR1bQdclAvFso4zzu1NROCPg7Kaexjm6bd7d-BYw31RqETffdb6A?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%">
+<div align="left">
+
+    
+#### - Pie de Página
+El pie de página cuenta con tres secciones: La descripción de la startup, los enlaces puestos de manera fácil y redes sociales con los iconos de X, Linkedin y Facebook.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_g5XP8XiObaqSX7xxLNVf-AZ5b8_f2i1rp6Eqi_ibhsgJOGQUn3QHKHuIFkPsVxI3Ly3ptFUqpBVBF_VzVoC9rA2STImu5aUSa9iakNNGdLvNsLi79-Jc17hAyJ7KQJ1Q8vJ0OQ?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%">
+<div align="left">
+
+#### - Logo
+El diseño del logo incorpora el nombre de la startup utilizando la fuente Questrial en tamaño 30px, acompañando al texto, se incluye un icono representativo de una conexión de red, el cual simboliza la interconexión entre talento y oportunidades laborales, reforzando así la esencia tecnológica e innovadora de la plataforma.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-FSDqlolKCALvdJQ0jLzRLwjwRFqvi4pvJ_GkihfXjkIFia3pg7C-jYjEvJ5_NL9ObTh1SloFjDp_hhgTCJ45nwoHAFoSoGNd1s0vOpwHBiPvyKYY3exMNKxZVYWU1Jp4446Slg?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+
+
+### 4.1.2. Web Style Guidelines
+Para garantizar una experiencia clara y agradable en cualquier dispositivo, el sitio web de SmartHire se desarrollará con un diseño totalmente responsivo. Esto significa que la plataforma se adaptará automáticamente a diferentes tamaños de pantalla permitiendo que todo el contenido se visualice correctamente sin perder orden ni legibilidad.
+Se usará una estructura basada en el patrón visual en forma de Z, una técnica efectiva para captar la atención del usuario. Este recorrido comienza en la parte superior izquierda, donde estará ubicado el logotipo de SmartHire, lo cual ayuda a reforzar la identidad de la plataforma desde el primer segundo. <br>
+
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc2Fu7nmAchKUVpd1AkugOy7YBOyXsMACaEP2rwycgZPru4cc7qdqmHpRyp7uAn0Bg2HIpHcPP1VvhVpuc3jjy9eO7XVVzWgqMV78FVoX9BZsYLAdAfoyF_Yv58JwbR7o4VOurLTw?key=gvlLacgsz9NCnDkMVc0Umifa" width="40%">
+<div align="left">
+
+
+
+Se empleará una paleta de colores atractiva y armónica que motive la interacción y genere una experiencia agradable. A esto se sumarán elementos visuales, espacios bien distribuidos y transiciones suaves que ayudarán a que el contenido se entienda fácilmente, asegurando una lectura clara y sin distracciones. <br>
+
 ### **3.1.2. Information Architecture**
+
+En esta sección se establecerá la estructura de la información para nuestra plataforma Jobsy, de acuerdo con los segmentos previamente definidos. Además, se detallarán los sistemas de organización, etiquetado, búsqueda y navegación que permiten una experiencia de usuario clara y eficiente
+
 #### **3.1.2.1. Organization Systems**
+
+#### **Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.**
+
+##### Jerárquica
+<ul>
+  <li>
+    <p><strong>Lista de vacantes publicadas:</strong> Las ofertas de empleo se organizan por área, nivel de experiencia y urgencia de contratación.</p>
+  </li>
+  <li>
+    <p><strong>Panel de candidatos:</strong> Muestra los candidatos postulados clasificados por etapa del proceso de selección (filtrados por IA, en entrevista, en evaluación técnica, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Perfiles de postulantes:</strong> Se muestran los datos más relevantes primero (nivel de experiencia, resultados de pruebas, match con el perfil ideal).</p>
+  </li>
+</ul>
+
+##### Secuencial
+<ul>
+  <li>
+    <p><strong>Registro e inicio de sesión:</strong></p>
+    <ul>
+      <li><p>El reclutador accede a una pantalla donde puede crear una cuenta ingresando nombre, correo y contraseña.</p></li>
+      <li><p>Posteriormente, inicia sesión y selecciona su rol (RRHH) para ser dirigido a su panel principal.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Publicación de vacantes:<br> </strong></p>
+    <ul>
+    Flujo guiado para publicar una nueva vacante:
+      <li><p>Selección del tipo de puesto.</p></li>
+      <li><p>Ingreso de descripción y requisitos.</p></li>
+      <li><p>Definición de habilidades técnicas.</p></li>
+      <li><p>Selección de tests y evaluaciones (opcional).</p></li>
+      <li><p>Publicación y sincronización con portales externos.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Gestión de publicaciones:</strong> Acceso a tabla de vacantes activas, con opción de editar, eliminar o duplicar.</p>
+  </li>
+  <li>
+    <p><strong>Revisión y filtrado de candidatos:</strong> Visualización de los postulantes por vacante, Filtros por categoría: nivel de experiencia, calificaciones, resultados de pruebas y Acceso al perfil del candidato y contacto directo.</p>
+
+  </li>
+  <li>
+    <p><strong>Análisis de datos:</strong> Visualización de estadísticas del proceso de selección mediante gráficos: tasa de conversión, tiempo promedio de respuesta, efectividad por canal. </p>
+  </li>
+  <li>
+    <p><strong>Asistencia con IA:</strong> Acceso a un chat con IA que guía al reclutador en dudas como: recomendaciones, sugerencias de candidatos y análisis del proceso.</p>
+  </li>
+  <li>
+    <p><strong>Edición de perfil:</strong> Modificación de datos, logo, nombre del reclutador y contacto.</p>
+  </li>
+</ul>
+
+##### Matricial
+<ul>
+  <li>
+    <p><strong>Dashboard del Reclutador:</strong> <br>
+     - Vista tipo panel que combina métricas clave (número de vacantes, postulaciones activas, tasa de éxito) y accesos rápidos a funcionalidades principales.<br>
+- Se presenta como una cuadrícula de tarjetas informativas que permiten comparar distintos procesos de forma visual.
+
+  </li>
+  <li>
+    <p><strong>Panel de Publicaciones:</strong> <br>
+    - Vacantes (filas) vs. estado de cada proceso (columnas: En revisión, Con entrevistas, Cerrada).
+        <br>
+     - Posibilidad de mover o filtrar según área, urgencia, o desempeño.
+    
+  </li>
+  <li>
+    <p><strong>Gestión de Candidatos:</strong>  <br>
+       - Vista tipo Kanban, donde cada columna representa una etapa del proceso (ej. Filtrados por IA, Entrevistas agendadas, Finalistas).
+ <br>
+ - Cada candidato es una tarjeta que puede moverse entre columnas, permitiendo una gestión visual del pipeline.
+    
+  </li>
+  <li>
+    <p><strong>Comparación de Desempeño de Vacantes:<br> </strong> Matriz que cruza: <br>
+    - Vacantes publicadas (eje Y), Canales de publicación (eje X: LinkedIn, InfoJobs, CompuTrabajo) 
+        <br>
+    - Resultado: número de postulantes por canal, permitiendo análisis de efectividad por medio de difusión.
+  </li>
+</ul>
+
+#### **Segmento 2: Postulantes o Candidatos**
+
+##### Jerárquica
+<ul>
+  <li>
+    <p><strong>Listado de ofertas laborales:</strong> Ordenadas por relevancia según el perfil del usuario.</p>
+  </li>
+  <li>
+    <p><strong>Perfil del postulante:</strong> Se priorizan habilidades, experiencia y resultados de tests.</p>
+  </li>
+  <li>
+    <p><strong>Historial de postulaciones:</strong> Lista ordenada cronológicamente por fecha.</p>
+  </li>
+</ul>
+
+##### Secuencial
+<ul>
+  <li>
+    <p><strong>Registro e inicio de sesión:</strong></p>
+    <ul>
+      <li><p>Creación de cuenta con nombre, correo y contraseña.</p></li>
+      <li><p>Inicio de sesión y selección de rol (Postulante) para acceder al panel principal.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Postulación a una vacante:</strong></p>
+    <ul>
+      <li><p>Selección de vacante.</p></li>
+      <li><p>Revisión de requisitos.</p></li>
+      <li><p>Subida de CV.</p></li>
+      <li><p>Realización de evaluaciones (técnicas, psicométricas, etc.).</p></li>
+      <li><p>Confirmación y seguimiento de la postulación.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Seguimiento de postulaciones:</strong> Estado actualizado en cada fase: Enviado, En revisión, En entrevista, Finalizado.</p>
+  </li>
+  <li>
+    <p><strong>Recepción de mensajes:</strong> Bandeja de entrada con invitaciones, resultados y comunicaciones de empresas.</p>
+  </li>
+  <li>
+    <p><strong>Gestión del perfil profesional:</strong> Edición de datos, experiencia, habilidades y vista previa del perfil.</p>
+  </li>
+</ul>
+
+##### Matricial
+<ul>
+  <li>
+    <p><strong>Dashboard del Postulante:</strong> Vista integral con:</p>
+    <ul>
+      <li><p>Resumen de postulaciones activas.</p></li>
+      <li><p>Recomendaciones personalizadas.</p></li>
+      <li><p>Chatbox integrado con soporte y sugerencias automatizadas.</p></li>
+    </ul>
+  </li>
+</ul>
+
 #### **3.1.2.2. Labelling Systems**
+
+En esta sección, se detalla el sistema de etiquetado propuesto para facilitar la navegación e interpretación del contenido tanto en la landing page. Se han diseñado etiquetas claras, concisas y orientadas a la acción.
+
+#### Etiquetas para la Landing Page
+<p>La página de aterrizaje se enfoca en comunicar valor de forma directa y atractiva. Sus etiquetas están diseñadas para responder a las primeras dudas e intereses de los visitantes.</p>
+<ul>
+  <li>
+    <p><strong>Inicio:</strong> Sección de bienvenida con un mensaje claro del propósito de la plataforma y los beneficios principales de usar SmartHire.</p>
+  </li>
+  <li>
+    <p><strong>Sobre Nosotros:</strong> Breve descripción de la startup, incluyendo misión, visión y una introducción al equipo fundador.</p>
+  </li>
+  <li>
+    <p><strong>Soluciones:</strong> En lugar de “Servicios”, se usa una etiqueta más orientada al problema que resuelve.</p>
+  </li>
+  <li>
+    <p><strong>Testimonios:</strong> Se presentan opiniones de usuarios que ya han utilizado la plataforma.</p>
+  </li>
+  <li>
+    <p><strong>Planes:</strong> Información clara sobre las distintas modalidades de uso y precios.</p>
+  </li>
+  <li>
+    <p><strong>Contacto:</strong> Canales de comunicación disponibles (formulario y redes sociales).</p>
+  </li>
+  <li>
+    <p><strong>Regístrate / Inicia Sesión:</strong> Botones visibles para invitar a los usuarios a crear una cuenta o acceder a su panel personalizado.</p>
+  </li>
+</ul>
+
+#### Etiquetas dentro de la Plataforma Web - Segmento: Equipos de RRHH
+<p>Estas etiquetas están diseñadas para ofrecer eficiencia y organización durante todo el flujo de contratación.</p>
+<ul>
+  <li>
+    <p><strong>Panel Principal:</strong> Acceso al resumen general de procesos activos, métricas clave y accesos rápidos.</p>
+  </li>
+  <li>
+    <p><strong>Vacantes:</strong> Gestión de ofertas laborales: publicar, editar, pausar o eliminar vacantes.</p>
+  </li>
+  <li>
+    <p><strong>Candidatos:</strong> Acceso a la base de datos de postulantes con filtros inteligentes (por rol, experiencia, habilidades, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Estadísticas:</strong> Visualización de métricas clave en gráficos sobre desempeño, tasa de conversión y eficacia de vacantes.</p>
+  </li>
+  <li>
+    <p><strong>Asistente IA:</strong> Chat con la inteligencia artificial para recibir recomendaciones, respuestas rápidas o generación de descripciones de puestos.</p>
+  </li>
+  <li>
+    <p><strong>Mi Perfil:</strong> Edición de información de la empresa, usuarios del equipo y configuración general.</p>
+  </li>
+</ul>
+
+#### Etiquetas dentro de la Plataforma Web - Segmento: Postulantes
+<p>Diseñadas para acompañar al usuario en su camino de búsqueda laboral y gestión de postulaciones.</p>
+<ul>
+  <li>
+    <p><strong>Inicio:</strong> Vista general del estado de sus postulaciones, novedades y sugerencias de empleos.</p>
+  </li>
+  <li>
+    <p><strong>Mis Postulaciones:</strong> Historial de empleos aplicados, su estado actual y acciones disponibles (editar, retirar, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Bandeja de Entrada:</strong> Comunicaciones con empresas, notificaciones importantes o mensajes automatizados del sistema.</p>
+  </li>
+  <li>
+    <p><strong>Evaluaciones:</strong> Resultados de pruebas técnicas o psicométricas, junto con sus recomendaciones.</p>
+  </li>
+  <li>
+    <p><strong>Perfil Profesional:</strong> Información editable del candidato, como CV, experiencia, educación, y enlaces externos (LinkedIn, portafolio).</p>
+  </li>
+  <li>
+    <p><strong>Recomendaciones:</strong> Ofertas laborales sugeridas por el sistema según su perfil e historial.</p>
+  </li>
+</ul>
+
 #### **3.1.2.3. SEO Tags and Meta Tags**
+
+En esta sección se definen las etiquetas meta que permitirán a los motores de búsqueda identificar, categorizar y posicionar adecuadamente nuestro sitio web, diferenciándolo dentro del ecosistema digital competitivo de plataformas de reclutamiento. 
+<br><br>
+**Para el sitio web estático (Landing Page):**
+
+<li><b>Title:</b> SmartHire - Revoluciona tu proceso de contratación</li>
+<li><b>Description:</b> Plataforma inteligente de reclutamiento para empresas modernas. Optimiza tus procesos de selección con ayuda de IA y análisis automatizados.</li>
+<li><b>Keywords:</b> reclutamiento, selección de personal, IA en RRHH, recursos humanos, automatización, talento y vacantes.
+</li>
+<li><b>Authors:</b> Equipo Jobsy - SmartHire Project</li>
+<br>
+<br>
+
+**Para la aplicación web (Dashboard para usuarios registrados):** 
+
+<li><b>Title:</b> SmartHire | Plataforma de Reclutamiento Inteligente</li>
+<li><b>Description:</b> Gestiona candidatos, publicaciones, entrevistas y métricas de contratación desde un panel centralizado con soporte de inteligencia artificial.</li>
+<li><b>Keywords:</b> talento, RRHH, análisis de candidatos, vacantes laborales, candidatos, IA, entrevistas, proceso de selección, reclutamiento ágil</li>
+<li><b>Authors:</b> Equipo SmartHire - Jobsy</li>
+
 #### **3.1.2.4. Searching Systems**
+
+En esta sección se describen los sistemas de búsqueda que se implementarán tanto en la página de aterrizaje como en la aplicación web. Estos sistemas facilitarán a los usuarios encontrar información de forma eficiente.
+<br> <br>
+**En el sitio web estático (Landing Page):**
+<br>
+
+
+Los visitantes podrán navegar fácilmente mediante una barra superior con anclas interactivas que los llevará a secciones como:
+<li>Conócenos (Sobre Jobsy)</li>
+<li>Soluciones para empresas y candidatos</li>
+<li>Testimonios</li>
+<li>Planes y costos</li>
+<li>Planes y costos</li>
+<li>Contacto directo</li>
+<li>Registro / Login</li>
+
+<br>
+
+**En la aplicación web:**
+#### Segmento 1: Equipos de Recursos Humanos
+<li><b>Buscador de candidatos:</b> Los reclutadores podrán buscar postulantes por nombre, cargo deseado, habilidades clave o años de experiencia. El buscador incluirá autocompletado, sugerencias y filtros por área profesional, estudios, o nivel de compatibilidad (calculado por IA).
+</li>
+<li><b>Filtro de publicaciones activas:</b> Se podrá buscar vacantes publicadas por estado (activa, cerrada, borrador). Ideal para grandes equipos que gestionan múltiples vacantes simultáneamente.</li>
+
+<li><b>Análisis y métricas:</b> Se contará con un panel de analíticas.</li>
+
+#### Segmento 2: Postulantes
+
+<li><b>Buscador de empleos: </b> Los candidatos podrán buscar vacantes según título, empresa, modalidad (remoto/presencial), ciudad o palabras clave. También podrán guardar filtros frecuentes o recibir sugerencias según su perfil.</li>
+<li><b>Postulaciones previas: </b> El sistema permitirá buscar entre sus postulaciones pasadas utilizando filtros como empresa, estado del proceso (en revisión, descartado, entrevista), y fecha.</li>
+<li><b>Mensajes y notificaciones: </b> En la bandeja de entrada, los postulantes podrán buscar mensajes por empresa, asunto o palabra clave, con organización por etiquetas (como "entrevista", "confirmación", "seguimiento").</li>
+
 #### **3.1.2.5. Navigation Systems**
+
+A continuación, el equipo describe los sistemas de navegación que estarán presentes en Jobsy, permitiendo a los usuarios desplazarse de manera rápida, clara y eficiente por las distintas secciones tanto del sitio web como de la aplicación SmartHire.
+
+La página de aterrizaje contará con una barra de navegación ubicada en la parte superior del sitio, donde se incluirán enlaces directos a las principales secciones: Sobre Nosotros, Servicios, Testimonios, Planes, y Contacto. Estos encabezados permitirán a los visitantes acceder directamente al contenido deseado con un solo clic, sin necesidad de desplazarse manualmente por la página. Este sistema de navegación facilita una experiencia fluida, intuitiva y centrada en la usabilidad, permitiendo que el usuario encuentre lo que busca de forma rápida.
+
+En la plataforma web, se implementará un menú lateral dinámico, adaptable al tipo de usuario (reclutador o postulante). Este menú permitirá acceder a las distintas vistas del sistema, tales como:
+
+ <li><b>Reclutadores:</b> Panel principal, publicaciones activas, gestión de candidatos, estadísticas del proceso de selección, asistencia por IA y perfil de empresa.</li>
+<li><b>Postulantes:</b> Dashboard con postulaciones activas, historial de aplicaciones, bandeja de entrada, recomendaciones personalizadas, y perfil personal.</li>
+<br>
+Asimismo, en secciones como las tablas de candidatos, publicaciones o postulaciones, se integrarán sistemas de búsqueda y filtros por categoría, estado, fecha u otros criterios relevantes. Esto optimiza la navegación dentro de listas extensas, haciendo que la experiencia del usuario sea mucho más eficiente y personalizada.
 
 ### **3.1.3. Landing Page UI Design**
 #### **3.1.3.1. Landing Page Wireframe**
+
+Se diseñó el wireframe aplicando los principios visuales, la arquitectura de información y el enfoque inclusivo definidos anteriormente.
+| Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
+|----------------------------------|----------------------------------|-------------------------------|
+| <img src="img/LandingDesktopWireframe.png" alt="wireframe1" /> | <img src="img/LandingPhoneWireframe.png" alt="wireframe2" /> | <img src="img/LandingPadWireframe.png" alt="wireframe3"/> |
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 #### **3.1.3.2. Landing Page Mock-up**
 
+El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y estructura planteados en el wireframe.
+| Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
+|----------------------------------|----------------------------------|-------------------------------|
+| <img src="img/LandingDesktopMockUp.png" alt="wireframe1" /> | <img src="img/LandingPhoneMockUp.png" alt="wireframe2" /> | <img src="img/LandingPadMockUp.png" alt="wireframe3"/> |
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 ### **3.1.4. Mobile Applications UX/UI Design**
+Este apartado aborda los principios fundamentales del diseño de experiencia de usuario (UX) y de interfaz gráfica (UI) en aplicaciones móviles. Se enfoca en la creación de interfaces intuitivas, accesibles y visualmente coherentes, optimizadas para distintos dispositivos y sistemas operativos. Se consideran aspectos como la arquitectura de navegación, la jerarquía visual, la consistencia de estilos, y la adaptación responsiva, con el objetivo de mejorar la usabilidad, la retención de usuarios y la eficiencia de las interacciones.
+
 #### **3.1.4.1. Mobile Applications Wireframes**
+Inicio de sesion segmento Reclutador o Postulante
+
+![Foto de Ronald](img/sesionReclutador.png) 
+
+Secciones de Inicio, Publicaciones, Asistencia AI y Perfil del segmento Reclutador
+
+![Foto de Ronald](img/sesionReclutador2.png) 
+
+Sidebar con secciones de Ver candidato, Analisitcas, Calendario, Papelera y cierre de sesion del segmento Reclutador
+
+![Foto de Ronald](img/sesionReclutado3.png) 
+
+Secciones de Home, Postulaciones, Mensajes, y Perfil del segmento Postulantes
+
+![sesion1](img/sesionPostulante.png) 
+
+Seccion de boton flotante "Postular" y su opcion de "ver mas"
+
+![sesion2](img/sesionPostulante2.png) 
+
 #### **3.1.4.2. Mobile Applications Wireflow Diagrams**
+User goal: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
+
+![cuentaNueva](img/crearCuenta.png)
+
+User goal: Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.
+
+![inicioSesion](img/inicioSesion.png)
+
+
+User Goal: Como usuario, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera.
+
+![inicioSesion](img/publicacion.png)
+
+User Goal: Como usuario, deseo ver la lista de candidatos que postulan y filtrar por categorías.
+
+![candidatoss](img/candidatoss.png)
+
+User Goal: Como usuario, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas.
+
+![analiticass](img/analiticass.png)
+
+Como usuario, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento.
+
+![IA](img/IA.png)
+
+User Goal: Como usuario deseo tener un perfil de empresa y poder editarlo cuando quiera.
+
+![perfilRECLU](img/perfilRECLU.png)
+
+ User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal.
+
+![sesionn2](img/sesionn2.png)
+
+User Goal: Como usuario, deseo recibir mensajes de las empresas para saber el estado de mi postulación.
+
+![mensajesPOS](img/mensajesPOS.png)
+
+User Goal: Como usuario, deseo ver todas las postulaciones que realice.
+
+![postulacionesPOS](img/postulacionesPOS.png)
+
+User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera.
+
+![perfilPOS](img/perfilPOS.png)
+
 #### **3.1.4.3. Mobile Applications Mock-ups**
+
+## INICIO Y CREAR CUENTA 
+![mock-1](img/MOCK1.png)
+
+## POSTULANTE
+![mock-2](img/MOCK2.png)
+
+## RECLUTADOR
+![mock-3](img/MOCK3.png)
+
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
+
+![USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR](img/USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR.png)
+
+![USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES](img/USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES.png)
+
+![USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR](img/USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR.png)
+
+![USER-FLOW-DIAGRAM-CREAR-CUENTA](img/USER-FLOW-DIAGRAM-CREAR-CUENTA.png)
+
+![USER-FLOW-DIAGRAM-EDITAR-PERFIL](img/USER-FLOW-DIAGRAM-EDITAR-PERFIL.png)
+
+![USER-FLOW-DIAGRAM-INICIO-SESION](img/USER-FLOW-DIAGRAM-INICIO-SESION.png)
+
+![USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE](img/USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE.png)
+
+![USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR](img/USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR.png)
+
 #### **3.1.4.5. Mobile Applications Prototyping**
 
+<<<<<<< HEAD
 # **Capítulo IV: Product Implementation & Validation**
+=======
+Link mobile application prototype video: https://drive.google.com/file/d/1W4ka95-DvcHUAsc0Jk4nx/view?usp=drive_link
+
+## **Capítulo IV: Product Implementation & Validation**
+
+### **4. Product Implementation & Validation**
+>>>>>>> chapter3
 
 ## **4.1. Software Configuration Management**
 
