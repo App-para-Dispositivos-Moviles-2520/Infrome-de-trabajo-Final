@@ -196,8 +196,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**3.1.4.3. Mobile Applications Mock-ups**](#3143-mobile-applications-mock-ups)
       - [**3.1.4.4. Mobile Applications User Flow Diagrams**](#3144-mobile-applications-user-flow-diagrams)
       - [**3.1.4.5. Mobile Applications Prototyping**](#3145-mobile-applications-prototyping)
-  - [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
-    - [**4. Product Implementation \& Validation**](#4-product-implementation--validation)
+- [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
   - [**4.1. Software Configuration Management**](#41-software-configuration-management)
     - [**4.1.1. Software Development Environment Configuration**](#411-software-development-environment-configuration)
     - [**4.1.2. Source Code Management**](#412-source-code-management)
@@ -1620,15 +1619,141 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 #### **3.1.4.5. Mobile Applications Prototyping**
 
-## **Capítulo IV: Product Implementation & Validation**
-
-### **4. Product Implementation & Validation**
+# **Capítulo IV: Product Implementation & Validation**
 
 ## **4.1. Software Configuration Management**
+
+A continuación, se presentan las decisiones y convenciones que permitirán mantener la consistencia durante el ciclo de vida.
+
 ### **4.1.1. Software Development Environment Configuration**
+
+En esta sección se incluyen los links de las aplicaciones y productos de software utilizados durante el ciclo del proyecto Jobsy, en los programas que se usaron para colaborar en el desarrollo del producto digital.
+Para ello se clasifican en las siguientes secciones:
+
+- Project Managment
+- Requirements Management
+- Product UX/UI Design
+- Software Development
+- Software Testing
+- Software Deployment
+- Software Documentation
+
+1. **Project Management**  
+Es la disciplina encargada de la gestión de los proyectos, la cual tiene como objetivo principal mejorar los procesos y su entorno para alcanzar los resultados esperados.  
+- En el ciclo digital del proyecto se implementará un producto software con un modelo SaaS que se ejecutará a través de un navegador, sin embargo, no se creará una versión de aplicación móvil.
+
+---
+
+2. **Requirements Management**  
+Es el proceso de garantizar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes con las partes interesadas internas o externas.  
+- **Trello**: Se usó esta herramienta porque organiza bien las user stories y ayuda a mantener el avance del proyecto claro y ordenado.
+
+Link: [https://www.trello.com/](https://www.trello.com/)
+
+---
+
+1. **Product UX/UI Design**  
+Estas herramientas permiten desarrollar el modelo de nuestro producto de manera digital y de forma parte de la vida del consumidor. En este caso se realizó un modelo de sitio web.  
+- **Uxpressia**: Usamos esta herramienta para elaborar los User Persona, Empathy Maps, Journey Maps e Impact Maps.  
+Link: [https://uxpressia.com/](https://uxpressia.com/)
+
+- **Miro**: Se usó esta herramienta para los As-Is y To-Be Scenario Maps.  
+Link: [https://miro.com/](https://miro.com/)
+
+- **Figma**: Se usó esta herramienta para la elaboración de Wireframes, Mock-ups y Prototypes de nuestra Landing Page y nuestra Web Application.  
+Link: [https://www.figma.com/](https://www.figma.com/)
+
+- **Lucidchart**: Se usó esta herramienta para la elaboración de Wireflows y User Flows.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+4. **Software Development**  
+- **GitHub**: Es la plataforma utilizada para el control de versiones, colaboración entre los integrantes del equipo y almacenamiento del código fuente del proyecto. A través de GitHub se aplicó GitFlow para mantener un flujo de trabajo ordenado y estructurado.  
+Link: [https://github.com/](https://github.com/)
+
+- **HTML**: Se utilizó para estructurar el contenido de la Landing Page y de las vistas principales de la aplicación web, permitiendo una organización semántica del contenido.  
+Link: [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+
+- **CSS**: Fue empleado para definir el diseño visual del sitio, respetando la línea estética basada en Material Design. Se aplicaron estilos personalizados para lograr una interfaz moderna y agradable al usuario.  
+Link: [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+
+- **JavaScript**: El lenguaje de programación utilizado para implementar la lógica del lado del cliente, como validaciones, interacciones dinámicas y consumo de servicios externos.  
+Link: [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+---
+
+5. **Software Testing**  
+- **Lenguaje Gherkins**: Se utilizó Gherkins para definir los criterios de aceptación y los escenarios de prueba en un lenguaje natural, facilitando la comprensión tanto para desarrolladores como para usuarios no técnicos.  
+Link para más información: [https://profile.es/blog/que-es-gherkin/](https://profile.es/blog/que-es-gherkin/)
+
+---
+
+6. **Software Documentation**  
+- **LucidChart**: Se usó esta herramienta para la elaboración de diagramas UML y Diagramas de Base de Datos.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+- **Structurizr**: Se usó Structurizr bajo el modelo C4 para documentar la arquitectura del software, dividiendo la estructura en diferentes niveles de detalle (Context, Container, Component y Code).  
+Link: [https://structurizr.com/](https://structurizr.com/)
+
 ### **4.1.2. Source Code Management**
+
+En esta sección se establecen los medios y esquemas de organización que aplicará para el seguimiento de modificaciones. Se proporcionan los links de los repositorios en Github.
+
+- URL de la organización: [https://github.com/App-para-Dispositivos-Moviles-2520](https://github.com/App-para-Dispositivos-Moviles-2520)
+- URL del Proyect Report: [https://github.com/App-para-Dispositivos-Moviles-2520/Infrome-de-trabajo-Final](https://github.com/App-para-Dispositivos-Moviles-2520/Infrome-de-trabajo-Final)
+- URL del Landing Page: [https://github.com/App-para-Dispositivos-Moviles-2520/Landing-Page](https://github.com/App-para-Dispositivos-Moviles-2520/Landing-Page)
+- URL del Backend: [https://github.com/App-para-Dispositivos-Moviles-2520/backend-app](https://github.com/App-para-Dispositivos-Moviles-2520/backend-app)
+
+Para este proyecto se utilizará Gitflow. Gitflow es un modelo de ramificación para Git que utiliza múltiples ramas de larga duración y asigna funciones muy específicas a cada una. Este modelo es especialmente adecuado para proyectos con ciclos de lanzamiento programados, donde se necesita un control estricto de las versiones, como por ejemplo, en software de escritorio o sistemas regulados. 
+
+- Ramas principales:
+  - **main**: Contiene el historial oficial de lanzamientos, con código que siempre está listo para ser desplegado en producción. Cada commit en esta rama representa una nueva versión.
+  - **develop**:  Sirve como una rama de integración donde se consolidan todas las nuevas funcionalidades. A partir de esta rama se crean las ramas secundarias.
+
+- Ramas de apoyo:
+  - **feature**: Se crea a partir de develop para desarrollar una nueva característica. Cuando la funcionalidad está completa, se fusiona de nuevo en develop.
+  - **release**: Se crea a partir de develop cuando se está preparando una nueva versión para producción. Se utiliza para correcciones de última hora, generación de documentación y pruebas finales.
+  - **hotfix**: Se crea directamente desde main para corregir errores críticos y urgentes en producción. Una vez resuelto el problema, la rama hotfix se fusiona de nuevo en main y en develop para asegurar que el arreglo se incluya en futuras versiones. 
+
+Para este proyecto se utilizarán Conventional Commits. Conventional Commits es una convención de especificación ligera para estructurar los mensajes de commit en Git, que los hace comprensibles tanto para humanos como para máquinas. Su principal objetivo es crear un historial de commits claro y legible. 
+
+Los convencional commits tienen diferentes partes como:
+
+- **type**: Dependiendo del cambio que se realicen en el proyecto, los commits pueden ser:
+  - **feat**: Cuando se agrega una nueva funcionalidad
+  - **docs**: Cuando se realizan cambios en la documentación del proyecto
+  - **fix**: Cuando se corrige un error en el código
+  - **chore**: Cuando se realizan cambios que no afectan al código
+  - **refactor**: Cuando se realizan cambios en la estructura, sin afectar el comportamiento del proyecto
+  - **build**: Cuando se realizan cambios en los componentes del proyecto, como dependencias externas. 
+  - **perf**: Cuando se realizan cambios que mejoran el rendimiento del proyecto.
+- **scope**: Campo opcional que nos permite especificar el alcance que tiene el commit
+- **description**: Campo obligatorio que proporciona el contenido del commit, en minúsculas y de modo imperativo
+- **body**: Campo opcional en el cual se detalla más información sobre el commit.
+- **footer**: Campo opcional que se utiliza para informar al respecto de cambios importantes. 
+
 ### **4.1.3. Source Code Style Guide & Conventions**
+
+Se adoptaron guías de estilo estándar en inglés para cada lenguaje empleado:
+
+- **HTML/CSS**: Google HTML/CSS Style Guide
+- **JavaScript**: Google JavaScript Style Guide, MDN Guidelines
+- **Kotlin**: Android Style Guide
+
+Esto asegura legibilidad, coherencia y facilidad de mantenimiento en todo el código del proyecto.
+
 ### **4.1.4. Software Deployment Configuration**
+
+La gestión del código fuente del proyecto Jobsy se realizó utilizando GitHub. Para la publicación y despliegue de la Landing Page, se empleó **GitHub Pages**, que permite una visualización directa desde el repositorio principal.
+
+Para el desarrollo y despliegue de la Landing Page de Jobsy se han utilizado las siguientes herramientas:
+
+- **HTML**: Lenguaje de marcado que permitió estructurar el contenido visual y semántico de la Landing Page. Se utilizó para crear elementos como encabezados, párrafos, botones, formularios, entre otros.
+
+- **CSS**: Lenguaje de estilos utilizado para dar formato, color, distribución y diseño gráfico a los elementos definidos en HTML. Gracias a CSS, se logró que la Landing Page sea más visualmente atractiva e interactiva.
+
+- **JavaScript**: Utilizado para añadir interactividad y dinamismo a los componentes de la Landing Page, como validaciones en formularios, navegación fluida y respuestas a eventos del usuario.
+
+Link para la visualización de la Landing Page: https://landing-page-jobsy.web.app
 
 ## **4.2. Landing Page & Mobile Application Implementation**
 ### **4.2.1. Sprint 1**
