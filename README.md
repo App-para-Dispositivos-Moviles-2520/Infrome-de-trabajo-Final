@@ -888,57 +888,3025 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 ## **2.4. Requirements specification**
 
 ### **2.4.1. User Stories**
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|----------------|--------|-------------|--------------------------|----------------------------|
-| EP001 | Gestión de Vacantes | Epic para crear, editar y cerrar vacantes laborales | | EP001 |
-| US001 | Crear nueva vacante | Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación. | **Escenario 1: Creación de vacante desde formulario**<br>• Dado que el reclutador ha iniciado sesión<br>• Cuando completa el formulario de creación<br>• Entonces la vacante se publica correctamente<br><br>**Escenario 2: Validación de campos requeridos**<br>• Dado que el reclutador está creando una vacante<br>• Cuando omite un campo obligatorio<br>• Entonces el sistema muestra un mensaje de error y no permite guardar | EP001 |
-| US002 | Editar vacante existente | Como reclutador, quiero editar una vacante publicada para actualizar su información. | **Escenario 1: Actualización de datos en vacante activa**<br>• Dado que la vacante está publicada<br>• Cuando el reclutador la edita<br>• Entonces los cambios se guardan y se muestran correctamente<br><br>**Escenario 2: Prevención de edición en vacantes cerradas**<br>• Dado que el reclutador accede a una vacante cerrada<br>• Cuando intenta editarla<br>• Entonces el sistema muestra un mensaje indicando que no se puede modificar | EP001 |
-| US003 | Cerrar vacante | Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones. | **Escenario 1: Finalización de proceso de selección**<br>• Dado que una vacante está abierta<br>• Cuando el reclutador la cierra<br>• Entonces la vacante ya no acepta postulaciones<br><br>**Escenario 2: Confirmación previa al cierre de vacante**<br>• Dado que el reclutador hace clic en cerrar vacante<br>• Cuando el sistema solicita confirmación<br>• Entonces solo se cierra si el reclutador confirma la acción | EP001 |
-| EP002 | Gestión de Postulaciones | Epic para gestionar postulaciones de los candidatos | | EP002 |
-| US004 | Aplicar a vacante | Como postulante, quiero postularme a una vacante para ser considerado en un proceso de selección. | **Escenario 1: Aplicación del postulante a una oferta**<br>• Dado que el usuario está autenticado<br>• Cuando se postula a una vacante<br>• Entonces recibe confirmación de postulación exitosa<br><br>**Escenario 2: Impedir postulación duplicada**<br>• Dado que el usuario ya postuló a una vacante<br>• Cuando intenta postularse nuevamente<br>• Entonces el sistema indica que ya está postulado | EP002 |
-| US005 | Ver postulaciones recibidas | Como reclutador, quiero ver las postulaciones recibidas para conocer los candidatos interesados. | **Escenario 1: Consulta de candidatos por vacante**<br>• Dado que el reclutador accede a una vacante<br>• Cuando consulta las postulaciones<br>• Entonces ve una lista con detalles de los postulantes<br><br>**Escenario 2: Ordenar postulaciones por fecha**<br>• Dado que el reclutador ve la lista de postulaciones<br>• Cuando selecciona el orden por fecha<br>• Entonces se muestran desde la más reciente a la más antigua | EP002 |
-| US006 | Filtrar postulaciones | Como reclutador, quiero filtrar postulaciones por estado para gestionar mejor el proceso. | **Escenario 1: Aplicación de filtro por estado en postulaciones**<br>• Dado que hay múltiples postulaciones<br>• Cuando aplica un filtro por estado<br>• Entonces solo se muestran las que coinciden<br><br>**Escenario 2: Filtrado combinado por estado y fecha**<br>• Dado que el reclutador desea refinar resultados<br>• Cuando aplica varios filtros a la vez<br>• Entonces solo se muestran las postulaciones que cumplen todos los filtros | EP002 |
-| EP003 | Proceso de Selección | Epic para el seguimiento del proceso de entrevistas y contratación | | EP003 |
-| US007 | Agendar entrevista | Como reclutador, quiero agendar entrevistas con postulantes para coordinar el proceso de selección. | **Escenario 1: Programación de entrevistas con candidatos**<br>• Dado que el reclutador ha seleccionado un candidato<br>• Cuando define fecha y hora<br>• Entonces se agenda la entrevista y se notifica al postulante<br><br>**Escenario 2: Evitar cruce de entrevistas en calendario**<br>• Dado que hay otra entrevista agendada en el mismo horario<br>• Cuando el reclutador intenta programar una nueva<br>• Entonces el sistema muestra una advertencia y no permite agendar | EP003 |
-| US008 | Registrar resultado de entrevista | Como reclutador, quiero registrar los resultados de entrevistas para tomar decisiones basadas en el desempeño. | **Escenario 1: Carga de resultados luego de entrevista**<br>• Dado que la entrevista se ha realizado<br>• Cuando se registran los resultados<br>• Entonces se actualiza el estado del candidato<br><br>**Escenario 2: Edición de resultados antes de envío final**<br>• Dado que los resultados aún no han sido enviados al candidato<br>• Cuando el reclutador quiere hacer cambios<br>• Entonces puede modificar la información registrada | EP003 |
-| US009 | Enviar oferta laboral | Como reclutador, quiero enviar una oferta laboral al candidato seleccionado para formalizar su contratación. | **Escenario 1: Formalización de propuesta laboral**<br>• Dado que el candidato ha sido elegido<br>• Cuando se completa el formulario de oferta<br>• Entonces se envía al candidato y queda registrada<br><br>**Escenario 2: Cancelación de oferta antes del envío**<br>• Dado que el formulario de oferta está en edición<br>• Cuando el reclutador decide no enviarla<br>• Entonces puede cancelar la operación sin guardar cambios | EP003 |
-| EP004 | Gestión de Usuarios | Epic para la administración de usuarios en la plataforma | | EP004 |
-| US010 | Registrar cuenta de postulante | Como usuario, quiero registrarme como postulante para aplicar a vacantes. | **Escenario 1: Alta de nuevo usuario postulante**<br>• Dado que el usuario accede a la plataforma<br>• Cuando completa el formulario de registro<br>• Entonces se crea su cuenta de postulante<br><br>**Escenario 2: Mensaje de error por correo ya registrado**<br>• Dado que el correo ingresado ya existe<br>• Cuando intenta registrarse<br>• Entonces el sistema muestra un mensaje indicando el error | EP004 |
-| US011 | Registrar cuenta de reclutador | Como empresa, quiero registrarme para gestionar vacantes laborales. | **Escenario 1: Registro exitoso de empresa reclutadora**<br>• Dado que la empresa accede al sitio<br>• Cuando se completa el registro empresarial<br>• Entonces se crea la cuenta de reclutador<br><br>**Escenario 2: Validación de datos de empresa incompletos**<br>• Dado que el formulario de empresa está incompleto<br>• Cuando intenta enviar el registro<br>• Entonces el sistema bloquea el envío y muestra los errores | EP004 |
-| US012 | Editar perfil profesional | Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mis oportunidades. | **Escenario 1: Actualización de perfil profesional por el usuario**<br>• Dado que el usuario accede a su perfil<br>• Cuando edita información personal<br>• Entonces los cambios se guardan correctamente<br><br>**Escenario 2: Validación de formato en campos del perfil**<br>• Dado que el usuario ingresa datos incorrectos<br>• Cuando intenta guardar<br>• Entonces el sistema muestra errores de validación | EP004 |
-| EP005 | IA y Recomendaciones | Epic para automatizar recomendaciones usando inteligencia artificial | | EP005 |
-| US013 | Sugerencia de candidatos | Como reclutador, quiero ver candidatos sugeridos automáticamente según la vacante para encontrar mejores perfiles. | **Escenario 1: Visualización de perfiles sugeridos para vacante**<br>• Dado que la vacante está publicada<br>• Cuando se accede a la sección de sugerencias<br>• Entonces se muestran candidatos recomendados<br><br>**Escenario 2: No hay coincidencias disponibles**<br>• Dado que no hay perfiles que coincidan con la vacante<br>• Cuando se abre la sección de sugerencias<br>• Entonces el sistema informa que no hay coincidencias | EP005 |
-| US014 | Recomendación de vacantes | Como postulante, quiero recibir sugerencias de vacantes relevantes a mi perfil para encontrar oportunidades adecuadas. | **Escenario 1: Vacantes destacadas en la vista del postulante**<br>• Dado que el usuario tiene perfil completo<br>• Cuando ingresa a la plataforma<br>• Entonces se le muestran vacantes sugeridas<br><br>**Escenario 2: Sugerencias actualizadas al cambiar perfil**<br>• Dado que el usuario modifica su perfil<br>• Cuando vuelve a la sección de sugerencias<br>• Entonces las recomendaciones se actualizan | EP005 |
-| US015 | Puntaje automático de CVs | Como reclutador, quiero que los CVs tengan puntajes automáticos para facilitar la evaluación. | **Escenario 1: Evaluación automática de hojas de vida**<br>• Dado que hay postulaciones registradas<br>• Cuando se visualizan los CVs<br>• Entonces se muestran con un puntaje evaluado por el sistema<br><br>**Escenario 2: Justificación del puntaje mostrado**<br>• Dado que el reclutador ve un puntaje<br>• Cuando desea más información<br>• Entonces puede ver un desglose de los criterios usados | EP005 |
-| EP006 | Gestión de Notificaciones | Epic para la administración de notificaciones a los usuarios | | EP006 |
-| US016 | Recibir notificaciones de vacantes | Como postulante, quiero recibir notificaciones cuando se publiquen vacantes relevantes para postularme a tiempo. | **Escenario 1: Recepción de alertas por nuevas vacantes**<br>• Dado que el postulante está registrado<br>• Cuando se publica una vacante relevante<br>• Entonces recibe una notificación<br><br>**Escenario 2: Configuración de tipo de vacantes notificadas**<br>• Dado que el usuario accede a preferencias<br>• Cuando selecciona áreas de interés<br>• Entonces solo recibe notificaciones de esas áreas | EP006 |
-| US017 | Recibir notificaciones de postulaciones | Como reclutador, quiero recibir notificaciones de nuevas postulaciones para estar al tanto de los candidatos interesados. | **Escenario 1: Aviso inmediato al recibir postulaciones**<br>• Dado que el reclutador ha publicado una vacante<br>• Cuando un candidato se postula<br>• Entonces recibe una notificación<br><br>**Escenario 2: Configuración de frecuencia de notificaciones**<br>• Dado que el reclutador prefiere menos alertas<br>• Cuando ajusta la frecuencia<br>• Entonces solo recibe notificaciones según la configuración | EP006 |
-| EP007 | Gestión de Entrevistas | Epic para organizar y gestionar las entrevistas con los candidatos | | EP007 |
-| US018 | Ver calendario de entrevistas | Como reclutador, quiero ver un calendario de entrevistas programadas para organizar mi agenda. | **Escenario 1: Revisión del cronograma de entrevistas**<br>• Dado que el reclutador ha agendado entrevistas<br>• Cuando consulta el calendario<br>• Entonces ve las entrevistas programadas<br><br>**Escenario 2: Filtro por semana o día en el calendario**<br>• Dado que hay muchas entrevistas<br>• Cuando aplica un filtro<br>• Entonces solo ve las entrevistas del rango seleccionado | EP007 |
-| US019 | Reprogramar entrevista | Como reclutador, quiero reprogramar una entrevista para ajustarla a nuevas disponibilidades. | **Escenario 1: Modificación de entrevistas ya agendadas**<br>• Dado que una entrevista está programada<br>• Cuando el reclutador cambia la fecha o hora<br>• Entonces la entrevista se reprograma y se notifica al postulante<br><br>**Escenario 2: Notificación de conflicto de horarios**<br>• Dado que el nuevo horario se superpone con otra entrevista<br>• Cuando se intenta reprogramar<br>• Entonces el sistema alerta del conflicto | EP007 |
-| EP008 | Soporte y Ayuda | Epic para gestionar la sección de soporte de la plataforma | | EP008 |
-| US020 | Solicitar soporte | Como usuario, quiero solicitar soporte para resolver problemas técnicos. | **Escenario 1: Registro de incidencias técnicas**<br>• Dado que el usuario tiene un problema técnico<br>• Cuando solicita soporte<br>• Entonces se crea un ticket de soporte<br><br>**Escenario 2: Confirmación de creación de ticket**<br>• Dado que el usuario ha solicitado soporte<br>• Cuando el ticket se crea correctamente<br>• Entonces el sistema muestra un mensaje de confirmación con el número de ticket | EP008 |
-| US021 | Responder solicitud de soporte | Como agente de soporte, quiero responder a las solicitudes de soporte de los usuarios para ayudarlos eficazmente. | **Escenario 1: Envío de respuesta por el equipo de soporte**<br>• Dado que un usuario ha solicitado soporte<br>• Cuando el agente de soporte responde<br>• Entonces el usuario recibe una respuesta<br><br>**Escenario 2: Visualización del historial de soporte**<br>• Dado que hubo intercambio de mensajes<br>• Cuando el usuario accede al ticket<br>• Entonces puede ver todo el historial de la conversación | EP008 |
-| EP009 | Administración de Pago | Epic para la administración de pagos dentro de la plataforma | | EP009 |
-| US022 | Registrar método de pago | Como usuario, quiero registrar un método de pago para realizar compras o suscripciones. | **Escenario 1: Inclusión de tarjeta o cuenta bancaria**<br>• Dado que el usuario accede a su perfil<br>• Cuando agrega un método de pago<br>• Entonces se guarda correctamente el método de pago<br><br>**Escenario 2: Validación de datos del método de pago**<br>• Dado que el usuario ingresa información de pago<br>• Cuando algún campo es inválido<br>• Entonces el sistema muestra errores específicos para su corrección | EP009 |
-| US023 | Realizar pago | Como usuario, quiero realizar un pago para acceder a servicios premium. | **Escenario 1: Procesamiento exitoso de una transacción**<br>• Dado que el usuario ha registrado un método de pago<br>• Cuando realiza el pago<br>• Entonces recibe confirmación de pago exitoso<br><br>**Escenario 2: Fallo en el intento de pago**<br>• Dado que hay un problema con el método de pago<br>• Cuando se intenta realizar la transacción<br>• Entonces el sistema muestra un mensaje de error explicativo | EP009 |
-| US024 | Ver historial de pagos | Como usuario, quiero ver un historial de mis pagos para tener un registro de mis transacciones. | **Escenario 1: Consulta detallada de transacciones previas**<br>• Dado que el usuario ha realizado pagos anteriormente<br>• Cuando consulta el historial de pagos<br>• Entonces se muestran los detalles de los pagos previos<br><br>**Escenario 2: Filtro por fecha en historial de pagos**<br>• Dado que el usuario accede al historial<br>• Cuando aplica un filtro de fechas<br>• Entonces el sistema muestra solo los pagos dentro del rango seleccionado | EP009 |
-| EP010 | Configuración de Preferencias | Epic para gestionar las preferencias de los usuarios | | EP010 |
-| US025 | Configurar notificaciones | Como usuario, quiero configurar mis preferencias de notificaciones para recibir solo la información relevante. | **Escenario 1: Ajustes personalizados de alertas**<br>• Dado que el usuario accede a la configuración<br>• Cuando configura las notificaciones<br>• Entonces se guardan correctamente sus preferencias<br><br>**Escenario 2: Restaurar configuración por defecto**<br>• Dado que el usuario desea restablecer la configuración<br>• Cuando hace clic en "restaurar por defecto"<br>• Entonces el sistema aplica la configuración inicial predeterminada | EP010 |
-| US026 | Configurar perfil | Como usuario, quiero configurar mis preferencias de perfil para personalizar mi experiencia. | **Escenario 1: Personalización de datos del usuario**<br>• Dado que el usuario accede a su perfil<br>• Cuando edita sus preferencias<br>• Entonces se guardan correctamente<br><br>**Escenario 2: Mostrar confirmación tras editar perfil**<br>• Dado que el usuario guarda los cambios<br>• Cuando se completan correctamente<br>• Entonces el sistema muestra un mensaje confirmando la actualización del perfil | EP010 |
-| EP011 | Seguridad de Cuenta | Epic para gestionar la seguridad de las cuentas de los usuarios | | EP011 |
-| US027 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para asegurar mi cuenta. | **Escenario 1: Actualización segura de credenciales**<br>• Dado que el usuario está autenticado<br>• Cuando solicita cambiar la contraseña<br>• Entonces se actualiza correctamente<br><br>**Escenario 2: Validación de coincidencia en contraseñas nuevas**<br>• Dado que el usuario ingresa una nueva contraseña dos veces<br>• Cuando las contraseñas no coinciden<br>• Entonces el sistema muestra un error y no permite continuar | EP011 |
-| US028 | Activar autenticación de dos factores | Como usuario, quiero activar la autenticación de dos factores para mayor seguridad. | **Escenario 1: Habilitación de doble autenticación**<br>• Dado que el usuario accede a la configuración de seguridad<br>• Cuando habilita la autenticación de dos factores<br>• Entonces se activa correctamente<br><br>**Escenario 2: Solicitud de código de verificación**<br>• Dado que el usuario ha activado 2FA<br>• Cuando intenta ingresar nuevamente<br>• Entonces el sistema solicita un código de verificación adicional | EP011 |
-| EP012 | Gestión de Roles | Epic para gestionar roles y permisos de los usuarios | | EP012 |
-| US029 | Asignar rol de reclutador | Como administrador, quiero asignar el rol de reclutador a un usuario para que pueda gestionar vacantes. | **Escenario 1: Otorgamiento de permisos al rol reclutador**<br>• Dado que el usuario está registrado<br>• Cuando el administrador asigna el rol de reclutador<br>• Entonces el usuario tiene acceso a las funciones de reclutador<br><br>**Escenario 2: Notificación al usuario sobre nuevo rol**<br>• Dado que se asignó un nuevo rol<br>• Cuando el cambio se confirma<br>• Entonces el usuario recibe una notificación del sistema sobre sus nuevos permisos | EP012 |
-| US030 | Asignar rol de postulante | Como administrador, quiero asignar el rol de postulante a un usuario para que pueda aplicar a vacantes. | **Escenario 1: Habilitación de funcionalidades para postulante**<br>• Dado que el usuario está registrado<br>• Cuando el administrador asigna el rol de postulante<br>• Entonces el usuario tiene acceso a las funciones de postulante<br><br>**Escenario 2: Acceso automático a funcionalidades de postulante**<br>• Dado que el rol ha sido asignado<br>• Cuando el usuario accede a su cuenta<br>• Entonces puede ver y usar opciones específicas para postulantes como aplicar a vacantes | EP012 |
-| EP013 | Integración con Redes Sociales | Epic para integrar la plataforma con redes sociales | | EP013 |
-| US031 | Iniciar sesión con redes sociales | Como usuario, quiero iniciar sesión utilizando mi cuenta de redes sociales para facilitar el acceso. | **Escenario 1: Acceso mediante redes sociales**<br>• Dado que el usuario tiene una cuenta de redes sociales<br>• Cuando elige la opción de inicio de sesión social<br>• Entonces inicia sesión exitosamente<br><br>**Escenario 2: Manejo de error en inicio de sesión social**<br>• Dado que el usuario elige iniciar sesión con una red social<br>• Cuando ocurre un error de autenticación<br>• Entonces el sistema muestra un mensaje de error claro e invita a reintentar o usar otro método | EP013 |
-| US032 | Compartir vacante en redes sociales | Como reclutador, quiero compartir una vacante en redes sociales para atraer más postulantes. | **Escenario 1: Difusión de vacante en plataformas sociales**<br>• Dado que la vacante está publicada<br>• Cuando el reclutador elige compartir<br>• Entonces la vacante se publica en las redes sociales seleccionadas<br><br>**Escenario 2: Confirmación de publicación exitosa**<br>• Dado que el reclutador comparte la vacante<br>• Cuando la publicación se realiza correctamente<br>• Entonces el sistema muestra una confirmación y el enlace compartido | EP013 |
-| US033 | Compartir perfil en redes sociales | Como postulante, quiero compartir mi perfil en redes sociales para aumentar mi visibilidad. | **Escenario 1: Promoción de perfil profesional**<br>• Dado que el postulante tiene un perfil completo<br>• Cuando elige compartir<br>• Entonces el perfil se publica en las redes sociales seleccionadas<br><br>**Escenario 2: Vista previa del perfil antes de compartir**<br>• Dado que el postulante va a compartir su perfil<br>• Cuando accede a la opción de compartir<br>• Entonces puede ver una vista previa del contenido que se publicará | EP013 |
-| EP014 | Gestión de Comentarios | Epic para gestionar comentarios y valoraciones de los usuarios | | EP014 |
-| US034 | Comentar sobre vacantes | Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores. | **Escenario 1: Publicación de comentarios sobre vacantes**<br>• Dado que el postulante ha postulado a una vacante<br>• Cuando deja un comentario sobre la vacante<br>• Entonces el comentario se guarda correctamente<br><br>**Escenario 2: Validación de contenido inapropiado**<br>• Dado que el postulante escribe un comentario<br>• Cuando el sistema detecta contenido inapropiado<br>• Entonces muestra un mensaje de advertencia y no permite guardar el comentario | EP014 |
-| US035 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes. | **Escenario 1: Retroalimentación del proceso de selección**<br>• Dado que el candidato ha sido parte del proceso de selección<br>• Cuando deja un comentario sobre el proceso<br>• Entonces el comentario se guarda y es visible para el reclutador<br><br>**Escenario 2: Comentarios anónimos opcionales**<br>• Dado que el candidato desea comentar el proceso<br>• Cuando marca la opción de anonimato<br>• Entonces su comentario se publica sin mostrar su nombre | EP014 |
+
+<!-- ========================================= -->
+<!-- USER STORIES + TECHNICAL STORIES         -->
+<!-- VERSIÓN ORDENADA Y RENUMERADA            -->
+<!-- Total: 14 Epics + 50 US + 10 TS          -->
+<!-- ========================================= -->
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse;">
+  
+  <!-- ============================================ -->
+  <!-- EPIC 001 - Gestión de Vacantes              -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP001</strong></td>
+    <td colspan="3"><strong>Gestión de Vacantes</strong></td>
+  </tr>
+
+  <!-- US001 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US001</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Crear nueva vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo registrar una nueva vacante para iniciar el proceso de contratación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Creación exitosa</strong><br/>
+      • Dado que el reclutador está autenticado<br/>
+      • Cuando completa todos los datos requeridos de la vacante y confirma la creación<br/>
+      • Entonces la vacante queda registrada y disponible para recibir postulaciones.<br/><br/>
+      <strong>Escenario 2: Validación de campos</strong><br/>
+      • Dado que el reclutador omite un campo obligatorio<br/>
+      • Cuando intenta guardar la vacante<br/>
+      • Entonces el sistema informa el campo faltante y no permite crear la vacante.
+    </td>
+  </tr>
+
+  <!-- US002 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US002</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Editar vacante existente</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo modificar una vacante publicada para actualizar su información.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Actualización válida</strong><br/>
+      • Dado que la vacante está activa<br/>
+      • Cuando el reclutador modifica los campos permitidos y guarda los cambios<br/>
+      • Entonces los cambios se reflejan correctamente en la vacante.<br/><br/>
+      <strong>Escenario 2: Vacante cerrada</strong><br/>
+      • Dado que la vacante está cerrada<br/>
+      • Cuando el reclutador intenta editarla<br/>
+      • Entonces el sistema impide la edición y muestra el motivo.
+    </td>
+  </tr>
+
+  <!-- US003 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US003</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cerrar vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo cerrar una vacante para detener nuevas postulaciones al finalizar el proceso.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cierre</strong><br/>
+      • Dado que la vacante está activa<br/>
+      • Cuando el reclutador confirma el cierre<br/>
+      • Entonces la vacante cambia a estado cerrado y no acepta nuevas postulaciones.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que el reclutador solicita cerrar la vacante<br/>
+      • Cuando el sistema solicita confirmación<br/>
+      • Entonces la vacante solo se cierra si el reclutador confirma.
+    </td>
+  </tr>
+
+  <!-- US004 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US004</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Buscar y listar vacantes disponibles</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo buscar y visualizar las vacantes disponibles mediante filtros para encontrar oportunidades relevantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Listado de vacantes activas</strong><br/>
+      • Dado que el postulante accede al módulo de vacantes<br/>
+      • Cuando carga la lista<br/>
+      • Entonces se muestran todas las vacantes activas con información básica.<br/><br/>
+      <strong>Escenario 2: Búsqueda con filtros</strong><br/>
+      • Dado que el postulante aplica filtros (cargo, ubicación, empresa)<br/>
+      • Cuando ejecuta la búsqueda<br/>
+      • Entonces el sistema muestra solo las vacantes que coinciden con los criterios.
+    </td>
+  </tr>
+
+  <!-- US005 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US005</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver detalle completo de una vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo ver toda la información detallada de una vacante antes de postularme para tomar una decisión informada.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Visualización completa</strong><br/>
+      • Dado que el postulante selecciona una vacante<br/>
+      • Cuando accede al detalle<br/>
+      • Entonces se muestra descripción completa, requisitos, beneficios, salario y datos de la empresa.<br/><br/>
+      <strong>Escenario 2: Acceso a postulación</strong><br/>
+      • Dado que el postulante visualiza una vacante<br/>
+      • Cuando está interesado<br/>
+      • Entonces debe tener acceso directo al botón de postulación desde la vista de detalle.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 002 - Gestión de Postulaciones         -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP002</strong></td>
+    <td colspan="3"><strong>Gestión de Postulaciones</strong></td>
+  </tr>
+
+  <!-- US006 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US006</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Aplicar a vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo postularme a una vacante para ser considerado en el proceso de selección.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Aplicación exitosa</strong><br/>
+      • Dado que el postulante está autenticado y la vacante está abierta<br/>
+      • Cuando el postulante envía su candidatura<br/>
+      • Entonces recibe confirmación de postulación exitosa.<br/><br/>
+      <strong>Escenario 2: Evitar duplicados</strong><br/>
+      • Dado que el postulante ya presentó una postulación a la misma vacante<br/>
+      • Cuando intenta postularse de nuevo<br/>
+      • Entonces el sistema rechaza la nueva postulación y notifica que ya está postulado.
+    </td>
+  </tr>
+
+  <!-- US007 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US007</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver postulaciones recibidas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo consultar las postulaciones recibidas para evaluar candidatos interesados en cada vacante.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Consulta por vacante</strong><br/>
+      • Dado que el reclutador accede a una vacante publicada<br/>
+      • Cuando solicita ver las postulaciones<br/>
+      • Entonces se muestra la lista de postulantes con datos relevantes.<br/><br/>
+      <strong>Escenario 2: Ordenar por fecha</strong><br/>
+      • Dado que la lista de postulaciones está visible<br/>
+      • Cuando el reclutador ordena por fecha de postulación<br/>
+      • Entonces las postulaciones se muestran de la más reciente a la más antigua.
+    </td>
+  </tr>
+
+  <!-- US008 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US008</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Filtrar postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo filtrar postulaciones por estado y otros criterios para gestionar mejor el proceso.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Filtro por estado</strong><br/>
+      • Dado que existen postulaciones con distintos estados<br/>
+      • Cuando el reclutador aplica un filtro por estado<br/>
+      • Entonces solo se muestran las postulaciones que coinciden con el estado seleccionado.<br/><br/>
+      <strong>Escenario 2: Filtro combinado</strong><br/>
+      • Dado que el reclutador aplica varios criterios (estado y fecha)<br/>
+      • Cuando se ejecuta la búsqueda<br/>
+      • Entonces se muestran únicamente las postulaciones que cumplen todos los filtros.
+    </td>
+  </tr>
+
+  <!-- US009 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US009</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver estado de mis postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo consultar el estado actual de todas mis postulaciones para dar seguimiento a mis procesos de selección.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Listado de postulaciones propias</strong><br/>
+      • Dado que el postulante accede a "Mis Postulaciones"<br/>
+      • Cuando carga la vista<br/>
+      • Entonces se muestra una lista con todas sus postulaciones y su estado actual (En revisión, Entrevista agendada, Rechazada, Oferta enviada).<br/><br/>
+      <strong>Escenario 2: Detalle de postulación</strong><br/>
+      • Dado que el postulante selecciona una postulación<br/>
+      • Cuando accede al detalle<br/>
+      • Entonces puede ver historial completo (fecha de postulación, actualizaciones, entrevistas, comentarios).
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 003 - Proceso de Selección            -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP003</strong></td>
+    <td colspan="3"><strong>Proceso de Selección</strong></td>
+  </tr>
+
+  <!-- US010 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US010</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Agendar entrevista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo programar entrevistas con postulantes para avanzar en el proceso de selección.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Programación</strong><br/>
+      • Dado que el reclutador selecciona un candidato disponible<br/>
+      • Cuando define fecha y hora y confirma la programación<br/>
+      • Entonces la entrevista queda agendada y el candidato recibe la notificación.<br/><br/>
+      <strong>Escenario 2: Evitar solapamientos</strong><br/>
+      • Dado que ya existe una entrevista en el mismo horario<br/>
+      • Cuando intenta agendar otra en ese horario<br/>
+      • Entonces el sistema alerta del conflicto y no permite la programación.
+    </td>
+  </tr>
+
+  <!-- US011 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US011</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar resultado de entrevista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo registrar los resultados de las entrevistas para documentar el desempeño de los candidatos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro</strong><br/>
+      • Dado que la entrevista se ha realizado<br/>
+      • Cuando el reclutador ingresa los resultados y guarda<br/>
+      • Entonces el estado del candidato se actualiza en el sistema.<br/><br/>
+      <strong>Escenario 2: Edición previa</strong><br/>
+      • Dado que los resultados aún no han sido publicados al candidato<br/>
+      • Cuando el reclutador modifica los datos ingresados<br/>
+      • Entonces los cambios se guardan correctamente.
+    </td>
+  </tr>
+
+  <!-- US012 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US012</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Enviar oferta laboral</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo enviar una oferta laboral formal al candidato seleccionado para cerrar el proceso de contratación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío</strong><br/>
+      • Dado que el candidato ha sido seleccionado y el formulario de oferta está completo<br/>
+      • Cuando el reclutador envía la oferta<br/>
+      • Entonces la oferta queda registrada y el candidato recibe la notificación.<br/><br/>
+      <strong>Escenario 2: Cancelación</strong><br/>
+      • Dado que la oferta está en edición<br/>
+      • Cuando el reclutador decide no enviarla y cancela<br/>
+      • Entonces no se genera registro ni notificación.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 004 - Gestión de Usuarios             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP004</strong></td>
+    <td colspan="3"><strong>Gestión de Usuarios y Autenticación</strong></td>
+  </tr>
+
+  <!-- US013 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US013</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar cuenta de postulante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo crear una cuenta tipo postulante para poder aplicar a vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro exitoso</strong><br/>
+      • Dado que el usuario completa el formulario de registro con datos válidos<br/>
+      • Cuando envía el formulario<br/>
+      • Entonces la cuenta de postulante se crea y recibe confirmación.<br/><br/>
+      <strong>Escenario 2: Correo duplicado</strong><br/>
+      • Dado que el correo ya está registrado<br/>
+      • Cuando intenta registrarse con ese correo<br/>
+      • Entonces el sistema informa que el correo ya está en uso.
+    </td>
+  </tr>
+
+  <!-- US014 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US014</td>
+    <td>Empresa / Reclutador</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar cuenta de reclutador</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como empresa, deseo registrar una cuenta de reclutador para gestionar vacantes y postulaciones.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro empresarial correcto</strong><br/>
+      • Dado que el formulario empresarial está completo y validado<br/>
+      • Cuando la empresa envía los datos<br/>
+      • Entonces la cuenta de reclutador se crea y se confirma su activación.<br/><br/>
+      <strong>Escenario 2: Datos incompletos</strong><br/>
+      • Dado que faltan datos obligatorios del registro empresarial<br/>
+      • Cuando intenta enviar el formulario<br/>
+      • Entonces el sistema bloquea el registro e indica los errores.
+    </td>
+  </tr>
+
+  <!-- US015 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US015</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Iniciar sesión en la plataforma</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario (postulante/reclutador), deseo iniciar sesión con mi correo y contraseña para acceder a mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Login exitoso</strong><br/>
+      • Dado que el usuario ingresa credenciales válidas<br/>
+      • Cuando envía el formulario de inicio de sesión<br/>
+      • Entonces el sistema lo autentica y redirige al dashboard correspondiente a su rol.<br/><br/>
+      <strong>Escenario 2: Credenciales incorrectas</strong><br/>
+      • Dado que el usuario ingresa credenciales inválidas<br/>
+      • Cuando intenta iniciar sesión<br/>
+      • Entonces el sistema muestra un error y no permite el acceso.
+    </td>
+  </tr>
+
+  <!-- US016 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US016</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cerrar sesión</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario autenticado, deseo cerrar mi sesión para proteger mi cuenta al terminar de usar la aplicación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cierre exitoso</strong><br/>
+      • Dado que el usuario está autenticado<br/>
+      • Cuando solicita cerrar sesión<br/>
+      • Entonces el sistema invalida su token y lo redirige al login.<br/><br/>
+      <strong>Escenario 2: Confirmación de cierre</strong><br/>
+      • Dado que el usuario solicita cerrar sesión<br/>
+      • Cuando el sistema procesa la solicitud<br/>
+      • Entonces debe mostrar confirmación del cierre exitoso.
+    </td>
+  </tr>
+
+  <!-- US017 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US017</td>
+    <td>Postulante</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Editar perfil profesional</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo actualizar mi perfil con experiencia y habilidades para mejorar mi visibilidad.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Actualización</strong><br/>
+      • Dado que el postulante accede a su perfil<br/>
+      • Cuando modifica campos permitidos y guarda<br/>
+      • Entonces los cambios se persisten y son visibles en su perfil.<br/><br/>
+      <strong>Escenario 2: Validaciones</strong><br/>
+      • Dado que el postulante ingresa datos en formato incorrecto<br/>
+      • Cuando intenta guardar<br/>
+      • Entonces el sistema informa los campos con formato inválido.
+    </td>
+  </tr>
+
+  <!-- US018 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US018</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Validar correo electrónico al registrarse</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como nuevo usuario, deseo validar mi correo electrónico después del registro para confirmar la autenticidad de mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío de correo de verificación</strong><br/>
+      • Dado que un usuario completa el registro<br/>
+      • Cuando se crea la cuenta<br/>
+      • Entonces el sistema envía un correo con enlace de verificación.<br/><br/>
+      <strong>Escenario 2: Activación de cuenta</strong><br/>
+      • Dado que el usuario accede al enlace de verificación<br/>
+      • Cuando el enlace es válido<br/>
+      • Entonces la cuenta se activa y se confirma al usuario.
+    </td>
+  </tr>
+
+  <!-- US019 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US019</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Configurar perfil</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo personalizar mi perfil para adaptar la experiencia en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Edición</strong><br/>
+      • Dado que el usuario accede a su perfil<br/>
+      • Cuando actualiza campos permitidos y guarda<br/>
+      • Entonces la información se actualiza correctamente.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que la actualización se guarda sin errores<br/>
+      • Cuando finaliza el proceso<br/>
+      • Entonces el sistema muestra confirmación de actualización.
+    </td>
+  </tr>
+
+  <!-- US020 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US020</td>
+    <td>Usuario</td>
+    <td>Baja</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Eliminar mi cuenta permanentemente</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo eliminar mi cuenta y todos mis datos personales de la plataforma de forma permanente.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Solicitud de eliminación</strong><br/>
+      • Dado que el usuario solicita eliminar su cuenta<br/>
+      • Cuando confirma la acción<br/>
+      • Entonces el sistema solicita confirmación adicional por seguridad.<br/><br/>
+      <strong>Escenario 2: Eliminación permanente</strong><br/>
+      • Dado que el usuario confirma definitivamente la eliminación<br/>
+      • Cuando se procesa la solicitud<br/>
+      • Entonces todos sus datos se eliminan permanentemente cumpliendo con políticas de privacidad (GDPR).
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 005 - IA y Recomendaciones             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP005</strong></td>
+    <td colspan="3"><strong>Inteligencia Artificial y Recomendaciones</strong></td>
+  </tr>
+
+  <!-- US021 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US021</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP005</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Sugerencia de candidatos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo recibir candidatos sugeridos automáticamente según los requisitos de la vacante.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Sugerencias disponibles</strong><br/>
+      • Dado que la vacante tiene requisitos definidos<br/>
+      • Cuando se solicita la lista de sugeridos<br/>
+      • Entonces el sistema muestra candidatos ordenados por coincidencia de perfil.<br/><br/>
+      <strong>Escenario 2: Sin coincidencias</strong><br/>
+      • Dado que no existen perfiles que cumplan criterios mínimos<br/>
+      • Cuando se solicita sugerencias<br/>
+      • Entonces el sistema informa que no hay coincidencias.
+    </td>
+  </tr>
+
+  <!-- US022 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US022</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP005</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recomendación de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo recibir vacantes recomendadas que sean relevantes a mi perfil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Vacantes recomendadas</strong><br/>
+      • Dado que el postulante tiene perfil completo<br/>
+      • Cuando accede a la sección de recomendaciones<br/>
+      • Entonces se muestran vacantes relevantes basadas en su perfil.<br/><br/>
+      <strong>Escenario 2: Actualización tras cambio</strong><br/>
+      • Dado que el postulante modifica su perfil<br/>
+      • Cuando regresa a recomendaciones<br/>
+      • Entonces las sugerencias se actualizan según los nuevos datos.
+    </td>
+  </tr>
+
+  <!-- US023 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US023</td>
+    <td>Reclutador</td>
+    <td>Baja</td>
+    <td>EP005</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Puntaje automático de CVs</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo que los CVs recibidos se puntúen automáticamente para facilitar la evaluación inicial.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Puntaje visible</strong><br/>
+      • Dado que existen postulaciones con CVs<br/>
+      • Cuando el reclutador accede a la lista de CVs<br/>
+      • Entonces cada CV muestra un puntaje calculado por el sistema.<br/><br/>
+      <strong>Escenario 2: Desglose de criterios</strong><br/>
+      • Dado que el reclutador solicita detalles del puntaje<br/>
+      • Cuando solicita el desglose<br/>
+      • Entonces el sistema muestra los criterios y su aporte al puntaje.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 006 - Gestión de Notificaciones        -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP006</strong></td>
+    <td colspan="3"><strong>Gestión de Notificaciones</strong></td>
+  </tr>
+
+  <!-- US024 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US024</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP006</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recibir notificaciones de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo recibir notificaciones sobre vacantes relevantes según mis preferencias.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Notificación por nueva vacante</strong><br/>
+      • Dado que existe una vacante que coincide con las preferencias del postulante<br/>
+      • Cuando la vacante se publica<br/>
+      • Entonces el postulante recibe una notificación.<br/><br/>
+      <strong>Escenario 2: Configuración de preferencias</strong><br/>
+      • Dado que el postulante ajusta sus áreas de interés<br/>
+      • Cuando guarda las preferencias<br/>
+      • Entonces solo recibe notificaciones acordes a lo seleccionado.
+    </td>
+  </tr>
+
+  <!-- US025 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US025</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP006</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recibir notificaciones de postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo recibir alertas cuando nuevos candidatos se postulan a mis vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Notificación inmediata</strong><br/>
+      • Dado que la vacante está publicada<br/>
+      • Cuando un candidato se postula<br/>
+      • Entonces el reclutador recibe una notificación de nueva postulación.<br/><br/>
+      <strong>Escenario 2: Ajuste de frecuencia</strong><br/>
+      • Dado que el reclutador configura la frecuencia de notificaciones<br/>
+      • Cuando aplica la configuración<br/>
+      • Entonces las notificaciones se envían según la preferencia establecida.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 007 - Gestión de Entrevistas          -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP007</strong></td>
+    <td colspan="3"><strong>Gestión de Entrevistas</strong></td>
+  </tr>
+
+  <!-- US026 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US026</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP007</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver calendario de entrevistas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo visualizar el calendario de entrevistas agendadas para organizar mi agenda.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Vista del cronograma</strong><br/>
+      • Dado que el reclutador tiene entrevistas agendadas<br/>
+      • Cuando consulta el calendario<br/>
+      • Entonces se listan las entrevistas programadas en el rango solicitado.<br/><br/>
+      <strong>Escenario 2: Filtrado</strong><br/>
+      • Dado que existen múltiples entrevistas<br/>
+      • Cuando aplica filtro por día o semana<br/>
+      • Entonces solo se muestran las entrevistas del rango seleccionado.
+    </td>
+  </tr>
+
+  <!-- US027 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US027</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP007</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Reprogramar entrevista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo reprogramar entrevistas para ajustarlas a nuevas disponibilidades.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Reprogramación</strong><br/>
+      • Dado que existe una entrevista agendada<br/>
+      • Cuando el reclutador modifica fecha u hora y confirma<br/>
+      • Entonces la entrevista se reprograma y el candidato recibe aviso.<br/><br/>
+      <strong>Escenario 2: Conflicto de horario</strong><br/>
+      • Dado que la nueva fecha/hora coincide con otra entrevista<br/>
+      • Cuando intenta asignarla<br/>
+      • Entonces el sistema alerta del conflicto y no permite la reprogramación.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 008 - Soporte y Ayuda                 -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP008</strong></td>
+    <td colspan="3"><strong>Soporte y Ayuda al Usuario</strong></td>
+  </tr>
+
+  <!-- US028 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US028</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP008</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Solicitar soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo registrar incidencias técnicas para recibir asistencia del equipo de soporte.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Creación de ticket</strong><br/>
+      • Dado que el usuario identifica un problema técnico<br/>
+      • Cuando completa y envía el formulario de soporte<br/>
+      • Entonces se genera un ticket con número de referencia.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que el ticket se ha creado<br/>
+      • Cuando el sistema procesa la solicitud<br/>
+      • Entonces muestra la confirmación con el número de ticket.
+    </td>
+  </tr>
+
+  <!-- US029 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US029</td>
+    <td>Agente de Soporte</td>
+    <td>Media</td>
+    <td>EP008</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Responder solicitud de soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como agente de soporte, deseo gestionar y responder tickets para resolver incidencias de usuarios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Respuesta</strong><br/>
+      • Dado que existe un ticket abierto<br/>
+      • Cuando el agente registra una respuesta<br/>
+      • Entonces el usuario recibe la respuesta y el historial se actualiza.<br/><br/>
+      <strong>Escenario 2: Historial</strong><br/>
+      • Dado que hubo intercambio de mensajes previos<br/>
+      • Cuando el usuario consulta el ticket<br/>
+      • Entonces puede ver todo el historial de comunicación.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 009 - Administración de Pagos         -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP009</strong></td>
+    <td colspan="3"><strong>Administración de Pagos y Suscripciones</strong></td>
+  </tr>
+
+  <!-- US030 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US030</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar método de pago</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo registrar un método de pago para suscripciones o compras en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro válido</strong><br/>
+      • Dado que el usuario ingresa datos de pago válidos<br/>
+      • Cuando guarda el método de pago<br/>
+      • Entonces el método se almacena de forma segura y se confirma.<br/><br/>
+      <strong>Escenario 2: Validación de errores</strong><br/>
+      • Dado que un campo del método es inválido<br/>
+      • Cuando intenta guardar<br/>
+      • Entonces el sistema muestra errores específicos para corregir.
+    </td>
+  </tr>
+
+  <!-- US031 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US031</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Realizar pago</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo realizar un pago para acceder a funcionalidades premium o servicios adicionales.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Pago exitoso</strong><br/>
+      • Dado que el usuario tiene un método de pago válido registrado<br/>
+      • Cuando inicia la transacción y el proveedor confirma autorización<br/>
+      • Entonces se registra el pago y el usuario recibe confirmación.<br/><br/>
+      <strong>Escenario 2: Falla en transacción</strong><br/>
+      • Dado que hay un problema con el método de pago<br/>
+      • Cuando la transacción falla<br/>
+      • Entonces el sistema informa el error y no registra el pago.
+    </td>
+  </tr>
+
+  <!-- US032 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US032</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver historial de pagos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo consultar el historial de mis transacciones para llevar un registro de pagos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Consulta detallada</strong><br/>
+      • Dado que el usuario ha realizado pagos previos<br/>
+      • Cuando solicita ver el historial dentro de un rango de fechas<br/>
+      • Entonces se muestran las transacciones correspondientes con detalles.<br/><br/>
+      <strong>Escenario 2: Filtrar por fecha</strong><br/>
+      • Dado que el usuario aplica un filtro de fechas<br/>
+      • Cuando ejecuta la búsqueda<br/>
+      • Entonces el sistema muestra solo las transacciones del rango seleccionado.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 010 - Configuración                   -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP010</strong></td>
+    <td colspan="3"><strong>Configuración de Preferencias</strong></td>
+  </tr>
+
+  <!-- US033 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US033</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP010</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Configurar notificaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo ajustar mis preferencias de notificaciones para recibir solo información relevante.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Guardar preferencias</strong><br/>
+      • Dado que el usuario accede a configuración de notificaciones<br/>
+      • Cuando selecciona y guarda sus preferencias<br/>
+      • Entonces las preferencias se persisten y se aplican al envío de notificaciones.<br/><br/>
+      <strong>Escenario 2: Restaurar por defecto</strong><br/>
+      • Dado que el usuario elige restaurar la configuración<br/>
+      • Cuando confirma la acción<br/>
+      • Entonces se aplican las preferencias por defecto.
+    </td>
+  </tr>
+
+  <!-- US034 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US034</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP010</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Configurar idioma y zona horaria</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo configurar mi idioma preferido y zona horaria para personalizar mi experiencia en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cambio de idioma</strong><br/>
+      • Dado que el usuario accede a configuración<br/>
+      • Cuando selecciona un idioma disponible y guarda<br/>
+      • Entonces la interfaz se actualiza al idioma seleccionado.<br/><br/>
+      <strong>Escenario 2: Ajuste de zona horaria</strong><br/>
+      • Dado que el usuario configura su zona horaria<br/>
+      • Cuando guarda los cambios<br/>
+      • Entonces todas las fechas y horas se muestran según la zona horaria seleccionada.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 011 - Seguridad de Cuenta             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP011</strong></td>
+    <td colspan="3"><strong>Seguridad de Cuenta</strong></td>
+  </tr>
+
+  <!-- US035 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US035</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cambiar contraseña</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo cambiar mi contraseña para mantener la seguridad de mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cambio exitoso</strong><br/>
+      • Dado que el usuario está autenticado y proporciona la contraseña actual<br/>
+      • Cuando introduce una nueva contraseña válida y confirma<br/>
+      • Entonces la contraseña se actualiza y se confirma el cambio.<br/><br/>
+      <strong>Escenario 2: Coincidencia</strong><br/>
+      • Dado que el usuario ingresa dos veces la nueva contraseña<br/>
+      • Cuando las contraseñas no coinciden<br/>
+      • Entonces el sistema muestra un error y no actualiza la contraseña.
+    </td>
+  </tr>
+
+  <!-- US036 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US036</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recuperar contraseña olvidada</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo recuperar mi contraseña olvidada mediante un enlace enviado a mi correo electrónico.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Solicitud de recuperación</strong><br/>
+      • Dado que el usuario olvidó su contraseña<br/>
+      • Cuando ingresa su correo registrado y solicita recuperación<br/>
+      • Entonces el sistema envía un enlace de restablecimiento al correo.<br/><br/>
+      <strong>Escenario 2: Restablecimiento exitoso</strong><br/>
+      • Dado que el usuario accede al enlace válido<br/>
+      • Cuando ingresa y confirma una nueva contraseña<br/>
+      • Entonces el sistema actualiza la contraseña y confirma el cambio.
+    </td>
+  </tr>
+
+  <!-- US037 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US037</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Activar autenticación de dos factores (2FA)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo habilitar 2FA para aumentar la seguridad de mi inicio de sesión.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Habilitación</strong><br/>
+      • Dado que el usuario accede a opciones de seguridad<br/>
+      • Cuando activa 2FA y configura el método solicitado<br/>
+      • Entonces 2FA queda habilitada para su cuenta.<br/><br/>
+      <strong>Escenario 2: Solicitud de código</strong><br/>
+      • Dado que 2FA está activa<br/>
+      • Cuando el usuario intenta iniciar sesión<br/>
+      • Entonces el sistema solicita el código adicional correspondiente.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 012 - Gestión de Roles                -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP012</strong></td>
+    <td colspan="3"><strong>Gestión de Roles y Permisos</strong></td>
+  </tr>
+
+  <!-- US038 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US038</td>
+    <td>Administrador</td>
+    <td>Media</td>
+    <td>EP012</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Asignar rol de reclutador</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como administrador, deseo otorgar el rol de reclutador a un usuario para que gestione vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Otorgamiento</strong><br/>
+      • Dado que el usuario existe en el sistema<br/>
+      • Cuando el administrador asigna el rol de reclutador<br/>
+      • Entonces el usuario recibe permisos de reclutador.<br/><br/>
+      <strong>Escenario 2: Notificación</strong><br/>
+      • Dado que se asignó el nuevo rol<br/>
+      • Cuando la acción se confirma<br/>
+      • Entonces el usuario recibe notificación del cambio.
+    </td>
+  </tr>
+
+  <!-- US039 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US039</td>
+    <td>Administrador</td>
+    <td>Media</td>
+    <td>EP012</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Asignar rol de postulante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como administrador, deseo asignar el rol de postulante a un usuario para habilitar sus funciones de postulación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Asignación</strong><br/>
+      • Dado que el usuario está registrado<br/>
+      • Cuando el administrador asigna el rol postulante<br/>
+      • Entonces el usuario puede acceder a funcionalidades de postulante.<br/><br/>
+      <strong>Escenario 2: Acceso</strong><br/>
+      • Dado que se asignó el rol correctamente<br/>
+      • Cuando el usuario inicia sesión<br/>
+      • Entonces observa y utiliza las opciones disponibles para postulantes.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 013 - Redes Sociales                  -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP013</strong></td>
+    <td colspan="3"><strong>Integración con Redes Sociales</strong></td>
+  </tr>
+
+  <!-- US040 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US040</td>
+    <td>Usuario</td>
+    <td>Baja</td>
+    <td>EP013</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Iniciar sesión con redes sociales</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo autenticarme usando mi cuenta de red social para facilitar el acceso.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Inicio exitoso</strong><br/>
+      • Dado que el usuario selecciona la opción de inicio social y la autenticación es válida<br/>
+      • Cuando se completa el proceso de autenticación externa<br/>
+      • Entonces el usuario inicia sesión en la plataforma.<br/><br/>
+      <strong>Escenario 2: Error de autenticación</strong><br/>
+      • Dado que ocurre un error en la autenticación social<br/>
+      • Cuando el proveedor externo devuelve fallo<br/>
+      • Entonces el sistema informa el error y ofrece alternativas de acceso.
+    </td>
+  </tr>
+
+  <!-- US041 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US041</td>
+    <td>Reclutador</td>
+    <td>Baja</td>
+    <td>EP013</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Compartir vacante en redes sociales</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo compartir una vacante en redes sociales para aumentar su difusión.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Compartir exitoso</strong><br/>
+      • Dado que la vacante está publicada<br/>
+      • Cuando el reclutador solicita compartir en una red social autorizada<br/>
+      • Entonces el sistema genera el contenido para compartir y confirma la publicación.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que la publicación se realizó correctamente<br/>
+      • Cuando el sistema recibe confirmación del proveedor social<br/>
+      • Entonces muestra el enlace compartido al reclutador.
+    </td>
+  </tr>
+
+  <!-- US042 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US042</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP013</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Compartir perfil en redes sociales</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo compartir mi perfil profesional en redes para aumentar mi visibilidad.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Vista previa</strong><br/>
+      • Dado que el postulante solicita compartir su perfil<br/>
+      • Cuando elige redes sociales y solicita vista previa<br/>
+      • Entonces puede revisar el contenido antes de publicarlo.<br/><br/>
+      <strong>Escenario 2: Publicación</strong><br/>
+      • Dado que el postulante confirma la publicación<br/>
+      • Cuando el sistema procesa la solicitud<br/>
+      • Entonces el perfil se publica y se confirma la acción.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 014 - Comentarios                     -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP014</strong></td>
+    <td colspan="3"><strong>Gestión de Comentarios y Feedback</strong></td>
+  </tr>
+
+  <!-- US043 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US043</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP014</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Comentar sobre vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo dejar comentarios sobre una vacante para dar retroalimentación al reclutador.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Publicación de comentario</strong><br/>
+      • Dado que el postulante ha participado en la vacante o proceso<br/>
+      • Cuando envía un comentario válido<br/>
+      • Entonces el comentario se almacena y aparece asociado a la vacante.<br/><br/>
+      <strong>Escenario 2: Moderación</strong><br/>
+      • Dado que el comentario contiene contenido inapropiado<br/>
+      • Cuando el sistema identifica la violación<br/>
+      • Entonces el comentario queda bloqueado y el usuario recibe notificación.
+    </td>
+  </tr>
+
+  <!-- US044 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US044</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP014</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Comentar sobre el proceso de selección</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como candidato, deseo dejar comentarios sobre mi experiencia en el proceso de selección para mejorar la calidad del servicio.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Retroalimentación pública</strong><br/>
+      • Dado que el candidato participó en el proceso<br/>
+      • Cuando envía su comentario sin solicitar anonimato<br/>
+      • Entonces el comentario se publica y queda visible para el reclutador.<br/><br/>
+      <strong>Escenario 2: Comentario anónimo</strong><br/>
+      • Dado que el candidato marca la opción de anonimato<br/>
+      • Cuando publica el comentario<br/>
+      • Entonces el comentario aparece sin datos personales asociados.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 015 - Landing Page                    -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP015</strong></td>
+    <td colspan="3"><strong>Landing Page y Marketing Digital</strong></td>
+  </tr>
+
+  <!-- US045 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US045</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver hero y propuesta de valor de la plataforma</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo visualizar una sección hero atractiva con la propuesta de valor principal para comprender rápidamente los beneficios de la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Visualización del hero</strong><br/>
+      • Dado que el visitante accede al landing page<br/>
+      • Cuando la página carga completamente<br/>
+      • Entonces se muestra el hero con título, subtítulo, propuesta de valor clara y CTA principal.<br/><br/>
+      <strong>Escenario 2: Responsive</strong><br/>
+      • Dado que el visitante accede desde dispositivos móviles<br/>
+      • Cuando se renderiza la sección hero<br/>
+      • Entonces se adapta correctamente al tamaño de la pantalla manteniendo legibilidad.
+    </td>
+  </tr>
+
+  <!-- US046 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US046</td>
+    <td>Visitante Empresa</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver sección de beneficios para empresas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante empresa, deseo ver una sección específica con los beneficios de usar la plataforma para contratación para evaluar si se ajusta a mis necesidades.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Contenido relevante</strong><br/>
+      • Dado que el visitante empresa navega al landing page<br/>
+      • Cuando accede a la sección de beneficios empresariales<br/>
+      • Entonces se muestran características clave: gestión de vacantes, IA para matching, reportes, integraciones.<br/><br/>
+      <strong>Escenario 2: Call to action</strong><br/>
+      • Dado que el visitante visualiza los beneficios<br/>
+      • Cuando revisa la información<br/>
+      • Entonces encuentra un CTA claro para registrarse como empresa o solicitar demo.
+    </td>
+  </tr>
+
+  <!-- US047 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US047</td>
+    <td>Visitante Postulante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver sección de beneficios para postulantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante postulante, deseo ver una sección que explique cómo la plataforma me ayudará a encontrar empleo para decidir registrarme.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Beneficios claros</strong><br/>
+      • Dado que el visitante postulante navega al landing page<br/>
+      • Cuando accede a la sección de beneficios para postulantes<br/>
+      • Entonces se muestran ventajas clave: recomendaciones personalizadas, seguimiento de postulaciones, alertas de vacantes.<br/><br/>
+      <strong>Escenario 2: Motivación a registro</strong><br/>
+      • Dado que el visitante lee los beneficios<br/>
+      • Cuando finaliza la lectura<br/>
+      • Entonces encuentra un CTA claro para crear su perfil de postulante.
+    </td>
+  </tr>
+
+  <!-- US048 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US048</td>
+    <td>Visitante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver testimonios y casos de éxito</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo ver testimonios reales de empresas y postulantes que usaron la plataforma para generar confianza en el servicio.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Testimonios verificables</strong><br/>
+      • Dado que el visitante navega a la sección de testimonios<br/>
+      • Cuando visualiza el contenido<br/>
+      • Entonces se muestran al menos 3 testimonios con nombre, cargo/empresa y experiencia positiva.<br/><br/>
+      <strong>Escenario 2: Casos de éxito</strong><br/>
+      • Dado que el visitante busca validación<br/>
+      • Cuando accede a casos de éxito<br/>
+      • Entonces se muestran métricas concretas (ej: "500+ contrataciones exitosas", "Tiempo de contratación reducido 40%").
+    </td>
+  </tr>
+
+  <!-- US049 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US049</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver call-to-action de registro</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo encontrar fácilmente botones de registro para comenzar a usar la plataforma cuando esté convencido.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: CTA visible</strong><br/>
+      • Dado que el visitante navega por el landing page<br/>
+      • Cuando se desplaza por cualquier sección<br/>
+      • Entonces encuentra al menos un CTA visible para "Registrarse como Empresa" o "Registrarse como Postulante".<br/><br/>
+      <strong>Escenario 2: Redirección correcta</strong><br/>
+      • Dado que el visitante hace clic en un CTA de registro<br/>
+      • Cuando se procesa la acción<br/>
+      • Entonces es redirigido correctamente al formulario de registro correspondiente a su perfil.
+    </td>
+  </tr>
+
+  <!-- US050 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US050</td>
+    <td>Visitante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Contactar al equipo mediante formulario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo enviar consultas o solicitar información adicional mediante un formulario de contacto para resolver dudas antes de registrarme.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío exitoso</strong><br/>
+      • Dado que el visitante completa el formulario de contacto con datos válidos<br/>
+      • Cuando envía el formulario<br/>
+      • Entonces recibe confirmación de envío y el equipo recibe la consulta.<br/><br/>
+      <strong>Escenario 2: Validación de campos</strong><br/>
+      • Dado que el visitante omite campos obligatorios<br/>
+      • Cuando intenta enviar el formulario<br/>
+      • Entonces el sistema muestra errores específicos para cada campo faltante.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- TECHNICAL STORIES - APIs REST               -->
+  <!-- ============================================ -->
+  <tr style="background-color: #d0d0d0;">
+    <th colspan="4" style="text-align: center;">TECHNICAL STORIES</th>
+  </tr>
+
+  <!-- TS001 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS001</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API de autenticación con JWT</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints de autenticación con generación y validación de tokens JWT para gestionar sesiones seguras de usuarios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Login exitoso</strong><br/>
+      • Dado que se envía POST /api/auth/login con credenciales válidas<br/>
+      • Cuando el servidor valida las credenciales<br/>
+      • Entonces devuelve status 200 con token JWT y datos del usuario.<br/><br/>
+      <strong>Escenario 2: Credenciales inválidas</strong><br/>
+      • Dado que se envía POST /api/auth/login con credenciales incorrectas<br/>
+      • Cuando el servidor valida las credenciales<br/>
+      • Entonces devuelve status 401 con mensaje de error.<br/><br/>
+      <strong>Escenario 3: Token expirado</strong><br/>
+      • Dado que se envía un request con token JWT expirado<br/>
+      • Cuando el middleware valida el token<br/>
+      • Entonces devuelve status 401 requiriendo nueva autenticación.
+    </td>
+  </tr>
+
+  <!-- TS002 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS002</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión completa de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints CRUD completos para vacantes (crear, listar, obtener detalle, actualizar, eliminar) con validaciones y filtros.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear vacante</strong><br/>
+      • Dado que se envía POST /api/vacantes con datos válidos y token de reclutador<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 201 con la vacante creada.<br/><br/>
+      <strong>Escenario 2: Listar con filtros</strong><br/>
+      • Dado que se envía GET /api/vacantes?estado=activa&ubicacion=Lima<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 200 con array de vacantes que cumplen los filtros.<br/><br/>
+      <strong>Escenario 3: Validación de campos</strong><br/>
+      • Dado que se envía POST /api/vacantes con campos obligatorios faltantes<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con detalles de campos faltantes.
+    </td>
+  </tr>
+
+  <!-- TS003 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS003</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión de postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear postulaciones, listar postulaciones por vacante y por postulante, y actualizar estados.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear postulación</strong><br/>
+      • Dado que se envía POST /api/postulaciones con vacanteId válido y token de postulante<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 201 con la postulación creada.<br/><br/>
+      <strong>Escenario 2: Evitar duplicados</strong><br/>
+      • Dado que se envía POST /api/postulaciones para una vacante donde el postulante ya aplicó<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 409 con mensaje de postulación duplicada.<br/><br/>
+      <strong>Escenario 3: Listar por vacante</strong><br/>
+      • Dado que se envía GET /api/vacantes/{id}/postulaciones con token de reclutador<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con array de postulaciones de esa vacante.
+    </td>
+  </tr>
+
+  <!-- TS004 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS004</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para programación de entrevistas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear, listar, actualizar y cancelar entrevistas con validación de conflictos de horario.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear entrevista</strong><br/>
+      • Dado que se envía POST /api/entrevistas con postulacionId, fecha, hora válidos<br/>
+      • Cuando el servidor valida que no hay conflictos<br/>
+      • Entonces devuelve status 201 con la entrevista creada.<br/><br/>
+      <strong>Escenario 2: Conflicto de horario</strong><br/>
+      • Dado que se envía POST /api/entrevistas con horario ocupado<br/>
+      • Cuando el servidor detecta el conflicto<br/>
+      • Entonces devuelve status 409 con mensaje de conflicto.<br/><br/>
+      <strong>Escenario 3: Reprogramar</strong><br/>
+      • Dado que se envía PUT /api/entrevistas/{id} con nueva fecha/hora<br/>
+      • Cuando el servidor valida disponibilidad<br/>
+      • Entonces devuelve status 200 con entrevista actualizada.
+    </td>
+  </tr>
+
+  <!-- TS005 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS005</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP006</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para notificaciones push</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para enviar notificaciones push, registrar tokens FCM de dispositivos y gestionar preferencias de notificación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registrar token FCM</strong><br/>
+      • Dado que se envía POST /api/notificaciones/tokens con token FCM válido<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 201 y almacena el token asociado al usuario.<br/><br/>
+      <strong>Escenario 2: Enviar notificación</strong><br/>
+      • Dado que se invoca POST /api/notificaciones/send con userId y mensaje<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces envía la notificación push al dispositivo registrado y devuelve status 200.<br/><br/>
+      <strong>Escenario 3: Token inválido</strong><br/>
+      • Dado que se intenta enviar notificación a token FCM inválido o expirado<br/>
+      • Cuando el servidor detecta el error<br/>
+      • Entonces devuelve status 400 y elimina el token de la base de datos.
+    </td>
+  </tr>
+
+  <!-- TS006 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS006</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para búsqueda y filtros de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoint de búsqueda avanzada con múltiples filtros, paginación y ordenamiento para vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Búsqueda con múltiples filtros</strong><br/>
+      • Dado que se envía GET /api/vacantes/search?q=developer&ubicacion=Lima&tipo=remoto<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con vacantes que cumplen todos los criterios.<br/><br/>
+      <strong>Escenario 2: Paginación</strong><br/>
+      • Dado que se envía GET /api/vacantes/search?page=2&limit=20<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con la página 2 de resultados y metadata de paginación.<br/><br/>
+      <strong>Escenario 3: Sin resultados</strong><br/>
+      • Dado que se envía búsqueda sin coincidencias<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con array vacío y mensaje informativo.
+    </td>
+  </tr>
+
+  <!-- TS007 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS007</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión de perfiles de usuario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear, obtener, actualizar y eliminar perfiles de postulantes y reclutadores con validaciones apropiadas.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Actualizar perfil</strong><br/>
+      • Dado que se envía PUT /api/usuarios/{id}/perfil con datos válidos<br/>
+      • Cuando el servidor valida y procesa<br/>
+      • Entonces devuelve status 200 con perfil actualizado.<br/><br/>
+      <strong>Escenario 2: Obtener perfil público</strong><br/>
+      • Dado que se envía GET /api/usuarios/{id}/perfil-publico<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con datos públicos del perfil (sin información sensible).<br/><br/>
+      <strong>Escenario 3: Validación de datos</strong><br/>
+      • Dado que se envía actualización con formato de email inválido<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con detalles del error de validación.
+    </td>
+  </tr>
+
+  <!-- TS008 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS008</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para procesamiento de pagos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar integración con pasarela de pagos (Stripe/MercadoPago) para procesar transacciones, registrar métodos de pago y consultar historial.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear intención de pago</strong><br/>
+      • Dado que se envía POST /api/pagos/create-intent con monto y usuarioId<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con clientSecret de la pasarela.<br/><br/>
+      <strong>Escenario 2: Confirmar pago</strong><br/>
+      • Dado que se envía POST /api/pagos/confirm con paymentIntentId<br/>
+      • Cuando la pasarela confirma la transacción<br/>
+      • Entonces devuelve status 200, actualiza estado en DB y activa funcionalidad premium.<br/><br/>
+      <strong>Escenario 3: Falla de pago</strong><br/>
+      • Dado que la pasarela rechaza el pago<br/>
+      • Cuando el servidor recibe el webhook de rechazo<br/>
+      • Entonces devuelve status 402 con motivo del rechazo.
+    </td>
+  </tr>
+
+  <!-- TS009 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS009</td>
+    <td>Developer</td>
+    <td>Baja</td>
+    <td>EP012</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para reportes y analytics</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para generar reportes estadísticos de vacantes, postulaciones, entrevistas y métricas de contratación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Reporte de vacantes</strong><br/>
+      • Dado que se envía GET /api/reportes/vacantes?fechaInicio=2025-01-01&fechaFin=2025-03-31<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con métricas: total vacantes, activas, cerradas, tiempo promedio de cierre.<br/><br/>
+      <strong>Escenario 2: Dashboard de reclutador</strong><br/>
+      • Dado que se envía GET /api/reportes/dashboard con token de reclutador<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con KPIs: postulaciones pendientes, entrevistas programadas, ofertas enviadas.<br/><br/>
+      <strong>Escenario 3: Exportar reporte</strong><br/>
+      • Dado que se envía GET /api/reportes/exportar?tipo=postulaciones&formato=csv<br/>
+      • Cuando el servidor genera el archivo<br/>
+      • Entonces devuelve status 200 con archivo CSV descargable.
+    </td>
+  </tr>
+
+  <!-- TS010 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS010</td>
+    <td>Developer</td>
+    <td>Baja</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para carga de archivos (CVs y documentos)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para subir, almacenar, descargar y eliminar archivos de CVs y documentos con validaciones de tipo y tamaño.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Subir CV</strong><br/>
+      • Dado que se envía POST /api/archivos/upload con archivo PDF o DOCX válido<br/>
+      • Cuando el servidor valida tipo y tamaño (máx 5MB)<br/>
+      • Entonces devuelve status 201 con URL del archivo almacenado.<br/><br/>
+      <strong>Escenario 2: Archivo no permitido</strong><br/>
+      • Dado que se envía archivo con extensión no permitida (.exe, .bat)<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con mensaje de tipo de archivo no permitido.<br/><br/>
+      <strong>Escenario 3: Descargar archivo</strong><br/>
+      • Dado que se envía GET /api/archivos/{id}/download con token válido<br/>
+      • Cuando el servidor valida permisos<br/>
+      • Entonces devuelve status 200 con el archivo para descarga.
+    </td>
+  </tr>
+
+</table>
+
+<!-- ========================================= -->
+<!-- SPIKE STORIES                            -->
+<!-- Con numeración actualizada de US         -->
+<!-- Total: 8 Spikes                          -->
+<!-- ========================================= -->
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse;">
+
+  <!-- ============ SP001 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP001</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Integración de Inteligencia Artificial para Recomendaciones de Candidatos y Vacantes</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>El sistema necesita ofrecer recomendaciones automáticas de candidatos a reclutadores y vacantes a postulantes, utilizando IA entrenada con datos de perfiles, habilidades y requisitos de vacantes.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos investigar e implementar un modelo de IA que genere recomendaciones personalizadas basadas en matching de perfiles profesionales con requisitos de vacantes, integrándose con el backend .NET y MySQL.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Integración del modelo de IA</strong><br/>
+      • Dado que se dispone de un modelo básico de IA entrenado con perfiles y vacantes<br/>
+      • Cuando el reclutador solicite candidatos sugeridos o el postulante solicite vacantes recomendadas<br/>
+      • Entonces el backend .NET debe devolver una lista ordenada por coincidencia de perfil.<br/><br/>
+      <strong>Criterio 2 – Respuesta optimizada</strong><br/>
+      • Dado que la app consume el endpoint de recomendaciones<br/>
+      • Cuando se realice la petición<br/>
+      • Entonces la respuesta debe procesarse en menos de 2 segundos.<br/><br/>
+      <strong>Criterio 3 – Puntaje automático de CVs</strong><br/>
+      • Dado que se registren nuevas postulaciones<br/>
+      • Cuando se almacenen en MySQL<br/>
+      • Entonces el sistema debe calcular y almacenar un puntaje de coincidencia automáticamente.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>El modelo de IA se integra correctamente al backend .NET, genera recomendaciones de candidatos (US021) y vacantes (US022), calcula puntajes de CVs (US023), se despliega en Azure App Service con endpoints documentados.</td>
+  </tr>
+
+  <!-- ============ SP002 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP002</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Autenticación Segura con JWT y Gestión de Roles</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Se requiere implementar autenticación segura para postulantes, reclutadores y administradores, con manejo de sesiones mediante JWT y control de permisos por rol.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos integrar autenticación JWT en el backend .NET con registro diferenciado para postulantes (US013) y reclutadores (US014), gestión de roles (US038, US039), cambio de contraseña (US035) y 2FA (US037).</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Generación y validación de tokens con roles</strong><br/>
+      • Dado que un usuario (postulante/reclutador/admin) inicia sesión<br/>
+      • Cuando las credenciales sean válidas<br/>
+      • Entonces el backend debe generar un JWT con el rol correspondiente y devolverlo a la app.<br/><br/>
+      <strong>Criterio 2 – Expiración y renovación de sesión</strong><br/>
+      • Dado que un token supera su tiempo de vida<br/>
+      • Cuando el usuario realice una solicitud<br/>
+      • Entonces el backend debe rechazarla y solicitar nueva autenticación.<br/><br/>
+      <strong>Criterio 3 – Autenticación de dos factores</strong><br/>
+      • Dado que un usuario activa 2FA en su cuenta<br/>
+      • Cuando intente iniciar sesión<br/>
+      • Entonces el sistema debe solicitar código adicional antes de generar el token.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Backend .NET implementa autenticación JWT con roles, la app Android gestiona tokens correctamente, se soporta registro de postulantes y reclutadores, cambio de contraseña, 2FA opcional, pruebas de seguridad completadas y despliegue en Azure con HTTPS.</td>
+  </tr>
+
+  <!-- ============ SP003 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP003</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Gestión de Estados de Postulaciones y Workflow del Proceso de Selección</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>El sistema debe manejar el flujo completo de estados de postulaciones desde la aplicación hasta la oferta laboral, incluyendo programación y registro de entrevistas.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos implementar la lógica de transición de estados de postulaciones, gestión de entrevistas (US010, US011, US026, US027) y envío de ofertas laborales (US012) con validaciones y notificaciones correspondientes.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Transiciones de estado validadas</strong><br/>
+      • Dado que una postulación cambia de estado<br/>
+      • Cuando el reclutador ejecute una acción (agendar entrevista, registrar resultado, enviar oferta)<br/>
+      • Entonces el sistema debe validar la transición y actualizar el estado en MySQL.<br/><br/>
+      <strong>Criterio 2 – Prevención de conflictos de agenda</strong><br/>
+      • Dado que se intenta agendar una entrevista<br/>
+      • Cuando ya existe otra en el mismo horario<br/>
+      • Entonces el sistema debe alertar del conflicto y no permitir la programación.<br/><br/>
+      <strong>Criterio 3 – Notificaciones automáticas por cambio de estado</strong><br/>
+      • Dado que una postulación cambia de estado<br/>
+      • Cuando se complete la transición<br/>
+      • Entonces el candidato debe recibir notificación correspondiente.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Backend .NET implementa workflow de postulaciones, gestión de entrevistas con validación de horarios, calendario de entrevistas, registro de resultados, envío de ofertas, notificaciones automáticas y pruebas del flujo completo en Azure.</td>
+  </tr>
+
+  <!-- ============ SP004 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP004</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Sistema de Notificaciones Push Personalizadas</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Postulantes y reclutadores necesitan recibir notificaciones en tiempo real sobre vacantes relevantes (US024) y nuevas postulaciones (US025), con configuración personalizada (US033).</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos integrar Firebase Cloud Messaging en la app Android, conectado con el backend .NET para enviar notificaciones personalizadas según preferencias de usuario y eventos del sistema de reclutamiento.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Notificaciones de vacantes relevantes</strong><br/>
+      • Dado que se publica una vacante que coincide con preferencias del postulante<br/>
+      • Cuando la vacante se active<br/>
+      • Entonces el postulante debe recibir notificación push personalizada.<br/><br/>
+      <strong>Criterio 2 – Alertas de postulaciones a reclutadores</strong><br/>
+      • Dado que un candidato se postula a una vacante<br/>
+      • Cuando se complete la postulación<br/>
+      • Entonces el reclutador debe recibir notificación según frecuencia configurada.<br/><br/>
+      <strong>Criterio 3 – Configuración de preferencias</strong><br/>
+      • Dado que un usuario ajusta sus preferencias de notificaciones<br/>
+      • Cuando guarde la configuración<br/>
+      • Entonces solo debe recibir notificaciones según los tipos seleccionados.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>FCM integrado en Android, backend .NET envía notificaciones personalizadas por tipo de usuario, tokens almacenados en MySQL, configuración de preferencias funcional, validación en Azure App Service.</td>
+  </tr>
+
+  <!-- ============ SP005 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP005</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Implementación de Sistema de Pagos para Servicios Premium</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>La plataforma requiere un sistema de pagos seguro para que empresas accedan a funcionalidades premium como publicación destacada de vacantes o acceso a reportes avanzados.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos integrar una pasarela de pago (Stripe o MercadoPago) para gestionar suscripciones y compras (US030, US031), con historial de transacciones (US032) y registro en MySQL.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Registro de método de pago</strong><br/>
+      • Dado que un usuario (empresa/reclutador) desee registrar un método de pago<br/>
+      • Cuando ingrese datos válidos de tarjeta<br/>
+      • Entonces el sistema debe almacenar el método de forma segura y tokenizada en MySQL.<br/><br/>
+      <strong>Criterio 2 – Procesamiento de pagos</strong><br/>
+      • Dado que un usuario realice una compra o suscripción<br/>
+      • Cuando la pasarela confirme la transacción<br/>
+      • Entonces el backend debe actualizar el estado y activar la funcionalidad premium.<br/><br/>
+      <strong>Criterio 3 – Historial y seguridad</strong><br/>
+      • Dado que se complete una transacción<br/>
+      • Cuando el usuario consulte su historial<br/>
+      • Entonces debe visualizar todas las transacciones con detalles y el intercambio debe ser vía HTTPS.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Flujo de pagos funcional entre Android, backend .NET y pasarela, registro/consulta de métodos de pago, historial de transacciones, pruebas de seguridad con HTTPS completadas, despliegue en Azure.</td>
+  </tr>
+
+  <!-- ============ SP006 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP006</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Optimización de Consultas y Filtros de Postulaciones</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Los reclutadores necesitan consultar y filtrar grandes volúmenes de postulaciones (US007, US008) con tiempos de respuesta óptimos para mejorar la experiencia de uso.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos optimizar las consultas SQL en MySQL para filtrado de postulaciones por estado, fecha y otros criterios, implementar paginación y mejorar tiempos de respuesta del backend .NET.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Consultas optimizadas con filtros</strong><br/>
+      • Dado que un reclutador aplica filtros múltiples (estado, fecha, vacante)<br/>
+      • Cuando se ejecute la consulta<br/>
+      • Entonces debe responder en menos de 500ms con hasta 10,000 registros.<br/><br/>
+      <strong>Criterio 2 – Paginación eficiente</strong><br/>
+      • Dado que existen múltiples postulaciones para una vacante<br/>
+      • Cuando se solicite una página de resultados<br/>
+      • Entonces debe cargar solo los registros necesarios (20-50 por página).<br/><br/>
+      <strong>Criterio 3 – Índices y vistas optimizadas</strong><br/>
+      • Dado que se ejecutan consultas frecuentes de filtrado<br/>
+      • Cuando se analice el plan de ejecución<br/>
+      • Entonces deben existir índices apropiados y queries optimizadas.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Consultas de postulaciones optimizadas con índices en MySQL, paginación implementada, filtros combinados funcionales con tiempos de respuesta verificados, monitoreo de performance en Azure.</td>
+  </tr>
+
+  <!-- ============ SP007 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP007</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Sistema de Soporte y Gestión de Tickets Centralizados</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Es necesario implementar un sistema de tickets para que usuarios registren incidencias (US028) y agentes de soporte puedan gestionarlas eficientemente (US029), con logs centralizados en Azure.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos configurar un sistema de tickets integrado con logging centralizado en Azure Application Insights para monitoreo de errores del sistema y gestión de solicitudes de soporte.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Creación y seguimiento de tickets</strong><br/>
+      • Dado que un usuario identifica un problema técnico<br/>
+      • Cuando complete el formulario de soporte<br/>
+      • Entonces se debe generar un ticket con número único y registrarse en MySQL y Azure Insights.<br/><br/>
+      <strong>Criterio 2 – Gestión de respuestas por agentes</strong><br/>
+      • Dado que un agente de soporte accede a un ticket<br/>
+      • Cuando registre una respuesta<br/>
+      • Entonces el usuario debe recibirla y el historial debe actualizarse.<br/><br/>
+      <strong>Criterio 3 – Logs automáticos de errores críticos</strong><br/>
+      • Dado que ocurra un error en backend .NET o app Android<br/>
+      • Cuando se capture la excepción<br/>
+      • Entonces debe registrarse automáticamente en Azure Application Insights.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Sistema de tickets funcional, agentes pueden responder solicitudes, historial completo disponible, logs de Android y .NET centralizados en Azure, dashboard de monitoreo configurado, alertas automáticas activas.</td>
+  </tr>
+
+  <!-- ============ SP008 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP008</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Implementación de Control de Versiones y CI/CD Automatizado</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>El equipo necesita automatizar el proceso de integración y despliegue continuo para garantizar calidad y eficiencia en las entregas del sistema de reclutamiento.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos configurar un pipeline CI/CD en Azure DevOps para la app Android y backend .NET, incluyendo pruebas unitarias de user stories, build automatizado y despliegue a ambientes de desarrollo, staging y producción.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Integración continua con pruebas</strong><br/>
+      • Dado que se realicen commits en el repositorio<br/>
+      • Cuando se ejecute el pipeline<br/>
+      • Entonces debe compilar el código y ejecutar pruebas unitarias de todas las user stories implementadas.<br/><br/>
+      <strong>Criterio 2 – Despliegue automatizado por ambientes</strong><br/>
+      • Dado que una build sea exitosa y las pruebas pasen<br/>
+      • Cuando se apruebe el release<br/>
+      • Entonces debe desplegarse automáticamente a Azure (dev → staging → prod).<br/><br/>
+      <strong>Criterio 3 – Notificaciones y rollback</strong><br/>
+      • Dado que el pipeline finalice<br/>
+      • Cuando se complete o falle<br/>
+      • Entonces debe notificar al equipo y permitir rollback automático en caso de errores.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Pipeline CI/CD funcional en Azure DevOps, builds automáticas para Android y .NET, pruebas unitarias ejecutándose correctamente, despliegue automático a múltiples ambientes, base de datos MySQL integrada, notificaciones configuradas.</td>
+  </tr>
+
+</table>
 
 | **Spike ID** | **SP001** |
 |------------|----------------------------------------------------------------------------------------------------------------------------|
@@ -1063,6 +4031,70 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 |41|SP006|Optimización del Rendimiento y Carga Inicial de la App|8|
 |42|SP007|Gestión de Logs Centralizados y Monitoreo en Azure|3|
 |43|SP008|Implementación de Control de Versiones y CI/CD Automatizado|5|
+
+| Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+|-------|---------------|--------|-------------|---------------------------|
+| 1 | US001 | Crear nueva vacante | Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación. | 1 |
+| 2 | US002 | Editar vacante existente | Como reclutador, quiero editar una vacante publicada para actualizar su información. | 1 |
+| 3 | US003 | Cerrar vacante | Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones. | 1 |
+| 4 | US004 | Buscar y listar vacantes disponibles | Como postulante, quiero buscar y visualizar las vacantes disponibles mediante filtros para encontrar oportunidades relevantes. | 2 |
+| 5 | US005 | Ver detalle completo de una vacante | Como postulante, quiero ver toda la información detallada de una vacante antes de postularme para tomar una decisión informada. | 1 |
+| 6 | US006 | Aplicar a vacante | Como postulante, quiero postularme a una vacante para ser considerado en el proceso de selección. | 2 |
+| 7 | US007 | Ver postulaciones recibidas | Como reclutador, quiero consultar las postulaciones recibidas para evaluar candidatos interesados en cada vacante. | 2 |
+| 8 | US008 | Filtrar postulaciones | Como reclutador, quiero filtrar postulaciones por estado y otros criterios para gestionar mejor el proceso. | 2 |
+| 9 | US009 | Ver estado de mis postulaciones | Como postulante, quiero consultar el estado actual de todas mis postulaciones para dar seguimiento a mis procesos de selección. | 2 |
+| 10 | US010 | Agendar entrevista | Como reclutador, quiero programar entrevistas con postulantes para avanzar en el proceso de selección. | 3 |
+| 11 | US011 | Registrar resultado de entrevista | Como reclutador, quiero registrar los resultados de las entrevistas para documentar el desempeño de los candidatos. | 3 |
+| 12 | US012 | Enviar oferta laboral | Como reclutador, quiero enviar una oferta laboral formal al candidato seleccionado para cerrar el proceso de contratación. | 5 |
+| 13 | US013 | Registrar cuenta de postulante | Como usuario, quiero crear una cuenta tipo postulante para poder aplicar a vacantes. | 1 |
+| 14 | US014 | Registrar cuenta de reclutador | Como empresa, quiero registrar una cuenta de reclutador para gestionar vacantes y postulaciones. | 1 |
+| 15 | US015 | Iniciar sesión en la plataforma | Como usuario (postulante/reclutador), quiero iniciar sesión con mi correo y contraseña para acceder a mi cuenta. | 2 |
+| 16 | US016 | Cerrar sesión | Como usuario autenticado, quiero cerrar mi sesión para proteger mi cuenta al terminar de usar la aplicación. | 1 |
+| 17 | US017 | Editar perfil profesional | Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mi visibilidad. | 2 |
+| 18 | US018 | Validar correo electrónico al registrarse | Como nuevo usuario, quiero validar mi correo electrónico después del registro para confirmar la autenticidad de mi cuenta. | 2 |
+| 19 | US019 | Configurar perfil | Como usuario, quiero personalizar mi perfil para adaptar la experiencia en la plataforma. | 2 |
+| 20 | US020 | Eliminar mi cuenta permanentemente | Como usuario, quiero eliminar mi cuenta y todos mis datos personales de la plataforma de forma permanente. | 3 |
+| 21 | US021 | Sugerencia de candidatos | Como reclutador, quiero recibir candidatos sugeridos automáticamente según los requisitos de la vacante. | 5 |
+| 22 | US022 | Recomendación de vacantes | Como postulante, quiero recibir vacantes recomendadas que sean relevantes a mi perfil. | 3 |
+| 23 | US023 | Puntaje automático de CVs | Como reclutador, quiero que los CVs recibidos se puntúen automáticamente para facilitar la evaluación inicial. | 3 |
+| 24 | US024 | Recibir notificaciones de vacantes | Como postulante, quiero recibir notificaciones sobre vacantes relevantes según mis preferencias. | 3 |
+| 25 | US025 | Recibir notificaciones de postulaciones | Como reclutador, quiero recibir alertas cuando nuevos candidatos se postulan a mis vacantes. | 2 |
+| 26 | US026 | Ver calendario de entrevistas | Como reclutador, quiero visualizar el calendario de entrevistas agendadas para organizar mi agenda. | 3 |
+| 27 | US027 | Reprogramar entrevista | Como reclutador, quiero reprogramar entrevistas para ajustarlas a nuevas disponibilidades. | 3 |
+| 28 | US028 | Solicitar soporte | Como usuario, quiero registrar incidencias técnicas para recibir asistencia del equipo de soporte. | 3 |
+| 29 | US029 | Responder solicitud de soporte | Como agente de soporte, quiero gestionar y responder tickets para resolver incidencias de usuarios. | 3 |
+| 30 | US030 | Registrar método de pago | Como usuario, quiero registrar un método de pago para suscripciones o compras en la plataforma. | 3 |
+| 31 | US031 | Realizar pago | Como usuario, quiero realizar un pago para acceder a funcionalidades premium o servicios adicionales. | 3 |
+| 32 | US032 | Ver historial de pagos | Como usuario, quiero consultar el historial de mis transacciones para llevar un registro de pagos. | 2 |
+| 33 | US033 | Configurar notificaciones | Como usuario, quiero ajustar mis preferencias de notificaciones para recibir solo información relevante. | 2 |
+| 34 | US034 | Configurar idioma y zona horaria | Como usuario, quiero configurar mi idioma preferido y zona horaria para personalizar mi experiencia en la plataforma. | 2 |
+| 35 | US035 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta. | 3 |
+| 36 | US036 | Recuperar contraseña olvidada | Como usuario, quiero recuperar mi contraseña olvidada mediante un enlace enviado a mi correo electrónico. | 3 |
+| 37 | US037 | Activar autenticación de dos factores (2FA) | Como usuario, quiero habilitar 2FA para aumentar la seguridad de mi inicio de sesión. | 3 |
+| 38 | US038 | Asignar rol de reclutador | Como administrador, quiero otorgar el rol de reclutador a un usuario para que gestione vacantes. | 2 |
+| 39 | US039 | Asignar rol de postulante | Como administrador, quiero asignar el rol de postulante a un usuario para habilitar sus funciones de postulación. | 2 |
+| 40 | US040 | Iniciar sesión con redes sociales | Como usuario, quiero autenticarme usando mi cuenta de red social para facilitar el acceso. | 5 |
+| 41 | US041 | Compartir vacante en redes sociales | Como reclutador, quiero compartir una vacante en redes sociales para aumentar su difusión. | 2 |
+| 42 | US042 | Compartir perfil en redes sociales | Como postulante, quiero compartir mi perfil profesional en redes para aumentar mi visibilidad. | 2 |
+| 43 | US043 | Comentar sobre vacantes | Como postulante, quiero dejar comentarios sobre una vacante para dar retroalimentación al reclutador. | 2 |
+| 44 | US044 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre mi experiencia en el proceso de selección para mejorar la calidad del servicio. | 2 |
+| 45 | US045 | Ver hero y propuesta de valor de la plataforma | Como visitante, quiero visualizar una sección hero atractiva con la propuesta de valor principal para comprender rápidamente los beneficios de la plataforma. | 2 |
+| 46 | US046 | Ver sección de beneficios para empresas | Como visitante empresa, quiero ver una sección específica con los beneficios de usar la plataforma para contratación para evaluar si se ajusta a mis necesidades. | 2 |
+| 47 | US047 | Ver sección de beneficios para postulantes | Como visitante postulante, quiero ver una sección que explique cómo la plataforma me ayudará a encontrar empleo para decidir registrarme. | 2 |
+| 48 | US048 | Ver testimonios y casos de éxito | Como visitante, quiero ver testimonios reales de empresas y postulantes que usaron la plataforma para generar confianza en el servicio. | 2 |
+| 49 | US049 | Ver call-to-action de registro | Como visitante, quiero encontrar fácilmente botones de registro para comenzar a usar la plataforma cuando esté convencido. | 1 |
+| 50 | US050 | Contactar al equipo mediante formulario | Como visitante, quiero enviar consultas o solicitar información adicional mediante un formulario de contacto para resolver dudas antes de registrarme. | 2 |
+| 51 | TS001 | API de autenticación con JWT | Como developer, necesito implementar endpoints de autenticación con generación y validación de tokens JWT para gestionar sesiones seguras de usuarios. | 5 |
+| 52 | TS002 | API REST para gestión completa de vacantes | Como developer, necesito implementar endpoints CRUD completos para vacantes (crear, listar, obtener detalle, actualizar, eliminar) con validaciones y filtros. | 5 |
+| 53 | TS003 | API REST para gestión de postulaciones | Como developer, necesito implementar endpoints para crear postulaciones, listar postulaciones por vacante y por postulante, y actualizar estados. | 5 |
+| 54 | TS004 | API REST para programación de entrevistas | Como developer, necesito implementar endpoints para crear, listar, actualizar y cancelar entrevistas con validación de conflictos de horario. | 5 |
+| 55 | TS005 | API REST para notificaciones push | Como developer, necesito implementar endpoints para enviar notificaciones push, registrar tokens FCM de dispositivos y gestionar preferencias de notificación. | 5 |
+| 56 | TS006 | API REST para búsqueda y filtros de vacantes | Como developer, necesito implementar endpoint de búsqueda avanzada con múltiples filtros, paginación y ordenamiento para vacantes. | 3 |
+| 57 | TS007 | API REST para gestión de perfiles de usuario | Como developer, necesito implementar endpoints para crear, obtener, actualizar y eliminar perfiles de postulantes y reclutadores con validaciones apropiadas. | 3 |
+| 58 | TS008 | API REST para procesamiento de pagos | Como developer, necesito implementar integración con pasarela de pagos (Stripe/MercadoPago) para procesar transacciones, registrar métodos de pago y consultar historial. | 8 |
+| 59 | TS009 | API REST para reportes y analytics | Como developer, necesito implementar endpoints para generar reportes estadísticos de vacantes, postulaciones, entrevistas y métricas de contratación. | 5 |
+| 60 | TS010 | API REST para carga de archivos (CVs y documentos) | Como developer, necesito implementar endpoints para subir, almacenar, descargar y eliminar archivos de CVs y documentos con validaciones de tipo y tamaño. | 3 |
+>>>>>>> chapter2
 
 - Evidencia del Product Backlog en Trello:
 <img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
