@@ -39,6 +39,7 @@ Quevedo Velasco, David Gerardo
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
 | TB1     | 17/09/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
+| TP     | 07/10/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 3, Capitulo 4 |
 
 - Commits Informe: 
 
@@ -249,31 +250,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 **Ricardo Fernando**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
-- **TP1:** 
+- **TP:** Apliqué nuevos conocimientos adquiridos tras la primera entrega, mejorando la arquitectura del proyecto y optimizando la integración entre los módulos desarrollados.
 - **TB2:**   
 - **TF:**   
 
 **Ronald Joel:**  
 - **TB1:** Me involucré en la resolución de problemas técnicos, aplicando conceptos actualizados para optimizar los resultados.
-- **TP1:**   
+- **TP:** Actualicé conceptos de ingeniería de software para refinar el diseño del sistema, logrando una estructura más escalable y coherente con las buenas prácticas aprendidas. 
 - **TB2:** 
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
-- **TP1:**   
+- **TP:** Profundicé en nuevas herramientas y metodologías que permitieron optimizar el flujo de trabajo del equipo y perfeccionar las funcionalidades presentadas en la primera versión.  
 - **TB2:**   
 - **TF:**   
 
 **Javier Oswaldo:**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
-- **TP1:**   
+- **TP:** Incorporé mejoras técnicas basadas en la retroalimentación recibida, fortaleciendo la calidad del código y la eficiencia de las soluciones implementadas.  
 - **TB2:**   
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Contribuí al avance del proyecto aplicando metodologías actuales, lo que permitió alcanzar los objetivos propuestos con éxito.
-- **TP1:**   
+- **TP:** Integré aprendizajes obtenidos durante el proceso de revisión, aplicando principios actualizados de desarrollo para elevar el nivel técnico del proyecto.  
 - **TB2:**   
 - **TF:**   
 </td>
@@ -281,7 +282,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TB1:** Cada miembro del equipo evidenció un compromiso constante con la actualización de sus conocimientos, aplicando lo aprendido directamente en el proyecto. Esta disposición al aprendizaje continuo fortaleció la calidad de las soluciones desarrolladas, favoreció el trabajo colaborativo y aseguró un avance ordenado hacia los objetivos planteados.
 
-- **TP1:**   
+- **TP:** El equipo demostró un avance significativo al incorporar nuevos conocimientos y aplicar mejoras técnicas respecto a la primera entrega. Este proceso de actualización constante permitió optimizar la calidad del proyecto, fortalecer las competencias profesionales y consolidar un enfoque más sólido en la aplicación de soluciones.  
 
 - **TB2:**   
 
@@ -294,31 +295,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 **Ricardo Fernando:**  
 - **TB1:** Entendí que el aprendizaje permanente es clave en la ingeniería de software, porque las tecnologías cambian rápidamente. Por eso busco actualizarme para poder responder mejor a los retos del proyecto.
-- **TP1:**   
+- **TP:** Reconocí la importancia del aprendizaje continuo, integrando nuevos conocimientos técnicos que fortalecieron mi capacidad para aportar soluciones más innovadoras dentro del proyecto.  
 - **TB2:** 
 - **TF:**  
 
 **Ronald Joel:**  
 - **TB1:** Para mí, la formación continua asegura un mejor desempeño profesional. Cada nuevo conocimiento adquirido me da más herramientas para aportar al desarrollo de soluciones efectivas.
-- **TP1:**   
+- **TP:** Mantuve una actitud de mejora constante, revisando documentación, buenas prácticas y nuevas herramientas que contribuyeron al crecimiento profesional y al éxito del equipo.  
 - **TB2:** 
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Organicé y estructuré mi parte del trabajo de manera clara y ordenada, compartiendo avances con el equipo y adaptando mi desarrollo a los tiempos y lineamientos definidos, lo que contribuyó al cumplimiento de los objetivos colectivos. 
-- **TP1:** 
+- **TP:** Apliqué nuevos enfoques y metodologías adquiridos durante el proceso, reafirmando la necesidad de seguir actualizando mis habilidades para mantener un desempeño competitivo.
 - **TB2:**  
 - **TF:**  
 
 **Javier Oswaldo Aru Acevedo:**  
 - **TB1:** Reconozco que no basta con lo aprendido en clases. El aprendizaje constante me permite mantenerme competitivo y aplicar ideas innovadoras en los proyectos de software. 
-- **TP1:** 
+- **TP:** Comprendí que el aprendizaje permanente es esencial para adaptarse a los cambios tecnológicos y responder de manera efectiva a los desafíos del desarrollo de software.
 - **TB2:** 
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Considero que el aprendizaje permanente es una actitud profesional. Mantenerla me permite crecer, adaptarme y contribuir al éxito de los proyectos de ingeniería de software.
-- **TP1:**   
+- **TP:** Valoré la formación continua como parte del ejercicio profesional, entendiendo que cada iteración del proyecto representa una oportunidad para aprender, mejorar y perfeccionar las soluciones tecnológicas implementadas. 
 - **TB2:**   
 - **TF:**   
 </td>
@@ -326,7 +327,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TB1:** El equipo demostró una disposición constante hacia el aprendizaje permanente, incorporando nuevos conocimientos al desarrollo del proyecto. Esta actitud favoreció la innovación en las soluciones propuestas, fortaleció las competencias profesionales y aseguró un trabajo alineado con las demandas actuales de la ingeniería de software.
 
-- **TP1:**   
+- **TP:** La necesidad de mantenerse actualizado frente a las constantes innovaciones tecnológicas nos permitió fortalecer nuestras competencias, adoptar nuevas metodologías y mejorar la calidad de las soluciones propuestas. Este proceso reafirmó el con la mejora continua y con la búsqueda constante de conocimiento para aportar un mayor valor en futuros proyectos.  
 
 - **TB2:**   
 
@@ -1625,21 +1626,6 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 ### **4.3.2. Registro de Entrevistas**
 ### **4.3.3. Evaluaciones según heurísticas**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Conclusiones
 - _Implementación de buenas prácticas en el desarrollo:_
     Se respetaron estándares de codificación, se utilizó Git para el control de versiones y se siguieron convenciones definidas para los mensajes de commit. Esto permitió lograr un código ordenado, modular y preparado para futuras ampliaciones. Además, se aplicó un diseño responsivo que asegura una buena experiencia en distintos dispositivos.
@@ -1663,8 +1649,6 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 <hr>
 
 ## Anexos
-- Landing Page: https://landing-page-jobsy.web.app
-- Aplicacion Web: http://front-appweb-f507a.web.app
-- BackEnd: https://app-250706133042.azurewebsites.net/swagger/index.html
-- Diapositivas: https://www.canva.com/design/DAGlgdMhimU/Wz9BPm5R0OsJbrq1yr6M7w/edit?utm_content=DAGlgdMhimU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- Landing Page: https://landing-page-jobsy.web.app/
+- BackEnd: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger/index.html
 - Video About the Team: https://youtu.be/of73YuU1jbY
