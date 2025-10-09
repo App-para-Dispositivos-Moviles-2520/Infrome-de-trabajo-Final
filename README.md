@@ -810,6 +810,13 @@ Los postulantes enfrentan frustraciones principalmente por la desorganización e
 | Usa o valora integración con redes/plataformas    | 100%           | 33%            |
 | Encuentra frustrante el proceso de búsqueda       | 100%           | 100%           |
 
+**Insights**
+- Automatización como necesidad prioritaria: <br> Tanto los equipos de Recursos Humanos como los postulantes coinciden en la necesidad de automatizar procesos. En el caso de RRHH, buscan reducir la carga operativa y los errores humanos; mientras que los postulantes desean simplificar y acelerar la búsqueda de empleo. Esto demuestra una oportunidad clara para desarrollar funcionalidades inteligentes que optimicen tareas repetitivas en ambos lados del proceso.
+- Valor por la eficiencia y centralización: <br> Los equipos de RRHH requieren una plataforma que concentre en un solo lugar la publicación, gestión y seguimiento de vacantes, mientras que los postulantes buscan centralizar sus postulaciones y notificaciones. Ambos grupos asocian la eficiencia con la reducción de estrés y una mejor experiencia general.
+- Importancia de la experiencia del usuario: <br>  Los entrevistados de ambos segmentos manifestaron que la experiencia dentro de las plataformas actuales es deficiente. Los reclutadores enfrentan interfaces poco prácticas y dispersas, y los postulantes perciben falta de comunicación y seguimiento. Existe, por tanto, una oportunidad para diseñar una experiencia más intuitiva, transparente y humana.
+- Valoración del apoyo personalizado y de la IA: <br> Los postulantes valoran especialmente recibir orientación sobre cómo mejorar su currículum o perfil profesional, lo que resalta la importancia de incorporar un asistente inteligente o módulos de recomendación.
+- Comunicación ágil como factor diferenciador: <br> Los usuarios, especialmente los postulantes, expresaron su preferencia por canales de comunicación rápidos como WhatsApp. Esto sugiere que la integración con plataformas de mensajería podría mejorar la conexión entre reclutadores y candidatos, aumentando la satisfacción y el nivel de respuesta.
+
 ---
 ## **2.3. Needfinding**
 La sección de Needfinding tiene como objetivo identificar las necesidades y problemas específicos de los usuarios que SmartHire pretende resolver. A través de investigaciones y análisis cualitativos y cuantitativos, se detectan oportunidades clave para mejorar la experiencia del usuario, basándose principalmente en entrevistas. Así mismo, se definen los aspectos esenciales que deberán abordarse para lograr una solución efectiva y centrada en el usuario.  
