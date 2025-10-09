@@ -3908,75 +3908,10 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 
 </table>
 
-| **Spike ID** | **SP001** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Integración de Inteligencia Artificial para Recomendaciones Personalizadas** |
-| **Context** | El sistema necesita ofrecer una experiencia personalizada a los usuarios mediante recomendaciones automáticas de contenido o servicios, utilizando inteligencia artificial entrenada con los datos de interacción del usuario. |
-| **Description** | Como equipo de desarrollo, necesitamos investigar e implementar un modelo de IA que permita generar recomendaciones personalizadas en la aplicación Android, integrándose con el backend en .NET y la base de datos MySQL. |
-| **Acceptance Criteria** | **Criterio 1 – Integración del modelo de IA**  <br> **Dado que** se dispone de un modelo básico de IA entrenado con datos de usuario,  <br> **Cuando** se realice la solicitud desde la app Android,  <br> **Entonces** el backend .NET debe devolver una lista de recomendaciones personalizadas. <br><br> **Criterio 2 – Respuesta optimizada**  <br> **Dado que** la app Android consume el endpoint de recomendaciones,  <br> **Cuando** se realice la petición,  <br> **Entonces** la respuesta debe ser procesada en menos de 2 segundos. <br><br> **Criterio 3 – Persistencia de datos de entrenamiento**  <br> **Dado que** se registren nuevas interacciones del usuario,  <br> **Cuando** se almacenen en MySQL,  <br> **Entonces** el modelo debe poder reutilizar esos datos para mejorar las recomendaciones futuras. |
-| **Definition of Done** | El modelo de IA se integra correctamente al backend .NET, se comunica exitosamente con la app Android, se almacenan datos en MySQL y se despliega el servicio en Azure App Service con endpoints documentados. |
+- Evidencia de los User Stories en Trello:
+<img src="img/Product_Backlog_SmartHire.png" alt="userstories" width= 1000/>
 
-| **Spike ID** | **SP002** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Autenticación Segura con JWT y Control de Sesiones** |
-| **Context** | Se requiere implementar un mecanismo de autenticación seguro para los usuarios de la aplicación móvil Android, asegurando la integridad de las sesiones mediante JWT. |
-| **Description** | Como equipo de desarrollo, necesitamos integrar un sistema de autenticación basado en JWT en el backend .NET y su consumo desde la app Android, garantizando la protección de credenciales y el manejo correcto de sesiones. |
-| **Acceptance Criteria** | **Criterio 1 – Generación y validación de tokens**  <br> **Dado que** un usuario inicia sesión desde Android,  <br> **Cuando** las credenciales sean válidas,  <br> **Entonces** el backend deberá generar un JWT firmado y devolverlo a la app. <br><br> **Criterio 2 – Expiración automática de sesión**  <br> **Dado que** un token supera su tiempo de vida,  <br> **Cuando** el usuario realice una solicitud,  <br> **Entonces** el backend debe rechazarla y solicitar una nueva autenticación. <br><br> **Criterio 3 – Revocación de token**  <br> **Dado que** un usuario cierre sesión,  <br> **Cuando** el backend reciba la solicitud,  <br> **Entonces** el token deberá invalidarse de inmediato. |
-| **Definition of Done** | El backend .NET implementa autenticación JWT, la app Android gestiona los tokens correctamente, las pruebas unitarias confirman seguridad de sesiones, y se despliega en Azure con HTTPS habilitado. |
-
-
-| **Spike ID** | **SP003** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Sincronización de Datos Offline-Online** |
-| **Context** | Los usuarios necesitan seguir utilizando la app Android sin conexión a internet, con sincronización automática cuando la conexión se restablece. |
-| **Description** | Como equipo de desarrollo, necesitamos investigar y aplicar un mecanismo de sincronización de datos offline-online entre la app Android y el backend .NET, garantizando consistencia en MySQL. |
-| **Acceptance Criteria** | **Criterio 1 – Almacenamiento local**  <br> **Dado que** un usuario utiliza la app sin conexión,  <br> **Cuando** genere o edite datos,  <br> **Entonces** la app debe almacenarlos localmente. <br><br> **Criterio 2 – Sincronización automática**  <br> **Dado que** la conexión se restablece,  <br> **Cuando** se detecte el estado online,  <br> **Entonces** la app debe sincronizar los cambios con el backend .NET. <br><br> **Criterio 3 – Resolución de conflictos**  <br> **Dado que** se modifiquen los mismos registros en distintos estados,  <br> **Cuando** ocurra una sincronización,  <br> **Entonces** el backend debe resolver los conflictos priorizando los datos más recientes. |
-| **Definition of Done** | Implementación completa del almacenamiento local en Android (Room o SQLite), sincronización estable con backend .NET, pruebas exitosas de pérdida de conexión, y despliegue funcional en Azure. |
-
-| **Spike ID** | **SP004** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Notificaciones Push en Tiempo Real** |
-| **Context** | Se requiere mantener a los usuarios informados de eventos importantes mediante notificaciones push en tiempo real. |
-| **Description** | Como equipo de desarrollo, debemos integrar un servicio de notificaciones push (Firebase Cloud Messaging) en la app Android, conectado con el backend .NET para disparar alertas en tiempo real. |
-| **Acceptance Criteria** | **Criterio 1 – Recepción de notificaciones**  <br> **Dado que** el backend envía un evento,  <br> **Cuando** la app Android esté en primer o segundo plano,  <br> **Entonces** deberá recibir la notificación push. <br><br> **Criterio 2 – Personalización de mensajes**  <br> **Dado que** haya distintos tipos de notificaciones,  <br> **Cuando** se envíe el mensaje,  <br> **Entonces** deberá mostrar contenido personalizado según el usuario. <br><br> **Criterio 3 – Registro de tokens de dispositivo**  <br> **Dado que** un usuario inicie sesión,  <br> **Cuando** se registre su dispositivo,  <br> **Entonces** su token FCM deberá almacenarse en MySQL para envíos futuros. |
-| **Definition of Done** | Integración completa de FCM en Android, endpoints .NET para el envío de notificaciones, almacenamiento de tokens en MySQL y validación en Azure App Service. |
-
-| **Spike ID** | **SP005** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Implementación de Pagos Integrados con Pasarela** |
-| **Context** | La aplicación requiere un sistema de pago seguro e integrado con una pasarela externa para realizar transacciones desde Android. |
-| **Description** | Como equipo de desarrollo, necesitamos integrar una pasarela de pago (Stripe o MercadoPago) en la app Android, comunicada con el backend .NET y con registro de operaciones en MySQL. |
-| **Acceptance Criteria** | **Criterio 1 – Creación de órdenes**  <br> **Dado que** un usuario desee realizar un pago,  <br> **Cuando** seleccione un método en la app Android,  <br> **Entonces** el backend .NET debe crear una orden y devolver los datos de pago. <br><br> **Criterio 2 – Confirmación de pago**  <br> **Dado que** se complete el proceso,  <br> **Cuando** la pasarela confirme la transacción,  <br> **Entonces** el backend deberá actualizar el estado en MySQL. <br><br> **Criterio 3 – Seguridad de la transacción**  <br> **Dado que** se procese información financiera,  <br> **Cuando** se intercambien datos entre Android y .NET,  <br> **Entonces** deben estar cifrados y protegidos mediante HTTPS. |
-| **Definition of Done** | Flujo de pagos funcional entre Android, backend .NET y pasarela, registro en MySQL y pruebas de seguridad completadas con despliegue en Azure. |
-
-| **Spike ID** | **SP006** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Optimización del Rendimiento y Carga Inicial de la App** |
-| **Context** | Los tiempos de carga inicial y respuesta de la app Android deben ser reducidos para mejorar la experiencia del usuario. |
-| **Description** | Como equipo de desarrollo, debemos identificar y aplicar mejoras de rendimiento en la comunicación entre Android y .NET, así como en consultas a MySQL. |
-| **Acceptance Criteria** | **Criterio 1 – Tiempos de carga reducidos**  <br> **Dado que** se inicia la app Android,  <br> **Cuando** se cargue el contenido principal,  <br> **Entonces** el tiempo total no debe exceder los 3 segundos. <br><br> **Criterio 2 – Optimización de endpoints**  <br> **Dado que** la app solicita datos,  <br> **Cuando** el backend responda,  <br> **Entonces** debe hacerlo con menos de 500 ms promedio. <br><br> **Criterio 3 – Monitoreo del rendimiento**  <br> **Dado que** se ejecuten peticiones concurrentes,  <br> **Cuando** se mida el rendimiento,  <br> **Entonces** los resultados deben mantenerse estables bajo carga simulada. |
-| **Definition of Done** | La app Android y backend .NET presentan mejoras verificables en tiempo de respuesta, reducción de consultas innecesarias y monitoreo activo en Azure. |
-
-| **Spike ID** | **SP007** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Gestión de Logs Centralizados y Monitoreo en Azure** |
-| **Context** | Es necesario disponer de visibilidad completa sobre los errores y eventos del sistema desde una única fuente de logs. |
-| **Description** | Como equipo de desarrollo, debemos configurar un sistema de logging centralizado desde .NET y Android hacia Azure Application Insights para facilitar el monitoreo y análisis. |
-| **Acceptance Criteria** | **Criterio 1 – Registro de eventos críticos**  <br> **Dado que** el backend .NET ejecute procesos,  <br> **Cuando** ocurra un error o excepción,  <br> **Entonces** debe registrarse automáticamente en Azure. <br><br> **Criterio 2 – Logs desde Android**  <br> **Dado que** la app móvil genere eventos relevantes,  <br> **Cuando** ocurra una falla o acción crítica,  <br> **Entonces** deberá enviarse al backend para registro central. <br><br> **Criterio 3 – Panel de monitoreo**  <br> **Dado que** se recopilen logs,  <br> **Cuando** el equipo acceda a Azure,  <br> **Entonces** podrá visualizar métricas y alertas configuradas. |
-| **Definition of Done** | Los logs de Android y .NET se registran centralmente en Azure, existen dashboards configurados, y se validan alertas automáticas en eventos críticos. |
-
-| **Spike ID** | **SP008** |
-|------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Title** | **Implementación de Control de Versiones y CI/CD Automatizado** |
-| **Context** | El equipo necesita automatizar el proceso de integración y despliegue continuo para garantizar calidad y eficiencia en las entregas. |
-| **Description** | Como equipo de desarrollo, debemos configurar un pipeline CI/CD en Azure DevOps para la app Android y backend .NET, incluyendo pruebas, build y despliegue automatizado. |
-| **Acceptance Criteria** | **Criterio 1 – Integración continua**  <br> **Dado que** se realicen commits en el repositorio,  <br> **Cuando** se ejecute el pipeline,  <br> **Entonces** deberá compilar y ejecutar pruebas unitarias. <br><br> **Criterio 2 – Despliegue automatizado**  <br> **Dado que** una build sea exitosa,  <br> **Cuando** se apruebe la etapa de release,  <br> **Entonces** el sistema deberá desplegarse automáticamente en Azure. <br><br> **Criterio 3 – Notificaciones de estado**  <br> **Dado que** el pipeline finalice,  <br> **Cuando** se complete correctamente o falle,  <br> **Entonces** deberá notificarse al equipo por correo o Teams. |
-| **Definition of Done** | Pipeline funcional en Azure DevOps, builds y releases automáticas para Android y backend .NET, integración con MySQL en Azure App Service y validación mediante pruebas unitarias. |
-
-- Evidencia de los User Stories en Pivotal Tracker:
-<img src="img/User_Stories_SmartHire.png" alt="userstories" width= 1000/>
-
-- Link de los User Stories en Pivotal Tracker: [https://www.pivotaltracker.com/projects/2740681](https://www.pivotaltracker.com/projects/2740681)
+- Link de los User Stories en Trello: [https://trello.com/b/T6UCC586/product-backlog-smarthire](https://trello.com/b/T6UCC586/product-backlog-smarthire)
 
 ## **2.4.2. Impact Mapping**
 
@@ -3987,115 +3922,76 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 <img src="img/impact_map_2.png" alt="impactmap2" width= 800/>
 
 ## **2.4.3. Product Backlog**
-|# Orden|User Story Id|Título|Story Points (1 / 2 / 3 / 5 / 8)|
-| :- | :- | :- | :- |
-|1|US001|Crear nueva vacante|1|
-|2|US002|Editar vacante existente|1|
-|3|US003|Cerrar vacante|1|
-|4|US004|Aplicar a vacante|2|
-|5|US005|Ver postulaciones recibidas|2|
-|6|US006|Filtrar postulaciones|2|
-|7|US007|Agendar entrevista|3|
-|8|US008|Registrar resultado de entrevista|3|
-|9|US009|Enviar oferta laboral|5|
-|10|US010|Registrar cuenta de postulante|1|
-|11|US011|Registrar cuenta de reclutador|1|
-|12|US012|Editar perfil profesional|2|
-|13|US013|Sugerencia de candidatos|5|
-|14|US014|Recomendación de vacantes|3|
-|15|US015|Puntaje automático de CVs|3|
-|16|US016|Recibir notificaciones de vacantes|3|
-|17|US017|Recibir notificaciones de postulaciones|2|
-|18|US018|Ver calendario de entrevistas|3|
-|19|US019|Reprogramar entrevista|3|
-|20|US020|Solicitar soporte|3|
-|21|US021|Responder solicitud de soporte|3|
-|22|US022|Registrar método de pago|3|
-|24|US024|Ver historial de pagos|3|
-|25|US025|Configurar notificaciones|3|
-|26|US026|Configurar perfil|3|
-|27|US027|Cambiar contraseña|5|
-|28|US028|Activar autenticación de dos factores|3|
-|29|US029|Asignar rol de reclutador|2|
-|30|US030|Asignar rol de postulante|2|
-|31|US031|Iniciar sesión con redes sociales|5|
-|32|US032|Compartir vacante en redes sociales|2|
-|33|US033|Compartir perfil en redes sociales|3|
-|34|US034|Comentar sobre vacantes|3|
-|35|US035|Comentar sobre el proceso de selección|3|
-|36|SP001|Integración de Inteligencia Artificial para Recomendaciones Personalizadas|5|
-|37|SP002|Autenticación Segura con JWT y Control de Sesiones|5|
-|38|SP003|Sincronización de Datos Offline-Online|3|
-|39|SP004|Notificaciones Push en Tiempo Real|3|
-|40|SP005|Implementación de Pagos Integrados con Pasarela|3|
-|41|SP006|Optimización del Rendimiento y Carga Inicial de la App|8|
-|42|SP007|Gestión de Logs Centralizados y Monitoreo en Azure|3|
-|43|SP008|Implementación de Control de Versiones y CI/CD Automatizado|5|
 
-| Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
-|-------|---------------|--------|-------------|---------------------------|
-| 1 | US001 | Crear nueva vacante | Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación. | 1 |
-| 2 | US002 | Editar vacante existente | Como reclutador, quiero editar una vacante publicada para actualizar su información. | 1 |
-| 3 | US003 | Cerrar vacante | Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones. | 1 |
-| 4 | US004 | Buscar y listar vacantes disponibles | Como postulante, quiero buscar y visualizar las vacantes disponibles mediante filtros para encontrar oportunidades relevantes. | 2 |
-| 5 | US005 | Ver detalle completo de una vacante | Como postulante, quiero ver toda la información detallada de una vacante antes de postularme para tomar una decisión informada. | 1 |
-| 6 | US006 | Aplicar a vacante | Como postulante, quiero postularme a una vacante para ser considerado en el proceso de selección. | 2 |
-| 7 | US007 | Ver postulaciones recibidas | Como reclutador, quiero consultar las postulaciones recibidas para evaluar candidatos interesados en cada vacante. | 2 |
-| 8 | US008 | Filtrar postulaciones | Como reclutador, quiero filtrar postulaciones por estado y otros criterios para gestionar mejor el proceso. | 2 |
-| 9 | US009 | Ver estado de mis postulaciones | Como postulante, quiero consultar el estado actual de todas mis postulaciones para dar seguimiento a mis procesos de selección. | 2 |
-| 10 | US010 | Agendar entrevista | Como reclutador, quiero programar entrevistas con postulantes para avanzar en el proceso de selección. | 3 |
-| 11 | US011 | Registrar resultado de entrevista | Como reclutador, quiero registrar los resultados de las entrevistas para documentar el desempeño de los candidatos. | 3 |
-| 12 | US012 | Enviar oferta laboral | Como reclutador, quiero enviar una oferta laboral formal al candidato seleccionado para cerrar el proceso de contratación. | 5 |
-| 13 | US013 | Registrar cuenta de postulante | Como usuario, quiero crear una cuenta tipo postulante para poder aplicar a vacantes. | 1 |
-| 14 | US014 | Registrar cuenta de reclutador | Como empresa, quiero registrar una cuenta de reclutador para gestionar vacantes y postulaciones. | 1 |
-| 15 | US015 | Iniciar sesión en la plataforma | Como usuario (postulante/reclutador), quiero iniciar sesión con mi correo y contraseña para acceder a mi cuenta. | 2 |
-| 16 | US016 | Cerrar sesión | Como usuario autenticado, quiero cerrar mi sesión para proteger mi cuenta al terminar de usar la aplicación. | 1 |
-| 17 | US017 | Editar perfil profesional | Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mi visibilidad. | 2 |
-| 18 | US018 | Validar correo electrónico al registrarse | Como nuevo usuario, quiero validar mi correo electrónico después del registro para confirmar la autenticidad de mi cuenta. | 2 |
-| 19 | US019 | Configurar perfil | Como usuario, quiero personalizar mi perfil para adaptar la experiencia en la plataforma. | 2 |
-| 20 | US020 | Eliminar mi cuenta permanentemente | Como usuario, quiero eliminar mi cuenta y todos mis datos personales de la plataforma de forma permanente. | 3 |
-| 21 | US021 | Sugerencia de candidatos | Como reclutador, quiero recibir candidatos sugeridos automáticamente según los requisitos de la vacante. | 5 |
-| 22 | US022 | Recomendación de vacantes | Como postulante, quiero recibir vacantes recomendadas que sean relevantes a mi perfil. | 3 |
-| 23 | US023 | Puntaje automático de CVs | Como reclutador, quiero que los CVs recibidos se puntúen automáticamente para facilitar la evaluación inicial. | 3 |
-| 24 | US024 | Recibir notificaciones de vacantes | Como postulante, quiero recibir notificaciones sobre vacantes relevantes según mis preferencias. | 3 |
-| 25 | US025 | Recibir notificaciones de postulaciones | Como reclutador, quiero recibir alertas cuando nuevos candidatos se postulan a mis vacantes. | 2 |
-| 26 | US026 | Ver calendario de entrevistas | Como reclutador, quiero visualizar el calendario de entrevistas agendadas para organizar mi agenda. | 3 |
-| 27 | US027 | Reprogramar entrevista | Como reclutador, quiero reprogramar entrevistas para ajustarlas a nuevas disponibilidades. | 3 |
-| 28 | US028 | Solicitar soporte | Como usuario, quiero registrar incidencias técnicas para recibir asistencia del equipo de soporte. | 3 |
-| 29 | US029 | Responder solicitud de soporte | Como agente de soporte, quiero gestionar y responder tickets para resolver incidencias de usuarios. | 3 |
-| 30 | US030 | Registrar método de pago | Como usuario, quiero registrar un método de pago para suscripciones o compras en la plataforma. | 3 |
-| 31 | US031 | Realizar pago | Como usuario, quiero realizar un pago para acceder a funcionalidades premium o servicios adicionales. | 3 |
-| 32 | US032 | Ver historial de pagos | Como usuario, quiero consultar el historial de mis transacciones para llevar un registro de pagos. | 2 |
-| 33 | US033 | Configurar notificaciones | Como usuario, quiero ajustar mis preferencias de notificaciones para recibir solo información relevante. | 2 |
-| 34 | US034 | Configurar idioma y zona horaria | Como usuario, quiero configurar mi idioma preferido y zona horaria para personalizar mi experiencia en la plataforma. | 2 |
-| 35 | US035 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta. | 3 |
-| 36 | US036 | Recuperar contraseña olvidada | Como usuario, quiero recuperar mi contraseña olvidada mediante un enlace enviado a mi correo electrónico. | 3 |
-| 37 | US037 | Activar autenticación de dos factores (2FA) | Como usuario, quiero habilitar 2FA para aumentar la seguridad de mi inicio de sesión. | 3 |
+| Orden | User Story Id | Título | Story Points (1/2/3/5/8) |
+|-------|---------------|--------|---------------------------|
+| 1 | US001 | Crear nueva vacante | 1 |
+| 2 | US002 | Editar vacante existente | 1 |
+| 3 | US003 | Cerrar vacante | 1 |
+| 4 | US004 | Buscar y listar vacantes disponibles | 2 |
+| 5 | US005 | Ver detalle completo de una vacante | 1 |
+| 6 | US006 | Aplicar a vacante | 2 |
+| 7 | US007 | Ver postulaciones recibidas | 2 |
+| 8 | US008 | Filtrar postulaciones | 2 |
+| 9 | US009 | Ver estado de mis postulaciones | 2 |
+| 10 | US010 | Agendar entrevista | 3 |
+| 11 | US011 | Registrar resultado de entrevista | 3 |
+| 12 | US012 | Enviar oferta laboral | 5 |
+| 13 | US013 | Registrar cuenta de postulante | 1 |
+| 14 | US014 | Registrar cuenta de reclutador | 1 |
+| 15 | US015 | Iniciar sesión en la plataforma | 2 |
+| 16 | US016 | Cerrar sesión | 1 |
+| 17 | US017 | Editar perfil profesional | 2 |
+| 19 | US019 | Configurar perfil | 2 |
+| 20 | US020 | Eliminar mi cuenta permanentemente | 3 |
+| 21 | US021 | Sugerencia de candidatos | 5 |
+| 22 | US022 | Recomendación de vacantes | 3 |
+| 23 | US023 | Puntaje automático de CVs | 3 |
+| 24 | US024 | Recibir notificaciones de vacantes | 3 |
+| 25 | US025 | Recibir notificaciones de postulaciones | 2 |
+| 26 | US026 | Ver calendario de entrevistas | 3 |
+| 27 | US027 | Reprogramar entrevista | 3 |
+| 28 | US028 | Solicitar soporte | 3 |
+| 29 | US029 | Responder solicitud de soporte | 3 |
+| 30 | US030 | Registrar método de pago | 3 |
+| 31 | US031 | Realizar pago | 3 |
+| 32 | US032 | Ver historial de pagos | 2 |
+| 33 | US033 | Configurar notificaciones | 2 |
+| 34 | US034 | Configurar idioma y zona horaria | 2 |
+| 35 | US035 | Cambiar contraseña | 3 |
+| 36 | US036 | Recuperar contraseña olvidada | 3 |
+| 37 | US037 | Activar autenticación de dos factores (2FA) | 3 |
 | 38 | US038 | Asignar rol de reclutador | Como administrador, quiero otorgar el rol de reclutador a un usuario para que gestione vacantes. | 2 |
-| 39 | US039 | Asignar rol de postulante | Como administrador, quiero asignar el rol de postulante a un usuario para habilitar sus funciones de postulación. | 2 |
-| 40 | US040 | Iniciar sesión con redes sociales | Como usuario, quiero autenticarme usando mi cuenta de red social para facilitar el acceso. | 5 |
-| 41 | US041 | Compartir vacante en redes sociales | Como reclutador, quiero compartir una vacante en redes sociales para aumentar su difusión. | 2 |
-| 42 | US042 | Compartir perfil en redes sociales | Como postulante, quiero compartir mi perfil profesional en redes para aumentar mi visibilidad. | 2 |
-| 43 | US043 | Comentar sobre vacantes | Como postulante, quiero dejar comentarios sobre una vacante para dar retroalimentación al reclutador. | 2 |
-| 44 | US044 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre mi experiencia en el proceso de selección para mejorar la calidad del servicio. | 2 |
-| 45 | US045 | Ver hero y propuesta de valor de la plataforma | Como visitante, quiero visualizar una sección hero atractiva con la propuesta de valor principal para comprender rápidamente los beneficios de la plataforma. | 2 |
-| 46 | US046 | Ver sección de beneficios para empresas | Como visitante empresa, quiero ver una sección específica con los beneficios de usar la plataforma para contratación para evaluar si se ajusta a mis necesidades. | 2 |
-| 47 | US047 | Ver sección de beneficios para postulantes | Como visitante postulante, quiero ver una sección que explique cómo la plataforma me ayudará a encontrar empleo para decidir registrarme. | 2 |
-| 48 | US048 | Ver testimonios y casos de éxito | Como visitante, quiero ver testimonios reales de empresas y postulantes que usaron la plataforma para generar confianza en el servicio. | 2 |
-| 49 | US049 | Ver call-to-action de registro | Como visitante, quiero encontrar fácilmente botones de registro para comenzar a usar la plataforma cuando esté convencido. | 1 |
-| 50 | US050 | Contactar al equipo mediante formulario | Como visitante, quiero enviar consultas o solicitar información adicional mediante un formulario de contacto para resolver dudas antes de registrarme. | 2 |
-| 51 | TS001 | API de autenticación con JWT | Como developer, necesito implementar endpoints de autenticación con generación y validación de tokens JWT para gestionar sesiones seguras de usuarios. | 5 |
-| 52 | TS002 | API REST para gestión completa de vacantes | Como developer, necesito implementar endpoints CRUD completos para vacantes (crear, listar, obtener detalle, actualizar, eliminar) con validaciones y filtros. | 5 |
-| 53 | TS003 | API REST para gestión de postulaciones | Como developer, necesito implementar endpoints para crear postulaciones, listar postulaciones por vacante y por postulante, y actualizar estados. | 5 |
-| 54 | TS004 | API REST para programación de entrevistas | Como developer, necesito implementar endpoints para crear, listar, actualizar y cancelar entrevistas con validación de conflictos de horario. | 5 |
-| 55 | TS005 | API REST para notificaciones push | Como developer, necesito implementar endpoints para enviar notificaciones push, registrar tokens FCM de dispositivos y gestionar preferencias de notificación. | 5 |
-| 56 | TS006 | API REST para búsqueda y filtros de vacantes | Como developer, necesito implementar endpoint de búsqueda avanzada con múltiples filtros, paginación y ordenamiento para vacantes. | 3 |
-| 57 | TS007 | API REST para gestión de perfiles de usuario | Como developer, necesito implementar endpoints para crear, obtener, actualizar y eliminar perfiles de postulantes y reclutadores con validaciones apropiadas. | 3 |
-| 58 | TS008 | API REST para procesamiento de pagos | Como developer, necesito implementar integración con pasarela de pagos (Stripe/MercadoPago) para procesar transacciones, registrar métodos de pago y consultar historial. | 8 |
-| 59 | TS009 | API REST para reportes y analytics | Como developer, necesito implementar endpoints para generar reportes estadísticos de vacantes, postulaciones, entrevistas y métricas de contratación. | 5 |
-| 60 | TS010 | API REST para carga de archivos (CVs y documentos) | Como developer, necesito implementar endpoints para subir, almacenar, descargar y eliminar archivos de CVs y documentos con validaciones de tipo y tamaño. | 3 |
->>>>>>> chapter2
-
+| 39 | US039 | Asignar rol de postulante | 2 |
+| 40 | US040 | Iniciar sesión con redes sociales | 5 |
+| 41 | US041 | Compartir vacante en redes sociales | 2 |
+| 42 | US042 | Compartir perfil en redes sociales | 2 |
+| 43 | US043 | Comentar sobre vacantes | 2 |
+| 44 | US044 | Comentar sobre el proceso de selección | 2 |
+| 45 | US045 | Ver hero y propuesta de valor de la plataforma | 2 |
+| 46 | US046 | Ver sección de beneficios para empresas | 2 |
+| 47 | US047 | Ver sección de beneficios para postulantes | 2 |
+| 48 | US048 | Ver testimonios y casos de éxito | 2 |
+| 49 | US049 | Ver call-to-action de registro | 1 |
+| 50 | US050 | Contactar al equipo mediante formulario  | 2 |
+| 51 | TS001 | API de autenticación con JWT  5 |
+| 52 | TS002 | API REST para gestión completa de vacantes | 5 |
+| 53 | TS003 | API REST para gestión de postulaciones | 5 |
+| 54 | TS004 | API REST para programación de entrevistas | 5 |
+| 55 | TS005 | API REST para notificaciones push | 5 |
+| 56 | TS006 | API REST para búsqueda y filtros de vacantes | 3 |
+| 57 | TS007 | API REST para gestión de perfiles de usuario | 3 |
+| 58 | TS008 | API REST para procesamiento de pagos | 8 |
+| 59 | TS009 | API REST para reportes y analytics | 5 |
+| 60 | TS010 | API REST para carga de archivos (CVs y documentos) | 3 |
+| 36 | SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | 5 |
+| 37 | SP002 | Autenticación Segura con JWT y Control de Sesiones | 5 |
+| 38 | SP003 | Sincronización de Datos Offline-Online | 3 |
+| 39 | SP004 | Notificaciones Push en Tiempo Real | 3 |
+| 40 | SP005 | Implementación de Pagos Integrados con Pasarela | 3 |
+| 41 | SP006 | Optimización del Rendimiento y Carga Inicial de la App | 8 |
+| 42 | SP007 | Gestión de Logs Centralizados y Monitoreo en Azure | 3 |
+| 43 | SP008 | Implementación de Control de Versiones y CI/CD Automatizado | 5 |
 - Evidencia del Product Backlog en Trello:
 <img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
 
