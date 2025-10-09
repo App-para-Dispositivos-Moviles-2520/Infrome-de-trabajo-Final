@@ -1112,7 +1112,15 @@ Una vez identificados, los agregados se reordenan para reflejar mejor las depend
 
 #### **2.5.1.2. Domain Message Flows Modeling**
 
+![MessageFlow1](img/MessageFlow1.png)
 
+![MessageFlow2](img/MessageFlow2.png)
+
+![MessageFlow3](img/MessageFlow3.png)
+
+![MessageFlow4](img/MessageFlow4.png)
+
+![MessageFlow5](img/MessageFlow5.png)
 
 #### **2.5.1.3. Bounded Context Canvases**
 
