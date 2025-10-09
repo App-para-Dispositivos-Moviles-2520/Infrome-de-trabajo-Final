@@ -1648,6 +1648,12 @@ Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger
 
 #### **4.2.1.8. Team Collaboration Insights during Sprint**
 
+![Commit_Sprint1.PNG](img/Commit_Sprint1.PNG)
+
+![Commit2_Sprint1.PNG](img/Commit2_Sprint1.PNG)
+
+![Commit3_Sprint1.PNG](img/Commit3_Sprint1.PNG)
+
 ## **4.3. Validation Interviews**
 ### **4.3.1. Diseño de Entrevistas**
 ### **4.3.2. Registro de Entrevistas**
