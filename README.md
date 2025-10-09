@@ -364,7 +364,9 @@ Nuestra visión es ser la solución líder en Latinoamérica en automatización 
 | ![Foto de Raul](img/raul.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
 
 ## **1.2. Solution Profile**
-En esta sección detallamos el funcionamiento y propuesta de valor de nuestro producto digital, resaltando tanto su factor innovador como su esquema de monetización.
+Los departamentos de Recursos Humanos enfrentan una creciente sobrecarga de tareas operativas, especialmente en los procesos de reclutamiento. La revisión manual de currículums, la coordinación de entrevistas y la publicación de vacantes en múltiples plataformas generan retrasos, errores y pérdida de eficiencia. Frente a este panorama, surge la necesidad de una solución tecnológica que simplifique y automatice estas labores, permitiendo a los equipos enfocarse en la toma de decisiones estratégicas y en la experiencia del candidato. <br>
+En esta sección se detalla el funcionamiento y propuesta de valor de SmartHire, nuestro producto digital orientado a transformar el proceso de selección mediante inteligencia artificial, automatización y analítica de datos, destacando su componente innovador y su esquema de monetización sostenible.
+
 #### Product Name.
 El nombre de nuestra plataforma es “SmartHire". Se eligió este nombre por su enfoque claro en contrataciones inteligentes, eficientes y adaptadas a las necesidades del mercado moderno. La palabra "Smart" hace alusión a la inteligencia artificial y la automatización que optimizan todo el proceso de reclutamiento, mientras que "Hire" transmite de manera directa su propósito principal. Esta combinación genera confianza y comunica una propuesta clara: contrataciones más rápidas, precisas y efectivas.
 
@@ -375,7 +377,6 @@ Una vez publicada la oferta, la plataforma centraliza la recepción de postulaci
 SmartHire adoptará un modelo de negocio tipo Software as a Service (SaaS), dirigido a empresas y organizaciones que deseen mejorar sus procesos de reclutamiento. Las compañías pagarán una suscripción mensual o anual para acceder a todas las funcionalidades de la plataforma, incluyendo la publicación automática de vacantes, el filtrado inteligente de CVs con IA, la programación de entrevistas, y el seguimiento completo del proceso de selección.
 
 ### **1.2.1. Antecedentes y problemática**
-Descripción de la problemática.
 En el contexto actual, los procesos de reclutamiento y selección en muchas empresas siguen siendo largos, ineficientes y, en varios casos, propensos a errores humanos o sesgos. Las áreas de Recursos Humanos deben revisar manualmente cientos de currículums, coordinar entrevistas por distintos canales y hacer seguimiento de manera dispersa, lo cual genera demoras, sobrecarga operativa y una experiencia poco fluida tanto para el candidato como para la empresa.
 
 A pesar de que existen soluciones tecnológicas que buscan optimizar estos procesos, muchas de ellas no se adaptan completamente a la realidad local o presentan costos elevados. Además, gran parte de estas plataformas están diseñadas para grandes corporaciones, dejando de lado a medianas y pequeñas empresas que también necesitan contratar talento de manera ágil y eficiente.
