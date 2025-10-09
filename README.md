@@ -3961,7 +3961,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 | 35 | US035 | Cambiar contraseña | 3 |
 | 36 | US036 | Recuperar contraseña olvidada | 3 |
 | 37 | US037 | Activar autenticación de dos factores (2FA) | 3 |
-| 38 | US038 | Asignar rol de reclutador | Como administrador, quiero otorgar el rol de reclutador a un usuario para que gestione vacantes. | 2 |
+| 38 | US038 | Asignar rol de reclutador | 2 |
 | 39 | US039 | Asignar rol de postulante | 2 |
 | 40 | US040 | Iniciar sesión con redes sociales | 5 |
 | 41 | US041 | Compartir vacante en redes sociales | 2 |
