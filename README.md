@@ -1617,8 +1617,29 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 #### **4.2.1.3. Development Evidence for Sprint Review**
 #### **4.2.1.4. Testing Suite Evidence for Sprint Review**
 #### **4.2.1.5. Execution Evidence for Sprint Review**
+
+Landing Page: https://landing-page-jobsy.web.app/
+
+![Exe_Landing_1.PNG](img/Exe_Landing_1.PNG)
+
+![Exe_Landing_2.PNG](img/Exe_Landing_2.PNG)
+
+![Exe_Landing_3.PNG](img/Exe_Landing_3.PNG)
+
+![Exe_Landing_4.PNG](img/Exe_Landing_4.PNG)
+
+![Exe_Landing_5.PNG](img/Exe_Landing_5.PNG)
+
+![Exe_Landing_6.PNG](img/Exe_Landing_6.PNG)
+
 #### **4.2.1.6. Services Documentation Evidence for Sprint Review**
+
+
+
 #### **4.2.1.7. Software Deployment Evidence for Sprint Review**
+
+
+
 #### **4.2.1.8. Team Collaboration Insights during Sprint**
 
 ## **4.3. Validation Interviews**
