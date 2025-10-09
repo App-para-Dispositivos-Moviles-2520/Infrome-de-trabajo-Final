@@ -2018,11 +2018,83 @@ El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y e
 [https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
 
 ### **3.1.4. Mobile Applications UX/UI Design**
+Este apartado aborda los principios fundamentales del diseño de experiencia de usuario (UX) y de interfaz gráfica (UI) en aplicaciones móviles. Se enfoca en la creación de interfaces intuitivas, accesibles y visualmente coherentes, optimizadas para distintos dispositivos y sistemas operativos. Se consideran aspectos como la arquitectura de navegación, la jerarquía visual, la consistencia de estilos, y la adaptación responsiva, con el objetivo de mejorar la usabilidad, la retención de usuarios y la eficiencia de las interacciones.
+
 #### **3.1.4.1. Mobile Applications Wireframes**
+Inicio de sesion segmento Reclutador o Postulante
+
+![Foto de Ronald](img/sesionReclutador.png) 
+
+Secciones de Inicio, Publicaciones, Asistencia AI y Perfil del segmento Reclutador
+
+![Foto de Ronald](img/sesionReclutador2.png) 
+
+Sidebar con secciones de Ver candidato, Analisitcas, Calendario, Papelera y cierre de sesion del segmento Reclutador
+
+![Foto de Ronald](img/sesionReclutado3.png) 
+
+Secciones de Home, Postulaciones, Mensajes, y Perfil del segmento Postulantes
+
+![sesion1](img/sesionPostulante.png) 
+
+Seccion de boton flotante "Postular" y su opcion de "ver mas"
+
+![sesion2](img/sesionPostulante2.png) 
+
 #### **3.1.4.2. Mobile Applications Wireflow Diagrams**
+User goal: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
+
+![cuentaNueva](img/crearCuenta.png)
+
+User goal: Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.
+
+![inicioSesion](img/inicioSesion.png)
+
+
+User Goal: Como usuario, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera.
+
+![inicioSesion](img/publicacion.png)
+
+User Goal: Como usuario, deseo ver la lista de candidatos que postulan y filtrar por categorías.
+
+![candidatoss](img/candidatoss.png)
+
+User Goal: Como usuario, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas.
+
+![analiticass](img/analiticass.png)
+
+Como usuario, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento.
+
+![IA](img/IA.png)
+
+User Goal: Como usuario deseo tener un perfil de empresa y poder editarlo cuando quiera.
+
+![perfilRECLU](img/perfilRECLU.png)
+
+ User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal.
+
+![sesionn2](img/sesionn2.png)
+
+User Goal: Como usuario, deseo recibir mensajes de las empresas para saber el estado de mi postulación.
+
+![mensajesPOS](img/mensajesPOS.png)
+
+User Goal: Como usuario, deseo ver todas las postulaciones que realice.
+
+![postulacionesPOS](img/postulacionesPOS.png)
+
+User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera.
+
+![perfilPOS](img/perfilPOS.png)
+
 #### **3.1.4.3. Mobile Applications Mock-ups**
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
+
 #### **3.1.4.5. Mobile Applications Prototyping**
+
+![prototipo](img/prototipo.png)
+
+Link mobile application prototype video: https://drive.google.com/file/d/1W4ka95-DvcHUAsc0Jk4nx/view?usp=drive_link
 
 ## **Capítulo IV: Product Implementation & Validation**
 
