@@ -217,9 +217,14 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**3.1.4.1. Mobile Applications Wireframes**](#3141-mobile-applications-wireframes)
       - [**3.1.4.2. Mobile Applications Wireflow Diagrams**](#3142-mobile-applications-wireflow-diagrams)
       - [**3.1.4.3. Mobile Applications Mock-ups**](#3143-mobile-applications-mock-ups)
+  - [INICIO Y CREAR CUENTA](#inicio-y-crear-cuenta)
+  - [POSTULANTE](#postulante)
+  - [RECLUTADOR](#reclutador)
       - [**3.1.4.4. Mobile Applications User Flow Diagrams**](#3144-mobile-applications-user-flow-diagrams)
       - [**3.1.4.5. Mobile Applications Prototyping**](#3145-mobile-applications-prototyping)
 - [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
+  - [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation-1)
+    - [**4. Product Implementation \& Validation**](#4-product-implementation--validation)
   - [**4.1. Software Configuration Management**](#41-software-configuration-management)
     - [**4.1.1. Software Development Environment Configuration**](#411-software-development-environment-configuration)
     - [**4.1.2. Source Code Management**](#412-source-code-management)
@@ -5110,15 +5115,16 @@ User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera.
 
 #### **3.1.4.5. Mobile Applications Prototyping**
 
-<<<<<<< HEAD
-# **Capítulo IV: Product Implementation & Validation**
-=======
+Se realizo el prototipo de la aplicación con las pantallas en android.
+
 Link mobile application prototype video: https://drive.google.com/file/d/1W4ka95-DvcHUAsc0Jk4nx/view?usp=drive_link
+
+# **Capítulo IV: Product Implementation & Validation**
+
 
 ## **Capítulo IV: Product Implementation & Validation**
 
 ### **4. Product Implementation & Validation**
->>>>>>> chapter3
 
 ## **4.1. Software Configuration Management**
 
