@@ -1644,7 +1644,15 @@ Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger
 
 #### **4.2.1.7. Software Deployment Evidence for Sprint Review**
 
+Para el desarrollo de este sprint, se utilizaron diferentes herramientas para el desarrollo y despliegue de la Landing Page y el Backend.
 
+Landing Page: En este caso, se utilizó Vue para el desarrollo de la Landing Page, por lo cual consideramos ideal utilizar Firebase para su despliegue, ya que nos permite realizarlo de manera rápida. Además, Firebase tiene una buena integración con Vue lo que permite que la web estática no se vea modificado y se adapte adecuadamente al despliegue para su interacción con un enlace generado.
+
+![Despliegue_Front_Firebase.PNG](img/Despliegue_Front_Firebase.PNG)
+
+Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services porque nos brinda muchas ventajas como la escalabilidad automática que adapta el consumo de recursos en base a la carga, tener el backend desplegado todo el tiempo lo que nos permite interactuar con ello cuando sea requerido y tener una integracion con Github lo que facilita su actualizacion constante en base a las mejoras futuras que se le puede realizar.
+
+![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
 
 #### **4.2.1.8. Team Collaboration Insights during Sprint**
 
