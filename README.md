@@ -197,27 +197,68 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**3.1.4.3. Mobile Applications Mock-ups**](#3143-mobile-applications-mock-ups)
       - [**3.1.4.4. Mobile Applications User Flow Diagrams**](#3144-mobile-applications-user-flow-diagrams)
       - [**3.1.4.5. Mobile Applications Prototyping**](#3145-mobile-applications-prototyping)
-  - [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
-    - [**4. Product Implementation \& Validation**](#4-product-implementation--validation)
+- [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
   - [**4.1. Software Configuration Management**](#41-software-configuration-management)
     - [**4.1.1. Software Development Environment Configuration**](#411-software-development-environment-configuration)
     - [**4.1.2. Source Code Management**](#412-source-code-management)
     - [**4.1.3. Source Code Style Guide \& Conventions**](#413-source-code-style-guide--conventions)
     - [**4.1.4. Software Deployment Configuration**](#414-software-deployment-configuration)
   - [**4.2. Landing Page \& Mobile Application Implementation**](#42-landing-page--mobile-application-implementation)
-    - [**4.2.1. Sprint n**](#421-sprint-n)
-      - [**4.2.1.1. Sprint Planning n**](#4211-sprint-planning-n)
-      - [**4.2.1.2. Sprint Backlog n**](#4212-sprint-backlog-n)
+    - [**4.2.1. Sprint 1**](#421-sprint-1)
+      - [**4.2.1.1. Sprint Planning 1**](#4211-sprint-planning-1)
+      - [**4.2.1.2. Sprint Backlog 1**](#4212-sprint-backlog-1)
       - [**4.2.1.3. Development Evidence for Sprint Review**](#4213-development-evidence-for-sprint-review)
       - [**4.2.1.4. Testing Suite Evidence for Sprint Review**](#4214-testing-suite-evidence-for-sprint-review)
+    - [Users](#users)
       - [**4.2.1.5. Execution Evidence for Sprint Review**](#4215-execution-evidence-for-sprint-review)
       - [**4.2.1.6. Services Documentation Evidence for Sprint Review**](#4216-services-documentation-evidence-for-sprint-review)
       - [**4.2.1.7. Software Deployment Evidence for Sprint Review**](#4217-software-deployment-evidence-for-sprint-review)
       - [**4.2.1.8. Team Collaboration Insights during Sprint**](#4218-team-collaboration-insights-during-sprint)
   - [**4.3. Validation Interviews**](#43-validation-interviews)
     - [**4.3.1. Diseño de Entrevistas**](#431-diseño-de-entrevistas)
+      - [Introducción](#introducción)
+      - [Segmento Objetivo 1: Equipos de Recursos Humanos (Reclutadores)](#segmento-objetivo-1-equipos-de-recursos-humanos-reclutadores)
+        - [Perfil del Entrevistado](#perfil-del-entrevistado)
+        - [Objetivos de Validación](#objetivos-de-validación)
+        - [Elementos a Validar](#elementos-a-validar)
+        - [User Flows a Evaluar](#user-flows-a-evaluar)
+        - [Tareas Específicas para la Sesión](#tareas-específicas-para-la-sesión)
+        - [Preguntas Guía](#preguntas-guía)
+        - [Métricas de Éxito](#métricas-de-éxito)
+      - [Segmento Objetivo 2: Postulantes (Candidatos)](#segmento-objetivo-2-postulantes-candidatos)
+        - [Perfil del Entrevistado](#perfil-del-entrevistado-1)
+        - [Objetivos de Validación](#objetivos-de-validación-1)
+        - [Elementos a Validar](#elementos-a-validar-1)
+        - [User Flows a Evaluar](#user-flows-a-evaluar-1)
+        - [Tareas Específicas para la Sesión](#tareas-específicas-para-la-sesión-1)
+        - [Preguntas Guía](#preguntas-guía-1)
+        - [Métricas de Éxito](#métricas-de-éxito-1)
+      - [Estructura General de la Sesión de Validación](#estructura-general-de-la-sesión-de-validación)
+      - [Materiales y Recursos Necesarios](#materiales-y-recursos-necesarios)
+      - [Protocolo de Conducción de Entrevistas](#protocolo-de-conducción-de-entrevistas)
+      - [Criterios de Selección de Entrevistados](#criterios-de-selección-de-entrevistados)
     - [**4.3.2. Registro de Entrevistas**](#432-registro-de-entrevistas)
+      - [Segmento 1: Equipos de Recursos Humanos (Reclutadores)](#segmento-1-equipos-de-recursos-humanos-reclutadores)
+        - [Entrevista 1](#entrevista-1)
+        - [Entrevista 2](#entrevista-2)
+        - [Entrevista 3](#entrevista-3)
+      - [Segmento 2: Postulantes (Candidatos)](#segmento-2-postulantes-candidatos)
+        - [Entrevista 1](#entrevista-1-1)
+        - [Entrevista 2](#entrevista-2-1)
+        - [Entrevista 3](#entrevista-3-1)
     - [**4.3.3. Evaluaciones según heurísticas**](#433-evaluaciones-según-heurísticas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas-1)
+      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
+      - [SITE o APP A EVALUAR:](#site-o-app-a-evaluar)
+      - [TAREAS A EVALUAR:](#tareas-a-evaluar)
+      - [ESCALA DE SEVERIDAD:](#escala-de-severidad)
+      - [TABLA RESUMEN:](#tabla-resumen)
+      - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+        - [PROBLEMA #1: \[Título descriptivo del problema\]](#problema-1-título-descriptivo-del-problema)
+        - [PROBLEMA #2: \[Título descriptivo del problema\]](#problema-2-título-descriptivo-del-problema)
+        - [PROBLEMA #3: \[Título descriptivo del problema\]](#problema-3-título-descriptivo-del-problema)
+        - [PROBLEMA #4: \[Título descriptivo del problema\]](#problema-4-título-descriptivo-del-problema)
+        - [PROBLEMA #5: \[Título descriptivo del problema\]](#problema-5-título-descriptivo-del-problema)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -4535,22 +4576,203 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 #### **3.1.4.5. Mobile Applications Prototyping**
 
-## **Capítulo IV: Product Implementation & Validation**
-
-### **4. Product Implementation & Validation**
+# **Capítulo IV: Product Implementation & Validation**
 
 ## **4.1. Software Configuration Management**
+
+A continuación, se presentan las decisiones y convenciones que permitirán mantener la consistencia durante el ciclo de vida.
+
 ### **4.1.1. Software Development Environment Configuration**
+
+En esta sección se incluyen los links de las aplicaciones y productos de software utilizados durante el ciclo del proyecto Jobsy, en los programas que se usaron para colaborar en el desarrollo del producto digital.
+Para ello se clasifican en las siguientes secciones:
+
+- Project Managment
+- Requirements Management
+- Product UX/UI Design
+- Software Development
+- Software Testing
+- Software Deployment
+- Software Documentation
+
+1. **Project Management**  
+Es la disciplina encargada de la gestión de los proyectos, la cual tiene como objetivo principal mejorar los procesos y su entorno para alcanzar los resultados esperados.  
+- En el ciclo digital del proyecto se implementará un producto software con un modelo SaaS que se ejecutará a través de un navegador, sin embargo, no se creará una versión de aplicación móvil.
+
+---
+
+2. **Requirements Management**  
+Es el proceso de garantizar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes con las partes interesadas internas o externas.  
+- **Trello**: Se usó esta herramienta porque organiza bien las user stories y ayuda a mantener el avance del proyecto claro y ordenado.
+
+Link: [https://www.trello.com/](https://www.trello.com/)
+
+---
+
+1. **Product UX/UI Design**  
+Estas herramientas permiten desarrollar el modelo de nuestro producto de manera digital y de forma parte de la vida del consumidor. En este caso se realizó un modelo de sitio web.  
+- **Uxpressia**: Usamos esta herramienta para elaborar los User Persona, Empathy Maps, Journey Maps e Impact Maps.  
+Link: [https://uxpressia.com/](https://uxpressia.com/)
+
+- **Miro**: Se usó esta herramienta para los As-Is y To-Be Scenario Maps.  
+Link: [https://miro.com/](https://miro.com/)
+
+- **Figma**: Se usó esta herramienta para la elaboración de Wireframes, Mock-ups y Prototypes de nuestra Landing Page y nuestra Web Application.  
+Link: [https://www.figma.com/](https://www.figma.com/)
+
+- **Lucidchart**: Se usó esta herramienta para la elaboración de Wireflows y User Flows.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+4. **Software Development**  
+- **GitHub**: Es la plataforma utilizada para el control de versiones, colaboración entre los integrantes del equipo y almacenamiento del código fuente del proyecto. A través de GitHub se aplicó GitFlow para mantener un flujo de trabajo ordenado y estructurado.  
+Link: [https://github.com/](https://github.com/)
+
+- **HTML**: Se utilizó para estructurar el contenido de la Landing Page y de las vistas principales de la aplicación web, permitiendo una organización semántica del contenido.  
+Link: [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+
+- **CSS**: Fue empleado para definir el diseño visual del sitio, respetando la línea estética basada en Material Design. Se aplicaron estilos personalizados para lograr una interfaz moderna y agradable al usuario.  
+Link: [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+
+- **JavaScript**: El lenguaje de programación utilizado para implementar la lógica del lado del cliente, como validaciones, interacciones dinámicas y consumo de servicios externos.  
+Link: [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+---
+
+5. **Software Testing**  
+- **Lenguaje Gherkins**: Se utilizó Gherkins para definir los criterios de aceptación y los escenarios de prueba en un lenguaje natural, facilitando la comprensión tanto para desarrolladores como para usuarios no técnicos.  
+Link para más información: [https://profile.es/blog/que-es-gherkin/](https://profile.es/blog/que-es-gherkin/)
+
+---
+
+6. **Software Documentation**  
+- **LucidChart**: Se usó esta herramienta para la elaboración de diagramas UML y Diagramas de Base de Datos.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+- **Structurizr**: Se usó Structurizr bajo el modelo C4 para documentar la arquitectura del software, dividiendo la estructura en diferentes niveles de detalle (Context, Container, Component y Code).  
+Link: [https://structurizr.com/](https://structurizr.com/)
+
 ### **4.1.2. Source Code Management**
+
+En esta sección se establecen los medios y esquemas de organización que aplicará para el seguimiento de modificaciones. Se proporcionan los links de los repositorios en Github.
+
+- URL de la organización: [https://github.com/App-para-Dispositivos-Moviles-2520](https://github.com/App-para-Dispositivos-Moviles-2520)
+- URL del Proyect Report: [https://github.com/App-para-Dispositivos-Moviles-2520/Infrome-de-trabajo-Final](https://github.com/App-para-Dispositivos-Moviles-2520/Infrome-de-trabajo-Final)
+- URL del Landing Page: [https://github.com/App-para-Dispositivos-Moviles-2520/Landing-Page](https://github.com/App-para-Dispositivos-Moviles-2520/Landing-Page)
+- URL del Backend: [https://github.com/App-para-Dispositivos-Moviles-2520/backend-app](https://github.com/App-para-Dispositivos-Moviles-2520/backend-app)
+
+Para este proyecto se utilizará Gitflow. Gitflow es un modelo de ramificación para Git que utiliza múltiples ramas de larga duración y asigna funciones muy específicas a cada una. Este modelo es especialmente adecuado para proyectos con ciclos de lanzamiento programados, donde se necesita un control estricto de las versiones, como por ejemplo, en software de escritorio o sistemas regulados. 
+
+- Ramas principales:
+  - **main**: Contiene el historial oficial de lanzamientos, con código que siempre está listo para ser desplegado en producción. Cada commit en esta rama representa una nueva versión.
+  - **develop**:  Sirve como una rama de integración donde se consolidan todas las nuevas funcionalidades. A partir de esta rama se crean las ramas secundarias.
+
+- Ramas de apoyo:
+  - **feature**: Se crea a partir de develop para desarrollar una nueva característica. Cuando la funcionalidad está completa, se fusiona de nuevo en develop.
+  - **release**: Se crea a partir de develop cuando se está preparando una nueva versión para producción. Se utiliza para correcciones de última hora, generación de documentación y pruebas finales.
+  - **hotfix**: Se crea directamente desde main para corregir errores críticos y urgentes en producción. Una vez resuelto el problema, la rama hotfix se fusiona de nuevo en main y en develop para asegurar que el arreglo se incluya en futuras versiones. 
+
+Para este proyecto se utilizarán Conventional Commits. Conventional Commits es una convención de especificación ligera para estructurar los mensajes de commit en Git, que los hace comprensibles tanto para humanos como para máquinas. Su principal objetivo es crear un historial de commits claro y legible. 
+
+Los convencional commits tienen diferentes partes como:
+
+- **type**: Dependiendo del cambio que se realicen en el proyecto, los commits pueden ser:
+  - **feat**: Cuando se agrega una nueva funcionalidad
+  - **docs**: Cuando se realizan cambios en la documentación del proyecto
+  - **fix**: Cuando se corrige un error en el código
+  - **chore**: Cuando se realizan cambios que no afectan al código
+  - **refactor**: Cuando se realizan cambios en la estructura, sin afectar el comportamiento del proyecto
+  - **build**: Cuando se realizan cambios en los componentes del proyecto, como dependencias externas. 
+  - **perf**: Cuando se realizan cambios que mejoran el rendimiento del proyecto.
+- **scope**: Campo opcional que nos permite especificar el alcance que tiene el commit
+- **description**: Campo obligatorio que proporciona el contenido del commit, en minúsculas y de modo imperativo
+- **body**: Campo opcional en el cual se detalla más información sobre el commit.
+- **footer**: Campo opcional que se utiliza para informar al respecto de cambios importantes. 
+
 ### **4.1.3. Source Code Style Guide & Conventions**
+
+Se adoptaron guías de estilo estándar en inglés para cada lenguaje empleado:
+
+- **HTML/CSS**: Google HTML/CSS Style Guide
+- **JavaScript**: Google JavaScript Style Guide, MDN Guidelines
+- **Kotlin**: Android Style Guide
+
+Esto asegura legibilidad, coherencia y facilidad de mantenimiento en todo el código del proyecto.
+
 ### **4.1.4. Software Deployment Configuration**
 
+La gestión del código fuente del proyecto Jobsy se realizó utilizando GitHub. Para la publicación y despliegue de la Landing Page, se empleó **GitHub Pages**, que permite una visualización directa desde el repositorio principal.
+
+Para el desarrollo y despliegue de la Landing Page de Jobsy se han utilizado las siguientes herramientas:
+
+- **HTML**: Lenguaje de marcado que permitió estructurar el contenido visual y semántico de la Landing Page. Se utilizó para crear elementos como encabezados, párrafos, botones, formularios, entre otros.
+
+- **CSS**: Lenguaje de estilos utilizado para dar formato, color, distribución y diseño gráfico a los elementos definidos en HTML. Gracias a CSS, se logró que la Landing Page sea más visualmente atractiva e interactiva.
+
+- **JavaScript**: Utilizado para añadir interactividad y dinamismo a los componentes de la Landing Page, como validaciones en formularios, navegación fluida y respuestas a eventos del usuario.
+
+Link para la visualización de la Landing Page: https://landing-page-jobsy.web.app
+
 ## **4.2. Landing Page & Mobile Application Implementation**
-### **4.2.1. Sprint n**
-#### **4.2.1.1. Sprint Planning n**
-#### **4.2.1.2. Sprint Backlog n**
+### **4.2.1. Sprint 1**
+#### **4.2.1.1. Sprint Planning 1**
+
+| **Sprint #**                    | Sprint 1 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  |          |
+| **Date**                        | 02/10/2025 |
+| **Time**                        | 7:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo |
+| **Sprint n - 1 Review Summary**  | No hubo sprint anterior |
+| **Sprint n - 1 Retrospective Summary** | No hubo sprint anterior |
+| **Sprint Goal & User Stories**   |          |
+| **Sprint 1 Goal**                | Nuestro enfoque está en diseñar e implementar las pantallas principales de la aplicación Android, junto con la configuración inicial del backend y la landing page. <br> Creemos que esto proporciona la base visual y arquitectónica de la plataforma de reclutamiento, permitiendo integrar las funcionalidades en los próximos sprints. <br> Esto se confirmará cuando la app muestre las pantallas principales con un flujo de navegación coherente y una identidad visual definida, y cuando el backend y la landing page estén desplegados. |
+| **Sprint 1 Velocity**            | 25 Story Points |
+| **Sum of Story Points**          | 25 |
+
+#### **4.2.1.2. Sprint Backlog 1**
+
+| Sprint # | Sprint 1 |          |           |             |         |         |        |
+|----------|--------|----------|-----------|-------------|---------|---------|--------|
+| **User Story** | | **Work Item / Task** | | | | | |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US011 | Registrar cuenta de reclutador | W001 | Implementar endpoint para usuario (reclutador) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 2hrs | Javier | Done |
+| US010 | Registrar cuenta de postulante | W002 | Implementar endpoint para usuario (postulante) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 3hrs | Javier | Done |
+| US031 | Iniciar sesión con redes sociales | W003 | Implementar pantalla de inicio de sesión | Elaborar un apartado visual que permita iniciar sesion. | 2hrs | Ricardo | Done |
+| US027 | Cambiar contraseña | W004 | Implementar pantalla de cambio de contraseña | Elaborar un apartado visual que permita cambiar la contraseña. | 2hrs | Raul | Done |
+| US026 | Configurar perfil | W005 | Implementar pantalla de perfil | Elaborar un apartado visual que permita cambiar la configuración del perfil | 2hrs | Yair | Done |
+| SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | W006 | Implementar IA para el backend | Elaborar el bounded context de IA en el backend. | 2hrs | Ronald | Done |
+| SP002 | Autenticación Segura con JWT y Control de Sesiones | W007 | Implementar JWT al apartado de usuario para el backend | Elaborar la autenticación con JWT al iniciar sesion. | 2hrs | Ronald | Done |
+
+- Evidencia del Product Backlog - Sprint 1 en Trello:
+<img src="img/ProductBacklog-Smarthire-Sprint1.png" alt="productbacklog-Sprint1" width= 1000/>
+
+- Link del Product Backlog - Sprint 1 en Trello: [https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1](https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1)
+
 #### **4.2.1.3. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits de la siguiente forma.
+
+- Repositorio Informe:
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|:----------:|:------:|:---------:|:--------------:|:------------------:|
+| Infrome-de-trabajo-Final | develop | 56b278825b519e7724d1acd901098fd54c9ecd62 | update: changed spike stories | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 548ad688c931975be7654ac76be1a2f0d7ff3a77 | update: product backlog updated | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 6bc910900031390fd9a0f4b4442dbb08d71fe7a7 | update: product backlog link | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 2ab1eea35cfaa3a4b9c51858ef036207adac37d1 | feat(chapter-02): added bounded context canvas publicaciones | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 0f376411bb2ff27becaeee761bb001537e85684f | feat(chapter-02): added bounded context canvas analiticas | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 | feat(chapter-02): added bounded context canvas candidatos | 08/10/2025 |
+
 #### **4.2.1.4. Testing Suite Evidence for Sprint Review**
+
+En esta sección se presentan las pruebas de integración desarrolladas para los servicios principales de la API construida con .NET 9 y ASP.NET Core. Se utiliza el framework de pruebas xUnit junto con la clase WebApplicationFactory, la cual permite levantar una instancia del servidor web en memoria para simular peticiones HTTP reales hacia los endpoints de la aplicación.
+
+### Users
+
+Prueba unitaria para el registro y login de un usuario.
+<img src="img/JobsyTests.png" alt="Jobsy_Tests" width= 1000/>
+
 #### **4.2.1.5. Execution Evidence for Sprint Review**
 
 Landing Page: https://landing-page-jobsy.web.app/
@@ -4599,9 +4821,527 @@ Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services p
 
 ## **4.3. Validation Interviews**
 ### **4.3.1. Diseño de Entrevistas**
+
+#### Introducción
+El presente diseño de entrevistas tiene como objetivo validar la propuesta de valor, usabilidad y experiencia de usuario de la plataforma de reclutamiento tanto en su Landing Page como en la aplicación móvil Android. Se han identificado dos segmentos objetivo principales, para los cuales se diseñarán sesiones de validación específicas que permitan recoger feedback cualitativo sobre los flujos de usuario más críticos del sistema.
+
+---
+
+#### Segmento Objetivo 1: Equipos de Recursos Humanos (Reclutadores)
+
+##### Perfil del Entrevistado
+
+| Característica | Descripción |
+|:--------------|:-----------|
+| **Rol** | Reclutadores, HR Managers, Coordinadores de Talento Humano |
+| **Experiencia** | Personas con experiencia en procesos de contratación y gestión de vacantes |
+| **Sector** | Empresas de diversos tamaños (startups, PYMEs, corporaciones) |
+| **Rango de edad** | 25-50 años |
+| **Competencia digital** | Intermedio a Avanzado |
+
+##### Objetivos de Validación
+
+1. Validar la comprensión de la propuesta de valor para empresas en el Landing Page
+2. Evaluar la facilidad de uso en el flujo de creación y gestión de vacantes
+3. Verificar la utilidad del sistema de gestión de postulaciones y filtros
+4. Comprobar la eficiencia del proceso de programación de entrevistas
+5. Identificar puntos de fricción en el workflow completo de reclutamiento
+
+##### Elementos a Validar
+
+**Landing Page**
+
+| Elemento | User Story |
+|:---------|:-----------|
+| Sección Hero y propuesta de valor principal | US045 |
+| Sección de beneficios para empresas | US046 |
+| Testimonios y casos de éxito | US048 |
+| Call-to-action de registro empresarial | US049 |
+| Formulario de contacto | US050 |
+
+**Aplicación Móvil Android**
+
+| Elemento | User Stories |
+|:---------|:-------------|
+| Registro de cuenta de reclutador | US014 |
+| Inicio de sesión | US015 |
+| Dashboard del reclutador | - |
+| Módulo de gestión de vacantes | US001, US002, US003 |
+| Módulo de gestión de postulaciones | US007, US008 |
+| Módulo de proceso de selección | US010, US011, US012 |
+
+##### User Flows a Evaluar
+
+| # | User Flow | Descripción | User Stories | Criterio de Éxito |
+|:-:|:----------|:------------|:-------------|:------------------|
+| 1 | Primer Contacto y Registro | Landing Page → Beneficios Empresas → CTA Registro → Formulario → Confirmación | US049 | Usuario comprende propuesta de valor y completa registro sin confusión |
+| 2 | Creación de Vacante | Login → Dashboard → Nueva Vacante → Formulario → Validación → Publicar | US001 | Usuario crea vacante en menos de 3 minutos sin errores |
+| 3 | Gestión de Postulaciones | Dashboard → Mis Vacantes → Ver Postulaciones → Filtros → Detalle Candidato | US007, US008 | Usuario encuentra candidatos específicos usando filtros rápidamente |
+| 4 | Programación de Entrevista | Ver Postulación → Agendar → Fecha/Hora → Validar Conflictos → Confirmar | US010 | Usuario agenda entrevista sin conflictos de horario |
+| 5 | Envío de Oferta Laboral | Candidato Seleccionado → Enviar Oferta → Formulario → Confirmar → Enviada | US012 | Usuario envía oferta formal sin dificultades |
+
+##### Tareas Específicas para la Sesión
+
+**Contexto:** Eres el responsable de RRHH de una empresa de tecnología que necesita contratar un desarrollador Android.
+
+| # | Tarea | User Story | Tiempo Estimado |
+|:-:|:------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué te ofrece la plataforma | US046 | 2 min |
+| 2 | Regístrate como reclutador en la plataforma | US014 | 3 min |
+| 3 | Crea una nueva vacante para "Desarrollador Android Senior" | US001 | 4 min |
+| 4 | Revisa las postulaciones recibidas para tu vacante | US007 | 2 min |
+| 5 | Filtra las postulaciones para ver solo las "En revisión" | US008 | 1 min |
+| 6 | Agenda una entrevista con uno de los candidatos | US010 | 3 min |
+| 7 | Envía una oferta laboral al candidato seleccionado | US012 | 3 min |
+
+##### Preguntas Guía
+
+**Pre-Interacción (Landing Page)**
+1. ¿Qué entiendes que ofrece esta plataforma en los primeros 5 segundos?
+2. ¿Los beneficios presentados son relevantes para tu empresa?
+3. ¿El proceso de registro te parece claro? ¿Qué esperarías encontrar después?
+
+**Durante la Interacción (Aplicación)**
+4. ¿Fue fácil crear una nueva vacante? ¿Faltó algún campo importante?
+5. ¿La lista de postulaciones te presenta la información que necesitas?
+6. ¿Los filtros te ayudaron a encontrar lo que buscabas?
+7. ¿El proceso de agendamiento de entrevistas es intuitivo?
+8. ¿Hubo algún momento en que no supiste qué hacer o te sentiste perdido?
+
+**Post-Interacción**
+9. Del 1 al 10, ¿qué tan probable es que uses esta plataforma para reclutar?
+10. ¿Qué es lo que MÁS te gustó de la experiencia?
+11. ¿Qué es lo que MENOS te gustó o cambiarías?
+12. ¿Qué funcionalidad extra esperarías encontrar?
+
+##### Métricas de Éxito
+
+| Métrica | Objetivo |
+|:--------|:---------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
+| Tasa de éxito | ≥ 80% de tareas completadas sin ayuda |
+| Errores críticos | Máximo 1 error por user flow |
+| Satisfacción | Puntuación promedio ≥ 7/10 |
+
+---
+
+#### Segmento Objetivo 2: Postulantes (Candidatos)
+
+##### Perfil del Entrevistado
+
+| Característica | Descripción |
+|:--------------|:-----------|
+| **Rol** | Profesionales en búsqueda activa de empleo, recién egresados, personas en transición laboral |
+| **Experiencia** | Usuarios que buscan oportunidades laborales en diversos sectores |
+| **Rango de edad** | 20-45 años |
+| **Competencia digital** | Básico a Intermedio |
+| **Dispositivos** | Usuarios de smartphones Android |
+
+##### Objetivos de Validación
+
+1. Validar la comprensión de la propuesta de valor para postulantes en el Landing Page
+2. Evaluar la facilidad de búsqueda y filtrado de vacantes
+3. Verificar la claridad del proceso de postulación
+4. Comprobar la utilidad del seguimiento de postulaciones
+5. Identificar barreras que impidan completar una postulación exitosa
+
+##### Elementos a Validar
+
+**Landing Page**
+
+| Elemento | User Story |
+|:---------|:-----------|
+| Sección Hero y propuesta de valor | US045 |
+| Sección de beneficios para postulantes | US047 |
+| Testimonios de postulantes exitosos | US048 |
+| Call-to-action de registro de postulante | US049 |
+
+**Aplicación Móvil Android**
+
+| Elemento | User Stories |
+|:---------|:-------------|
+| Registro de cuenta de postulante | US013 |
+| Inicio de sesión | US015 |
+| Búsqueda y filtrado de vacantes | US004 |
+| Detalle de vacante | US005 |
+| Proceso de postulación | US006 |
+| Seguimiento de postulaciones | US009 |
+| Edición de perfil profesional | US017 |
+
+##### User Flows a Evaluar
+
+| # | User Flow | Descripción | User Stories | Criterio de Éxito |
+|:-:|:----------|:------------|:-------------|:------------------|
+| 1 | Descubrimiento y Registro | Landing Page → Beneficios Postulantes → CTA Crear Perfil → Registro → Confirmación | US049 | Usuario comprende valor de la plataforma y se registra exitosamente |
+| 2 | Búsqueda de Vacantes | Login → Dashboard → Buscar Vacantes → Aplicar Filtros → Ver Resultados → Seleccionar | US004 | Usuario encuentra vacantes relevantes en menos de 2 minutos |
+| 3 | Detalle de Vacante | Lista Vacantes → Seleccionar → Ver Detalle Completo (Descripción, Requisitos, Beneficios) | US005 | Usuario accede a toda la información necesaria para decidir |
+| 4 | Postulación a Vacante | Detalle Vacante → Postularme → Confirmar → Confirmación → Ver en Mis Postulaciones | US006 | Usuario completa postulación en 1 clic con confirmación clara |
+| 5 | Seguimiento de Postulaciones | Dashboard → Mis Postulaciones → Ver Lista con Estados → Detalle → Ver Historial | US009 | Usuario entiende claramente el estado de cada postulación |
+| 6 | Actualización de Perfil | Dashboard → Perfil → Editar → Actualizar Experiencia/Habilidades → Guardar → Confirmar | US017 | Usuario actualiza perfil sin confusión sobre campos importantes |
+
+##### Tareas Específicas para la Sesión
+
+**Contexto:** Eres un profesional buscando nuevas oportunidades laborales en el área de tecnología.
+
+| # | Tarea | User Story | Tiempo Estimado |
+|:-:|:------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué beneficios obtienes como postulante | US047 | 2 min |
+| 2 | Regístrate como postulante en la plataforma | US013 | 3 min |
+| 3 | Busca vacantes relacionadas con tu perfil profesional | US004 | 2 min |
+| 4 | Aplica filtros para encontrar vacantes en tu ubicación preferida | US004 | 2 min |
+| 5 | Revisa el detalle completo de una vacante que te interese | US005 | 2 min |
+| 6 | Postúlate a esa vacante | US006 | 1 min |
+| 7 | Verifica el estado de tu postulación | US009 | 2 min |
+| 8 | Actualiza tu perfil profesional agregando una nueva habilidad | US017 | 3 min |
+
+##### Preguntas Guía
+
+**Pre-Interacción (Landing Page)**
+1. ¿Qué problema resuelve esta plataforma para ti como postulante?
+2. ¿Los beneficios mostrados son atractivos para tu búsqueda laboral?
+3. ¿Confiarías en esta plataforma para buscar empleo? ¿Por qué?
+
+**Durante la Interacción (Aplicación)**
+4. ¿Fue fácil encontrar vacantes relevantes para ti?
+5. ¿Los filtros disponibles son suficientes? ¿Qué otro filtro agregarías?
+6. ¿La información de la vacante es clara y completa?
+7. ¿El proceso de postulación fue simple? ¿Qué esperabas que sucediera?
+8. ¿Entiendes claramente en qué estado está tu postulación?
+9. ¿Fue intuitivo actualizar tu perfil?
+
+**Post-Interacción**
+10. Del 1 al 10, ¿qué tan probable es que uses esta app para buscar empleo?
+11. ¿Qué es lo que MÁS te facilitó la búsqueda de empleo?
+12. ¿Qué es lo que MÁS te frustró durante la experiencia?
+13. Si pudieras agregar una funcionalidad, ¿cuál sería?
+
+##### Métricas de Éxito
+
+| Métrica | Objetivo |
+|:--------|:---------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
+| Tasa de éxito | ≥ 85% de tareas completadas sin ayuda |
+| Errores críticos | Máximo 1 error por user flow |
+| Satisfacción | Puntuación promedio ≥ 7/10 |
+| Intención de uso | ≥ 70% con puntuación ≥ 8/10 |
+
+---
+
+#### Estructura General de la Sesión de Validación
+
+| Fase | Duración | Actividades |
+|:-----|:--------:|:-----------|
+| **1. Bienvenida e Introducción** | 5 min | Presentación del equipo, objetivo, consentimiento informado, aclaraciones |
+| **2. Preguntas de Contexto** | 5 min | Datos demográficos, experiencia previa, expectativas |
+| **3. Validación Landing Page** | 10 min | Navegación libre, primeras impresiones, preguntas guiadas |
+| **4. Validación Aplicación** | 25-30 min | Ejecución de tareas, "Think Aloud Protocol", registro de observaciones |
+| **5. Cierre y Feedback** | 5-10 min | Preguntas post-interacción, sugerencias, agradecimiento |
+
+**Duración Total:** 45-60 minutos por entrevistado
+
+---
+
+#### Materiales y Recursos Necesarios
+
+**Equipamiento Técnico**
+- Dispositivo móvil Android con la aplicación o prototipo navegable
+- Laptop/tablet para mostrar el Landing Page
+- Cámara/dispositivo para grabar la sesión (video y audio)
+- Consentimiento informado impreso o digital
+- Conexión a internet estable
+
+**Documentación**
+- Guión de entrevista impreso
+- Checklist de tareas por segmento
+- Formato de registro de observaciones
+- Formato de evaluación heurística
+
+**Prototipos**
+- Landing Page funcional o mockup navegable
+- Prototipo de aplicación móvil Android
+- Datos de prueba pre-cargados (vacantes y perfiles ejemplo)
+
+---
+
+#### Protocolo de Conducción de Entrevistas
+
+**Instrucciones para el Entrevistador**
+
+| # | Instrucción |
+|:-:|:-----------|
+| 1 | Mantener neutralidad: No influenciar las respuestas del usuario |
+| 2 | Observar sin interrumpir: Dejar que el usuario explore libremente |
+| 3 | Usar "Think Aloud Protocol": Pedir verbalización de pensamientos |
+| 4 | Registrar todo: Anotar comentarios, gestos, tiempos de hesitación |
+| 5 | No ayudar inmediatamente: Esperar 10-15 segundos antes de intervenir |
+| 6 | Hacer preguntas abiertas: "¿Qué piensas?" vs "¿Te gusta?" |
+
+**Frases Útiles Durante la Sesión**
+- "Ve pensando en voz alta mientras realizas la tarea"
+- "¿Qué esperabas que sucediera?"
+- "¿Hay algo que te confunda en esta pantalla?"
+- "Si tuvieras que buscar [X], ¿dónde lo buscarías?"
+- "No te preocupes, no hay respuestas correctas o incorrectas"
+
+---
+
+#### Criterios de Selección de Entrevistados
+
+**Segmento 1: Reclutadores**
+- Mínimo 1 año de experiencia en procesos de contratación
+- Haber publicado al menos 5 vacantes en el último año
+- Experiencia usando herramientas digitales de reclutamiento
+- Diversidad: Empresas de diferentes tamaños y sectores
+
+**Segmento 2: Postulantes**
+- Usuarios activamente buscando empleo o abiertos a oportunidades
+- Haber postulado a al menos 3 vacantes en los últimos 6 meses
+- Usuarios de smartphones Android
+- Diversidad: Diferentes niveles de experiencia y sectores
+
+---
+
+---
 ### **4.3.2. Registro de Entrevistas**
+
+---
+
+#### **Segmento 1: Equipos de Recursos Humanos (Reclutadores)**
+
+---
+
+##### **Entrevista 1**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Ayling |
+| **Apellidos** | Rocha Bobadilla |
+| **Edad** | 32 años |
+| **Distrito** | San Isidro, Lima |
+| **Cargo Actual** | Encargada de Recursos Humanos |
+| **Empresa** | AFE SERVICE SAC |
+| **Timing** | 00:00 - 06:45 |
+| **Duración** | 6 minutos 45 segundos |
+
+**Resumen de la Entrevista:**
+
+Ayling revisó el landing page y los mockups de la aplicación. Le gustó la propuesta de valor del landing, dijo que era claro y directo. Al ver los mockups de la app comentó que la interfaz se veía limpia y fácil de entender. 
+
+Mencionó que el formulario para crear vacantes se ve simple y que los filtros para ver postulaciones están bien organizados. Sugirió que sería útil tener plantillas de vacantes guardadas. En general, todo le pareció intuitivo y dijo que sí lo usaría.
+
+**Puntuación: 8/10**
+
+---
+
+##### **Entrevista 2**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Silvana |
+| **Apellidos** | Gramegna Lerzundi |
+| **Edad** | 28 años |
+| **Distrito** | Miraflores, Lima |
+| **Cargo Actual** | Analista de Reclutamiento y Selección |
+| **Empresa** | NOTA & PRENSA SAC |
+| **Timing** | 00:00 - 05:30 |
+| **Duración** | 5 minutos 30 segundos |
+
+**Resumen de la Entrevista:**
+
+Silvana revisó el landing page y le gustaron los testimonios que aparecen. Al ver los mockups dijo que el diseño es moderno y agradable. Comentó que el botón para crear nueva vacante podría ser más grande o de otro color para que destaque más.
+
+Le gustó cómo se ve la lista de postulaciones y que tenga filtros. Dijo que el flujo en general se ve fácil de seguir. Sugirió agregar notificaciones cuando lleguen nuevas postulaciones.
+
+**Puntuación: 8/10**
+
+---
+
+##### **Entrevista 3**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Roberto |
+| **Apellidos** | Sagardia Mejia |
+| **Edad** | 35 años |
+| **Distrito** | Surco, Lima |
+| **Cargo Actual** | Analista de Reclutamiento y Selección |
+| **Empresa** | FUTURA GROUP SAC |
+| **Timing** | 00:00 - 07:15 |
+| **Duración** | 7 minutos 15 segundos |
+
+**Resumen de la Entrevista:**
+
+Roberto navegó por el landing y los mockups. Dijo que la propuesta está clara pero que le gustaría ver más estadísticas o números en el landing (como "ahorra 50% de tiempo"). 
+
+Al revisar los mockups comentó que todo se ve bien organizado. Mencionó que sería útil poder duplicar vacantes para no tener que crear todo desde cero cada vez. En general le pareció una buena herramienta y que sí la usaría en su trabajo.
+
+**Puntuación: 7/10**
+
+---
+
+#### **Segmento 2: Postulantes (Candidatos)**
+
+---
+
+##### **Entrevista 1**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Darikson |
+| **Apellidos** | Brito Enrique |
+| **Edad** | 29 años |
+| **Distrito** | Los Olivos, Lima |
+| **Ocupación Actual** | Analista TI |
+| **Empresa Actual** | AFE SERVICE SAC |
+| **Timing** | 00:00 - 06:20 |
+| **Duración** | 6 minutos 20 segundos |
+
+**Resumen de la Entrevista:**
+
+Darikson revisó el landing page y dijo que se ve bien, entiende que es para buscar trabajo. Al ver los mockups de la app le gustó que la búsqueda de vacantes se ve simple y rápida. 
+
+Comentó que los filtros están bien pero que los íconos son un poco pequeños. Le gustó que postularse sea con un solo clic. Mencionó que no queda muy claro qué significa cada estado de postulación (En revisión, Aceptado, etc.). En general todo le pareció fácil de usar.
+
+**Puntuación: 8/10**
+
+---
+
+##### **Entrevista 2**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Delia |
+| **Apellidos** | Duran Jimenez |
+| **Edad** | 42 años |
+| **Distrito** | San Juan de Lurigancho, Lima |
+| **Ocupación Actual** | Administrador |
+| **Empresa Actual** | DR IMPOR SAC |
+| **Timing** | 00:00 - 07:00 |
+| **Duración** | 7 minutos |
+
+**Resumen de la Entrevista:**
+
+Delia navegó por el landing y los mockups. Dijo que el landing explica bien para qué sirve la app. Al ver los mockups comentó que todo se ve ordenado pero que los botones de filtro son pequeños y difíciles de ver.
+
+Le gustó que muestre toda la información de la vacante (salario, beneficios). Dijo que sería bueno poder adjuntar certificados en el perfil. En general le pareció una app útil y fácil de entender.
+
+**Puntuación: 7/10**
+
+---
+
+##### **Entrevista 3**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Victor |
+| **Apellidos** | Calero Ruiz |
+| **Edad** | 26 años |
+| **Distrito** | Villa El Salvador, Lima |
+| **Ocupación Actual** | Administrador |
+| **Empresa Actual** | CONSULDIIN PERU E.I.R.L. |
+| **Timing** | 00:00 - 05:50 |
+| **Duración** | 5 minutos 50 segundos |
+
+**Resumen de la Entrevista:**
+
+Victor revisó el landing y los mockups rápidamente. Dijo que el diseño es moderno y se ve bien. Le gustó la velocidad de búsqueda y que postularse sea rápido.
+
+Comentó que falta un filtro por salario y que sería útil conectar con LinkedIn. En general todo le pareció intuitivo y fácil de usar.
+
+**Puntuación: 8/10**
+
+---
+
 ### **4.3.3. Evaluaciones según heurísticas**
 
+<<<<<<< HEAD
+=======
+---
+
+#### **UX Heuristics & Principles Evaluation**
+**Usability - Inclusive Design - Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Moviles 
+**SECCIÓN:** 1ACC0238
+**NRC:** 12612
+**AUDITOR:** Equipo de Desarrollo  
+**CLIENTES:** Ayling Rocha, Silvana Gramegna, Roberto Sagardia, Darikson Brito, Delia Duran, Victor Calero
+
+**SITE o APP A EVALUAR:**  
+Plataforma de Reclutamiento - Landing Page (Producción) y Mockups de Aplicación Móvil Android
+
+---
+
+#### **TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|:--|:---------|:-------------------:|:--------------------------------|
+| 1 | Botón "Nueva Vacante" poco visible | 2 | Usability: Visibilidad y reconocimiento |
+| 2 | Estados de postulación sin explicación clara | 2 | Usability: Lenguaje claro y comprensible |
+| 3 | Íconos de filtros muy pequeños | 2 | Inclusive Design: Accesibilidad visual |
+
+---
+
+#### **DESCRIPCIÓN DE PROBLEMAS:**
+
+---
+
+##### **PROBLEMA #1: Botón "Nueva Vacante" poco visible**
+
+**Severidad:** 2
+
+**Heurística violada:** Usability - Visibilidad y reconocimiento
+
+**Problema:**
+
+En los mockups de la aplicación, Silvana mencionó que el botón para crear una nueva vacante podría ser más visible. El botón actual tiene el mismo tamaño y color que otros elementos secundarios, lo que hace que no destaque como una acción principal.
+
+Esto puede hacer que los reclutadores tarden más tiempo en encontrar esta función importante.
+
+**Recomendación:**
+
+Hacer el botón "Nueva Vacante" más grande y usar un color que destaque más (como azul o verde brillante). También se podría poner en una posición más visible en la pantalla.
+
+---
+
+##### **PROBLEMA #2: Estados de postulación sin explicación clara**
+
+**Severidad:** 2
+
+**Heurística violada:** Usability - Lenguaje claro y comprensible
+
+**Problema:**
+
+Darikson comentó que en los mockups no queda claro qué significa cada estado de postulación. Los estados como "En revisión" o "Aceptado" no tienen una descripción que explique qué significa para el postulante.
+
+Esto puede generar confusión en los usuarios sobre el estado real de su postulación.
+
+**Recomendación:**
+
+Agregar un texto breve debajo de cada estado que explique qué significa (por ejemplo: "En revisión: La empresa está evaluando tu perfil"). También se podría agregar un ícono de información con más detalles.
+
+---
+
+##### **PROBLEMA #3: Íconos de filtros muy pequeños**
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design - Accesibilidad visual
+
+**Problema:**
+
+Tanto Darikson como Delia mencionaron que los íconos de los filtros en los mockups son pequeños y difíciles de ver. Delia específicamente comentó que por su edad le cuesta ver elementos muy pequeños en la pantalla.
+
+Esto afecta la facilidad de uso, especialmente para usuarios mayores o con problemas de visión.
+
+**Recomendación:**
+
+Aumentar el tamaño de los íconos de filtros y agregar texto junto a cada ícono para que sea más fácil identificarlos. También aumentar el espacio entre cada botón de filtro.
+
+---
+
+>>>>>>> chapter4
 ## Conclusiones
 - _Implementación de buenas prácticas en el desarrollo:_
     Se respetaron estándares de codificación, se utilizó Git para el control de versiones y se siguieron convenciones definidas para los mensajes de commit. Esto permitió lograr un código ordenado, modular y preparado para futuras ampliaciones. Además, se aplicó un diseño responsivo que asegura una buena experiencia en distintos dispositivos.
