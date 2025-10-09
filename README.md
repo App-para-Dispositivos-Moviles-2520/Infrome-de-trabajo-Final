@@ -261,7 +261,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 **Raul Roberto:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
-- **TP1:**   
+- **TP1:** Apliqué nuevos conocimientos adquiridos sobre diseño de entrevistas y evaluación heurística para mejorar la experiencia de usuario del proyecto. Además, actualicé el formato de las User Stories y el Product Backlog siguiendo lineamientos profesionales, lo que permitió mantener la trazabilidad y coherencia del desarrollo con las necesidades del cliente.  
 - **TB2:**   
 - **TF:**   
 
@@ -306,7 +306,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 **Raul Roberto:**  
 - **TB1:** Organicé y estructuré mi parte del trabajo de manera clara y ordenada, compartiendo avances con el equipo y adaptando mi desarrollo a los tiempos y lineamientos definidos, lo que contribuyó al cumplimiento de los objetivos colectivos. 
-- **TP1:** 
+- **TP1:** Comprendí la importancia de actualizarme constantemente en metodologías ágiles y técnicas de análisis de usabilidad. Implementé mejoras en las User Stories y el Backlog, además de diseñar entrevistas y aplicar principios heurísticos, reforzando así mi compromiso con el aprendizaje continuo y con la calidad del proyecto.
 - **TB2:**  
 - **TF:**  
 
