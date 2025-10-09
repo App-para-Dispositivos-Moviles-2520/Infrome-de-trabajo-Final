@@ -2088,11 +2088,35 @@ User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera.
 ![perfilPOS](img/perfilPOS.png)
 
 #### **3.1.4.3. Mobile Applications Mock-ups**
+
+## INICIO Y CREAR CUENTA 
+![mock-1](img/MOCK1.png)
+
+## POSTULANTE
+![mock-2](img/MOCK2.png)
+
+## RECLUTADOR
+![mock-3](img/MOCK3.png)
+
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 
-#### **3.1.4.5. Mobile Applications Prototyping**
+![USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR](img/USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR.png)
 
-![prototipo](img/prototipo.png)
+![USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES](img/USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES.png)
+
+![USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR](img/USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR.png)
+
+![USER-FLOW-DIAGRAM-CREAR-CUENTA](img/USER-FLOW-DIAGRAM-CREAR-CUENTA.png)
+
+![USER-FLOW-DIAGRAM-EDITAR-PERFIL](img/USER-FLOW-DIAGRAM-EDITAR-PERFIL.png)
+
+![USER-FLOW-DIAGRAM-INICIO-SESION](img/USER-FLOW-DIAGRAM-INICIO-SESION.png)
+
+![USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE](img/USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE.png)
+
+![USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR](img/USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR.png)
+
+#### **3.1.4.5. Mobile Applications Prototyping**
 
 Link mobile application prototype video: https://drive.google.com/file/d/1W4ka95-DvcHUAsc0Jk4nx/view?usp=drive_link
 
