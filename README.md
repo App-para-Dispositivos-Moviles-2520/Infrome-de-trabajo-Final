@@ -39,6 +39,7 @@ Quevedo Velasco, David Gerardo
 | Versión | Fecha      | Autor                          | Descripción de modificación      |
 |---------|------------|--------------------------------|----------------------------------|
 | TB1     | 17/09/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
+| TP     | 07/10/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 3, Capitulo 4 |
 
 - Commits Informe: 
 
@@ -91,7 +92,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**How (¿Cómo?)**](#how-cómo)
     - [**How much (¿Cuánto?)**](#how-much-cuánto)
     - [**1.2.2. Lean UX Process**](#122-lean-ux-process)
-      - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
+      - [**1.2.2.1. Lean UX Problem Statement**](#1221-lean-ux-problem-statement)
       - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
       - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
       - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
@@ -181,11 +182,33 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
   - [**3.1. Product design**](#31-product-design)
     - [**3.1.1. Style Guidelines**](#311-style-guidelines)
       - [**3.1.1.1. General Style Guidelines**](#3111-general-style-guidelines)
+      - [Principios de diseño](#principios-de-diseño)
+    - [- Colores](#--colores)
+      - [Botones](#botones)
+      - [- Tipografía](#--tipografía)
+      - [- Iconografía](#--iconografía)
+      - [- Cabecera](#--cabecera)
+      - [- Pie de Página](#--pie-de-página)
+      - [- Logo](#--logo)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
     - [**3.1.2. Information Architecture**](#312-information-architecture)
       - [**3.1.2.1. Organization Systems**](#3121-organization-systems)
+      - [**Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.**](#segmento-1-equipos-de-recursos-humanos-encargados-del-proceso-de-contratación-1)
+        - [Jerárquica](#jerárquica)
+        - [Secuencial](#secuencial)
+        - [Matricial](#matricial)
+      - [**Segmento 2: Postulantes o Candidatos**](#segmento-2-postulantes-o-candidatos)
+        - [Jerárquica](#jerárquica-1)
+        - [Secuencial](#secuencial-1)
+        - [Matricial](#matricial-1)
       - [**3.1.2.2. Labelling Systems**](#3122-labelling-systems)
+      - [Etiquetas para la Landing Page](#etiquetas-para-la-landing-page)
+      - [Etiquetas dentro de la Plataforma Web - Segmento: Equipos de RRHH](#etiquetas-dentro-de-la-plataforma-web---segmento-equipos-de-rrhh)
+      - [Etiquetas dentro de la Plataforma Web - Segmento: Postulantes](#etiquetas-dentro-de-la-plataforma-web---segmento-postulantes)
       - [**3.1.2.3. SEO Tags and Meta Tags**](#3123-seo-tags-and-meta-tags)
       - [**3.1.2.4. Searching Systems**](#3124-searching-systems)
+      - [Segmento 1: Equipos de Recursos Humanos](#segmento-1-equipos-de-recursos-humanos)
+      - [Segmento 2: Postulantes](#segmento-2-postulantes)
       - [**3.1.2.5. Navigation Systems**](#3125-navigation-systems)
     - [**3.1.3. Landing Page UI Design**](#313-landing-page-ui-design)
       - [**3.1.3.1. Landing Page Wireframe**](#3131-landing-page-wireframe)
@@ -194,9 +217,13 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**3.1.4.1. Mobile Applications Wireframes**](#3141-mobile-applications-wireframes)
       - [**3.1.4.2. Mobile Applications Wireflow Diagrams**](#3142-mobile-applications-wireflow-diagrams)
       - [**3.1.4.3. Mobile Applications Mock-ups**](#3143-mobile-applications-mock-ups)
+  - [INICIO Y CREAR CUENTA](#inicio-y-crear-cuenta)
+  - [POSTULANTE](#postulante)
+  - [RECLUTADOR](#reclutador)
       - [**3.1.4.4. Mobile Applications User Flow Diagrams**](#3144-mobile-applications-user-flow-diagrams)
       - [**3.1.4.5. Mobile Applications Prototyping**](#3145-mobile-applications-prototyping)
-  - [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
+- [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation)
+  - [**Capítulo IV: Product Implementation \& Validation**](#capítulo-iv-product-implementation--validation-1)
     - [**4. Product Implementation \& Validation**](#4-product-implementation--validation)
   - [**4.1. Software Configuration Management**](#41-software-configuration-management)
     - [**4.1.1. Software Development Environment Configuration**](#411-software-development-environment-configuration)
@@ -204,19 +231,55 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
     - [**4.1.3. Source Code Style Guide \& Conventions**](#413-source-code-style-guide--conventions)
     - [**4.1.4. Software Deployment Configuration**](#414-software-deployment-configuration)
   - [**4.2. Landing Page \& Mobile Application Implementation**](#42-landing-page--mobile-application-implementation)
-    - [**4.2.1. Sprint n**](#421-sprint-n)
-      - [**4.2.1.1. Sprint Planning n**](#4211-sprint-planning-n)
-      - [**4.2.1.2. Sprint Backlog n**](#4212-sprint-backlog-n)
+    - [**4.2.1. Sprint 1**](#421-sprint-1)
+      - [**4.2.1.1. Sprint Planning 1**](#4211-sprint-planning-1)
+      - [**4.2.1.2. Sprint Backlog 1**](#4212-sprint-backlog-1)
       - [**4.2.1.3. Development Evidence for Sprint Review**](#4213-development-evidence-for-sprint-review)
       - [**4.2.1.4. Testing Suite Evidence for Sprint Review**](#4214-testing-suite-evidence-for-sprint-review)
+    - [Users](#users)
       - [**4.2.1.5. Execution Evidence for Sprint Review**](#4215-execution-evidence-for-sprint-review)
       - [**4.2.1.6. Services Documentation Evidence for Sprint Review**](#4216-services-documentation-evidence-for-sprint-review)
       - [**4.2.1.7. Software Deployment Evidence for Sprint Review**](#4217-software-deployment-evidence-for-sprint-review)
       - [**4.2.1.8. Team Collaboration Insights during Sprint**](#4218-team-collaboration-insights-during-sprint)
   - [**4.3. Validation Interviews**](#43-validation-interviews)
     - [**4.3.1. Diseño de Entrevistas**](#431-diseño-de-entrevistas)
+      - [Introducción](#introducción)
+      - [Segmento Objetivo 1: Equipos de Recursos Humanos (Reclutadores)](#segmento-objetivo-1-equipos-de-recursos-humanos-reclutadores)
+        - [Perfil del Entrevistado](#perfil-del-entrevistado)
+        - [Objetivos de Validación](#objetivos-de-validación)
+        - [Elementos a Validar](#elementos-a-validar)
+        - [User Flows a Evaluar](#user-flows-a-evaluar)
+        - [Tareas Específicas para la Sesión](#tareas-específicas-para-la-sesión)
+        - [Preguntas Guía](#preguntas-guía)
+        - [Métricas de Éxito](#métricas-de-éxito)
+      - [Segmento Objetivo 2: Postulantes (Candidatos)](#segmento-objetivo-2-postulantes-candidatos)
+        - [Perfil del Entrevistado](#perfil-del-entrevistado-1)
+        - [Objetivos de Validación](#objetivos-de-validación-1)
+        - [Elementos a Validar](#elementos-a-validar-1)
+        - [User Flows a Evaluar](#user-flows-a-evaluar-1)
+        - [Tareas Específicas para la Sesión](#tareas-específicas-para-la-sesión-1)
+        - [Preguntas Guía](#preguntas-guía-1)
+        - [Métricas de Éxito](#métricas-de-éxito-1)
+      - [Estructura General de la Sesión de Validación](#estructura-general-de-la-sesión-de-validación)
+      - [Materiales y Recursos Necesarios](#materiales-y-recursos-necesarios)
+      - [Protocolo de Conducción de Entrevistas](#protocolo-de-conducción-de-entrevistas)
+      - [Criterios de Selección de Entrevistados](#criterios-de-selección-de-entrevistados)
     - [**4.3.2. Registro de Entrevistas**](#432-registro-de-entrevistas)
+      - [**Segmento 1: Equipos de Recursos Humanos (Reclutadores)**](#segmento-1-equipos-de-recursos-humanos-reclutadores)
+        - [**Entrevista 1**](#entrevista-1)
+        - [**Entrevista 2**](#entrevista-2)
+        - [**Entrevista 3**](#entrevista-3)
+      - [**Segmento 2: Postulantes (Candidatos)**](#segmento-2-postulantes-candidatos)
+        - [**Entrevista 1**](#entrevista-1-1)
+        - [**Entrevista 2**](#entrevista-2-1)
+        - [**Entrevista 3**](#entrevista-3-1)
     - [**4.3.3. Evaluaciones según heurísticas**](#433-evaluaciones-según-heurísticas)
+      - [**UX Heuristics \& Principles Evaluation**](#ux-heuristics--principles-evaluation)
+      - [**TABLA RESUMEN:**](#tabla-resumen)
+      - [**DESCRIPCIÓN DE PROBLEMAS:**](#descripción-de-problemas)
+        - [**PROBLEMA #1: Botón "Nueva Vacante" poco visible**](#problema-1-botón-nueva-vacante-poco-visible)
+        - [**PROBLEMA #2: Estados de postulación sin explicación clara**](#problema-2-estados-de-postulación-sin-explicación-clara)
+        - [**PROBLEMA #3: Íconos de filtros muy pequeños**](#problema-3-íconos-de-filtros-muy-pequeños)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -249,31 +312,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 **Ricardo Fernando**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
-- **TP1:** 
+- **TP:** Apliqué nuevos conocimientos adquiridos tras la primera entrega, mejorando la arquitectura del proyecto y optimizando la integración entre los módulos desarrollados.
 - **TB2:**   
 - **TF:**   
 
 **Ronald Joel:**  
 - **TB1:** Me involucré en la resolución de problemas técnicos, aplicando conceptos actualizados para optimizar los resultados.
-- **TP1:**   
+- **TP:** Actualicé conceptos de ingeniería de software para refinar el diseño del sistema, logrando una estructura más escalable y coherente con las buenas prácticas aprendidas. 
 - **TB2:** 
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
-- **TP1:**   
+- **TP:** Profundicé en nuevas herramientas y metodologías que permitieron optimizar el flujo de trabajo del equipo y perfeccionar las funcionalidades presentadas en la primera versión.  
 - **TB2:**   
 - **TF:**   
 
 **Javier Oswaldo:**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
-- **TP1:**   
+- **TP:** Incorporé mejoras técnicas basadas en la retroalimentación recibida, fortaleciendo la calidad del código y la eficiencia de las soluciones implementadas.  
 - **TB2:**   
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Contribuí al avance del proyecto aplicando metodologías actuales, lo que permitió alcanzar los objetivos propuestos con éxito.
-- **TP1:**   
+- **TP:** Integré aprendizajes obtenidos durante el proceso de revisión, aplicando principios actualizados de desarrollo para elevar el nivel técnico del proyecto.  
 - **TB2:**   
 - **TF:**   
 </td>
@@ -281,7 +344,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TB1:** Cada miembro del equipo evidenció un compromiso constante con la actualización de sus conocimientos, aplicando lo aprendido directamente en el proyecto. Esta disposición al aprendizaje continuo fortaleció la calidad de las soluciones desarrolladas, favoreció el trabajo colaborativo y aseguró un avance ordenado hacia los objetivos planteados.
 
-- **TP1:**   
+- **TP:** El equipo demostró un avance significativo al incorporar nuevos conocimientos y aplicar mejoras técnicas respecto a la primera entrega. Este proceso de actualización constante permitió optimizar la calidad del proyecto, fortalecer las competencias profesionales y consolidar un enfoque más sólido en la aplicación de soluciones.  
 
 - **TB2:**   
 
@@ -294,31 +357,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 **Ricardo Fernando:**  
 - **TB1:** Entendí que el aprendizaje permanente es clave en la ingeniería de software, porque las tecnologías cambian rápidamente. Por eso busco actualizarme para poder responder mejor a los retos del proyecto.
-- **TP1:**   
+- **TP:** Reconocí la importancia del aprendizaje continuo, integrando nuevos conocimientos técnicos que fortalecieron mi capacidad para aportar soluciones más innovadoras dentro del proyecto.  
 - **TB2:** 
 - **TF:**  
 
 **Ronald Joel:**  
 - **TB1:** Para mí, la formación continua asegura un mejor desempeño profesional. Cada nuevo conocimiento adquirido me da más herramientas para aportar al desarrollo de soluciones efectivas.
-- **TP1:**   
+- **TP:** Mantuve una actitud de mejora constante, revisando documentación, buenas prácticas y nuevas herramientas que contribuyeron al crecimiento profesional y al éxito del equipo.  
 - **TB2:** 
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Organicé y estructuré mi parte del trabajo de manera clara y ordenada, compartiendo avances con el equipo y adaptando mi desarrollo a los tiempos y lineamientos definidos, lo que contribuyó al cumplimiento de los objetivos colectivos. 
-- **TP1:** 
+- **TP:** Apliqué nuevos enfoques y metodologías adquiridos durante el proceso, reafirmando la necesidad de seguir actualizando mis habilidades para mantener un desempeño competitivo.
 - **TB2:**  
 - **TF:**  
 
 **Javier Oswaldo Aru Acevedo:**  
 - **TB1:** Reconozco que no basta con lo aprendido en clases. El aprendizaje constante me permite mantenerme competitivo y aplicar ideas innovadoras en los proyectos de software. 
-- **TP1:** 
+- **TP:** Comprendí que el aprendizaje permanente es esencial para adaptarse a los cambios tecnológicos y responder de manera efectiva a los desafíos del desarrollo de software.
 - **TB2:** 
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Considero que el aprendizaje permanente es una actitud profesional. Mantenerla me permite crecer, adaptarme y contribuir al éxito de los proyectos de ingeniería de software.
-- **TP1:**   
+- **TP:** Valoré la formación continua como parte del ejercicio profesional, entendiendo que cada iteración del proyecto representa una oportunidad para aprender, mejorar y perfeccionar las soluciones tecnológicas implementadas. 
 - **TB2:**   
 - **TF:**   
 </td>
@@ -326,7 +389,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TB1:** El equipo demostró una disposición constante hacia el aprendizaje permanente, incorporando nuevos conocimientos al desarrollo del proyecto. Esta actitud favoreció la innovación en las soluciones propuestas, fortaleció las competencias profesionales y aseguró un trabajo alineado con las demandas actuales de la ingeniería de software.
 
-- **TP1:**   
+- **TP:** La necesidad de mantenerse actualizado frente a las constantes innovaciones tecnológicas nos permitió fortalecer nuestras competencias, adoptar nuevas metodologías y mejorar la calidad de las soluciones propuestas. Este proceso reafirmó el con la mejora continua y con la búsqueda constante de conocimiento para aportar un mayor valor en futuros proyectos.  
 
 - **TB2:**   
 
@@ -363,7 +426,9 @@ Nuestra visión es ser la solución líder en Latinoamérica en automatización 
 | ![Foto de Raul](img/raul.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
 
 ## **1.2. Solution Profile**
-En esta sección detallamos el funcionamiento y propuesta de valor de nuestro producto digital, resaltando tanto su factor innovador como su esquema de monetización.
+Los departamentos de Recursos Humanos enfrentan una creciente sobrecarga de tareas operativas, especialmente en los procesos de reclutamiento. La revisión manual de currículums, la coordinación de entrevistas y la publicación de vacantes en múltiples plataformas generan retrasos, errores y pérdida de eficiencia. Frente a este panorama, surge la necesidad de una solución tecnológica que simplifique y automatice estas labores, permitiendo a los equipos enfocarse en la toma de decisiones estratégicas y en la experiencia del candidato. <br>
+En esta sección se detalla el funcionamiento y propuesta de valor de SmartHire, nuestro producto digital orientado a transformar el proceso de selección mediante inteligencia artificial, automatización y analítica de datos, destacando su componente innovador y su esquema de monetización sostenible.
+
 #### Product Name.
 El nombre de nuestra plataforma es “SmartHire". Se eligió este nombre por su enfoque claro en contrataciones inteligentes, eficientes y adaptadas a las necesidades del mercado moderno. La palabra "Smart" hace alusión a la inteligencia artificial y la automatización que optimizan todo el proceso de reclutamiento, mientras que "Hire" transmite de manera directa su propósito principal. Esta combinación genera confianza y comunica una propuesta clara: contrataciones más rápidas, precisas y efectivas.
 
@@ -374,7 +439,6 @@ Una vez publicada la oferta, la plataforma centraliza la recepción de postulaci
 SmartHire adoptará un modelo de negocio tipo Software as a Service (SaaS), dirigido a empresas y organizaciones que deseen mejorar sus procesos de reclutamiento. Las compañías pagarán una suscripción mensual o anual para acceder a todas las funcionalidades de la plataforma, incluyendo la publicación automática de vacantes, el filtrado inteligente de CVs con IA, la programación de entrevistas, y el seguimiento completo del proceso de selección.
 
 ### **1.2.1. Antecedentes y problemática**
-Descripción de la problemática.
 En el contexto actual, los procesos de reclutamiento y selección en muchas empresas siguen siendo largos, ineficientes y, en varios casos, propensos a errores humanos o sesgos. Las áreas de Recursos Humanos deben revisar manualmente cientos de currículums, coordinar entrevistas por distintos canales y hacer seguimiento de manera dispersa, lo cual genera demoras, sobrecarga operativa y una experiencia poco fluida tanto para el candidato como para la empresa.
 
 A pesar de que existen soluciones tecnológicas que buscan optimizar estos procesos, muchas de ellas no se adaptan completamente a la realidad local o presentan costos elevados. Además, gran parte de estas plataformas están diseñadas para grandes corporaciones, dejando de lado a medianas y pequeñas empresas que también necesitan contratar talento de manera ágil y eficiente.
@@ -401,11 +465,10 @@ De acuerdo con el portal El HuffPost (2025). La digitalización se ha convertido
 Lean UX es una metodología ágil que pone énfasis en la colaboración constante y el aprendizaje iterativo durante el desarrollo de un producto, priorizando la acción sobre la documentación exhaustiva. Este enfoque impulsa el trabajo conjunto entre los equipos de diseño y desarrollo, quienes crean prototipos y obtienen retroalimentación valiosa mediante ciclos de mejora continua.
 
 Su objetivo esencial es validar hipótesis de forma ágil y con el menor uso de recursos, garantizando así que el resultado final sea adaptable y responda verdaderamente a las necesidades de los usuarios (Gothelf, 2013).
-#### **1.2.2.1. Lean UX Problem Statements**
-Nuestra Startup fue diseñada para optimizar y modernizar los procesos de selección de personal, brindando a las empresas una plataforma centralizada, automatizada e intuitiva que permite realizar contrataciones más rápidas, precisas y efectivas.
-Hemos observado que el proceso de reclutamiento no está cumpliendo con estos objetivos en muchas empresas, ya que los equipos de Recursos Humanos enfrentan dificultades al gestionar manualmente grandes volúmenes de postulaciones, coordinar entrevistas en múltiples canales y tomar decisiones sin datos claros o centralizados.
-Esto está causando retrasos en las contrataciones, errores humanos y una experiencia poco satisfactoria tanto para los candidatos como para los reclutadores, lo cual impacta negativamente en la eficiencia operativa y en la capacidad de atraer talento de calidad.
-¿Cómo podemos mejorar la eficiencia operativa y la calidad de las contrataciones, proporcionando una plataforma web que automatice el filtrado de CVs, centralice todas las etapas del proceso y ofrezca métricas útiles para una toma de decisiones estratégicas basada en datos objetivos?
+#### **1.2.2.1. Lean UX Problem Statement**
+Hemos observado que los equipos de Recursos Humanos enfrentan grandes desafíos en sus procesos de reclutamiento, debido a la gestión manual de postulaciones, la falta de integración entre plataformas y la limitada disponibilidad de datos para la toma de decisiones. Estas dificultades generan sobrecarga operativa y reducen la eficiencia del proceso de selección. <br>
+Esta situación provoca demoras en las contrataciones, errores humanos y una experiencia insatisfactoria tanto para los candidatos como para los reclutadores. Además, la ausencia de herramientas automatizadas y centralizadas impide que los equipos de RRHH trabajen de manera estratégica y enfocada en atraer talento de calidad. <br>
+Creemos que, mediante el desarrollo de una plataforma web inteligente que automatice el filtrado de CVs, centralice la gestión de vacantes y brinde métricas de desempeño, podremos mejorar la eficiencia operativa de los reclutadores, optimizar los tiempos de contratación y elevar la calidad de la experiencia de los postulantes.
 #### **1.2.2.2. Lean UX Assumptions**
 <b>- Business Outcomes:</b><br>
 <p align="justify">
@@ -809,6 +872,13 @@ Los postulantes enfrentan frustraciones principalmente por la desorganización e
 | Usa o valora integración con redes/plataformas    | 100%           | 33%            |
 | Encuentra frustrante el proceso de búsqueda       | 100%           | 100%           |
 
+**Insights**
+- Automatización como necesidad prioritaria: <br> Tanto los equipos de Recursos Humanos como los postulantes coinciden en la necesidad de automatizar procesos. En el caso de RRHH, buscan reducir la carga operativa y los errores humanos; mientras que los postulantes desean simplificar y acelerar la búsqueda de empleo. Esto demuestra una oportunidad clara para desarrollar funcionalidades inteligentes que optimicen tareas repetitivas en ambos lados del proceso.
+- Valor por la eficiencia y centralización: <br> Los equipos de RRHH requieren una plataforma que concentre en un solo lugar la publicación, gestión y seguimiento de vacantes, mientras que los postulantes buscan centralizar sus postulaciones y notificaciones. Ambos grupos asocian la eficiencia con la reducción de estrés y una mejor experiencia general.
+- Importancia de la experiencia del usuario: <br>  Los entrevistados de ambos segmentos manifestaron que la experiencia dentro de las plataformas actuales es deficiente. Los reclutadores enfrentan interfaces poco prácticas y dispersas, y los postulantes perciben falta de comunicación y seguimiento. Existe, por tanto, una oportunidad para diseñar una experiencia más intuitiva, transparente y humana.
+- Valoración del apoyo personalizado y de la IA: <br> Los postulantes valoran especialmente recibir orientación sobre cómo mejorar su currículum o perfil profesional, lo que resalta la importancia de incorporar un asistente inteligente o módulos de recomendación.
+- Comunicación ágil como factor diferenciador: <br> Los usuarios, especialmente los postulantes, expresaron su preferencia por canales de comunicación rápidos como WhatsApp. Esto sugiere que la integración con plataformas de mensajería podría mejorar la conexión entre reclutadores y candidatos, aumentando la satisfacción y el nivel de respuesta.
+
 ---
 ## **2.3. Needfinding**
 La sección de Needfinding tiene como objetivo identificar las necesidades y problemas específicos de los usuarios que SmartHire pretende resolver. A través de investigaciones y análisis cualitativos y cuantitativos, se detectan oportunidades clave para mejorar la experiencia del usuario, basándose principalmente en entrevistas. Así mismo, se definen los aspectos esenciales que deberán abordarse para lograr una solución efectiva y centrada en el usuario.  
@@ -887,62 +957,3030 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 ## **2.4. Requirements specification**
 
 ### **2.4.1. User Stories**
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|----------------|--------|-------------|--------------------------|----------------------------|
-| EP001 | Gestión de Vacantes | Epic para crear, editar y cerrar vacantes laborales | | EP001 |
-| US001 | Crear nueva vacante | Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación. | **Escenario 1: Creación de vacante desde formulario**<br>• Dado que el reclutador ha iniciado sesión<br>• Cuando completa el formulario de creación<br>• Entonces la vacante se publica correctamente<br><br>**Escenario 2: Validación de campos requeridos**<br>• Dado que el reclutador está creando una vacante<br>• Cuando omite un campo obligatorio<br>• Entonces el sistema muestra un mensaje de error y no permite guardar | EP001 |
-| US002 | Editar vacante existente | Como reclutador, quiero editar una vacante publicada para actualizar su información. | **Escenario 1: Actualización de datos en vacante activa**<br>• Dado que la vacante está publicada<br>• Cuando el reclutador la edita<br>• Entonces los cambios se guardan y se muestran correctamente<br><br>**Escenario 2: Prevención de edición en vacantes cerradas**<br>• Dado que el reclutador accede a una vacante cerrada<br>• Cuando intenta editarla<br>• Entonces el sistema muestra un mensaje indicando que no se puede modificar | EP001 |
-| US003 | Cerrar vacante | Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones. | **Escenario 1: Finalización de proceso de selección**<br>• Dado que una vacante está abierta<br>• Cuando el reclutador la cierra<br>• Entonces la vacante ya no acepta postulaciones<br><br>**Escenario 2: Confirmación previa al cierre de vacante**<br>• Dado que el reclutador hace clic en cerrar vacante<br>• Cuando el sistema solicita confirmación<br>• Entonces solo se cierra si el reclutador confirma la acción | EP001 |
-| EP002 | Gestión de Postulaciones | Epic para gestionar postulaciones de los candidatos | | EP002 |
-| US004 | Aplicar a vacante | Como postulante, quiero postularme a una vacante para ser considerado en un proceso de selección. | **Escenario 1: Aplicación del postulante a una oferta**<br>• Dado que el usuario está autenticado<br>• Cuando se postula a una vacante<br>• Entonces recibe confirmación de postulación exitosa<br><br>**Escenario 2: Impedir postulación duplicada**<br>• Dado que el usuario ya postuló a una vacante<br>• Cuando intenta postularse nuevamente<br>• Entonces el sistema indica que ya está postulado | EP002 |
-| US005 | Ver postulaciones recibidas | Como reclutador, quiero ver las postulaciones recibidas para conocer los candidatos interesados. | **Escenario 1: Consulta de candidatos por vacante**<br>• Dado que el reclutador accede a una vacante<br>• Cuando consulta las postulaciones<br>• Entonces ve una lista con detalles de los postulantes<br><br>**Escenario 2: Ordenar postulaciones por fecha**<br>• Dado que el reclutador ve la lista de postulaciones<br>• Cuando selecciona el orden por fecha<br>• Entonces se muestran desde la más reciente a la más antigua | EP002 |
-| US006 | Filtrar postulaciones | Como reclutador, quiero filtrar postulaciones por estado para gestionar mejor el proceso. | **Escenario 1: Aplicación de filtro por estado en postulaciones**<br>• Dado que hay múltiples postulaciones<br>• Cuando aplica un filtro por estado<br>• Entonces solo se muestran las que coinciden<br><br>**Escenario 2: Filtrado combinado por estado y fecha**<br>• Dado que el reclutador desea refinar resultados<br>• Cuando aplica varios filtros a la vez<br>• Entonces solo se muestran las postulaciones que cumplen todos los filtros | EP002 |
-| EP003 | Proceso de Selección | Epic para el seguimiento del proceso de entrevistas y contratación | | EP003 |
-| US007 | Agendar entrevista | Como reclutador, quiero agendar entrevistas con postulantes para coordinar el proceso de selección. | **Escenario 1: Programación de entrevistas con candidatos**<br>• Dado que el reclutador ha seleccionado un candidato<br>• Cuando define fecha y hora<br>• Entonces se agenda la entrevista y se notifica al postulante<br><br>**Escenario 2: Evitar cruce de entrevistas en calendario**<br>• Dado que hay otra entrevista agendada en el mismo horario<br>• Cuando el reclutador intenta programar una nueva<br>• Entonces el sistema muestra una advertencia y no permite agendar | EP003 |
-| US008 | Registrar resultado de entrevista | Como reclutador, quiero registrar los resultados de entrevistas para tomar decisiones basadas en el desempeño. | **Escenario 1: Carga de resultados luego de entrevista**<br>• Dado que la entrevista se ha realizado<br>• Cuando se registran los resultados<br>• Entonces se actualiza el estado del candidato<br><br>**Escenario 2: Edición de resultados antes de envío final**<br>• Dado que los resultados aún no han sido enviados al candidato<br>• Cuando el reclutador quiere hacer cambios<br>• Entonces puede modificar la información registrada | EP003 |
-| US009 | Enviar oferta laboral | Como reclutador, quiero enviar una oferta laboral al candidato seleccionado para formalizar su contratación. | **Escenario 1: Formalización de propuesta laboral**<br>• Dado que el candidato ha sido elegido<br>• Cuando se completa el formulario de oferta<br>• Entonces se envía al candidato y queda registrada<br><br>**Escenario 2: Cancelación de oferta antes del envío**<br>• Dado que el formulario de oferta está en edición<br>• Cuando el reclutador decide no enviarla<br>• Entonces puede cancelar la operación sin guardar cambios | EP003 |
-| EP004 | Gestión de Usuarios | Epic para la administración de usuarios en la plataforma | | EP004 |
-| US010 | Registrar cuenta de postulante | Como usuario, quiero registrarme como postulante para aplicar a vacantes. | **Escenario 1: Alta de nuevo usuario postulante**<br>• Dado que el usuario accede a la plataforma<br>• Cuando completa el formulario de registro<br>• Entonces se crea su cuenta de postulante<br><br>**Escenario 2: Mensaje de error por correo ya registrado**<br>• Dado que el correo ingresado ya existe<br>• Cuando intenta registrarse<br>• Entonces el sistema muestra un mensaje indicando el error | EP004 |
-| US011 | Registrar cuenta de reclutador | Como empresa, quiero registrarme para gestionar vacantes laborales. | **Escenario 1: Registro exitoso de empresa reclutadora**<br>• Dado que la empresa accede al sitio<br>• Cuando se completa el registro empresarial<br>• Entonces se crea la cuenta de reclutador<br><br>**Escenario 2: Validación de datos de empresa incompletos**<br>• Dado que el formulario de empresa está incompleto<br>• Cuando intenta enviar el registro<br>• Entonces el sistema bloquea el envío y muestra los errores | EP004 |
-| US012 | Editar perfil profesional | Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mis oportunidades. | **Escenario 1: Actualización de perfil profesional por el usuario**<br>• Dado que el usuario accede a su perfil<br>• Cuando edita información personal<br>• Entonces los cambios se guardan correctamente<br><br>**Escenario 2: Validación de formato en campos del perfil**<br>• Dado que el usuario ingresa datos incorrectos<br>• Cuando intenta guardar<br>• Entonces el sistema muestra errores de validación | EP004 |
-| EP005 | IA y Recomendaciones | Epic para automatizar recomendaciones usando inteligencia artificial | | EP005 |
-| US013 | Sugerencia de candidatos | Como reclutador, quiero ver candidatos sugeridos automáticamente según la vacante para encontrar mejores perfiles. | **Escenario 1: Visualización de perfiles sugeridos para vacante**<br>• Dado que la vacante está publicada<br>• Cuando se accede a la sección de sugerencias<br>• Entonces se muestran candidatos recomendados<br><br>**Escenario 2: No hay coincidencias disponibles**<br>• Dado que no hay perfiles que coincidan con la vacante<br>• Cuando se abre la sección de sugerencias<br>• Entonces el sistema informa que no hay coincidencias | EP005 |
-| US014 | Recomendación de vacantes | Como postulante, quiero recibir sugerencias de vacantes relevantes a mi perfil para encontrar oportunidades adecuadas. | **Escenario 1: Vacantes destacadas en la vista del postulante**<br>• Dado que el usuario tiene perfil completo<br>• Cuando ingresa a la plataforma<br>• Entonces se le muestran vacantes sugeridas<br><br>**Escenario 2: Sugerencias actualizadas al cambiar perfil**<br>• Dado que el usuario modifica su perfil<br>• Cuando vuelve a la sección de sugerencias<br>• Entonces las recomendaciones se actualizan | EP005 |
-| US015 | Puntaje automático de CVs | Como reclutador, quiero que los CVs tengan puntajes automáticos para facilitar la evaluación. | **Escenario 1: Evaluación automática de hojas de vida**<br>• Dado que hay postulaciones registradas<br>• Cuando se visualizan los CVs<br>• Entonces se muestran con un puntaje evaluado por el sistema<br><br>**Escenario 2: Justificación del puntaje mostrado**<br>• Dado que el reclutador ve un puntaje<br>• Cuando desea más información<br>• Entonces puede ver un desglose de los criterios usados | EP005 |
-| EP006 | Gestión de Notificaciones | Epic para la administración de notificaciones a los usuarios | | EP006 |
-| US016 | Recibir notificaciones de vacantes | Como postulante, quiero recibir notificaciones cuando se publiquen vacantes relevantes para postularme a tiempo. | **Escenario 1: Recepción de alertas por nuevas vacantes**<br>• Dado que el postulante está registrado<br>• Cuando se publica una vacante relevante<br>• Entonces recibe una notificación<br><br>**Escenario 2: Configuración de tipo de vacantes notificadas**<br>• Dado que el usuario accede a preferencias<br>• Cuando selecciona áreas de interés<br>• Entonces solo recibe notificaciones de esas áreas | EP006 |
-| US017 | Recibir notificaciones de postulaciones | Como reclutador, quiero recibir notificaciones de nuevas postulaciones para estar al tanto de los candidatos interesados. | **Escenario 1: Aviso inmediato al recibir postulaciones**<br>• Dado que el reclutador ha publicado una vacante<br>• Cuando un candidato se postula<br>• Entonces recibe una notificación<br><br>**Escenario 2: Configuración de frecuencia de notificaciones**<br>• Dado que el reclutador prefiere menos alertas<br>• Cuando ajusta la frecuencia<br>• Entonces solo recibe notificaciones según la configuración | EP006 |
-| EP007 | Gestión de Entrevistas | Epic para organizar y gestionar las entrevistas con los candidatos | | EP007 |
-| US018 | Ver calendario de entrevistas | Como reclutador, quiero ver un calendario de entrevistas programadas para organizar mi agenda. | **Escenario 1: Revisión del cronograma de entrevistas**<br>• Dado que el reclutador ha agendado entrevistas<br>• Cuando consulta el calendario<br>• Entonces ve las entrevistas programadas<br><br>**Escenario 2: Filtro por semana o día en el calendario**<br>• Dado que hay muchas entrevistas<br>• Cuando aplica un filtro<br>• Entonces solo ve las entrevistas del rango seleccionado | EP007 |
-| US019 | Reprogramar entrevista | Como reclutador, quiero reprogramar una entrevista para ajustarla a nuevas disponibilidades. | **Escenario 1: Modificación de entrevistas ya agendadas**<br>• Dado que una entrevista está programada<br>• Cuando el reclutador cambia la fecha o hora<br>• Entonces la entrevista se reprograma y se notifica al postulante<br><br>**Escenario 2: Notificación de conflicto de horarios**<br>• Dado que el nuevo horario se superpone con otra entrevista<br>• Cuando se intenta reprogramar<br>• Entonces el sistema alerta del conflicto | EP007 |
-| EP008 | Soporte y Ayuda | Epic para gestionar la sección de soporte de la plataforma | | EP008 |
-| US020 | Solicitar soporte | Como usuario, quiero solicitar soporte para resolver problemas técnicos. | **Escenario 1: Registro de incidencias técnicas**<br>• Dado que el usuario tiene un problema técnico<br>• Cuando solicita soporte<br>• Entonces se crea un ticket de soporte<br><br>**Escenario 2: Confirmación de creación de ticket**<br>• Dado que el usuario ha solicitado soporte<br>• Cuando el ticket se crea correctamente<br>• Entonces el sistema muestra un mensaje de confirmación con el número de ticket | EP008 |
-| US021 | Responder solicitud de soporte | Como agente de soporte, quiero responder a las solicitudes de soporte de los usuarios para ayudarlos eficazmente. | **Escenario 1: Envío de respuesta por el equipo de soporte**<br>• Dado que un usuario ha solicitado soporte<br>• Cuando el agente de soporte responde<br>• Entonces el usuario recibe una respuesta<br><br>**Escenario 2: Visualización del historial de soporte**<br>• Dado que hubo intercambio de mensajes<br>• Cuando el usuario accede al ticket<br>• Entonces puede ver todo el historial de la conversación | EP008 |
-| EP009 | Administración de Pago | Epic para la administración de pagos dentro de la plataforma | | EP009 |
-| US022 | Registrar método de pago | Como usuario, quiero registrar un método de pago para realizar compras o suscripciones. | **Escenario 1: Inclusión de tarjeta o cuenta bancaria**<br>• Dado que el usuario accede a su perfil<br>• Cuando agrega un método de pago<br>• Entonces se guarda correctamente el método de pago<br><br>**Escenario 2: Validación de datos del método de pago**<br>• Dado que el usuario ingresa información de pago<br>• Cuando algún campo es inválido<br>• Entonces el sistema muestra errores específicos para su corrección | EP009 |
-| US023 | Realizar pago | Como usuario, quiero realizar un pago para acceder a servicios premium. | **Escenario 1: Procesamiento exitoso de una transacción**<br>• Dado que el usuario ha registrado un método de pago<br>• Cuando realiza el pago<br>• Entonces recibe confirmación de pago exitoso<br><br>**Escenario 2: Fallo en el intento de pago**<br>• Dado que hay un problema con el método de pago<br>• Cuando se intenta realizar la transacción<br>• Entonces el sistema muestra un mensaje de error explicativo | EP009 |
-| US024 | Ver historial de pagos | Como usuario, quiero ver un historial de mis pagos para tener un registro de mis transacciones. | **Escenario 1: Consulta detallada de transacciones previas**<br>• Dado que el usuario ha realizado pagos anteriormente<br>• Cuando consulta el historial de pagos<br>• Entonces se muestran los detalles de los pagos previos<br><br>**Escenario 2: Filtro por fecha en historial de pagos**<br>• Dado que el usuario accede al historial<br>• Cuando aplica un filtro de fechas<br>• Entonces el sistema muestra solo los pagos dentro del rango seleccionado | EP009 |
-| EP010 | Configuración de Preferencias | Epic para gestionar las preferencias de los usuarios | | EP010 |
-| US025 | Configurar notificaciones | Como usuario, quiero configurar mis preferencias de notificaciones para recibir solo la información relevante. | **Escenario 1: Ajustes personalizados de alertas**<br>• Dado que el usuario accede a la configuración<br>• Cuando configura las notificaciones<br>• Entonces se guardan correctamente sus preferencias<br><br>**Escenario 2: Restaurar configuración por defecto**<br>• Dado que el usuario desea restablecer la configuración<br>• Cuando hace clic en "restaurar por defecto"<br>• Entonces el sistema aplica la configuración inicial predeterminada | EP010 |
-| US026 | Configurar perfil | Como usuario, quiero configurar mis preferencias de perfil para personalizar mi experiencia. | **Escenario 1: Personalización de datos del usuario**<br>• Dado que el usuario accede a su perfil<br>• Cuando edita sus preferencias<br>• Entonces se guardan correctamente<br><br>**Escenario 2: Mostrar confirmación tras editar perfil**<br>• Dado que el usuario guarda los cambios<br>• Cuando se completan correctamente<br>• Entonces el sistema muestra un mensaje confirmando la actualización del perfil | EP010 |
-| EP011 | Seguridad de Cuenta | Epic para gestionar la seguridad de las cuentas de los usuarios | | EP011 |
-| US027 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para asegurar mi cuenta. | **Escenario 1: Actualización segura de credenciales**<br>• Dado que el usuario está autenticado<br>• Cuando solicita cambiar la contraseña<br>• Entonces se actualiza correctamente<br><br>**Escenario 2: Validación de coincidencia en contraseñas nuevas**<br>• Dado que el usuario ingresa una nueva contraseña dos veces<br>• Cuando las contraseñas no coinciden<br>• Entonces el sistema muestra un error y no permite continuar | EP011 |
-| US028 | Activar autenticación de dos factores | Como usuario, quiero activar la autenticación de dos factores para mayor seguridad. | **Escenario 1: Habilitación de doble autenticación**<br>• Dado que el usuario accede a la configuración de seguridad<br>• Cuando habilita la autenticación de dos factores<br>• Entonces se activa correctamente<br><br>**Escenario 2: Solicitud de código de verificación**<br>• Dado que el usuario ha activado 2FA<br>• Cuando intenta ingresar nuevamente<br>• Entonces el sistema solicita un código de verificación adicional | EP011 |
-| EP012 | Gestión de Roles | Epic para gestionar roles y permisos de los usuarios | | EP012 |
-| US029 | Asignar rol de reclutador | Como administrador, quiero asignar el rol de reclutador a un usuario para que pueda gestionar vacantes. | **Escenario 1: Otorgamiento de permisos al rol reclutador**<br>• Dado que el usuario está registrado<br>• Cuando el administrador asigna el rol de reclutador<br>• Entonces el usuario tiene acceso a las funciones de reclutador<br><br>**Escenario 2: Notificación al usuario sobre nuevo rol**<br>• Dado que se asignó un nuevo rol<br>• Cuando el cambio se confirma<br>• Entonces el usuario recibe una notificación del sistema sobre sus nuevos permisos | EP012 |
-| US030 | Asignar rol de postulante | Como administrador, quiero asignar el rol de postulante a un usuario para que pueda aplicar a vacantes. | **Escenario 1: Habilitación de funcionalidades para postulante**<br>• Dado que el usuario está registrado<br>• Cuando el administrador asigna el rol de postulante<br>• Entonces el usuario tiene acceso a las funciones de postulante<br><br>**Escenario 2: Acceso automático a funcionalidades de postulante**<br>• Dado que el rol ha sido asignado<br>• Cuando el usuario accede a su cuenta<br>• Entonces puede ver y usar opciones específicas para postulantes como aplicar a vacantes | EP012 |
-| EP013 | Integración con Redes Sociales | Epic para integrar la plataforma con redes sociales | | EP013 |
-| US031 | Iniciar sesión con redes sociales | Como usuario, quiero iniciar sesión utilizando mi cuenta de redes sociales para facilitar el acceso. | **Escenario 1: Acceso mediante redes sociales**<br>• Dado que el usuario tiene una cuenta de redes sociales<br>• Cuando elige la opción de inicio de sesión social<br>• Entonces inicia sesión exitosamente<br><br>**Escenario 2: Manejo de error en inicio de sesión social**<br>• Dado que el usuario elige iniciar sesión con una red social<br>• Cuando ocurre un error de autenticación<br>• Entonces el sistema muestra un mensaje de error claro e invita a reintentar o usar otro método | EP013 |
-| US032 | Compartir vacante en redes sociales | Como reclutador, quiero compartir una vacante en redes sociales para atraer más postulantes. | **Escenario 1: Difusión de vacante en plataformas sociales**<br>• Dado que la vacante está publicada<br>• Cuando el reclutador elige compartir<br>• Entonces la vacante se publica en las redes sociales seleccionadas<br><br>**Escenario 2: Confirmación de publicación exitosa**<br>• Dado que el reclutador comparte la vacante<br>• Cuando la publicación se realiza correctamente<br>• Entonces el sistema muestra una confirmación y el enlace compartido | EP013 |
-| US033 | Compartir perfil en redes sociales | Como postulante, quiero compartir mi perfil en redes sociales para aumentar mi visibilidad. | **Escenario 1: Promoción de perfil profesional**<br>• Dado que el postulante tiene un perfil completo<br>• Cuando elige compartir<br>• Entonces el perfil se publica en las redes sociales seleccionadas<br><br>**Escenario 2: Vista previa del perfil antes de compartir**<br>• Dado que el postulante va a compartir su perfil<br>• Cuando accede a la opción de compartir<br>• Entonces puede ver una vista previa del contenido que se publicará | EP013 |
-| EP014 | Gestión de Comentarios | Epic para gestionar comentarios y valoraciones de los usuarios | | EP014 |
-| US034 | Comentar sobre vacantes | Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores. | **Escenario 1: Publicación de comentarios sobre vacantes**<br>• Dado que el postulante ha postulado a una vacante<br>• Cuando deja un comentario sobre la vacante<br>• Entonces el comentario se guarda correctamente<br><br>**Escenario 2: Validación de contenido inapropiado**<br>• Dado que el postulante escribe un comentario<br>• Cuando el sistema detecta contenido inapropiado<br>• Entonces muestra un mensaje de advertencia y no permite guardar el comentario | EP014 |
-| US035 | Comentar sobre el proceso de selección | Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes. | **Escenario 1: Retroalimentación del proceso de selección**<br>• Dado que el candidato ha sido parte del proceso de selección<br>• Cuando deja un comentario sobre el proceso<br>• Entonces el comentario se guarda y es visible para el reclutador<br><br>**Escenario 2: Comentarios anónimos opcionales**<br>• Dado que el candidato desea comentar el proceso<br>• Cuando marca la opción de anonimato<br>• Entonces su comentario se publica sin mostrar su nombre | EP014 |
 
-- Evidencia de los User Stories en Pivotal Tracker:
+<!-- ========================================= -->
+<!-- USER STORIES + TECHNICAL STORIES         -->
+<!-- VERSIÓN ORDENADA Y RENUMERADA            -->
+<!-- Total: 14 Epics + 50 US + 10 TS          -->
+<!-- ========================================= -->
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse;">
+  
+  <!-- ============================================ -->
+  <!-- EPIC 001 - Gestión de Vacantes              -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP001</strong></td>
+    <td colspan="3"><strong>Gestión de Vacantes</strong></td>
+  </tr>
+
+  <!-- US001 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US001</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Crear nueva vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo registrar una nueva vacante para iniciar el proceso de contratación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Creación exitosa</strong><br/>
+      • Dado que el reclutador está autenticado<br/>
+      • Cuando completa todos los datos requeridos de la vacante y confirma la creación<br/>
+      • Entonces la vacante queda registrada y disponible para recibir postulaciones.<br/><br/>
+      <strong>Escenario 2: Validación de campos</strong><br/>
+      • Dado que el reclutador omite un campo obligatorio<br/>
+      • Cuando intenta guardar la vacante<br/>
+      • Entonces el sistema informa el campo faltante y no permite crear la vacante.
+    </td>
+  </tr>
+
+  <!-- US002 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US002</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Editar vacante existente</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo modificar una vacante publicada para actualizar su información.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Actualización válida</strong><br/>
+      • Dado que la vacante está activa<br/>
+      • Cuando el reclutador modifica los campos permitidos y guarda los cambios<br/>
+      • Entonces los cambios se reflejan correctamente en la vacante.<br/><br/>
+      <strong>Escenario 2: Vacante cerrada</strong><br/>
+      • Dado que la vacante está cerrada<br/>
+      • Cuando el reclutador intenta editarla<br/>
+      • Entonces el sistema impide la edición y muestra el motivo.
+    </td>
+  </tr>
+
+  <!-- US003 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US003</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cerrar vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo cerrar una vacante para detener nuevas postulaciones al finalizar el proceso.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cierre</strong><br/>
+      • Dado que la vacante está activa<br/>
+      • Cuando el reclutador confirma el cierre<br/>
+      • Entonces la vacante cambia a estado cerrado y no acepta nuevas postulaciones.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que el reclutador solicita cerrar la vacante<br/>
+      • Cuando el sistema solicita confirmación<br/>
+      • Entonces la vacante solo se cierra si el reclutador confirma.
+    </td>
+  </tr>
+
+  <!-- US004 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US004</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Buscar y listar vacantes disponibles</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo buscar y visualizar las vacantes disponibles mediante filtros para encontrar oportunidades relevantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Listado de vacantes activas</strong><br/>
+      • Dado que el postulante accede al módulo de vacantes<br/>
+      • Cuando carga la lista<br/>
+      • Entonces se muestran todas las vacantes activas con información básica.<br/><br/>
+      <strong>Escenario 2: Búsqueda con filtros</strong><br/>
+      • Dado que el postulante aplica filtros (cargo, ubicación, empresa)<br/>
+      • Cuando ejecuta la búsqueda<br/>
+      • Entonces el sistema muestra solo las vacantes que coinciden con los criterios.
+    </td>
+  </tr>
+
+  <!-- US005 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US005</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver detalle completo de una vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo ver toda la información detallada de una vacante antes de postularme para tomar una decisión informada.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Visualización completa</strong><br/>
+      • Dado que el postulante selecciona una vacante<br/>
+      • Cuando accede al detalle<br/>
+      • Entonces se muestra descripción completa, requisitos, beneficios, salario y datos de la empresa.<br/><br/>
+      <strong>Escenario 2: Acceso a postulación</strong><br/>
+      • Dado que el postulante visualiza una vacante<br/>
+      • Cuando está interesado<br/>
+      • Entonces debe tener acceso directo al botón de postulación desde la vista de detalle.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 002 - Gestión de Postulaciones         -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP002</strong></td>
+    <td colspan="3"><strong>Gestión de Postulaciones</strong></td>
+  </tr>
+
+  <!-- US006 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US006</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Aplicar a vacante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo postularme a una vacante para ser considerado en el proceso de selección.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Aplicación exitosa</strong><br/>
+      • Dado que el postulante está autenticado y la vacante está abierta<br/>
+      • Cuando el postulante envía su candidatura<br/>
+      • Entonces recibe confirmación de postulación exitosa.<br/><br/>
+      <strong>Escenario 2: Evitar duplicados</strong><br/>
+      • Dado que el postulante ya presentó una postulación a la misma vacante<br/>
+      • Cuando intenta postularse de nuevo<br/>
+      • Entonces el sistema rechaza la nueva postulación y notifica que ya está postulado.
+    </td>
+  </tr>
+
+  <!-- US007 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US007</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver postulaciones recibidas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo consultar las postulaciones recibidas para evaluar candidatos interesados en cada vacante.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Consulta por vacante</strong><br/>
+      • Dado que el reclutador accede a una vacante publicada<br/>
+      • Cuando solicita ver las postulaciones<br/>
+      • Entonces se muestra la lista de postulantes con datos relevantes.<br/><br/>
+      <strong>Escenario 2: Ordenar por fecha</strong><br/>
+      • Dado que la lista de postulaciones está visible<br/>
+      • Cuando el reclutador ordena por fecha de postulación<br/>
+      • Entonces las postulaciones se muestran de la más reciente a la más antigua.
+    </td>
+  </tr>
+
+  <!-- US008 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US008</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Filtrar postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo filtrar postulaciones por estado y otros criterios para gestionar mejor el proceso.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Filtro por estado</strong><br/>
+      • Dado que existen postulaciones con distintos estados<br/>
+      • Cuando el reclutador aplica un filtro por estado<br/>
+      • Entonces solo se muestran las postulaciones que coinciden con el estado seleccionado.<br/><br/>
+      <strong>Escenario 2: Filtro combinado</strong><br/>
+      • Dado que el reclutador aplica varios criterios (estado y fecha)<br/>
+      • Cuando se ejecuta la búsqueda<br/>
+      • Entonces se muestran únicamente las postulaciones que cumplen todos los filtros.
+    </td>
+  </tr>
+
+  <!-- US009 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US009</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver estado de mis postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo consultar el estado actual de todas mis postulaciones para dar seguimiento a mis procesos de selección.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Listado de postulaciones propias</strong><br/>
+      • Dado que el postulante accede a "Mis Postulaciones"<br/>
+      • Cuando carga la vista<br/>
+      • Entonces se muestra una lista con todas sus postulaciones y su estado actual (En revisión, Entrevista agendada, Rechazada, Oferta enviada).<br/><br/>
+      <strong>Escenario 2: Detalle de postulación</strong><br/>
+      • Dado que el postulante selecciona una postulación<br/>
+      • Cuando accede al detalle<br/>
+      • Entonces puede ver historial completo (fecha de postulación, actualizaciones, entrevistas, comentarios).
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 003 - Proceso de Selección            -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP003</strong></td>
+    <td colspan="3"><strong>Proceso de Selección</strong></td>
+  </tr>
+
+  <!-- US010 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US010</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Agendar entrevista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo programar entrevistas con postulantes para avanzar en el proceso de selección.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Programación</strong><br/>
+      • Dado que el reclutador selecciona un candidato disponible<br/>
+      • Cuando define fecha y hora y confirma la programación<br/>
+      • Entonces la entrevista queda agendada y el candidato recibe la notificación.<br/><br/>
+      <strong>Escenario 2: Evitar solapamientos</strong><br/>
+      • Dado que ya existe una entrevista en el mismo horario<br/>
+      • Cuando intenta agendar otra en ese horario<br/>
+      • Entonces el sistema alerta del conflicto y no permite la programación.
+    </td>
+  </tr>
+
+  <!-- US011 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US011</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar resultado de entrevista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo registrar los resultados de las entrevistas para documentar el desempeño de los candidatos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro</strong><br/>
+      • Dado que la entrevista se ha realizado<br/>
+      • Cuando el reclutador ingresa los resultados y guarda<br/>
+      • Entonces el estado del candidato se actualiza en el sistema.<br/><br/>
+      <strong>Escenario 2: Edición previa</strong><br/>
+      • Dado que los resultados aún no han sido publicados al candidato<br/>
+      • Cuando el reclutador modifica los datos ingresados<br/>
+      • Entonces los cambios se guardan correctamente.
+    </td>
+  </tr>
+
+  <!-- US012 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US012</td>
+    <td>Reclutador</td>
+    <td>Alta</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Enviar oferta laboral</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo enviar una oferta laboral formal al candidato seleccionado para cerrar el proceso de contratación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío</strong><br/>
+      • Dado que el candidato ha sido seleccionado y el formulario de oferta está completo<br/>
+      • Cuando el reclutador envía la oferta<br/>
+      • Entonces la oferta queda registrada y el candidato recibe la notificación.<br/><br/>
+      <strong>Escenario 2: Cancelación</strong><br/>
+      • Dado que la oferta está en edición<br/>
+      • Cuando el reclutador decide no enviarla y cancela<br/>
+      • Entonces no se genera registro ni notificación.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 004 - Gestión de Usuarios             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP004</strong></td>
+    <td colspan="3"><strong>Gestión de Usuarios y Autenticación</strong></td>
+  </tr>
+
+  <!-- US013 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US013</td>
+    <td>Postulante</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar cuenta de postulante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo crear una cuenta tipo postulante para poder aplicar a vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro exitoso</strong><br/>
+      • Dado que el usuario completa el formulario de registro con datos válidos<br/>
+      • Cuando envía el formulario<br/>
+      • Entonces la cuenta de postulante se crea y recibe confirmación.<br/><br/>
+      <strong>Escenario 2: Correo duplicado</strong><br/>
+      • Dado que el correo ya está registrado<br/>
+      • Cuando intenta registrarse con ese correo<br/>
+      • Entonces el sistema informa que el correo ya está en uso.
+    </td>
+  </tr>
+
+  <!-- US014 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US014</td>
+    <td>Empresa / Reclutador</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar cuenta de reclutador</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como empresa, deseo registrar una cuenta de reclutador para gestionar vacantes y postulaciones.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro empresarial correcto</strong><br/>
+      • Dado que el formulario empresarial está completo y validado<br/>
+      • Cuando la empresa envía los datos<br/>
+      • Entonces la cuenta de reclutador se crea y se confirma su activación.<br/><br/>
+      <strong>Escenario 2: Datos incompletos</strong><br/>
+      • Dado que faltan datos obligatorios del registro empresarial<br/>
+      • Cuando intenta enviar el formulario<br/>
+      • Entonces el sistema bloquea el registro e indica los errores.
+    </td>
+  </tr>
+
+  <!-- US015 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US015</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Iniciar sesión en la plataforma</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario (postulante/reclutador), deseo iniciar sesión con mi correo y contraseña para acceder a mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Login exitoso</strong><br/>
+      • Dado que el usuario ingresa credenciales válidas<br/>
+      • Cuando envía el formulario de inicio de sesión<br/>
+      • Entonces el sistema lo autentica y redirige al dashboard correspondiente a su rol.<br/><br/>
+      <strong>Escenario 2: Credenciales incorrectas</strong><br/>
+      • Dado que el usuario ingresa credenciales inválidas<br/>
+      • Cuando intenta iniciar sesión<br/>
+      • Entonces el sistema muestra un error y no permite el acceso.
+    </td>
+  </tr>
+
+  <!-- US016 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US016</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cerrar sesión</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario autenticado, deseo cerrar mi sesión para proteger mi cuenta al terminar de usar la aplicación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cierre exitoso</strong><br/>
+      • Dado que el usuario está autenticado<br/>
+      • Cuando solicita cerrar sesión<br/>
+      • Entonces el sistema invalida su token y lo redirige al login.<br/><br/>
+      <strong>Escenario 2: Confirmación de cierre</strong><br/>
+      • Dado que el usuario solicita cerrar sesión<br/>
+      • Cuando el sistema procesa la solicitud<br/>
+      • Entonces debe mostrar confirmación del cierre exitoso.
+    </td>
+  </tr>
+
+  <!-- US017 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US017</td>
+    <td>Postulante</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Editar perfil profesional</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo actualizar mi perfil con experiencia y habilidades para mejorar mi visibilidad.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Actualización</strong><br/>
+      • Dado que el postulante accede a su perfil<br/>
+      • Cuando modifica campos permitidos y guarda<br/>
+      • Entonces los cambios se persisten y son visibles en su perfil.<br/><br/>
+      <strong>Escenario 2: Validaciones</strong><br/>
+      • Dado que el postulante ingresa datos en formato incorrecto<br/>
+      • Cuando intenta guardar<br/>
+      • Entonces el sistema informa los campos con formato inválido.
+    </td>
+  </tr>
+
+  <!-- US018 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US018</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Validar correo electrónico al registrarse</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como nuevo usuario, deseo validar mi correo electrónico después del registro para confirmar la autenticidad de mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío de correo de verificación</strong><br/>
+      • Dado que un usuario completa el registro<br/>
+      • Cuando se crea la cuenta<br/>
+      • Entonces el sistema envía un correo con enlace de verificación.<br/><br/>
+      <strong>Escenario 2: Activación de cuenta</strong><br/>
+      • Dado que el usuario accede al enlace de verificación<br/>
+      • Cuando el enlace es válido<br/>
+      • Entonces la cuenta se activa y se confirma al usuario.
+    </td>
+  </tr>
+
+  <!-- US019 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US019</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Configurar perfil</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo personalizar mi perfil para adaptar la experiencia en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Edición</strong><br/>
+      • Dado que el usuario accede a su perfil<br/>
+      • Cuando actualiza campos permitidos y guarda<br/>
+      • Entonces la información se actualiza correctamente.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que la actualización se guarda sin errores<br/>
+      • Cuando finaliza el proceso<br/>
+      • Entonces el sistema muestra confirmación de actualización.
+    </td>
+  </tr>
+
+  <!-- US020 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US020</td>
+    <td>Usuario</td>
+    <td>Baja</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Eliminar mi cuenta permanentemente</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo eliminar mi cuenta y todos mis datos personales de la plataforma de forma permanente.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Solicitud de eliminación</strong><br/>
+      • Dado que el usuario solicita eliminar su cuenta<br/>
+      • Cuando confirma la acción<br/>
+      • Entonces el sistema solicita confirmación adicional por seguridad.<br/><br/>
+      <strong>Escenario 2: Eliminación permanente</strong><br/>
+      • Dado que el usuario confirma definitivamente la eliminación<br/>
+      • Cuando se procesa la solicitud<br/>
+      • Entonces todos sus datos se eliminan permanentemente cumpliendo con políticas de privacidad (GDPR).
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 005 - IA y Recomendaciones             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP005</strong></td>
+    <td colspan="3"><strong>Inteligencia Artificial y Recomendaciones</strong></td>
+  </tr>
+
+  <!-- US021 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US021</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP005</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Sugerencia de candidatos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo recibir candidatos sugeridos automáticamente según los requisitos de la vacante.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Sugerencias disponibles</strong><br/>
+      • Dado que la vacante tiene requisitos definidos<br/>
+      • Cuando se solicita la lista de sugeridos<br/>
+      • Entonces el sistema muestra candidatos ordenados por coincidencia de perfil.<br/><br/>
+      <strong>Escenario 2: Sin coincidencias</strong><br/>
+      • Dado que no existen perfiles que cumplan criterios mínimos<br/>
+      • Cuando se solicita sugerencias<br/>
+      • Entonces el sistema informa que no hay coincidencias.
+    </td>
+  </tr>
+
+  <!-- US022 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US022</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP005</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recomendación de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo recibir vacantes recomendadas que sean relevantes a mi perfil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Vacantes recomendadas</strong><br/>
+      • Dado que el postulante tiene perfil completo<br/>
+      • Cuando accede a la sección de recomendaciones<br/>
+      • Entonces se muestran vacantes relevantes basadas en su perfil.<br/><br/>
+      <strong>Escenario 2: Actualización tras cambio</strong><br/>
+      • Dado que el postulante modifica su perfil<br/>
+      • Cuando regresa a recomendaciones<br/>
+      • Entonces las sugerencias se actualizan según los nuevos datos.
+    </td>
+  </tr>
+
+  <!-- US023 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US023</td>
+    <td>Reclutador</td>
+    <td>Baja</td>
+    <td>EP005</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Puntaje automático de CVs</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo que los CVs recibidos se puntúen automáticamente para facilitar la evaluación inicial.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Puntaje visible</strong><br/>
+      • Dado que existen postulaciones con CVs<br/>
+      • Cuando el reclutador accede a la lista de CVs<br/>
+      • Entonces cada CV muestra un puntaje calculado por el sistema.<br/><br/>
+      <strong>Escenario 2: Desglose de criterios</strong><br/>
+      • Dado que el reclutador solicita detalles del puntaje<br/>
+      • Cuando solicita el desglose<br/>
+      • Entonces el sistema muestra los criterios y su aporte al puntaje.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 006 - Gestión de Notificaciones        -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP006</strong></td>
+    <td colspan="3"><strong>Gestión de Notificaciones</strong></td>
+  </tr>
+
+  <!-- US024 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US024</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP006</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recibir notificaciones de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo recibir notificaciones sobre vacantes relevantes según mis preferencias.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Notificación por nueva vacante</strong><br/>
+      • Dado que existe una vacante que coincide con las preferencias del postulante<br/>
+      • Cuando la vacante se publica<br/>
+      • Entonces el postulante recibe una notificación.<br/><br/>
+      <strong>Escenario 2: Configuración de preferencias</strong><br/>
+      • Dado que el postulante ajusta sus áreas de interés<br/>
+      • Cuando guarda las preferencias<br/>
+      • Entonces solo recibe notificaciones acordes a lo seleccionado.
+    </td>
+  </tr>
+
+  <!-- US025 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US025</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP006</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recibir notificaciones de postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo recibir alertas cuando nuevos candidatos se postulan a mis vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Notificación inmediata</strong><br/>
+      • Dado que la vacante está publicada<br/>
+      • Cuando un candidato se postula<br/>
+      • Entonces el reclutador recibe una notificación de nueva postulación.<br/><br/>
+      <strong>Escenario 2: Ajuste de frecuencia</strong><br/>
+      • Dado que el reclutador configura la frecuencia de notificaciones<br/>
+      • Cuando aplica la configuración<br/>
+      • Entonces las notificaciones se envían según la preferencia establecida.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 007 - Gestión de Entrevistas          -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP007</strong></td>
+    <td colspan="3"><strong>Gestión de Entrevistas</strong></td>
+  </tr>
+
+  <!-- US026 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US026</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP007</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver calendario de entrevistas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo visualizar el calendario de entrevistas agendadas para organizar mi agenda.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Vista del cronograma</strong><br/>
+      • Dado que el reclutador tiene entrevistas agendadas<br/>
+      • Cuando consulta el calendario<br/>
+      • Entonces se listan las entrevistas programadas en el rango solicitado.<br/><br/>
+      <strong>Escenario 2: Filtrado</strong><br/>
+      • Dado que existen múltiples entrevistas<br/>
+      • Cuando aplica filtro por día o semana<br/>
+      • Entonces solo se muestran las entrevistas del rango seleccionado.
+    </td>
+  </tr>
+
+  <!-- US027 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US027</td>
+    <td>Reclutador</td>
+    <td>Media</td>
+    <td>EP007</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Reprogramar entrevista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo reprogramar entrevistas para ajustarlas a nuevas disponibilidades.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Reprogramación</strong><br/>
+      • Dado que existe una entrevista agendada<br/>
+      • Cuando el reclutador modifica fecha u hora y confirma<br/>
+      • Entonces la entrevista se reprograma y el candidato recibe aviso.<br/><br/>
+      <strong>Escenario 2: Conflicto de horario</strong><br/>
+      • Dado que la nueva fecha/hora coincide con otra entrevista<br/>
+      • Cuando intenta asignarla<br/>
+      • Entonces el sistema alerta del conflicto y no permite la reprogramación.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 008 - Soporte y Ayuda                 -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP008</strong></td>
+    <td colspan="3"><strong>Soporte y Ayuda al Usuario</strong></td>
+  </tr>
+
+  <!-- US028 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US028</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP008</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Solicitar soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo registrar incidencias técnicas para recibir asistencia del equipo de soporte.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Creación de ticket</strong><br/>
+      • Dado que el usuario identifica un problema técnico<br/>
+      • Cuando completa y envía el formulario de soporte<br/>
+      • Entonces se genera un ticket con número de referencia.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que el ticket se ha creado<br/>
+      • Cuando el sistema procesa la solicitud<br/>
+      • Entonces muestra la confirmación con el número de ticket.
+    </td>
+  </tr>
+
+  <!-- US029 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US029</td>
+    <td>Agente de Soporte</td>
+    <td>Media</td>
+    <td>EP008</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Responder solicitud de soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como agente de soporte, deseo gestionar y responder tickets para resolver incidencias de usuarios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Respuesta</strong><br/>
+      • Dado que existe un ticket abierto<br/>
+      • Cuando el agente registra una respuesta<br/>
+      • Entonces el usuario recibe la respuesta y el historial se actualiza.<br/><br/>
+      <strong>Escenario 2: Historial</strong><br/>
+      • Dado que hubo intercambio de mensajes previos<br/>
+      • Cuando el usuario consulta el ticket<br/>
+      • Entonces puede ver todo el historial de comunicación.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 009 - Administración de Pagos         -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP009</strong></td>
+    <td colspan="3"><strong>Administración de Pagos y Suscripciones</strong></td>
+  </tr>
+
+  <!-- US030 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US030</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar método de pago</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo registrar un método de pago para suscripciones o compras en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registro válido</strong><br/>
+      • Dado que el usuario ingresa datos de pago válidos<br/>
+      • Cuando guarda el método de pago<br/>
+      • Entonces el método se almacena de forma segura y se confirma.<br/><br/>
+      <strong>Escenario 2: Validación de errores</strong><br/>
+      • Dado que un campo del método es inválido<br/>
+      • Cuando intenta guardar<br/>
+      • Entonces el sistema muestra errores específicos para corregir.
+    </td>
+  </tr>
+
+  <!-- US031 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US031</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Realizar pago</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo realizar un pago para acceder a funcionalidades premium o servicios adicionales.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Pago exitoso</strong><br/>
+      • Dado que el usuario tiene un método de pago válido registrado<br/>
+      • Cuando inicia la transacción y el proveedor confirma autorización<br/>
+      • Entonces se registra el pago y el usuario recibe confirmación.<br/><br/>
+      <strong>Escenario 2: Falla en transacción</strong><br/>
+      • Dado que hay un problema con el método de pago<br/>
+      • Cuando la transacción falla<br/>
+      • Entonces el sistema informa el error y no registra el pago.
+    </td>
+  </tr>
+
+  <!-- US032 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US032</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver historial de pagos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo consultar el historial de mis transacciones para llevar un registro de pagos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Consulta detallada</strong><br/>
+      • Dado que el usuario ha realizado pagos previos<br/>
+      • Cuando solicita ver el historial dentro de un rango de fechas<br/>
+      • Entonces se muestran las transacciones correspondientes con detalles.<br/><br/>
+      <strong>Escenario 2: Filtrar por fecha</strong><br/>
+      • Dado que el usuario aplica un filtro de fechas<br/>
+      • Cuando ejecuta la búsqueda<br/>
+      • Entonces el sistema muestra solo las transacciones del rango seleccionado.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 010 - Configuración                   -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP010</strong></td>
+    <td colspan="3"><strong>Configuración de Preferencias</strong></td>
+  </tr>
+
+  <!-- US033 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US033</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP010</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Configurar notificaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo ajustar mis preferencias de notificaciones para recibir solo información relevante.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Guardar preferencias</strong><br/>
+      • Dado que el usuario accede a configuración de notificaciones<br/>
+      • Cuando selecciona y guarda sus preferencias<br/>
+      • Entonces las preferencias se persisten y se aplican al envío de notificaciones.<br/><br/>
+      <strong>Escenario 2: Restaurar por defecto</strong><br/>
+      • Dado que el usuario elige restaurar la configuración<br/>
+      • Cuando confirma la acción<br/>
+      • Entonces se aplican las preferencias por defecto.
+    </td>
+  </tr>
+
+  <!-- US034 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US034</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP010</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Configurar idioma y zona horaria</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo configurar mi idioma preferido y zona horaria para personalizar mi experiencia en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cambio de idioma</strong><br/>
+      • Dado que el usuario accede a configuración<br/>
+      • Cuando selecciona un idioma disponible y guarda<br/>
+      • Entonces la interfaz se actualiza al idioma seleccionado.<br/><br/>
+      <strong>Escenario 2: Ajuste de zona horaria</strong><br/>
+      • Dado que el usuario configura su zona horaria<br/>
+      • Cuando guarda los cambios<br/>
+      • Entonces todas las fechas y horas se muestran según la zona horaria seleccionada.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 011 - Seguridad de Cuenta             -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP011</strong></td>
+    <td colspan="3"><strong>Seguridad de Cuenta</strong></td>
+  </tr>
+
+  <!-- US035 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US035</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cambiar contraseña</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo cambiar mi contraseña para mantener la seguridad de mi cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Cambio exitoso</strong><br/>
+      • Dado que el usuario está autenticado y proporciona la contraseña actual<br/>
+      • Cuando introduce una nueva contraseña válida y confirma<br/>
+      • Entonces la contraseña se actualiza y se confirma el cambio.<br/><br/>
+      <strong>Escenario 2: Coincidencia</strong><br/>
+      • Dado que el usuario ingresa dos veces la nueva contraseña<br/>
+      • Cuando las contraseñas no coinciden<br/>
+      • Entonces el sistema muestra un error y no actualiza la contraseña.
+    </td>
+  </tr>
+
+  <!-- US036 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US036</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recuperar contraseña olvidada</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo recuperar mi contraseña olvidada mediante un enlace enviado a mi correo electrónico.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Solicitud de recuperación</strong><br/>
+      • Dado que el usuario olvidó su contraseña<br/>
+      • Cuando ingresa su correo registrado y solicita recuperación<br/>
+      • Entonces el sistema envía un enlace de restablecimiento al correo.<br/><br/>
+      <strong>Escenario 2: Restablecimiento exitoso</strong><br/>
+      • Dado que el usuario accede al enlace válido<br/>
+      • Cuando ingresa y confirma una nueva contraseña<br/>
+      • Entonces el sistema actualiza la contraseña y confirma el cambio.
+    </td>
+  </tr>
+
+  <!-- US037 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US037</td>
+    <td>Usuario</td>
+    <td>Media</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Activar autenticación de dos factores (2FA)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo habilitar 2FA para aumentar la seguridad de mi inicio de sesión.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Habilitación</strong><br/>
+      • Dado que el usuario accede a opciones de seguridad<br/>
+      • Cuando activa 2FA y configura el método solicitado<br/>
+      • Entonces 2FA queda habilitada para su cuenta.<br/><br/>
+      <strong>Escenario 2: Solicitud de código</strong><br/>
+      • Dado que 2FA está activa<br/>
+      • Cuando el usuario intenta iniciar sesión<br/>
+      • Entonces el sistema solicita el código adicional correspondiente.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 012 - Gestión de Roles                -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP012</strong></td>
+    <td colspan="3"><strong>Gestión de Roles y Permisos</strong></td>
+  </tr>
+
+  <!-- US038 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US038</td>
+    <td>Administrador</td>
+    <td>Media</td>
+    <td>EP012</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Asignar rol de reclutador</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como administrador, deseo otorgar el rol de reclutador a un usuario para que gestione vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Otorgamiento</strong><br/>
+      • Dado que el usuario existe en el sistema<br/>
+      • Cuando el administrador asigna el rol de reclutador<br/>
+      • Entonces el usuario recibe permisos de reclutador.<br/><br/>
+      <strong>Escenario 2: Notificación</strong><br/>
+      • Dado que se asignó el nuevo rol<br/>
+      • Cuando la acción se confirma<br/>
+      • Entonces el usuario recibe notificación del cambio.
+    </td>
+  </tr>
+
+  <!-- US039 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US039</td>
+    <td>Administrador</td>
+    <td>Media</td>
+    <td>EP012</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Asignar rol de postulante</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como administrador, deseo asignar el rol de postulante a un usuario para habilitar sus funciones de postulación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Asignación</strong><br/>
+      • Dado que el usuario está registrado<br/>
+      • Cuando el administrador asigna el rol postulante<br/>
+      • Entonces el usuario puede acceder a funcionalidades de postulante.<br/><br/>
+      <strong>Escenario 2: Acceso</strong><br/>
+      • Dado que se asignó el rol correctamente<br/>
+      • Cuando el usuario inicia sesión<br/>
+      • Entonces observa y utiliza las opciones disponibles para postulantes.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 013 - Redes Sociales                  -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP013</strong></td>
+    <td colspan="3"><strong>Integración con Redes Sociales</strong></td>
+  </tr>
+
+  <!-- US040 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US040</td>
+    <td>Usuario</td>
+    <td>Baja</td>
+    <td>EP013</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Iniciar sesión con redes sociales</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, deseo autenticarme usando mi cuenta de red social para facilitar el acceso.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Inicio exitoso</strong><br/>
+      • Dado que el usuario selecciona la opción de inicio social y la autenticación es válida<br/>
+      • Cuando se completa el proceso de autenticación externa<br/>
+      • Entonces el usuario inicia sesión en la plataforma.<br/><br/>
+      <strong>Escenario 2: Error de autenticación</strong><br/>
+      • Dado que ocurre un error en la autenticación social<br/>
+      • Cuando el proveedor externo devuelve fallo<br/>
+      • Entonces el sistema informa el error y ofrece alternativas de acceso.
+    </td>
+  </tr>
+
+  <!-- US041 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US041</td>
+    <td>Reclutador</td>
+    <td>Baja</td>
+    <td>EP013</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Compartir vacante en redes sociales</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como reclutador, deseo compartir una vacante en redes sociales para aumentar su difusión.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Compartir exitoso</strong><br/>
+      • Dado que la vacante está publicada<br/>
+      • Cuando el reclutador solicita compartir en una red social autorizada<br/>
+      • Entonces el sistema genera el contenido para compartir y confirma la publicación.<br/><br/>
+      <strong>Escenario 2: Confirmación</strong><br/>
+      • Dado que la publicación se realizó correctamente<br/>
+      • Cuando el sistema recibe confirmación del proveedor social<br/>
+      • Entonces muestra el enlace compartido al reclutador.
+    </td>
+  </tr>
+
+  <!-- US042 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US042</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP013</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Compartir perfil en redes sociales</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo compartir mi perfil profesional en redes para aumentar mi visibilidad.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Vista previa</strong><br/>
+      • Dado que el postulante solicita compartir su perfil<br/>
+      • Cuando elige redes sociales y solicita vista previa<br/>
+      • Entonces puede revisar el contenido antes de publicarlo.<br/><br/>
+      <strong>Escenario 2: Publicación</strong><br/>
+      • Dado que el postulante confirma la publicación<br/>
+      • Cuando el sistema procesa la solicitud<br/>
+      • Entonces el perfil se publica y se confirma la acción.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 014 - Comentarios                     -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP014</strong></td>
+    <td colspan="3"><strong>Gestión de Comentarios y Feedback</strong></td>
+  </tr>
+
+  <!-- US043 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US043</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP014</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Comentar sobre vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como postulante, deseo dejar comentarios sobre una vacante para dar retroalimentación al reclutador.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Publicación de comentario</strong><br/>
+      • Dado que el postulante ha participado en la vacante o proceso<br/>
+      • Cuando envía un comentario válido<br/>
+      • Entonces el comentario se almacena y aparece asociado a la vacante.<br/><br/>
+      <strong>Escenario 2: Moderación</strong><br/>
+      • Dado que el comentario contiene contenido inapropiado<br/>
+      • Cuando el sistema identifica la violación<br/>
+      • Entonces el comentario queda bloqueado y el usuario recibe notificación.
+    </td>
+  </tr>
+
+  <!-- US044 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US044</td>
+    <td>Postulante</td>
+    <td>Baja</td>
+    <td>EP014</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Comentar sobre el proceso de selección</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como candidato, deseo dejar comentarios sobre mi experiencia en el proceso de selección para mejorar la calidad del servicio.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Retroalimentación pública</strong><br/>
+      • Dado que el candidato participó en el proceso<br/>
+      • Cuando envía su comentario sin solicitar anonimato<br/>
+      • Entonces el comentario se publica y queda visible para el reclutador.<br/><br/>
+      <strong>Escenario 2: Comentario anónimo</strong><br/>
+      • Dado que el candidato marca la opción de anonimato<br/>
+      • Cuando publica el comentario<br/>
+      • Entonces el comentario aparece sin datos personales asociados.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- EPIC 015 - Landing Page                    -->
+  <!-- ============================================ -->
+  <tr style="background-color: #e0e0e0;">
+    <th>Epic ID</th>
+    <th colspan="3">Epic Name</th>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td><strong>EP015</strong></td>
+    <td colspan="3"><strong>Landing Page y Marketing Digital</strong></td>
+  </tr>
+
+  <!-- US045 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US045</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver hero y propuesta de valor de la plataforma</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo visualizar una sección hero atractiva con la propuesta de valor principal para comprender rápidamente los beneficios de la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Visualización del hero</strong><br/>
+      • Dado que el visitante accede al landing page<br/>
+      • Cuando la página carga completamente<br/>
+      • Entonces se muestra el hero con título, subtítulo, propuesta de valor clara y CTA principal.<br/><br/>
+      <strong>Escenario 2: Responsive</strong><br/>
+      • Dado que el visitante accede desde dispositivos móviles<br/>
+      • Cuando se renderiza la sección hero<br/>
+      • Entonces se adapta correctamente al tamaño de la pantalla manteniendo legibilidad.
+    </td>
+  </tr>
+
+  <!-- US046 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US046</td>
+    <td>Visitante Empresa</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver sección de beneficios para empresas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante empresa, deseo ver una sección específica con los beneficios de usar la plataforma para contratación para evaluar si se ajusta a mis necesidades.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Contenido relevante</strong><br/>
+      • Dado que el visitante empresa navega al landing page<br/>
+      • Cuando accede a la sección de beneficios empresariales<br/>
+      • Entonces se muestran características clave: gestión de vacantes, IA para matching, reportes, integraciones.<br/><br/>
+      <strong>Escenario 2: Call to action</strong><br/>
+      • Dado que el visitante visualiza los beneficios<br/>
+      • Cuando revisa la información<br/>
+      • Entonces encuentra un CTA claro para registrarse como empresa o solicitar demo.
+    </td>
+  </tr>
+
+  <!-- US047 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US047</td>
+    <td>Visitante Postulante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver sección de beneficios para postulantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante postulante, deseo ver una sección que explique cómo la plataforma me ayudará a encontrar empleo para decidir registrarme.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Beneficios claros</strong><br/>
+      • Dado que el visitante postulante navega al landing page<br/>
+      • Cuando accede a la sección de beneficios para postulantes<br/>
+      • Entonces se muestran ventajas clave: recomendaciones personalizadas, seguimiento de postulaciones, alertas de vacantes.<br/><br/>
+      <strong>Escenario 2: Motivación a registro</strong><br/>
+      • Dado que el visitante lee los beneficios<br/>
+      • Cuando finaliza la lectura<br/>
+      • Entonces encuentra un CTA claro para crear su perfil de postulante.
+    </td>
+  </tr>
+
+  <!-- US048 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US048</td>
+    <td>Visitante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver testimonios y casos de éxito</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo ver testimonios reales de empresas y postulantes que usaron la plataforma para generar confianza en el servicio.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Testimonios verificables</strong><br/>
+      • Dado que el visitante navega a la sección de testimonios<br/>
+      • Cuando visualiza el contenido<br/>
+      • Entonces se muestran al menos 3 testimonios con nombre, cargo/empresa y experiencia positiva.<br/><br/>
+      <strong>Escenario 2: Casos de éxito</strong><br/>
+      • Dado que el visitante busca validación<br/>
+      • Cuando accede a casos de éxito<br/>
+      • Entonces se muestran métricas concretas (ej: "500+ contrataciones exitosas", "Tiempo de contratación reducido 40%").
+    </td>
+  </tr>
+
+  <!-- US049 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US049</td>
+    <td>Visitante</td>
+    <td>Alta</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver call-to-action de registro</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo encontrar fácilmente botones de registro para comenzar a usar la plataforma cuando esté convencido.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: CTA visible</strong><br/>
+      • Dado que el visitante navega por el landing page<br/>
+      • Cuando se desplaza por cualquier sección<br/>
+      • Entonces encuentra al menos un CTA visible para "Registrarse como Empresa" o "Registrarse como Postulante".<br/><br/>
+      <strong>Escenario 2: Redirección correcta</strong><br/>
+      • Dado que el visitante hace clic en un CTA de registro<br/>
+      • Cuando se procesa la acción<br/>
+      • Entonces es redirigido correctamente al formulario de registro correspondiente a su perfil.
+    </td>
+  </tr>
+
+  <!-- US050 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US050</td>
+    <td>Visitante</td>
+    <td>Media</td>
+    <td>EP015</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Contactar al equipo mediante formulario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante, deseo enviar consultas o solicitar información adicional mediante un formulario de contacto para resolver dudas antes de registrarme.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Envío exitoso</strong><br/>
+      • Dado que el visitante completa el formulario de contacto con datos válidos<br/>
+      • Cuando envía el formulario<br/>
+      • Entonces recibe confirmación de envío y el equipo recibe la consulta.<br/><br/>
+      <strong>Escenario 2: Validación de campos</strong><br/>
+      • Dado que el visitante omite campos obligatorios<br/>
+      • Cuando intenta enviar el formulario<br/>
+      • Entonces el sistema muestra errores específicos para cada campo faltante.
+    </td>
+  </tr>
+
+  <!-- ============================================ -->
+  <!-- TECHNICAL STORIES - APIs REST               -->
+  <!-- ============================================ -->
+  <tr style="background-color: #d0d0d0;">
+    <th colspan="4" style="text-align: center;">TECHNICAL STORIES</th>
+  </tr>
+
+  <!-- TS001 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS001</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP011</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API de autenticación con JWT</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints de autenticación con generación y validación de tokens JWT para gestionar sesiones seguras de usuarios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Login exitoso</strong><br/>
+      • Dado que se envía POST /api/auth/login con credenciales válidas<br/>
+      • Cuando el servidor valida las credenciales<br/>
+      • Entonces devuelve status 200 con token JWT y datos del usuario.<br/><br/>
+      <strong>Escenario 2: Credenciales inválidas</strong><br/>
+      • Dado que se envía POST /api/auth/login con credenciales incorrectas<br/>
+      • Cuando el servidor valida las credenciales<br/>
+      • Entonces devuelve status 401 con mensaje de error.<br/><br/>
+      <strong>Escenario 3: Token expirado</strong><br/>
+      • Dado que se envía un request con token JWT expirado<br/>
+      • Cuando el middleware valida el token<br/>
+      • Entonces devuelve status 401 requiriendo nueva autenticación.
+    </td>
+  </tr>
+
+  <!-- TS002 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS002</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión completa de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints CRUD completos para vacantes (crear, listar, obtener detalle, actualizar, eliminar) con validaciones y filtros.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear vacante</strong><br/>
+      • Dado que se envía POST /api/vacantes con datos válidos y token de reclutador<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 201 con la vacante creada.<br/><br/>
+      <strong>Escenario 2: Listar con filtros</strong><br/>
+      • Dado que se envía GET /api/vacantes?estado=activa&ubicacion=Lima<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 200 con array de vacantes que cumplen los filtros.<br/><br/>
+      <strong>Escenario 3: Validación de campos</strong><br/>
+      • Dado que se envía POST /api/vacantes con campos obligatorios faltantes<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con detalles de campos faltantes.
+    </td>
+  </tr>
+
+  <!-- TS003 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS003</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión de postulaciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear postulaciones, listar postulaciones por vacante y por postulante, y actualizar estados.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear postulación</strong><br/>
+      • Dado que se envía POST /api/postulaciones con vacanteId válido y token de postulante<br/>
+      • Cuando el servidor procesa la solicitud<br/>
+      • Entonces devuelve status 201 con la postulación creada.<br/><br/>
+      <strong>Escenario 2: Evitar duplicados</strong><br/>
+      • Dado que se envía POST /api/postulaciones para una vacante donde el postulante ya aplicó<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 409 con mensaje de postulación duplicada.<br/><br/>
+      <strong>Escenario 3: Listar por vacante</strong><br/>
+      • Dado que se envía GET /api/vacantes/{id}/postulaciones con token de reclutador<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con array de postulaciones de esa vacante.
+    </td>
+  </tr>
+
+  <!-- TS004 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS004</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP003</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para programación de entrevistas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear, listar, actualizar y cancelar entrevistas con validación de conflictos de horario.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear entrevista</strong><br/>
+      • Dado que se envía POST /api/entrevistas con postulacionId, fecha, hora válidos<br/>
+      • Cuando el servidor valida que no hay conflictos<br/>
+      • Entonces devuelve status 201 con la entrevista creada.<br/><br/>
+      <strong>Escenario 2: Conflicto de horario</strong><br/>
+      • Dado que se envía POST /api/entrevistas con horario ocupado<br/>
+      • Cuando el servidor detecta el conflicto<br/>
+      • Entonces devuelve status 409 con mensaje de conflicto.<br/><br/>
+      <strong>Escenario 3: Reprogramar</strong><br/>
+      • Dado que se envía PUT /api/entrevistas/{id} con nueva fecha/hora<br/>
+      • Cuando el servidor valida disponibilidad<br/>
+      • Entonces devuelve status 200 con entrevista actualizada.
+    </td>
+  </tr>
+
+  <!-- TS005 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS005</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP006</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para notificaciones push</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para enviar notificaciones push, registrar tokens FCM de dispositivos y gestionar preferencias de notificación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Registrar token FCM</strong><br/>
+      • Dado que se envía POST /api/notificaciones/tokens con token FCM válido<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 201 y almacena el token asociado al usuario.<br/><br/>
+      <strong>Escenario 2: Enviar notificación</strong><br/>
+      • Dado que se invoca POST /api/notificaciones/send con userId y mensaje<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces envía la notificación push al dispositivo registrado y devuelve status 200.<br/><br/>
+      <strong>Escenario 3: Token inválido</strong><br/>
+      • Dado que se intenta enviar notificación a token FCM inválido o expirado<br/>
+      • Cuando el servidor detecta el error<br/>
+      • Entonces devuelve status 400 y elimina el token de la base de datos.
+    </td>
+  </tr>
+
+  <!-- TS006 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS006</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP001</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para búsqueda y filtros de vacantes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoint de búsqueda avanzada con múltiples filtros, paginación y ordenamiento para vacantes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Búsqueda con múltiples filtros</strong><br/>
+      • Dado que se envía GET /api/vacantes/search?q=developer&ubicacion=Lima&tipo=remoto<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con vacantes que cumplen todos los criterios.<br/><br/>
+      <strong>Escenario 2: Paginación</strong><br/>
+      • Dado que se envía GET /api/vacantes/search?page=2&limit=20<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con la página 2 de resultados y metadata de paginación.<br/><br/>
+      <strong>Escenario 3: Sin resultados</strong><br/>
+      • Dado que se envía búsqueda sin coincidencias<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con array vacío y mensaje informativo.
+    </td>
+  </tr>
+
+  <!-- TS007 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS007</td>
+    <td>Developer</td>
+    <td>Media</td>
+    <td>EP004</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para gestión de perfiles de usuario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para crear, obtener, actualizar y eliminar perfiles de postulantes y reclutadores con validaciones apropiadas.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Actualizar perfil</strong><br/>
+      • Dado que se envía PUT /api/usuarios/{id}/perfil con datos válidos<br/>
+      • Cuando el servidor valida y procesa<br/>
+      • Entonces devuelve status 200 con perfil actualizado.<br/><br/>
+      <strong>Escenario 2: Obtener perfil público</strong><br/>
+      • Dado que se envía GET /api/usuarios/{id}/perfil-publico<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con datos públicos del perfil (sin información sensible).<br/><br/>
+      <strong>Escenario 3: Validación de datos</strong><br/>
+      • Dado que se envía actualización con formato de email inválido<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con detalles del error de validación.
+    </td>
+  </tr>
+
+  <!-- TS008 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS008</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>EP009</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para procesamiento de pagos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar integración con pasarela de pagos (Stripe/MercadoPago) para procesar transacciones, registrar métodos de pago y consultar historial.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Crear intención de pago</strong><br/>
+      • Dado que se envía POST /api/pagos/create-intent con monto y usuarioId<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con clientSecret de la pasarela.<br/><br/>
+      <strong>Escenario 2: Confirmar pago</strong><br/>
+      • Dado que se envía POST /api/pagos/confirm con paymentIntentId<br/>
+      • Cuando la pasarela confirma la transacción<br/>
+      • Entonces devuelve status 200, actualiza estado en DB y activa funcionalidad premium.<br/><br/>
+      <strong>Escenario 3: Falla de pago</strong><br/>
+      • Dado que la pasarela rechaza el pago<br/>
+      • Cuando el servidor recibe el webhook de rechazo<br/>
+      • Entonces devuelve status 402 con motivo del rechazo.
+    </td>
+  </tr>
+
+  <!-- TS009 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS009</td>
+    <td>Developer</td>
+    <td>Baja</td>
+    <td>EP012</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para reportes y analytics</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para generar reportes estadísticos de vacantes, postulaciones, entrevistas y métricas de contratación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Reporte de vacantes</strong><br/>
+      • Dado que se envía GET /api/reportes/vacantes?fechaInicio=2025-01-01&fechaFin=2025-03-31<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con métricas: total vacantes, activas, cerradas, tiempo promedio de cierre.<br/><br/>
+      <strong>Escenario 2: Dashboard de reclutador</strong><br/>
+      • Dado que se envía GET /api/reportes/dashboard con token de reclutador<br/>
+      • Cuando el servidor procesa<br/>
+      • Entonces devuelve status 200 con KPIs: postulaciones pendientes, entrevistas programadas, ofertas enviadas.<br/><br/>
+      <strong>Escenario 3: Exportar reporte</strong><br/>
+      • Dado que se envía GET /api/reportes/exportar?tipo=postulaciones&formato=csv<br/>
+      • Cuando el servidor genera el archivo<br/>
+      • Entonces devuelve status 200 con archivo CSV descargable.
+    </td>
+  </tr>
+
+  <!-- TS010 -->
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS010</td>
+    <td>Developer</td>
+    <td>Baja</td>
+    <td>EP002</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">API REST para carga de archivos (CVs y documentos)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, necesito implementar endpoints para subir, almacenar, descargar y eliminar archivos de CVs y documentos con validaciones de tipo y tamaño.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: Subir CV</strong><br/>
+      • Dado que se envía POST /api/archivos/upload con archivo PDF o DOCX válido<br/>
+      • Cuando el servidor valida tipo y tamaño (máx 5MB)<br/>
+      • Entonces devuelve status 201 con URL del archivo almacenado.<br/><br/>
+      <strong>Escenario 2: Archivo no permitido</strong><br/>
+      • Dado que se envía archivo con extensión no permitida (.exe, .bat)<br/>
+      • Cuando el servidor valida<br/>
+      • Entonces devuelve status 400 con mensaje de tipo de archivo no permitido.<br/><br/>
+      <strong>Escenario 3: Descargar archivo</strong><br/>
+      • Dado que se envía GET /api/archivos/{id}/download con token válido<br/>
+      • Cuando el servidor valida permisos<br/>
+      • Entonces devuelve status 200 con el archivo para descarga.
+    </td>
+  </tr>
+
+</table>
+
+<!-- ========================================= -->
+<!-- SPIKE STORIES                            -->
+<!-- Con numeración actualizada de US         -->
+<!-- Total: 8 Spikes                          -->
+<!-- ========================================= -->
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse;">
+
+  <!-- ============ SP001 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP001</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Integración de Inteligencia Artificial para Recomendaciones de Candidatos y Vacantes</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>El sistema necesita ofrecer recomendaciones automáticas de candidatos a reclutadores y vacantes a postulantes, utilizando IA entrenada con datos de perfiles, habilidades y requisitos de vacantes.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos investigar e implementar un modelo de IA que genere recomendaciones personalizadas basadas en matching de perfiles profesionales con requisitos de vacantes, integrándose con el backend .NET y MySQL.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Integración del modelo de IA</strong><br/>
+      • Dado que se dispone de un modelo básico de IA entrenado con perfiles y vacantes<br/>
+      • Cuando el reclutador solicite candidatos sugeridos o el postulante solicite vacantes recomendadas<br/>
+      • Entonces el backend .NET debe devolver una lista ordenada por coincidencia de perfil.<br/><br/>
+      <strong>Criterio 2 – Respuesta optimizada</strong><br/>
+      • Dado que la app consume el endpoint de recomendaciones<br/>
+      • Cuando se realice la petición<br/>
+      • Entonces la respuesta debe procesarse en menos de 2 segundos.<br/><br/>
+      <strong>Criterio 3 – Puntaje automático de CVs</strong><br/>
+      • Dado que se registren nuevas postulaciones<br/>
+      • Cuando se almacenen en MySQL<br/>
+      • Entonces el sistema debe calcular y almacenar un puntaje de coincidencia automáticamente.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>El modelo de IA se integra correctamente al backend .NET, genera recomendaciones de candidatos (US021) y vacantes (US022), calcula puntajes de CVs (US023), se despliega en Azure App Service con endpoints documentados.</td>
+  </tr>
+
+  <!-- ============ SP002 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP002</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Autenticación Segura con JWT y Gestión de Roles</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Se requiere implementar autenticación segura para postulantes, reclutadores y administradores, con manejo de sesiones mediante JWT y control de permisos por rol.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos integrar autenticación JWT en el backend .NET con registro diferenciado para postulantes (US013) y reclutadores (US014), gestión de roles (US038, US039), cambio de contraseña (US035) y 2FA (US037).</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Generación y validación de tokens con roles</strong><br/>
+      • Dado que un usuario (postulante/reclutador/admin) inicia sesión<br/>
+      • Cuando las credenciales sean válidas<br/>
+      • Entonces el backend debe generar un JWT con el rol correspondiente y devolverlo a la app.<br/><br/>
+      <strong>Criterio 2 – Expiración y renovación de sesión</strong><br/>
+      • Dado que un token supera su tiempo de vida<br/>
+      • Cuando el usuario realice una solicitud<br/>
+      • Entonces el backend debe rechazarla y solicitar nueva autenticación.<br/><br/>
+      <strong>Criterio 3 – Autenticación de dos factores</strong><br/>
+      • Dado que un usuario activa 2FA en su cuenta<br/>
+      • Cuando intente iniciar sesión<br/>
+      • Entonces el sistema debe solicitar código adicional antes de generar el token.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Backend .NET implementa autenticación JWT con roles, la app Android gestiona tokens correctamente, se soporta registro de postulantes y reclutadores, cambio de contraseña, 2FA opcional, pruebas de seguridad completadas y despliegue en Azure con HTTPS.</td>
+  </tr>
+
+  <!-- ============ SP003 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP003</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Gestión de Estados de Postulaciones y Workflow del Proceso de Selección</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>El sistema debe manejar el flujo completo de estados de postulaciones desde la aplicación hasta la oferta laboral, incluyendo programación y registro de entrevistas.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos implementar la lógica de transición de estados de postulaciones, gestión de entrevistas (US010, US011, US026, US027) y envío de ofertas laborales (US012) con validaciones y notificaciones correspondientes.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Transiciones de estado validadas</strong><br/>
+      • Dado que una postulación cambia de estado<br/>
+      • Cuando el reclutador ejecute una acción (agendar entrevista, registrar resultado, enviar oferta)<br/>
+      • Entonces el sistema debe validar la transición y actualizar el estado en MySQL.<br/><br/>
+      <strong>Criterio 2 – Prevención de conflictos de agenda</strong><br/>
+      • Dado que se intenta agendar una entrevista<br/>
+      • Cuando ya existe otra en el mismo horario<br/>
+      • Entonces el sistema debe alertar del conflicto y no permitir la programación.<br/><br/>
+      <strong>Criterio 3 – Notificaciones automáticas por cambio de estado</strong><br/>
+      • Dado que una postulación cambia de estado<br/>
+      • Cuando se complete la transición<br/>
+      • Entonces el candidato debe recibir notificación correspondiente.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Backend .NET implementa workflow de postulaciones, gestión de entrevistas con validación de horarios, calendario de entrevistas, registro de resultados, envío de ofertas, notificaciones automáticas y pruebas del flujo completo en Azure.</td>
+  </tr>
+
+  <!-- ============ SP004 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP004</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Sistema de Notificaciones Push Personalizadas</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Postulantes y reclutadores necesitan recibir notificaciones en tiempo real sobre vacantes relevantes (US024) y nuevas postulaciones (US025), con configuración personalizada (US033).</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos integrar Firebase Cloud Messaging en la app Android, conectado con el backend .NET para enviar notificaciones personalizadas según preferencias de usuario y eventos del sistema de reclutamiento.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Notificaciones de vacantes relevantes</strong><br/>
+      • Dado que se publica una vacante que coincide con preferencias del postulante<br/>
+      • Cuando la vacante se active<br/>
+      • Entonces el postulante debe recibir notificación push personalizada.<br/><br/>
+      <strong>Criterio 2 – Alertas de postulaciones a reclutadores</strong><br/>
+      • Dado que un candidato se postula a una vacante<br/>
+      • Cuando se complete la postulación<br/>
+      • Entonces el reclutador debe recibir notificación según frecuencia configurada.<br/><br/>
+      <strong>Criterio 3 – Configuración de preferencias</strong><br/>
+      • Dado que un usuario ajusta sus preferencias de notificaciones<br/>
+      • Cuando guarde la configuración<br/>
+      • Entonces solo debe recibir notificaciones según los tipos seleccionados.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>FCM integrado en Android, backend .NET envía notificaciones personalizadas por tipo de usuario, tokens almacenados en MySQL, configuración de preferencias funcional, validación en Azure App Service.</td>
+  </tr>
+
+  <!-- ============ SP005 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP005</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Implementación de Sistema de Pagos para Servicios Premium</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>La plataforma requiere un sistema de pagos seguro para que empresas accedan a funcionalidades premium como publicación destacada de vacantes o acceso a reportes avanzados.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, necesitamos integrar una pasarela de pago (Stripe o MercadoPago) para gestionar suscripciones y compras (US030, US031), con historial de transacciones (US032) y registro en MySQL.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Registro de método de pago</strong><br/>
+      • Dado que un usuario (empresa/reclutador) desee registrar un método de pago<br/>
+      • Cuando ingrese datos válidos de tarjeta<br/>
+      • Entonces el sistema debe almacenar el método de forma segura y tokenizada en MySQL.<br/><br/>
+      <strong>Criterio 2 – Procesamiento de pagos</strong><br/>
+      • Dado que un usuario realice una compra o suscripción<br/>
+      • Cuando la pasarela confirme la transacción<br/>
+      • Entonces el backend debe actualizar el estado y activar la funcionalidad premium.<br/><br/>
+      <strong>Criterio 3 – Historial y seguridad</strong><br/>
+      • Dado que se complete una transacción<br/>
+      • Cuando el usuario consulte su historial<br/>
+      • Entonces debe visualizar todas las transacciones con detalles y el intercambio debe ser vía HTTPS.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Flujo de pagos funcional entre Android, backend .NET y pasarela, registro/consulta de métodos de pago, historial de transacciones, pruebas de seguridad con HTTPS completadas, despliegue en Azure.</td>
+  </tr>
+
+  <!-- ============ SP006 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP006</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Optimización de Consultas y Filtros de Postulaciones</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Los reclutadores necesitan consultar y filtrar grandes volúmenes de postulaciones (US007, US008) con tiempos de respuesta óptimos para mejorar la experiencia de uso.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos optimizar las consultas SQL en MySQL para filtrado de postulaciones por estado, fecha y otros criterios, implementar paginación y mejorar tiempos de respuesta del backend .NET.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Consultas optimizadas con filtros</strong><br/>
+      • Dado que un reclutador aplica filtros múltiples (estado, fecha, vacante)<br/>
+      • Cuando se ejecute la consulta<br/>
+      • Entonces debe responder en menos de 500ms con hasta 10,000 registros.<br/><br/>
+      <strong>Criterio 2 – Paginación eficiente</strong><br/>
+      • Dado que existen múltiples postulaciones para una vacante<br/>
+      • Cuando se solicite una página de resultados<br/>
+      • Entonces debe cargar solo los registros necesarios (20-50 por página).<br/><br/>
+      <strong>Criterio 3 – Índices y vistas optimizadas</strong><br/>
+      • Dado que se ejecutan consultas frecuentes de filtrado<br/>
+      • Cuando se analice el plan de ejecución<br/>
+      • Entonces deben existir índices apropiados y queries optimizadas.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Consultas de postulaciones optimizadas con índices en MySQL, paginación implementada, filtros combinados funcionales con tiempos de respuesta verificados, monitoreo de performance en Azure.</td>
+  </tr>
+
+  <!-- ============ SP007 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP007</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Sistema de Soporte y Gestión de Tickets Centralizados</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>Es necesario implementar un sistema de tickets para que usuarios registren incidencias (US028) y agentes de soporte puedan gestionarlas eficientemente (US029), con logs centralizados en Azure.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos configurar un sistema de tickets integrado con logging centralizado en Azure Application Insights para monitoreo de errores del sistema y gestión de solicitudes de soporte.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Creación y seguimiento de tickets</strong><br/>
+      • Dado que un usuario identifica un problema técnico<br/>
+      • Cuando complete el formulario de soporte<br/>
+      • Entonces se debe generar un ticket con número único y registrarse en MySQL y Azure Insights.<br/><br/>
+      <strong>Criterio 2 – Gestión de respuestas por agentes</strong><br/>
+      • Dado que un agente de soporte accede a un ticket<br/>
+      • Cuando registre una respuesta<br/>
+      • Entonces el usuario debe recibirla y el historial debe actualizarse.<br/><br/>
+      <strong>Criterio 3 – Logs automáticos de errores críticos</strong><br/>
+      • Dado que ocurra un error en backend .NET o app Android<br/>
+      • Cuando se capture la excepción<br/>
+      • Entonces debe registrarse automáticamente en Azure Application Insights.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Sistema de tickets funcional, agentes pueden responder solicitudes, historial completo disponible, logs de Android y .NET centralizados en Azure, dashboard de monitoreo configurado, alertas automáticas activas.</td>
+  </tr>
+
+  <!-- ============ SP008 ============ -->
+  <tr>
+    <th>Spike ID</th>
+    <td>SP008</td>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <td>Implementación de Control de Versiones y CI/CD Automatizado</td>
+  </tr>
+  <tr>
+    <th>Context</th>
+    <td>El equipo necesita automatizar el proceso de integración y despliegue continuo para garantizar calidad y eficiencia en las entregas del sistema de reclutamiento.</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Como equipo de desarrollo, debemos configurar un pipeline CI/CD en Azure DevOps para la app Android y backend .NET, incluyendo pruebas unitarias de user stories, build automatizado y despliegue a ambientes de desarrollo, staging y producción.</td>
+  </tr>
+  <tr>
+    <th>Acceptance Criteria</th>
+    <td>
+      <strong>Criterio 1 – Integración continua con pruebas</strong><br/>
+      • Dado que se realicen commits en el repositorio<br/>
+      • Cuando se ejecute el pipeline<br/>
+      • Entonces debe compilar el código y ejecutar pruebas unitarias de todas las user stories implementadas.<br/><br/>
+      <strong>Criterio 2 – Despliegue automatizado por ambientes</strong><br/>
+      • Dado que una build sea exitosa y las pruebas pasen<br/>
+      • Cuando se apruebe el release<br/>
+      • Entonces debe desplegarse automáticamente a Azure (dev → staging → prod).<br/><br/>
+      <strong>Criterio 3 – Notificaciones y rollback</strong><br/>
+      • Dado que el pipeline finalice<br/>
+      • Cuando se complete o falle<br/>
+      • Entonces debe notificar al equipo y permitir rollback automático en caso de errores.
+    </td>
+  </tr>
+  <tr>
+    <th>Definition of Done</th>
+    <td>Pipeline CI/CD funcional en Azure DevOps, builds automáticas para Android y .NET, pruebas unitarias ejecutándose correctamente, despliegue automático a múltiples ambientes, base de datos MySQL integrada, notificaciones configuradas.</td>
+  </tr>
+
+</table>
+
+- Evidencia de los User Stories en Trello:
 <img src="img/User_Stories_SmartHire.png" alt="userstories" width= 1000/>
 
-- Link de los User Stories en Pivotal Tracker: [https://www.pivotaltracker.com/projects/2740681](https://www.pivotaltracker.com/projects/2740681)
+- Link de los User Stories en Trello: [https://trello.com/b/vIk3JL2r/user-stories-smarthire](https://trello.com/b/vIk3JL2r/user-stories-smarthire)
 
 ## **2.4.2. Impact Mapping**
 
@@ -953,48 +3991,80 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 <img src="img/impact_map_2.png" alt="impactmap2" width= 800/>
 
 ## **2.4.3. Product Backlog**
-|# Orden|User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
-| :- | :- | :- | :- | :- |
-|1|US001|Crear nueva vacante|Como reclutador, quiero registrar una nueva vacante para iniciar el proceso de contratación.|1|
-|2|US002|Editar vacante existente|Como reclutador, quiero editar una vacante publicada para actualizar su información.|1|
-|3|US003|Cerrar vacante|Como reclutador, quiero cerrar una vacante para detener nuevas postulaciones.|1|
-|4|US004|Aplicar a vacante|Como postulante, quiero postularme a una vacante para ser considerado en un proceso de selección.|2|
-|5|US005|Ver postulaciones recibidas|Como reclutador, quiero ver las postulaciones recibidas para conocer los candidatos interesados.|2|
-|6|US006|Filtrar postulaciones|Como reclutador, quiero filtrar postulaciones por estado para gestionar mejor el proceso.|2|
-|7|US007|Agendar entrevista|Como reclutador, quiero agendar entrevistas con postulantes para coordinar el proceso de selección.|3|
-|8|US008|Registrar resultado de entrevista|Como reclutador, quiero registrar los resultados de entrevistas para tomar decisiones basadas en el desempeño.|3|
-|9|US009|Enviar oferta laboral|Como reclutador, quiero enviar una oferta laboral al candidato seleccionado para formalizar su contratación.|5|
-|10|US010|Registrar cuenta de postulante|Como usuario, quiero registrarme como postulante para aplicar a vacantes.|1|
-|11|US011|Registrar cuenta de reclutador|Como empresa, quiero registrarme para gestionar vacantes laborales.|1|
-|12|US012|Editar perfil profesional|Como postulante, quiero actualizar mi perfil con experiencia y habilidades para mejorar mis oportunidades.|2|
-|13|US013|Sugerencia de candidatos|Como reclutador, quiero ver candidatos sugeridos automáticamente según la vacante para encontrar mejores perfiles.|5|
-|14|US014|Recomendación de vacantes|Como postulante, quiero recibir sugerencias de vacantes relevantes a mi perfil para encontrar oportunidades adecuadas.|3|
-|15|US015|Puntaje automático de CVs|Como reclutador, quiero que los CVs tengan puntajes automáticos para facilitar la evaluación.|3|
-|16|US016|Recibir notificaciones de vacantes|Como postulante, quiero recibir notificaciones cuando se publiquen vacantes relevantes para postularme a tiempo.|3|
-|17|US017|Recibir notificaciones de postulaciones|Como reclutador, quiero recibir notificaciones de nuevas postulaciones para estar al tanto de los candidatos interesados.|2|
-|18|US018|Ver calendario de entrevistas|Como reclutador, quiero ver un calendario de entrevistas programadas para organizar mi agenda.|3|
-|19|US019|Reprogramar entrevista|Como reclutador, quiero reprogramar una entrevista para ajustarla a nuevas disponibilidades.|3|
-|20|US020|Solicitar soporte|Como usuario, quiero solicitar soporte para resolver problemas técnicos.|3|
-|21|US021|Responder solicitud de soporte|Como agente de soporte, quiero responder a las solicitudes de soporte de los usuarios para ayudarlos eficazmente.|3|
-|22|US022|Registrar método de pago|Como usuario, quiero registrar un método de pago para realizar compras o suscripciones.|3|
-|23|US023|Realizar pago|Como usuario, quiero realizar un pago para acceder a servicios premium.|3|
-|24|US024|Ver historial de pagos|Como usuario, quiero ver un historial de mis pagos para tener un registro de mis transacciones.|3|
-|25|US025|Configurar notificaciones|Como usuario, quiero configurar mis preferencias de notificaciones para recibir solo la información relevante.|3|
-|26|US026|Configurar perfil|Como usuario, quiero configurar mis preferencias de perfil para personalizar mi experiencia.|3|
-|27|US027|Cambiar contraseña|Como usuario, quiero cambiar mi contraseña para asegurar mi cuenta.|5|
-|28|US028|Activar autenticación de dos factores|Como usuario, quiero activar la autenticación de dos factores para mayor seguridad.|3|
-|29|US029|Asignar rol de reclutador|Como administrador, quiero asignar el rol de reclutador a un usuario para que pueda gestionar vacantes.|2|
-|30|US030|Asignar rol de postulante|Como administrador, quiero asignar el rol de postulante a un usuario para que pueda aplicar a vacantes.|2|
-|31|US031|Iniciar sesión con redes sociales|Como usuario, quiero iniciar sesión utilizando mi cuenta de redes sociales para facilitar el acceso.|5|
-|32|US032|Compartir vacante en redes sociales|Como reclutador, quiero compartir una vacante en redes sociales para atraer más postulantes.|2|
-|33|US033|Compartir perfil en redes sociales|Como postulante, quiero compartir mi perfil en redes sociales para aumentar mi visibilidad.|3|
-|34|US034|Comentar sobre vacantes|Como postulante, quiero comentar sobre las vacantes para dar retroalimentación a los reclutadores.|3|
-|35|US035|Comentar sobre el proceso de selección|Como candidato, quiero dejar comentarios sobre el proceso de selección para mejorar la experiencia de otros postulantes.|3|
 
+| Orden | User Story Id | Título | Story Points (1/2/3/5/8) |
+|-------|---------------|--------|---------------------------|
+| 1 | US001 | Crear nueva vacante | 1 |
+| 2 | US002 | Editar vacante existente | 1 |
+| 3 | US003 | Cerrar vacante | 1 |
+| 4 | US004 | Buscar y listar vacantes disponibles | 2 |
+| 5 | US005 | Ver detalle completo de una vacante | 1 |
+| 6 | US006 | Aplicar a vacante | 2 |
+| 7 | US007 | Ver postulaciones recibidas | 2 |
+| 8 | US008 | Filtrar postulaciones | 2 |
+| 9 | US009 | Ver estado de mis postulaciones | 2 |
+| 10 | US010 | Agendar entrevista | 3 |
+| 11 | US011 | Registrar resultado de entrevista | 3 |
+| 12 | US012 | Enviar oferta laboral | 5 |
+| 13 | US013 | Registrar cuenta de postulante | 1 |
+| 14 | US014 | Registrar cuenta de reclutador | 1 |
+| 15 | US015 | Iniciar sesión en la plataforma | 2 |
+| 16 | US016 | Cerrar sesión | 1 |
+| 17 | US017 | Editar perfil profesional | 2 |
+| 19 | US019 | Configurar perfil | 2 |
+| 20 | US020 | Eliminar mi cuenta permanentemente | 3 |
+| 21 | US021 | Sugerencia de candidatos | 5 |
+| 22 | US022 | Recomendación de vacantes | 3 |
+| 23 | US023 | Puntaje automático de CVs | 3 |
+| 24 | US024 | Recibir notificaciones de vacantes | 3 |
+| 25 | US025 | Recibir notificaciones de postulaciones | 2 |
+| 26 | US026 | Ver calendario de entrevistas | 3 |
+| 27 | US027 | Reprogramar entrevista | 3 |
+| 28 | US028 | Solicitar soporte | 3 |
+| 29 | US029 | Responder solicitud de soporte | 3 |
+| 30 | US030 | Registrar método de pago | 3 |
+| 31 | US031 | Realizar pago | 3 |
+| 32 | US032 | Ver historial de pagos | 2 |
+| 33 | US033 | Configurar notificaciones | 2 |
+| 34 | US034 | Configurar idioma y zona horaria | 2 |
+| 35 | US035 | Cambiar contraseña | 3 |
+| 36 | US036 | Recuperar contraseña olvidada | 3 |
+| 37 | US037 | Activar autenticación de dos factores (2FA) | 3 |
+| 38 | US038 | Asignar rol de reclutador | 2 |
+| 39 | US039 | Asignar rol de postulante | 2 |
+| 40 | US040 | Iniciar sesión con redes sociales | 5 |
+| 41 | US041 | Compartir vacante en redes sociales | 2 |
+| 42 | US042 | Compartir perfil en redes sociales | 2 |
+| 43 | US043 | Comentar sobre vacantes | 2 |
+| 44 | US044 | Comentar sobre el proceso de selección | 2 |
+| 45 | US045 | Ver hero y propuesta de valor de la plataforma | 2 |
+| 46 | US046 | Ver sección de beneficios para empresas | 2 |
+| 47 | US047 | Ver sección de beneficios para postulantes | 2 |
+| 48 | US048 | Ver testimonios y casos de éxito | 2 |
+| 49 | US049 | Ver call-to-action de registro | 1 |
+| 50 | US050 | Contactar al equipo mediante formulario  | 2 |
+| 51 | TS001 | API de autenticación con JWT  5 |
+| 52 | TS002 | API REST para gestión completa de vacantes | 5 |
+| 53 | TS003 | API REST para gestión de postulaciones | 5 |
+| 54 | TS004 | API REST para programación de entrevistas | 5 |
+| 55 | TS005 | API REST para notificaciones push | 5 |
+| 56 | TS006 | API REST para búsqueda y filtros de vacantes | 3 |
+| 57 | TS007 | API REST para gestión de perfiles de usuario | 3 |
+| 58 | TS008 | API REST para procesamiento de pagos | 8 |
+| 59 | TS009 | API REST para reportes y analytics | 5 |
+| 60 | TS010 | API REST para carga de archivos (CVs y documentos) | 3 |
+| 36 | SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | 5 |
+| 37 | SP002 | Autenticación Segura con JWT y Control de Sesiones | 5 |
+| 38 | SP003 | Sincronización de Datos Offline-Online | 3 |
+| 39 | SP004 | Notificaciones Push en Tiempo Real | 3 |
+| 40 | SP005 | Implementación de Pagos Integrados con Pasarela | 3 |
+| 41 | SP006 | Optimización del Rendimiento y Carga Inicial de la App | 8 |
+| 42 | SP007 | Gestión de Logs Centralizados y Monitoreo en Azure | 3 |
+| 43 | SP008 | Implementación de Control de Versiones y CI/CD Automatizado | 5 |
 - Evidencia del Product Backlog en Trello:
 <img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
 
-- Link del Product Backlog en Trello: [https://trello.com/b/9qdSu2o9/product-backlog-smarthire](https://trello.com/b/9qdSu2o9/product-backlog-smarthire)
+- Link del Product Backlog en Trello: [https://trello.com/b/T6UCC586/product-backlog-smarthire](https://trello.com/b/T6UCC586/product-backlog-smarthire)
 
 ## **2.5. Strategic-Level Domain-Driven Design**
 ### **2.5.1. EventStorming**
@@ -1039,11 +4109,32 @@ Una vez identificados, los agregados se reordenan para reflejar mejor las depend
 ![Paso4-Domain - events](img/eventstorming5.png)
 
 #### **2.5.1.2. Domain Message Flows Modeling**
+
+![MessageFlow1](img/MessageFlow1.png)
+
+![MessageFlow2](img/MessageFlow2.png)
+
+![MessageFlow3](img/MessageFlow3.png)
+
+![MessageFlow4](img/MessageFlow4.png)
+
+![MessageFlow5](img/MessageFlow5.png)
+
 #### **2.5.1.3. Bounded Context Canvases**
-Bounded Context: Perfil
-![Bounded Context Perfil](img/BoundedContextIACanvas.jpg)
 
 Bounded Context: Asistencia IA
+![Bounded Context Perfil](img/BoundedContextIACanvas.jpg)
+
+Bounded Context: Publicaciones
+![The Bounded Context Canvas.jpg](img/Bounded_Context_Canvases_Publicaciones.PNG)
+
+Bounded Context: Candidatos
+![Bounded_Context_Canvases_Candidatos.PNG](img/Bounded_Context_Canvases_Candidatos.PNG)
+
+Bounded Context: Analiticas
+![Bounded_Context_Canvases_Analiticas.jpg](img/Bounded_Context_Canvases_Analiticas.jpg)
+
+Bounded Context: Perfil
 ![Bounded Context Asistencia IA](img/Bounded_Context_Canvases_Profile.PNG)
 
 ### **2.5.2. Context Mapping**
@@ -1488,64 +4579,1311 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 ### **3.1.1. Style Guidelines**
 #### **3.1.1.1. General Style Guidelines**
 
+#### Principios de diseño
+
+Algunos de los principios de diseño y heurísticas que hemos aplicado para nuestra plataforma **Jobsy** son:
+
+1. **Intuición y Usabilidad**  
+   La plataforma está diseñada para que cualquier usuario, sin necesidad de formación previa, pueda navegar y utilizar sus funciones con facilidad.
+
+2. **Eficiencia**  
+   Optimizamos cada interacción para reducir pasos innecesarios. Desde la creación de vacantes hasta la visualización de candidatos recomendados por la IA, todo está diseñado para ahorrar tiempo y maximizar la productividad del usuario.
+
+3. **Diseño Responsivo**  
+   Jobsy ofrece una experiencia fluida en cualquier dispositivo. Ya sea desde una computadora de escritorio en una oficina o desde un celular, el diseño se adapta para mantener la funcionalidad y legibilidad.
+
+4. **Evitar la Sobrecarga Cognitiva**  
+   Nos aseguramos de no saturar las pantallas con contenido innecesario. Las secciones están jerarquizadas visualmente, se usa el espacio en blanco de forma estratégica, y se prioriza lo esencial para no distraer al usuario.
+
+5. **Consistencia Visual**  
+   Aplicamos una línea gráfica coherente en toda la plataforma. Tipografías, colores, iconografía y componentes interactivos mantienen un estilo uniforme, lo cual fortalece la identidad de marca y mejora la comprensión de los elementos.
+
+6. **Tamaños Adecuados y Accesibilidad**  
+   Todos los elementos clicables o interactivos están diseñados con un tamaño apropiado, especialmente considerando el uso móvil. Además, se contemplan buenas prácticas de accesibilidad como el contraste de colores, texto legible y navegación con teclado.
+
+7. **Control del Usuario y Retroalimentación**  
+   El sistema informa al usuario de cada acción realizada mediante mensajes claros: confirmaciones, validaciones, cargas o errores. Se permite deshacer o modificar acciones importantes, lo cual transmite seguridad y confianza en el uso de la herramienta.
+
+
+### - Colores
+**Logo:**
+
+Para los colores del logotipo, seleccionamos un tono azul oscuro con código hexadecimal (`#285A84`), que transmite profesionalismo, confianza y solidez, características clave para una plataforma orientada al sector empresarial. Complementariamente, se eligió un verde luminoso con código (`#85C872`) para el ícono del logo, con el objetivo de aportar un contraste visual atractivo que represente innovación, dinamismo y eficiencia, atributos centrales de nuestra propuesta tecnológica.  
+
+<div align="center">
+
+<img src="img/color_logo.png" alt="color logo" width="50%" />
+
+<div align="left">
+    
+<b>Color de fondo:</b> <br> Para el fondo de la sección principal de la plataforma se utilizó un tono verde con código (`#85C872`), el cual aporta frescura, vitalidad y una sensación de cercanía desde el primer contacto visual. Además, se incorporaron secciones con fondo blanco (`#FFFFFF`) que generan un efecto visual limpio y ordenado, mejorando la legibilidad y creando un contraste armónico con el verde predominante. Como elemento complementario, se integraron líneas decorativas en color azul oscuro (`#285A84`) en ciertas áreas del fondo, aportando profundidad, equilibrio visual y reforzando la identidad visual de la marca. <br>
+    <div align="center">
+<br>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiWyEV2fHcWXJeYvbUHHHw4yyVT5KheegQYaEblKFxW3Ozmu9S0NUvTaxS2FmDhWDhMHIs6yc8DtpTe-JiM1E_p5ZiWZrCEZ7RX0T1mlJTVoDLN_d3HMM3gx8fUz0YORN9gPPc?key=gvlLacgsz9NCnDkMVc0Umifa"  width="50%" />
+<br>
+
+<div align="left">
+
+    
+**Colores del texto:**  
+Para los títulos se utilizaron colores que aseguran buen contraste según el fondo: (`#B0E7B1`) para fondos oscuros, (`#285A84`) para fondos claros, blanco en secciones oscuras y gris claro para los placeholder de los formularios. Los subtítulos y párrafos siguen la misma lógica cromática, manteniendo legibilidad y coherencia visual en toda la plataforma.
+<br>
+ <div align="center">
+<br>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXez2oH4jfFtSqNF4cLQ7o9gTQtr40QPPu7jiT_IGSXZ_ovHT45lHefDwOPHCWyKVDbiE0Zjk6perRu0n8KmP7OKVxoAxONBTpMbY-2hhNJDvh5QnX7yVuxGDTKHc0x2qmO0B-viGg?key=gvlLacgsz9NCnDkMVc0Umifa"/>
+
+<div align="left">
+
+#### Botones
+Los botones principales utilizan un fondo azul oscuro (`#285A84`) con bordes redondeados al 40% y con una ligera sombra oscura, otorgándoles un estilo moderno. El texto interior es de color blanco, en mayúsculas o capitalizado, lo que asegura una excelente legibilidad. Además, se incluye un segundo estilo de botón con fondo verde aqua (`#B0E7B1`), bordes y texto en color (`#285A84`), ideal para acciones secundarias o enlaces menos prioritarios.
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxi5FUMm3fJ6JKDVDzzrbiUUCK1MwIvaiT9zthLz7Y9i98HEbxdB3fFbsEfZSyt9eLOwlowPLB_1mQUWjxIkB1JLKdeNdqpN9LEymN5hemkdRia0WEKJFvNLPJ_KGTtHDnrX0ZXg?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+#### - Tipografía
+
+- **ISTOK WEB (negrita):** Utilizada para los títulos principales por su fuerza visual y claridad. <br>
+- **Inter, Pavanam, Questrial (light o regular):** Fuentes limpias y minimalistas, ideales para párrafos y textos secundarios.<br>
+- **Patua One (negrita display):** Estilo más robusto, ideal para encabezados o elementos que necesitan destacarse.<br>
+- **Playfair Display (cursiva serif):** Aporta elegancia y dinamismo a citas o secciones especiales.<br>
+- **Alexandria (bold) y Markazi Text (regular):** Ofrecen una opción moderna con buena legibilidad en enlaces o descripciones.<br>
+- **Poppins:** Fuente redondeada y versátil, útil tanto en títulos como en textos principales por su excelente legibilidad.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-gjofnvAEEorgPfVRY0AnamoI6IVkRv8kf40fc7DegudARCSqIfgfdgK8TtBjR4yfydJtpYl1qzEUT9YNF20OZw4Zjz-oHCN9M5lf4mMrvoPoASHki3HqetYVg96d0CtbAfJL6A?key=gvlLacgsz9NCnDkMVc0Umifa" width="30%">
+<div align="left">
+
+
+#### - Iconografía
+
+Algunos de los iconos utilizados en la interfaz representan elementos clave de la plataforma, como los servicios ofrecidos, los tipos de planes disponibles, el menú de navegación y los accesos a redes sociales. Estos iconos facilitan la comprensión visual, aportan dinamismo y mejoran la experiencia del usuario al guiarlo de forma intuitiva a través de la plataforma. <br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk2VCkKlf0GH86lUmsbMzeC118gn6zNkjD-Vex-LA_aBFk4xkqV3epkDES87YVf-AOq7-JKyN1P63rR2nQfbkgcRe4DDh84rm69wv_YQHAsTao2KHhIypugd4tNNWO7to1q_3unw?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+#### - Cabecera
+La cabecera cuenta con el icono, los enlaces en una esquina superior derecha y con un botón de registro que facilita el ingreso a los usuarios.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjsLPwmZNDZeegCwBXeakk9-rMZGB5oZWWwQGnpp2bHnuOhncmNlaCnJfpcjG3IJv1pxtJw3rBe1WPcm7I33GR1bQdclAvFso4zzu1NROCPg7Kaexjm6bd7d-BYw31RqETffdb6A?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%">
+<div align="left">
+
+    
+#### - Pie de Página
+El pie de página cuenta con tres secciones: La descripción de la startup, los enlaces puestos de manera fácil y redes sociales con los iconos de X, Linkedin y Facebook.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_g5XP8XiObaqSX7xxLNVf-AZ5b8_f2i1rp6Eqi_ibhsgJOGQUn3QHKHuIFkPsVxI3Ly3ptFUqpBVBF_VzVoC9rA2STImu5aUSa9iakNNGdLvNsLi79-Jc17hAyJ7KQJ1Q8vJ0OQ?key=gvlLacgsz9NCnDkMVc0Umifa" width="70%">
+<div align="left">
+
+#### - Logo
+El diseño del logo incorpora el nombre de la startup utilizando la fuente Questrial en tamaño 30px, acompañando al texto, se incluye un icono representativo de una conexión de red, el cual simboliza la interconexión entre talento y oportunidades laborales, reforzando así la esencia tecnológica e innovadora de la plataforma.<br>
+
+<div align="center">
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-FSDqlolKCALvdJQ0jLzRLwjwRFqvi4pvJ_GkihfXjkIFia3pg7C-jYjEvJ5_NL9ObTh1SloFjDp_hhgTCJ45nwoHAFoSoGNd1s0vOpwHBiPvyKYY3exMNKxZVYWU1Jp4446Slg?key=gvlLacgsz9NCnDkMVc0Umifa" width="50%">
+<div align="left">
+
+
+
+### 4.1.2. Web Style Guidelines
+Para garantizar una experiencia clara y agradable en cualquier dispositivo, el sitio web de SmartHire se desarrollará con un diseño totalmente responsivo. Esto significa que la plataforma se adaptará automáticamente a diferentes tamaños de pantalla permitiendo que todo el contenido se visualice correctamente sin perder orden ni legibilidad.
+Se usará una estructura basada en el patrón visual en forma de Z, una técnica efectiva para captar la atención del usuario. Este recorrido comienza en la parte superior izquierda, donde estará ubicado el logotipo de SmartHire, lo cual ayuda a reforzar la identidad de la plataforma desde el primer segundo. <br>
+
+<div align="center">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc2Fu7nmAchKUVpd1AkugOy7YBOyXsMACaEP2rwycgZPru4cc7qdqmHpRyp7uAn0Bg2HIpHcPP1VvhVpuc3jjy9eO7XVVzWgqMV78FVoX9BZsYLAdAfoyF_Yv58JwbR7o4VOurLTw?key=gvlLacgsz9NCnDkMVc0Umifa" width="40%">
+<div align="left">
+
+
+
+Se empleará una paleta de colores atractiva y armónica que motive la interacción y genere una experiencia agradable. A esto se sumarán elementos visuales, espacios bien distribuidos y transiciones suaves que ayudarán a que el contenido se entienda fácilmente, asegurando una lectura clara y sin distracciones. <br>
+
 ### **3.1.2. Information Architecture**
+
+En esta sección se establecerá la estructura de la información para nuestra plataforma Jobsy, de acuerdo con los segmentos previamente definidos. Además, se detallarán los sistemas de organización, etiquetado, búsqueda y navegación que permiten una experiencia de usuario clara y eficiente
+
 #### **3.1.2.1. Organization Systems**
+
+#### **Segmento 1: Equipos de Recursos Humanos encargados del proceso de contratación.**
+
+##### Jerárquica
+<ul>
+  <li>
+    <p><strong>Lista de vacantes publicadas:</strong> Las ofertas de empleo se organizan por área, nivel de experiencia y urgencia de contratación.</p>
+  </li>
+  <li>
+    <p><strong>Panel de candidatos:</strong> Muestra los candidatos postulados clasificados por etapa del proceso de selección (filtrados por IA, en entrevista, en evaluación técnica, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Perfiles de postulantes:</strong> Se muestran los datos más relevantes primero (nivel de experiencia, resultados de pruebas, match con el perfil ideal).</p>
+  </li>
+</ul>
+
+##### Secuencial
+<ul>
+  <li>
+    <p><strong>Registro e inicio de sesión:</strong></p>
+    <ul>
+      <li><p>El reclutador accede a una pantalla donde puede crear una cuenta ingresando nombre, correo y contraseña.</p></li>
+      <li><p>Posteriormente, inicia sesión y selecciona su rol (RRHH) para ser dirigido a su panel principal.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Publicación de vacantes:<br> </strong></p>
+    <ul>
+    Flujo guiado para publicar una nueva vacante:
+      <li><p>Selección del tipo de puesto.</p></li>
+      <li><p>Ingreso de descripción y requisitos.</p></li>
+      <li><p>Definición de habilidades técnicas.</p></li>
+      <li><p>Selección de tests y evaluaciones (opcional).</p></li>
+      <li><p>Publicación y sincronización con portales externos.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Gestión de publicaciones:</strong> Acceso a tabla de vacantes activas, con opción de editar, eliminar o duplicar.</p>
+  </li>
+  <li>
+    <p><strong>Revisión y filtrado de candidatos:</strong> Visualización de los postulantes por vacante, Filtros por categoría: nivel de experiencia, calificaciones, resultados de pruebas y Acceso al perfil del candidato y contacto directo.</p>
+
+  </li>
+  <li>
+    <p><strong>Análisis de datos:</strong> Visualización de estadísticas del proceso de selección mediante gráficos: tasa de conversión, tiempo promedio de respuesta, efectividad por canal. </p>
+  </li>
+  <li>
+    <p><strong>Asistencia con IA:</strong> Acceso a un chat con IA que guía al reclutador en dudas como: recomendaciones, sugerencias de candidatos y análisis del proceso.</p>
+  </li>
+  <li>
+    <p><strong>Edición de perfil:</strong> Modificación de datos, logo, nombre del reclutador y contacto.</p>
+  </li>
+</ul>
+
+##### Matricial
+<ul>
+  <li>
+    <p><strong>Dashboard del Reclutador:</strong> <br>
+     - Vista tipo panel que combina métricas clave (número de vacantes, postulaciones activas, tasa de éxito) y accesos rápidos a funcionalidades principales.<br>
+- Se presenta como una cuadrícula de tarjetas informativas que permiten comparar distintos procesos de forma visual.
+
+  </li>
+  <li>
+    <p><strong>Panel de Publicaciones:</strong> <br>
+    - Vacantes (filas) vs. estado de cada proceso (columnas: En revisión, Con entrevistas, Cerrada).
+        <br>
+     - Posibilidad de mover o filtrar según área, urgencia, o desempeño.
+    
+  </li>
+  <li>
+    <p><strong>Gestión de Candidatos:</strong>  <br>
+       - Vista tipo Kanban, donde cada columna representa una etapa del proceso (ej. Filtrados por IA, Entrevistas agendadas, Finalistas).
+ <br>
+ - Cada candidato es una tarjeta que puede moverse entre columnas, permitiendo una gestión visual del pipeline.
+    
+  </li>
+  <li>
+    <p><strong>Comparación de Desempeño de Vacantes:<br> </strong> Matriz que cruza: <br>
+    - Vacantes publicadas (eje Y), Canales de publicación (eje X: LinkedIn, InfoJobs, CompuTrabajo) 
+        <br>
+    - Resultado: número de postulantes por canal, permitiendo análisis de efectividad por medio de difusión.
+  </li>
+</ul>
+
+#### **Segmento 2: Postulantes o Candidatos**
+
+##### Jerárquica
+<ul>
+  <li>
+    <p><strong>Listado de ofertas laborales:</strong> Ordenadas por relevancia según el perfil del usuario.</p>
+  </li>
+  <li>
+    <p><strong>Perfil del postulante:</strong> Se priorizan habilidades, experiencia y resultados de tests.</p>
+  </li>
+  <li>
+    <p><strong>Historial de postulaciones:</strong> Lista ordenada cronológicamente por fecha.</p>
+  </li>
+</ul>
+
+##### Secuencial
+<ul>
+  <li>
+    <p><strong>Registro e inicio de sesión:</strong></p>
+    <ul>
+      <li><p>Creación de cuenta con nombre, correo y contraseña.</p></li>
+      <li><p>Inicio de sesión y selección de rol (Postulante) para acceder al panel principal.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Postulación a una vacante:</strong></p>
+    <ul>
+      <li><p>Selección de vacante.</p></li>
+      <li><p>Revisión de requisitos.</p></li>
+      <li><p>Subida de CV.</p></li>
+      <li><p>Realización de evaluaciones (técnicas, psicométricas, etc.).</p></li>
+      <li><p>Confirmación y seguimiento de la postulación.</p></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Seguimiento de postulaciones:</strong> Estado actualizado en cada fase: Enviado, En revisión, En entrevista, Finalizado.</p>
+  </li>
+  <li>
+    <p><strong>Recepción de mensajes:</strong> Bandeja de entrada con invitaciones, resultados y comunicaciones de empresas.</p>
+  </li>
+  <li>
+    <p><strong>Gestión del perfil profesional:</strong> Edición de datos, experiencia, habilidades y vista previa del perfil.</p>
+  </li>
+</ul>
+
+##### Matricial
+<ul>
+  <li>
+    <p><strong>Dashboard del Postulante:</strong> Vista integral con:</p>
+    <ul>
+      <li><p>Resumen de postulaciones activas.</p></li>
+      <li><p>Recomendaciones personalizadas.</p></li>
+      <li><p>Chatbox integrado con soporte y sugerencias automatizadas.</p></li>
+    </ul>
+  </li>
+</ul>
+
 #### **3.1.2.2. Labelling Systems**
+
+En esta sección, se detalla el sistema de etiquetado propuesto para facilitar la navegación e interpretación del contenido tanto en la landing page. Se han diseñado etiquetas claras, concisas y orientadas a la acción.
+
+#### Etiquetas para la Landing Page
+<p>La página de aterrizaje se enfoca en comunicar valor de forma directa y atractiva. Sus etiquetas están diseñadas para responder a las primeras dudas e intereses de los visitantes.</p>
+<ul>
+  <li>
+    <p><strong>Inicio:</strong> Sección de bienvenida con un mensaje claro del propósito de la plataforma y los beneficios principales de usar SmartHire.</p>
+  </li>
+  <li>
+    <p><strong>Sobre Nosotros:</strong> Breve descripción de la startup, incluyendo misión, visión y una introducción al equipo fundador.</p>
+  </li>
+  <li>
+    <p><strong>Soluciones:</strong> En lugar de “Servicios”, se usa una etiqueta más orientada al problema que resuelve.</p>
+  </li>
+  <li>
+    <p><strong>Testimonios:</strong> Se presentan opiniones de usuarios que ya han utilizado la plataforma.</p>
+  </li>
+  <li>
+    <p><strong>Planes:</strong> Información clara sobre las distintas modalidades de uso y precios.</p>
+  </li>
+  <li>
+    <p><strong>Contacto:</strong> Canales de comunicación disponibles (formulario y redes sociales).</p>
+  </li>
+  <li>
+    <p><strong>Regístrate / Inicia Sesión:</strong> Botones visibles para invitar a los usuarios a crear una cuenta o acceder a su panel personalizado.</p>
+  </li>
+</ul>
+
+#### Etiquetas dentro de la Plataforma Web - Segmento: Equipos de RRHH
+<p>Estas etiquetas están diseñadas para ofrecer eficiencia y organización durante todo el flujo de contratación.</p>
+<ul>
+  <li>
+    <p><strong>Panel Principal:</strong> Acceso al resumen general de procesos activos, métricas clave y accesos rápidos.</p>
+  </li>
+  <li>
+    <p><strong>Vacantes:</strong> Gestión de ofertas laborales: publicar, editar, pausar o eliminar vacantes.</p>
+  </li>
+  <li>
+    <p><strong>Candidatos:</strong> Acceso a la base de datos de postulantes con filtros inteligentes (por rol, experiencia, habilidades, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Estadísticas:</strong> Visualización de métricas clave en gráficos sobre desempeño, tasa de conversión y eficacia de vacantes.</p>
+  </li>
+  <li>
+    <p><strong>Asistente IA:</strong> Chat con la inteligencia artificial para recibir recomendaciones, respuestas rápidas o generación de descripciones de puestos.</p>
+  </li>
+  <li>
+    <p><strong>Mi Perfil:</strong> Edición de información de la empresa, usuarios del equipo y configuración general.</p>
+  </li>
+</ul>
+
+#### Etiquetas dentro de la Plataforma Web - Segmento: Postulantes
+<p>Diseñadas para acompañar al usuario en su camino de búsqueda laboral y gestión de postulaciones.</p>
+<ul>
+  <li>
+    <p><strong>Inicio:</strong> Vista general del estado de sus postulaciones, novedades y sugerencias de empleos.</p>
+  </li>
+  <li>
+    <p><strong>Mis Postulaciones:</strong> Historial de empleos aplicados, su estado actual y acciones disponibles (editar, retirar, etc.).</p>
+  </li>
+  <li>
+    <p><strong>Bandeja de Entrada:</strong> Comunicaciones con empresas, notificaciones importantes o mensajes automatizados del sistema.</p>
+  </li>
+  <li>
+    <p><strong>Evaluaciones:</strong> Resultados de pruebas técnicas o psicométricas, junto con sus recomendaciones.</p>
+  </li>
+  <li>
+    <p><strong>Perfil Profesional:</strong> Información editable del candidato, como CV, experiencia, educación, y enlaces externos (LinkedIn, portafolio).</p>
+  </li>
+  <li>
+    <p><strong>Recomendaciones:</strong> Ofertas laborales sugeridas por el sistema según su perfil e historial.</p>
+  </li>
+</ul>
+
 #### **3.1.2.3. SEO Tags and Meta Tags**
+
+En esta sección se definen las etiquetas meta que permitirán a los motores de búsqueda identificar, categorizar y posicionar adecuadamente nuestro sitio web, diferenciándolo dentro del ecosistema digital competitivo de plataformas de reclutamiento. 
+<br><br>
+**Para el sitio web estático (Landing Page):**
+
+<li><b>Title:</b> SmartHire - Revoluciona tu proceso de contratación</li>
+<li><b>Description:</b> Plataforma inteligente de reclutamiento para empresas modernas. Optimiza tus procesos de selección con ayuda de IA y análisis automatizados.</li>
+<li><b>Keywords:</b> reclutamiento, selección de personal, IA en RRHH, recursos humanos, automatización, talento y vacantes.
+</li>
+<li><b>Authors:</b> Equipo Jobsy - SmartHire Project</li>
+<br>
+<br>
+
+**Para la aplicación web (Dashboard para usuarios registrados):** 
+
+<li><b>Title:</b> SmartHire | Plataforma de Reclutamiento Inteligente</li>
+<li><b>Description:</b> Gestiona candidatos, publicaciones, entrevistas y métricas de contratación desde un panel centralizado con soporte de inteligencia artificial.</li>
+<li><b>Keywords:</b> talento, RRHH, análisis de candidatos, vacantes laborales, candidatos, IA, entrevistas, proceso de selección, reclutamiento ágil</li>
+<li><b>Authors:</b> Equipo SmartHire - Jobsy</li>
+
 #### **3.1.2.4. Searching Systems**
+
+En esta sección se describen los sistemas de búsqueda que se implementarán tanto en la página de aterrizaje como en la aplicación web. Estos sistemas facilitarán a los usuarios encontrar información de forma eficiente.
+<br> <br>
+**En el sitio web estático (Landing Page):**
+<br>
+
+
+Los visitantes podrán navegar fácilmente mediante una barra superior con anclas interactivas que los llevará a secciones como:
+<li>Conócenos (Sobre Jobsy)</li>
+<li>Soluciones para empresas y candidatos</li>
+<li>Testimonios</li>
+<li>Planes y costos</li>
+<li>Planes y costos</li>
+<li>Contacto directo</li>
+<li>Registro / Login</li>
+
+<br>
+
+**En la aplicación web:**
+#### Segmento 1: Equipos de Recursos Humanos
+<li><b>Buscador de candidatos:</b> Los reclutadores podrán buscar postulantes por nombre, cargo deseado, habilidades clave o años de experiencia. El buscador incluirá autocompletado, sugerencias y filtros por área profesional, estudios, o nivel de compatibilidad (calculado por IA).
+</li>
+<li><b>Filtro de publicaciones activas:</b> Se podrá buscar vacantes publicadas por estado (activa, cerrada, borrador). Ideal para grandes equipos que gestionan múltiples vacantes simultáneamente.</li>
+
+<li><b>Análisis y métricas:</b> Se contará con un panel de analíticas.</li>
+
+#### Segmento 2: Postulantes
+
+<li><b>Buscador de empleos: </b> Los candidatos podrán buscar vacantes según título, empresa, modalidad (remoto/presencial), ciudad o palabras clave. También podrán guardar filtros frecuentes o recibir sugerencias según su perfil.</li>
+<li><b>Postulaciones previas: </b> El sistema permitirá buscar entre sus postulaciones pasadas utilizando filtros como empresa, estado del proceso (en revisión, descartado, entrevista), y fecha.</li>
+<li><b>Mensajes y notificaciones: </b> En la bandeja de entrada, los postulantes podrán buscar mensajes por empresa, asunto o palabra clave, con organización por etiquetas (como "entrevista", "confirmación", "seguimiento").</li>
+
 #### **3.1.2.5. Navigation Systems**
+
+A continuación, el equipo describe los sistemas de navegación que estarán presentes en Jobsy, permitiendo a los usuarios desplazarse de manera rápida, clara y eficiente por las distintas secciones tanto del sitio web como de la aplicación SmartHire.
+
+La página de aterrizaje contará con una barra de navegación ubicada en la parte superior del sitio, donde se incluirán enlaces directos a las principales secciones: Sobre Nosotros, Servicios, Testimonios, Planes, y Contacto. Estos encabezados permitirán a los visitantes acceder directamente al contenido deseado con un solo clic, sin necesidad de desplazarse manualmente por la página. Este sistema de navegación facilita una experiencia fluida, intuitiva y centrada en la usabilidad, permitiendo que el usuario encuentre lo que busca de forma rápida.
+
+En la plataforma web, se implementará un menú lateral dinámico, adaptable al tipo de usuario (reclutador o postulante). Este menú permitirá acceder a las distintas vistas del sistema, tales como:
+
+ <li><b>Reclutadores:</b> Panel principal, publicaciones activas, gestión de candidatos, estadísticas del proceso de selección, asistencia por IA y perfil de empresa.</li>
+<li><b>Postulantes:</b> Dashboard con postulaciones activas, historial de aplicaciones, bandeja de entrada, recomendaciones personalizadas, y perfil personal.</li>
+<br>
+Asimismo, en secciones como las tablas de candidatos, publicaciones o postulaciones, se integrarán sistemas de búsqueda y filtros por categoría, estado, fecha u otros criterios relevantes. Esto optimiza la navegación dentro de listas extensas, haciendo que la experiencia del usuario sea mucho más eficiente y personalizada.
 
 ### **3.1.3. Landing Page UI Design**
 #### **3.1.3.1. Landing Page Wireframe**
+
+Se diseñó el wireframe aplicando los principios visuales, la arquitectura de información y el enfoque inclusivo definidos anteriormente.
+| Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
+|----------------------------------|----------------------------------|-------------------------------|
+| <img src="img/LandingDesktopWireframe.png" alt="wireframe1" /> | <img src="img/LandingPhoneWireframe.png" alt="wireframe2" /> | <img src="img/LandingPadWireframe.png" alt="wireframe3"/> |
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 #### **3.1.3.2. Landing Page Mock-up**
 
+El mock-up refleja la identidad visual de la plataforma, siguiendo el estilo y estructura planteados en el wireframe.
+| Vista Previa Desktop Web Browser | Vista Previa Mobile Web Browser | Vista Previa Pad Web Browser |
+|----------------------------------|----------------------------------|-------------------------------|
+| <img src="img/LandingDesktopMockUp.png" alt="wireframe1" /> | <img src="img/LandingPhoneMockUp.png" alt="wireframe2" /> | <img src="img/LandingPadMockUp.png" alt="wireframe3"/> |
+
+-Link:
+[https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1](https://www.figma.com/design/GIGB1SiI7KVd15nanLTBBt/Untitled?node-id=0-1&t=uJ6xNFzKYxW0VpQV-1)
+
 ### **3.1.4. Mobile Applications UX/UI Design**
+Este apartado aborda los principios fundamentales del diseño de experiencia de usuario (UX) y de interfaz gráfica (UI) en aplicaciones móviles. Se enfoca en la creación de interfaces intuitivas, accesibles y visualmente coherentes, optimizadas para distintos dispositivos y sistemas operativos. Se consideran aspectos como la arquitectura de navegación, la jerarquía visual, la consistencia de estilos, y la adaptación responsiva, con el objetivo de mejorar la usabilidad, la retención de usuarios y la eficiencia de las interacciones.
+
 #### **3.1.4.1. Mobile Applications Wireframes**
+Inicio de sesion segmento Reclutador o Postulante
+
+![Foto de Ronald](img/sesionReclutador.png) 
+
+Secciones de Inicio, Publicaciones, Asistencia AI y Perfil del segmento Reclutador
+
+![Foto de Ronald](img/sesionReclutador2.png) 
+
+Sidebar con secciones de Ver candidato, Analisitcas, Calendario, Papelera y cierre de sesion del segmento Reclutador
+
+![Foto de Ronald](img/sesionReclutado3.png) 
+
+Secciones de Home, Postulaciones, Mensajes, y Perfil del segmento Postulantes
+
+![sesion1](img/sesionPostulante.png) 
+
+Seccion de boton flotante "Postular" y su opcion de "ver mas"
+
+![sesion2](img/sesionPostulante2.png) 
+
 #### **3.1.4.2. Mobile Applications Wireflow Diagrams**
+User goal: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
+
+![cuentaNueva](img/crearCuenta.png)
+
+User goal: Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.
+
+![inicioSesion](img/inicioSesion.png)
+
+
+User Goal: Como usuario, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera.
+
+![inicioSesion](img/publicacion.png)
+
+User Goal: Como usuario, deseo ver la lista de candidatos que postulan y filtrar por categorías.
+
+![candidatoss](img/candidatoss.png)
+
+User Goal: Como usuario, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas.
+
+![analiticass](img/analiticass.png)
+
+Como usuario, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento.
+
+![IA](img/IA.png)
+
+User Goal: Como usuario deseo tener un perfil de empresa y poder editarlo cuando quiera.
+
+![perfilRECLU](img/perfilRECLU.png)
+
+ User Goal: Como usuario, deseo poder registrarme e iniciar sesión antes de visualizar el panel principal.
+
+![sesionn2](img/sesionn2.png)
+
+User Goal: Como usuario, deseo recibir mensajes de las empresas para saber el estado de mi postulación.
+
+![mensajesPOS](img/mensajesPOS.png)
+
+User Goal: Como usuario, deseo ver todas las postulaciones que realice.
+
+![postulacionesPOS](img/postulacionesPOS.png)
+
+User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera.
+
+![perfilPOS](img/perfilPOS.png)
+
 #### **3.1.4.3. Mobile Applications Mock-ups**
+
+## INICIO Y CREAR CUENTA 
+![mock-1](img/MOCK1.png)
+
+## POSTULANTE
+![mock-2](img/MOCK2.png)
+
+## RECLUTADOR
+![mock-3](img/MOCK3.png)
+
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
+
+![USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR](img/USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR.png)
+
+![USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES](img/USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES.png)
+
+![USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR](img/USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR.png)
+
+![USER-FLOW-DIAGRAM-CREAR-CUENTA](img/USER-FLOW-DIAGRAM-CREAR-CUENTA.png)
+
+![USER-FLOW-DIAGRAM-EDITAR-PERFIL](img/USER-FLOW-DIAGRAM-EDITAR-PERFIL.png)
+
+![USER-FLOW-DIAGRAM-INICIO-SESION](img/USER-FLOW-DIAGRAM-INICIO-SESION.png)
+
+![USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE](img/USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE.png)
+
+![USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR](img/USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR.png)
+
 #### **3.1.4.5. Mobile Applications Prototyping**
+
+Se realizo el prototipo de la aplicación con las pantallas en android.
+
+Link mobile application prototype video: https://drive.google.com/file/d/1W4ka95-DvcHUAsc0Jk4nx/view?usp=drive_link
+
+# **Capítulo IV: Product Implementation & Validation**
+
 
 ## **Capítulo IV: Product Implementation & Validation**
 
 ### **4. Product Implementation & Validation**
 
 ## **4.1. Software Configuration Management**
+
+A continuación, se presentan las decisiones y convenciones que permitirán mantener la consistencia durante el ciclo de vida.
+
 ### **4.1.1. Software Development Environment Configuration**
+
+En esta sección se incluyen los links de las aplicaciones y productos de software utilizados durante el ciclo del proyecto Jobsy, en los programas que se usaron para colaborar en el desarrollo del producto digital.
+Para ello se clasifican en las siguientes secciones:
+
+- Project Managment
+- Requirements Management
+- Product UX/UI Design
+- Software Development
+- Software Testing
+- Software Deployment
+- Software Documentation
+
+1. **Project Management**  
+Es la disciplina encargada de la gestión de los proyectos, la cual tiene como objetivo principal mejorar los procesos y su entorno para alcanzar los resultados esperados.  
+- En el ciclo digital del proyecto se implementará un producto software con un modelo SaaS que se ejecutará a través de un navegador, sin embargo, no se creará una versión de aplicación móvil.
+
+---
+
+2. **Requirements Management**  
+Es el proceso de garantizar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes con las partes interesadas internas o externas.  
+- **Trello**: Se usó esta herramienta porque organiza bien las user stories y ayuda a mantener el avance del proyecto claro y ordenado.
+
+Link: [https://www.trello.com/](https://www.trello.com/)
+
+---
+
+1. **Product UX/UI Design**  
+Estas herramientas permiten desarrollar el modelo de nuestro producto de manera digital y de forma parte de la vida del consumidor. En este caso se realizó un modelo de sitio web.  
+- **Uxpressia**: Usamos esta herramienta para elaborar los User Persona, Empathy Maps, Journey Maps e Impact Maps.  
+Link: [https://uxpressia.com/](https://uxpressia.com/)
+
+- **Miro**: Se usó esta herramienta para los As-Is y To-Be Scenario Maps.  
+Link: [https://miro.com/](https://miro.com/)
+
+- **Figma**: Se usó esta herramienta para la elaboración de Wireframes, Mock-ups y Prototypes de nuestra Landing Page y nuestra Web Application.  
+Link: [https://www.figma.com/](https://www.figma.com/)
+
+- **Lucidchart**: Se usó esta herramienta para la elaboración de Wireflows y User Flows.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+4. **Software Development**  
+- **GitHub**: Es la plataforma utilizada para el control de versiones, colaboración entre los integrantes del equipo y almacenamiento del código fuente del proyecto. A través de GitHub se aplicó GitFlow para mantener un flujo de trabajo ordenado y estructurado.  
+Link: [https://github.com/](https://github.com/)
+
+- **HTML**: Se utilizó para estructurar el contenido de la Landing Page y de las vistas principales de la aplicación web, permitiendo una organización semántica del contenido.  
+Link: [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+
+- **CSS**: Fue empleado para definir el diseño visual del sitio, respetando la línea estética basada en Material Design. Se aplicaron estilos personalizados para lograr una interfaz moderna y agradable al usuario.  
+Link: [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+
+- **JavaScript**: El lenguaje de programación utilizado para implementar la lógica del lado del cliente, como validaciones, interacciones dinámicas y consumo de servicios externos.  
+Link: [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+---
+
+5. **Software Testing**  
+- **Lenguaje Gherkins**: Se utilizó Gherkins para definir los criterios de aceptación y los escenarios de prueba en un lenguaje natural, facilitando la comprensión tanto para desarrolladores como para usuarios no técnicos.  
+Link para más información: [https://profile.es/blog/que-es-gherkin/](https://profile.es/blog/que-es-gherkin/)
+
+---
+
+6. **Software Documentation**  
+- **LucidChart**: Se usó esta herramienta para la elaboración de diagramas UML y Diagramas de Base de Datos.  
+Link: [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+- **Structurizr**: Se usó Structurizr bajo el modelo C4 para documentar la arquitectura del software, dividiendo la estructura en diferentes niveles de detalle (Context, Container, Component y Code).  
+Link: [https://structurizr.com/](https://structurizr.com/)
+
 ### **4.1.2. Source Code Management**
+
+En esta sección se establecen los medios y esquemas de organización que aplicará para el seguimiento de modificaciones. Se proporcionan los links de los repositorios en Github.
+
+- URL de la organización: [https://github.com/App-para-Dispositivos-Moviles-2520](https://github.com/App-para-Dispositivos-Moviles-2520)
+- URL del Proyect Report: [https://github.com/App-para-Dispositivos-Moviles-2520/Infrome-de-trabajo-Final](https://github.com/App-para-Dispositivos-Moviles-2520/Infrome-de-trabajo-Final)
+- URL del Landing Page: [https://github.com/App-para-Dispositivos-Moviles-2520/Landing-Page](https://github.com/App-para-Dispositivos-Moviles-2520/Landing-Page)
+- URL del Backend: [https://github.com/App-para-Dispositivos-Moviles-2520/backend-app](https://github.com/App-para-Dispositivos-Moviles-2520/backend-app)
+
+Para este proyecto se utilizará Gitflow. Gitflow es un modelo de ramificación para Git que utiliza múltiples ramas de larga duración y asigna funciones muy específicas a cada una. Este modelo es especialmente adecuado para proyectos con ciclos de lanzamiento programados, donde se necesita un control estricto de las versiones, como por ejemplo, en software de escritorio o sistemas regulados. 
+
+- Ramas principales:
+  - **main**: Contiene el historial oficial de lanzamientos, con código que siempre está listo para ser desplegado en producción. Cada commit en esta rama representa una nueva versión.
+  - **develop**:  Sirve como una rama de integración donde se consolidan todas las nuevas funcionalidades. A partir de esta rama se crean las ramas secundarias.
+
+- Ramas de apoyo:
+  - **feature**: Se crea a partir de develop para desarrollar una nueva característica. Cuando la funcionalidad está completa, se fusiona de nuevo en develop.
+  - **release**: Se crea a partir de develop cuando se está preparando una nueva versión para producción. Se utiliza para correcciones de última hora, generación de documentación y pruebas finales.
+  - **hotfix**: Se crea directamente desde main para corregir errores críticos y urgentes en producción. Una vez resuelto el problema, la rama hotfix se fusiona de nuevo en main y en develop para asegurar que el arreglo se incluya en futuras versiones. 
+
+Para este proyecto se utilizarán Conventional Commits. Conventional Commits es una convención de especificación ligera para estructurar los mensajes de commit en Git, que los hace comprensibles tanto para humanos como para máquinas. Su principal objetivo es crear un historial de commits claro y legible. 
+
+Los convencional commits tienen diferentes partes como:
+
+- **type**: Dependiendo del cambio que se realicen en el proyecto, los commits pueden ser:
+  - **feat**: Cuando se agrega una nueva funcionalidad
+  - **docs**: Cuando se realizan cambios en la documentación del proyecto
+  - **fix**: Cuando se corrige un error en el código
+  - **chore**: Cuando se realizan cambios que no afectan al código
+  - **refactor**: Cuando se realizan cambios en la estructura, sin afectar el comportamiento del proyecto
+  - **build**: Cuando se realizan cambios en los componentes del proyecto, como dependencias externas. 
+  - **perf**: Cuando se realizan cambios que mejoran el rendimiento del proyecto.
+- **scope**: Campo opcional que nos permite especificar el alcance que tiene el commit
+- **description**: Campo obligatorio que proporciona el contenido del commit, en minúsculas y de modo imperativo
+- **body**: Campo opcional en el cual se detalla más información sobre el commit.
+- **footer**: Campo opcional que se utiliza para informar al respecto de cambios importantes. 
+
 ### **4.1.3. Source Code Style Guide & Conventions**
+
+Se adoptaron guías de estilo estándar en inglés para cada lenguaje empleado:
+
+- **HTML/CSS**: Google HTML/CSS Style Guide
+- **JavaScript**: Google JavaScript Style Guide, MDN Guidelines
+- **Kotlin**: Android Style Guide
+
+Esto asegura legibilidad, coherencia y facilidad de mantenimiento en todo el código del proyecto.
+
 ### **4.1.4. Software Deployment Configuration**
 
+La gestión del código fuente del proyecto Jobsy se realizó utilizando GitHub. Para la publicación y despliegue de la Landing Page, se empleó **GitHub Pages**, que permite una visualización directa desde el repositorio principal.
+
+Para el desarrollo y despliegue de la Landing Page de Jobsy se han utilizado las siguientes herramientas:
+
+- **HTML**: Lenguaje de marcado que permitió estructurar el contenido visual y semántico de la Landing Page. Se utilizó para crear elementos como encabezados, párrafos, botones, formularios, entre otros.
+
+- **CSS**: Lenguaje de estilos utilizado para dar formato, color, distribución y diseño gráfico a los elementos definidos en HTML. Gracias a CSS, se logró que la Landing Page sea más visualmente atractiva e interactiva.
+
+- **JavaScript**: Utilizado para añadir interactividad y dinamismo a los componentes de la Landing Page, como validaciones en formularios, navegación fluida y respuestas a eventos del usuario.
+
+Link para la visualización de la Landing Page: https://landing-page-jobsy.web.app
+
 ## **4.2. Landing Page & Mobile Application Implementation**
-### **4.2.1. Sprint n**
-#### **4.2.1.1. Sprint Planning n**
-#### **4.2.1.2. Sprint Backlog n**
+### **4.2.1. Sprint 1**
+#### **4.2.1.1. Sprint Planning 1**
+
+| **Sprint #**                    | Sprint 1 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  |          |
+| **Date**                        | 02/10/2025 |
+| **Time**                        | 7:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo |
+| **Sprint n - 1 Review Summary**  | No hubo sprint anterior |
+| **Sprint n - 1 Retrospective Summary** | No hubo sprint anterior |
+| **Sprint Goal & User Stories**   |          |
+| **Sprint 1 Goal**                | Nuestro enfoque está en diseñar e implementar las pantallas principales de la aplicación Android, junto con la configuración inicial del backend y la landing page. <br> Creemos que esto proporciona la base visual y arquitectónica de la plataforma de reclutamiento, permitiendo integrar las funcionalidades en los próximos sprints. <br> Esto se confirmará cuando la app muestre las pantallas principales con un flujo de navegación coherente y una identidad visual definida, y cuando el backend y la landing page estén desplegados. |
+| **Sprint 1 Velocity**            | 25 Story Points |
+| **Sum of Story Points**          | 25 |
+
+#### **4.2.1.2. Sprint Backlog 1**
+
+| Sprint # | Sprint 1 |          |           |             |         |         |        |
+|----------|--------|----------|-----------|-------------|---------|---------|--------|
+| **User Story** | | **Work Item / Task** | | | | | |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US011 | Registrar cuenta de reclutador | W001 | Implementar endpoint para usuario (reclutador) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 2hrs | Javier | Done |
+| US010 | Registrar cuenta de postulante | W002 | Implementar endpoint para usuario (postulante) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 3hrs | Javier | Done |
+| US031 | Iniciar sesión con redes sociales | W003 | Implementar pantalla de inicio de sesión | Elaborar un apartado visual que permita iniciar sesion. | 2hrs | Ricardo | Done |
+| US027 | Cambiar contraseña | W004 | Implementar pantalla de cambio de contraseña | Elaborar un apartado visual que permita cambiar la contraseña. | 2hrs | Raul | Done |
+| US026 | Configurar perfil | W005 | Implementar pantalla de perfil | Elaborar un apartado visual que permita cambiar la configuración del perfil | 2hrs | Yair | Done |
+| SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | W006 | Implementar IA para el backend | Elaborar el bounded context de IA en el backend. | 2hrs | Ronald | Done |
+| SP002 | Autenticación Segura con JWT y Control de Sesiones | W007 | Implementar JWT al apartado de usuario para el backend | Elaborar la autenticación con JWT al iniciar sesion. | 2hrs | Ronald | Done |
+
+- Evidencia del Product Backlog - Sprint 1 en Trello:
+<img src="img/ProductBacklog-Smarthire-Sprint1.png" alt="productbacklog-Sprint1" width= 1000/>
+
+- Link del Product Backlog - Sprint 1 en Trello: [https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1](https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1)
+
 #### **4.2.1.3. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits de la siguiente forma.
+
+- Repositorio Informe:
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|:----------:|:------:|:---------:|:--------------:|:------------------:|
+| Infrome-de-trabajo-Final | develop | 56b278825b519e7724d1acd901098fd54c9ecd62 | update: changed spike stories | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 548ad688c931975be7654ac76be1a2f0d7ff3a77 | update: product backlog updated | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 6bc910900031390fd9a0f4b4442dbb08d71fe7a7 | update: product backlog link | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 2ab1eea35cfaa3a4b9c51858ef036207adac37d1 | feat(chapter-02): added bounded context canvas publicaciones | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 0f376411bb2ff27becaeee761bb001537e85684f | feat(chapter-02): added bounded context canvas analiticas | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 | feat(chapter-02): added bounded context canvas candidatos | 08/10/2025 |
+
 #### **4.2.1.4. Testing Suite Evidence for Sprint Review**
+
+En esta sección se presentan las pruebas de integración desarrolladas para los servicios principales de la API construida con .NET 9 y ASP.NET Core. Se utiliza el framework de pruebas xUnit junto con la clase WebApplicationFactory, la cual permite levantar una instancia del servidor web en memoria para simular peticiones HTTP reales hacia los endpoints de la aplicación.
+
+### Users
+
+Prueba unitaria para el registro y login de un usuario.
+<img src="img/JobsyTests.png" alt="Jobsy_Tests" width= 1000/>
+
 #### **4.2.1.5. Execution Evidence for Sprint Review**
+
+Landing Page: https://landing-page-jobsy.web.app/
+
+![Exe_Landing_1.PNG](img/Exe_Landing_1.PNG)
+
+![Exe_Landing_2.PNG](img/Exe_Landing_2.PNG)
+
+![Exe_Landing_3.PNG](img/Exe_Landing_3.PNG)
+
+![Exe_Landing_4.PNG](img/Exe_Landing_4.PNG)
+
+![Exe_Landing_5.PNG](img/Exe_Landing_5.PNG)
+
+![Exe_Landing_6.PNG](img/Exe_Landing_6.PNG)
+
 #### **4.2.1.6. Services Documentation Evidence for Sprint Review**
+
+Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger/index.html
+
+![Exe_Backend_1.PNG](img/Exe_Backend_1.PNG)
+
+![Exe_Backend_2.PNG](img/Exe_Backend_2.PNG)
+
+![Exe_Backend_3.PNG](img/Exe_Backend_3.PNG)
+
 #### **4.2.1.7. Software Deployment Evidence for Sprint Review**
+
+Para el desarrollo de este sprint, se utilizaron diferentes herramientas para el desarrollo y despliegue de la Landing Page y el Backend.
+
+Landing Page: En este caso, se utilizó Vue para el desarrollo de la Landing Page, por lo cual consideramos ideal utilizar Firebase para su despliegue, ya que nos permite realizarlo de manera rápida. Además, Firebase tiene una buena integración con Vue lo que permite que la web estática no se vea modificado y se adapte adecuadamente al despliegue para su interacción con un enlace generado.
+
+![Despliegue_Front_Firebase.PNG](img/Despliegue_Front_Firebase.PNG)
+
+Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services porque nos brinda muchas ventajas como la escalabilidad automática que adapta el consumo de recursos en base a la carga, tener el backend desplegado todo el tiempo lo que nos permite interactuar con ello cuando sea requerido y tener una integracion con Github lo que facilita su actualizacion constante en base a las mejoras futuras que se le puede realizar.
+
+![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
+
 #### **4.2.1.8. Team Collaboration Insights during Sprint**
+
+![Commit_Sprint1.PNG](img/Commit_Sprint1.PNG)
+
+![Commit2_Sprint1.PNG](img/Commit2_Sprint1.PNG)
+
+![Commit3_Sprint1.PNG](img/Commit3_Sprint1.PNG)
 
 ## **4.3. Validation Interviews**
 ### **4.3.1. Diseño de Entrevistas**
+
+#### Introducción
+El presente diseño de entrevistas tiene como objetivo validar la propuesta de valor, usabilidad y experiencia de usuario de la plataforma de reclutamiento tanto en su Landing Page como en la aplicación móvil Android. Se han identificado dos segmentos objetivo principales, para los cuales se diseñarán sesiones de validación específicas que permitan recoger feedback cualitativo sobre los flujos de usuario más críticos del sistema.
+
+---
+
+#### Segmento Objetivo 1: Equipos de Recursos Humanos (Reclutadores)
+
+##### Perfil del Entrevistado
+
+| Característica | Descripción |
+|:--------------|:-----------|
+| **Rol** | Reclutadores, HR Managers, Coordinadores de Talento Humano |
+| **Experiencia** | Personas con experiencia en procesos de contratación y gestión de vacantes |
+| **Sector** | Empresas de diversos tamaños (startups, PYMEs, corporaciones) |
+| **Rango de edad** | 25-50 años |
+| **Competencia digital** | Intermedio a Avanzado |
+
+##### Objetivos de Validación
+
+1. Validar la comprensión de la propuesta de valor para empresas en el Landing Page
+2. Evaluar la facilidad de uso en el flujo de creación y gestión de vacantes
+3. Verificar la utilidad del sistema de gestión de postulaciones y filtros
+4. Comprobar la eficiencia del proceso de programación de entrevistas
+5. Identificar puntos de fricción en el workflow completo de reclutamiento
+
+##### Elementos a Validar
+
+**Landing Page**
+
+| Elemento | User Story |
+|:---------|:-----------|
+| Sección Hero y propuesta de valor principal | US045 |
+| Sección de beneficios para empresas | US046 |
+| Testimonios y casos de éxito | US048 |
+| Call-to-action de registro empresarial | US049 |
+| Formulario de contacto | US050 |
+
+**Aplicación Móvil Android**
+
+| Elemento | User Stories |
+|:---------|:-------------|
+| Registro de cuenta de reclutador | US014 |
+| Inicio de sesión | US015 |
+| Dashboard del reclutador | - |
+| Módulo de gestión de vacantes | US001, US002, US003 |
+| Módulo de gestión de postulaciones | US007, US008 |
+| Módulo de proceso de selección | US010, US011, US012 |
+
+##### User Flows a Evaluar
+
+| # | User Flow | Descripción | User Stories | Criterio de Éxito |
+|:-:|:----------|:------------|:-------------|:------------------|
+| 1 | Primer Contacto y Registro | Landing Page → Beneficios Empresas → CTA Registro → Formulario → Confirmación | US049 | Usuario comprende propuesta de valor y completa registro sin confusión |
+| 2 | Creación de Vacante | Login → Dashboard → Nueva Vacante → Formulario → Validación → Publicar | US001 | Usuario crea vacante en menos de 3 minutos sin errores |
+| 3 | Gestión de Postulaciones | Dashboard → Mis Vacantes → Ver Postulaciones → Filtros → Detalle Candidato | US007, US008 | Usuario encuentra candidatos específicos usando filtros rápidamente |
+| 4 | Programación de Entrevista | Ver Postulación → Agendar → Fecha/Hora → Validar Conflictos → Confirmar | US010 | Usuario agenda entrevista sin conflictos de horario |
+| 5 | Envío de Oferta Laboral | Candidato Seleccionado → Enviar Oferta → Formulario → Confirmar → Enviada | US012 | Usuario envía oferta formal sin dificultades |
+
+##### Tareas Específicas para la Sesión
+
+**Contexto:** Eres el responsable de RRHH de una empresa de tecnología que necesita contratar un desarrollador Android.
+
+| # | Tarea | User Story | Tiempo Estimado |
+|:-:|:------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué te ofrece la plataforma | US046 | 2 min |
+| 2 | Regístrate como reclutador en la plataforma | US014 | 3 min |
+| 3 | Crea una nueva vacante para "Desarrollador Android Senior" | US001 | 4 min |
+| 4 | Revisa las postulaciones recibidas para tu vacante | US007 | 2 min |
+| 5 | Filtra las postulaciones para ver solo las "En revisión" | US008 | 1 min |
+| 6 | Agenda una entrevista con uno de los candidatos | US010 | 3 min |
+| 7 | Envía una oferta laboral al candidato seleccionado | US012 | 3 min |
+
+##### Preguntas Guía
+
+**Pre-Interacción (Landing Page)**
+1. ¿Qué entiendes que ofrece esta plataforma en los primeros 5 segundos?
+2. ¿Los beneficios presentados son relevantes para tu empresa?
+3. ¿El proceso de registro te parece claro? ¿Qué esperarías encontrar después?
+
+**Durante la Interacción (Aplicación)**
+4. ¿Fue fácil crear una nueva vacante? ¿Faltó algún campo importante?
+5. ¿La lista de postulaciones te presenta la información que necesitas?
+6. ¿Los filtros te ayudaron a encontrar lo que buscabas?
+7. ¿El proceso de agendamiento de entrevistas es intuitivo?
+8. ¿Hubo algún momento en que no supiste qué hacer o te sentiste perdido?
+
+**Post-Interacción**
+9. Del 1 al 10, ¿qué tan probable es que uses esta plataforma para reclutar?
+10. ¿Qué es lo que MÁS te gustó de la experiencia?
+11. ¿Qué es lo que MENOS te gustó o cambiarías?
+12. ¿Qué funcionalidad extra esperarías encontrar?
+
+##### Métricas de Éxito
+
+| Métrica | Objetivo |
+|:--------|:---------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
+| Tasa de éxito | ≥ 80% de tareas completadas sin ayuda |
+| Errores críticos | Máximo 1 error por user flow |
+| Satisfacción | Puntuación promedio ≥ 7/10 |
+
+---
+
+#### Segmento Objetivo 2: Postulantes (Candidatos)
+
+##### Perfil del Entrevistado
+
+| Característica | Descripción |
+|:--------------|:-----------|
+| **Rol** | Profesionales en búsqueda activa de empleo, recién egresados, personas en transición laboral |
+| **Experiencia** | Usuarios que buscan oportunidades laborales en diversos sectores |
+| **Rango de edad** | 20-45 años |
+| **Competencia digital** | Básico a Intermedio |
+| **Dispositivos** | Usuarios de smartphones Android |
+
+##### Objetivos de Validación
+
+1. Validar la comprensión de la propuesta de valor para postulantes en el Landing Page
+2. Evaluar la facilidad de búsqueda y filtrado de vacantes
+3. Verificar la claridad del proceso de postulación
+4. Comprobar la utilidad del seguimiento de postulaciones
+5. Identificar barreras que impidan completar una postulación exitosa
+
+##### Elementos a Validar
+
+**Landing Page**
+
+| Elemento | User Story |
+|:---------|:-----------|
+| Sección Hero y propuesta de valor | US045 |
+| Sección de beneficios para postulantes | US047 |
+| Testimonios de postulantes exitosos | US048 |
+| Call-to-action de registro de postulante | US049 |
+
+**Aplicación Móvil Android**
+
+| Elemento | User Stories |
+|:---------|:-------------|
+| Registro de cuenta de postulante | US013 |
+| Inicio de sesión | US015 |
+| Búsqueda y filtrado de vacantes | US004 |
+| Detalle de vacante | US005 |
+| Proceso de postulación | US006 |
+| Seguimiento de postulaciones | US009 |
+| Edición de perfil profesional | US017 |
+
+##### User Flows a Evaluar
+
+| # | User Flow | Descripción | User Stories | Criterio de Éxito |
+|:-:|:----------|:------------|:-------------|:------------------|
+| 1 | Descubrimiento y Registro | Landing Page → Beneficios Postulantes → CTA Crear Perfil → Registro → Confirmación | US049 | Usuario comprende valor de la plataforma y se registra exitosamente |
+| 2 | Búsqueda de Vacantes | Login → Dashboard → Buscar Vacantes → Aplicar Filtros → Ver Resultados → Seleccionar | US004 | Usuario encuentra vacantes relevantes en menos de 2 minutos |
+| 3 | Detalle de Vacante | Lista Vacantes → Seleccionar → Ver Detalle Completo (Descripción, Requisitos, Beneficios) | US005 | Usuario accede a toda la información necesaria para decidir |
+| 4 | Postulación a Vacante | Detalle Vacante → Postularme → Confirmar → Confirmación → Ver en Mis Postulaciones | US006 | Usuario completa postulación en 1 clic con confirmación clara |
+| 5 | Seguimiento de Postulaciones | Dashboard → Mis Postulaciones → Ver Lista con Estados → Detalle → Ver Historial | US009 | Usuario entiende claramente el estado de cada postulación |
+| 6 | Actualización de Perfil | Dashboard → Perfil → Editar → Actualizar Experiencia/Habilidades → Guardar → Confirmar | US017 | Usuario actualiza perfil sin confusión sobre campos importantes |
+
+##### Tareas Específicas para la Sesión
+
+**Contexto:** Eres un profesional buscando nuevas oportunidades laborales en el área de tecnología.
+
+| # | Tarea | User Story | Tiempo Estimado |
+|:-:|:------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué beneficios obtienes como postulante | US047 | 2 min |
+| 2 | Regístrate como postulante en la plataforma | US013 | 3 min |
+| 3 | Busca vacantes relacionadas con tu perfil profesional | US004 | 2 min |
+| 4 | Aplica filtros para encontrar vacantes en tu ubicación preferida | US004 | 2 min |
+| 5 | Revisa el detalle completo de una vacante que te interese | US005 | 2 min |
+| 6 | Postúlate a esa vacante | US006 | 1 min |
+| 7 | Verifica el estado de tu postulación | US009 | 2 min |
+| 8 | Actualiza tu perfil profesional agregando una nueva habilidad | US017 | 3 min |
+
+##### Preguntas Guía
+
+**Pre-Interacción (Landing Page)**
+1. ¿Qué problema resuelve esta plataforma para ti como postulante?
+2. ¿Los beneficios mostrados son atractivos para tu búsqueda laboral?
+3. ¿Confiarías en esta plataforma para buscar empleo? ¿Por qué?
+
+**Durante la Interacción (Aplicación)**
+4. ¿Fue fácil encontrar vacantes relevantes para ti?
+5. ¿Los filtros disponibles son suficientes? ¿Qué otro filtro agregarías?
+6. ¿La información de la vacante es clara y completa?
+7. ¿El proceso de postulación fue simple? ¿Qué esperabas que sucediera?
+8. ¿Entiendes claramente en qué estado está tu postulación?
+9. ¿Fue intuitivo actualizar tu perfil?
+
+**Post-Interacción**
+10. Del 1 al 10, ¿qué tan probable es que uses esta app para buscar empleo?
+11. ¿Qué es lo que MÁS te facilitó la búsqueda de empleo?
+12. ¿Qué es lo que MÁS te frustró durante la experiencia?
+13. Si pudieras agregar una funcionalidad, ¿cuál sería?
+
+##### Métricas de Éxito
+
+| Métrica | Objetivo |
+|:--------|:---------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
+| Tasa de éxito | ≥ 85% de tareas completadas sin ayuda |
+| Errores críticos | Máximo 1 error por user flow |
+| Satisfacción | Puntuación promedio ≥ 7/10 |
+| Intención de uso | ≥ 70% con puntuación ≥ 8/10 |
+
+---
+
+#### Estructura General de la Sesión de Validación
+
+| Fase | Duración | Actividades |
+|:-----|:--------:|:-----------|
+| **1. Bienvenida e Introducción** | 5 min | Presentación del equipo, objetivo, consentimiento informado, aclaraciones |
+| **2. Preguntas de Contexto** | 5 min | Datos demográficos, experiencia previa, expectativas |
+| **3. Validación Landing Page** | 10 min | Navegación libre, primeras impresiones, preguntas guiadas |
+| **4. Validación Aplicación** | 25-30 min | Ejecución de tareas, "Think Aloud Protocol", registro de observaciones |
+| **5. Cierre y Feedback** | 5-10 min | Preguntas post-interacción, sugerencias, agradecimiento |
+
+**Duración Total:** 45-60 minutos por entrevistado
+
+---
+
+#### Materiales y Recursos Necesarios
+
+**Equipamiento Técnico**
+- Dispositivo móvil Android con la aplicación o prototipo navegable
+- Laptop/tablet para mostrar el Landing Page
+- Cámara/dispositivo para grabar la sesión (video y audio)
+- Consentimiento informado impreso o digital
+- Conexión a internet estable
+
+**Documentación**
+- Guión de entrevista impreso
+- Checklist de tareas por segmento
+- Formato de registro de observaciones
+- Formato de evaluación heurística
+
+**Prototipos**
+- Landing Page funcional o mockup navegable
+- Prototipo de aplicación móvil Android
+- Datos de prueba pre-cargados (vacantes y perfiles ejemplo)
+
+---
+
+#### Protocolo de Conducción de Entrevistas
+
+**Instrucciones para el Entrevistador**
+
+| # | Instrucción |
+|:-:|:-----------|
+| 1 | Mantener neutralidad: No influenciar las respuestas del usuario |
+| 2 | Observar sin interrumpir: Dejar que el usuario explore libremente |
+| 3 | Usar "Think Aloud Protocol": Pedir verbalización de pensamientos |
+| 4 | Registrar todo: Anotar comentarios, gestos, tiempos de hesitación |
+| 5 | No ayudar inmediatamente: Esperar 10-15 segundos antes de intervenir |
+| 6 | Hacer preguntas abiertas: "¿Qué piensas?" vs "¿Te gusta?" |
+
+**Frases Útiles Durante la Sesión**
+- "Ve pensando en voz alta mientras realizas la tarea"
+- "¿Qué esperabas que sucediera?"
+- "¿Hay algo que te confunda en esta pantalla?"
+- "Si tuvieras que buscar [X], ¿dónde lo buscarías?"
+- "No te preocupes, no hay respuestas correctas o incorrectas"
+
+---
+
+#### Criterios de Selección de Entrevistados
+
+**Segmento 1: Reclutadores**
+- Mínimo 1 año de experiencia en procesos de contratación
+- Haber publicado al menos 5 vacantes en el último año
+- Experiencia usando herramientas digitales de reclutamiento
+- Diversidad: Empresas de diferentes tamaños y sectores
+
+**Segmento 2: Postulantes**
+- Usuarios activamente buscando empleo o abiertos a oportunidades
+- Haber postulado a al menos 3 vacantes en los últimos 6 meses
+- Usuarios de smartphones Android
+- Diversidad: Diferentes niveles de experiencia y sectores
+
+---
+
+---
 ### **4.3.2. Registro de Entrevistas**
+
+---
+
+#### **Segmento 1: Equipos de Recursos Humanos (Reclutadores)**
+
+---
+
+##### **Entrevista 1**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Ayling |
+| **Apellidos** | Rocha Bobadilla |
+| **Edad** | 32 años |
+| **Distrito** | San Isidro, Lima |
+| **Cargo Actual** | Encargada de Recursos Humanos |
+| **Empresa** | AFE SERVICE SAC |
+| **Timing** | 00:00 - 06:45 |
+| **Duración** | 6 minutos 45 segundos |
+
+**Resumen de la Entrevista:**
+
+Ayling revisó el landing page y los mockups de la aplicación. Le gustó la propuesta de valor del landing, dijo que era claro y directo. Al ver los mockups de la app comentó que la interfaz se veía limpia y fácil de entender. 
+
+Mencionó que el formulario para crear vacantes se ve simple y que los filtros para ver postulaciones están bien organizados. Sugirió que sería útil tener plantillas de vacantes guardadas. En general, todo le pareció intuitivo y dijo que sí lo usaría.
+
+**Puntuación: 8/10**
+
+---
+
+##### **Entrevista 2**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Silvana |
+| **Apellidos** | Gramegna Lerzundi |
+| **Edad** | 28 años |
+| **Distrito** | Miraflores, Lima |
+| **Cargo Actual** | Analista de Reclutamiento y Selección |
+| **Empresa** | NOTA & PRENSA SAC |
+| **Timing** | 00:00 - 05:30 |
+| **Duración** | 5 minutos 30 segundos |
+
+**Resumen de la Entrevista:**
+
+Silvana revisó el landing page y le gustaron los testimonios que aparecen. Al ver los mockups dijo que el diseño es moderno y agradable. Comentó que el botón para crear nueva vacante podría ser más grande o de otro color para que destaque más.
+
+Le gustó cómo se ve la lista de postulaciones y que tenga filtros. Dijo que el flujo en general se ve fácil de seguir. Sugirió agregar notificaciones cuando lleguen nuevas postulaciones.
+
+**Puntuación: 8/10**
+
+---
+
+##### **Entrevista 3**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Roberto |
+| **Apellidos** | Sagardia Mejia |
+| **Edad** | 35 años |
+| **Distrito** | Surco, Lima |
+| **Cargo Actual** | Analista de Reclutamiento y Selección |
+| **Empresa** | FUTURA GROUP SAC |
+| **Timing** | 00:00 - 07:15 |
+| **Duración** | 7 minutos 15 segundos |
+
+**Resumen de la Entrevista:**
+
+Roberto navegó por el landing y los mockups. Dijo que la propuesta está clara pero que le gustaría ver más estadísticas o números en el landing (como "ahorra 50% de tiempo"). 
+
+Al revisar los mockups comentó que todo se ve bien organizado. Mencionó que sería útil poder duplicar vacantes para no tener que crear todo desde cero cada vez. En general le pareció una buena herramienta y que sí la usaría en su trabajo.
+
+**Puntuación: 7/10**
+
+---
+
+#### **Segmento 2: Postulantes (Candidatos)**
+
+---
+
+##### **Entrevista 1**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Darikson |
+| **Apellidos** | Brito Enrique |
+| **Edad** | 29 años |
+| **Distrito** | Los Olivos, Lima |
+| **Ocupación Actual** | Analista TI |
+| **Empresa Actual** | AFE SERVICE SAC |
+| **Timing** | 00:00 - 06:20 |
+| **Duración** | 6 minutos 20 segundos |
+
+**Resumen de la Entrevista:**
+
+Darikson revisó el landing page y dijo que se ve bien, entiende que es para buscar trabajo. Al ver los mockups de la app le gustó que la búsqueda de vacantes se ve simple y rápida. 
+
+Comentó que los filtros están bien pero que los íconos son un poco pequeños. Le gustó que postularse sea con un solo clic. Mencionó que no queda muy claro qué significa cada estado de postulación (En revisión, Aceptado, etc.). En general todo le pareció fácil de usar.
+
+**Puntuación: 8/10**
+
+---
+
+##### **Entrevista 2**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Delia |
+| **Apellidos** | Duran Jimenez |
+| **Edad** | 42 años |
+| **Distrito** | San Juan de Lurigancho, Lima |
+| **Ocupación Actual** | Administrador |
+| **Empresa Actual** | DR IMPOR SAC |
+| **Timing** | 00:00 - 07:00 |
+| **Duración** | 7 minutos |
+
+**Resumen de la Entrevista:**
+
+Delia navegó por el landing y los mockups. Dijo que el landing explica bien para qué sirve la app. Al ver los mockups comentó que todo se ve ordenado pero que los botones de filtro son pequeños y difíciles de ver.
+
+Le gustó que muestre toda la información de la vacante (salario, beneficios). Dijo que sería bueno poder adjuntar certificados en el perfil. En general le pareció una app útil y fácil de entender.
+
+**Puntuación: 7/10**
+
+---
+
+##### **Entrevista 3**
+
+| Datos del Entrevistado | Información |
+|:----------------------|:-----------|
+| **Nombres** | Victor |
+| **Apellidos** | Calero Ruiz |
+| **Edad** | 26 años |
+| **Distrito** | Villa El Salvador, Lima |
+| **Ocupación Actual** | Administrador |
+| **Empresa Actual** | CONSULDIIN PERU E.I.R.L. |
+| **Timing** | 00:00 - 05:50 |
+| **Duración** | 5 minutos 50 segundos |
+
+**Resumen de la Entrevista:**
+
+Victor revisó el landing y los mockups rápidamente. Dijo que el diseño es moderno y se ve bien. Le gustó la velocidad de búsqueda y que postularse sea rápido.
+
+Comentó que falta un filtro por salario y que sería útil conectar con LinkedIn. En general todo le pareció intuitivo y fácil de usar.
+
+**Puntuación: 8/10**
+
+---
+
 ### **4.3.3. Evaluaciones según heurísticas**
+---
+#### **UX Heuristics & Principles Evaluation**
+**Usability - Inclusive Design - Information Architecture**
 
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Moviles 
+**SECCIÓN:** 1ACC0238
+**NRC:** 12612
+**AUDITOR:** Equipo de Desarrollo  
+**CLIENTES:** Ayling Rocha, Silvana Gramegna, Roberto Sagardia, Darikson Brito, Delia Duran, Victor Calero
 
+**SITE o APP A EVALUAR:**  
+Plataforma de Reclutamiento - Landing Page (Producción) y Mockups de Aplicación Móvil Android
 
+---
 
+#### **TABLA RESUMEN:**
 
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|:--|:---------|:-------------------:|:--------------------------------|
+| 1 | Botón "Nueva Vacante" poco visible | 2 | Usability: Visibilidad y reconocimiento |
+| 2 | Estados de postulación sin explicación clara | 2 | Usability: Lenguaje claro y comprensible |
+| 3 | Íconos de filtros muy pequeños | 2 | Inclusive Design: Accesibilidad visual |
 
+---
 
+#### **DESCRIPCIÓN DE PROBLEMAS:**
 
+---
 
+##### **PROBLEMA #1: Botón "Nueva Vacante" poco visible**
 
+**Severidad:** 2
 
+**Heurística violada:** Usability - Visibilidad y reconocimiento
 
+**Problema:**
 
+En los mockups de la aplicación, Silvana mencionó que el botón para crear una nueva vacante podría ser más visible. El botón actual tiene el mismo tamaño y color que otros elementos secundarios, lo que hace que no destaque como una acción principal.
 
+Esto puede hacer que los reclutadores tarden más tiempo en encontrar esta función importante.
 
+**Recomendación:**
+
+Hacer el botón "Nueva Vacante" más grande y usar un color que destaque más (como azul o verde brillante). También se podría poner en una posición más visible en la pantalla.
+
+---
+
+##### **PROBLEMA #2: Estados de postulación sin explicación clara**
+
+**Severidad:** 2
+
+**Heurística violada:** Usability - Lenguaje claro y comprensible
+
+**Problema:**
+
+Darikson comentó que en los mockups no queda claro qué significa cada estado de postulación. Los estados como "En revisión" o "Aceptado" no tienen una descripción que explique qué significa para el postulante.
+
+Esto puede generar confusión en los usuarios sobre el estado real de su postulación.
+
+**Recomendación:**
+
+Agregar un texto breve debajo de cada estado que explique qué significa (por ejemplo: "En revisión: La empresa está evaluando tu perfil"). También se podría agregar un ícono de información con más detalles.
+
+---
+
+##### **PROBLEMA #3: Íconos de filtros muy pequeños**
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design - Accesibilidad visual
+
+**Problema:**
+
+Tanto Darikson como Delia mencionaron que los íconos de los filtros en los mockups son pequeños y difíciles de ver. Delia específicamente comentó que por su edad le cuesta ver elementos muy pequeños en la pantalla.
+
+Esto afecta la facilidad de uso, especialmente para usuarios mayores o con problemas de visión.
+
+**Recomendación:**
+
+Aumentar el tamaño de los íconos de filtros y agregar texto junto a cada ícono para que sea más fácil identificarlos. También aumentar el espacio entre cada botón de filtro.
+
+---
 
 ## Conclusiones
 - _Implementación de buenas prácticas en el desarrollo:_
@@ -1570,8 +5908,6 @@ A continuación se expone el modelo relacional que respalda el bounded context P
 <hr>
 
 ## Anexos
-- Landing Page: https://landing-page-jobsy.web.app
-- Aplicacion Web: http://front-appweb-f507a.web.app
-- BackEnd: https://app-250706133042.azurewebsites.net/swagger/index.html
-- Diapositivas: https://www.canva.com/design/DAGlgdMhimU/Wz9BPm5R0OsJbrq1yr6M7w/edit?utm_content=DAGlgdMhimU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- Landing Page: https://landing-page-jobsy.web.app/
+- BackEnd: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger/index.html
 - Video About the Team: https://youtu.be/of73YuU1jbY
