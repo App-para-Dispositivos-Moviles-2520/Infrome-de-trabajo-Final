@@ -2,15 +2,15 @@
 
 <img src="img/logo_upc.png" alt="Logo UPC" width="100"/>
 
-# Universidad Peruana De Ciencias Aplicadas
+# Universidad Peruana de Ciencias Aplicadas
 
 ## Ingeniería de Software
 
 ### Informe de Trabajo Final
 
-### Desarrollo de Aplicaciones Moviles
+### Desarrollo de Aplicaciones Móviles
 
-**Sección:** 
+**NRC:** 
 12612
 
 **Profesor:**  
@@ -20,15 +20,15 @@ Quevedo Velasco, David Gerardo
 **Integrantes:**
 <div style="text-align: left; display: inline-block;">
     <ul>
-        <li>Peralta Chipa Ronald Joel - U202224619</li>
-        <li>Ricardo Fernando Cardenas Minaya - U202310004</li>
-        <li>Raul Roberto Sanchez Cruz - U201518942</li>
-        <li>Javier Oswaldo Tello Murga - U202218387</li>
-        <li>Yair Christofer Aru Acevedo - U202125984</li>
+        <li>Yair Christofer Aru Acevedo        U202125984</li>
+        <li>Ricardo Fernando Cardenas Minaya   U202310004</li>    
+        <li>Peralta Chipa Ronald Joel          U202224619</li>
+        <li>Raul Roberto Sanchez Cruz          U201518942</li>
+        <li>Javier Oswaldo Tello Murga         U202218387</li>
     </ul>
 </div>
 
-**2025 - 02**
+**202520**
 
 </div>
 
@@ -66,10 +66,10 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 ### Tabla de contenidos
 
-- [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
   - [Ingeniería de Software](#ingeniería-de-software)
     - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [Desarrollo de Aplicaciones Moviles](#desarrollo-de-aplicaciones-moviles)
+    - [Desarrollo de Aplicaciones Móviles](#desarrollo-de-aplicaciones-móviles)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
