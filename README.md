@@ -6,33 +6,35 @@
 
 ## Ingeniería de Software
 
+**Periodo:** 202520
+
+**1ACC0238 | Aplicaciones para Dispositivos Móviles**
+
+**NRC:** 12612
+
+**Docente:**  Quevedo Velasco, David Gerardo
+
+---
+
 ### Informe de Trabajo Final
 
-### Desarrollo de Aplicaciones Móviles
+**Startup:** SmartHire
 
-**NRC:** 
-12612
+**Producto:** Jobsy
 
-**Profesor:**  
-
-Quevedo Velasco, David Gerardo
-
-**Integrantes:**
 <div style="text-align: left; display: inline-block;">
     <ul>
-        <li>Yair Christofer Aru Acevedo        U202125984</li>
-        <li>Ricardo Fernando Cardenas Minaya   U202310004</li>    
-        <li>Peralta Chipa Ronald Joel          U202224619</li>
-        <li>Raul Roberto Sanchez Cruz          U201518942</li>
-        <li>Javier Oswaldo Tello Murga         U202218387</li>
+        <li>U202125984 - Yair Christofer Aru Acevedo</li>
+        <li>U202310004 - Ricardo Fernando Cardenas Minaya</li>    
+        <li>U202224619 - Peralta Chipa Ronald Joel</li>
+        <li>U201518942 - Raul Roberto Sanchez Cruz</li>
+        <li>U202218387 - Javier Oswaldo Tello Murga</li>
     </ul>
 </div>
 
-**202520**
+**Octubre 2025**
 
 </div>
-
----
 
 # <font color="red">**Registro de Versiones del Informe**</font>
 
@@ -69,7 +71,6 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 - [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
   - [Ingeniería de Software](#ingeniería-de-software)
     - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [Desarrollo de Aplicaciones Móviles](#desarrollo-de-aplicaciones-móviles)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
