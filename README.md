@@ -2,9 +2,9 @@
 
 <img src="img/logo_upc.png" alt="Logo UPC" width="100"/>
 
-# Universidad Peruana de Ciencias Aplicadas
+## Universidad Peruana de Ciencias Aplicadas
 
-## Ingeniería de Software
+### Ingeniería de Software
 
 **Periodo:** 202520
 
@@ -22,17 +22,19 @@
 
 **Producto:** Jobsy
 
+**Integrantes:**
+
 <div style="text-align: left; display: inline-block;">
-    <ul>
-        <li>U202125984 - Yair Christofer Aru Acevedo</li>
-        <li>U202310004 - Ricardo Fernando Cardenas Minaya</li>    
-        <li>U202224619 - Peralta Chipa Ronald Joel</li>
-        <li>U201518942 - Raul Roberto Sanchez Cruz</li>
-        <li>U202218387 - Javier Oswaldo Tello Murga</li>
-    </ul>
+    <ol style="list-style: none;">
+        <li>U202125984 - Aru Acevedo, Yair Christofer</li>
+        <li>U202310004 - Cardenas Minaya, Ricardo Fernando</li>    
+        <li>U202224619 - Peralta Chipa, Ronald Joel</li>
+        <li>U201518942 - Sanchez Cruz, Raul Roberto</li>
+        <li>U202218387 - Tello Murga, Javier Oswaldo</li>
+    </ol>
 </div>
 
-**Octubre 2025**
+**Noviembre 2025**
 
 </div>
 
@@ -68,9 +70,6 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 ### Tabla de contenidos
 
-- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
-  - [Ingeniería de Software](#ingeniería-de-software)
-    - [Informe de Trabajo Final](#informe-de-trabajo-final)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
@@ -1052,7 +1051,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <td colspan="4">
       <strong>Escenario 1: Actualización válida</strong><br/>
       • Dado que la vacante está activa<br/>
-      • Cuando el reclutador modifica los campos permitidos y guarda los cambios<br/>
+      • Cuando el reclutador modifica la información requerida y guarda los cambios<br/>
       • Entonces los cambios se reflejan correctamente en la vacante.<br/><br/>
       <strong>Escenario 2: Vacante cerrada</strong><br/>
       • Dado que la vacante está cerrada<br/>
