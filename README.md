@@ -5476,9 +5476,9 @@ Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services p
 
 
 - Evidencia del Product Backlog - Sprint 2 en Trello:
-<img src="img/ProductBacklog-Smarthire-Sprint1.png" alt="productbacklog-Sprint1" width= 1000/>
+<img src="img/sprint2-backlog.png" alt="productbacklog-Sprint2" width= 1000/>
 
-- Link del Product Backlog - Sprint 2 en Trello: [https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1](https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1)
+- Link del Product Backlog - Sprint 2 en Trello: [https://trello.com/b/rOuDgxJW/product-backlog-smarthire-sprint-2](https://trello.com/b/rOuDgxJW/product-backlog-smarthire-sprint-2)
 
 #### **4.2.2.3. Development Evidence for Sprint Review**
 Se realizaron los avances con los commits de la siguiente forma.
@@ -5490,9 +5490,12 @@ Se realizaron los avances con los commits de la siguiente forma.
 | Infrome-de-trabajo-Final | develop | 1e1d1d6cd5f235553682afcc2c531a393b3380cf |                 update: changed presentation                 |     29/10/2025      |
 | Infrome-de-trabajo-Final | develop | be3a8bb4d170abcf136d78cae689e1446f12c099 |                 update: updated presentation                 |     07/10/2025      |
 | Infrome-de-trabajo-Final | develop | 058c3d5eb997e0ea1cb614096a76471a545a4abf |                 update: updated presentation                 |     07/10/2025      |
-| Infrome-de-trabajo-Final | develop | 2ab1eea35cfaa3a4b9c51858ef036207adac37d1 | feat(chapter-02): added bounded context canvas publicaciones |     08/10/2025      |
-| Infrome-de-trabajo-Final | develop | 0f376411bb2ff27becaeee761bb001537e85684f |  feat(chapter-02): added bounded context canvas analiticas   |     08/10/2025      |
-| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 |  feat(chapter-02): added bounded context canvas candidatos   |     08/10/2025      |
+| Infrome-de-trabajo-Final | develop | 0d16ba6933063f3ae2057e5fdd378079c4fc72c8 | docs: added sprint 2 |     12/11/2025      |
+| Infrome-de-trabajo-Final | develop | 7ea371f944002b03aede8c44eb54108b48c02261 |  feat(chapter-02): update order of user stories, technical stories and spike stories in product backlog.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 |  fix(chapter-02): fixed titles in product backlog.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 5da1ef33958e4d08c3dd71aa9dfe5acf72fbf1df |  feat(chapter-02): update user stories, spike stories and technical stories.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | cc9aef0d6bc6e29a122578c796590ec545e93092 |  fix(chapter-02): fix tables.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 7f8e7d8b231f25c511e7219e71616b53209ac26c |  arrangement of user User Flow Diagrams   |     13/11/2025      |
 
 #### **4.2.2.4. Testing Suite Evidence for Sprint Review**
 
