@@ -4002,75 +4002,75 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 
 ## **2.4.3. Product Backlog**
 
-| Orden | User Story Id | Título                                                                     | Story Points (1/2/3/5/8) |
-|-------|---------------|----------------------------------------------------------------------------|--------------------------|
-| 58    | TS008         | API REST para procesamiento de pagos                                       | 8                        |
-| 41    | SP006         | Optimización del Rendimiento y Carga Inicial de la App                     | 8                        |
-| 36    | SP001         | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | 5                        |
-| 37    | SP002         | Autenticación Segura con JWT y Control de Sesiones                         | 5                        |
-| 43    | SP008         | Implementación de Control de Versiones y CI/CD Automatizado                | 5                        |
-| 51    | TS001         | API de autenticación con JWT                                               | 5                        |
-| 52    | TS002         | API REST para gestión completa de vacantes                                 | 5                        |
-| 53    | TS003         | API REST para gestión de postulaciones                                     | 5                        |
-| 54    | TS004         | API REST para programación de entrevistas                                  | 5                        |
-| 55    | TS005         | API REST para notificaciones push                                          | 5                        |
-| 59    | TS009         | API REST para reportes y analytics                                         | 5                        |
-| 40    | US040         | Iniciar sesión con redes sociales                                          | 5                        |
-| 21    | US021         | Sugerencia de candidatos                                                   | 5                        |
-| 12    | US012         | Enviar oferta laboral                                                      | 5                        |
-| 10    | US010         | Agendar entrevista                                                         | 3                        |
-| 11    | US011         | Registrar resultado de entrevista                                          | 3                        |
-| 20    | US020         | Eliminar mi cuenta permanentemente                                         | 3                        |
-| 22    | US022         | Recomendación de vacantes                                                  | 3                        |
-| 23    | US023         | Puntaje automático de CVs                                                  | 3                        |
-| 24    | US024         | Recibir notificaciones de vacantes                                         | 3                        |
-| 26    | US026         | Ver calendario de entrevistas                                              | 3                        |
-| 27    | US027         | Reprogramar entrevista                                                     | 3                        |
-| 28    | US028         | Solicitar soporte                                                          | 3                        |
-| 29    | US029         | Responder solicitud de soporte                                             | 3                        |
-| 30    | US030         | Registrar método de pago                                                   | 3                        |
-| 31    | US031         | Realizar pago                                                              | 3                        |
-| 35    | US035         | Cambiar contraseña                                                         | 3                        |
-| 36    | US036         | Recuperar contraseña olvidada                                              | 3                        |
-| 37    | US037         | Activar autenticación de dos factores (2FA)                                | 3                        |
-| 56    | TS006         | API REST para búsqueda y filtros de vacantes                               | 3                        |
-| 57    | TS007         | API REST para gestión de perfiles de usuario                               | 3                        |
-| 60    | TS010         | API REST para carga de archivos (CVs y documentos)                         | 3                        |
-| 38    | SP003         | Sincronización de Datos Offline-Online                                     | 3                        |
-| 39    | SP004         | Notificaciones Push en Tiempo Real                                         | 3                        |
-| 40    | SP005         | Implementación de Pagos Integrados con Pasarela                            | 3                        |
-| 42    | SP007         | Gestión de Logs Centralizados y Monitoreo en Azure                         | 3                        |
-| 4     | US004         | Buscar y listar vacantes disponibles                                       | 2                        |
-| 6     | US006         | Aplicar a vacante                                                          | 2                        |
-| 7     | US007         | Ver postulaciones recibidas                                                | 2                        |
-| 8     | US008         | Filtrar postulaciones                                                      | 2                        |
-| 9     | US009         | Ver estado de mis postulaciones                                            | 2                        |
-| 15    | US015         | Iniciar sesión en la plataforma                                            | 2                        |
-| 17    | US017         | Editar perfil profesional                                                  | 2                        |
-| 19    | US019         | Configurar perfil                                                          | 2                        |
-| 25    | US025         | Recibir notificaciones de postulaciones                                    | 2                        |
-| 32    | US032         | Ver historial de pagos                                                     | 2                        |
-| 33    | US033         | Configurar notificaciones                                                  | 2                        |
-| 34    | US034         | Configurar idioma y zona horaria                                           | 2                        |
-| 38    | US038         | Asignar rol de reclutador                                                  | 2                        |
-| 39    | US039         | Asignar rol de postulante                                                  | 2                        |
-| 41    | US041         | Compartir vacante en redes sociales                                        | 2                        |
-| 42    | US042         | Compartir perfil en redes sociales                                         | 2                        |
-| 43    | US043         | Comentar sobre vacantes                                                    | 2                        |
-| 44    | US044         | Comentar sobre el proceso de selección                                     | 2                        |
-| 45    | US045         | Ver hero y propuesta de valor de la plataforma                             | 2                        |
-| 46    | US046         | Ver sección de beneficios para empresas                                    | 2                        |
-| 47    | US047         | Ver sección de beneficios para postulantes                                 | 2                        |
-| 48    | US048         | Ver testimonios y casos de éxito                                           | 2                        |
-| 50    | US050         | Contactar al equipo mediante formulario                                    | 2                        |
-| 1     | US001         | Crear nueva vacante                                                        | 1                        |
-| 2     | US002         | Editar vacante existente                                                   | 1                        |
-| 3     | US003         | Cerrar vacante                                                             | 1                        |
-| 5     | US005         | Ver detalle completo de una vacante                                        | 1                        |
-| 13    | US013         | Registrar cuenta de postulante                                             | 1                        |
-| 14    | US014         | Registrar cuenta de reclutador                                             | 1                        |
-| 16    | US016         | Cerrar sesión                                                              | 1                        |
-| 49    | US049         | Ver call-to-action de registro                                             | 1                        |
+| Orden | User Story Id | Título                                                                  | Story Points (1/2/3/5/8) |
+|-------|---------------|-------------------------------------------------------------------------|--------------------------|
+| 58    | TS008         | API REST para procesamiento de pagos                                    | 8                        |
+| 41    | SP006         | Optimizar del Rendimiento y Carga Inicial de la App                     | 8                        |
+| 36    | SP001         | Integrar de Inteligencia Artificial para Recomendaciones Personalizadas | 5                        |
+| 37    | SP002         | Autenticar Segura con JWT y Control de Sesiones                         | 5                        |
+| 43    | SP008         | Implementar de Control de Versiones y CI/CD Automatizado                | 5                        |
+| 51    | TS001         | API de autenticación con JWT                                            | 5                        |
+| 52    | TS002         | API REST para gestión completa de vacantes                              | 5                        |
+| 53    | TS003         | API REST para gestión de postulaciones                                  | 5                        |
+| 54    | TS004         | API REST para programación de entrevistas                               | 5                        |
+| 55    | TS005         | API REST para notificaciones push                                       | 5                        |
+| 59    | TS009         | API REST para reportes y analytics                                      | 5                        |
+| 40    | US040         | Iniciar sesión con redes sociales                                       | 5                        |
+| 21    | US021         | Sugerir candidatos                                                      | 5                        |
+| 12    | US012         | Enviar oferta laboral                                                   | 5                        |
+| 10    | US010         | Agendar entrevista                                                      | 3                        |
+| 11    | US011         | Registrar resultado de entrevista                                       | 3                        |
+| 20    | US020         | Eliminar mi cuenta permanentemente                                      | 3                        |
+| 22    | US022         | Recomendar vacantes                                                     | 3                        |
+| 23    | US023         | Puntuar CVs automáticamente                                             | 3                        |
+| 24    | US024         | Recibir notificaciones de vacantes                                      | 3                        |
+| 26    | US026         | Ver calendario de entrevistas                                           | 3                        |
+| 27    | US027         | Reprogramar entrevista                                                  | 3                        |
+| 28    | US028         | Solicitar soporte                                                       | 3                        |
+| 29    | US029         | Responder solicitud de soporte                                          | 3                        |
+| 30    | US030         | Registrar método de pago                                                | 3                        |
+| 31    | US031         | Realizar pago                                                           | 3                        |
+| 35    | US035         | Cambiar contraseña                                                      | 3                        |
+| 36    | US036         | Recuperar contraseña olvidada                                           | 3                        |
+| 37    | US037         | Activar autenticación de dos factores (2FA)                             | 3                        |
+| 56    | TS006         | API REST para búsqueda y filtros de vacantes                            | 3                        |
+| 57    | TS007         | API REST para gestión de perfiles de usuario                            | 3                        |
+| 60    | TS010         | API REST para carga de archivos (CVs y documentos)                      | 3                        |
+| 38    | SP003         | Sincronizar Datos Offline-Online                                        | 3                        |
+| 39    | SP004         | Notificar Push en Tiempo Real                                           | 3                        |
+| 40    | SP005         | Implementar Pagos Integrados con Pasarela                               | 3                        |
+| 42    | SP007         | Gestionar Logos Centralizados y Monitoreo en Azure                      | 3                        |
+| 4     | US004         | Buscar y listar vacantes disponibles                                    | 2                        |
+| 6     | US006         | Aplicar a vacante                                                       | 2                        |
+| 7     | US007         | Ver postulaciones recibidas                                             | 2                        |
+| 8     | US008         | Filtrar postulaciones                                                   | 2                        |
+| 9     | US009         | Ver estado de mis postulaciones                                         | 2                        |
+| 15    | US015         | Iniciar sesión en la plataforma                                         | 2                        |
+| 17    | US017         | Editar perfil profesional                                               | 2                        |
+| 19    | US019         | Configurar perfil                                                       | 2                        |
+| 25    | US025         | Recibir notificaciones de postulaciones                                 | 2                        |
+| 32    | US032         | Ver historial de pagos                                                  | 2                        |
+| 33    | US033         | Configurar notificaciones                                               | 2                        |
+| 34    | US034         | Configurar idioma y zona horaria                                        | 2                        |
+| 38    | US038         | Asignar rol de reclutador                                               | 2                        |
+| 39    | US039         | Asignar rol de postulante                                               | 2                        |
+| 41    | US041         | Compartir vacante en redes sociales                                     | 2                        |
+| 42    | US042         | Compartir perfil en redes sociales                                      | 2                        |
+| 43    | US043         | Comentar sobre vacantes                                                 | 2                        |
+| 44    | US044         | Comentar sobre el proceso de selección                                  | 2                        |
+| 45    | US045         | Ver hero y propuesta de valor de la plataforma                          | 2                        |
+| 46    | US046         | Ver sección de beneficios para empresas                                 | 2                        |
+| 47    | US047         | Ver sección de beneficios para postulantes                              | 2                        |
+| 48    | US048         | Ver testimonios y casos de éxito                                        | 2                        |
+| 50    | US050         | Contactar al equipo mediante formulario                                 | 2                        |
+| 1     | US001         | Crear nueva vacante                                                     | 1                        |
+| 2     | US002         | Editar vacante existente                                                | 1                        |
+| 3     | US003         | Cerrar vacante                                                          | 1                        |
+| 5     | US005         | Ver detalle completo de una vacante                                     | 1                        |
+| 13    | US013         | Registrar cuenta de postulante                                          | 1                        |
+| 14    | US014         | Registrar cuenta de reclutador                                          | 1                        |
+| 16    | US016         | Cerrar sesión                                                           | 1                        |
+| 49    | US049         | Ver call-to-action de registro                                          | 1                        |
 
 
 - Evidencia del Product Backlog en Trello:
