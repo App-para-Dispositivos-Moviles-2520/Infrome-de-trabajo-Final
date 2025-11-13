@@ -5109,21 +5109,70 @@ User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera.
 
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 
-![USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR](img/USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR.png)
+| **User Goal** |
+|---------------|
+| Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. |
+| ![inicioSesion](img/usw1.png) |
+| El usuario podrá iniciar sesión en la aplicación una vez haya creado una cuenta previamente. Al acceder, la aplicación mostrará el panel principal correspondiente, dependiendo del tipo de usuario: si es un Reclutador, verá opciones relacionadas con la gestión de ofertas de empleo, búsqueda de candidatos y otras funcionalidades específicas. |
 
-![USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES](img/USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES.png)
 
-![USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR](img/USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR.png)
+| **User Goal** |
+|---------------|
+| Como usuario, deseo crear una cuenta para iniciar sesión en la aplicación. |
+| ![mensajesPOS](img/usw2.png) |
+| El usuario entra a la aplicación. Si es nuevo, da clic en “Registrarse”, lo que lo manda a otra pantalla donde llena un formulario con sus datos. Luego confirma que se quiere registrar y será dirigido a una pantalla con la confirmación de que se registró. En caso contrario, si ya tiene cuenta, puede iniciar sesión de manera directa. |
 
-![USER-FLOW-DIAGRAM-CREAR-CUENTA](img/USER-FLOW-DIAGRAM-CREAR-CUENTA.png)
 
-![USER-FLOW-DIAGRAM-EDITAR-PERFIL](img/USER-FLOW-DIAGRAM-EDITAR-PERFIL.png)
+| **User Goal** |
+|---------------|
+| Como Reclutador, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera. Además, de poder ver los candidatos que postularón |
+| ![inicioSesion](img/usw3.png) |
+| El reclutador puede crear una nueva publicacion de trabajo y si por accidente cometió un error, tiene la facilidad de precionar los 3 botones de "ver, editar o eliminar" segun sea lo que necesite hacer. También, puede vizualizar los candidatos que postularon a dichas publicaciones filtrar por categorías.  |
 
-![USER-FLOW-DIAGRAM-INICIO-SESION](img/USER-FLOW-DIAGRAM-INICIO-SESION.png)
 
-![USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE](img/USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE.png)
+| **User Goal** |
+|---------------|
+| Como Reclutador, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas y un calendario para mejor organizacion. |
+| ![analiticass](img/usw4.png) |
+| El reclutador puede ver en graficos estadisticos las publicaciones con mayor vizualización o demanda, esto para tener un mejor control de sus publicaciones y estar al tanto de fechas, y eventos.  |
 
-![USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR](img/USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR.png)
+
+| **User Goal** |
+|---------------|
+| Como Reclutador, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento |
+| ![IA](img/usw5.png) |
+| El Reclutador tiene la opción de realizar un análisis detallado utilizando la inteligencia artificial propia de Jobsy. Gracias a esta herramienta avanzada, el reclutador puede evaluar automáticamente las candidaturas de los postulantes, lo que facilita la toma de decisiones al poder descartar o aceptar candidatos de manera más rápida y precisa. Este sistema de IA permite reducir significativamente las tareas repetitivas y manuales, como la revisión de currículums y las entrevistas preliminares, agilizando el proceso de selección y mejorando la eficiencia en la gestión de los recursos humanos.  |
+
+
+| **User Goal** |
+|---------------|
+| Como Reclutador deseo tener un perfil de empresa y poder editarlo cuando quiera. |
+| ![perfilRECLU](img/usw6.png) |
+| El Reclutador tiene la posibilidad de editar su información personal en cualquier momento. Para hacerlo, simplemente debe hacer clic en el ícono de perfil ubicado en la interfaz de la aplicación. Al acceder a su perfil, podrá modificar datos como nombre, correo electrónico, cargo, entre otros. |
+
+
+| **User Goal** |
+|---------------|
+| Como Postulante, deseo ver todas las postulaciones que realice |
+| ![mensajesPOS](img/usw7.png) ![mensajesPOS](img/usw71.png) |
+| El Postulante tiene la posibilidad de visualizar y realizar nuevas postulaciones directamente desde la aplicación. Al ingresar a la sección correspondiente, podrá consultar las ofertas de empleo disponibles según su perfil e intereses. Al pulsar el botón “Postular”, la aplicación mostrará las vacantes activas, permitiéndole seleccionar aquellas que desee solicitar. |
+
+
+| **User Goal** |
+|---------------|
+| Como Postulante, deseo recibir mensajes de las empresas para saber el estado de mi postulación. |
+| ![mensajesPOS](img/usw8.png) |
+| El Postulante puede recibir mensajes directamente dentro de la aplicación, lo que le permite mantenerse informado en todo momento sobre las novedades, instrucciones o comentarios enviados por los reclutadores. |
+
+
+| **User Goal** |
+|---------------|
+| Como Postulante, deseo tener un perfil que pueda editar cuando quiera |
+| ![mensajesPOS](img/usw9.png) |
+| El Postulante tiene la posibilidad de editar su información personal directamente desde la aplicación. Para hacerlo, debe pulsar el ícono de perfil, donde podrá acceder a sus datos personales y realizar las modificaciones necesarias, como actualizar su nombre, correo electrónico, experiencia laboral o cualquier otra información relevante. |
+
+
+link: https://drive.google.com/file/d/10XsFh9GxYhc97sIjRhbqTRdJDshmPW3B/view?usp=drive_link
 
 #### **3.1.4.5. Mobile Applications Prototyping**
 
