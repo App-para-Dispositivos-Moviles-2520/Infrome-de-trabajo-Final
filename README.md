@@ -5499,23 +5499,23 @@ Se realizaron los avances con los commits de la siguiente forma.
 
 #### **4.2.2.4. Testing Suite Evidence for Sprint Review**
 
-Capturas de la aplicacion android codigo
+Codigo en Jetpack Compose:
+
+![Code_Android_1.png](img/CodigoAndroid.png)
+
+![Code_Android_2.png](img/CodigoAndroid2.png)
 
 #### **4.2.2.5. Execution Evidence for Sprint Review**
 
 Aplicacion Android:
 
-![Exe_Android_1.PNG](img/Exe_Android_1.PNG)
+![Exe_Android_1.png](img/AndroidView1.png)
 
-![Exe_Android_2.PNG](img/Exe_Android_2.PNG)
+![Exe_Android_2.png](img/AndroidView2.png)
 
-![Exe_Android_3.PNG](img/Exe_Android_3.PNG)
+![Exe_Android_3.png](img/AndoridView3.png)
 
-![Exe_Android_4.PNG](img/Exe_Android_4.PNG)
-
-![Exe_Android_5.PNG](img/Exe_Android_5.PNG)
-
-![Exe_Android_6.PNG](img/Exe_Android_6.PNG)
+![Exe_Android_4.png](img/AndroidView4.png)
 
 #### **4.2.2.6. Services Documentation Evidence for Sprint Review**
 
