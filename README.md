@@ -44,6 +44,7 @@
 |---------|------------|--------------------------------|----------------------------------|
 | TB1     | 17/09/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
 | TP     | 07/10/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 3, Capitulo 4 |
+| TB2     | 08/11/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 4 |
 
 - Commits Informe: 
 
@@ -241,6 +242,15 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**4.2.1.6. Services Documentation Evidence for Sprint Review**](#4216-services-documentation-evidence-for-sprint-review)
       - [**4.2.1.7. Software Deployment Evidence for Sprint Review**](#4217-software-deployment-evidence-for-sprint-review)
       - [**4.2.1.8. Team Collaboration Insights during Sprint**](#4218-team-collaboration-insights-during-sprint)
+    - [**4.2.2. Sprint 2**](#422-sprint-2)
+      - [**4.2.2.1. Sprint Planning 2**](#4221-sprint-planning-2)
+      - [**4.2.2.2. Sprint Backlog 2**](#4222-sprint-backlog-2)
+      - [**4.2.2.3. Development Evidence for Sprint Review**](#4223-development-evidence-for-sprint-review)
+      - [**4.2.2.4. Testing Suite Evidence for Sprint Review**](#4224-testing-suite-evidence-for-sprint-review)
+      - [**4.2.2.5. Execution Evidence for Sprint Review**](#4225-execution-evidence-for-sprint-review)
+      - [**4.2.2.6. Services Documentation Evidence for Sprint Review**](#4226-services-documentation-evidence-for-sprint-review)
+      - [**4.2.2.7. Software Deployment Evidence for Sprint Review**](#4227-software-deployment-evidence-for-sprint-review)
+      - [**4.2.2.8. Team Collaboration Insights during Sprint**](#4228-team-collaboration-insights-during-sprint)
   - [**4.3. Validation Interviews**](#43-validation-interviews)
     - [**4.3.1. Diseño de Entrevistas**](#431-diseño-de-entrevistas)
       - [Introducción](#introducción)
@@ -313,31 +323,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 **Ricardo Fernando**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP:** Apliqué nuevos conocimientos adquiridos tras la primera entrega, mejorando la arquitectura del proyecto y optimizando la integración entre los módulos desarrollados.
-- **TB2:**   
+- **TB2:** Actualicé mis conocimientos sobre patrones de arquitectura y los apliqué para optimizar la eficiencia del sistema.
 - **TF:**   
 
 **Ronald Joel:**  
 - **TB1:** Me involucré en la resolución de problemas técnicos, aplicando conceptos actualizados para optimizar los resultados.
 - **TP:** Actualicé conceptos de ingeniería de software para refinar el diseño del sistema, logrando una estructura más escalable y coherente con las buenas prácticas aprendidas. 
-- **TB2:** 
+- **TB2:** Incorporé nuevos enfoques de diseño aprendidos recientemente para mejorar la estructura del código y su mantenibilidad.
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
 - **TP:** Profundicé en nuevas herramientas y metodologías que permitieron optimizar el flujo de trabajo del equipo y perfeccionar las funcionalidades presentadas en la primera versión.  
-- **TB2:**   
+- **TB2:** Implementé mejoras basadas en nuevas prácticas de desarrollo, fortaleciendo la calidad del software   
 - **TF:**   
 
 **Javier Oswaldo:**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP:** Incorporé mejoras técnicas basadas en la retroalimentación recibida, fortaleciendo la calidad del código y la eficiencia de las soluciones implementadas.  
-- **TB2:**   
+- **TB2:** Apliqué técnicas aprendidas sobre integración continua para optimizar el flujo de desarrollo del proyecto  
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Contribuí al avance del proyecto aplicando metodologías actuales, lo que permitió alcanzar los objetivos propuestos con éxito.
 - **TP:** Integré aprendizajes obtenidos durante el proceso de revisión, aplicando principios actualizados de desarrollo para elevar el nivel técnico del proyecto.  
-- **TB2:**   
+- **TB2:** Integré nuevos conceptos de software que permitieron mejorar la escalabilidad de la solución
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
@@ -346,7 +356,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TP:** El equipo demostró un avance significativo al incorporar nuevos conocimientos y aplicar mejoras técnicas respecto a la primera entrega. Este proceso de actualización constante permitió optimizar la calidad del proyecto, fortalecer las competencias profesionales y consolidar un enfoque más sólido en la aplicación de soluciones.  
 
-- **TB2:**   
+- **TB2:** Reforzamos nuestros conocimientos de software aplicando nuevos conceptos y buenas prácticas a lo largo del proyecto. La colaboración constante nos permitió mejorar la arquitectura, optimizar los procesos de desarrollo y lograr una integración más sólida entre los módulos.
 
 - **TF:**   
 </td>
@@ -358,31 +368,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 **Ricardo Fernando:**  
 - **TB1:** Entendí que el aprendizaje permanente es clave en la ingeniería de software, porque las tecnologías cambian rápidamente. Por eso busco actualizarme para poder responder mejor a los retos del proyecto.
 - **TP:** Reconocí la importancia del aprendizaje continuo, integrando nuevos conocimientos técnicos que fortalecieron mi capacidad para aportar soluciones más innovadoras dentro del proyecto.  
-- **TB2:** 
+- **TB2:** Incorporé nuevos conocimientos técnicos que me permitieron mejorar mis habilidades y aportar soluciones más eficientes.
 - **TF:**  
 
 **Ronald Joel:**  
 - **TB1:** Para mí, la formación continua asegura un mejor desempeño profesional. Cada nuevo conocimiento adquirido me da más herramientas para aportar al desarrollo de soluciones efectivas.
 - **TP:** Mantuve una actitud de mejora constante, revisando documentación, buenas prácticas y nuevas herramientas que contribuyeron al crecimiento profesional y al éxito del equipo.  
-- **TB2:** 
+- **TB2:** Reconocí la importancia de seguir aprendiendo nuevas tecnologías para fortalecer mi desempeño en el desarrollo del proyecto.
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Organicé y estructuré mi parte del trabajo de manera clara y ordenada, compartiendo avances con el equipo y adaptando mi desarrollo a los tiempos y lineamientos definidos, lo que contribuyó al cumplimiento de los objetivos colectivos. 
 - **TP:** Apliqué nuevos enfoques y metodologías adquiridos durante el proceso, reafirmando la necesidad de seguir actualizando mis habilidades para mantener un desempeño competitivo.
-- **TB2:**  
+- **TB2:** Mantenerme en constante aprendizaje me ayudó a adaptarme mejor a los desafíos del proyecto. 
 - **TF:**  
 
 **Javier Oswaldo Aru Acevedo:**  
 - **TB1:** Reconozco que no basta con lo aprendido en clases. El aprendizaje constante me permite mantenerme competitivo y aplicar ideas innovadoras en los proyectos de software. 
 - **TP:** Comprendí que el aprendizaje permanente es esencial para adaptarse a los cambios tecnológicos y responder de manera efectiva a los desafíos del desarrollo de software.
-- **TB2:** 
+- **TB2:** Apliqué nuevas herramientas aprendidas durante el proceso, reafirmando la importancia del aprendizaje continuo.
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Considero que el aprendizaje permanente es una actitud profesional. Mantenerla me permite crecer, adaptarme y contribuir al éxito de los proyectos de ingeniería de software.
 - **TP:** Valoré la formación continua como parte del ejercicio profesional, entendiendo que cada iteración del proyecto representa una oportunidad para aprender, mejorar y perfeccionar las soluciones tecnológicas implementadas. 
-- **TB2:**   
+- **TB2:** Comprendí que el aprendizaje permanente es clave para mejorar la calidad de las soluciones de software.  
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
@@ -391,7 +401,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TP:** La necesidad de mantenerse actualizado frente a las constantes innovaciones tecnológicas nos permitió fortalecer nuestras competencias, adoptar nuevas metodologías y mejorar la calidad de las soluciones propuestas. Este proceso reafirmó el con la mejora continua y con la búsqueda constante de conocimiento para aportar un mayor valor en futuros proyectos.  
 
-- **TB2:**   
+- **TB2:** Comprendimos la importancia del aprendizaje continuo para mantenernos actualizados en un entorno tecnológico en constante cambio. A lo largo del proyecto, cada integrante incorporó nuevos conocimientos y habilidades que fortalecieron el desarrollo de la solución.
 
 - **TF:**   
 </td>
@@ -5360,6 +5370,118 @@ Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services p
 ![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
 
 #### **4.2.1.8. Team Collaboration Insights during Sprint**
+
+![Commit_Sprint1.PNG](img/Commit_Sprint1.PNG)
+
+![Commit2_Sprint1.PNG](img/Commit2_Sprint1.PNG)
+
+![Commit3_Sprint1.PNG](img/Commit3_Sprint1.PNG)
+
+### **4.2.2. Sprint 2**
+#### **4.2.2.1. Sprint Planning 2**
+
+| **Sprint #**                    | Sprint 2 |
+|----------------------------------|----------|
+| **Sprint Planning Background**  |          |
+| **Date**                        | 03/11/2025 |
+| **Time**                        | 7:00 pm |
+| **Location**                    | Virtual (Discord) |
+| **Prepared by**                 | Peralta Chipa Ronald Joel |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo |
+| **Sprint 1 Review Summary**  | Se realizo el avance del backend y se desarrollo las pantallas en Android |
+| **Sprint 1 Retrospective Summary** | Ajustamos criterios de aceptacion, product backlog, presentacion del documento |
+| **Sprint Goal & User Stories**   |          |
+| **Sprint 2 Goal**                | Nuestro enfoque está en consolidar la conexión entre la aplicación Android y el backend, además de diseñar e implementar las pantallas principales de la aplicación Flutter aún sin conexión al backend. <br> Creemos que esto fortalece la base técnica y visual de la plataforma de reclutamiento, permitiendo avanzar hacia una integración completa en los próximos sprints. <br> Esto se confirmará cuando la aplicación Android se comunique correctamente con el backend y las pantallas de Flutter presenten un flujo de navegación coherente y una identidad visual definida. |
+| **Sprint 2 Velocity**            | 25 Story Points |
+| **Sum of Story Points**          | 25 |
+
+#### **4.2.2.2. Sprint Backlog 2**
+
+| Sprint #       | Sprint 2                                                |                      |                                                 |                                                                                 |                        |                 |                                                    |
+| -------------- | ----------------------------------------------------------- | -------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
+| **User Story** |                                                             | **Work Item / Task** |                                                 |                                                                                 |                        |                 |                                                    |
+| ID         | Title                                                   | ID               | Title                                       | Description                                                                 | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US013      | Registrar cuenta de postulante                              | W001                 | Implementar registro de postulante en Android   | Conectar el formulario de registro con el endpoint correspondiente del backend. | 3hrs                   | Javier          | Done                                               |
+| US014      | Registrar cuenta de reclutador                              | W002                 | Implementar registro de reclutador en Android   | Integrar la funcionalidad de registro con la API del backend.                   | 3hrs                   | Javier          | Done                                               |
+| US015      | Iniciar sesión en la plataforma                             | W003                 | Implementar inicio de sesión con JWT            | Conectar la pantalla de login de Android con la API de autenticación.           | 3hrs                   | Ricardo         | Done                                               |
+| US016      | Cerrar sesión                                               | W004                 | Implementar cierre de sesión                    | Añadir funcionalidad de logout y limpieza de sesión en Android.                 | 2hrs                   | Ricardo         | In-Process                                         |
+| US035      | Cambiar contraseña                                          | W005                 | Implementar pantalla de cambio de contraseña    | Crear la interfaz y lógica de cambio de contraseña en Android.                  | 3hrs                   | Raúl            | To-Do                                              |
+| US036      | Recuperar contraseña olvidada                               | W006                 | Implementar recuperación de contraseña          | Desarrollar la pantalla y flujo de recuperación de credenciales.                | 3hrs                   | Raúl            | To-Do                                              |
+| US020      | Eliminar mi cuenta permanentemente                          | W007                 | Implementar eliminación de cuenta               | Agregar funcionalidad en Android para eliminar cuenta de usuario vía API.       | 3hrs                   | Ricardo         | To-Do                                              |
+| US017      | Editar perfil profesional                                   | W008                 | Implementar pantalla de edición de perfil       | Diseñar y preparar formulario de edición de perfil en Flutter (sin conexión).   | 2hrs                   | Yair            | To-Do                                              |
+| US019      | Configurar perfil                                           | W009                 | Implementar pantalla de configuración           | Crear estructura visual de configuración de usuario en Flutter.                 | 2hrs                   | Yair            | To-Do                                              |
+| US004      | Buscar y listar vacantes disponibles                        | W010                 | Diseñar pantalla principal de vacantes          | Crear diseño y navegación para la lista de vacantes en Flutter.                 | 3hrs                   | Raúl            | Done                                         |
+| US005      | Ver detalle completo de una vacante                         | W011                 | Diseñar pantalla de detalle de vacante          | Implementar la vista de detalle con estructura visual en Flutter.               | 2hrs                   | Raúl            | Done                                              |
+| US045      | Ver hero y propuesta de valor de la plataforma              | W012                 | Diseñar sección principal (Hero)                | Crear componente visual principal de la landing en Flutter.                     | 2hrs                   | Yair            | Done                                               |
+| US046      | Ver sección de beneficios para empresas                     | W013                 | Diseñar pantalla de beneficios empresariales    | Desarrollar estructura visual informativa en Flutter.                           | 2hrs                   | Yair            | In-Process                                         |
+| US047      | Ver sección de beneficios para postulantes                  | W014                 | Diseñar pantalla de beneficios para postulantes | Implementar vista visual con navegación base.                                   | 2hrs                   | Yair            | To-Do                                              |
+| US048      | Ver testimonios y casos de éxito                            | W015                 | Diseñar pantalla de testimonios                 | Crear componente visual de testimonios en Flutter.                              | 2hrs                   | Raúl            | Done                                              |
+| US049      | Ver call-to-action de registro                              | W016                 | Diseñar botón y sección de registro             | Implementar call-to-action visual que lleve al registro.                        | 1hr                    | Raúl            | Done                                               |
+| US050      | Contactar al equipo mediante formulario                     | W017                 | Diseñar formulario de contacto                  | Implementar pantalla y campos del formulario sin conexión aún.                  | 2hrs                   | Yair            | Done                                              |
+| TS001      | API de autenticación con JWT                                | W018                 | Validar endpoints de autenticación              | Probar funcionamiento del inicio de sesión desde Android.                       | 3hrs                   | Ronald          | Done                                               |
+| TS002      | API REST para gestión completa de vacantes                  | W019                 | Validar endpoints de vacantes desde Android     | Confirmar la comunicación entre Android y el backend.                           | 3hrs                   | Ronald          | Done                                         |
+| TS007      | API REST para gestión de perfiles de usuario                | W020                 | Validar endpoints de perfil y cuentas           | Comprobar que el backend responde correctamente a solicitudes de usuario.       | 3hrs                   | Ronald          | To-Review                                          |
+| SP008      | Implementación de Control de Versiones y CI/CD Automatizado | W021                 | Configurar pipeline CI/CD                       | Configurar despliegue automático para backend y apps móviles.                   | 4hrs                   | Ronald          | Done                                         |
+
+
+- Evidencia del Product Backlog - Sprint 2 en Trello:
+<img src="img/ProductBacklog-Smarthire-Sprint1.png" alt="productbacklog-Sprint1" width= 1000/>
+
+- Link del Product Backlog - Sprint 2 en Trello: [https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1](https://trello.com/b/ApUEDPir/product-backlog-smarthire-sprint-1)
+
+#### **4.2.2.3. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits de la siguiente forma.
+
+- Repositorio Informe:
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|:----------:|:------:|:---------:|:--------------:|:------------------:|
+| Infrome-de-trabajo-Final | develop | 1e1d1d6cd5f235553682afcc2c531a393b3380cf | update: changed presentation | 29/10/2025 |
+| Infrome-de-trabajo-Final | develop | be3a8bb4d170abcf136d78cae689e1446f12c099 | update: updated presentation | 07/10/2025 |
+| Infrome-de-trabajo-Final | develop | 058c3d5eb997e0ea1cb614096a76471a545a4abf | update: updated presentation | 07/10/2025 |
+| Infrome-de-trabajo-Final | develop | 2ab1eea35cfaa3a4b9c51858ef036207adac37d1 | feat(chapter-02): added bounded context canvas publicaciones | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 0f376411bb2ff27becaeee761bb001537e85684f | feat(chapter-02): added bounded context canvas analiticas | 08/10/2025 |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 | feat(chapter-02): added bounded context canvas candidatos | 08/10/2025 |
+
+#### **4.2.2.4. Testing Suite Evidence for Sprint Review**
+
+Capturas de la aplicacion android codigo
+
+#### **4.2.2.5. Execution Evidence for Sprint Review**
+
+Aplicacion Android:
+
+![Exe_Android_1.PNG](img/Exe_Android_1.PNG)
+
+![Exe_Android_2.PNG](img/Exe_Android_2.PNG)
+
+![Exe_Android_3.PNG](img/Exe_Android_3.PNG)
+
+![Exe_Android_4.PNG](img/Exe_Android_4.PNG)
+
+![Exe_Android_5.PNG](img/Exe_Android_5.PNG)
+
+![Exe_Android_6.PNG](img/Exe_Android_6.PNG)
+
+#### **4.2.2.6. Services Documentation Evidence for Sprint Review**
+
+Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger/index.html
+
+![Exe_Backend_1.PNG](img/Exe_Backend_1.PNG)
+
+![Exe_Backend_2.PNG](img/Exe_Backend_2.PNG)
+
+![Exe_Backend_3.PNG](img/Exe_Backend_3.PNG)
+
+#### **4.2.2.7. Software Deployment Evidence for Sprint Review**
+
+Para el desarrollo de este sprint, se utilizaron herramientas para el desarrollo y despliegue del Backend.
+
+Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services porque nos brinda muchas ventajas como la escalabilidad automática que adapta el consumo de recursos en base a la carga, tener el backend desplegado todo el tiempo lo que nos permite interactuar con ello cuando sea requerido y tener una integracion con Github lo que facilita su actualizacion constante en base a las mejoras futuras que se le puede realizar.
+
+![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
+
+#### **4.2.2.8. Team Collaboration Insights during Sprint**
 
 ![Commit_Sprint1.PNG](img/Commit_Sprint1.PNG)
 
