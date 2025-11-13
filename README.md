@@ -1020,12 +1020,12 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <td colspan="4">
       <strong>Escenario 1: Creación exitosa</strong><br/>
       • Dado que el reclutador está autenticado<br/>
-      • Cuando completa todos los datos requeridos de la vacante y confirma la creación<br/>
+      • Cuando completa la información solicitada de la vacante y confirma la creación<br/>
       • Entonces la vacante queda registrada y disponible para recibir postulaciones.<br/><br/>
       <strong>Escenario 2: Validación de campos</strong><br/>
-      • Dado que el reclutador omite un campo obligatorio<br/>
+      • Dado que el reclutador no completa la información solicitada<br/>
       • Cuando intenta guardar la vacante<br/>
-      • Entonces el sistema informa el campo faltante y no permite crear la vacante.
+      • Entonces el sistema informa que falta completar información solicitada y no permite crear la vacante.
     </td>
   </tr>
 
@@ -1103,7 +1103,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       <strong>Escenario 1: Cierre</strong><br/>
       • Dado que la vacante está activa<br/>
       • Cuando el reclutador confirma el cierre<br/>
-      • Entonces la vacante cambia a estado cerrado y no acepta nuevas postulaciones.<br/><br/>
+      • Entonces la vacante se cierra y no acepta nuevas postulaciones.<br/><br/>
       <strong>Escenario 2: Confirmación</strong><br/>
       • Dado que el reclutador solicita cerrar la vacante<br/>
       • Cuando el sistema solicita confirmación<br/>
@@ -1873,7 +1873,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Sugerencia de candidatos</td>
+    <td colspan="4">Sugerir candidatos</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1914,7 +1914,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Recomendación de vacantes</td>
+    <td colspan="4">Recomendar vacantes</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1955,7 +1955,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Puntaje automático de CVs</td>
+    <td colspan="4">Puntuar CVs automáticamente</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -3680,7 +3680,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Integración de Inteligencia Artificial para Recomendaciones de Candidatos y Vacantes</td>
+    <td>Integrar Inteligencia Artificial para Recomendaciones de Candidatos y Vacantes</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3719,7 +3719,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Autenticación Segura con JWT y Gestión de Roles</td>
+    <td>Autenticar Segura con JWT y Gestión de Roles</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3758,7 +3758,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Gestión de Estados de Postulaciones y Workflow del Proceso de Selección</td>
+    <td>Gestionar Estados de Postulaciones y Workflow del Proceso de Selección</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3797,7 +3797,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Sistema de Notificaciones Push Personalizadas</td>
+    <td>Crear Sistema de Notificaciones Push Personalizadas</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3836,7 +3836,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Implementación de Sistema de Pagos para Servicios Premium</td>
+    <td>Implementar Pagos Integrados con Pasarela</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3875,7 +3875,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Optimización de Consultas y Filtros de Postulaciones</td>
+    <td>Optimizar Consultas y Filtros de Postulaciones</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3914,7 +3914,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Sistema de Soporte y Gestión de Tickets Centralizados</td>
+    <td>Crear Sistema de Soporte y Gestión de Tickets Centralizados</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3953,7 +3953,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Implementación de Control de Versiones y CI/CD Automatizado</td>
+    <td>Implementar Control de Versiones y CI/CD Automatizado</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -4008,7 +4008,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 | 41    | SP006         | Optimizar del Rendimiento y Carga Inicial de la App                     | 8                        |
 | 36    | SP001         | Integrar de Inteligencia Artificial para Recomendaciones Personalizadas | 5                        |
 | 37    | SP002         | Autenticar Segura con JWT y Control de Sesiones                         | 5                        |
-| 43    | SP008         | Implementar de Control de Versiones y CI/CD Automatizado                | 5                        |
+| 43    | SP008         | Implementar Control de Versiones y CI/CD Automatizado                   | 5                        |
 | 51    | TS001         | API de autenticación con JWT                                            | 5                        |
 | 52    | TS002         | API REST para gestión completa de vacantes                              | 5                        |
 | 53    | TS003         | API REST para gestión de postulaciones                                  | 5                        |
@@ -4037,9 +4037,9 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 | 57    | TS007         | API REST para gestión de perfiles de usuario                            | 3                        |
 | 60    | TS010         | API REST para carga de archivos (CVs y documentos)                      | 3                        |
 | 38    | SP003         | Sincronizar Datos Offline-Online                                        | 3                        |
-| 39    | SP004         | Notificar Push en Tiempo Real                                           | 3                        |
+| 39    | SP004         | Crear Sistema de Notificaciones Push en Tiempo Real                     | 3                        |
 | 40    | SP005         | Implementar Pagos Integrados con Pasarela                               | 3                        |
-| 42    | SP007         | Gestionar Logos Centralizados y Monitoreo en Azure                      | 3                        |
+| 42    | SP007         | Crear Sistema de Soporte y Gestión de Tickets Centralizados             | 3                        |
 | 4     | US004         | Buscar y listar vacantes disponibles                                    | 2                        |
 | 6     | US006         | Aplicar a vacante                                                       | 2                        |
 | 7     | US007         | Ver postulaciones recibidas                                             | 2                        |
