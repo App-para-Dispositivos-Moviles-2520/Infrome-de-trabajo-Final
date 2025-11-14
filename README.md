@@ -2,37 +2,41 @@
 
 <img src="img/logo_upc.png" alt="Logo UPC" width="100"/>
 
-# Universidad Peruana De Ciencias Aplicadas
+### Universidad Peruana de Ciencias Aplicadas
 
-## Ingeniería de Software
+### Ingeniería de Software
+
+**Periodo:** 202520
+
+**1ACC0238 | Aplicaciones para Dispositivos Móviles**
+
+**NRC:** 12612
+
+**Docente:**  Quevedo Velasco, David Gerardo
+
+---
 
 ### Informe de Trabajo Final
 
-### Desarrollo de Aplicaciones Moviles
+**Startup:** SmartHire
 
-**Sección:** 
-12612
-
-**Profesor:**  
-
-Quevedo Velasco, David Gerardo
+**Producto:** Jobsy
 
 **Integrantes:**
+
 <div style="text-align: left; display: inline-block;">
-    <ul>
-        <li>Peralta Chipa Ronald Joel - U202224619</li>
-        <li>Ricardo Fernando Cardenas Minaya - U202310004</li>
-        <li>Raul Roberto Sanchez Cruz - U201518942</li>
-        <li>Javier Oswaldo Tello Murga - U202218387</li>
-        <li>Yair Christofer Aru Acevedo - U202125984</li>
-    </ul>
+    <ol style="list-style: none;">
+        <li>U202125984 - Aru Acevedo, Yair Christofer</li>
+        <li>U202310004 - Cardenas Minaya, Ricardo Fernando</li>    
+        <li>U202224619 - Peralta Chipa, Ronald Joel</li>
+        <li>U201518942 - Sanchez Cruz, Raul Roberto</li>
+        <li>U202218387 - Tello Murga, Javier Oswaldo</li>
+    </ol>
 </div>
 
-**2025 - 02**
+**Noviembre 2025**
 
 </div>
-
----
 
 # <font color="red">**Registro de Versiones del Informe**</font>
 
@@ -40,6 +44,7 @@ Quevedo Velasco, David Gerardo
 |---------|------------|--------------------------------|----------------------------------|
 | TB1     | 17/09/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 1, Capitulo 2 |
 | TP     | 07/10/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 3, Capitulo 4 |
+| TB2     | 08/11/2025 | Ronald Joel Peralta Chipa - Ricardo Fernando Cardenas Minaya - Raul Roberto Sanchez Cruz - Javier Oswaldo Tello Murga - Yair Christofer Aru Acevedo | Capitulo 4 |
 
 - Commits Informe: 
 
@@ -66,10 +71,6 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 ### Tabla de contenidos
 
-- [Universidad Peruana De Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
-  - [Ingeniería de Software](#ingeniería-de-software)
-    - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [Desarrollo de Aplicaciones Moviles](#desarrollo-de-aplicaciones-moviles)
 - [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
 - [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
 - [**Contenido**](#contenido)
@@ -239,6 +240,15 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**4.2.1.6. Services Documentation Evidence for Sprint Review**](#4216-services-documentation-evidence-for-sprint-review)
       - [**4.2.1.7. Software Deployment Evidence for Sprint Review**](#4217-software-deployment-evidence-for-sprint-review)
       - [**4.2.1.8. Team Collaboration Insights during Sprint**](#4218-team-collaboration-insights-during-sprint)
+    - [**4.2.2. Sprint 2**](#422-sprint-2)
+      - [**4.2.2.1. Sprint Planning 2**](#4221-sprint-planning-2)
+      - [**4.2.2.2. Sprint Backlog 2**](#4222-sprint-backlog-2)
+      - [**4.2.2.3. Development Evidence for Sprint Review**](#4223-development-evidence-for-sprint-review)
+      - [**4.2.2.4. Testing Suite Evidence for Sprint Review**](#4224-testing-suite-evidence-for-sprint-review)
+      - [**4.2.2.5. Execution Evidence for Sprint Review**](#4225-execution-evidence-for-sprint-review)
+      - [**4.2.2.6. Services Documentation Evidence for Sprint Review**](#4226-services-documentation-evidence-for-sprint-review)
+      - [**4.2.2.7. Software Deployment Evidence for Sprint Review**](#4227-software-deployment-evidence-for-sprint-review)
+      - [**4.2.2.8. Team Collaboration Insights during Sprint**](#4228-team-collaboration-insights-during-sprint)
   - [**4.3. Validation Interviews**](#43-validation-interviews)
     - [**4.3.1. Diseño de Entrevistas**](#431-diseño-de-entrevistas)
       - [Introducción](#introducción)
@@ -311,31 +321,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 **Ricardo Fernando**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP:** Apliqué nuevos conocimientos adquiridos tras la primera entrega, mejorando la arquitectura del proyecto y optimizando la integración entre los módulos desarrollados.
-- **TB2:**   
+- **TB2:** Actualicé mis conocimientos sobre patrones de arquitectura y los apliqué para optimizar la eficiencia del sistema.
 - **TF:**   
 
 **Ronald Joel:**  
 - **TB1:** Me involucré en la resolución de problemas técnicos, aplicando conceptos actualizados para optimizar los resultados.
 - **TP:** Actualicé conceptos de ingeniería de software para refinar el diseño del sistema, logrando una estructura más escalable y coherente con las buenas prácticas aprendidas. 
-- **TB2:** 
+- **TB2:** Incorporé nuevos enfoques de diseño aprendidos recientemente para mejorar la estructura del código y su mantenibilidad.
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Colaboré activamente en las tareas asignadas, aplicando mis conocimientos y habilidades para cumplir con los objetivos del equipo en tiempo y forma.  
 - **TP:** Profundicé en nuevas herramientas y metodologías que permitieron optimizar el flujo de trabajo del equipo y perfeccionar las funcionalidades presentadas en la primera versión.  
-- **TB2:**   
+- **TB2:** Implementé mejoras basadas en nuevas prácticas de desarrollo, fortaleciendo la calidad del software   
 - **TF:**   
 
 **Javier Oswaldo:**  
 - **TB1:** Participé en la implementación de las soluciones, integrando nuevos aprendizajes para mejorar la calidad y eficiencia del proyecto.
 - **TP:** Incorporé mejoras técnicas basadas en la retroalimentación recibida, fortaleciendo la calidad del código y la eficiencia de las soluciones implementadas.  
-- **TB2:**   
+- **TB2:** Apliqué técnicas aprendidas sobre integración continua para optimizar el flujo de desarrollo del proyecto  
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Contribuí al avance del proyecto aplicando metodologías actuales, lo que permitió alcanzar los objetivos propuestos con éxito.
 - **TP:** Integré aprendizajes obtenidos durante el proceso de revisión, aplicando principios actualizados de desarrollo para elevar el nivel técnico del proyecto.  
-- **TB2:**   
+- **TB2:** Integré nuevos conceptos de software que permitieron mejorar la escalabilidad de la solución
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
@@ -344,7 +354,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TP:** El equipo demostró un avance significativo al incorporar nuevos conocimientos y aplicar mejoras técnicas respecto a la primera entrega. Este proceso de actualización constante permitió optimizar la calidad del proyecto, fortalecer las competencias profesionales y consolidar un enfoque más sólido en la aplicación de soluciones.  
 
-- **TB2:**   
+- **TB2:** Reforzamos nuestros conocimientos de software aplicando nuevos conceptos y buenas prácticas a lo largo del proyecto. La colaboración constante nos permitió mejorar la arquitectura, optimizar los procesos de desarrollo y lograr una integración más sólida entre los módulos.
 
 - **TF:**   
 </td>
@@ -356,31 +366,31 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 **Ricardo Fernando:**  
 - **TB1:** Entendí que el aprendizaje permanente es clave en la ingeniería de software, porque las tecnologías cambian rápidamente. Por eso busco actualizarme para poder responder mejor a los retos del proyecto.
 - **TP:** Reconocí la importancia del aprendizaje continuo, integrando nuevos conocimientos técnicos que fortalecieron mi capacidad para aportar soluciones más innovadoras dentro del proyecto.  
-- **TB2:** 
+- **TB2:** Incorporé nuevos conocimientos técnicos que me permitieron mejorar mis habilidades y aportar soluciones más eficientes.
 - **TF:**  
 
 **Ronald Joel:**  
 - **TB1:** Para mí, la formación continua asegura un mejor desempeño profesional. Cada nuevo conocimiento adquirido me da más herramientas para aportar al desarrollo de soluciones efectivas.
 - **TP:** Mantuve una actitud de mejora constante, revisando documentación, buenas prácticas y nuevas herramientas que contribuyeron al crecimiento profesional y al éxito del equipo.  
-- **TB2:** 
+- **TB2:** Reconocí la importancia de seguir aprendiendo nuevas tecnologías para fortalecer mi desempeño en el desarrollo del proyecto.
 - **TF:**   
 
 **Raul Roberto:**  
 - **TB1:** Organicé y estructuré mi parte del trabajo de manera clara y ordenada, compartiendo avances con el equipo y adaptando mi desarrollo a los tiempos y lineamientos definidos, lo que contribuyó al cumplimiento de los objetivos colectivos. 
 - **TP:** Apliqué nuevos enfoques y metodologías adquiridos durante el proceso, reafirmando la necesidad de seguir actualizando mis habilidades para mantener un desempeño competitivo.
-- **TB2:**  
+- **TB2:** Mantenerme en constante aprendizaje me ayudó a adaptarme mejor a los desafíos del proyecto. 
 - **TF:**  
 
 **Javier Oswaldo Aru Acevedo:**  
 - **TB1:** Reconozco que no basta con lo aprendido en clases. El aprendizaje constante me permite mantenerme competitivo y aplicar ideas innovadoras en los proyectos de software. 
 - **TP:** Comprendí que el aprendizaje permanente es esencial para adaptarse a los cambios tecnológicos y responder de manera efectiva a los desafíos del desarrollo de software.
-- **TB2:** 
+- **TB2:** Apliqué nuevas herramientas aprendidas durante el proceso, reafirmando la importancia del aprendizaje continuo.
 - **TF:**   
 
 **Yair Christofer:**  
 - **TB1:** Considero que el aprendizaje permanente es una actitud profesional. Mantenerla me permite crecer, adaptarme y contribuir al éxito de los proyectos de ingeniería de software.
 - **TP:** Valoré la formación continua como parte del ejercicio profesional, entendiendo que cada iteración del proyecto representa una oportunidad para aprender, mejorar y perfeccionar las soluciones tecnológicas implementadas. 
-- **TB2:**   
+- **TB2:** Comprendí que el aprendizaje permanente es clave para mejorar la calidad de las soluciones de software.  
 - **TF:**   
 </td>
 <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
@@ -389,7 +399,7 @@ ABET – EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nu
 
 - **TP:** La necesidad de mantenerse actualizado frente a las constantes innovaciones tecnológicas nos permitió fortalecer nuestras competencias, adoptar nuevas metodologías y mejorar la calidad de las soluciones propuestas. Este proceso reafirmó el con la mejora continua y con la búsqueda constante de conocimiento para aportar un mayor valor en futuros proyectos.  
 
-- **TB2:**   
+- **TB2:** Comprendimos la importancia del aprendizaje continuo para mantenernos actualizados en un entorno tecnológico en constante cambio. A lo largo del proyecto, cada integrante incorporó nuevos conocimientos y habilidades que fortalecieron el desarrollo de la solución.
 
 - **TF:**   
 </td>
@@ -415,13 +425,13 @@ Nuestra misión es brindar a las áreas de Recursos Humanos una plataforma intel
 Nuestra visión es ser la solución líder en Latinoamérica en automatización del reclutamiento, reconocida por transformar la forma en que las empresas encuentran, seleccionan y gestionan talento, impulsando procesos más humanos, eficientes y estratégicos.
 
 ### **1.1.2. Perfiles de integrantes del equipo**
-| Foto | Información |
-|------|-------------|
-| ![Foto de Ronald](img/ronald.png) | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
-| ![Foto de Ricardo](img/Ricardo.png) | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
-| ![Foto de Javier](img/) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
-| ![Foto de Yair](img) | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
-| ![Foto de Raul](img/raul.png) | **Nombres y apellidos:** Lapa de la Cruz Gabriel Omar<br>**Código:** U202216831<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
+| Foto                                            | Información |
+|-------------------------------------------------|-------------|
+| ![Foto de Ronald](img/ronald.png)               | **Nombres y apellidos:** Ronald Joel Peralta Chipa<br>**Código:** U202224619<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona comprometida con el orden, con un estilo de liderazgo democrático y una gran capacidad para escuchar y comprender. Disfruto crecer en equipo y siempre estoy dispuesto a aprender de los demás. En mi faceta como desarrollador, tengo un especial interés en los lenguajes C# y JavaScript. |
+| ![Foto de Ricardo](img/Ricardo.png)             | **Nombres y apellidos:** Ricardo Fernando Cardenas Minaya<br>**Código:** U20231A804<br>**Carrera:** Ing. de Software<br>**Descripción:** Me considero una persona creativa y versátil, con gusto por el trabajo en equipo y una fuerte motivación por aprender constantemente. Disfruto participar en proyectos diversos, enfrentar nuevos desafíos y buscar soluciones. Tengo conocimientos en C++, Python y otros lenguajes de programación, lo que me permite adaptarme con facilidad a distintos entornos tecnológicos. |
+| ![Foto de Javier](img/informe-javier-tello.jpg) | **Nombres y apellidos:** Javier Oswaldo Tello Murga<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| ![Foto de Yair](img/Foto_Yair.png)              | **Nombres y apellidos:** Yair Christofer Aru Acevedo <br>**Código:** U202215695<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy Yair Christofer Aru Acevedo, estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones tecnológicas innovadoras que generen impacto real. Actualmente lidero y participo en proyectos enfocados en la sostenibilidad y el análisis de datos, aplicando conocimientos en frontend, backend y arquitectura de software. Me destaco por mi responsabilidad, capacidad para trabajar en equipo y enfoque en el aprendizaje continuo. |
+| ![Foto de Raul](img/raul.png)                   | **Nombres y apellidos:** Raul Roberto Sanchez Cruz <br>**Código:** U201518942<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, comprometida y enfocada en seguir aprendiendo constantemente. Estoy mayormente acostumbrado al trabajo individual, pero mis responsabilidades pueden ayudar al grupo en lo que sea necesario. En mi faceta de formación y desarrollo, he adquirido conocimientos técnicos como el manejo intermedio de C++, JavaScript y Python, así como nociones básicas de SQL. |
 
 ## **1.2. Solution Profile**
 Los departamentos de Recursos Humanos enfrentan una creciente sobrecarga de tareas operativas, especialmente en los procesos de reclutamiento. La revisión manual de currículums, la coordinación de entrevistas y la publicación de vacantes en múltiples plataformas generan retrasos, errores y pérdida de eficiencia. Frente a este panorama, surge la necesidad de una solución tecnológica que simplifique y automatice estas labores, permitiendo a los equipos enfocarse en la toma de decisiones estratégicas y en la experiencia del candidato. <br>
@@ -1008,12 +1018,12 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <td colspan="4">
       <strong>Escenario 1: Creación exitosa</strong><br/>
       • Dado que el reclutador está autenticado<br/>
-      • Cuando completa todos los datos requeridos de la vacante y confirma la creación<br/>
+      • Cuando completa la información solicitada de la vacante y confirma la creación<br/>
       • Entonces la vacante queda registrada y disponible para recibir postulaciones.<br/><br/>
       <strong>Escenario 2: Validación de campos</strong><br/>
-      • Dado que el reclutador omite un campo obligatorio<br/>
+      • Dado que el reclutador no completa la información solicitada<br/>
       • Cuando intenta guardar la vacante<br/>
-      • Entonces el sistema informa el campo faltante y no permite crear la vacante.
+      • Entonces el sistema informa que falta completar información solicitada y no permite crear la vacante.
     </td>
   </tr>
 
@@ -1049,7 +1059,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <td colspan="4">
       <strong>Escenario 1: Actualización válida</strong><br/>
       • Dado que la vacante está activa<br/>
-      • Cuando el reclutador modifica los campos permitidos y guarda los cambios<br/>
+      • Cuando el reclutador modifica la información requerida y guarda los cambios<br/>
       • Entonces los cambios se reflejan correctamente en la vacante.<br/><br/>
       <strong>Escenario 2: Vacante cerrada</strong><br/>
       • Dado que la vacante está cerrada<br/>
@@ -1091,7 +1101,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
       <strong>Escenario 1: Cierre</strong><br/>
       • Dado que la vacante está activa<br/>
       • Cuando el reclutador confirma el cierre<br/>
-      • Entonces la vacante cambia a estado cerrado y no acepta nuevas postulaciones.<br/><br/>
+      • Entonces la vacante se cierra y no acepta nuevas postulaciones.<br/><br/>
       <strong>Escenario 2: Confirmación</strong><br/>
       • Dado que el reclutador solicita cerrar la vacante<br/>
       • Cuando el sistema solicita confirmación<br/>
@@ -1861,7 +1871,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Sugerencia de candidatos</td>
+    <td colspan="4">Sugerir candidatos</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1902,7 +1912,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Recomendación de vacantes</td>
+    <td colspan="4">Recomendar vacantes</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1943,7 +1953,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Puntaje automático de CVs</td>
+    <td colspan="4">Puntuar CVs automáticamente</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -3668,7 +3678,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Integración de Inteligencia Artificial para Recomendaciones de Candidatos y Vacantes</td>
+    <td>Integrar Inteligencia Artificial para Recomendaciones de Candidatos y Vacantes</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3707,7 +3717,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Autenticación Segura con JWT y Gestión de Roles</td>
+    <td>Autenticar Segura con JWT y Gestión de Roles</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3746,7 +3756,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Gestión de Estados de Postulaciones y Workflow del Proceso de Selección</td>
+    <td>Gestionar Estados de Postulaciones y Workflow del Proceso de Selección</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3785,7 +3795,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Sistema de Notificaciones Push Personalizadas</td>
+    <td>Crear Sistema de Notificaciones Push Personalizadas</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3824,7 +3834,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Implementación de Sistema de Pagos para Servicios Premium</td>
+    <td>Implementar Pagos Integrados con Pasarela</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3863,7 +3873,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Optimización de Consultas y Filtros de Postulaciones</td>
+    <td>Optimizar Consultas y Filtros de Postulaciones</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3902,7 +3912,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Sistema de Soporte y Gestión de Tickets Centralizados</td>
+    <td>Crear Sistema de Soporte y Gestión de Tickets Centralizados</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3941,7 +3951,7 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
   </tr>
   <tr>
     <th>Title</th>
-    <td>Implementación de Control de Versiones y CI/CD Automatizado</td>
+    <td>Implementar Control de Versiones y CI/CD Automatizado</td>
   </tr>
   <tr>
     <th>Context</th>
@@ -3990,75 +4000,77 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de se
 
 ## **2.4.3. Product Backlog**
 
-| Orden | User Story Id | Título | Story Points (1/2/3/5/8) |
-|-------|---------------|--------|---------------------------|
-| 1 | US001 | Crear nueva vacante | 1 |
-| 2 | US002 | Editar vacante existente | 1 |
-| 3 | US003 | Cerrar vacante | 1 |
-| 4 | US004 | Buscar y listar vacantes disponibles | 2 |
-| 5 | US005 | Ver detalle completo de una vacante | 1 |
-| 6 | US006 | Aplicar a vacante | 2 |
-| 7 | US007 | Ver postulaciones recibidas | 2 |
-| 8 | US008 | Filtrar postulaciones | 2 |
-| 9 | US009 | Ver estado de mis postulaciones | 2 |
-| 10 | US010 | Agendar entrevista | 3 |
-| 11 | US011 | Registrar resultado de entrevista | 3 |
-| 12 | US012 | Enviar oferta laboral | 5 |
-| 13 | US013 | Registrar cuenta de postulante | 1 |
-| 14 | US014 | Registrar cuenta de reclutador | 1 |
-| 15 | US015 | Iniciar sesión en la plataforma | 2 |
-| 16 | US016 | Cerrar sesión | 1 |
-| 17 | US017 | Editar perfil profesional | 2 |
-| 19 | US019 | Configurar perfil | 2 |
-| 20 | US020 | Eliminar mi cuenta permanentemente | 3 |
-| 21 | US021 | Sugerencia de candidatos | 5 |
-| 22 | US022 | Recomendación de vacantes | 3 |
-| 23 | US023 | Puntaje automático de CVs | 3 |
-| 24 | US024 | Recibir notificaciones de vacantes | 3 |
-| 25 | US025 | Recibir notificaciones de postulaciones | 2 |
-| 26 | US026 | Ver calendario de entrevistas | 3 |
-| 27 | US027 | Reprogramar entrevista | 3 |
-| 28 | US028 | Solicitar soporte | 3 |
-| 29 | US029 | Responder solicitud de soporte | 3 |
-| 30 | US030 | Registrar método de pago | 3 |
-| 31 | US031 | Realizar pago | 3 |
-| 32 | US032 | Ver historial de pagos | 2 |
-| 33 | US033 | Configurar notificaciones | 2 |
-| 34 | US034 | Configurar idioma y zona horaria | 2 |
-| 35 | US035 | Cambiar contraseña | 3 |
-| 36 | US036 | Recuperar contraseña olvidada | 3 |
-| 37 | US037 | Activar autenticación de dos factores (2FA) | 3 |
-| 38 | US038 | Asignar rol de reclutador | 2 |
-| 39 | US039 | Asignar rol de postulante | 2 |
-| 40 | US040 | Iniciar sesión con redes sociales | 5 |
-| 41 | US041 | Compartir vacante en redes sociales | 2 |
-| 42 | US042 | Compartir perfil en redes sociales | 2 |
-| 43 | US043 | Comentar sobre vacantes | 2 |
-| 44 | US044 | Comentar sobre el proceso de selección | 2 |
-| 45 | US045 | Ver hero y propuesta de valor de la plataforma | 2 |
-| 46 | US046 | Ver sección de beneficios para empresas | 2 |
-| 47 | US047 | Ver sección de beneficios para postulantes | 2 |
-| 48 | US048 | Ver testimonios y casos de éxito | 2 |
-| 49 | US049 | Ver call-to-action de registro | 1 |
-| 50 | US050 | Contactar al equipo mediante formulario  | 2 |
-| 51 | TS001 | API de autenticación con JWT  5 |
-| 52 | TS002 | API REST para gestión completa de vacantes | 5 |
-| 53 | TS003 | API REST para gestión de postulaciones | 5 |
-| 54 | TS004 | API REST para programación de entrevistas | 5 |
-| 55 | TS005 | API REST para notificaciones push | 5 |
-| 56 | TS006 | API REST para búsqueda y filtros de vacantes | 3 |
-| 57 | TS007 | API REST para gestión de perfiles de usuario | 3 |
-| 58 | TS008 | API REST para procesamiento de pagos | 8 |
-| 59 | TS009 | API REST para reportes y analytics | 5 |
-| 60 | TS010 | API REST para carga de archivos (CVs y documentos) | 3 |
-| 36 | SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | 5 |
-| 37 | SP002 | Autenticación Segura con JWT y Control de Sesiones | 5 |
-| 38 | SP003 | Sincronización de Datos Offline-Online | 3 |
-| 39 | SP004 | Notificaciones Push en Tiempo Real | 3 |
-| 40 | SP005 | Implementación de Pagos Integrados con Pasarela | 3 |
-| 41 | SP006 | Optimización del Rendimiento y Carga Inicial de la App | 8 |
-| 42 | SP007 | Gestión de Logs Centralizados y Monitoreo en Azure | 3 |
-| 43 | SP008 | Implementación de Control de Versiones y CI/CD Automatizado | 5 |
+| Orden | User Story Id | Título                                                                  | Story Points (1/2/3/5/8) |
+|-------|---------------|-------------------------------------------------------------------------|--------------------------|
+| 58    | TS008         | API REST para procesamiento de pagos                                    | 8                        |
+| 41    | SP006         | Optimizar del Rendimiento y Carga Inicial de la App                     | 8                        |
+| 36    | SP001         | Integrar de Inteligencia Artificial para Recomendaciones Personalizadas | 5                        |
+| 37    | SP002         | Autenticar Segura con JWT y Control de Sesiones                         | 5                        |
+| 43    | SP008         | Implementar Control de Versiones y CI/CD Automatizado                   | 5                        |
+| 51    | TS001         | API de autenticación con JWT                                            | 5                        |
+| 52    | TS002         | API REST para gestión completa de vacantes                              | 5                        |
+| 53    | TS003         | API REST para gestión de postulaciones                                  | 5                        |
+| 54    | TS004         | API REST para programación de entrevistas                               | 5                        |
+| 55    | TS005         | API REST para notificaciones push                                       | 5                        |
+| 59    | TS009         | API REST para reportes y analytics                                      | 5                        |
+| 40    | US040         | Iniciar sesión con redes sociales                                       | 5                        |
+| 21    | US021         | Sugerir candidatos                                                      | 5                        |
+| 12    | US012         | Enviar oferta laboral                                                   | 5                        |
+| 10    | US010         | Agendar entrevista                                                      | 3                        |
+| 11    | US011         | Registrar resultado de entrevista                                       | 3                        |
+| 20    | US020         | Eliminar mi cuenta permanentemente                                      | 3                        |
+| 22    | US022         | Recomendar vacantes                                                     | 3                        |
+| 23    | US023         | Puntuar CVs automáticamente                                             | 3                        |
+| 24    | US024         | Recibir notificaciones de vacantes                                      | 3                        |
+| 26    | US026         | Ver calendario de entrevistas                                           | 3                        |
+| 27    | US027         | Reprogramar entrevista                                                  | 3                        |
+| 28    | US028         | Solicitar soporte                                                       | 3                        |
+| 29    | US029         | Responder solicitud de soporte                                          | 3                        |
+| 30    | US030         | Registrar método de pago                                                | 3                        |
+| 31    | US031         | Realizar pago                                                           | 3                        |
+| 35    | US035         | Cambiar contraseña                                                      | 3                        |
+| 36    | US036         | Recuperar contraseña olvidada                                           | 3                        |
+| 37    | US037         | Activar autenticación de dos factores (2FA)                             | 3                        |
+| 56    | TS006         | API REST para búsqueda y filtros de vacantes                            | 3                        |
+| 57    | TS007         | API REST para gestión de perfiles de usuario                            | 3                        |
+| 60    | TS010         | API REST para carga de archivos (CVs y documentos)                      | 3                        |
+| 38    | SP003         | Sincronizar Datos Offline-Online                                        | 3                        |
+| 39    | SP004         | Crear Sistema de Notificaciones Push en Tiempo Real                     | 3                        |
+| 40    | SP005         | Implementar Pagos Integrados con Pasarela                               | 3                        |
+| 42    | SP007         | Crear Sistema de Soporte y Gestión de Tickets Centralizados             | 3                        |
+| 4     | US004         | Buscar y listar vacantes disponibles                                    | 2                        |
+| 6     | US006         | Aplicar a vacante                                                       | 2                        |
+| 7     | US007         | Ver postulaciones recibidas                                             | 2                        |
+| 8     | US008         | Filtrar postulaciones                                                   | 2                        |
+| 9     | US009         | Ver estado de mis postulaciones                                         | 2                        |
+| 15    | US015         | Iniciar sesión en la plataforma                                         | 2                        |
+| 17    | US017         | Editar perfil profesional                                               | 2                        |
+| 19    | US019         | Configurar perfil                                                       | 2                        |
+| 25    | US025         | Recibir notificaciones de postulaciones                                 | 2                        |
+| 32    | US032         | Ver historial de pagos                                                  | 2                        |
+| 33    | US033         | Configurar notificaciones                                               | 2                        |
+| 34    | US034         | Configurar idioma y zona horaria                                        | 2                        |
+| 38    | US038         | Asignar rol de reclutador                                               | 2                        |
+| 39    | US039         | Asignar rol de postulante                                               | 2                        |
+| 41    | US041         | Compartir vacante en redes sociales                                     | 2                        |
+| 42    | US042         | Compartir perfil en redes sociales                                      | 2                        |
+| 43    | US043         | Comentar sobre vacantes                                                 | 2                        |
+| 44    | US044         | Comentar sobre el proceso de selección                                  | 2                        |
+| 45    | US045         | Ver hero y propuesta de valor de la plataforma                          | 2                        |
+| 46    | US046         | Ver sección de beneficios para empresas                                 | 2                        |
+| 47    | US047         | Ver sección de beneficios para postulantes                              | 2                        |
+| 48    | US048         | Ver testimonios y casos de éxito                                        | 2                        |
+| 50    | US050         | Contactar al equipo mediante formulario                                 | 2                        |
+| 1     | US001         | Crear nueva vacante                                                     | 1                        |
+| 2     | US002         | Editar vacante existente                                                | 1                        |
+| 3     | US003         | Cerrar vacante                                                          | 1                        |
+| 5     | US005         | Ver detalle completo de una vacante                                     | 1                        |
+| 13    | US013         | Registrar cuenta de postulante                                          | 1                        |
+| 14    | US014         | Registrar cuenta de reclutador                                          | 1                        |
+| 16    | US016         | Cerrar sesión                                                           | 1                        |
+| 49    | US049         | Ver call-to-action de registro                                          | 1                        |
+
+
 - Evidencia del Product Backlog en Trello:
 <img src="img/Product_Backlog_SmartHire.png" alt="productbacklog" width= 1000/>
 
@@ -5095,21 +5107,70 @@ User Goal: Como usuario, deseo tener un perfil que pueda editar cuando quiera.
 
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 
-![USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR](img/USER-FLOW-DIAGRAM-ANALITICAS-RECLUTADOR.png)
+| **User Goal** |
+|---------------|
+| Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. |
+| ![inicioSesion](img/usw1.png) |
+| El usuario podrá iniciar sesión en la aplicación una vez haya creado una cuenta previamente. Al acceder, la aplicación mostrará el panel principal correspondiente, dependiendo del tipo de usuario: si es un Reclutador, verá opciones relacionadas con la gestión de ofertas de empleo, búsqueda de candidatos y otras funcionalidades específicas. |
 
-![USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES](img/USER-FLOW-DIAGRAM-APOSTULACIONES-APUBLICACIONES.png)
 
-![USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR](img/USER-FLOW-DIAGRAM-CALENDARIO-RECLUTADOR.png)
+| **User Goal** |
+|---------------|
+| Como usuario, deseo crear una cuenta para iniciar sesión en la aplicación. |
+| ![mensajesPOS](img/usw2.png) |
+| El usuario entra a la aplicación. Si es nuevo, da clic en “Registrarse”, lo que lo manda a otra pantalla donde llena un formulario con sus datos. Luego confirma que se quiere registrar y será dirigido a una pantalla con la confirmación de que se registró. En caso contrario, si ya tiene cuenta, puede iniciar sesión de manera directa. |
 
-![USER-FLOW-DIAGRAM-CREAR-CUENTA](img/USER-FLOW-DIAGRAM-CREAR-CUENTA.png)
 
-![USER-FLOW-DIAGRAM-EDITAR-PERFIL](img/USER-FLOW-DIAGRAM-EDITAR-PERFIL.png)
+| **User Goal** |
+|---------------|
+| Como Reclutador, Deseo ver mis publicaciones, poder editarlas y eliminarlas cuando yo quiera. Además, de poder ver los candidatos que postularón |
+| ![inicioSesion](img/usw3.png) |
+| El reclutador puede crear una nueva publicacion de trabajo y si por accidente cometió un error, tiene la facilidad de precionar los 3 botones de "ver, editar o eliminar" segun sea lo que necesite hacer. También, puede vizualizar los candidatos que postularon a dichas publicaciones filtrar por categorías.  |
 
-![USER-FLOW-DIAGRAM-INICIO-SESION](img/USER-FLOW-DIAGRAM-INICIO-SESION.png)
 
-![USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE](img/USER-FLOW-DIAGRAM-OFERTA-LABORAL-POSTULANTE.png)
+| **User Goal** |
+|---------------|
+| Como Reclutador, deseo ver mis datos recaudados en un gráfico para ver mis estadísticas y un calendario para mejor organizacion. |
+| ![analiticass](img/usw4.png) |
+| El reclutador puede ver en graficos estadisticos las publicaciones con mayor vizualización o demanda, esto para tener un mejor control de sus publicaciones y estar al tanto de fechas, y eventos.  |
 
-![USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR](img/USER-FLOW-DIAGRAM-VER-CANDIDATOS-RECLUTADOR.png)
+
+| **User Goal** |
+|---------------|
+| Como Reclutador, deseo tener acceso a una IA para que me ayude en el proceso de reclutamiento |
+| ![IA](img/usw5.png) |
+| El Reclutador tiene la opción de realizar un análisis detallado utilizando la inteligencia artificial propia de Jobsy. Gracias a esta herramienta avanzada, el reclutador puede evaluar automáticamente las candidaturas de los postulantes, lo que facilita la toma de decisiones al poder descartar o aceptar candidatos de manera más rápida y precisa. Este sistema de IA permite reducir significativamente las tareas repetitivas y manuales, como la revisión de currículums y las entrevistas preliminares, agilizando el proceso de selección y mejorando la eficiencia en la gestión de los recursos humanos.  |
+
+
+| **User Goal** |
+|---------------|
+| Como Reclutador deseo tener un perfil de empresa y poder editarlo cuando quiera. |
+| ![perfilRECLU](img/usw6.png) |
+| El Reclutador tiene la posibilidad de editar su información personal en cualquier momento. Para hacerlo, simplemente debe hacer clic en el ícono de perfil ubicado en la interfaz de la aplicación. Al acceder a su perfil, podrá modificar datos como nombre, correo electrónico, cargo, entre otros. |
+
+
+| **User Goal** |
+|---------------|
+| Como Postulante, deseo ver todas las postulaciones que realice |
+| ![mensajesPOS](img/usw7.png) ![mensajesPOS](img/usw71.png) |
+| El Postulante tiene la posibilidad de visualizar y realizar nuevas postulaciones directamente desde la aplicación. Al ingresar a la sección correspondiente, podrá consultar las ofertas de empleo disponibles según su perfil e intereses. Al pulsar el botón “Postular”, la aplicación mostrará las vacantes activas, permitiéndole seleccionar aquellas que desee solicitar. |
+
+
+| **User Goal** |
+|---------------|
+| Como Postulante, deseo recibir mensajes de las empresas para saber el estado de mi postulación. |
+| ![mensajesPOS](img/usw8.png) |
+| El Postulante puede recibir mensajes directamente dentro de la aplicación, lo que le permite mantenerse informado en todo momento sobre las novedades, instrucciones o comentarios enviados por los reclutadores. |
+
+
+| **User Goal** |
+|---------------|
+| Como Postulante, deseo tener un perfil que pueda editar cuando quiera |
+| ![mensajesPOS](img/usw9.png) |
+| El Postulante tiene la posibilidad de editar su información personal directamente desde la aplicación. Para hacerlo, debe pulsar el ícono de perfil, donde podrá acceder a sus datos personales y realizar las modificaciones necesarias, como actualizar su nombre, correo electrónico, experiencia laboral o cualquier otra información relevante. |
+
+
+link: https://drive.google.com/file/d/10XsFh9GxYhc97sIjRhbqTRdJDshmPW3B/view?usp=drive_link
 
 #### **3.1.4.5. Mobile Applications Prototyping**
 
@@ -5257,34 +5318,34 @@ Link para la visualización de la Landing Page: https://landing-page-jobsy.web.a
 ### **4.2.1. Sprint 1**
 #### **4.2.1.1. Sprint Planning 1**
 
-| **Sprint #**                    | Sprint 1 |
-|----------------------------------|----------|
-| **Sprint Planning Background**  |          |
-| **Date**                        | 02/10/2025 |
-| **Time**                        | 7:00 pm |
-| **Location**                    | Virtual (Discord) |
-| **Prepared by**                 | Peralta Chipa Ronald Joel |
-| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo |
-| **Sprint n - 1 Review Summary**  | No hubo sprint anterior |
-| **Sprint n - 1 Retrospective Summary** | No hubo sprint anterior |
-| **Sprint Goal & User Stories**   |          |
-| **Sprint 1 Goal**                | Nuestro enfoque está en diseñar e implementar las pantallas principales de la aplicación Android, junto con la configuración inicial del backend y la landing page. <br> Creemos que esto proporciona la base visual y arquitectónica de la plataforma de reclutamiento, permitiendo integrar las funcionalidades en los próximos sprints. <br> Esto se confirmará cuando la app muestre las pantallas principales con un flujo de navegación coherente y una identidad visual definida, y cuando el backend y la landing page estén desplegados. |
-| **Sprint 1 Velocity**            | 25 Story Points |
-| **Sum of Story Points**          | 25 |
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Date**                               | 02/10/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Time**                               | 7:00 pm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Location**                           | Virtual (Discord)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Prepared by**                        | Peralta Chipa Ronald Joel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Attendees (to planning meeting)**    | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint n - 1 Review Summary**        | No hubo sprint anterior                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Sprint n - 1 Retrospective Summary** | No hubo sprint anterior                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint 1 Goal**                      | Nuestro enfoque está en diseñar e implementar las pantallas principales de la aplicación Android, junto con la configuración inicial del backend y la landing page. <br> Creemos que esto proporciona la base visual y arquitectónica de la plataforma de reclutamiento, permitiendo integrar las funcionalidades en los próximos sprints. <br> Esto se confirmará cuando la app muestre las pantallas principales con un flujo de navegación coherente y una identidad visual definida, y cuando el backend y la landing page estén desplegados. |
+| **Sprint 1 Velocity**                  | 25 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sum of Story Points**                | 25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 #### **4.2.1.2. Sprint Backlog 1**
 
-| Sprint # | Sprint 1 |          |           |             |         |         |        |
-|----------|--------|----------|-----------|-------------|---------|---------|--------|
-| **User Story** | | **Work Item / Task** | | | | | |
-| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-| US011 | Registrar cuenta de reclutador | W001 | Implementar endpoint para usuario (reclutador) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 2hrs | Javier | Done |
-| US010 | Registrar cuenta de postulante | W002 | Implementar endpoint para usuario (postulante) | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 3hrs | Javier | Done |
-| US031 | Iniciar sesión con redes sociales | W003 | Implementar pantalla de inicio de sesión | Elaborar un apartado visual que permita iniciar sesion. | 2hrs | Ricardo | Done |
-| US027 | Cambiar contraseña | W004 | Implementar pantalla de cambio de contraseña | Elaborar un apartado visual que permita cambiar la contraseña. | 2hrs | Raul | Done |
-| US026 | Configurar perfil | W005 | Implementar pantalla de perfil | Elaborar un apartado visual que permita cambiar la configuración del perfil | 2hrs | Yair | Done |
-| SP001 | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | W006 | Implementar IA para el backend | Elaborar el bounded context de IA en el backend. | 2hrs | Ronald | Done |
-| SP002 | Autenticación Segura con JWT y Control de Sesiones | W007 | Implementar JWT al apartado de usuario para el backend | Elaborar la autenticación con JWT al iniciar sesion. | 2hrs | Ronald | Done |
+| Sprint #       | Sprint 1                                                                   |                      |                                                        |                                                                                     |                    |             |                                                |
+|----------------|----------------------------------------------------------------------------|----------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------|--------------------|-------------|------------------------------------------------|
+| **User Story** |                                                                            | **Work Item / Task** |                                                        |                                                                                     |                    |             |                                                |
+| ID             | Title                                                                      | ID                   | Title                                                  | Description                                                                         | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US011          | Registrar cuenta de reclutador                                             | W001                 | Implementar endpoint para usuario (reclutador)         | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 2hrs               | Javier      | Done                                           |
+| US010          | Registrar cuenta de postulante                                             | W002                 | Implementar endpoint para usuario (postulante)         | Desarrollar el endpoint en el backend para poder tener la funcionalidad de registro | 3hrs               | Javier      | Done                                           |
+| US031          | Iniciar sesión con redes sociales                                          | W003                 | Implementar pantalla de inicio de sesión               | Elaborar un apartado visual que permita iniciar sesion.                             | 2hrs               | Ricardo     | Done                                           |
+| US027          | Cambiar contraseña                                                         | W004                 | Implementar pantalla de cambio de contraseña           | Elaborar un apartado visual que permita cambiar la contraseña.                      | 2hrs               | Raul        | Done                                           |
+| US026          | Configurar perfil                                                          | W005                 | Implementar pantalla de perfil                         | Elaborar un apartado visual que permita cambiar la configuración del perfil         | 2hrs               | Yair        | Done                                           |
+| SP001          | Integración de Inteligencia Artificial para Recomendaciones Personalizadas | W006                 | Implementar IA para el backend                         | Elaborar el bounded context de IA en el backend.                                    | 2hrs               | Ronald      | Done                                           |
+| SP002          | Autenticación Segura con JWT y Control de Sesiones                         | W007                 | Implementar JWT al apartado de usuario para el backend | Elaborar la autenticación con JWT al iniciar sesion.                                | 2hrs               | Ronald      | Done                                           |
 
 - Evidencia del Product Backlog - Sprint 1 en Trello:
 <img src="img/ProductBacklog-Smarthire-Sprint1.png" alt="productbacklog-Sprint1" width= 1000/>
@@ -5296,14 +5357,14 @@ Se realizaron los avances con los commits de la siguiente forma.
 
 - Repositorio Informe:
 
-| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
-|:----------:|:------:|:---------:|:--------------:|:------------------:|
-| Infrome-de-trabajo-Final | develop | 56b278825b519e7724d1acd901098fd54c9ecd62 | update: changed spike stories | 08/10/2025 |
-| Infrome-de-trabajo-Final | develop | 548ad688c931975be7654ac76be1a2f0d7ff3a77 | update: product backlog updated | 08/10/2025 |
-| Infrome-de-trabajo-Final | develop | 6bc910900031390fd9a0f4b4442dbb08d71fe7a7 | update: product backlog link | 08/10/2025 |
-| Infrome-de-trabajo-Final | develop | 2ab1eea35cfaa3a4b9c51858ef036207adac37d1 | feat(chapter-02): added bounded context canvas publicaciones | 08/10/2025 |
-| Infrome-de-trabajo-Final | develop | 0f376411bb2ff27becaeee761bb001537e85684f | feat(chapter-02): added bounded context canvas analiticas | 08/10/2025 |
-| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 | feat(chapter-02): added bounded context canvas candidatos | 08/10/2025 |
+|        Repository        | Branch  |                Commit Id                 |                        Commit Message                        | Committed on (Date) |
+|:------------------------:|:-------:|:----------------------------------------:|:------------------------------------------------------------:|:-------------------:|
+| Infrome-de-trabajo-Final | develop | 56b278825b519e7724d1acd901098fd54c9ecd62 |                update: changed spike stories                 |     08/10/2025      |
+| Infrome-de-trabajo-Final | develop | 548ad688c931975be7654ac76be1a2f0d7ff3a77 |               update: product backlog updated                |     08/10/2025      |
+| Infrome-de-trabajo-Final | develop | 6bc910900031390fd9a0f4b4442dbb08d71fe7a7 |                 update: product backlog link                 |     08/10/2025      |
+| Infrome-de-trabajo-Final | develop | 2ab1eea35cfaa3a4b9c51858ef036207adac37d1 | feat(chapter-02): added bounded context canvas publicaciones |     08/10/2025      |
+| Infrome-de-trabajo-Final | develop | 0f376411bb2ff27becaeee761bb001537e85684f |  feat(chapter-02): added bounded context canvas analiticas   |     08/10/2025      |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 |  feat(chapter-02): added bounded context canvas candidatos   |     08/10/2025      |
 
 #### **4.2.1.4. Testing Suite Evidence for Sprint Review**
 
@@ -5360,6 +5421,121 @@ Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services p
 
 ![Commit3_Sprint1.PNG](img/Commit3_Sprint1.PNG)
 
+### **4.2.2. Sprint 2**
+#### **4.2.2.1. Sprint Planning 2**
+
+| **Sprint #**                        | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                            | 03/11/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                            | 7:00 pm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Location**                        | Virtual (Discord)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared by**                     | Peralta Chipa Ronald Joel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 1 Review Summary**         | Se realizo el avance del backend y se desarrollo las pantallas en Android                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint 1 Retrospective Summary**  | Ajustamos criterios de aceptacion, product backlog, presentacion del documento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 2 Goal**                   | Nuestro enfoque está en consolidar la conexión entre la aplicación Android y el backend, además de diseñar e implementar las pantallas principales de la aplicación Flutter aún sin conexión al backend. <br> Creemos que esto fortalece la base técnica y visual de la plataforma de reclutamiento, permitiendo avanzar hacia una integración completa en los próximos sprints. <br> Esto se confirmará cuando la aplicación Android se comunique correctamente con el backend y las pantallas de Flutter presenten un flujo de navegación coherente y una identidad visual definida. |
+| **Sprint 2 Velocity**               | 53 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sum of Story Points**             | 78                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+#### **4.2.2.2. Sprint Backlog 2**
+
+| Sprint #       | Sprint 2                                                    |                      |                                                 |                                                                                 |                    |             |                                                |
+|----------------|-------------------------------------------------------------|----------------------|-------------------------------------------------|---------------------------------------------------------------------------------|--------------------|-------------|------------------------------------------------|
+| **User Story** |                                                             | **Work Item / Task** |                                                 |                                                                                 |                    |             |                                                |
+| ID             | Title                                                       | ID                   | Title                                           | Description                                                                     | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US013          | Registrar cuenta de postulante                              | W001                 | Implementar registro de postulante en Android   | Conectar el formulario de registro con el endpoint correspondiente del backend. | 3hrs               | Javier      | Done                                           |
+| US014          | Registrar cuenta de reclutador                              | W002                 | Implementar registro de reclutador en Android   | Integrar la funcionalidad de registro con la API del backend.                   | 3hrs               | Javier      | Done                                           |
+| US015          | Iniciar sesión en la plataforma                             | W003                 | Implementar inicio de sesión con JWT            | Conectar la pantalla de login de Android con la API de autenticación.           | 3hrs               | Ricardo     | Done                                           |
+| US016          | Cerrar sesión                                               | W004                 | Implementar cierre de sesión                    | Añadir funcionalidad de logout y limpieza de sesión en Android.                 | 2hrs               | Ricardo     | In-Process                                     |
+| US035          | Cambiar contraseña                                          | W005                 | Implementar pantalla de cambio de contraseña    | Crear la interfaz y lógica de cambio de contraseña en Android.                  | 3hrs               | Raúl        | To-Do                                          |
+| US036          | Recuperar contraseña olvidada                               | W006                 | Implementar recuperación de contraseña          | Desarrollar la pantalla y flujo de recuperación de credenciales.                | 3hrs               | Raúl        | To-Do                                          |
+| US020          | Eliminar mi cuenta permanentemente                          | W007                 | Implementar eliminación de cuenta               | Agregar funcionalidad en Android para eliminar cuenta de usuario vía API.       | 3hrs               | Ricardo     | To-Do                                          |
+| US017          | Editar perfil profesional                                   | W008                 | Implementar pantalla de edición de perfil       | Diseñar y preparar formulario de edición de perfil en Flutter (sin conexión).   | 2hrs               | Yair        | To-Do                                          |
+| US019          | Configurar perfil                                           | W009                 | Implementar pantalla de configuración           | Crear estructura visual de configuración de usuario en Flutter.                 | 2hrs               | Yair        | To-Do                                          |
+| US004          | Buscar y listar vacantes disponibles                        | W010                 | Diseñar pantalla principal de vacantes          | Crear diseño y navegación para la lista de vacantes en Flutter.                 | 3hrs               | Raúl        | Done                                           |
+| US005          | Ver detalle completo de una vacante                         | W011                 | Diseñar pantalla de detalle de vacante          | Implementar la vista de detalle con estructura visual en Flutter.               | 2hrs               | Raúl        | Done                                           |
+| US045          | Ver hero y propuesta de valor de la plataforma              | W012                 | Diseñar sección principal (Hero)                | Crear componente visual principal de la landing en Flutter.                     | 2hrs               | Yair        | Done                                           |
+| US046          | Ver sección de beneficios para empresas                     | W013                 | Diseñar pantalla de beneficios empresariales    | Desarrollar estructura visual informativa en Flutter.                           | 2hrs               | Yair        | In-Process                                     |
+| US047          | Ver sección de beneficios para postulantes                  | W014                 | Diseñar pantalla de beneficios para postulantes | Implementar vista visual con navegación base.                                   | 2hrs               | Yair        | To-Do                                          |
+| US048          | Ver testimonios y casos de éxito                            | W015                 | Diseñar pantalla de testimonios                 | Crear componente visual de testimonios en Flutter.                              | 2hrs               | Raúl        | Done                                           |
+| US049          | Ver call-to-action de registro                              | W016                 | Diseñar botón y sección de registro             | Implementar call-to-action visual que lleve al registro.                        | 1hr                | Raúl        | Done                                           |
+| US050          | Contactar al equipo mediante formulario                     | W017                 | Diseñar formulario de contacto                  | Implementar pantalla y campos del formulario sin conexión aún.                  | 2hrs               | Yair        | Done                                           |
+| TS001          | API de autenticación con JWT                                | W018                 | Validar endpoints de autenticación              | Probar funcionamiento del inicio de sesión desde Android.                       | 3hrs               | Ronald      | Done                                           |
+| TS002          | API REST para gestión completa de vacantes                  | W019                 | Validar endpoints de vacantes desde Android     | Confirmar la comunicación entre Android y el backend.                           | 3hrs               | Ronald      | Done                                           |
+| TS007          | API REST para gestión de perfiles de usuario                | W020                 | Validar endpoints de perfil y cuentas           | Comprobar que el backend responde correctamente a solicitudes de usuario.       | 3hrs               | Ronald      | To-Review                                      |
+| SP008          | Implementación de Control de Versiones y CI/CD Automatizado | W021                 | Configurar pipeline CI/CD                       | Configurar despliegue automático para backend y apps móviles.                   | 4hrs               | Ronald      | Done                                           |
+
+
+- Evidencia del Product Backlog - Sprint 2 en Trello:
+<img src="img/sprint2-backlog.png" alt="productbacklog-Sprint2" width= 1000/>
+
+- Link del Product Backlog - Sprint 2 en Trello: [https://trello.com/b/rOuDgxJW/product-backlog-smarthire-sprint-2](https://trello.com/b/rOuDgxJW/product-backlog-smarthire-sprint-2)
+
+#### **4.2.2.3. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits de la siguiente forma.
+
+- Repositorio Informe:
+
+|        Repository        | Branch  |                Commit Id                 |                        Commit Message                        | Committed on (Date) |
+|:------------------------:|:-------:|:----------------------------------------:|:------------------------------------------------------------:|:-------------------:|
+| Infrome-de-trabajo-Final | develop | 1e1d1d6cd5f235553682afcc2c531a393b3380cf |                 update: changed presentation                 |     29/10/2025      |
+| Infrome-de-trabajo-Final | develop | be3a8bb4d170abcf136d78cae689e1446f12c099 |                 update: updated presentation                 |     07/10/2025      |
+| Infrome-de-trabajo-Final | develop | 058c3d5eb997e0ea1cb614096a76471a545a4abf |                 update: updated presentation                 |     07/10/2025      |
+| Infrome-de-trabajo-Final | develop | 0d16ba6933063f3ae2057e5fdd378079c4fc72c8 | docs: added sprint 2 |     12/11/2025      |
+| Infrome-de-trabajo-Final | develop | 7ea371f944002b03aede8c44eb54108b48c02261 |  feat(chapter-02): update order of user stories, technical stories and spike stories in product backlog.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 |  fix(chapter-02): fixed titles in product backlog.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 5da1ef33958e4d08c3dd71aa9dfe5acf72fbf1df |  feat(chapter-02): update user stories, spike stories and technical stories.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | cc9aef0d6bc6e29a122578c796590ec545e93092 |  fix(chapter-02): fix tables.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 7f8e7d8b231f25c511e7219e71616b53209ac26c |  arrangement of user User Flow Diagrams   |     13/11/2025      |
+
+#### **4.2.2.4. Testing Suite Evidence for Sprint Review**
+
+Codigo en Jetpack Compose:
+
+![Code_Android_1.png](img/CodigoAndroid.png)
+
+![Code_Android_2.png](img/CodigoAndroid2.png)
+
+#### **4.2.2.5. Execution Evidence for Sprint Review**
+
+Aplicacion Android:
+
+![Exe_Android_1.png](img/AndroidView1.png)
+
+![Exe_Android_2.png](img/AndroidView2.png)
+
+![Exe_Android_3.png](img/AndoridView3.png)
+
+![Exe_Android_4.png](img/AndroidView4.png)
+
+#### **4.2.2.6. Services Documentation Evidence for Sprint Review**
+
+Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger/index.html
+
+![Exe_Backend_1.PNG](img/Exe_Backend_1.PNG)
+
+![Exe_Backend_2.PNG](img/Exe_Backend_2.PNG)
+
+![Exe_Backend_3.PNG](img/Exe_Backend_3.PNG)
+
+#### **4.2.2.7. Software Deployment Evidence for Sprint Review**
+
+Para el desarrollo de este sprint, se utilizaron herramientas para el desarrollo y despliegue del Backend.
+
+Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services porque nos brinda muchas ventajas como la escalabilidad automática que adapta el consumo de recursos en base a la carga, tener el backend desplegado todo el tiempo lo que nos permite interactuar con ello cuando sea requerido y tener una integracion con Github lo que facilita su actualizacion constante en base a las mejoras futuras que se le puede realizar.
+
+![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
+
+#### **4.2.2.8. Team Collaboration Insights during Sprint**
+
+![Commit_Sprint1.PNG](img/Commit_Sprint1.PNG)
+
+![Commit2_Sprint1.PNG](img/Commit2_Sprint1.PNG)
+
+![Commit3_Sprint1.PNG](img/Commit3_Sprint1.PNG)
+
 ## **4.3. Validation Interviews**
 ### **4.3.1. Diseño de Entrevistas**
 
@@ -5372,13 +5548,13 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 ##### Perfil del Entrevistado
 
-| Característica | Descripción |
-|:--------------|:-----------|
-| **Rol** | Reclutadores, HR Managers, Coordinadores de Talento Humano |
-| **Experiencia** | Personas con experiencia en procesos de contratación y gestión de vacantes |
-| **Sector** | Empresas de diversos tamaños (startups, PYMEs, corporaciones) |
-| **Rango de edad** | 25-50 años |
-| **Competencia digital** | Intermedio a Avanzado |
+| Característica          | Descripción                                                                |
+|:------------------------|:---------------------------------------------------------------------------|
+| **Rol**                 | Reclutadores, HR Managers, Coordinadores de Talento Humano                 |
+| **Experiencia**         | Personas con experiencia en procesos de contratación y gestión de vacantes |
+| **Sector**              | Empresas de diversos tamaños (startups, PYMEs, corporaciones)              |
+| **Rango de edad**       | 25-50 años                                                                 |
+| **Competencia digital** | Intermedio a Avanzado                                                      |
 
 ##### Objetivos de Validación
 
@@ -5392,48 +5568,48 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 **Landing Page**
 
-| Elemento | User Story |
-|:---------|:-----------|
-| Sección Hero y propuesta de valor principal | US045 |
-| Sección de beneficios para empresas | US046 |
-| Testimonios y casos de éxito | US048 |
-| Call-to-action de registro empresarial | US049 |
-| Formulario de contacto | US050 |
+| Elemento                                    | User Story |
+|:--------------------------------------------|:-----------|
+| Sección Hero y propuesta de valor principal | US045      |
+| Sección de beneficios para empresas         | US046      |
+| Testimonios y casos de éxito                | US048      |
+| Call-to-action de registro empresarial      | US049      |
+| Formulario de contacto                      | US050      |
 
 **Aplicación Móvil Android**
 
-| Elemento | User Stories |
-|:---------|:-------------|
-| Registro de cuenta de reclutador | US014 |
-| Inicio de sesión | US015 |
-| Dashboard del reclutador | - |
-| Módulo de gestión de vacantes | US001, US002, US003 |
-| Módulo de gestión de postulaciones | US007, US008 |
-| Módulo de proceso de selección | US010, US011, US012 |
+| Elemento                           | User Stories        |
+|:-----------------------------------|:--------------------|
+| Registro de cuenta de reclutador   | US014               |
+| Inicio de sesión                   | US015               |
+| Dashboard del reclutador           | -                   |
+| Módulo de gestión de vacantes      | US001, US002, US003 |
+| Módulo de gestión de postulaciones | US007, US008        |
+| Módulo de proceso de selección     | US010, US011, US012 |
 
 ##### User Flows a Evaluar
 
-| # | User Flow | Descripción | User Stories | Criterio de Éxito |
-|:-:|:----------|:------------|:-------------|:------------------|
-| 1 | Primer Contacto y Registro | Landing Page → Beneficios Empresas → CTA Registro → Formulario → Confirmación | US049 | Usuario comprende propuesta de valor y completa registro sin confusión |
-| 2 | Creación de Vacante | Login → Dashboard → Nueva Vacante → Formulario → Validación → Publicar | US001 | Usuario crea vacante en menos de 3 minutos sin errores |
-| 3 | Gestión de Postulaciones | Dashboard → Mis Vacantes → Ver Postulaciones → Filtros → Detalle Candidato | US007, US008 | Usuario encuentra candidatos específicos usando filtros rápidamente |
-| 4 | Programación de Entrevista | Ver Postulación → Agendar → Fecha/Hora → Validar Conflictos → Confirmar | US010 | Usuario agenda entrevista sin conflictos de horario |
-| 5 | Envío de Oferta Laboral | Candidato Seleccionado → Enviar Oferta → Formulario → Confirmar → Enviada | US012 | Usuario envía oferta formal sin dificultades |
+| # | User Flow                  | Descripción                                                                   | User Stories | Criterio de Éxito                                                      |
+|:-:|:---------------------------|:------------------------------------------------------------------------------|:-------------|:-----------------------------------------------------------------------|
+| 1 | Primer Contacto y Registro | Landing Page → Beneficios Empresas → CTA Registro → Formulario → Confirmación | US049        | Usuario comprende propuesta de valor y completa registro sin confusión |
+| 2 | Creación de Vacante        | Login → Dashboard → Nueva Vacante → Formulario → Validación → Publicar        | US001        | Usuario crea vacante en menos de 3 minutos sin errores                 |
+| 3 | Gestión de Postulaciones   | Dashboard → Mis Vacantes → Ver Postulaciones → Filtros → Detalle Candidato    | US007, US008 | Usuario encuentra candidatos específicos usando filtros rápidamente    |
+| 4 | Programación de Entrevista | Ver Postulación → Agendar → Fecha/Hora → Validar Conflictos → Confirmar       | US010        | Usuario agenda entrevista sin conflictos de horario                    |
+| 5 | Envío de Oferta Laboral    | Candidato Seleccionado → Enviar Oferta → Formulario → Confirmar → Enviada     | US012        | Usuario envía oferta formal sin dificultades                           |
 
 ##### Tareas Específicas para la Sesión
 
 **Contexto:** Eres el responsable de RRHH de una empresa de tecnología que necesita contratar un desarrollador Android.
 
-| # | Tarea | User Story | Tiempo Estimado |
-|:-:|:------|:-----------|:----------------|
-| 1 | Explora el Landing Page y describe qué te ofrece la plataforma | US046 | 2 min |
-| 2 | Regístrate como reclutador en la plataforma | US014 | 3 min |
-| 3 | Crea una nueva vacante para "Desarrollador Android Senior" | US001 | 4 min |
-| 4 | Revisa las postulaciones recibidas para tu vacante | US007 | 2 min |
-| 5 | Filtra las postulaciones para ver solo las "En revisión" | US008 | 1 min |
-| 6 | Agenda una entrevista con uno de los candidatos | US010 | 3 min |
-| 7 | Envía una oferta laboral al candidato seleccionado | US012 | 3 min |
+| # | Tarea                                                          | User Story | Tiempo Estimado |
+|:-:|:---------------------------------------------------------------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué te ofrece la plataforma | US046      | 2 min           |
+| 2 | Regístrate como reclutador en la plataforma                    | US014      | 3 min           |
+| 3 | Crea una nueva vacante para "Desarrollador Android Senior"     | US001      | 4 min           |
+| 4 | Revisa las postulaciones recibidas para tu vacante             | US007      | 2 min           |
+| 5 | Filtra las postulaciones para ver solo las "En revisión"       | US008      | 1 min           |
+| 6 | Agenda una entrevista con uno de los candidatos                | US010      | 3 min           |
+| 7 | Envía una oferta laboral al candidato seleccionado             | US012      | 3 min           |
 
 ##### Preguntas Guía
 
@@ -5457,12 +5633,12 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 ##### Métricas de Éxito
 
-| Métrica | Objetivo |
-|:--------|:---------|
-| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
-| Tasa de éxito | ≥ 80% de tareas completadas sin ayuda |
-| Errores críticos | Máximo 1 error por user flow |
-| Satisfacción | Puntuación promedio ≥ 7/10 |
+| Métrica                | Objetivo                              |
+|:-----------------------|:--------------------------------------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30%    |
+| Tasa de éxito          | ≥ 80% de tareas completadas sin ayuda |
+| Errores críticos       | Máximo 1 error por user flow          |
+| Satisfacción           | Puntuación promedio ≥ 7/10            |
 
 ---
 
@@ -5470,13 +5646,13 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 ##### Perfil del Entrevistado
 
-| Característica | Descripción |
-|:--------------|:-----------|
-| **Rol** | Profesionales en búsqueda activa de empleo, recién egresados, personas en transición laboral |
-| **Experiencia** | Usuarios que buscan oportunidades laborales en diversos sectores |
-| **Rango de edad** | 20-45 años |
-| **Competencia digital** | Básico a Intermedio |
-| **Dispositivos** | Usuarios de smartphones Android |
+| Característica          | Descripción                                                                                  |
+|:------------------------|:---------------------------------------------------------------------------------------------|
+| **Rol**                 | Profesionales en búsqueda activa de empleo, recién egresados, personas en transición laboral |
+| **Experiencia**         | Usuarios que buscan oportunidades laborales en diversos sectores                             |
+| **Rango de edad**       | 20-45 años                                                                                   |
+| **Competencia digital** | Básico a Intermedio                                                                          |
+| **Dispositivos**        | Usuarios de smartphones Android                                                              |
 
 ##### Objetivos de Validación
 
@@ -5490,50 +5666,50 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 **Landing Page**
 
-| Elemento | User Story |
-|:---------|:-----------|
-| Sección Hero y propuesta de valor | US045 |
-| Sección de beneficios para postulantes | US047 |
-| Testimonios de postulantes exitosos | US048 |
-| Call-to-action de registro de postulante | US049 |
+| Elemento                                 | User Story |
+|:-----------------------------------------|:-----------|
+| Sección Hero y propuesta de valor        | US045      |
+| Sección de beneficios para postulantes   | US047      |
+| Testimonios de postulantes exitosos      | US048      |
+| Call-to-action de registro de postulante | US049      |
 
 **Aplicación Móvil Android**
 
-| Elemento | User Stories |
-|:---------|:-------------|
-| Registro de cuenta de postulante | US013 |
-| Inicio de sesión | US015 |
-| Búsqueda y filtrado de vacantes | US004 |
-| Detalle de vacante | US005 |
-| Proceso de postulación | US006 |
-| Seguimiento de postulaciones | US009 |
-| Edición de perfil profesional | US017 |
+| Elemento                         | User Stories |
+|:---------------------------------|:-------------|
+| Registro de cuenta de postulante | US013        |
+| Inicio de sesión                 | US015        |
+| Búsqueda y filtrado de vacantes  | US004        |
+| Detalle de vacante               | US005        |
+| Proceso de postulación           | US006        |
+| Seguimiento de postulaciones     | US009        |
+| Edición de perfil profesional    | US017        |
 
 ##### User Flows a Evaluar
 
-| # | User Flow | Descripción | User Stories | Criterio de Éxito |
-|:-:|:----------|:------------|:-------------|:------------------|
-| 1 | Descubrimiento y Registro | Landing Page → Beneficios Postulantes → CTA Crear Perfil → Registro → Confirmación | US049 | Usuario comprende valor de la plataforma y se registra exitosamente |
-| 2 | Búsqueda de Vacantes | Login → Dashboard → Buscar Vacantes → Aplicar Filtros → Ver Resultados → Seleccionar | US004 | Usuario encuentra vacantes relevantes en menos de 2 minutos |
-| 3 | Detalle de Vacante | Lista Vacantes → Seleccionar → Ver Detalle Completo (Descripción, Requisitos, Beneficios) | US005 | Usuario accede a toda la información necesaria para decidir |
-| 4 | Postulación a Vacante | Detalle Vacante → Postularme → Confirmar → Confirmación → Ver en Mis Postulaciones | US006 | Usuario completa postulación en 1 clic con confirmación clara |
-| 5 | Seguimiento de Postulaciones | Dashboard → Mis Postulaciones → Ver Lista con Estados → Detalle → Ver Historial | US009 | Usuario entiende claramente el estado de cada postulación |
-| 6 | Actualización de Perfil | Dashboard → Perfil → Editar → Actualizar Experiencia/Habilidades → Guardar → Confirmar | US017 | Usuario actualiza perfil sin confusión sobre campos importantes |
+| # | User Flow                    | Descripción                                                                               | User Stories | Criterio de Éxito                                                   |
+|:-:|:-----------------------------|:------------------------------------------------------------------------------------------|:-------------|:--------------------------------------------------------------------|
+| 1 | Descubrimiento y Registro    | Landing Page → Beneficios Postulantes → CTA Crear Perfil → Registro → Confirmación        | US049        | Usuario comprende valor de la plataforma y se registra exitosamente |
+| 2 | Búsqueda de Vacantes         | Login → Dashboard → Buscar Vacantes → Aplicar Filtros → Ver Resultados → Seleccionar      | US004        | Usuario encuentra vacantes relevantes en menos de 2 minutos         |
+| 3 | Detalle de Vacante           | Lista Vacantes → Seleccionar → Ver Detalle Completo (Descripción, Requisitos, Beneficios) | US005        | Usuario accede a toda la información necesaria para decidir         |
+| 4 | Postulación a Vacante        | Detalle Vacante → Postularme → Confirmar → Confirmación → Ver en Mis Postulaciones        | US006        | Usuario completa postulación en 1 clic con confirmación clara       |
+| 5 | Seguimiento de Postulaciones | Dashboard → Mis Postulaciones → Ver Lista con Estados → Detalle → Ver Historial           | US009        | Usuario entiende claramente el estado de cada postulación           |
+| 6 | Actualización de Perfil      | Dashboard → Perfil → Editar → Actualizar Experiencia/Habilidades → Guardar → Confirmar    | US017        | Usuario actualiza perfil sin confusión sobre campos importantes     |
 
 ##### Tareas Específicas para la Sesión
 
 **Contexto:** Eres un profesional buscando nuevas oportunidades laborales en el área de tecnología.
 
-| # | Tarea | User Story | Tiempo Estimado |
-|:-:|:------|:-----------|:----------------|
-| 1 | Explora el Landing Page y describe qué beneficios obtienes como postulante | US047 | 2 min |
-| 2 | Regístrate como postulante en la plataforma | US013 | 3 min |
-| 3 | Busca vacantes relacionadas con tu perfil profesional | US004 | 2 min |
-| 4 | Aplica filtros para encontrar vacantes en tu ubicación preferida | US004 | 2 min |
-| 5 | Revisa el detalle completo de una vacante que te interese | US005 | 2 min |
-| 6 | Postúlate a esa vacante | US006 | 1 min |
-| 7 | Verifica el estado de tu postulación | US009 | 2 min |
-| 8 | Actualiza tu perfil profesional agregando una nueva habilidad | US017 | 3 min |
+| # | Tarea                                                                      | User Story | Tiempo Estimado |
+|:-:|:---------------------------------------------------------------------------|:-----------|:----------------|
+| 1 | Explora el Landing Page y describe qué beneficios obtienes como postulante | US047      | 2 min           |
+| 2 | Regístrate como postulante en la plataforma                                | US013      | 3 min           |
+| 3 | Busca vacantes relacionadas con tu perfil profesional                      | US004      | 2 min           |
+| 4 | Aplica filtros para encontrar vacantes en tu ubicación preferida           | US004      | 2 min           |
+| 5 | Revisa el detalle completo de una vacante que te interese                  | US005      | 2 min           |
+| 6 | Postúlate a esa vacante                                                    | US006      | 1 min           |
+| 7 | Verifica el estado de tu postulación                                       | US009      | 2 min           |
+| 8 | Actualiza tu perfil profesional agregando una nueva habilidad              | US017      | 3 min           |
 
 ##### Preguntas Guía
 
@@ -5558,25 +5734,25 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 ##### Métricas de Éxito
 
-| Métrica | Objetivo |
-|:--------|:---------|
-| Tiempo de completación | Cada tarea en tiempo estimado ±30% |
-| Tasa de éxito | ≥ 85% de tareas completadas sin ayuda |
-| Errores críticos | Máximo 1 error por user flow |
-| Satisfacción | Puntuación promedio ≥ 7/10 |
-| Intención de uso | ≥ 70% con puntuación ≥ 8/10 |
+| Métrica                | Objetivo                              |
+|:-----------------------|:--------------------------------------|
+| Tiempo de completación | Cada tarea en tiempo estimado ±30%    |
+| Tasa de éxito          | ≥ 85% de tareas completadas sin ayuda |
+| Errores críticos       | Máximo 1 error por user flow          |
+| Satisfacción           | Puntuación promedio ≥ 7/10            |
+| Intención de uso       | ≥ 70% con puntuación ≥ 8/10           |
 
 ---
 
 #### Estructura General de la Sesión de Validación
 
-| Fase | Duración | Actividades |
-|:-----|:--------:|:-----------|
-| **1. Bienvenida e Introducción** | 5 min | Presentación del equipo, objetivo, consentimiento informado, aclaraciones |
-| **2. Preguntas de Contexto** | 5 min | Datos demográficos, experiencia previa, expectativas |
-| **3. Validación Landing Page** | 10 min | Navegación libre, primeras impresiones, preguntas guiadas |
-| **4. Validación Aplicación** | 25-30 min | Ejecución de tareas, "Think Aloud Protocol", registro de observaciones |
-| **5. Cierre y Feedback** | 5-10 min | Preguntas post-interacción, sugerencias, agradecimiento |
+| Fase                             | Duración  | Actividades                                                               |
+|:---------------------------------|:---------:|:--------------------------------------------------------------------------|
+| **1. Bienvenida e Introducción** |   5 min   | Presentación del equipo, objetivo, consentimiento informado, aclaraciones |
+| **2. Preguntas de Contexto**     |   5 min   | Datos demográficos, experiencia previa, expectativas                      |
+| **3. Validación Landing Page**   |  10 min   | Navegación libre, primeras impresiones, preguntas guiadas                 |
+| **4. Validación Aplicación**     | 25-30 min | Ejecución de tareas, "Think Aloud Protocol", registro de observaciones    |
+| **5. Cierre y Feedback**         | 5-10 min  | Preguntas post-interacción, sugerencias, agradecimiento                   |
 
 **Duración Total:** 45-60 minutos por entrevistado
 
@@ -5608,14 +5784,14 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 **Instrucciones para el Entrevistador**
 
-| # | Instrucción |
-|:-:|:-----------|
-| 1 | Mantener neutralidad: No influenciar las respuestas del usuario |
-| 2 | Observar sin interrumpir: Dejar que el usuario explore libremente |
-| 3 | Usar "Think Aloud Protocol": Pedir verbalización de pensamientos |
-| 4 | Registrar todo: Anotar comentarios, gestos, tiempos de hesitación |
+| # | Instrucción                                                          |
+|:-:|:---------------------------------------------------------------------|
+| 1 | Mantener neutralidad: No influenciar las respuestas del usuario      |
+| 2 | Observar sin interrumpir: Dejar que el usuario explore libremente    |
+| 3 | Usar "Think Aloud Protocol": Pedir verbalización de pensamientos     |
+| 4 | Registrar todo: Anotar comentarios, gestos, tiempos de hesitación    |
 | 5 | No ayudar inmediatamente: Esperar 10-15 segundos antes de intervenir |
-| 6 | Hacer preguntas abiertas: "¿Qué piensas?" vs "¿Te gusta?" |
+| 6 | Hacer preguntas abiertas: "¿Qué piensas?" vs "¿Te gusta?"            |
 
 **Frases Útiles Durante la Sesión**
 - "Ve pensando en voz alta mientras realizas la tarea"
@@ -5653,16 +5829,16 @@ El presente diseño de entrevistas tiene como objetivo validar la propuesta de v
 
 ##### **Entrevista 1**
 
-| Datos del Entrevistado | Información |
-|:----------------------|:-----------|
-| **Nombres** | Ayling |
-| **Apellidos** | Rocha Bobadilla |
-| **Edad** | 32 años |
-| **Distrito** | San Isidro, Lima |
-| **Cargo Actual** | Encargada de Recursos Humanos |
-| **Empresa** | AFE SERVICE SAC |
-| **Timing** | 00:00 - 06:45 |
-| **Duración** | 6 minutos 45 segundos |
+| Datos del Entrevistado | Información                   |
+|:-----------------------|:------------------------------|
+| **Nombres**            | Ayling                        |
+| **Apellidos**          | Rocha Bobadilla               |
+| **Edad**               | 32 años                       |
+| **Distrito**           | San Isidro, Lima              |
+| **Cargo Actual**       | Encargada de Recursos Humanos |
+| **Empresa**            | AFE SERVICE SAC               |
+| **Timing**             | 00:00 - 06:45                 |
+| **Duración**           | 6 minutos 45 segundos         |
 
 **Resumen de la Entrevista:**
 
@@ -5676,16 +5852,16 @@ Mencionó que el formulario para crear vacantes se ve simple y que los filtros p
 
 ##### **Entrevista 2**
 
-| Datos del Entrevistado | Información |
-|:----------------------|:-----------|
-| **Nombres** | Silvana |
-| **Apellidos** | Gramegna Lerzundi |
-| **Edad** | 28 años |
-| **Distrito** | Miraflores, Lima |
-| **Cargo Actual** | Analista de Reclutamiento y Selección |
-| **Empresa** | NOTA & PRENSA SAC |
-| **Timing** | 00:00 - 05:30 |
-| **Duración** | 5 minutos 30 segundos |
+| Datos del Entrevistado | Información                           |
+|:-----------------------|:--------------------------------------|
+| **Nombres**            | Silvana                               |
+| **Apellidos**          | Gramegna Lerzundi                     |
+| **Edad**               | 28 años                               |
+| **Distrito**           | Miraflores, Lima                      |
+| **Cargo Actual**       | Analista de Reclutamiento y Selección |
+| **Empresa**            | NOTA & PRENSA SAC                     |
+| **Timing**             | 00:00 - 05:30                         |
+| **Duración**           | 5 minutos 30 segundos                 |
 
 **Resumen de la Entrevista:**
 
@@ -5699,16 +5875,16 @@ Le gustó cómo se ve la lista de postulaciones y que tenga filtros. Dijo que el
 
 ##### **Entrevista 3**
 
-| Datos del Entrevistado | Información |
-|:----------------------|:-----------|
-| **Nombres** | Roberto |
-| **Apellidos** | Sagardia Mejia |
-| **Edad** | 35 años |
-| **Distrito** | Surco, Lima |
-| **Cargo Actual** | Analista de Reclutamiento y Selección |
-| **Empresa** | FUTURA GROUP SAC |
-| **Timing** | 00:00 - 07:15 |
-| **Duración** | 7 minutos 15 segundos |
+| Datos del Entrevistado | Información                           |
+|:-----------------------|:--------------------------------------|
+| **Nombres**            | Roberto                               |
+| **Apellidos**          | Sagardia Mejia                        |
+| **Edad**               | 35 años                               |
+| **Distrito**           | Surco, Lima                           |
+| **Cargo Actual**       | Analista de Reclutamiento y Selección |
+| **Empresa**            | FUTURA GROUP SAC                      |
+| **Timing**             | 00:00 - 07:15                         |
+| **Duración**           | 7 minutos 15 segundos                 |
 
 **Resumen de la Entrevista:**
 
@@ -5726,16 +5902,16 @@ Al revisar los mockups comentó que todo se ve bien organizado. Mencionó que se
 
 ##### **Entrevista 1**
 
-| Datos del Entrevistado | Información |
-|:----------------------|:-----------|
-| **Nombres** | Darikson |
-| **Apellidos** | Brito Enrique |
-| **Edad** | 29 años |
-| **Distrito** | Los Olivos, Lima |
-| **Ocupación Actual** | Analista TI |
-| **Empresa Actual** | AFE SERVICE SAC |
-| **Timing** | 00:00 - 06:20 |
-| **Duración** | 6 minutos 20 segundos |
+| Datos del Entrevistado | Información           |
+|:-----------------------|:----------------------|
+| **Nombres**            | Darikson              |
+| **Apellidos**          | Brito Enrique         |
+| **Edad**               | 29 años               |
+| **Distrito**           | Los Olivos, Lima      |
+| **Ocupación Actual**   | Analista TI           |
+| **Empresa Actual**     | AFE SERVICE SAC       |
+| **Timing**             | 00:00 - 06:20         |
+| **Duración**           | 6 minutos 20 segundos |
 
 **Resumen de la Entrevista:**
 
@@ -5749,16 +5925,16 @@ Comentó que los filtros están bien pero que los íconos son un poco pequeños.
 
 ##### **Entrevista 2**
 
-| Datos del Entrevistado | Información |
-|:----------------------|:-----------|
-| **Nombres** | Delia |
-| **Apellidos** | Duran Jimenez |
-| **Edad** | 42 años |
-| **Distrito** | San Juan de Lurigancho, Lima |
-| **Ocupación Actual** | Administrador |
-| **Empresa Actual** | DR IMPOR SAC |
-| **Timing** | 00:00 - 07:00 |
-| **Duración** | 7 minutos |
+| Datos del Entrevistado | Información                  |
+|:-----------------------|:-----------------------------|
+| **Nombres**            | Delia                        |
+| **Apellidos**          | Duran Jimenez                |
+| **Edad**               | 42 años                      |
+| **Distrito**           | San Juan de Lurigancho, Lima |
+| **Ocupación Actual**   | Administrador                |
+| **Empresa Actual**     | DR IMPOR SAC                 |
+| **Timing**             | 00:00 - 07:00                |
+| **Duración**           | 7 minutos                    |
 
 **Resumen de la Entrevista:**
 
@@ -5772,16 +5948,16 @@ Le gustó que muestre toda la información de la vacante (salario, beneficios). 
 
 ##### **Entrevista 3**
 
-| Datos del Entrevistado | Información |
-|:----------------------|:-----------|
-| **Nombres** | Victor |
-| **Apellidos** | Calero Ruiz |
-| **Edad** | 26 años |
-| **Distrito** | Villa El Salvador, Lima |
-| **Ocupación Actual** | Administrador |
-| **Empresa Actual** | CONSULDIIN PERU E.I.R.L. |
-| **Timing** | 00:00 - 05:50 |
-| **Duración** | 5 minutos 50 segundos |
+| Datos del Entrevistado | Información              |
+|:-----------------------|:-------------------------|
+| **Nombres**            | Victor                   |
+| **Apellidos**          | Calero Ruiz              |
+| **Edad**               | 26 años                  |
+| **Distrito**           | Villa El Salvador, Lima  |
+| **Ocupación Actual**   | Administrador            |
+| **Empresa Actual**     | CONSULDIIN PERU E.I.R.L. |
+| **Timing**             | 00:00 - 05:50            |
+| **Duración**           | 5 minutos 50 segundos    |
 
 **Resumen de la Entrevista:**
 
@@ -5812,11 +5988,11 @@ Plataforma de Reclutamiento - Landing Page (Producción) y Mockups de Aplicació
 
 #### **TABLA RESUMEN:**
 
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-|:--|:---------|:-------------------:|:--------------------------------|
-| 1 | Botón "Nueva Vacante" poco visible | 2 | Usability: Visibilidad y reconocimiento |
-| 2 | Estados de postulación sin explicación clara | 2 | Usability: Lenguaje claro y comprensible |
-| 3 | Íconos de filtros muy pequeños | 2 | Inclusive Design: Accesibilidad visual |
+| # | Problema                                     | Escala de severidad | Heurística/Principio violada(o)          |
+|:--|:---------------------------------------------|:-------------------:|:-----------------------------------------|
+| 1 | Botón "Nueva Vacante" poco visible           |          2          | Usability: Visibilidad y reconocimiento  |
+| 2 | Estados de postulación sin explicación clara |          2          | Usability: Lenguaje claro y comprensible |
+| 3 | Íconos de filtros muy pequeños               |          2          | Inclusive Design: Accesibilidad visual   |
 
 ---
 
