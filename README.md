@@ -5611,15 +5611,8 @@ Se realizaron los avances con los commits de la siguiente forma.
 
 |        Repository        | Branch  |                Commit Id                 |                        Commit Message                        | Committed on (Date) |
 |:------------------------:|:-------:|:----------------------------------------:|:------------------------------------------------------------:|:-------------------:|
-| Infrome-de-trabajo-Final | develop | 1e1d1d6cd5f235553682afcc2c531a393b3380cf |                 update: changed presentation                 |     29/10/2025      |
-| Infrome-de-trabajo-Final | develop | be3a8bb4d170abcf136d78cae689e1446f12c099 |                 update: updated presentation                 |     07/10/2025      |
-| Infrome-de-trabajo-Final | develop | 058c3d5eb997e0ea1cb614096a76471a545a4abf |                 update: updated presentation                 |     07/10/2025      |
-| Infrome-de-trabajo-Final | develop | 0d16ba6933063f3ae2057e5fdd378079c4fc72c8 | docs: added sprint 2 |     12/11/2025      |
-| Infrome-de-trabajo-Final | develop | 7ea371f944002b03aede8c44eb54108b48c02261 |  feat(chapter-02): update order of user stories, technical stories and spike stories in product backlog.   |     13/11/2025      |
-| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 |  fix(chapter-02): fixed titles in product backlog.   |     13/11/2025      |
-| Infrome-de-trabajo-Final | develop | 5da1ef33958e4d08c3dd71aa9dfe5acf72fbf1df |  feat(chapter-02): update user stories, spike stories and technical stories.   |     13/11/2025      |
-| Infrome-de-trabajo-Final | develop | cc9aef0d6bc6e29a122578c796590ec545e93092 |  fix(chapter-02): fix tables.   |     13/11/2025      |
-| Infrome-de-trabajo-Final | develop | 7f8e7d8b231f25c511e7219e71616b53209ac26c |  arrangement of user User Flow Diagrams   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 5dd838cb2fcea21be248b1bf269db73956799eab |                 added: sprint 3 product backlog                 |     02/12/2025      |
+| Infrome-de-trabajo-Final | develop | 9b57efde0765451c5fb462964b339aa4050ad858 |                 update: changed sum of Story Points                 |     02/12/2025      |
 
 #### **4.2.3.4. Testing Suite Evidence for Sprint Review**
 
@@ -5653,9 +5646,11 @@ Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger
 
 #### **4.2.3.7. Software Deployment Evidence for Sprint Review**
 
-Para el desarrollo de este sprint, se utilizaron herramientas para el desarrollo y despliegue del Backend.
+Para el desarrollo de este Sprint 3, se avanzó tanto en la construcción de la aplicación móvil como en su integración con el Backend.
 
-Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services porque nos brinda muchas ventajas como la escalabilidad automática que adapta el consumo de recursos en base a la carga, tener el backend desplegado todo el tiempo lo que nos permite interactuar con ello cuando sea requerido y tener una integracion con Github lo que facilita su actualizacion constante en base a las mejoras futuras que se le puede realizar.
+En la parte Back-End, se utilizó Azure para el despliegue del servicio web, aprovechando ventajas como la escalabilidad automática, que ajusta los recursos según la carga; la disponibilidad continua del servicio, lo que facilita la interacción desde la aplicación en cualquier momento; y la integración con GitHub, que permite realizar actualizaciones rápidas y mantener un ciclo de mejora constante.
+
+En paralelo, durante este sprint se desarrolló la aplicación móvil utilizando Flutter, implementando la lógica de comunicación con el backend previamente desplegado. Se configuraron las llamadas HTTP, el manejo de respuestas y la integración de las diferentes funcionalidades que dependen de los servicios del servidor, asegurando una conexión estable y un flujo adecuado entre la aplicación y el backend.
 
 ![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
 
