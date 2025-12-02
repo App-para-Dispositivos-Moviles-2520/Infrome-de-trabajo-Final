@@ -251,6 +251,15 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
       - [**4.2.2.6. Services Documentation Evidence for Sprint Review**](#4226-services-documentation-evidence-for-sprint-review)
       - [**4.2.2.7. Software Deployment Evidence for Sprint Review**](#4227-software-deployment-evidence-for-sprint-review)
       - [**4.2.2.8. Team Collaboration Insights during Sprint**](#4228-team-collaboration-insights-during-sprint)
+    - [**4.2.3. Sprint 3**](#423-sprint-3)
+      - [**4.2.3.1. Sprint Planning 3**](#4231-sprint-planning-3)
+      - [**4.2.3.2. Sprint Backlog 3**](#4232-sprint-backlog-3)
+      - [**4.2.3.3. Development Evidence for Sprint Review**](#4233-development-evidence-for-sprint-review)
+      - [**4.2.3.4. Testing Suite Evidence for Sprint Review**](#4234-testing-suite-evidence-for-sprint-review)
+      - [**4.2.3.5. Execution Evidence for Sprint Review**](#4235-execution-evidence-for-sprint-review)
+      - [**4.2.3.6. Services Documentation Evidence for Sprint Review**](#4236-services-documentation-evidence-for-sprint-review)
+      - [**4.2.3.7. Software Deployment Evidence for Sprint Review**](#4237-software-deployment-evidence-for-sprint-review)
+      - [**4.2.3.8. Team Collaboration Insights during Sprint**](#4238-team-collaboration-insights-during-sprint)
   - [**4.3. Validation Interviews**](#43-validation-interviews)
     - [**4.3.1. Diseño de Entrevistas**](#431-diseño-de-entrevistas)
       - [Introducción](#introducción)
@@ -5536,6 +5545,121 @@ Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services p
 ![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
 
 #### **4.2.2.8. Team Collaboration Insights during Sprint**
+
+![Commit_Sprint1.PNG](img/Commit_Sprint1.PNG)
+
+![Commit2_Sprint1.PNG](img/Commit2_Sprint1.PNG)
+
+![Commit3_Sprint1.PNG](img/Commit3_Sprint1.PNG)
+
+### **4.2.3. Sprint 3**
+#### **4.2.3.1. Sprint Planning 3**
+
+| **Sprint #**                        | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                            | 03/11/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                            | 7:00 pm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Location**                        | Virtual (Discord)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared by**                     | Peralta Chipa Ronald Joel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)** | Peralta Chipa Ronald Joel <br> Cardenas Minaya Ricardo Fernando <br> Aru Acevedo Yair Christofer <br> Sanchez Cruz Raul Roberto <br> Tello Murga Javier Oswaldo                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 2 Review Summary**         | Se desarrolló la versión inicial de la aplicación en Flutter y se presentó el funcionamiento de la aplicación Android conectada al backend.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint 2 Retrospective Summary**  | Se identificaron mejoras en la definición de criterios de aceptación, así como en la organización del Product Backlog y la claridad en la presentación del avance durante las reuniones.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 3 Goal**                   | Nuestro enfoque está en completar el desarrollo principal de la aplicación Flutter e integrar su comunicación con el backend. Creemos que este esfuerzo consolidará la base funcional del sistema de reclutamiento. Esto se confirmará cuando la aplicación Flutter intercambie datos correctamente con el backend y las funcionalidades clave estén operativas dentro del flujo general del sistema. |
+| **Sprint 3 Velocity**               | 53 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sum of Story Points**             | 78                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+#### **4.2.3.2. Sprint Backlog 3**
+
+| Sprint #       | Sprint 3                                                    |                      |                                                 |                                                                                 |                    |             |                                                |
+|----------------|-------------------------------------------------------------|----------------------|-------------------------------------------------|---------------------------------------------------------------------------------|--------------------|-------------|------------------------------------------------|
+| **User Story** |                                                             | **Work Item / Task** |                                                 |                                                                                 |                    |             |                                                |
+| ID             | Title                                                       | ID                   | Title                                           | Description                                                                     | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US021 | Sugerir candidatos | W101 | Implementar sugerencia de candidatos | Conectar Flutter con el endpoint para obtener candidatos sugeridos. | 3hrs | Raúl | To-Do |
+| US022 | Recomendar vacantes | W102 | Integrar recomendaciones de vacantes | Implementar la llamada al backend para mostrar vacantes recomendadas. | 3hrs | Raúl | To-Do |
+| US023 | Puntuar CVs automáticamente | W103 | Implementar sistema de puntuación de CVs | Conectar con API de puntuación automática y mostrar resultados en Flutter. | 3hrs | Yair | To-Do |
+| US024 | Recibir notificaciones de vacantes | W104 | Integrar notificaciones de vacantes | Configurar recepción de notificaciones desde backend en Flutter. | 2hrs | Ricardo | In-Process |
+| US025 | Recibir notificaciones de postulaciones | W105 | Integrar notificaciones de postulaciones | Habilitar push notifications para cambios en estado de postulaciones. | 2hrs | Ricardo | To-Do |
+| US037 | Activar autenticación de dos factores (2FA)                 | W116 | Implementar 2FA                                | Añadir flujo 2FA en el login y en la gestión de cuenta, integrando backend de verificación.   | 3hrs               | Ronald      | To-Do                                          |
+| US038 | Asignar rol de reclutador                                   | W117 | Implementar asignación de roles                | Interfaz y lógica para asignar/editar rol de reclutador en perfil.     | 2hrs               | Javier      | Done                                          |
+| US039 | Asignar rol de postulante                                   | W118 | Implementar asignación de rol postulante       | Interfaz y lógica para asignar/editar rol de postulante en perfil.                            | 2hrs               | Javier      | Done                                          |
+| US040 | Iniciar sesión con redes sociales                           | W119 | Integrar login social                          | Conectar OAuth / SDKs de redes (Google / Facebook) y testear flujo en Android/Flutter.        | 3hrs               | Ricardo     | To-Do                                          |
+| US041 | Compartir vacante en redes sociales                         | W120 | Implementar compartir vacantes                 | Botón y flujo de compartir vacante con intent de sistema / redes sociales.                    | 2hrs               | Raúl        | To-Do                                          |
+| US042 | Compartir perfil en redes sociales                          | W121 | Implementar compartir perfil                   | Añadir opción en perfil para compartir link/detalle en redes.                                 | 2hrs               | Yair        | To-Do                                          |
+| US043 | Comentar sobre vacantes                                     | W122 | Habilitar comentarios en vacantes              | UI para agregar/mostrar comentarios en la vista de vacante y llamadas a la API.               | 2hrs               | Raúl        | Done                                          |
+| US044 | Comentar sobre el proceso de selección                      | W123 | Habilitar comentarios en procesos de selección | Sección para que postulantes/reclutadores añadan comentarios en cada etapa.                   | 2hrs               | Raúl        | Done                                          |
+| TS006 | API REST para búsqueda y filtros de vacantes | W106 | Validar API de filtros | Probar desde Flutter la búsqueda filtrada contra el backend. | 3hrs | Ronald | To-Review |
+| TS008 | API REST para procesamiento de pagos | W107 | Probar endpoints de pagos | Verificar respuesta del backend para procesamiento y validación de pagos. | 4hrs | Ronald | To-Do |
+| TS009 | API REST para reportes y analytics | W108 | Validar API de analytics | Conectar endpoints de reportes a panel de administración (testing básico). | 3hrs | Ronald | Done |
+| TS010 | API REST para carga de archivos | W109 | Integrar carga de CVs y documentos | Implementar envío de archivos desde Flutter hacia backend. | 3hrs | Javier | Done |
+| SP003 | Sincronizar Datos Offline-Online | W110 | Implementar almacenamiento local | Crear lógica de almacenamiento y sincronización en Flutter. | 4hrs | Yair | Done |
+| SP004 | Crear Sistema de Notificaciones Push en Tiempo Real | W111 | Integración Firebase/Messaging | Configurar servicio push para Android y Flutter. | 3hrs | Ricardo | To-Do |
+| SP005 | Implementar Pagos Integrados con Pasarela                   | W113 | Integrar pasarela de pagos                     | Conectar el backend con la pasarela de pago y habilitar flujo de pagos desde Flutter.         | 3hrs               | Javier      | To-Do                                          |
+| SP006 | Optimizar el Rendimiento y Carga Inicial de la App          | W114 | Optimizar arranque y carga de recursos         | Mejoras en lazy-loading, reducción de tamaño de bundle y optimización de consultas iniciales. | 8hrs               | Ricardo     | Done                                     |
+| SP007 | Crear Sistema de Soporte y Gestión de Tickets Centralizados | W115 | Implementar módulo de tickets                  | Diseñar API y pantalla para creación, seguimiento y respuesta de tickets.  | 3hrs               | Raúl        | To-Do                                          |
+
+- Evidencia del Product Backlog - Sprint 3 en Trello:
+<img src="img/sprint3-backlog.png" alt="productbacklog-Sprint3" width= 1000/>
+
+- Link del Product Backlog - Sprint 3 en Trello: [https://trello.com/b/xPf9Cumk/product-backlog-smarthire-sprint-3](https://trello.com/b/xPf9Cumk/product-backlog-smarthire-sprint-3)
+
+#### **4.2.3.3. Development Evidence for Sprint Review**
+Se realizaron los avances con los commits de la siguiente forma.
+
+- Repositorio Informe:
+
+|        Repository        | Branch  |                Commit Id                 |                        Commit Message                        | Committed on (Date) |
+|:------------------------:|:-------:|:----------------------------------------:|:------------------------------------------------------------:|:-------------------:|
+| Infrome-de-trabajo-Final | develop | 1e1d1d6cd5f235553682afcc2c531a393b3380cf |                 update: changed presentation                 |     29/10/2025      |
+| Infrome-de-trabajo-Final | develop | be3a8bb4d170abcf136d78cae689e1446f12c099 |                 update: updated presentation                 |     07/10/2025      |
+| Infrome-de-trabajo-Final | develop | 058c3d5eb997e0ea1cb614096a76471a545a4abf |                 update: updated presentation                 |     07/10/2025      |
+| Infrome-de-trabajo-Final | develop | 0d16ba6933063f3ae2057e5fdd378079c4fc72c8 | docs: added sprint 2 |     12/11/2025      |
+| Infrome-de-trabajo-Final | develop | 7ea371f944002b03aede8c44eb54108b48c02261 |  feat(chapter-02): update order of user stories, technical stories and spike stories in product backlog.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 1adca2038e9f915a2b84f63612d37910b5a989c6 |  fix(chapter-02): fixed titles in product backlog.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 5da1ef33958e4d08c3dd71aa9dfe5acf72fbf1df |  feat(chapter-02): update user stories, spike stories and technical stories.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | cc9aef0d6bc6e29a122578c796590ec545e93092 |  fix(chapter-02): fix tables.   |     13/11/2025      |
+| Infrome-de-trabajo-Final | develop | 7f8e7d8b231f25c511e7219e71616b53209ac26c |  arrangement of user User Flow Diagrams   |     13/11/2025      |
+
+#### **4.2.3.4. Testing Suite Evidence for Sprint Review**
+
+Codigo Flutter:
+
+![Code_Flutter_1.png](img/CodigoFlutter.png)
+
+![Code_Flutter_2.png](img/CodigoFlutter2.png)
+
+#### **4.2.3.5. Execution Evidence for Sprint Review**
+
+Aplicacion Flutter:
+
+![Exe_Flutter_1.png](img/FlutterView1.png)
+
+![Exe_Flutter_2.png](img/FlutterView2.png)
+
+![Exe_Flutter_3.png](img/FlutterView3.png)
+
+![Exe_Flutter_4.png](img/FlutterView4.png)
+
+#### **4.2.3.6. Services Documentation Evidence for Sprint Review**
+
+Backend: https://jobsy-b8drhwgaahcacwfc.brazilsouth-01.azurewebsites.net/swagger/index.html
+
+![Exe_Backend_1.PNG](img/Exe_Backend_1.PNG)
+
+![Exe_Backend_2.PNG](img/Exe_Backend_2.PNG)
+
+![Exe_Backend_3.PNG](img/Exe_Backend_3.PNG)
+
+#### **4.2.3.7. Software Deployment Evidence for Sprint Review**
+
+Para el desarrollo de este sprint, se utilizaron herramientas para el desarrollo y despliegue del Backend.
+
+Back-End: Por otro lado, se utilizó Azure para el despliegue del Web Services porque nos brinda muchas ventajas como la escalabilidad automática que adapta el consumo de recursos en base a la carga, tener el backend desplegado todo el tiempo lo que nos permite interactuar con ello cuando sea requerido y tener una integracion con Github lo que facilita su actualizacion constante en base a las mejoras futuras que se le puede realizar.
+
+![Despliegue_Back_Azure.PNG](img/Despliegue_Back_Azure.PNG)
+
+#### **4.2.3.8. Team Collaboration Insights during Sprint**
 
 ![Commit_Sprint1.PNG](img/Commit_Sprint1.PNG)
 
